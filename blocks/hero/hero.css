@@ -1,21 +1,52 @@
+/* =========================================
+   AstraZeneca Hero — CSS from Figma
+   Source: One AZ 3.1 – Market Master (3970:58655)
+   Hero section: w-[1440px] h-[480px]
+   Content: px-[20px] py-[40px] max-w-[1220px]
+   ========================================= */
+
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
 }
 
+/* Figma: Hero container w-[1440px] h-[480px] */
 .hero {
   position: relative;
-  padding: 40px 24px;
+  padding: 40px 20px; /* Figma: px-[20px] py-[40px] */
   min-height: 300px;
+  display: flex;
+  align-items: flex-end;
 }
 
+@media (width >= 900px) {
+  .hero {
+    min-height: 480px; /* Figma: h-[480px] */
+    padding: 40px 20px; /* Figma: px-[20px] py-[40px] */
+  }
+}
+
+/* Figma: Title text
+   font-['Lexia'] font-normal text-[56px] leading-[60px] text-left text-[#ffffff] */
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  max-width: 1220px; /* Figma: max-w-[1220px] */
+  margin: 0 auto;
+  width: 100%;
+  font-family: Lexia, sans-serif; /* Figma: font-['Lexia'] */
+  font-weight: 400; /* Figma: font-normal */
+  font-size: 32px;
+  line-height: 38px;
+  color: #fff; /* Figma: text-[#ffffff] */
 }
 
+@media (width >= 900px) {
+  .hero h1 {
+    font-size: 56px; /* Figma: text-[56px] */
+    line-height: 60px; /* Figma: leading-[60px] */
+  }
+}
+
+/* Background image */
 .hero picture {
   position: absolute;
   z-index: -1;
@@ -28,10 +59,4 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
-  }
 }

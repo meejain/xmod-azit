@@ -1,0 +1,82 @@
+/* =========================================
+   AstraZeneca Icon List — CSS from Live Site
+   Source: https://www.astrazeneca.it/ (Aree terapeutiche section)
+   NOT from Figma — per requirements.
+   All values extracted from computed styles.
+   ========================================= */
+
+.icon-list-container .icon-list-wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+/* Live site: wrapper is flex row, justify-content: center, padding: 0 20px */
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (width >= 900px) {
+  .icon-list {
+    flex-direction: row;
+    justify-content: center; /* Live site: justify-content: center */
+    gap: 0;
+  }
+}
+
+/* Live site: each link is block, width ~400px, text-align center */
+.icon-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+@media (width >= 900px) {
+  .icon-list-item {
+    width: 400px; /* Live site: width 400px */
+  }
+}
+
+.icon-list-item:hover {
+  transform: scale(1.03);
+}
+
+/* Live site: icon image 100x100px */
+.icon-list-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.icon-list-icon img {
+  width: 100px; /* Live site: 100px */
+  height: 100px; /* Live site: 100px */
+  display: block;
+}
+
+/* Live site: label text
+   font-family: lexia, Times, "Times New Roman", serif
+   font-size: 14px, font-weight: 400, line-height: 20px
+   color: rgb(60, 66, 66) = #3c4242 */
+.icon-list-label {
+  font-family: lexia, Times, 'Times New Roman', serif; /* Live site: lexia */
+  font-weight: 400; /* Live site: 400 */
+  font-size: 14px; /* Live site: 14px */
+  line-height: 20px; /* Live site: 20px */
+  color: #3c4242; /* Live site: rgb(60, 66, 66) */
+}
+
+.icon-list-label a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon-list-label p {
+  margin: 0;
+}

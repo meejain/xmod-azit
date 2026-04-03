@@ -1,52 +1,144 @@
-/* header and nav layout */
+/* =========================================
+   AstraZeneca Header — Live Site Parity
+   Source: https://www.astrazeneca.it/
+
+   Live site layout:
+   Row 1 (44px): Logo LEFT | Utility links + 🔍 Search RIGHT
+   Row 2 (46px): Nav items (pushed right, not touching logo)
+                 border-top/bottom: 1px solid #ebefee
+   ========================================= */
+
+/* --- Design tokens --- */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  --az-text: #363b3b;
+  --az-accent: #d0006f;
+  --az-close-color: #4f5757;
+  --az-border: #ebefee;
+  --az-bg: #fff;
+  --az-font-lexia: lexia, lexia-fallback, times, 'Times New Roman', serif;
+  --az-font-inter: inter, inter-fallback, arial, sans-serif;
+  --az-max-width: 1180px;
+
+  background-color: var(--az-bg);
   width: 100%;
-  z-index: 2;
+  z-index: 100;
   position: fixed;
-}
-
-header nav {
-  box-sizing: border-box;
-  display: grid;
-  grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / auto 1fr auto;
-  align-items: center;
-  gap: 0 24px;
-  margin: auto;
-  max-width: 1248px;
-  height: var(--nav-height);
-  padding: 0 24px;
-  font-family: var(--body-font-family);
-}
-
-header nav[aria-expanded='true'] {
-  grid-template:
-    'hamburger brand' var(--nav-height)
-    'sections sections' 1fr
-    'tools tools' var(--nav-height) / auto 1fr;
-  overflow-y: auto;
-  min-height: 100dvh;
 }
 
 @media (width >= 900px) {
   header .nav-wrapper {
     position: relative;
   }
+}
 
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 0 32px;
-    max-width: 1264px;
-    padding: 0 32px;
-  }
+/* ================================
+   SEARCH OVERLAY — covers Row 1
+   Live site: position: absolute; top: -1px; height: 45px; z-index: 800
+   Layout: 🔍(pink) | input | "Cerca"(pink) | ✕
+   ================================ */
+header .nav-search-overlay {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 44px; /* Live site: covers Row 1 */
+  background-color: var(--az-bg);
+  z-index: 800;
+  display: flex;
+  align-items: center;
+  transition: right 0.3s ease-out;
+}
 
-  header nav[aria-expanded='true'] {
-    min-height: 0;
-    overflow: visible;
-  }
+header .nav-search-overlay.nav-search-open {
+  right: 0;
+}
+
+header .nav-search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  padding: 0;
+}
+
+/* 🔍 pink icon on left — Live site: 44x44, color: #d0006f */
+header .nav-search-icon-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--az-accent);
+  flex-shrink: 0;
+}
+
+header .nav-search-icon-left svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Input — Live site: lexia 14px, no border, height: 44px */
+header .nav-search-input {
+  flex: 1;
+  border: none;
+  padding: 12px 17px;
+  font-family: var(--az-font-lexia);
+  font-size: 14px;
+  color: var(--az-text);
+  background: var(--az-bg);
+  outline: none;
+  height: 44px;
+}
+
+/* "Cerca" button — Live site: color: #d0006f, lexia 14px */
+header .nav-search-submit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 16px;
+  font-family: var(--az-font-lexia);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--az-accent);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 44px;
+}
+
+/* ✕ close — Live site: 44x44, color: #4f5757 */
+header .nav-search-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--az-close-color);
+  flex-shrink: 0;
+}
+
+header .nav-search-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* --- Base nav (mobile grid) --- */
+header nav {
+  box-sizing: border-box;
+  display: grid;
+  grid-template:
+    'brand . search-toggle hamburger' 60px
+    'mobile-search mobile-search mobile-search mobile-search' auto
+    'sections sections sections sections' 1fr / 1fr auto auto auto;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--az-max-width);
+  font-family: var(--az-font-lexia);
+  color: var(--az-text);
 }
 
 header nav p {
@@ -55,15 +147,53 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: var(--az-text);
+  text-decoration: none;
 }
 
-/* hamburger */
+header nav[aria-expanded='true'] {
+  grid-template:
+    'brand . search-toggle hamburger' 60px
+    'mobile-search mobile-search mobile-search mobile-search' auto
+    'sections sections sections sections' 1fr
+    'tools tools tools tools' auto / 1fr auto auto auto;
+  overflow-y: auto;
+  min-height: 100dvh;
+}
+
+/* --- Desktop: 2-row grid (Figma layout) ---
+   Row 1: tools only (utility links + search, thin ~28px)
+   Row 2: brand LEFT | sections CENTER | (57px from Figma)
+*/
+@media (width >= 900px) {
+  header nav {
+    display: grid;
+    grid-template:
+      'tools tools' auto
+      'brand sections' 57px / auto 1fr;
+    gap: 0;
+    max-width: var(--az-max-width);
+    padding: 0;
+  }
+
+  header nav[aria-expanded='true'] {
+    grid-template:
+      'tools tools' auto
+      'brand sections' 57px / auto 1fr;
+    min-height: 0;
+    overflow: visible;
+  }
+}
+
+/* ================================
+   HAMBURGER — mobile only
+   ================================ */
 header nav .nav-hamburger {
   grid-area: hamburger;
   height: 22px;
   display: flex;
   align-items: center;
+  padding: 0 16px;
 }
 
 header nav .nav-hamburger button {
@@ -72,11 +202,12 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--background-color);
+  background-color: transparent;
   color: inherit;
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
+  cursor: pointer;
 }
 
 header nav .nav-hamburger-icon,
@@ -139,21 +270,138 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
   }
 }
 
-/* brand */
-header .nav-brand {
+/* ================================
+   ROW 2 — BRAND (Logo) left side of main header row
+   Figma: w-[122px] h-[29px], inside Main Header h-[57px]
+   ================================ */
+header nav .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
-  font-size: var(--heading-font-size-s);
-  font-weight: 700;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+@media (width >= 900px) {
+  header nav .nav-brand {
+    padding: 0 24px 0 0; /* Gap between logo and nav items */
+  }
 }
 
 header nav .nav-brand img {
-  width: 128px;
-  height: auto;
+  width: 122px;
+  height: 29px;
+  display: block;
 }
 
-/* sections */
+header nav .nav-brand a {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+/* ================================
+   ROW 1 — TOOLS (Utility links + Search icon) right side
+   Live site: right-aligned, Row 1 height 44px
+   ================================ */
+header nav .nav-tools {
+  grid-area: tools;
+  display: none;
+  visibility: hidden;
+}
+
+header nav[aria-expanded='true'] .nav-tools {
+  display: flex;
+  visibility: visible;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+@media (width >= 900px) {
+  header nav .nav-tools {
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  header nav .nav-tools .default-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  header nav[aria-expanded='true'] .nav-tools {
+    flex-direction: row;
+    padding: 0;
+  }
+}
+
+header nav .nav-tools p {
+  font-family: var(--az-font-lexia);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--az-text);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+header nav .nav-tools a {
+  font-family: var(--az-font-lexia);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration: underline;
+  color: var(--az-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (width >= 900px) {
+  header nav .nav-tools p {
+    padding: 0 6px;
+    border-left: 1px solid var(--az-text);
+  }
+
+  header nav .nav-tools p:first-child {
+    border-left: none;
+  }
+
+  header nav .nav-tools p:last-child {
+    border-left: none;
+  }
+}
+
+header nav .nav-tools .icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* Search trigger icon in Row 1 */
+header nav .nav-search-trigger {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+}
+
+header nav .nav-search-trigger .icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* ================================
+   ROW 2 — NAV SECTIONS
+   Live site: height 46px, border-top/bottom 1px solid #ebefee
+   Nav items pushed to the right (flex-end) with spacing
+   ================================ */
 header nav .nav-sections {
   grid-area: sections;
   flex: 1 1 auto;
@@ -167,106 +415,413 @@ header nav[aria-expanded='true'] .nav-sections {
   align-self: start;
 }
 
-header nav .nav-sections ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: var(--body-font-size-s);
-}
-
-header nav .nav-sections ul > li {
-  font-weight: 500;
-}
-
-header nav .nav-sections ul > li > ul {
-  margin-top: 0;
-}
-
-header nav .nav-sections ul > li > ul > li {
-  font-weight: 400;
-}
-
 @media (width >= 900px) {
+  /* Full-width border via pseudo-element */
+  header .nav-wrapper::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 57px; /* Figma: Main Header h-[57px] */
+    border-top: 1px solid var(--az-border);
+    border-bottom: 1px solid var(--az-border);
+    pointer-events: none;
+    z-index: -1;
+  }
+
   header nav .nav-sections {
-    display: block;
+    display: flex;
     visibility: visible;
+    align-items: center;
+    justify-content: center; /* Figma: nav items centered in Row 2 */
     white-space: nowrap;
+    overflow: visible;
   }
 
   header nav[aria-expanded='true'] .nav-sections {
     align-self: unset;
   }
+}
 
-  header nav .nav-sections .nav-drop {
-    position: relative;
-    padding-right: 16px;
-    cursor: pointer;
-  }
+header nav .nav-sections ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 
-  header nav .nav-sections .nav-drop::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 0.5em;
-    right: 2px;
-    transform: rotate(135deg);
-    width: 6px;
-    height: 6px;
-    border: 2px solid currentcolor;
-    border-radius: 0 1px 0 0;
-    border-width: 2px 2px 0 0;
-  }
+header nav .nav-sections .default-content-wrapper > ul {
+  padding: 0;
+}
 
-  header nav .nav-sections .nav-drop[aria-expanded='true']::after {
-    top: unset;
-    bottom: 0.5em;
-    transform: rotate(315deg);
-  }
-
-  header nav .nav-sections ul {
+@media (width >= 900px) {
+  header nav .nav-sections .default-content-wrapper > ul {
     display: flex;
-    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
     margin: 0;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li {
-    flex: 0 1 auto;
-    position: relative;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul {
-    display: none;
-    position: relative;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul {
-    display: block;
-    position: absolute;
-    left: -24px;
-    width: 200px;
-    top: 150%;
-    padding: 16px;
-    background-color: var(--light-color);
-    white-space: initial;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: 16px;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--light-color);
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 8px 0;
   }
 }
 
-/* tools */
-header nav .nav-tools {
-  grid-area: tools;
+/* ================================
+   NAV ITEMS — Live site: lexia 300 14px/20px, letter-spacing 1px
+   Hover: border-bottom 4px solid #d0006f
+   ================================ */
+header nav .nav-sections .default-content-wrapper > ul > li {
+  position: relative;
+  font-family: var(--az-font-lexia);
+  font-weight: 300; /* Live site: 300 */
+  font-size: 14px;
+  line-height: 20px; /* Live site: 20px */
+  color: var(--az-text);
+  border-bottom: 1px solid var(--az-border);
+}
+
+header nav .nav-sections .default-content-wrapper > ul > li > a {
+  display: block;
+  padding: 12px 16px;
+  font-family: var(--az-font-lexia);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px; /* Live site: 1px */
+  color: var(--az-text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (width >= 900px) {
+  header nav .nav-sections .default-content-wrapper > ul > li {
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    height: 57px; /* Figma: h-[57px] */
+    padding: 0;
+  }
+
+  /* Live site: padding: 15px 0 5px, border-bottom: 4px solid transparent */
+  header nav .nav-sections .default-content-wrapper > ul > li > a {
+    padding: 15px 10px 5px; /* Live site + 10px horizontal spacing */
+    border-bottom: 4px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+  }
+
+  /* Hover: pink bottom ribbon */
+  header nav .nav-sections .default-content-wrapper > ul > li > a:hover,
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > a {
+    border-bottom-color: var(--az-accent);
+  }
+}
+
+/* CSS chevron ::after — desktop only */
+@media (width >= 900px) {
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > a::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid var(--az-text);
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > a::after {
+    border-top: none;
+    border-bottom: 5px solid var(--az-text);
+  }
+}
+
+/* Mobile: toggle button */
+header nav .nav-drop-toggle {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  color: var(--az-text);
+}
+
+header nav .nav-drop-toggle svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+header nav .nav-drop[aria-expanded='true'] .nav-drop-toggle svg {
+  transform: rotate(180deg);
+}
+
+/* Desktop: hide JS toggle */
+@media (width >= 900px) {
+  header nav .nav-drop-toggle {
+    display: none;
+  }
+}
+
+/* ================================
+   DROPDOWN MENUS — Live site values
+   ================================ */
+header nav .nav-sections .default-content-wrapper > ul > li > ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > ul {
+  display: block;
+}
+
+@media (width >= 900px) {
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    z-index: 1000;
+    background: transparent;
+    padding: 0;
+  }
+}
+
+/* Secondary links — Live site: lexia 12px/20px 300, 0.5px spacing */
+header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
+  display: block;
+  padding: 8px 30px 8px 10px;
+  font-family: var(--az-font-lexia);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: var(--az-text);
+  text-decoration: none;
+  white-space: nowrap;
+  background: var(--az-bg);
+}
+
+header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover {
+  color: var(--az-accent);
+}
+
+/* ================================
+   MOBILE NAVIGATION — 100% live site parity
+   Extracted from https://www.astrazeneca.it/ mobile view
+   ================================ */
+@media (width < 900px) {
+  /* Header bar: 60px height — Live site: height: 60px */
+  header nav {
+    height: 60px;
+  }
+
+  /* Logo: 108x26px — Live site exact size */
+  header nav .nav-brand img {
+    width: 108px;
+    height: 26px;
+  }
+
+  /* Hamburger button: position right, 60x60px — Live site: width/height 60px */
+  header nav .nav-hamburger {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+  }
+
+  /* Sections panel: white bg — Live site: bg: #fff */
+  header nav[aria-expanded='true'] .nav-sections {
+    background: var(--az-bg);
+  }
+
+  /* Primary nav links — Live site exact values:
+     font-size: 16px; font-weight: 300; padding: 20px 50px 17px 17px
+     border-bottom: 1px solid #ebefee; position: relative */
+  header nav .nav-sections .default-content-wrapper > ul > li {
+    border-bottom: none;
+    position: relative;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li > a {
+    font-size: 16px; /* Live site: 16px */
+    font-weight: 300; /* Live site: 300 */
+    padding: 20px 50px 17px 17px; /* Live site: exact padding */
+    border-bottom: 1px solid var(--az-border); /* Live site: 1px solid #ebefee */
+    display: block;
+    position: relative;
+  }
+
+  /* Sub-items — Live site: font-size: 14px; font-weight: 400
+     padding: 20px 50px 17px 0px; border-bottom: 1px solid #d8dfde */
+  header nav .nav-sections .default-content-wrapper > ul > li > ul {
+    background: var(--az-bg); /* Live site: white, NOT gray */
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
+    font-size: 14px; /* Live site: 14px */
+    font-weight: 400; /* Live site: 400 */
+    padding: 20px 50px 17px 17px; /* Live site padding */
+    border-bottom: 1px solid #d8dfde; /* Live site: 1px solid #d8dfde */
+    background: var(--az-bg);
+    white-space: normal;
+    letter-spacing: normal;
+    position: relative;
+  }
+
+  /* Arrow ▾ on primary items with dropdowns */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > a::after {
+    content: '';
+    position: absolute;
+    right: 22px;
+    top: 24px;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid var(--az-text);
+    border-bottom: 1px solid var(--az-text);
+    transform: rotate(45deg);
+    display: block;
+    margin: 0;
+    border-left: none;
+    border-top: none;
+  }
+
+  /* Sub-item ">" arrow on right — must come before expanded state */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > a::after {
+    content: '';
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid var(--az-text);
+    border-bottom: 1px solid var(--az-text);
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  /* Arrow rotates up when expanded — pink color (highest specificity) */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > a::after {
+    transform: rotate(-135deg);
+    top: 28px;
+    border-bottom: 1px solid var(--az-accent);
+    border-right: 1px solid var(--az-accent);
+  }
+
+  /* Hide SVG toggle button on mobile — arrow is CSS ::after */
+  header nav .nav-drop-toggle {
+    display: none;
+  }
+
+  /* Nav drop item: link takes full width, dropdown below */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop {
+    display: block;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul {
+    width: 100%;
+  }
+
+  /* Tools section at bottom — Live site: 2-column utility links layout */
+  header nav[aria-expanded='true'] .nav-tools {
+    border-top: 1px solid var(--az-border);
+    padding: 0;
+  }
+
+  header nav[aria-expanded='true'] .nav-tools .default-content-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header nav[aria-expanded='true'] .nav-tools p {
+    flex: 1;
+    padding: 17px;
+    border-left: none;
+    border-right: 1px solid var(--az-border);
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  header nav[aria-expanded='true'] .nav-tools p:last-child {
+    border-right: none;
+  }
+
+  /* Search trigger in desktop tools: hide on mobile (using mobile toggle instead) */
+  header nav .nav-search-trigger,
+  header nav[aria-expanded='true'] .nav-search-trigger {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* Mobile search toggle button (🔍 in header bar) — Live site: 60x60px */
+  header nav .nav-mobile-search-toggle {
+    grid-area: search-toggle;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--az-text);
+    padding: 0;
+  }
+
+  /* Mobile search bar — appears below header, above nav items
+     Live site: "Cerca..." input with blue focus border + pink 🔍 */
+  header nav .nav-mobile-search {
+    grid-area: mobile-search;
+    display: none;
+    padding: 8px 12px;
+    background: var(--az-bg);
+    border-bottom: 1px solid var(--az-border);
+  }
+
+  header nav .nav-mobile-search.nav-mobile-search-open {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  header nav .nav-mobile-search-input {
+    flex: 1;
+    border: 2px solid #0070d2; /* Live site: blue focus border */
+    border-radius: 0;
+    padding: 10px 12px;
+    font-family: var(--az-font-lexia);
+    font-size: 14px;
+    color: var(--az-text);
+    background: var(--az-bg);
+    outline: none;
+    height: 44px;
+    box-sizing: border-box;
+  }
+
+  header nav .nav-mobile-search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--az-accent); /* Live site: pink 🔍 */
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+/* Desktop: hide mobile search elements */
+@media (width >= 900px) {
+  header nav .nav-mobile-search-toggle {
+    display: none;
+  }
+
+  header nav .nav-mobile-search {
+    display: none;
+  }
 }
