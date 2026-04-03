@@ -11,17 +11,35 @@
  */
 
 :root {
+  /* AstraZeneca brand colors (from Figma) */
+  --az-text-body: #363b3b;
+  --az-text-interaction: #d0006f;
+  --az-brand-gold: #f0ab00;
+  --az-brand-purple: #830051;
+  --az-bg-supporting-1: #ebefee;
+  --az-bg-supporting-2: #fff;
+  --az-border-color: #d7dbdb;
+
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --background-color: var(--az-bg-supporting-2);
+  --light-color: var(--az-bg-supporting-1);
+  --dark-color: var(--az-text-body);
+  --text-color: var(--az-text-body);
+  --link-color: var(--az-text-interaction);
+  --link-hover-color: var(--az-brand-purple);
+
+  /* AstraZeneca fonts (from Figma) */
+  --az-font-lexia: lexia, 'Times New Roman', serif;
+  --az-font-inter: inter, arial, sans-serif;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: var(--az-font-inter);
+  --heading-font-family: var(--az-font-lexia);
+
+  /* AstraZeneca font sizes (from Figma) */
+  --az-font-size-xs: 12px;
+  --az-font-size-sm: 14px;
+  --az-font-size-md: 16px;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -36,20 +54,23 @@
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
 
+  /* AstraZeneca layout (from Figma) */
+  --az-site-max-width: 1180px;
+
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 90px;
 }
 
 /* fallback fonts */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: lexia-fallback;
+  size-adjust: 105%;
+  src: local('Times New Roman');
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
+  font-family: inter-fallback;
+  size-adjust: 100%;
   src: local('Arial');
 }
 

@@ -1,4 +1,28 @@
 /* stylelint-disable max-line-length */
+
+/* AstraZeneca Brand Font: Lexia
+   Lexia is a commercial serif typeface by Dalton Maag.
+   It should be loaded via Adobe Fonts (Typekit) or a licensed CDN.
+   The fallback stack below matches the live AstraZeneca site exactly.
+   When Lexia is available via the font service, it will render correctly.
+   Until then, Times New Roman provides a similar serif appearance.
+*/
+
+/* Lexia fallback definition — matches live site font stack */
+@font-face {
+  font-family: lexia-fallback;
+  size-adjust: 105%;
+  src: local('Times New Roman');
+}
+
+/* Inter fallback definition */
+@font-face {
+  font-family: inter-fallback;
+  size-adjust: 100%;
+  src: local('Arial');
+}
+
+/* Existing Roboto fonts (boilerplate defaults) */
 @font-face {
   font-family: roboto-condensed;
   font-style: normal;

@@ -1,0 +1,110 @@
+/* =========================================
+   AstraZeneca Teaser Nav Cards — CSS from Figma
+   Source: One AZ 3.1 – Market Master (3970:58655)
+   Card section: bg-[#ebefee] py-[40px]
+   Container: max-w-[1180px] gap-[10px]
+   Card: w-[296px] rounded-[8px]
+   Image: h-[218px]
+   Content: gap-[16px] p-[24px] bg-[#ffffff]
+   Title: font-['Lexia'] font-normal text-[26px] leading-[34px] text-[#4f0031]
+   Button: font-['Inter'] font-semibold text-[16px] leading-[24px] text-[#ffffff]
+           rounded-[4px] bg-[#d0006f] border-[1px] border-[#d0006f]
+   ========================================= */
+
+/* Figma: Section background bg-[var(--Background-Supporting-1,#ebefee)] */
+.teaser-nav-container {
+  background-color: #ebefee; /* Figma: bg-[#ebefee] */
+}
+
+.teaser-nav-container .teaser-nav-wrapper {
+  max-width: 1180px; /* Figma: max-w-[1180px] */
+  margin: 0 auto;
+  padding: 40px 20px; /* Figma: py-[40px] px-[20px] */
+}
+
+/* Card grid */
+.teaser-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px; /* Figma: gap-[10px] */
+}
+
+@media (width >= 900px) {
+  .teaser-nav {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Individual card */
+.teaser-nav-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px; /* Figma: rounded-[8px] */
+  overflow: hidden;
+  background-color: #fff; /* Figma: bg-[#ffffff] */
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.teaser-nav-card:hover {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+/* Card image */
+.teaser-nav-image {
+  overflow: hidden;
+}
+
+.teaser-nav-image img {
+  width: 100%;
+  height: 218px; /* Figma: h-[218px] */
+  object-fit: cover;
+  display: block;
+}
+
+/* Card content */
+.teaser-nav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Figma: gap-[16px] */
+  padding: 24px; /* Figma: p-[24px] */
+}
+
+/* Figma: Title
+   font-['Lexia'] font-normal text-[26px] leading-[34px] text-[#4f0031] */
+.teaser-nav-content h2,
+.teaser-nav-content h3 {
+  font-family: Lexia, sans-serif; /* Figma: font-['Lexia'] */
+  font-weight: 400; /* Figma: font-normal */
+  font-size: 26px; /* Figma: text-[26px] */
+  line-height: 34px; /* Figma: leading-[34px] */
+  color: #4f0031; /* Figma: text-[#4f0031] */
+  margin: 0;
+}
+
+/* Figma: CTA Button (Primary / Filled)
+   rounded-[4px] bg-[#d0006f] border-[1px] border-[#d0006f]
+   px-[16px] py-[8px] min-h-[42px]
+   font-['Inter'] font-semibold text-[16px] leading-[24px] text-[#ffffff] */
+.teaser-nav-content a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px; /* Figma: px-[16px] py-[8px] */
+  min-height: 42px; /* Figma: min-h-[42px] */
+  border-radius: 4px; /* Figma: rounded-[4px] */
+  border: 1px solid #d0006f; /* Figma: border-[1px] border-[#d0006f] */
+  background-color: #d0006f; /* Figma: bg-[#d0006f] */
+  font-family: Inter, sans-serif; /* Figma: font-['Inter'] */
+  font-weight: 600; /* Figma: font-semibold */
+  font-size: 16px; /* Figma: text-[16px] */
+  line-height: 24px; /* Figma: leading-[24px] */
+  color: #fff; /* Figma: text-[#ffffff] */
+  text-decoration: none;
+  width: fit-content;
+  transition: opacity 0.2s ease;
+}
+
+.teaser-nav-content a:hover {
+  opacity: 0.85;
+}

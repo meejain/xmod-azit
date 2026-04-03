@@ -1,20 +1,154 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
-}
+/* =========================================
+   AstraZeneca Footer — CSS 100% from Figma
+   Source: One AZ 3.1 – Market Master (3970:58815)
+   ========================================= */
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer {
+  background-color: #fff; /* Figma: bg-[#ffffff] */
+  font-family: Inter, sans-serif; /* Figma: font-['Inter'] */
+  color: #363b3b; /* Figma: text-[#363b3b] */
 }
 
 footer .footer p {
   margin: 0;
 }
 
+footer .footer a:any-link {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px; /* Figma: text-[16px] */
+  line-height: 24px; /* Figma: leading-[24px] */
+  color: #363b3b;
+  text-decoration: none;
+}
+
+/* Figma: Footer Container px-[20px] py-[40px] */
+footer .footer > div {
+  margin: 0 auto;
+  max-width: 1180px; /* Figma: max-w-[1180px] */
+  padding: 40px 20px; /* Figma: px-[20px] py-[40px] */
+}
+
+/* --- Top section: 3-column layout
+   Figma: Container flex-col gap-[48px], Text Row flex-row
+   --- */
+footer .footer .section:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 48px; /* Figma: gap-[48px] */
+}
+
 @media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+  footer .footer .section:first-child {
+    flex-direction: row; /* Figma: flex-row */
+  }
+}
+
+/* Figma: Left col flex-col pb-[16px] w-[441px], inner gap-[16px] max-w-[300px] */
+footer .footer .section:first-child > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Figma: gap-[16px] — space between logo and description */
+  padding-bottom: 16px; /* Figma: pb-[16px] */
+}
+
+@media (width >= 900px) {
+  footer .footer .section:first-child > div:first-child {
+    width: 441px; /* Figma: w-[441px] */
+    max-width: 300px; /* Figma: max-w-[300px] */
+    flex-shrink: 0;
+  }
+}
+
+/* Figma: Logo w-[162px] h-[38px] */
+footer .footer .section:first-child > div:first-child img {
+  width: 162px; /* Figma: w-[162px] */
+  height: 38px; /* Figma: h-[38px] */
+  display: block;
+}
+
+/* Figma: Description text Inter font-normal 16px/24px #363b3b */
+footer .footer .section:first-child > div:first-child p {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #363b3b;
+}
+
+/* Figma: Right cols flex-row gap-[141px], each col gap-[24px] */
+footer .footer .section:first-child > div:nth-child(2),
+footer .footer .section:first-child > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Figma: gap-[24px] */
+}
+
+@media (width >= 900px) {
+  footer .footer .section:first-child > div:nth-child(2) {
+    margin-left: 141px; /* Figma: gap-[141px] */
+  }
+
+  footer .footer .section:first-child > div:nth-child(3) {
+    margin-left: 141px; /* Figma: gap-[141px] */
+  }
+}
+
+footer .footer .section:first-child > div:nth-child(2) ul,
+footer .footer .section:first-child > div:nth-child(3) ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Figma: gap-[24px] */
+}
+
+/* --- Bottom section (Social LEFT + Copyright RIGHT)
+   Figma: flex-col gap-[8px], no border
+   --- */
+footer .footer .section:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Figma: gap-[8px] */
+  margin-top: 48px; /* Figma: gap-[48px] between sections */
+}
+
+@media (width >= 900px) {
+  footer .footer .section:last-child {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Figma: Social icons flex-row gap-[14px] */
+footer .footer .section:last-child .default-content-wrapper > p:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px; /* Figma: gap-[14px] */
+}
+
+footer .footer .section:last-child .default-content-wrapper > p:first-child .icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+/* Figma: Copyright Inter font-medium 12px/20px, right-aligned */
+footer .footer .section:last-child .default-content-wrapper > p:last-child {
+  font-family: Inter, sans-serif;
+  font-weight: 500; /* Figma: font-medium */
+  font-size: 12px; /* Figma: text-[12px] */
+  line-height: 20px; /* Figma: leading-[20px] */
+  color: #363b3b;
+}
+
+@media (width >= 900px) {
+  footer .footer .section:last-child .default-content-wrapper > p:last-child {
+    text-align: right;
+    margin-left: auto;
   }
 }
