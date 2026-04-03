@@ -146,6 +146,15 @@ export default async function decorate(block) {
     if (section) section.classList.add(`nav-${c}`);
   });
 
+  // DA compatibility: unwrap <p> tags inside <li> elements
+  // DA wraps links in <p>: <li><p><a>text</a></p></li>
+  // Our CSS/JS expects: <li><a>text</a></li>
+  nav.querySelectorAll('li > p').forEach((p) => {
+    const li = p.parentElement;
+    while (p.firstChild) li.insertBefore(p.firstChild, p);
+    p.remove();
+  });
+
   // Clean up brand link
   const navBrand = nav.querySelector('.nav-brand');
   if (navBrand) {
