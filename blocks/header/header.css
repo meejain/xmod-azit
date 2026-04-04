@@ -17,12 +17,13 @@ header .nav-wrapper {
   --az-bg: #fff;
   --az-font-lexia: lexia, lexia-fallback, times, 'Times New Roman', serif;
   --az-font-inter: inter, inter-fallback, arial, sans-serif;
-  --az-max-width: 1180px;
+  --az-max-width: 1280px;
 
   background-color: var(--az-bg);
   width: 100%;
   z-index: 100;
   position: fixed;
+  overflow: hidden;
 }
 
 @media (width >= 900px) {
@@ -283,7 +284,7 @@ header nav .nav-brand {
 
 @media (width >= 900px) {
   header nav .nav-brand {
-    padding: 0 24px 0 16px; /* Left margin for logo + gap to nav */
+    padding: 0 24px 0 20px; /* 20px left padding inside 1280px = logo at 130px */
   }
 }
 

@@ -1,8 +1,5 @@
 /* =========================================
-   AstraZeneca Hero — CSS from Figma
-   Source: One AZ 3.1 – Market Master (3970:58655)
-   Hero section: w-[1440px] h-[480px]
-   Content: px-[20px] py-[40px] max-w-[1220px]
+   AstraZeneca Hero — CSS 100% from Figma (3970:58657)
    ========================================= */
 
 .hero-container .hero-wrapper {
@@ -10,33 +7,65 @@
   padding: 0;
 }
 
-/* Figma: Hero container w-[1440px] h-[480px] */
+/* Figma: min-h-[480px] bg-[#000000] overflow-hidden */
 .hero {
   position: relative;
-  padding: 40px 20px; /* Figma: px-[20px] py-[40px] */
   min-height: 300px;
+  background-color: #000;
+  overflow: hidden;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; /* Content sits at bottom, matching Figma visual */
+  justify-content: flex-start;
 }
 
 @media (width >= 900px) {
   .hero {
-    min-height: 480px; /* Figma: h-[480px] */
-    padding: 40px 20px; /* Figma: px-[20px] py-[40px] */
+    min-height: 480px; /* Figma: min-h-[480px] */
   }
 }
 
-/* Figma: Title text
-   font-['Lexia'] font-normal text-[56px] leading-[60px] text-left text-[#ffffff] */
-.hero h1 {
-  max-width: 1220px; /* Figma: max-w-[1220px] */
-  margin: 0 auto;
+/* Reset all p margins inside hero */
+.hero p {
+  margin: 0;
+}
+
+/* Image — JS moves <picture> to be direct child of .hero */
+.hero > picture {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+}
+
+.hero > picture img {
+  object-fit: cover;
   width: 100%;
-  font-family: Lexia, sans-serif; /* Figma: font-['Lexia'] */
-  font-weight: 400; /* Figma: font-normal */
+  height: 100%;
+  opacity: 0.75; /* Figma: opacity 0.75 */
+  display: block;
+}
+
+/* Content — Figma: gap-[16px] px-[20px] py-[40px] max-w-[1220px] */
+.hero > div {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Figma: gap-[16px] */
+  padding: 40px 20px; /* Figma: px-[20px] py-[40px] */
+  max-width: 1220px; /* Figma: max-w-[1220px] */
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* H1 — Figma: Lexia font-normal text-[56px] leading-[60px] text-[#ffffff] */
+.hero h1 {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-  color: #fff; /* Figma: text-[#ffffff] */
+  color: #fff;
+  margin: 0;
+  text-align: left;
 }
 
 @media (width >= 900px) {
@@ -46,17 +75,61 @@
   }
 }
 
-/* Background image */
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+/* H2 — same as H1 */
+.hero h2 {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #fff;
+  margin: 0;
+  text-align: left;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+@media (width >= 900px) {
+  .hero h2 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+/* Description — Figma: Inter 400 18px/28px max-w-[577px] */
+.hero p:not(:has(picture)) {
+  font-family: Inter, inter-fallback, arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  max-width: 577px; /* Figma: max-w-[577px] */
+  text-align: left;
+}
+
+@media (width >= 900px) {
+  .hero p:not(:has(picture)) {
+    font-size: 18px; /* Figma: text-[18px] */
+    line-height: 28px; /* Figma: leading-[28px] */
+  }
+}
+
+/* CTA Button — Figma: Inter 600 16px/24px bg-[#d0006f] rounded-[4px] */
+.hero a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  min-height: 42px;
+  border-radius: 4px;
+  background-color: #d0006f;
+  border: 1px solid #d0006f;
+  font-family: Inter, inter-fallback, arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.hero a:hover {
+  opacity: 0.9;
 }
