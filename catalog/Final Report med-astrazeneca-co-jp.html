@@ -1,0 +1,3992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>med.astrazeneca.co.jp Site Analysis Report — 75 Pages</title>
+  <style>
+
+    :root {
+      --primary: #002664;
+      --secondary: #0066cc;
+      --success: #28a745;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --light: #f8f9fa;
+      --dark: #343a40;
+      --border: #dee2e6;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f7fa;
+      padding: 20px;
+    }
+
+    .container { max-width: 1400px; margin: 0 auto; }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #003d99 100%);
+      color: white;
+      padding: 40px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { opacity: 0.9; font-size: 1.1rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .stat-card .number { font-size: 2.5rem; font-weight: 700; color: var(--primary); }
+    .stat-card .label { color: #666; font-size: 0.9rem; margin-top: 5px; }
+
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    /* Tabs */
+    .tabs-container { margin-top: 30px; margin-bottom: 20px; }
+
+    .tab-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      border-bottom: 3px solid var(--border);
+      margin-bottom: 25px;
+      padding-bottom: 0;
+    }
+
+    .tab-button {
+      padding: 14px 28px;
+      border: 2px solid var(--border);
+      border-bottom: none;
+      background: var(--light);
+      color: var(--dark);
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 10px 10px 0 0;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: -3px;
+    }
+
+    .tab-button:hover { background: #e9ecef; border-color: #ccc; }
+    .tab-button.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+    .tab-button .tab-count {
+      background: rgba(255,255,255,0.2);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+    }
+
+    .tab-button.active .tab-count { background: rgba(255,255,255,0.3); }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .badge-success { background: #d4edda; color: #155724; }
+    .badge-primary { background: #cce5ff; color: #004085; }
+    .badge-warning { background: #fff3cd; color: #856404; }
+    .badge-danger { background: #f8d7da; color: #721c24; }
+
+    /* Block Gallery with Calculator - Vertical Layout */
+    .block-gallery-vertical {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .block-card-with-calc {
+      display: flex;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+
+    .block-card-with-calc .block-card {
+      flex: 1;
+      min-width: 0;
+      border-radius: 0;
+      box-shadow: none;
+      border: none;
+    }
+
+    .block-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+
+    .block-header {
+      padding: 20px;
+      background: var(--light);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .block-header h3 {
+      font-size: 1rem;
+      color: var(--dark);
+      margin: 0 0 10px 0;
+      word-break: break-word;
+    }
+
+    .block-badges { display: flex; gap: 8px; flex-wrap: wrap; }
+
+    .block-stats {
+      display: flex;
+      padding: 15px 20px;
+      background: white;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .block-stats .stat {
+      flex: 1;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+
+    .block-stats .stat:last-child { border-right: none; }
+
+    .block-stats .stat-value {
+      display: block;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .block-stats .stat-label {
+      font-size: 0.75rem;
+      color: #666;
+      text-transform: uppercase;
+    }
+
+    .block-screenshots {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 15px;
+      background: #fafafa;
+      min-height: 180px;
+    }
+
+    .screenshot-item {
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      background: white;
+      border: 1px solid var(--border);
+      cursor: pointer;
+    }
+
+    .screenshot-item img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.2s;
+    }
+
+    .screenshot-item:hover img { transform: scale(1.05); }
+
+    .no-screenshot {
+      grid-column: span 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #999;
+      font-style: italic;
+    }
+
+    .sample-url-section {
+      padding: 12px 20px;
+      background: #e8f4fd;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sample-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--primary);
+      white-space: nowrap;
+    }
+
+    .sample-url-section .sample-url {
+      font-size: 0.85rem;
+      color: var(--secondary);
+      text-decoration: none;
+      word-break: break-all;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .sample-url-section .sample-url:hover { text-decoration: underline; }
+
+    /* Calculator Panel */
+    .block-calc-panel {
+      width: 320px;
+      flex-shrink: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+      border-left: 2px solid var(--secondary);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .calc-title {
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    .calc-inputs-row {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 15px;
+    }
+
+    .calc-input-group label {
+      display: block;
+      font-size: 0.75rem;
+      color: #555;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .input-with-unit { display: flex; align-items: center; gap: 8px; }
+
+    .input-with-unit input {
+      width: 80px;
+      padding: 8px 10px;
+      border: 2px solid #90caf9;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .input-with-unit input:focus {
+      outline: none;
+      border-color: var(--secondary);
+      box-shadow: 0 0 0 3px rgba(0,102,204,0.2);
+    }
+
+    .input-with-unit .unit { font-size: 0.85rem; color: #555; }
+
+    .calc-breakdown-row {
+      background: rgba(255,255,255,0.6);
+      padding: 10px 12px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      font-size: 0.85rem;
+      color: #555;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .calc-breakdown-row strong { color: var(--dark); }
+
+    .calc-total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      padding: 12px 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .calc-total-row .total-label { font-weight: 700; color: var(--primary); }
+    .calc-total-row .total-value { font-size: 1.2rem; font-weight: 700; color: var(--success); }
+
+    /* Grand Total Summary */
+    .block-migration-summary {
+      background: linear-gradient(135deg, var(--primary) 0%, #003d99 100%);
+      color: white;
+      padding: 20px 25px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .block-migration-summary h3 { color: white; margin: 0; }
+
+    .summary-stats { display: flex; gap: 30px; }
+
+    .summary-stat { text-align: center; }
+
+    .summary-stat .value { font-size: 1.8rem; font-weight: 700; display: block; }
+    .summary-stat .label { font-size: 0.8rem; opacity: 0.9; }
+
+    .summary-stat.highlight {
+      background: rgba(255,255,255,0.15);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    .summary-stat.highlight .value { color: #4ade80; }
+
+    /* Unknown Blocks - Vertical List */
+    .unknown-category {
+      margin-bottom: 30px;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .category-header h3 {
+      color: var(--dark);
+      font-size: 1rem;
+    }
+
+    .category-count {
+      background: var(--danger);
+      color: white;
+      padding: 4px 12px;
+      border-radius: 15px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .unknown-blocks-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .unknown-block-item {
+      display: flex;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    }
+
+    .unknown-block-item:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .unknown-screenshot {
+      width: 200px;
+      height: 150px;
+      flex-shrink: 0;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .unknown-screenshot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.2s;
+    }
+
+    .unknown-screenshot:hover img {
+      transform: scale(1.05);
+    }
+
+    .unknown-screenshot .no-screenshot {
+      color: #999;
+      font-style: italic;
+      font-size: 0.85rem;
+    }
+
+    .unknown-info {
+      flex: 1;
+      padding: 15px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .unknown-url {
+      font-size: 0.85rem;
+      color: var(--secondary);
+      word-break: break-all;
+      text-decoration: none;
+      margin-bottom: 12px;
+    }
+
+    .unknown-url:hover {
+      text-decoration: underline;
+    }
+
+    .unknown-calc {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+
+    .unknown-calc .calc-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .unknown-calc .calc-row label {
+      font-size: 0.75rem;
+      color: #555;
+      font-weight: 500;
+    }
+
+    .unknown-calc .calc-row input {
+      width: 60px;
+      padding: 6px 8px;
+      border: 2px solid #90caf9;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .unknown-calc .calc-row input:focus {
+      outline: none;
+      border-color: var(--secondary);
+    }
+
+    .unknown-calc .calc-row .unit {
+      font-size: 0.75rem;
+      color: #555;
+    }
+
+    .unknown-calc .calc-total {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: auto;
+      background: white;
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+
+    .unknown-calc .calc-total span {
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .unknown-calc .calc-total strong {
+      font-size: 1rem;
+      color: var(--success);
+    }
+
+    .unknown-calc .calc-row.replicate-row {
+      display: none;
+    }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox.active { display: flex; }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      color: white;
+      font-size: 40px;
+      cursor: pointer;
+      z-index: 1001;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    /* Default Content Section */
+    .default-content-summary {
+      display: flex;
+      gap: 30px;
+      background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+      padding: 20px 30px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .dc-stat { text-align: center; color: white; }
+    .dc-stat .dc-value { font-size: 1.8rem; font-weight: 700; display: block; }
+    .dc-stat .dc-label { font-size: 0.8rem; opacity: 0.9; }
+
+    .default-content-calc {
+      background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .default-content-calc .calc-title {
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    .calc-inputs-row-horizontal {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .calc-result {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    .calc-result .result-label { font-weight: 600; color: var(--dark); }
+    .calc-result .result-value { font-size: 1.3rem; font-weight: 700; color: var(--success); }
+
+    .default-content-table-container {
+      max-height: 400px;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .default-content-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    .default-content-table th {
+      background: var(--light);
+      padding: 12px 15px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--dark);
+      position: sticky;
+      top: 0;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .default-content-table td {
+      padding: 10px 15px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .default-content-table .group-name { font-family: monospace; color: var(--primary); }
+    .default-content-table .count { text-align: center; font-weight: 600; }
+    .default-content-table .sample-url a { color: var(--secondary); text-decoration: none; font-size: 0.85rem; }
+    .default-content-table .sample-url a:hover { text-decoration: underline; }
+    .default-content-table .more-row td { text-align: center; font-style: italic; color: #666; background: var(--light); }
+
+    /* Overall Migration Analysis */
+    .overall-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .overall-card {
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      color: white;
+    }
+
+    .overall-card.blocks-card { background: linear-gradient(135deg, var(--primary) 0%, #003d99 100%); }
+    .overall-card.unknown-card { background: linear-gradient(135deg, var(--danger) 0%, #c82333 100%); }
+    .overall-card.default-card { background: linear-gradient(135deg, #6c757d 0%, #495057 100%); }
+
+    .overall-card .card-icon { font-size: 2rem; margin-bottom: 10px; }
+    .overall-card h3 { margin-bottom: 15px; font-size: 1.1rem; }
+
+    .overall-card .card-stats { display: flex; justify-content: center; gap: 30px; }
+    .overall-card .card-stat { text-align: center; }
+    .overall-card .stat-num { font-size: 1.5rem; font-weight: 700; display: block; }
+    .overall-card .stat-desc { font-size: 0.75rem; opacity: 0.9; }
+
+    .grand-total-section {
+      background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+      border-radius: 12px;
+      padding: 25px 30px;
+      color: white;
+    }
+
+    .grand-total-header { text-align: center; margin-bottom: 20px; }
+    .grand-total-header h3 { color: white; font-size: 1.3rem; }
+
+    .grand-total-stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .gt-stat { text-align: center; }
+    .gt-stat .gt-value { font-size: 2rem; font-weight: 700; display: block; }
+    .gt-stat .gt-label { font-size: 0.85rem; opacity: 0.9; }
+
+    .gt-stat.highlight {
+      background: rgba(255,255,255,0.2);
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 900px) {
+      header h1 { font-size: 1.8rem; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .block-card-with-calc { flex-direction: column; }
+      .block-calc-panel {
+        width: 100%;
+        border-left: none;
+        border-top: 2px solid var(--secondary);
+      }
+
+      .block-migration-summary { flex-direction: column; text-align: center; }
+
+      .tab-buttons { flex-direction: column; }
+      .tab-button { border-radius: 8px; }
+
+      .unknown-block-item { flex-direction: column; }
+      .unknown-screenshot { width: 100%; height: 200px; }
+      .unknown-calc { flex-wrap: wrap; }
+
+      .default-content-summary { flex-wrap: wrap; justify-content: center; }
+      .calc-inputs-row-horizontal { flex-direction: column; align-items: flex-start; }
+      .overall-grid { grid-template-columns: 1fr; }
+      .grand-total-stats { flex-direction: column; gap: 20px; }
+    }
+  
+  </style>
+  <style>
+
+#tab-templates {
+  --primary: #001e50;
+  --primary-light: #003380;
+  --secondary: #00b0f0;
+  --accent: #ffc107;
+  --success: #28a745;
+  --dark: #1a1a2e;
+  --light: #f8f9fa;
+  --gray: #6c757d;
+  --gradient-primary: linear-gradient(135deg, #001e50 0%, #003380 50%, #00b0f0 100%);
+}
+#tab-templates .timeframe-banner {
+  background: linear-gradient(135deg, #001e50 0%, #003380 50%, #00b0f0 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 30, 80, 0.3);
+}
+#tab-templates .timeframe-banner h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
+#tab-templates .timeframe-banner .total-hours {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+#tab-templates .timeframe-banner .unit {
+  font-size: 2rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+#tab-templates .jt-templates-section {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+#tab-templates .jt-templates-section > h2 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#tab-templates .templates-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#tab-templates .template-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+#tab-templates .template-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: white;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#tab-templates .template-header h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+#tab-templates .template-header h4 .template-name {
+  flex: 1;
+  min-width: 200px;
+}
+#tab-templates .template-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+#tab-templates .url-count {
+  background: rgba(255,255,255,0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+}
+#tab-templates .template-body {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 2rem;
+  padding: 1.5rem;
+  align-items: start;
+}
+#tab-templates .template-screenshot { position: relative; }
+#tab-templates .template-screenshot img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--light);
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+#tab-templates .jt-no-screenshot {
+  width: 100%;
+  height: 700px;
+  border-radius: 8px;
+  background: var(--light);
+  border: 1px dashed rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+#tab-templates .template-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#tab-templates .jt-template-desc {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--dark);
+  line-height: 1.55;
+}
+#tab-templates .sample-urls {
+  background: var(--light);
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 4px solid var(--secondary);
+}
+#tab-templates .sample-urls h5 {
+  margin: 0 0 0.75rem 0;
+  color: var(--primary);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+#tab-templates .sample-urls ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#tab-templates .sample-urls li {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+#tab-templates .sample-urls a {
+  color: var(--secondary);
+  text-decoration: none;
+  word-break: break-all;
+  display: block;
+  padding: 0.25rem 0;
+}
+#tab-templates .sample-urls a:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+#tab-templates .calculator {
+  background: var(--light);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+#tab-templates .calculator .calc-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+#tab-templates .calculator .calc-row:last-child { margin-bottom: 0; }
+#tab-templates .calculator .calc-row label {
+  font-weight: 600;
+  color: var(--dark);
+  font-size: 0.9rem;
+}
+#tab-templates .calculator .calc-row input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  width: 100px;
+}
+#tab-templates .calculator .calc-row .unit {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+#tab-templates .calculator .calc-total {
+  border-top: 2px solid var(--secondary);
+  padding-top: 0.75rem;
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+#tab-templates .calculator .calc-total .result {
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+#tab-templates .template-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+  color: #1a1a2e;
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-right: 0.75rem;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+  flex-shrink: 0;
+  border: 3px solid white;
+}
+#tab-templates .jt-template-meta-row {
+  font-size: 0.85rem;
+  color: var(--dark);
+}
+#tab-templates .jt-template-meta-row .jt-template-meta-label { font-weight: 600; }
+#tab-templates .jt-template-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #555;
+  padding: 0.35rem 0 0.5rem 0;
+}
+#tab-templates .jt-template-breakdown strong { color: var(--primary); }
+@media (max-width: 1200px) {
+  #tab-templates .template-body { grid-template-columns: 400px 1fr; }
+  #tab-templates .template-screenshot img,
+  #tab-templates .jt-no-screenshot { height: 600px; }
+}
+@media (max-width: 968px) {
+  #tab-templates .template-body { grid-template-columns: 1fr; }
+  #tab-templates .template-screenshot img,
+  #tab-templates .jt-no-screenshot { height: 500px; }
+}
+@media print {
+  #tab-templates .template-card {
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+}
+
+  </style>
+  <style>
+
+#tab-header, #tab-footer {
+  --primary: #001e50;
+  --primary-light: #003380;
+  --secondary: #00b0f0;
+  --dark: #1a1a2e;
+  --light: #f8f9fa;
+  --gray: #6c757d;
+}
+#tab-header .timeframe-banner,
+#tab-footer .timeframe-banner {
+  background: linear-gradient(135deg, #001e50 0%, #003380 50%, #00b0f0 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 30, 80, 0.3);
+}
+#tab-header .timeframe-banner h3,
+#tab-footer .timeframe-banner h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.95;
+}
+#tab-header .timeframe-banner .total-hours,
+#tab-footer .timeframe-banner .total-hours {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+#tab-header .timeframe-banner .unit,
+#tab-footer .timeframe-banner .unit {
+  font-size: 1.75rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+#tab-header .jt-templates-section,
+#tab-footer .jt-templates-section {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+#tab-header .jt-templates-section > h2,
+#tab-footer .jt-templates-section > h2 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--secondary);
+}
+#tab-header .jt-hf-blocks-grid,
+#tab-footer .jt-hf-blocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+#tab-header .jt-hf-card,
+#tab-footer .jt-hf-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+#tab-header .jt-hf-card-head,
+#tab-footer .jt-hf-card-head {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+}
+#tab-header .jt-hf-card-head h4,
+#tab-footer .jt-hf-card-head h4 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.1rem;
+}
+#tab-header .jt-hf-badge,
+#tab-footer .jt-hf-badge {
+  background: rgba(255,255,255,0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+#tab-header .jt-hf-card-body,
+#tab-footer .jt-hf-card-body {
+  padding: 1.5rem;
+}
+#tab-header .jt-hf-screenshot {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: block;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: top center;
+}
+#tab-footer .jt-footer-viewport {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#tab-footer .jt-footer-strip-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom center;
+  cursor: pointer;
+  display: block;
+  min-height: 400px;
+}
+#tab-header .jt-hf-placeholder,
+#tab-footer .jt-hf-placeholder {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: var(--light);
+  border: 2px dashed rgba(0,0,0,0.12);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+#tab-header .calculator,
+#tab-footer .calculator {
+  background: var(--light);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+#tab-header .calculator .calc-row,
+#tab-footer .calculator .calc-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+#tab-header .calculator .calc-row label,
+#tab-footer .calculator .calc-row label {
+  font-weight: 600;
+  color: var(--dark);
+  font-size: 0.9rem;
+}
+#tab-header .calculator .calc-row input[type="number"],
+#tab-footer .calculator .calc-row input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  width: 100px;
+}
+#tab-header .calculator .calc-total,
+#tab-footer .calculator .calc-total {
+  border-top: 2px solid var(--secondary);
+  padding-top: 0.75rem;
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+#tab-header .calculator .calc-total .result,
+#tab-footer .calculator .calc-total .result {
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AstraZeneca Med JP Site Analysis Report</h1>
+      <p>Complete analysis of 75 pages from med.astrazeneca.co.jp — block patterns, page templates, and migration effort assessment</p>
+      <p style="margin-top: 10px; opacity: 0.8;">Generated: Mar 30, 2026, 4:09 AM</p>
+    </header>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="number">75</div>
+        <div class="label">Total URLs in Scope</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">75</div>
+        <div class="label">Unique URLs Analyzed</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">13</div>
+        <div class="label">Page Templates</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">16</div>
+        <div class="label">Block Variants Found</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Migration Effort Calculator</h2>
+      <p>Tabs: <strong>Page Templates</strong> — <strong>5 h</strong> covers one template URL; <strong>15 min</strong> applies only to each <em>other</em> unique page (same path variants like <code>/</code> vs <code>/index.html</code> count once). Then <strong>Header</strong> / <strong>Footer</strong> (default <strong>1 h</strong> each) and block calculators. Click screenshots to enlarge.</p>
+      <p style="margin-top: 5px; color: #666; font-size: 0.9rem;">
+        <strong>Blocks / unknowns:</strong> default inputs are <strong>0</strong>. When you enter values: block hours = Initial + ((Pages − 1) × Replication mins) / 60.
+      </p>
+      <p style="margin-top: 5px; color: #666; font-size: 0.9rem;">
+        Data: <code>template-catalog.json</code>, <code>catalog/.pages/&lt;slug&gt;/</code> (full-page, header-normalized), block shots under <code>.pages/…/blocks/</code>.
+      </p>
+
+      <div class="tabs-container">
+        <div class="tab-buttons">
+          <button type="button" class="tab-button active" onclick="switchTab(event, 'templates')">
+            Page Templates
+            <span class="tab-count">13 templates</span>
+          </button>
+          <button type="button" class="tab-button" onclick="switchTab(event, 'header')">
+            Header
+            <span class="tab-count">global</span>
+          </button>
+          <button type="button" class="tab-button" onclick="switchTab(event, 'footer')">
+            Footer
+            <span class="tab-count">global</span>
+          </button>
+          <button type="button" class="tab-button" onclick="switchTab(event, 'known')">
+            Block Migration Effort Calculator
+            <span class="tab-count">9 blocks</span>
+          </button>
+          <button type="button" class="tab-button" onclick="switchTab(event, 'unknown')">
+            Unknowns Migration Effort Calculator
+            <span class="tab-count">31 samples</span>
+          </button>
+        </div>
+
+        <div id="tab-templates" class="tab-content active">
+          <div class="timeframe-banner">
+            <h3>Total Template Migration Hours</h3>
+            <div>
+              <span class="total-hours" id="template-tab-grand-total">0.0</span>
+              <span class="unit">hrs</span>
+            </div>
+          </div>
+          <div class="jt-templates-section">
+            <h2>Templates Instrumentation</h2>
+            <p style="margin-bottom: 1.5rem; padding: 1rem; background: #e3f2fd; border-radius: 8px; border-left: 4px solid var(--secondary);">
+              <strong>Note:</strong> Each template has <strong>one canonical template URL</strong> covered by the <strong>5 h</strong> initial — <strong>no 15 min</strong> is applied to that URL. Only <strong>other unique pages</strong> in the group pay replication time (<strong>15 min</strong> each). Duplicate sitemap entries (e.g. <code>/</code> and <code>/index.html</code>) count as one page for this math.
+            </p>
+            <div class="templates-stack">
+              
+        <div class="template-card" data-template-index="0" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">1</span><span class="template-name">homepage</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages (2 URLs listed)</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp--8bf16727/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (2 of 2)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/" target="_blank" rel="noopener">Home</a></li>
+<li><a href="https://med.astrazeneca.co.jp/index.html" target="_blank" rel="noopener">index</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Landing page with hero banner, disease area card grid, promotional cards, partner logos bar, and mega footer</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-0">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-0">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-0">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="1" data-url-count="52">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">2</span><span class="template-name">content-page</span></h4>
+              <div class="template-meta">
+                <span class="url-count">52 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_medical_html--96905ecb/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (5 of 52)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/TA.html" target="_blank" rel="noopener">TA</a></li>
+<li><a href="https://med.astrazeneca.co.jp/TA/breast-cancer.html" target="_blank" rel="noopener">breast-cancer</a></li>
+<li><a href="https://med.astrazeneca.co.jp/TA/cardiovascular.html" target="_blank" rel="noopener">cardiovascular</a></li>
+<li><a href="https://med.astrazeneca.co.jp/TA/diabetes.html" target="_blank" rel="noopener">diabetes</a></li>
+<li><a href="https://med.astrazeneca.co.jp/TA/gastrointestinal-cancer.html" target="_blank" rel="noopener">gastrointestinal-cancer</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Standard interior page with breadcrumbs, page title, content sections with images and banners, and mega footer</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>52</strong>
+                  <span class="unit">→ 51 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-1">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-1">12.8</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-1">17.8 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="2" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">3</span><span class="template-name">product-microsite-topics</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-brz_html--3883f655/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (1 of 1)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-brz.html" target="_blank" rel="noopener">brand-brz</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Branded product page with custom theme, hero banner, navigation tabs, topic cards with images, and CTA buttons</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-2">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-2">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-2">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="3" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">4</span><span class="template-name">product-microsite-video</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-cal_html--244def74/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (1 of 1)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-cal.html" target="_blank" rel="noopener">brand-cal</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Branded product page with hero banner, video grid with speaker presentation cards, and CTA banners</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-3">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-3">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-3">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="4" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">5</span><span class="template-name">product-microsite-tabbed</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-fsn_html--4dda74cd/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (1 of 1)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-fsn.html" target="_blank" rel="noopener">brand-fsn</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Branded product page with hero banner, info cards, tabbed filter content, and resource cards</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-4">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-4">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-4">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="5" data-url-count="4">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">6</span><span class="template-name">safety-accordion</span></h4>
+              <div class="template-meta">
+                <span class="url-count">4 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_safety_TRQ_html--7f0a4d61/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (4 of 4)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-imf_bt.html" target="_blank" rel="noopener">brand-imf bt</a></li>
+<li><a href="https://med.astrazeneca.co.jp/safety/LYN.html" target="_blank" rel="noopener">LYN</a></li>
+<li><a href="https://med.astrazeneca.co.jp/safety/TAG.html" target="_blank" rel="noopener">TAG</a></li>
+<li><a href="https://med.astrazeneca.co.jp/safety/TRQ.html" target="_blank" rel="noopener">TRQ</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Safety information page with product header, collapsible accordion sections, and PDF document download links</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>4</strong>
+                  <span class="unit">→ 3 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-5">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-5">0.8</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-5">5.8 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="6" data-url-count="2">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">7</span><span class="template-name">product-detail-documents</span></h4>
+              <div class="template-meta">
+                <span class="url-count">2 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_ec_html--cc7e03b9/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (2 of 2)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-imf_ec.html" target="_blank" rel="noopener">brand-imf ec</a></li>
+<li><a href="https://med.astrazeneca.co.jp/product/brand-lyn_ec.html" target="_blank" rel="noopener">brand-lyn ec</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Product detail page with branded header, document galleries, collapsible sections, and PDF links</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>2</strong>
+                  <span class="unit">→ 1 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-6">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-6">0.3</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-6">5.3 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="7" data-url-count="2">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">8</span><span class="template-name">product-indication-hub</span></h4>
+              <div class="template-meta">
+                <span class="url-count">2 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (2 of 2)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-imf_hcc.html" target="_blank" rel="noopener">brand-imf hcc</a></li>
+<li><a href="https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html" target="_blank" rel="noopener">brand-jdo hcc</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Product indication microsite with hero, tabbed study cards, clinical resources, guidelines links, and promotional banners</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>2</strong>
+                  <span class="unit">→ 1 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-7">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-7">0.3</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-7">5.3 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="8" data-url-count="2">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">9</span><span class="template-name">product-indication-hub-alt</span></h4>
+              <div class="template-meta">
+                <span class="url-count">2 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_lc_html--d9f10bbe/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (2 of 2)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-imf_lc.html" target="_blank" rel="noopener">brand-imf lc</a></li>
+<li><a href="https://med.astrazeneca.co.jp/product/brand-jdo_lc.html" target="_blank" rel="noopener">brand-jdo lc</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Product indication microsite with hero, tabbed studies, and clinical resource sections in alternative layout</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>2</strong>
+                  <span class="unit">→ 1 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-8">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-8">0.3</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-8">5.3 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="9" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">10</span><span class="template-name">product-indication-single</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_product_brand-lyn_oc_html--a13a2910/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (1 of 1)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product/brand-lyn_oc.html" target="_blank" rel="noopener">brand-lyn oc</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Single indication product page with branded header and content sections</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-9">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-9">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-9">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="10" data-url-count="5">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">11</span><span class="template-name">listing-page</span></h4>
+              <div class="template-meta">
+                <span class="url-count">5 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_safety_JDO_html--3f930c73/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (5 of 5)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/product.html" target="_blank" rel="noopener">product</a></li>
+<li><a href="https://med.astrazeneca.co.jp/product/revise.html" target="_blank" rel="noopener">revise</a></li>
+<li><a href="https://med.astrazeneca.co.jp/safety/IMF.html" target="_blank" rel="noopener">IMF</a></li>
+<li><a href="https://med.astrazeneca.co.jp/safety/JDO.html" target="_blank" rel="noopener">JDO</a></li>
+<li><a href="https://med.astrazeneca.co.jp/safety/OND.html" target="_blank" rel="noopener">OND</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Index page with brand logo grid, category filter buttons, and minimal content layout</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>5</strong>
+                  <span class="unit">→ 4 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-10">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-10">1.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-10">6.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="11" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">12</span><span class="template-name">safety-accordion-single</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_safety_CAL_html--271697ca/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (1 of 1)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/safety/CAL.html" target="_blank" rel="noopener">CAL</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Single product safety information page with accordion sections and document links</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-11">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-11">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-11">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="template-card" data-template-index="12" data-url-count="1">
+          <div class="template-header">
+            <div>
+              <h4><span class="template-number">13</span><span class="template-name">safety-landing</span></h4>
+              <div class="template-meta">
+                <span class="url-count">1 unique pages</span>
+              </div>
+            </div>
+          </div>
+          <div class="template-body">
+            <div class="template-screenshot">
+              <img src=".pages/med_astrazeneca_co_jp_safety_html--a4380ad4/full-page.jpg" alt="" loading="lazy" onclick="openLightbox(this.src)">
+            </div>
+            <div class="template-details">
+              <div class="sample-urls">
+                <h5>Sample URLs (1 of 1)</h5>
+                <ul><li><a href="https://med.astrazeneca.co.jp/safety.html" target="_blank" rel="noopener">safety</a></li></ul>
+              </div>
+              <p class="jt-template-desc">Safety landing page with brand logos and category navigation buttons</p>
+              <div class="calculator">
+                <div class="calc-row">
+                  <label>Initial template (hrs):</label>
+                  <input type="number" class="template-initial-hours" value="5" min="0" max="500" step="0.5" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">hrs</span>
+                </div>
+                <div class="calc-row">
+                  <label>Replicate (mins / non-template page):</label>
+                  <input type="number" class="template-replicate-mins" value="15" min="0" max="480" step="1" onchange="recalcTemplateCard(this)" oninput="recalcTemplateCard(this)">
+                  <span class="unit">mins</span>
+                </div>
+                <div class="calc-row jt-template-meta-row">
+                  <span class="jt-template-meta-label">Unique pages (1 = template only, no replication):</span>
+                  <strong>1</strong>
+                  <span class="unit">→ 0 × replicate</span>
+                </div>
+                <div class="jt-template-breakdown">
+                  <span>Initial: <strong id="template-init-hours-12">5.0</strong> hrs</span>
+                  <span>+</span>
+                  <span>Replication: <strong id="template-rep-hours-12">0.0</strong> hrs</span>
+                  <span>=</span>
+                </div>
+                <div class="calc-row calc-total">
+                  <label>Total migration:</label>
+                  <span class="result template-migration-total" id="template-migration-total-12">5.0 hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div id="tab-header" class="tab-content">
+          <div class="timeframe-banner">
+            <h3>Header (Global) — Migration Time</h3>
+            <div>
+              <span class="total-hours" id="header-tab-grand-total">1.0</span>
+              <span class="unit">hrs</span>
+            </div>
+          </div>
+          <div class="jt-templates-section">
+            <h2>Global Component: Header</h2>
+            <p style="margin-bottom: 1.5rem; padding: 1rem; background: #e3f2fd; border-radius: 8px; border-left: 4px solid var(--secondary);">
+              <strong>Note:</strong> Header is a global component on every page. Default estimate below is <strong>1 hour</strong> initial build; adjust as needed.
+            </p>
+            <div class="jt-hf-blocks-grid">
+              <div class="jt-hf-card">
+                <div class="jt-hf-card-head">
+                  <h4>Header (Global Navigation)</h4>
+                  <span class="jt-hf-badge">All pages</span>
+                </div>
+                <div class="jt-hf-card-body">
+                  <img src=".pages/med_astrazeneca_co_jp--8bf16727/header-normalized.jpg" alt="Header" class="jt-hf-screenshot" onclick="openLightbox(this.src)">
+                  <a href="https://med.astrazeneca.co.jp/" target="_blank" rel="noopener" style="display:block;margin-bottom:1rem;color:var(--secondary);text-decoration:none;font-size:0.85rem;word-break:break-all;">https://med.astrazeneca.co.jp/</a>
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:1rem;padding:0.75rem;background:#f8f9fa;border-radius:6px;font-size:0.85rem;">
+                    <div><div style="font-size:0.75rem;color:#666;">Type</div><div style="font-weight:600;color:#333;">Global component</div></div>
+                    <div><div style="font-size:0.75rem;color:#666;">Source slug</div><div style="font-weight:600;color:#333;word-break:break-all;">med_astrazeneca_co_jp--8bf16727</div></div>
+                  </div>
+                  <div class="calculator">
+                    <div class="calc-row">
+                      <label>Initial Hours:</label>
+                      <input type="number" id="header-global-hours" value="1" min="0" step="0.5" onchange="recalcHeaderFooterHours()" oninput="recalcHeaderFooterHours()">
+                      <span class="unit">hrs</span>
+                    </div>
+                    <div class="calc-row calc-total">
+                      <label>Total Time:</label>
+                      <span class="result" id="header-hf-result">1.0 hrs</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div id="tab-footer" class="tab-content">
+          <div class="timeframe-banner">
+            <h3>Footer (Global) — Migration Time</h3>
+            <div>
+              <span class="total-hours" id="footer-tab-grand-total">1.0</span>
+              <span class="unit">hrs</span>
+            </div>
+          </div>
+          <div class="jt-templates-section">
+            <h2>Global Component: Footer</h2>
+            <p style="margin-bottom: 1.5rem; padding: 1rem; background: #e3f2fd; border-radius: 8px; border-left: 4px solid var(--secondary);">
+              <strong>Note:</strong> Footer is a global component on every page. Default estimate below is <strong>1 hour</strong> initial build; adjust as needed.
+            </p>
+            <div class="jt-hf-blocks-grid">
+              <div class="jt-hf-card">
+                <div class="jt-hf-card-head">
+                  <h4>Footer (Global Links)</h4>
+                  <span class="jt-hf-badge">All pages</span>
+                </div>
+                <div class="jt-hf-card-body">
+                  <div class="jt-footer-viewport"><img src=".pages/med_astrazeneca_co_jp--8bf16727/full-page.jpg" alt="Footer (bottom of full-page capture)" class="jt-footer-strip-img" onclick="openLightbox(this.src)"></div>
+            <p style="font-size:0.8rem;color:#666;margin:0 0 0.75rem 0;">Preview uses the bottom of the home <code>full-page.jpg</code> (no separate footer screenshot file in this catalog).</p>
+                  <a href="https://med.astrazeneca.co.jp/" target="_blank" rel="noopener" style="display:block;margin-bottom:1rem;color:var(--secondary);text-decoration:none;font-size:0.85rem;word-break:break-all;">https://med.astrazeneca.co.jp/</a>
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:1rem;padding:0.75rem;background:#f8f9fa;border-radius:6px;font-size:0.85rem;">
+                    <div><div style="font-size:0.75rem;color:#666;">Type</div><div style="font-weight:600;color:#333;">Global component</div></div>
+                    <div><div style="font-size:0.75rem;color:#666;">Source slug</div><div style="font-weight:600;color:#333;word-break:break-all;">med_astrazeneca_co_jp--8bf16727</div></div>
+                  </div>
+                  <div class="calculator">
+                    <div class="calc-row">
+                      <label>Initial Hours:</label>
+                      <input type="number" id="footer-global-hours" value="1" min="0" step="0.5" onchange="recalcHeaderFooterHours()" oninput="recalcHeaderFooterHours()">
+                      <span class="unit">hrs</span>
+                    </div>
+                    <div class="calc-row calc-total">
+                      <label>Total Time:</label>
+                      <span class="result" id="footer-hf-result">1.0 hrs</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-known" class="tab-content">
+          <div class="block-migration-summary">
+            <h3>Known Blocks Total</h3>
+            <div class="summary-stats">
+              <div class="summary-stat">
+                <span class="value">9</span>
+                <span class="label">Block Variants</span>
+              </div>
+              <div class="summary-stat">
+                <span class="value">75</span>
+                <span class="label">Site Pages (scope)</span>
+              </div>
+              <div class="summary-stat highlight">
+                <span class="value" id="known-grand-total-hours">-</span>
+                <span class="label">Total Hours</span>
+              </div>
+            </div>
+          </div>
+          <div class="block-gallery-vertical">
+            
+    <div class="block-card-with-calc" data-block-index="0" data-pages="43" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>hero-minimal-dark-withimg</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">hero</span>
+            <span class="badge badge-danger">High Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">43</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">57.3%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">43</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp--8bf16727/blocks/hero-7b7efabc.jpg" alt="hero-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_TA_html--f436d1aa/blocks/hero-4ecc8977.jpg" alt="hero-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_index_html--3c74d060/blocks/hero-7b7efabc.jpg" alt="hero-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_medical_html--96905ecb/blocks/hero-3d10a856.jpg" alt="hero-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="0" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 0)" oninput="calculateBlockTime('known', 0)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="0" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 0)" oninput="calculateBlockTime('known', 0)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-0">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-0">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-0">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="1" data-pages="4" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>hero-minimal-dark</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">hero</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">5.3%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-fsn_html--4dda74cd/blocks/hero-3d95d6e3.jpg" alt="hero-minimal-dark" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/hero-5946fb91.jpg" alt="hero-minimal-dark" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_ec_html--cc7e03b9/blocks/hero-5fdeac88.jpg" alt="hero-minimal-dark" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-lyn_ec_html--a1ee6dfd/blocks/hero-5fdeac88.jpg" alt="hero-minimal-dark" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-fsn.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-fsn.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="1" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 1)" oninput="calculateBlockTime('known', 1)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="1" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 1)" oninput="calculateBlockTime('known', 1)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-1">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-1">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-1">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="2" data-pages="4" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>hero-moderate-dark-withimg</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">hero</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">5.3%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_TA_gastrointestinal_html--1a426180/blocks/hero-463cc5c.jpg" alt="hero-moderate-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_TA_prostate-cancer_html--e466cd1b/blocks/hero-463cc5c.jpg" alt="hero-moderate-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_TA_renal_html--ecddf9e4/blocks/hero-463cc5c.jpg" alt="hero-moderate-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_TA_sle_html--4e96c650/blocks/hero-463cc5c.jpg" alt="hero-moderate-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/TA/gastrointestinal.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/TA/gastrointestinal.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="2" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 2)" oninput="calculateBlockTime('known', 2)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="2" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 2)" oninput="calculateBlockTime('known', 2)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-2">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-2">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-2">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="3" data-pages="3" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>columns-minimal-dark-withimg</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">columns</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">4.0%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-cal_html--244def74/blocks/columns-70523e9.jpg" alt="columns-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/columns-4ef060e.jpg" alt="columns-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/columns-4ef060e.jpg" alt="columns-minimal-dark-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-cal.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-cal.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="3" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 3)" oninput="calculateBlockTime('known', 3)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="3" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 3)" oninput="calculateBlockTime('known', 3)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-3">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-3">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-3">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="4" data-pages="2" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>embed-minimal-light</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">embed</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2.7%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_lc_html--d9f10bbe/blocks/embed-49f19f94.jpg" alt="embed-minimal-light" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_lc_html--057bbec2/blocks/embed-49f19f94.jpg" alt="embed-minimal-light" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_lc.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-imf_lc.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="4" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 4)" oninput="calculateBlockTime('known', 4)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="4" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 4)" oninput="calculateBlockTime('known', 4)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-4">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-4">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-4">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="5" data-pages="2" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>hero-dense-light-withimg</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">hero</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2.7%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-lyn_oc_html--a13a2910/blocks/hero-5fdeac88.jpg" alt="hero-dense-light-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_safety_html--a4380ad4/blocks/hero-4f362c4a.jpg" alt="hero-dense-light-withimg" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-lyn_oc.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-lyn_oc.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="5" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 5)" oninput="calculateBlockTime('known', 5)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="5" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 5)" oninput="calculateBlockTime('known', 5)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-5">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-5">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-5">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="6" data-pages="2" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>hero-minimal-medium</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">hero</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2.7%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/hero-5946fb91.jpg" alt="hero-minimal-medium" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/hero-5946fb91.jpg" alt="hero-minimal-medium" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_hcc.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-imf_hcc.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="6" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 6)" oninput="calculateBlockTime('known', 6)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="6" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 6)" oninput="calculateBlockTime('known', 6)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-6">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-6">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-6">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="7" data-pages="1" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>cards-minimal-dark</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">cards</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1.3%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-cal_html--244def74/blocks/cards-352d8ab8.jpg" alt="cards-minimal-dark" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-cal.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-cal.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="7" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 7)" oninput="calculateBlockTime('known', 7)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="7" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 7)" oninput="calculateBlockTime('known', 7)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-7">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-7">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-7">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-card-with-calc" data-block-index="8" data-pages="1" data-prefix="known">
+      <div class="block-card">
+        <div class="block-header">
+          <h3>cards-moderate-dark</h3>
+          <div class="block-badges">
+            <span class="badge badge-primary">cards</span>
+            <span class="badge badge-success">Low Effort</span>
+          </div>
+        </div>
+        <div class="block-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">Est. Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1.3%</span>
+            <span class="stat-label">Coverage</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">URL Groups</span>
+          </div>
+        </div>
+        <div class="block-screenshots">
+          
+        <div class="screenshot-item">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-brz_html--3883f655/blocks/cards-1cca46a0.jpg" alt="cards-moderate-dark" loading="lazy" onclick="openLightbox(this.src)">
+        </div>
+        </div>
+        <div class="sample-url-section">
+          <span class="sample-label">Sample Page:</span>
+          <a href="https://med.astrazeneca.co.jp/product/brand-brz.html" target="_blank" rel="noopener" class="sample-url">https://med.astrazeneca.co.jp/product/brand-brz.html</a>
+        </div>
+      </div>
+      <div class="block-calc-panel">
+        <div class="calc-title">Time Calculator</div>
+        <div class="calc-inputs-row">
+          <div class="calc-input-group">
+            <label>Initial Block Creation</label>
+            <div class="input-with-unit">
+              <input type="number" class="initial-hours" data-index="8" data-prefix="known" value="0" min="0" max="100" step="0.5" onchange="calculateBlockTime('known', 8)" oninput="calculateBlockTime('known', 8)">
+              <span class="unit">hours</span>
+            </div>
+          </div>
+          <div class="calc-input-group">
+            <label>Per Page Replication</label>
+            <div class="input-with-unit">
+              <input type="number" class="replicate-mins" data-index="8" data-prefix="known" value="0" min="0" max="60" step="1" onchange="calculateBlockTime('known', 8)" oninput="calculateBlockTime('known', 8)">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-breakdown-row">
+          <span>Initial: <strong id="known-initial-time-8">0.0</strong> hrs</span>
+          <span>+</span>
+          <span>Replicate: <strong id="known-replicate-time-8">0.0</strong> hrs</span>
+          <span>=</span>
+        </div>
+        <div class="calc-total-row">
+          <span class="total-label">TOTAL:</span>
+          <span class="total-value" id="known-total-time-8">0.0 hours</span>
+        </div>
+      </div>
+    </div>
+          </div>
+        </div>
+
+        <div id="tab-unknown" class="tab-content">
+          <div class="block-migration-summary" style="background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);">
+            <h3>Unknown Blocks Total</h3>
+            <div class="summary-stats">
+              <div class="summary-stat">
+                <span class="value">31</span>
+                <span class="label">Screenshot Samples</span>
+              </div>
+              <div class="summary-stat">
+                <span class="value">7</span>
+                <span class="label">Unknown Variants</span>
+              </div>
+              <div class="summary-stat highlight">
+                <span class="value" id="unknown-grand-total-hours">-</span>
+                <span class="label">Total Hours</span>
+              </div>
+            </div>
+          </div>
+          <p style="margin-bottom: 20px; color: #666; font-size: 0.9rem;">
+            Each row is a sampled screenshot for an <strong>unknown</strong> block variant (<code>baseBlock: unknown</code> in <code>block-catalog.json</code>).
+            Set the <strong>Initial Block Creation</strong> time for each pattern you intend to implement.
+          </p>
+          
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">18 samples</span>
+        <h3>9 headings + 8 images + 1 list block-minimal-dark-withimg</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="0">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_TA_gastrointestinal_html--1a426180/blocks/unknown-d751f17.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_TA_gastrointestinal_html--1a426180/blocks/unknown-d751f17.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/TA/gastrointestinal.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/TA/gastrointestinal.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="0" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(0)" oninput="calculateUnknownTime(0)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="0" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(0)" oninput="calculateUnknownTime(0)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-0">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="1">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_TA_prostate-cancer_html--e466cd1b/blocks/unknown-d751f17.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_TA_prostate-cancer_html--e466cd1b/blocks/unknown-d751f17.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/TA/prostate-cancer.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/TA/prostate-cancer.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="1" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(1)" oninput="calculateUnknownTime(1)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="1" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(1)" oninput="calculateUnknownTime(1)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-1">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="2">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_TA_renal_html--ecddf9e4/blocks/unknown-d751f17.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_TA_renal_html--ecddf9e4/blocks/unknown-d751f17.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/TA/renal.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/TA/renal.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="2" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(2)" oninput="calculateUnknownTime(2)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="2" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(2)" oninput="calculateUnknownTime(2)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-2">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="3">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_TA_sle_html--4e96c650/blocks/unknown-d751f17.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_TA_sle_html--4e96c650/blocks/unknown-d751f17.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/TA/sle.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/TA/sle.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="3" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(3)" oninput="calculateUnknownTime(3)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="3" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(3)" oninput="calculateUnknownTime(3)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-3">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="4">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_medical_disease_html--024ef8ef/blocks/unknown-132a5131.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_medical_disease_html--024ef8ef/blocks/unknown-132a5131.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/medical/disease.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/medical/disease.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="4" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(4)" oninput="calculateUnknownTime(4)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="4" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(4)" oninput="calculateUnknownTime(4)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-4">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="5">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_medical_download_html--082c5a69/blocks/unknown-132a5150.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_medical_download_html--082c5a69/blocks/unknown-132a5150.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/medical/download.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/medical/download.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="5" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(5)" oninput="calculateUnknownTime(5)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="5" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(5)" oninput="calculateUnknownTime(5)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-5">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="6">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_medical_guideline_html--9fc0337a/blocks/unknown-132a5150.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_medical_guideline_html--9fc0337a/blocks/unknown-132a5150.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/medical/guideline.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/medical/guideline.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="6" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(6)" oninput="calculateUnknownTime(6)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="6" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(6)" oninput="calculateUnknownTime(6)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-6">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="7">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_medical_pharma_html--c5b9abf2/blocks/unknown-132a5150.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_medical_pharma_html--c5b9abf2/blocks/unknown-132a5150.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/medical/pharma.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/medical/pharma.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="7" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(7)" oninput="calculateUnknownTime(7)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="7" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(7)" oninput="calculateUnknownTime(7)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-7">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="8">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_medical_product_html--27dfda73/blocks/unknown-132a5150.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_medical_product_html--27dfda73/blocks/unknown-132a5150.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/medical/product.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/medical/product.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="8" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(8)" oninput="calculateUnknownTime(8)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="8" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(8)" oninput="calculateUnknownTime(8)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-8">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="9">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_patient_material_html--f1266055/blocks/unknown-132a5150.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_patient_material_html--f1266055/blocks/unknown-132a5150.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/patient/material.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/patient/material.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="9" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(9)" oninput="calculateUnknownTime(9)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="9" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(9)" oninput="calculateUnknownTime(9)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-9">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="10">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_patient_sites_html--ab257a22/blocks/unknown-132a5150.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_patient_sites_html--ab257a22/blocks/unknown-132a5150.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/patient/sites.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/patient/sites.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="10" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(10)" oninput="calculateUnknownTime(10)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="10" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(10)" oninput="calculateUnknownTime(10)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-10">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="11">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-fsn_html--4dda74cd/blocks/unknown-3d95d6e4.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-fsn_html--4dda74cd/blocks/unknown-3d95d6e4.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-fsn.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-fsn.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="11" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(11)" oninput="calculateUnknownTime(11)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="11" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(11)" oninput="calculateUnknownTime(11)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-11">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="12">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/unknown-70f47546.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/unknown-70f47546.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_bt.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_bt.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="12" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(12)" oninput="calculateUnknownTime(12)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="12" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(12)" oninput="calculateUnknownTime(12)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-12">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="13">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/unknown-651f02c1.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/unknown-651f02c1.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_hcc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_hcc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="13" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(13)" oninput="calculateUnknownTime(13)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="13" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(13)" oninput="calculateUnknownTime(13)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-13">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="14">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_lc_html--d9f10bbe/blocks/unknown-c456308.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_lc_html--d9f10bbe/blocks/unknown-c456308.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_lc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_lc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="14" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(14)" oninput="calculateUnknownTime(14)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="14" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(14)" oninput="calculateUnknownTime(14)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-14">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="15">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/unknown-651f02c1.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/unknown-651f02c1.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="15" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(15)" oninput="calculateUnknownTime(15)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="15" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(15)" oninput="calculateUnknownTime(15)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-15">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="16">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-jdo_lc_html--057bbec2/blocks/unknown-c456308.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_lc_html--057bbec2/blocks/unknown-c456308.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-jdo_lc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-jdo_lc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="16" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(16)" oninput="calculateUnknownTime(16)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="16" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(16)" oninput="calculateUnknownTime(16)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-16">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="17">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_safety_OND_html--2b49e4e9/blocks/unknown-7844fca8.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_safety_OND_html--2b49e4e9/blocks/unknown-7844fca8.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/safety/OND.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/safety/OND.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="17" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(17)" oninput="calculateUnknownTime(17)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="17" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(17)" oninput="calculateUnknownTime(17)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-17">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">5 samples</span>
+        <h3>1 heading block-minimal-dark</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="18">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_patient_sites_html--ab257a22/blocks/unknown-6f618e90.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_patient_sites_html--ab257a22/blocks/unknown-6f618e90.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/patient/sites.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/patient/sites.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="18" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(18)" oninput="calculateUnknownTime(18)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="18" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(18)" oninput="calculateUnknownTime(18)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-18">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="19">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-brz_html--3883f655/blocks/unknown-662ab606.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-brz_html--3883f655/blocks/unknown-662ab606.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-brz.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-brz.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="19" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(19)" oninput="calculateUnknownTime(19)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="19" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(19)" oninput="calculateUnknownTime(19)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-19">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="20">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-cal_html--244def74/blocks/unknown-6980c794.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-cal_html--244def74/blocks/unknown-6980c794.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-cal.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-cal.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="20" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(20)" oninput="calculateUnknownTime(20)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="20" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(20)" oninput="calculateUnknownTime(20)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-20">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="21">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_revise_html--244ee9d4/blocks/unknown-6e891818.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_revise_html--244ee9d4/blocks/unknown-6e891818.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/revise.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/revise.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="21" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(21)" oninput="calculateUnknownTime(21)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="21" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(21)" oninput="calculateUnknownTime(21)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-21">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="22">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_safety_OND_html--2b49e4e9/blocks/unknown-5029aaf6.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_safety_OND_html--2b49e4e9/blocks/unknown-5029aaf6.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/safety/OND.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/safety/OND.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="22" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(22)" oninput="calculateUnknownTime(22)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="22" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(22)" oninput="calculateUnknownTime(22)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-22">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">3 samples</span>
+        <h3>4 images + 2 lists + 2 paragraphs block-minimal-medium-withimg</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="23">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/unknown-1778f048.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/unknown-1778f048.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_bt.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_bt.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="23" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(23)" oninput="calculateUnknownTime(23)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="23" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(23)" oninput="calculateUnknownTime(23)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-23">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="24">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/unknown-1778f048.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/unknown-1778f048.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_hcc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_hcc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="24" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(24)" oninput="calculateUnknownTime(24)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="24" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(24)" oninput="calculateUnknownTime(24)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-24">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="25">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/unknown-1778f048.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/unknown-1778f048.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="25" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(25)" oninput="calculateUnknownTime(25)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="25" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(25)" oninput="calculateUnknownTime(25)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-25">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">2 samples</span>
+        <h3>1 heading + 2 images + 1 list + 2 paragraphs block-moderate-light-withimg</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="26">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/unknown-6e579294.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_hcc_html--016c8ba0/blocks/unknown-6e579294.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_hcc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_hcc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="26" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(26)" oninput="calculateUnknownTime(26)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="26" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(26)" oninput="calculateUnknownTime(26)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-26">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="unknown-block-item" data-unknown-index="27">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/unknown-6e579294.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-jdo_hcc_html--900b6723/blocks/unknown-6e579294.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-jdo_hcc.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="27" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(27)" oninput="calculateUnknownTime(27)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="27" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(27)" oninput="calculateUnknownTime(27)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-27">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">1 sample</span>
+        <h3>1 image + 1 list + 1 paragraph block-minimal-dark</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="28">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/unknown-2e0b312.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_brand-imf_bt_html--db38164c/blocks/unknown-2e0b312.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product/brand-imf_bt.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product/brand-imf_bt.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="28" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(28)" oninput="calculateUnknownTime(28)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="28" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(28)" oninput="calculateUnknownTime(28)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-28">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">1 sample</span>
+        <h3>1 list + 2 paragraphs block-minimal-light</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="29">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_safety_OND_html--2b49e4e9/blocks/unknown-4e78666b.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_safety_OND_html--2b49e4e9/blocks/unknown-4e78666b.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/safety/OND.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/safety/OND.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="29" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(29)" oninput="calculateUnknownTime(29)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="29" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(29)" oninput="calculateUnknownTime(29)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-29">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="unknown-category">
+      <div class="category-header">
+        <span class="category-count">1 sample</span>
+        <h3>pagination-moderate-dark</h3>
+      </div>
+      <div class="unknown-blocks-list">
+        
+      <div class="unknown-block-item" data-unknown-index="30">
+        <div class="unknown-screenshot" onclick="openLightbox('.pages/med_astrazeneca_co_jp_product_html--d29935e4/blocks/unknown-6c29afd8.jpg')">
+          <img src=".pages/med_astrazeneca_co_jp_product_html--d29935e4/blocks/unknown-6c29afd8.jpg" alt="Block screenshot" loading="lazy">
+        </div>
+        <div class="unknown-info">
+          <a href="https://med.astrazeneca.co.jp/product.html" target="_blank" rel="noopener" class="unknown-url">https://med.astrazeneca.co.jp/product.html</a>
+          <div class="unknown-calc">
+            <div class="calc-row">
+              <label>Initial:</label>
+              <input type="number" class="unknown-initial-hours" data-unknown-index="30" value="0" min="0" max="100" step="0.5" onchange="calculateUnknownTime(30)" oninput="calculateUnknownTime(30)">
+              <span class="unit">hrs</span>
+            </div>
+            <div class="calc-row replicate-row">
+              <label>Replicate:</label>
+              <input type="number" class="unknown-replicate-mins" data-unknown-index="30" value="0" min="0" max="60" step="1" onchange="calculateUnknownTime(30)" oninput="calculateUnknownTime(30)">
+              <span class="unit">mins</span>
+            </div>
+            <div class="calc-total">
+              <span>Total:</span>
+              <strong id="unknown-total-30">0.0 hrs</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+        </div>
+      </div>
+
+      <div class="block-migration-summary" style="margin-top: 30px; background: linear-gradient(135deg, #28a745 0%, #20c997 100%);">
+        <h3>Combined Migration Total</h3>
+        <div class="summary-stats">
+          <div class="summary-stat">
+            <span class="value">40</span>
+            <span class="label">Known Variants + Unknown Samples</span>
+          </div>
+          <div class="summary-stat highlight">
+            <span class="value" id="combined-grand-total-hours">-</span>
+            <span class="label">Total Hours (blocks + unknowns)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>URL inventory by path prefix</h2>
+      <p style="margin-bottom: 20px; color: #666;">
+        All <strong>75</strong> URLs from <code>urls-all.json</code> (sitemap discovery). This site scope did not produce a separate “default content only” segmentation like large multi-pattern crawls; every URL listed was analyzed for blocks.
+      </p>
+      <div class="default-content-summary" style="background: linear-gradient(135deg, #6c757d 0%, #495057 100%);">
+        <div class="dc-stat">
+          <span class="dc-value">12</span>
+          <span class="dc-label">Path prefix groups</span>
+        </div>
+        <div class="dc-stat">
+          <span class="dc-value">75</span>
+          <span class="dc-label">URLs</span>
+        </div>
+        <div class="dc-stat">
+          <span class="dc-value">0</span>
+          <span class="dc-label">Default-only groups (N/A)</span>
+        </div>
+        <div class="dc-stat">
+          <span class="dc-value">100%</span>
+          <span class="dc-label">URLs cataloged</span>
+        </div>
+      </div>
+
+      <div class="default-content-calc">
+        <div class="calc-title">Optional: time for “simple text” pages (not used when scope is 0)</div>
+        <div class="calc-inputs-row-horizontal">
+          <div class="calc-input-group">
+            <label>Time per page</label>
+            <div class="input-with-unit">
+              <input type="number" id="default-content-mins" value="2" min="0" max="60" step="0.5" onchange="calculateDefaultContentTime()">
+              <span class="unit">mins</span>
+            </div>
+          </div>
+          <div class="calc-result">
+            <span class="result-label">Total Time:</span>
+            <span class="result-value" id="default-content-total">0 hours</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="default-content-table-container">
+        <table class="default-content-table">
+          <thead>
+            <tr>
+              <th>Path prefix</th>
+              <th>URLs</th>
+              <th>Est. pages</th>
+              <th>Sample URL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+      <td class="group-name">/product/</td>
+      <td class="count">37</td>
+      <td class="count">37</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/product/brand-nex.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/product/brand-nex.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/TA/</td>
+      <td class="count">13</td>
+      <td class="count">13</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/TA/gastrointestinal.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/TA/gastrointestinal.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/medical/</td>
+      <td class="count">7</td>
+      <td class="count">7</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/medical/product.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/medical/product.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/safety/</td>
+      <td class="count">7</td>
+      <td class="count">7</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/safety/IMF.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/safety/IMF.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/patient/</td>
+      <td class="count">4</td>
+      <td class="count">4</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/patient/material.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/patient/material.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/index.html/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/index.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/index.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/TA.html/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/TA.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/TA.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/product.html/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/product.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/product.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/patient.html/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/patient.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/patient.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/medical.html/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/medical.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/medical.html</a></td>
+    </tr>
+<tr>
+      <td class="group-name">/safety.html/</td>
+      <td class="count">1</td>
+      <td class="count">1</td>
+      <td class="sample-url"><a href="https://med.astrazeneca.co.jp/safety.html" target="_blank" rel="noopener">https://med.astrazeneca.co.jp/safety.html</a></td>
+    </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Overall Migration Analysis</h2>
+      <p style="margin-bottom: 20px; color: #666;">
+        Breakdown for the 75-URL migration scope: templates (5 h per template + 15 min × each extra <em>unique</em> page after the one template URL), global header/footer (1 h each by default), known and unknown blocks, and optional default-content time (0 pages in this export).
+      </p>
+      <p style="margin-bottom: 16px; color: #666; font-size: 0.9rem;">
+        Summary metrics from <code>summary.json</code>: templates <strong>13</strong>,
+        block variants <strong>16</strong>,
+        EDS variants <strong>9</strong>,
+        unknown variants <strong>7</strong>.
+        Estimated total effort (from tooling): <strong>238.5</strong> hours (~3 weeks at assumptions in summary).
+      </p>
+
+      <div class="overall-grid">
+        <div class="overall-card blocks-card" style="background: linear-gradient(135deg, #001e50 0%, #003380 100%);">
+          <div class="card-icon">📐</div>
+          <h3>Page Templates</h3>
+          <div class="card-stats">
+            <div class="card-stat">
+              <span class="stat-num">13</span>
+              <span class="stat-desc">Templates</span>
+            </div>
+            <div class="card-stat">
+              <span class="stat-num" id="overall-template-hours">-</span>
+              <span class="stat-desc">Hours</span>
+            </div>
+          </div>
+        </div>
+        <div class="overall-card blocks-card" style="background: linear-gradient(135deg, #0d3358 0%, #0a5a7a 100%);">
+          <div class="card-icon">🔝</div>
+          <h3>Header (global)</h3>
+          <div class="card-stats">
+            <div class="card-stat">
+              <span class="stat-num">1</span>
+              <span class="stat-desc">Default hrs</span>
+            </div>
+            <div class="card-stat">
+              <span class="stat-num" id="overall-header-hours">-</span>
+              <span class="stat-desc">Hours</span>
+            </div>
+          </div>
+        </div>
+        <div class="overall-card blocks-card" style="background: linear-gradient(135deg, #0d3358 0%, #0a5a7a 100%);">
+          <div class="card-icon">🔻</div>
+          <h3>Footer (global)</h3>
+          <div class="card-stats">
+            <div class="card-stat">
+              <span class="stat-num">1</span>
+              <span class="stat-desc">Default hrs</span>
+            </div>
+            <div class="card-stat">
+              <span class="stat-num" id="overall-footer-hours">-</span>
+              <span class="stat-desc">Hours</span>
+            </div>
+          </div>
+        </div>
+        <div class="overall-card blocks-card">
+          <div class="card-icon">🧱</div>
+          <h3>Known Blocks</h3>
+          <div class="card-stats">
+            <div class="card-stat">
+              <span class="stat-num">9</span>
+              <span class="stat-desc">Block Variants</span>
+            </div>
+            <div class="card-stat">
+              <span class="stat-num" id="overall-known-hours">-</span>
+              <span class="stat-desc">Hours</span>
+            </div>
+          </div>
+        </div>
+        <div class="overall-card unknown-card">
+          <div class="card-icon">❓</div>
+          <h3>Unknown Blocks</h3>
+          <div class="card-stats">
+            <div class="card-stat">
+              <span class="stat-num">31</span>
+              <span class="stat-desc">Samples</span>
+            </div>
+            <div class="card-stat">
+              <span class="stat-num" id="overall-unknown-hours">-</span>
+              <span class="stat-desc">Hours</span>
+            </div>
+          </div>
+        </div>
+        <div class="overall-card default-card">
+          <div class="card-icon">📄</div>
+          <h3>Default Content</h3>
+          <div class="card-stats">
+            <div class="card-stat">
+              <span class="stat-num">0</span>
+              <span class="stat-desc">Pages (not segmented)</span>
+            </div>
+            <div class="card-stat">
+              <span class="stat-num" id="overall-default-hours">0</span>
+              <span class="stat-desc">Hours</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grand-total-section">
+        <div class="grand-total-header">
+          <h3>🎯 Grand Total Migration Effort</h3>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.95;">Sum of templates, header, footer, known blocks, unknowns, and default-content (if any).</p>
+        </div>
+        <div class="grand-total-stats">
+          <div class="gt-stat">
+            <span class="gt-value">75</span>
+            <span class="gt-label">Total Pages (scope)</span>
+          </div>
+          <div class="gt-stat highlight">
+            <span class="gt-value" id="grand-total-all-hours">-</span>
+            <span class="gt-label">Total Hours</span>
+          </div>
+          <div class="gt-stat">
+            <span class="gt-value" id="grand-total-days">-</span>
+            <span class="gt-label">Work Days (8hr)</span>
+          </div>
+          <div class="gt-stat">
+            <span class="gt-value" id="grand-total-weeks">-</span>
+            <span class="gt-label">Work Weeks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Migration Intelligence & Recommendations</h2>
+      <p style="margin-bottom: 20px; color: #666;">
+        High-level readouts from this catalog run (pharma med site, Japanese locale).
+      </p>
+      <div style="background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); border-radius: 12px; padding: 24px; margin-bottom: 24px; border-left: 5px solid #28a745;">
+        <h3 style="color: #155724; margin: 0 0 16px 0;">⚡ Quick wins</h3>
+        <ul style="color: #155724; font-size: 0.9rem; line-height: 1.7;">
+          <li><strong>Hero-heavy patterns</strong> — <code>hero-minimal-dark-withimg</code> covers many interior pages; build one solid hero variant first.</li>
+          <li><strong>Standard EDS blocks</strong> — cards, columns, and embed variants are already classified; reuse across product and TA pages.</li>
+          <li><strong>Templates</strong> — 13 template clusters; open <strong>Migration Effort Calculator → Page Templates</strong> for jared-style cards and time inputs.</li>
+        </ul>
+      </div>
+      <div style="background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%); border-radius: 12px; padding: 24px; margin-bottom: 24px; border-left: 5px solid #ffc107;">
+        <h3 style="color: #856404; margin: 0 0 16px 0;">⚠️ Medium complexity</h3>
+        <ul style="color: #856404; font-size: 0.9rem; line-height: 1.7;">
+          <li>Multiple <strong>product microsite</strong> templates (tabbed, video, topics) need distinct authoring patterns.</li>
+          <li><strong>Indication hubs</strong> (IMFINZI / IMJUDO LC·HCC patterns) share components but vary layout — plan shared blocks with template-level overrides.</li>
+        </ul>
+      </div>
+      <div style="background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%); border-radius: 12px; padding: 24px; border-left: 5px solid #dc3545;">
+        <h3 style="color: #721c24; margin: 0 0 16px 0;">🔴 Review unknown variants</h3>
+        <p style="color: #721c24; font-size: 0.9rem;">
+          7 unknown block variant(s) with 31 screenshot samples — validate against future block library names and consolidate where the same layout was split by sampling noise.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Generated from Experience Catalyst catalog outputs | med.astrazeneca.co.jp</p>
+      <p>Data: <code>block-catalog.json</code>, <code>template-catalog.json</code>, <code>summary.json</code>, <code>urls-all.json</code>, <code>urls-checklist.json</code></p>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Block Screenshot">
+  </div>
+
+  <script>
+    const totalUnknownInstances = 31;
+    const defaultContentPages = 0;
+    const numKnownBlocks = 9;
+
+    function switchTab(ev, tabName) {
+      document.querySelectorAll('.tab-content').forEach(function(tab) { tab.classList.remove('active'); });
+      document.querySelectorAll('.tab-button').forEach(function(btn) { btn.classList.remove('active'); });
+      document.getElementById('tab-' + tabName).classList.add('active');
+      if (ev && ev.target && ev.target.closest) {
+        var b = ev.target.closest('.tab-button');
+        if (b) b.classList.add('active');
+      }
+    }
+
+    function recalcTemplateCard(source) {
+      var card = source && source.closest ? source.closest('.template-card') : null;
+      if (!card) return;
+      var idx = card.getAttribute('data-template-index');
+      var n = parseInt(card.getAttribute('data-url-count'), 10) || 0;
+      var init = parseFloat(card.querySelector('.template-initial-hours').value) || 0;
+      var mins = parseFloat(card.querySelector('.template-replicate-mins').value) || 0;
+      var repH = (Math.max(0, n - 1) * mins) / 60;
+      var total = init + repH;
+      var elInit = document.getElementById('template-init-hours-' + idx);
+      var elRep = document.getElementById('template-rep-hours-' + idx);
+      var elTot = document.getElementById('template-migration-total-' + idx);
+      if (elInit) elInit.textContent = init.toFixed(1);
+      if (elRep) elRep.textContent = repH.toFixed(1);
+      if (elTot) elTot.textContent = total.toFixed(1) + ' hrs';
+      var sum = 0;
+      document.querySelectorAll('#tab-templates .template-card').forEach(function(c) {
+        var cn = parseInt(c.getAttribute('data-url-count'), 10) || 0;
+        var ci = parseFloat(c.querySelector('.template-initial-hours').value) || 0;
+        var cm = parseFloat(c.querySelector('.template-replicate-mins').value) || 0;
+        sum += ci + (Math.max(0, cn - 1) * cm) / 60;
+      });
+      var tt = document.getElementById('template-tab-grand-total');
+      if (tt) tt.textContent = sum.toFixed(1);
+      calculateGrandTotals();
+    }
+
+    function recalcHeaderFooterHours() {
+      var hEl = document.getElementById('header-global-hours');
+      var fEl = document.getElementById('footer-global-hours');
+      var h = hEl ? (parseFloat(hEl.value) || 0) : 0;
+      var f = fEl ? (parseFloat(fEl.value) || 0) : 0;
+      var hr = document.getElementById('header-hf-result');
+      var fr = document.getElementById('footer-hf-result');
+      if (hr) hr.textContent = h.toFixed(1) + ' hrs';
+      if (fr) fr.textContent = f.toFixed(1) + ' hrs';
+      var ht = document.getElementById('header-tab-grand-total');
+      var ft = document.getElementById('footer-tab-grand-total');
+      if (ht) ht.textContent = h.toFixed(1);
+      if (ft) ft.textContent = f.toFixed(1);
+      calculateGrandTotals();
+    }
+
+    function calculateBlockTime(prefix, index) {
+      var card = document.querySelector('.block-card-with-calc[data-block-index="' + index + '"][data-prefix="' + prefix + '"]');
+      var pages = parseInt(card.dataset.pages, 10);
+      var initialHours = parseFloat(card.querySelector('.initial-hours').value) || 0;
+      var replicateMins = parseFloat(card.querySelector('.replicate-mins').value) || 0;
+      var replicationPages = Math.max(0, pages - 1);
+      var replicationHours = (replicationPages * replicateMins) / 60;
+      var totalHours = initialHours + replicationHours;
+      document.getElementById(prefix + '-initial-time-' + index).textContent = initialHours.toFixed(1);
+      document.getElementById(prefix + '-replicate-time-' + index).textContent = replicationHours.toFixed(1);
+      document.getElementById(prefix + '-total-time-' + index).textContent = totalHours.toFixed(1) + ' hours';
+      calculateGrandTotals();
+    }
+
+    function calculateUnknownTime(index) {
+      var item = document.querySelector('.unknown-block-item[data-unknown-index="' + index + '"]');
+      var initialHours = parseFloat(item.querySelector('.unknown-initial-hours').value) || 0;
+      document.getElementById('unknown-total-' + index).textContent = initialHours.toFixed(1) + ' hrs';
+      calculateGrandTotals();
+    }
+
+    function calculateDefaultContentTime() {
+      var minsPerPage = parseFloat(document.getElementById('default-content-mins').value) || 0;
+      var totalHours = (defaultContentPages * minsPerPage) / 60;
+      document.getElementById('default-content-total').textContent = totalHours.toFixed(1) + ' hours';
+      document.getElementById('overall-default-hours').textContent = totalHours.toFixed(1);
+      calculateGrandTotals();
+    }
+
+    function calculateGrandTotals() {
+      var templateTotalHours = 0;
+      document.querySelectorAll('#tab-templates .template-card').forEach(function(c) {
+        var cn = parseInt(c.getAttribute('data-url-count'), 10) || 0;
+        var ci = parseFloat(c.querySelector('.template-initial-hours').value) || 0;
+        var cm = parseFloat(c.querySelector('.template-replicate-mins').value) || 0;
+        templateTotalHours += ci + (Math.max(0, cn - 1) * cm) / 60;
+      });
+      var headerH = 0;
+      var footerH = 0;
+      var hIn = document.getElementById('header-global-hours');
+      var fIn = document.getElementById('footer-global-hours');
+      if (hIn) headerH = parseFloat(hIn.value) || 0;
+      if (fIn) footerH = parseFloat(fIn.value) || 0;
+      var knownTotalHours = 0;
+      var unknownTotalHours = 0;
+      document.querySelectorAll('.block-card-with-calc[data-prefix="known"]').forEach(function(card) {
+        var pages = parseInt(card.dataset.pages, 10);
+        var initialHours = parseFloat(card.querySelector('.initial-hours').value) || 0;
+        var replicateMins = parseFloat(card.querySelector('.replicate-mins').value) || 0;
+        var replicationHours = (Math.max(0, pages - 1) * replicateMins) / 60;
+        knownTotalHours += initialHours + replicationHours;
+      });
+      document.querySelectorAll('.unknown-block-item').forEach(function(item) {
+        unknownTotalHours += parseFloat(item.querySelector('.unknown-initial-hours').value) || 0;
+      });
+      var defaultMins = parseFloat(document.getElementById('default-content-mins').value) || 0;
+      var defaultTotalHours = (defaultContentPages * defaultMins) / 60;
+      var combinedTotalHours = knownTotalHours + unknownTotalHours;
+      var grandTotalHours = templateTotalHours + headerH + footerH + knownTotalHours + unknownTotalHours + defaultTotalHours;
+      var tt = document.getElementById('template-tab-grand-total');
+      if (tt) tt.textContent = templateTotalHours.toFixed(1);
+      document.getElementById('known-grand-total-hours').textContent = knownTotalHours.toFixed(1) + ' hrs';
+      document.getElementById('unknown-grand-total-hours').textContent = unknownTotalHours.toFixed(1) + ' hrs';
+      document.getElementById('combined-grand-total-hours').textContent = combinedTotalHours.toFixed(1) + ' hrs';
+      var oth = document.getElementById('overall-template-hours');
+      if (oth) oth.textContent = templateTotalHours.toFixed(1);
+      var ohh = document.getElementById('overall-header-hours');
+      var ofh = document.getElementById('overall-footer-hours');
+      if (ohh) ohh.textContent = headerH.toFixed(1);
+      if (ofh) ofh.textContent = footerH.toFixed(1);
+      document.getElementById('overall-known-hours').textContent = knownTotalHours.toFixed(1);
+      document.getElementById('overall-unknown-hours').textContent = unknownTotalHours.toFixed(1);
+      document.getElementById('grand-total-all-hours').textContent = grandTotalHours.toFixed(1) + ' hrs';
+      document.getElementById('grand-total-days').textContent = (grandTotalHours / 8).toFixed(1);
+      document.getElementById('grand-total-weeks').textContent = (grandTotalHours / 40).toFixed(1);
+    }
+
+    function openLightbox(src) {
+      if (src && src.indexOf('undefined') === -1 && src !== '') {
+        document.getElementById('lightbox-img').src = src;
+        document.getElementById('lightbox').classList.add('active');
+      }
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    window.onload = function() {
+      var firstTemplateInp = document.querySelector('#tab-templates .template-card .template-initial-hours');
+      if (firstTemplateInp) recalcTemplateCard(firstTemplateInp);
+      recalcHeaderFooterHours();
+      for (var i = 0; i < numKnownBlocks; i++) calculateBlockTime('known', i);
+      for (var j = 0; j < totalUnknownInstances; j++) calculateUnknownTime(j);
+      calculateDefaultContentTime();
+    };
+  </script>
+</body>
+</html>

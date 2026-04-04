@@ -1,0 +1,607 @@
+📌 Session state: ANALYZING
+================================================================================
+BATCH ANALYSIS STARTED
+Catalog: /workspace/catalog
+Delay: 1500ms between requests
+Workers: 5
+Identity profiles: 13 available (workers cycle through them deterministically)
+Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+================================================================================
+Found 215 URLs to process (5 workers)
+AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+Pages to analyze: 211
+Processing speed baseline: ~50 pages/minute (5 workers)
+Estimated analysis time: ~5 min
+Worker 0 started (profile 0: Windows)
+[1/215] Processing: https://www.astrazeneca.it/
+SKIPPED: Already analyzed
+Worker 1 started (profile 1: Windows)
+[2/215] Processing: https://www.astrazeneca.it/area-stampa.html
+SKIPPED: Already analyzed
+[3/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases.html
+SKIPPED: Already analyzed
+Worker 2 started (profile 2: Windows)
+[4/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016.html
+SKIPPED: Already analyzed
+[5/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trat--bc9f315c
+Starting analysis (profile 1): https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trat--bc9f315c
+[6/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattament--63a929b2
+Starting analysis (profile 0): https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattament--63a929b2
+🥷 Launching stealth browser...
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-US, America/New_York
+🎭 Using identity: Windows, en-US, America/Chicago
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html
+Worker 3 started (profile 3: Windows)
+[7/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_osimertinib_AURA3_html--d206cfee
+Starting analysis (profile 3): https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_osimertinib_AURA3_html--d206cfee
+[8/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_ceftazidime-avibactam_html--8f65a3f1
+Starting analysis (profile 2): https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_ceftazidime-avibactam_html--8f65a3f1
+🥷 Launching stealth browser...
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-GB, Europe/London
+🎭 Using identity: Windows, en-US, America/Los_Angeles
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html
+Worker 4 started (profile 4: macOS)
+[9/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_selumetinib_html--7e7ee18e
+Starting analysis (profile 4): https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_selumetinib_html--7e7ee18e
+🥷 Launching stealth browser...
+🎭 Using identity: macOS, en-US, America/New_York
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📜 Phase 0A: Triggering lazy-loaded content...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+   Header: header element not found - proceeding without header analysis
+📦 Phase 2: Identifying main content area...
+   Footer: footer element not found - proceeding without footer analysis
+   Main content: body
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html (30s elapsed)
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html (exit code: 1)
+CRITICAL: First page failed with error: RUNTIME_ERROR
+Consider checking the URL is accessible before continuing.
+PROGRESS: 1/211 analyzed (2% checklist complete) | 0 ok, 1 failed, 4 skipped | ~137 min remaining
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html (exit code: 1)
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html (exit code: 1)
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html (exit code: 1)
+[10/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_Pfizer_html--d4a58a52
+Starting analysis (profile 1): https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_Pfizer_html--d4a58a52
+[11/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_osimertinib_CE_html--a43e04fe
+Starting analysis (profile 0): https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_osimertinib_CE_html--a43e04fe
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-US, America/Chicago
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-US, America/New_York
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html
+[12/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_Top_Employer_html--98433b59
+Starting analysis (profile 3): https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_Top_Employer_html--98433b59
+[13/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_Voluntis_html--1658cd33
+Starting analysis (profile 2): https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_Voluntis_html--1658cd33
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html (exit code: 1)
+🥷 Launching stealth browser...
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-GB, Europe/London
+🎭 Using identity: Windows, en-US, America/Los_Angeles
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html
+[14/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_secretomics_html--41272c49
+Starting analysis (profile 4): https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_secretomics_html--41272c49
+🥷 Launching stealth browser...
+🎭 Using identity: macOS, en-US, America/New_York
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+📜 Phase 0A: Triggering lazy-loaded content...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html (30s elapsed)
+HEARTBEAT: still analyzing https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html (30s elapsed)
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html (exit code: 1)
+PROGRESS: 6/211 analyzed (5% checklist complete) | 0 ok, 6 failed, 4 skipped | ~44 min remaining
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html (exit code: 1)
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html (exit code: 1)
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html (exit code: 1)
+[15/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/incyte.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_incyte_html--b9917a27
+Starting analysis (profile 1): https://www.astrazeneca.it/area-stampa/press-releases/2016/incyte.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_incyte_html--b9917a27
+[16/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/ricerca_traslazionale.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_ricerca_traslazionale_html--628477b4
+Starting analysis (profile 0): https://www.astrazeneca.it/area-stampa/press-releases/2016/ricerca_traslazionale.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_ricerca_traslazionale_html--628477b4
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-US, America/Chicago
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/incyte.html
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-US, America/New_York
+[17/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/moderna_therapeutics.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_moderna_therapeutics_html--872d378f
+Starting analysis (profile 2): https://www.astrazeneca.it/area-stampa/press-releases/2016/moderna_therapeutics.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_moderna_therapeutics_html--872d378f
+[18/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/acerta_pharma.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_acerta_pharma_html--b934af8f
+Starting analysis (profile 3): https://www.astrazeneca.it/area-stampa/press-releases/2016/acerta_pharma.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_acerta_pharma_html--b934af8f
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/ricerca_traslazionale.html
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+FAILED: https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html (exit code: 1)
+🥷 Launching stealth browser...
+🥷 Launching stealth browser...
+🎭 Using identity: Windows, en-US, America/Los_Angeles
+🎭 Using identity: Windows, en-GB, Europe/London
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/moderna_therapeutics.html
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/acerta_pharma.html
+[19/215] Processing: https://www.astrazeneca.it/area-stampa/press-releases/2016/consorzio-RCP2.html
+Generated slug: www_astrazeneca_it_area-stampa_press-releases_2016_consorzio-RCP2_html--308b0579
+Starting analysis (profile 4): https://www.astrazeneca.it/area-stampa/press-releases/2016/consorzio-RCP2.html -> /workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2016_consorzio-RCP2_html--308b0579
+🥷 Launching stealth browser...
+🎭 Using identity: macOS, en-US, America/New_York
+📄 Loading: https://www.astrazeneca.it/area-stampa/press-releases/2016/consorzio-RCP2.html
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+📜 Phase 0A: Triggering lazy-loaded content...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+📜 Phase 0A: Triggering lazy-loaded content...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+   Lazy-load scroll complete
+🧹 Phase 0B: Cleaning up overlays...
+   Removed 15 elements: overlay, popup, other
+📐 Detecting header/footer for this page...
+📝 AUTO-LOGGED: WARNING - Template - Header not detected on page
+📝 AUTO-LOGGED: WARNING - Template - Footer not detected on page
+   Header: header element not found - proceeding without header analysis
+   Footer: footer element not found - proceeding without footer analysis
+📦 Phase 2: Identifying main content area...
+   Main content: body
+🔍 Phase 3: Detecting blocks...
+📝 AUTO-LOGGED: WARNING - Blocks - No blocks detected on page (may be text-only or detection failed)
+📸 Phase 4: Capturing block screenshots...
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/incyte.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/ricerca_traslazionale.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/acerta_pharma.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/moderna_therapeutics.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+📝 AUTO-LOGGED: ERROR - Screenshots - Failed to capture full page: page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+   Captured 0 block screenshots
+🏗️ Extracting DOM structure...
+❌ Analysis failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+📝 AUTO-LOGGED: ERROR - Page analysis failed for https://www.astrazeneca.it/area-stampa/press-releases/2016/consorzio-RCP2.html: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')
+    at eval (eval at evaluate (:290:30), <anonymous>:35:46)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+{"success":false,"error":"page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}

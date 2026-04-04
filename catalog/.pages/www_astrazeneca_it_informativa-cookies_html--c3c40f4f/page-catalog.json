@@ -1,0 +1,355 @@
+{
+  "url": "https://www.astrazeneca.it/informativa-cookies.html",
+  "timestamp": "2026-03-30T11:32:19.305Z",
+  "duration": "11.2s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": true
+  },
+  "templateSignature": {
+    "blockCount": 2,
+    "pageHeight": 2843,
+    "urlDepth": 1,
+    "urlGroup": "/informativa-cookies.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "form"
+    ],
+    "blockTypes": {
+      "hero": 1,
+      "form": 1
+    },
+    "contentMetrics": {
+      "totalHeadings": 1,
+      "totalImages": 0,
+      "totalCTAs": 158,
+      "hasForm": true,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": true,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": true,
+      "formPosition": "middle",
+      "formBlockCount": 1
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 2843,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": true,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 8
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/informativa-cookies.html",
+    "path": "/informativa-cookies.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_informativa-cookies_html--c3c40f4f/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_informativa-cookies_html--c3c40f4f/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "headerRowCount": 10,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 235
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 96,
+        "width": 610,
+        "height": 48
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 1223
+    },
+    "bodyStartY": 250,
+    "bodyStartRow": 10,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 311,
+        "y": 307,
+        "width": 791,
+        "height": 36
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 357,
+        "width": 797,
+        "height": 76
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 477,
+        "width": 206,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 517,
+        "width": 208,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 545,
+        "width": 818,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 316,
+        "y": 575,
+        "width": 76,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 606,
+        "width": 35,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 336,
+        "y": 625,
+        "width": 277,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 351,
+        "y": 691,
+        "width": 737,
+        "height": 100
+      },
+      {
+        "type": "table",
+        "x": 311,
+        "y": 834,
+        "width": 818,
+        "height": 449
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 1284,
+        "width": 35,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 974,
+        "y": 1291,
+        "width": 55,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 336,
+        "y": 1303,
+        "width": 155,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 371,
+        "y": 1349,
+        "width": 236,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 886,
+        "y": 1397,
+        "width": 243,
+        "height": 16
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-60c05e69",
+      "type": "hero",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "aemComponent": true,
+      "selector": "div.hero-header.hero-header--no-contact",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 235
+      },
+      "screenshot": "blocks/hero-60c05e69.jpg"
+    },
+    {
+      "id": "form-236bec98",
+      "type": "form",
+      "confidence": "high",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 13,
+        "imageCount": 0,
+        "buttonCount": 34,
+        "linkCount": 124,
+        "listCount": 57,
+        "childCount": 1,
+        "hasForm": true,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text + 34 CTAs + list"
+      },
+      "selector": "div.iframe.section",
+      "bounds": {
+        "x": 311,
+        "y": 1085,
+        "width": 818,
+        "height": 963
+      },
+      "screenshot": "blocks/form-236bec98.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 2,
+    "blockTypes": {
+      "hero": 1,
+      "form": 1
+    },
+    "pageHeight": 2843,
+    "urlDepth": 1,
+    "urlGroup": "/informativa-cookies.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "rowCount": 10,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 1223
+    },
+    "startY": 250,
+    "startRow": 10,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

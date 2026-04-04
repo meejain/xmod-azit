@@ -1,0 +1,255 @@
+{
+  "url": "https://www.astrazeneca.it/modello-231.html",
+  "timestamp": "2026-03-30T11:32:26.347Z",
+  "duration": "9.3s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 1,
+    "pageHeight": 1067,
+    "urlDepth": 1,
+    "urlGroup": "/modello-231.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero"
+    ],
+    "blockTypes": {
+      "hero": 1
+    },
+    "contentMetrics": {
+      "totalHeadings": 1,
+      "totalImages": 1,
+      "totalCTAs": 1,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": false,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 1067,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": false,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 22
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/modello-231.html",
+    "path": "/modello-231.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_modello-231_html--0c703f4c/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_modello-231_html--0c703f4c/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "headerRowCount": 10,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 235
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 96,
+        "width": 278,
+        "height": 48
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 650
+    },
+    "bodyStartY": 250,
+    "bodyStartRow": 10,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 83,
+        "y": 276,
+        "width": 257,
+        "height": 71
+      },
+      {
+        "type": "image",
+        "x": 1,
+        "y": 281,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "type": "text",
+        "x": 20,
+        "y": 352,
+        "width": 1400,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 20,
+        "y": 384,
+        "width": 664,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 20,
+        "y": 414,
+        "width": 1394,
+        "height": 36
+      },
+      {
+        "type": "text",
+        "x": 20,
+        "y": 462,
+        "width": 1400,
+        "height": 150
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-2203c5c",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 8,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + text + image + list"
+      },
+      "selector": "#main",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 732
+      },
+      "screenshot": "blocks/hero-2203c5c.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 1,
+    "blockTypes": {
+      "hero": 1
+    },
+    "pageHeight": 1067,
+    "urlDepth": 1,
+    "urlGroup": "/modello-231.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "rowCount": 10,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 650
+    },
+    "startY": 250,
+    "startRow": 10,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "url": "https://www.astrazeneca.it/pia-aral.html",
+  "timestamp": "2026-03-30T11:32:30.175Z",
+  "duration": "9.1s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 2,
+    "pageHeight": 1355,
+    "urlDepth": 1,
+    "urlGroup": "/pia-aral.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "hero"
+    ],
+    "blockTypes": {
+      "hero": 2
+    },
+    "contentMetrics": {
+      "totalHeadings": 3,
+      "totalImages": 2,
+      "totalCTAs": 3,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 2,
+      "firstPosition": "top",
+      "hasBackgroundImage": true,
+      "hasVideo": false,
+      "positions": [
+        "top",
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 1355,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": false,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 17
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/pia-aral.html",
+    "path": "/pia-aral.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_pia-aral_html--db39020c/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_pia-aral_html--db39020c/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "headerRowCount": 10,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 235
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 96,
+        "width": 879,
+        "height": 48
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 720
+    },
+    "bodyStartY": 250,
+    "bodyStartRow": 10,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 100,
+        "y": 367,
+        "width": 630,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 435,
+        "width": 1235,
+        "height": 100
+      },
+      {
+        "type": "image",
+        "x": 101,
+        "y": 909,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 914,
+        "width": 257,
+        "height": 51
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-60c05e69",
+      "type": "hero",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "aemComponent": true,
+      "selector": "div.hero-header.hero-header--no-contact",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 235
+      },
+      "screenshot": "blocks/hero-60c05e69.jpg"
+    },
+    {
+      "id": "hero-6924db32",
+      "type": "hero",
+      "confidence": "high",
+      "description": "2 headings + 2 images + 2 paragraphs block",
+      "content": {
+        "headingCount": 2,
+        "paragraphCount": 2,
+        "imageCount": 2,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + text + 2 images"
+      },
+      "selector": "div.contentWrapper.section",
+      "bounds": {
+        "x": 0,
+        "y": 385,
+        "width": 1440,
+        "height": 735
+      },
+      "screenshot": "blocks/hero-6924db32.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 2,
+    "blockTypes": {
+      "hero": 2
+    },
+    "pageHeight": 1355,
+    "urlDepth": 1,
+    "urlGroup": "/pia-aral.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "rowCount": 10,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 720
+    },
+    "startY": 250,
+    "startRow": 10,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "url": "https://www.astrazeneca.it/covid-19/made-for-the-world-italy.html",
+  "timestamp": "2026-03-30T11:31:42.591Z",
+  "duration": "9.6s",
+  "cleanup": {
+    "elementsRemoved": 13,
+    "types": [
+      "popup",
+      "other"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 4,
+    "pageHeight": 2265,
+    "urlDepth": 2,
+    "urlGroup": "/covid-19/made-for-the-world-italy.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "unknown-45f0",
+      "unknown-45f0",
+      "unknown-45f0"
+    ],
+    "blockTypes": {
+      "hero": 1,
+      "unknown-45f0": 3
+    },
+    "contentMetrics": {
+      "totalHeadings": 0,
+      "totalImages": 6,
+      "totalCTAs": 19,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": true,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 2265,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": true,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 10
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/covid-19/made-for-the-world-italy.html",
+    "path": "/covid-19/made-for-the-world-italy.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_html--37b5457e/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_html--37b5457e/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 572
+    },
+    "headerRowCount": 23,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h3",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 410
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 176,
+        "y": 480,
+        "width": 138,
+        "height": 21
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 572,
+      "width": 1440,
+      "height": 328
+    },
+    "bodyStartY": 572,
+    "bodyStartRow": 22,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 311,
+        "y": 572,
+        "width": 400,
+        "height": 214
+      },
+      {
+        "type": "text",
+        "x": 729,
+        "y": 582,
+        "width": 400,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 729,
+        "y": 614,
+        "width": 377,
+        "height": 55
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-ed87b15",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "image"
+      },
+      "selector": "section.rich-header",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 410
+      },
+      "screenshot": "blocks/hero-ed87b15.jpg"
+    },
+    {
+      "id": "unknown-45f0a5be",
+      "type": "unknown",
+      "description": "1 image + 3 paragraphs block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 3,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "text + image"
+      },
+      "selector": "div.par.parsys > div:nth-child(3)",
+      "bounds": {
+        "x": 0,
+        "y": 662,
+        "width": 1440,
+        "height": 214
+      },
+      "screenshot": "blocks/unknown-45f0a5be.jpg"
+    },
+    {
+      "id": "unknown-45f0a59f",
+      "type": "unknown",
+      "description": "1 image + 7 CTAs block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 8,
+        "imageCount": 1,
+        "buttonCount": 7,
+        "linkCount": 8,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "text + 7 CTAs + image"
+      },
+      "selector": "div.par.parsys > div:nth-child(4)",
+      "bounds": {
+        "x": 0,
+        "y": 876,
+        "width": 1440,
+        "height": 573
+      },
+      "screenshot": "blocks/unknown-45f0a59f.jpg"
+    },
+    {
+      "id": "unknown-45f0a580",
+      "type": "unknown",
+      "description": "3 images + 1 paragraph block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 1,
+        "imageCount": 3,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "text + 3 images"
+      },
+      "selector": "div.par.parsys > div:nth-child(5)",
+      "bounds": {
+        "x": 0,
+        "y": 1459,
+        "width": 1440,
+        "height": 571
+      },
+      "screenshot": "blocks/unknown-45f0a580.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 4,
+    "blockTypes": {
+      "hero": 1,
+      "unknown-45f0": 3
+    },
+    "pageHeight": 2265,
+    "urlDepth": 2,
+    "urlGroup": "/covid-19/made-for-the-world-italy.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 572
+    },
+    "rowCount": 23,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h3",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 572,
+      "width": 1440,
+      "height": 328
+    },
+    "startY": 572,
+    "startRow": 22,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

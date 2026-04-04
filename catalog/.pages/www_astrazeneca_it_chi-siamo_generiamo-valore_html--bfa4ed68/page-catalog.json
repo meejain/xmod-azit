@@ -1,0 +1,375 @@
+{
+  "url": "https://www.astrazeneca.it/chi-siamo/generiamo-valore.html",
+  "timestamp": "2026-03-30T11:31:19.822Z",
+  "duration": "10.3s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 5,
+    "pageHeight": 1800,
+    "urlDepth": 2,
+    "urlGroup": "/chi-siamo/generiamo-valore.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "carousel",
+      "carousel",
+      "carousel",
+      "carousel"
+    ],
+    "blockTypes": {
+      "hero": 1,
+      "carousel": 4
+    },
+    "contentMetrics": {
+      "totalHeadings": 5,
+      "totalImages": 5,
+      "totalCTAs": 4,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": true,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 1800,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": true,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 13
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/chi-siamo/generiamo-valore.html",
+    "path": "/chi-siamo/generiamo-valore.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_chi-siamo_generiamo-valore_html--bfa4ed68/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_chi-siamo_generiamo-valore_html--bfa4ed68/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 425
+    },
+    "headerRowCount": 17,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 410
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 190,
+        "width": 397,
+        "height": 48
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 425,
+      "width": 1440,
+      "height": 563
+    },
+    "bodyStartY": 425,
+    "bodyStartRow": 17,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 100,
+        "y": 473,
+        "width": 667,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 592,
+        "width": 171,
+        "height": 38
+      },
+      {
+        "type": "background",
+        "x": 100,
+        "y": 645,
+        "width": 607,
+        "height": 263
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 850,
+        "width": 260,
+        "height": 26
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-5280318",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "section.rich-header.l-margin",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 410
+      },
+      "screenshot": "blocks/hero-5280318.jpg"
+    },
+    {
+      "id": "carousel-7126acdf",
+      "type": "carousel",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "div.link-image-panel-v2.link-image-panel-v2--navy",
+      "bounds": {
+        "x": 100,
+        "y": 959,
+        "width": 607,
+        "height": 263
+      },
+      "screenshot": "blocks/carousel-7126acdf.jpg"
+    },
+    {
+      "id": "carousel-394f6d5b",
+      "type": "carousel",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "div.link-image-panel-v2.link-image-panel-v2--purple",
+      "bounds": {
+        "x": 100,
+        "y": 1242,
+        "width": 607,
+        "height": 263
+      },
+      "screenshot": "blocks/carousel-394f6d5b.jpg"
+    },
+    {
+      "id": "carousel-4dee2ae0",
+      "type": "carousel",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "div.link-image-panel-v2.link-image-panel-v2--magenta",
+      "bounds": {
+        "x": 733,
+        "y": 959,
+        "width": 607,
+        "height": 263
+      },
+      "screenshot": "blocks/carousel-4dee2ae0.jpg"
+    },
+    {
+      "id": "carousel-7ba8728c",
+      "type": "carousel",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "medium",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "div.link-image-panel-v2.link-image-panel-v2--lime-green",
+      "bounds": {
+        "x": 733,
+        "y": 1242,
+        "width": 607,
+        "height": 263
+      },
+      "screenshot": "blocks/carousel-7ba8728c.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 5,
+    "blockTypes": {
+      "hero": 1,
+      "carousel": 4
+    },
+    "pageHeight": 1800,
+    "urlDepth": 2,
+    "urlGroup": "/chi-siamo/generiamo-valore.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 425
+    },
+    "rowCount": 17,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 425,
+      "width": 1440,
+      "height": 563
+    },
+    "startY": 425,
+    "startRow": 17,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

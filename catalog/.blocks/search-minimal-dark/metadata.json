@@ -1,0 +1,21 @@
+{
+  "variantName": "search-minimal-dark",
+  "baseBlock": "search",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-03-30T11:39:09Z",
+  "sourceContext": {
+    "originUrl": "https://www.astrazeneca.it/area-stampa.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {"colorScheme":"dark","density":"minimal","hasBackgroundImage":false,"hasGrid":false,"imagePattern":"icon","structure":"heading + text + 5 CTAs + image + list"},
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.astrazeneca.it/area-stampa.html",
+        "screenshot": ".pages/www_astrazeneca_it_area-stampa_html--75a37b88/blocks/search-2203c5c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

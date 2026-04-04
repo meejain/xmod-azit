@@ -1,0 +1,25 @@
+{
+  "variantName": "header-global",
+  "baseBlock": "header",
+  "canonicalModel": "configuration",
+  "version": "1.0.0",
+  "created": "2026-03-30T10:45:15.504Z",
+  "sourceContext": {
+    "originUrl": "https://www.astrazeneca.it/",
+    "discoveredDuring": "global-header-capture"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "moderate",
+    "complexity": "advanced"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.astrazeneca.it/",
+        "screenshot": ".pages/_global/header.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

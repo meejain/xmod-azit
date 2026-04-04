@@ -1,0 +1,36 @@
+{
+  "variantName": "carousel-minimal-dark-withimg",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-03-30T11:44:06Z",
+  "sourceContext": {
+    "originUrl": "https://www.astrazeneca.it/lavoraconnoi/carriere.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 3 images + list"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.astrazeneca.it/lavoraconnoi.html",
+        "screenshot": ".pages/www_astrazeneca_it_lavoraconnoi_html--01aee52f/blocks/carousel-72aa788.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/lavoraconnoi/carriere.html",
+        "screenshot": ".pages/www_astrazeneca_it_lavoraconnoi_carriere_html--b1c744df/blocks/carousel-72aa788.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/lavoraconnoi/early-talent.html",
+        "screenshot": ".pages/www_astrazeneca_it_lavoraconnoi_early-talent_html--c4077bed/blocks/carousel-72aa788.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html",
+  "timestamp": "2026-03-30T11:05:37.711Z",
+  "error": {
+    "message": "page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+    "stack": "page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:290:30), <anonymous>:35:46)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at extractDomStructure (/home/node/.claude/plugins/cache/excat-marketplace/excat/2.1.1/skills/excat-catalog-pages/scripts/catalog-template-signature.js:50:15)\n    at analyzePage (/home/node/.claude/plugins/cache/excat-marketplace/excat/2.1.1/skills/excat-catalog-pages/scripts/catalog-analyze-page.js:369:32)"
+  },
+  "cleanup": null,
+  "template": null,
+  "blocks": []
+}

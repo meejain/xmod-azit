@@ -1,0 +1,185 @@
+Session: CLUSTERING -> CLUSTERING
+Checklist complete: 215 terminal entries (215 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  template peaks: min cluster=3 | bic>10
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 212 page fingerprints
+Site color palette: 3 colors
+  Colors: #303030, #900060, #c0c000
+Artifacts validated: 212/212 pages
+
+PHASE 2: Building Distance Matrix
+----------------------------------------
+Matrix size: 212x212
+Computing 22366 pairwise distances...
+Weights: body=15%, header=70%, signature=15%
+Distance stats: min=0.00, max=0.95, mean=0.39
+Average pairwise similarity: 61.2%
+
+PHASE 3: URL Grouping
+----------------------------------------
+URL grouping: 10 path groups + 16 root singletons
+  Group 1 (area-stampa/press-releases): 174 pages
+  Group 2 (area-stampa/__landing__:press-releases): 1 pages
+  Group 3 (aree-terapeutiche): 3 pages
+  Group 4 (chi-siamo/generiamo-valore): 4 pages
+  Group 5 (chi-siamo/__landing__:generiamo-valore): 1 pages
+  Group 6 (chi-siamo): 1 pages
+  Group 7 (covid-19): 4 pages
+  Group 8 (covid-19/__landing__:made-for-the-world-italy): 1 pages
+  Group 9 (covid-19/made-for-the-world-italy): 5 pages
+  Group 10 (lavoraconnoi): 2 pages
+  Seed group -16: 1 pages
+  Seed group -15: 1 pages
+  Seed group -14: 1 pages
+  Seed group -13: 1 pages
+  Seed group -12: 1 pages
+  Seed group -11: 1 pages
+  Seed group -10: 1 pages
+  Seed group -9: 1 pages
+  Seed group -8: 1 pages
+  Seed group -7: 1 pages
+  Seed group -6: 1 pages
+  Seed group -5: 1 pages
+  Seed group -4: 1 pages
+  Seed group -3: 1 pages
+  Seed group -2: 1 pages
+  Seed group -1: 1 pages
+  Seed group 1: 174 pages
+  Seed group 2: 1 pages
+  Seed group 3: 3 pages
+  Seed group 4: 4 pages
+  Seed group 5: 1 pages
+  Seed group 6: 1 pages
+  Seed group 7: 4 pages
+  Seed group 8: 1 pages
+  Seed group 9: 5 pages
+  Seed group 10: 2 pages
+
+PHASE 4: Local Seed Validation And Split
+----------------------------------------
+  Seed group 1 (174p): SPLIT -> 10 groups [50, 37, 32, 17, 13, 12, 4, 3, 3, 3]
+    reason: bic-selected split
+    bic: k=1: -9495.6 -> k=10: -13279.1 (delta=+3783.6)
+  Seed group 3 (3p): SPLIT -> 3 groups [1, 1, 1]
+    reason: bic-selected split
+    bic: k=1: -8.8 -> k=3: -46.6 (delta=+37.8)
+  Seed group 4 (4p): SPLIT -> 4 groups [1, 1, 1, 1]
+    reason: bic-selected split
+    bic: k=1: -20.1 -> k=4: -52.8 (delta=+32.7)
+  Seed group 7 (4p): SPLIT -> 4 groups [1, 1, 1, 1]
+    reason: bic-selected split
+    bic: k=1: 1.7 -> k=4: -52.8 (delta=+54.5)
+  Seed group 9 (5p): SPLIT -> 5 groups [1, 1, 1, 1, 1]
+    reason: bic-selected split
+    bic: k=1: 7.5 -> k=5: -57.0 (delta=+64.5)
+GMM: 5 splits | 0 unclear
+
+PHASE 5: Template Candidate Merging
+----------------------------------------
+Singletons before merge: 36
+
+Starting: 47 total (11 clusters, 36 singletons)
+Header merge gate: 85%
+Body merge gate: max_coverage >= 60%, min_coverage >= 20%
+
+Merging (single-loop HAC)
+  ✓ MERGE: -5 → 6  [sim: 100%]
+      https://www.astrazeneca.it/chi-siamo.html → https://www.astrazeneca.it/chi-siamo/la-nostra-azienda.html
+  ✓ MERGE: 14 → 12  [sim: 100%]
+      https://www.astrazeneca.it/area-stampa/press-releases/2017/budesonide_formoterolo_spray.html → https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumabasco2016.html
+  ✓ MERGE: 13 → 1  [sim: 100%]
+      https://www.astrazeneca.it/area-stampa/press-releases/2018/studiocvdreal.html → https://www.astrazeneca.it/area-stampa/press-releases/2016/CAZ-AVI-CHMP.html
+  ✓ MERGE: -6 → 5  [sim: 100%]
+      https://www.astrazeneca.it/contattaci.html → https://www.astrazeneca.it/chi-siamo/generiamo-valore.html
+  ✓ MERGE: -10 → 10  [sim: 100%]
+      https://www.astrazeneca.it/lavoraconnoi.html → https://www.astrazeneca.it/lavoraconnoi/carriere.html
+  ✓ MERGE: -3 → 2  [sim: 100%]
+      https://www.astrazeneca.it/area-stampa.html → https://www.astrazeneca.it/area-stampa/press-releases.html
+  ✓ MERGE: 3 → 27  [sim: 100%]
+      https://www.astrazeneca.it/aree-terapeutiche/malattie-respiratorie-infiammatorie-autoimmuni1.html → https://www.astrazeneca.it/covid-19/non-solo-vaccino--gli-anticorpi-monoclonali-per-contrastare-lepi.html
+  ✓ MERGE: -2 → 25  [sim: 100%, subset: max=100%]
+      https://www.astrazeneca.it/EFPIA.html → https://www.astrazeneca.it/covid-19/la-ricerca-e-sviluppo-del-vaccino-azd1222.html
+  ✓ MERGE: -16 → -13  [sim: 100%, subset: max=75%]
+      https://www.astrazeneca.it/whistleblowing.html → https://www.astrazeneca.it/pia-aral.html
+  ✓ MERGE: 5 → 6  [sim: 99%]
+      https://www.astrazeneca.it/chi-siamo/generiamo-valore.html → https://www.astrazeneca.it/chi-siamo/la-nostra-azienda.html
+  ✓ MERGE: -1 → 26  [sim: 99%, subset: max=88%]
+      https://www.astrazeneca.it/ → https://www.astrazeneca.it/covid-19/area-stampa.html
+  ✓ MERGE: 2 → 17  [sim: 98%]
+      https://www.astrazeneca.it/area-stampa/press-releases.html → https://www.astrazeneca.it/area-stampa/press-releases/2017.html
+  ✓ MERGE: -7 → 23  [sim: 98%, subset: max=71%]
+      https://www.astrazeneca.it/covid-19.html → https://www.astrazeneca.it/chi-siamo/generiamo-valore/capitale-ambientale.html
+  ✓ MERGE: -14 → -8  [sim: 96%]
+      https://www.astrazeneca.it/privacy-policy.html → https://www.astrazeneca.it/informativa-cookies.html
+  ✓ MERGE: 20 → 25  [sim: 95%, subset: max=100%]
+      https://www.astrazeneca.it/aree-terapeutiche/oncologia.html → https://www.astrazeneca.it/covid-19/la-ricerca-e-sviluppo-del-vaccino-azd1222.html
+  ✓ MERGE: 11 → 1  [sim: 94%]
+      https://www.astrazeneca.it/area-stampa/press-releases/2016/exenatide.html → https://www.astrazeneca.it/area-stampa/press-releases/2016/Saxa-dapa-CHMP.html
+  ✓ MERGE: 16 → 15  [sim: 94%, subset: max=100%]
+      https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumabesmo.html → https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html
+  ✓ MERGE: 29 → 31  [sim: 93%]
+      https://www.astrazeneca.it/covid-19/made-for-the-world-italy/le-persone.html → https://www.astrazeneca.it/covid-19/made-for-the-world-italy/il-nostro-impegno.html
+  ✓ MERGE: 28 → 31  [sim: 89%]
+      https://www.astrazeneca.it/covid-19/made-for-the-world-italy/ultime-notizie.html → https://www.astrazeneca.it/covid-19/made-for-the-world-italy/il-nostro-impegno.html
+  19 merges total (converged)
+  Assigning empty clusters to best header match
+  ✓ EMPTY→ 17 → -11  [sim: 99%]
+      https://www.astrazeneca.it/area-stampa/press-releases/2016.html → https://www.astrazeneca.it/area-stampa/press-releases.html
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 47 clusters
+After:  27 clusters (15 multi-page, 12 singletons)
+Merged: 20 clusters (93 pages reassigned)
+==================================================
+
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -15: 1p
+  Template candidate -13: 2p
+  Template candidate -12: 1p
+  Template candidate -11: 6p | representatives 5
+  Template candidate -9: 1p
+  Template candidate -8: 2p
+  Template candidate -4: 1p
+  Template candidate 1: 104p | representatives 5
+  Template candidate 4: 1p
+  Template candidate 6: 4p | representatives 4
+  Template candidate 7: 1p
+  Template candidate 8: 1p
+  Template candidate 9: 1p
+  Template candidate 10: 3p | representatives 2
+  Template candidate 12: 45p | representatives 5
+  Template candidate 15: 16p | representatives 5
+  Template candidate 18: 3p
+  Template candidate 19: 3p | representatives 3
+  Template candidate 21: 1p
+  Template candidate 22: 1p
+  Template candidate 23: 2p | representatives 2
+  Template candidate 24: 1p
+  Template candidate 25: 3p | representatives 3
+  Template candidate 26: 2p | representatives 2
+  Template candidate 27: 2p | representatives 2
+  Template candidate 30: 1p
+  Template candidate 31: 3p | representatives 3
+Built 27 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 27 templates, 12 singletons. Ready for tuning.

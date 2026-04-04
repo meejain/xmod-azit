@@ -1,0 +1,36 @@
+{
+  "variantName": "carousel-minimal-dark",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-03-30T11:42:23Z",
+  "sourceContext": {
+    "originUrl": "https://www.astrazeneca.it/chi-siamo/generiamo-valore.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": true,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + image"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.astrazeneca.it/chi-siamo/generiamo-valore.html",
+        "screenshot": ".pages/www_astrazeneca_it_chi-siamo_generiamo-valore_html--bfa4ed68/blocks/carousel-7126acdf.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/contattaci.html",
+        "screenshot": ".pages/www_astrazeneca_it_contattaci_html--7b298f90/blocks/carousel-7126acdf.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_html--5209fe84/blocks/carousel-6924db32.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

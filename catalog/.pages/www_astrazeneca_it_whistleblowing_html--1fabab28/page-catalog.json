@@ -1,0 +1,241 @@
+{
+  "url": "https://www.astrazeneca.it/whistleblowing.html",
+  "timestamp": "2026-03-30T11:32:30.155Z",
+  "duration": "9.1s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 1,
+    "pageHeight": 1119,
+    "urlDepth": 1,
+    "urlGroup": "/whistleblowing.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero"
+    ],
+    "blockTypes": {
+      "hero": 1
+    },
+    "contentMetrics": {
+      "totalHeadings": 4,
+      "totalImages": 1,
+      "totalCTAs": 2,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": false,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 1119,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": false,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 21
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/whistleblowing.html",
+    "path": "/whistleblowing.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_whistleblowing_html--1fabab28/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_whistleblowing_html--1fabab28/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "headerRowCount": 10,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 235
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 96,
+        "width": 898,
+        "height": 48
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 650
+    },
+    "bodyStartY": 250,
+    "bodyStartRow": 10,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 100,
+        "y": 305,
+        "width": 1230,
+        "height": 87
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 433,
+        "width": 1184,
+        "height": 65
+      },
+      {
+        "type": "image",
+        "x": 81,
+        "y": 545,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "type": "text",
+        "x": 163,
+        "y": 550,
+        "width": 257,
+        "height": 51
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-2203c5c",
+      "type": "hero",
+      "confidence": "high",
+      "description": "4 headings + 1 image + 1 paragraph block",
+      "content": {
+        "headingCount": 4,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + text + image"
+      },
+      "selector": "#main",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 794
+      },
+      "screenshot": "blocks/hero-2203c5c.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 1,
+    "blockTypes": {
+      "hero": 1
+    },
+    "pageHeight": 1119,
+    "urlDepth": 1,
+    "urlGroup": "/whistleblowing.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "rowCount": 10,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 650
+    },
+    "startY": 250,
+    "startRow": 10,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "url": "https://www.astrazeneca.it/chi-siamo.html",
+  "timestamp": "2026-03-30T11:31:12.976Z",
+  "duration": "9.4s",
+  "cleanup": {
+    "elementsRemoved": 15,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 4,
+    "pageHeight": 2007,
+    "urlDepth": 1,
+    "urlGroup": "/chi-siamo.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "unknown-308a",
+      "unknown-45f0",
+      "unknown-45f0"
+    ],
+    "blockTypes": {
+      "hero": 1,
+      "unknown-308a": 1,
+      "unknown-45f0": 2
+    },
+    "contentMetrics": {
+      "totalHeadings": 7,
+      "totalImages": 3,
+      "totalCTAs": 3,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": true,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 2007,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": false,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030",
+      "#c0c000"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 12
+      },
+      {
+        "color": "#c0c000",
+        "areaPercent": 4
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/chi-siamo.html",
+    "path": "/chi-siamo.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_chi-siamo_html--6d1e6732/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_chi-siamo_html--6d1e6732/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1460,
+      "height": 425
+    },
+    "headerRowCount": 17,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 410
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 170,
+        "width": 228,
+        "height": 48
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 425,
+      "width": 1460,
+      "height": 763
+    },
+    "bodyStartY": 425,
+    "bodyStartRow": 17,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 100,
+        "y": 429,
+        "width": 659,
+        "height": 27
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 556,
+        "width": 203,
+        "height": 35
+      },
+      {
+        "type": "image",
+        "x": 80,
+        "y": 612,
+        "width": 626,
+        "height": 469
+      },
+      {
+        "type": "text",
+        "x": 734,
+        "y": 624,
+        "width": 618,
+        "height": 76
+      },
+      {
+        "type": "text",
+        "x": 80,
+        "y": 1121,
+        "width": 626,
+        "height": 67
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-ed87b15",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "section.rich-header",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 410
+      },
+      "screenshot": "blocks/hero-ed87b15.jpg"
+    },
+    {
+      "id": "unknown-308a4938",
+      "type": "unknown",
+      "description": "1 heading + 1 CTA + 2 paragraphs block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 2,
+        "imageCount": 0,
+        "buttonCount": 1,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + text + 1 CTAs"
+      },
+      "selector": "div.HTMLEmbed.section",
+      "bounds": {
+        "x": 0,
+        "y": 500,
+        "width": 1440,
+        "height": 86
+      },
+      "screenshot": "blocks/unknown-308a4938.jpg"
+    },
+    {
+      "id": "unknown-45f0a59f",
+      "type": "unknown",
+      "description": "4 headings + 1 image + 1 paragraph block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 4,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "selector": "div.par.parsys > div:nth-child(4)",
+      "bounds": {
+        "x": 0,
+        "y": 646,
+        "width": 1440,
+        "height": 495
+      },
+      "screenshot": "blocks/unknown-45f0a59f.jpg"
+    },
+    {
+      "id": "unknown-45f0a580",
+      "type": "unknown",
+      "description": "1 heading + 1 image block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 8,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "selector": "div.par.parsys > div:nth-child(5)",
+      "bounds": {
+        "x": 0,
+        "y": 1140,
+        "width": 1440,
+        "height": 632
+      },
+      "screenshot": "blocks/unknown-45f0a580.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 4,
+    "blockTypes": {
+      "hero": 1,
+      "unknown-308a": 1,
+      "unknown-45f0": 2
+    },
+    "pageHeight": 2007,
+    "urlDepth": 1,
+    "urlGroup": "/chi-siamo.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1460,
+      "height": 425
+    },
+    "rowCount": 17,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 425,
+      "width": 1460,
+      "height": 763
+    },
+    "startY": 425,
+    "startRow": 17,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

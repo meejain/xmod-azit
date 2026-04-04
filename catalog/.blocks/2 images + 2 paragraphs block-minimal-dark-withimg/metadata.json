@@ -1,0 +1,64 @@
+{
+  "variantName": "2 images + 2 paragraphs block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-03-30T11:42:10Z",
+  "sourceContext": {
+    "originUrl": "https://www.astrazeneca.it/chi-siamo/generiamo-valore/capitale-ambientale.html",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + 2 images"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.astrazeneca.it/chi-siamo/generiamo-valore/capitale-ambientale.html",
+        "screenshot": ".pages/www_astrazeneca_it_chi-siamo_generiamo-valore_capitale-ambientale_html--72b1a4cf/blocks/unknown-2bd0f847.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/chi-siamo/generiamo-valore/capitale-cognitivo.html",
+        "screenshot": ".pages/www_astrazeneca_it_chi-siamo_generiamo-valore_capitale-cognitivo_html--b40105ff/blocks/unknown-1003e680.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/chi-siamo/generiamo-valore/capitale-economico.html",
+        "screenshot": ".pages/www_astrazeneca_it_chi-siamo_generiamo-valore_capitale-economico_html--30b95105/blocks/unknown-544a5880.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/chi-siamo/generiamo-valore/capitale-sociale.html",
+        "screenshot": ".pages/www_astrazeneca_it_chi-siamo_generiamo-valore_capitale-sociale_html--c3fe3f6c/blocks/unknown-72d08f1b.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19/area-stampa.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_area-stampa_html--2e6f4c9e/blocks/unknown-2f8f2149.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19/made-for-the-world-italy.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_html--37b5457e/blocks/unknown-45f0a580.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19/made-for-the-world-italy/il-nostro-impegno.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_il-nostro-impegno_html--ed52388f/blocks/unknown-4f3b8549.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19/made-for-the-world-italy/le-persone.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_le-persone_html--3c35595c/blocks/unknown-3a5d1598.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19/made-for-the-world-italy/ricerca-e-sviluppo.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_ricerca-e-sviluppo_html--5c8ca3d0/blocks/unknown-409cbb8a.jpg"
+      },
+      {
+        "url": "https://www.astrazeneca.it/covid-19/made-for-the-world-italy/ultime-notizie.html",
+        "screenshot": ".pages/www_astrazeneca_it_covid-19_made-for-the-world-italy_ultime-notizie_html--748d1335/blocks/unknown-4df2f340.jpg"
+      }
+    ],
+    "reuseCount": 10
+  }
+}

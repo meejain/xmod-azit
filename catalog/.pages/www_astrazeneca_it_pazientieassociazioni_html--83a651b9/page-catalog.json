@@ -1,0 +1,347 @@
+{
+  "url": "https://www.astrazeneca.it/pazientieassociazioni.html",
+  "timestamp": "2026-03-30T11:32:08.819Z",
+  "duration": "13.0s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 2,
+    "pageHeight": 14807,
+    "urlDepth": 1,
+    "urlGroup": "/pazientieassociazioni.html",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "accordion"
+    ],
+    "blockTypes": {
+      "hero": 1,
+      "accordion": 1
+    },
+    "contentMetrics": {
+      "totalHeadings": 9,
+      "totalImages": 1,
+      "totalCTAs": 0,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": true,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 14807,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": false,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": false,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 2
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/pazientieassociazioni.html",
+    "path": "/pazientieassociazioni.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_pazientieassociazioni_html--83a651b9/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_pazientieassociazioni_html--83a651b9/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 425
+    },
+    "headerRowCount": 17,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "div",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "background",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 410
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 132,
+        "width": 525,
+        "height": 100
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 425,
+      "width": 1440,
+      "height": 3159
+    },
+    "bodyStartY": 425,
+    "bodyStartRow": 17,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 100,
+        "y": 470,
+        "width": 1200,
+        "height": 71
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 594,
+        "width": 491,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 628,
+        "width": 818,
+        "height": 26
+      },
+      {
+        "type": "table",
+        "x": 100,
+        "y": 664,
+        "width": 818,
+        "height": 2322
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3065,
+        "width": 236,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3123,
+        "width": 778,
+        "height": 60
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3195,
+        "width": 56,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3223,
+        "width": 778,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3255,
+        "width": 762,
+        "height": 36
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3305,
+        "width": 88,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 3394,
+        "width": 665,
+        "height": 35
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 3440,
+        "width": 1145,
+        "height": 43
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 3506,
+        "width": 1208,
+        "height": 36
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 3554,
+        "width": 1240,
+        "height": 20
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-ed87b15",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": true,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "selector": "section.rich-header",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 410
+      },
+      "screenshot": "blocks/hero-ed87b15.jpg"
+    },
+    {
+      "id": "accordion-6ea4efde",
+      "type": "accordion",
+      "confidence": "high",
+      "content": {
+        "headingCount": 8,
+        "paragraphCount": 236,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "aemComponent": true,
+      "selector": "div.accordion.section",
+      "bounds": {
+        "x": 100,
+        "y": 3165,
+        "width": 818,
+        "height": 11027
+      },
+      "screenshot": "blocks/accordion-6ea4efde.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 2,
+    "blockTypes": {
+      "hero": 1,
+      "accordion": 1
+    },
+    "pageHeight": 14807,
+    "urlDepth": 1,
+    "urlGroup": "/pazientieassociazioni.html"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 425
+    },
+    "rowCount": 17,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "div",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 425,
+      "width": 1440,
+      "height": 3159
+    },
+    "startY": 425,
+    "startRow": 17,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "url": "https://www.astrazeneca.it/area-stampa/press-releases/2018/ticagrelor.html",
+  "timestamp": "2026-03-30T11:28:27.085Z",
+  "duration": "9.5s",
+  "cleanup": {
+    "elementsRemoved": 11,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "templateSignature": {
+    "blockCount": 2,
+    "pageHeight": 2497,
+    "urlDepth": 4,
+    "urlGroup": "/area-stampa/press-releases",
+    "themeTokens": [],
+    "blockSequence": [
+      "hero",
+      "unknown-79da"
+    ],
+    "blockTypes": {
+      "hero": 1,
+      "unknown-79da": 1
+    },
+    "contentMetrics": {
+      "totalHeadings": 1,
+      "totalImages": 0,
+      "totalCTAs": 2,
+      "hasForm": false,
+      "hasVideo": false
+    },
+    "hasGridPattern": false,
+    "heroBlock": {
+      "present": true,
+      "count": 1,
+      "firstPosition": "top",
+      "hasBackgroundImage": false,
+      "hasVideo": false,
+      "positions": [
+        "top"
+      ]
+    },
+    "formCharacteristics": {
+      "hasForm": false
+    },
+    "domStructure": {
+      "bodyClasses": [
+        "js"
+      ],
+      "contentWidth": 1440,
+      "scrollHeight": 2497,
+      "hasAside": false,
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasArticle": true,
+      "sectionCount": 0
+    },
+    "layoutPattern": {
+      "primaryLayout": "single-column",
+      "hasSidebar": false,
+      "columnCount": 1,
+      "gridPattern": false
+    },
+    "contentType": {
+      "likelyBlogPost": false,
+      "likelyProductPage": false,
+      "likelyLandingPage": false,
+      "likelyListingPage": false
+    },
+    "navigationPatterns": {
+      "hasBreadcrumb": false,
+      "hasPagination": false,
+      "hasSidebarNav": false
+    }
+  },
+  "colorTheme": {
+    "dominantColors": [
+      "#303030"
+    ],
+    "colorDetails": [
+      {
+        "color": "#303030",
+        "areaPercent": 9
+      }
+    ]
+  },
+  "fingerprints": {
+    "urlPattern": "/area-stampa/press-releases/*/ticagrelor.html",
+    "path": "/area-stampa/press-releases/2018/ticagrelor.html",
+    "screenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2018_ticagrelor_html--874589da/header-normalized.jpg",
+    "headerScreenshotPath": "/workspace/catalog/.pages/www_astrazeneca_it_area-stampa_press-releases_2018_ticagrelor_html--874589da/header-normalized.jpg",
+    "headerBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 392
+    },
+    "headerRowCount": 16,
+    "headerRowHeight": 25,
+    "headerStrategy": "main-heading-container",
+    "headerSourceHeadingTag": "h1",
+    "headerSourceContainerTag": "section",
+    "headerUsedContainer": true,
+    "headerUsedFallback": false,
+    "headerPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 79,
+        "width": 1240,
+        "height": 100
+      },
+      {
+        "type": "text",
+        "x": 100,
+        "y": 352,
+        "width": 174,
+        "height": 40
+      }
+    ],
+    "bodyBounds": {
+      "x": 0,
+      "y": 392,
+      "width": 1440,
+      "height": 584
+    },
+    "bodyStartY": 392,
+    "bodyStartRow": 15,
+    "bodyStrategy": "below-main-heading-container",
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 311,
+        "y": 453,
+        "width": 366,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 515,
+        "width": 811,
+        "height": 65
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 593,
+        "width": 784,
+        "height": 100
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 743,
+        "width": 83,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 771,
+        "width": 808,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 821,
+        "width": 818,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 853,
+        "width": 149,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 883,
+        "width": 613,
+        "height": 16
+      }
+    ],
+    "placeholderSchemaVersion": 1
+  },
+  "blocks": [
+    {
+      "id": "hero-74404635",
+      "type": "hero",
+      "confidence": "high",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "aemComponent": true,
+      "selector": "section.hero-feature.hero-feature--no-background",
+      "bounds": {
+        "x": 0,
+        "y": 90,
+        "width": 1440,
+        "height": 352
+      },
+      "screenshot": "blocks/hero-74404635.jpg"
+    },
+    {
+      "id": "unknown-79daee43",
+      "type": "unknown",
+      "description": "1 CTA block",
+      "confidence": "low",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 1,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "1 CTAs"
+      },
+      "selector": "div.callToAction.section",
+      "bounds": {
+        "x": 311,
+        "y": 543,
+        "width": 818,
+        "height": 52
+      },
+      "screenshot": "blocks/unknown-79daee43.jpg"
+    }
+  ],
+  "summary": {
+    "blockCount": 2,
+    "blockTypes": {
+      "hero": 1,
+      "unknown-79da": 1
+    },
+    "pageHeight": 2497,
+    "urlDepth": 4,
+    "urlGroup": "/area-stampa/press-releases"
+  },
+  "fullPageScreenshot": "full-page.jpg",
+  "pageHeader": {
+    "normalizedScreenshot": "header-normalized.jpg",
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 392
+    },
+    "rowCount": 16,
+    "rowHeight": 25,
+    "sourceHeadingTag": "h1",
+    "sourceContainerTag": "section",
+    "usedContainer": true,
+    "strategy": "main-heading-container",
+    "usedFallback": false
+  },
+  "pageBody": {
+    "bounds": {
+      "x": 0,
+      "y": 392,
+      "width": 1440,
+      "height": 584
+    },
+    "startY": 392,
+    "startRow": 15,
+    "strategy": "below-main-heading-container",
+    "usedFallback": false
+  }
+}
