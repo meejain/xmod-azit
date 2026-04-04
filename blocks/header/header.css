@@ -283,7 +283,7 @@ header nav .nav-brand {
 
 @media (width >= 900px) {
   header nav .nav-brand {
-    padding: 0 24px 0 0; /* Gap between logo and nav items */
+    padding: 0 24px 0 16px; /* Left margin for logo + gap to nav */
   }
 }
 
@@ -324,7 +324,7 @@ header nav[aria-expanded='true'] .nav-tools {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    padding: 0;
+    padding: 8px 16px; /* Figma: px-[16px] py-[8px] */
   }
 
   header nav .nav-tools .default-content-wrapper {
@@ -366,8 +366,8 @@ header nav .nav-tools a {
 
 @media (width >= 900px) {
   header nav .nav-tools p {
-    padding: 0 6px;
-    border-left: 1px solid var(--az-text);
+    padding: 0 6px; /* Figma: px-[6px] */
+    border-left: 1px solid var(--az-text); /* Figma: border-[1px] border-solid border-[#363b3b] */
   }
 
   header nav .nav-tools p:first-child {
@@ -393,8 +393,13 @@ header nav .nav-search-trigger {
 }
 
 header nav .nav-search-trigger .icon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
+}
+
+header nav .nav-search-trigger svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* ================================
@@ -416,16 +421,15 @@ header nav[aria-expanded='true'] .nav-sections {
 }
 
 @media (width >= 900px) {
-  /* Full-width border via pseudo-element */
+  /* Full-width top border on Row 2 only — no bottom border */
   header .nav-wrapper::after {
     content: '';
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
-    height: 57px; /* Figma: Main Header h-[57px] */
+    bottom: 57px; /* Position at top of Row 2 */
+    height: 0;
     border-top: 1px solid var(--az-border);
-    border-bottom: 1px solid var(--az-border);
     pointer-events: none;
     z-index: -1;
   }
@@ -465,15 +469,15 @@ header nav .nav-sections .default-content-wrapper > ul {
 }
 
 /* ================================
-   NAV ITEMS — Live site: lexia 300 14px/20px, letter-spacing 1px
+   NAV ITEMS — Figma: Lexia font-normal text-[14px] leading-[18px]
    Hover: border-bottom 4px solid #d0006f
    ================================ */
 header nav .nav-sections .default-content-wrapper > ul > li {
   position: relative;
   font-family: var(--az-font-lexia);
-  font-weight: 300; /* Live site: 300 */
-  font-size: 14px;
-  line-height: 20px; /* Live site: 20px */
+  font-weight: 400; /* Figma: font-normal */
+  font-size: 14px; /* Figma: text-[14px] */
+  line-height: 18px; /* Figma: leading-[18px] */
   color: var(--az-text);
   border-bottom: 1px solid var(--az-border);
 }
@@ -482,10 +486,9 @@ header nav .nav-sections .default-content-wrapper > ul > li > a {
   display: block;
   padding: 12px 16px;
   font-family: var(--az-font-lexia);
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 1px; /* Live site: 1px */
+  font-weight: 400; /* Figma: font-normal */
+  font-size: 14px; /* Figma: text-[14px] */
+  line-height: 18px; /* Figma: leading-[18px] */
   color: var(--az-text);
   text-decoration: none;
   white-space: nowrap;
@@ -519,23 +522,25 @@ header nav .nav-sections .default-content-wrapper > ul > li > a {
   }
 }
 
-/* CSS chevron ::after — desktop only */
+/* CSS chevron ::after — desktop only, simple thin caret matching Figma */
 @media (width >= 900px) {
   header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > a::after {
     content: '';
     display: inline-block;
     vertical-align: middle;
     margin-left: 6px;
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 5px solid var(--az-text);
+    width: 5px;
+    height: 5px;
+    border-right: 1.5px solid var(--az-text);
+    border-bottom: 1.5px solid var(--az-text);
+    transform: rotate(45deg);
+    position: relative;
+    top: -2px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > a::after {
-    border-top: none;
-    border-bottom: 5px solid var(--az-text);
+    transform: rotate(-135deg);
+    top: 1px;
   }
 }
 
