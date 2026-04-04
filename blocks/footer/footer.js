@@ -116,4 +116,14 @@ export default async function decorate(block) {
   const wrapper = document.createElement('div');
   wrapper.append(footerTop, footerBottom);
   block.append(wrapper);
+
+  // Fix broken images from DA (about:error) — fall back to code-bus path
+  block.querySelectorAll('img').forEach((img) => {
+    if (!img.src || img.src.includes('about:error') || img.src.includes('about:blank')) {
+      const alt = img.alt || '';
+      if (alt.toLowerCase().includes('logo')) {
+        img.src = '/icons/logo-az.png';
+      }
+    }
+  });
 }
