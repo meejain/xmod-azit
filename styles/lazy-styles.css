@@ -7,11 +7,18 @@ main > .section.hero-press-container {
 
 main > .section.hero-press-container ~ .section {
   margin: 0 auto;
+  padding: 0 16px 40px;
 }
 
-/* Press release article body section — block layout matching original */
+/* Press release article body section — tablet and desktop */
+@media (width >= 600px) {
+  main > .section.hero-press-container ~ .section {
+    padding: 0 20px 60px;
+  }
+}
+
 @media (width >= 900px) {
-  .hero-press-container ~ .section {
+  main > .section.hero-press-container ~ .section {
     box-sizing: border-box;
     display: block;
     max-width: 1280px;
@@ -36,7 +43,7 @@ main > .section.hero-press-container ~ .section {
   position: relative;
 }
 
-/* Download block — indented to match body text column */
+/* Download block — indented to match body text column on desktop */
 @media (width >= 900px) {
   .hero-press-container ~ .section > .download-press-wrapper {
     margin-left: 17%;
