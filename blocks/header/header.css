@@ -23,7 +23,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 100;
   position: fixed;
-  overflow: hidden;
+  overflow-x: clip;
 }
 
 @media (width >= 900px) {
