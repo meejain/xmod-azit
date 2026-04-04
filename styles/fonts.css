@@ -2,27 +2,49 @@
 
 /* AstraZeneca Brand Font: Lexia
    Lexia is a commercial serif typeface by Dalton Maag.
-   It should be loaded via Adobe Fonts (Typekit) or a licensed CDN.
-   The fallback stack below matches the live AstraZeneca site exactly.
-   When Lexia is available via the font service, it will render correctly.
-   Until then, Times New Roman provides a similar serif appearance.
+
+   TO ACTIVATE LEXIA:
+   Option A — Self-host: Place lexia-regular.woff2 and lexia-medium.woff2
+              in the /fonts/ folder. The @font-face rules below will load them.
+   Option B — Adobe Fonts: Add the Typekit embed code to /head.html:
+              <link rel="stylesheet" href="https://use.typekit.net/YOUR_KIT_ID.css">
+
+   Until Lexia font files are provided, Times New Roman renders as fallback.
 */
 
-/* Lexia fallback definition — matches live site font stack */
+/* Lexia Regular (weight 400) — used in Row 2 nav items */
+@font-face {
+  font-family: lexia;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/lexia-regular.woff2') format('woff2');
+}
+
+/* Lexia Medium (weight 500) — used in Row 1 utility links */
+@font-face {
+  font-family: lexia;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/lexia-medium.woff2') format('woff2');
+}
+
+/* Lexia fallback — renders Times New Roman with size-adjust until real font loads */
 @font-face {
   font-family: lexia-fallback;
   size-adjust: 105%;
   src: local('Times New Roman');
 }
 
-/* Inter fallback definition */
+/* Inter fallback */
 @font-face {
   font-family: inter-fallback;
   size-adjust: 100%;
   src: local('Arial');
 }
 
-/* Existing Roboto fonts (boilerplate defaults) */
+/* Roboto fonts (boilerplate defaults) */
 @font-face {
   font-family: roboto-condensed;
   font-style: normal;
