@@ -302,21 +302,19 @@ footer .footer .footer-copyright p {
     margin-top: 32px;
   }
 
-  /* Social icons — all 5 fit in one row on mobile */
+  /* Social icons — matching live site: 42x42px circles */
   footer .footer .footer-social {
-    gap: 8px;
+    gap: 10px;
     padding: 24px 16px;
     justify-content: flex-start;
   }
 
   footer .footer .footer-social-icon {
-    width: calc((100vw - 32px - 32px) / 5); /* 5 icons, 16px side padding, 4×8px gaps */
-    max-width: 80px;
-    aspect-ratio: 1;
-    height: auto;
-    border: 1px solid #555;
+    width: 42px; /* Live site: 42px */
+    height: 42px; /* Live site: 42px */
+    border: 1px solid #3c4242; /* Live site: 1px solid rgb(60, 66, 66) */
     border-radius: 50%;
-    padding: 16px;
+    padding: 8px;
     box-sizing: border-box;
   }
 
