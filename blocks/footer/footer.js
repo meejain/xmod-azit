@@ -37,28 +37,40 @@ export default async function decorate(block) {
 
   block.textContent = '';
 
-  const allElements = [];
-  const wrappers = fragment.querySelectorAll('.default-content-wrapper');
-  if (wrappers.length > 0) {
-    wrappers.forEach((w) => {
-      [...w.children].forEach((child) => allElements.push(child));
-    });
-  } else {
-    [...fragment.children].forEach((child) => allElements.push(child));
-  }
-
+  // Collect elements — handle both DA (sections) and local (flat with <hr>)
   const topEls = [];
   const bottomEls = [];
-  let isBottom = false;
-  allElements.forEach((el) => {
-    if (el.tagName === 'HR') {
-      isBottom = true;
-    } else if (isBottom) {
-      bottomEls.push(el);
+
+  const sections = fragment.querySelectorAll('.section');
+  if (sections.length >= 2) {
+    // DA/production: 2 section divs (no <hr>)
+    // Section 1 = top (logo, desc, links)
+    // Section 2 = bottom (social, copyright)
+    sections[0].querySelectorAll('.default-content-wrapper > *').forEach((el) => topEls.push(el));
+    sections[1].querySelectorAll('.default-content-wrapper > *').forEach((el) => bottomEls.push(el));
+  } else {
+    // Local: flat elements with <hr> separator
+    const allElements = [];
+    const wrappers = fragment.querySelectorAll('.default-content-wrapper');
+    if (wrappers.length > 0) {
+      wrappers.forEach((w) => {
+        [...w.children].forEach((child) => allElements.push(child));
+      });
     } else {
-      topEls.push(el);
+      [...fragment.children].forEach((child) => allElements.push(child));
     }
-  });
+
+    let isBottom = false;
+    allElements.forEach((el) => {
+      if (el.tagName === 'HR') {
+        isBottom = true;
+      } else if (isBottom) {
+        bottomEls.push(el);
+      } else {
+        topEls.push(el);
+      }
+    });
+  }
 
   // === TOP SECTION ===
   const footerTop = document.createElement('div');
