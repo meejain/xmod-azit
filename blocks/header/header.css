@@ -337,7 +337,7 @@ header nav[aria-expanded='true'] .nav-tools {
 
   header nav[aria-expanded='true'] .nav-tools {
     flex-direction: row;
-    padding: 0;
+    padding: 5px;
   }
 }
 
