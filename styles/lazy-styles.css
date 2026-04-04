@@ -1,1 +1,106 @@
 /* add global styles that can be loaded post LCP here */
+
+/* Press release — remove default section margins for seamless layout */
+main > .section.hero-press-container {
+  margin: 0;
+}
+
+main > .section.hero-press-container ~ .section {
+  margin: 0 auto;
+}
+
+/* Press release article body section — block layout matching original */
+@media (width >= 900px) {
+  .hero-press-container ~ .section {
+    box-sizing: border-box;
+    display: block;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+  }
+}
+
+/* Override default section > div constraints */
+.hero-press-container ~ .section > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Date block — full width with bottom shadow, matching original .date styles */
+.hero-press-container ~ .section > .default-content-wrapper:first-child {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 1.625rem;
+  margin-bottom: 2.1875rem;
+  box-shadow: 0 16px 23px -16px rgb(216 216 216 / 50%);
+  position: relative;
+}
+
+/* Download block — indented to match body text column */
+@media (width >= 900px) {
+  .hero-press-container ~ .section > .download-press-wrapper {
+    margin-left: 17%;
+    max-width: 64%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Body text styling — matching original */
+.hero-press-container ~ .section > .default-content-wrapper:last-of-type {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c4242;
+}
+
+@media (width >= 900px) {
+  .hero-press-container ~ .section > .default-content-wrapper:last-of-type {
+    margin-left: 17%;
+    max-width: 64%;
+  }
+}
+
+.hero-press-container ~ .section > .default-content-wrapper:last-of-type p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c4242;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* "Pubblicato" label — small text */
+.hero-press-container ~ .section > .default-content-wrapper:first-child > p:first-child {
+  font-size: 11px;
+  line-height: 1.4;
+  color: #3c4242;
+  margin: 0;
+}
+
+/* "6 maggio 2016" — larger date text */
+.hero-press-container ~ .section > .default-content-wrapper:first-child > p:nth-child(2) {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #3c4242;
+  margin: 0;
+  padding-right: 16px;
+  border-right: 1px solid #d2d2d2;
+  padding-top: 15.4px;
+  margin-top: -15.4px;
+  display: inline-block;
+}
+
+/* Bold intro paragraph */
+.hero-press-container ~ .section > .default-content-wrapper p > strong:only-child {
+  font-weight: 700;
+}
+
+/* Links in article body — subtle underlined style */
+.hero-press-container ~ .section > .default-content-wrapper a {
+  color: #3c4242;
+  text-decoration: underline;
+}
+
+.hero-press-container ~ .section > .default-content-wrapper a:hover {
+  color: #d0006f;
+}

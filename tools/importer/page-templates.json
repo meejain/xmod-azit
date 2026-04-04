@@ -1,0 +1,50 @@
+{
+  "templates": [
+    {
+      "name": "press-release",
+      "urls": [
+        "https://www.astrazeneca.it/area-stampa/press-releases/2016/CAZ-AVI-CHMP.html"
+      ],
+      "description": "AstraZeneca press release page with hero title, publication metadata, PDF download, and article body",
+      "blocks": [
+        {
+          "name": "hero-press",
+          "instances": [
+            ".hero-feature--no-background"
+          ]
+        },
+        {
+          "name": "download-press",
+          "instances": [
+            ".download-lockup"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Section",
+          "selector": ".heroFeature",
+          "style": null,
+          "blocks": [
+            "hero-press"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Article Body Section",
+          "selector": ".pt-article__body",
+          "style": null,
+          "blocks": [
+            "download-press"
+          ],
+          "defaultContent": [
+            ".publishedDate",
+            ".rich-text"
+          ]
+        }
+      ]
+    }
+  ]
+}
