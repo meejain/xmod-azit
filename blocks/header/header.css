@@ -163,14 +163,14 @@ header nav[aria-expanded='true'] {
 
 /* --- Desktop: 2-row grid (Figma layout) ---
    Row 1: tools only (utility links + search, thin ~28px)
-   Row 2: brand LEFT | sections CENTER | (57px from Figma)
+   Row 2: brand LEFT | sections CENTER | (46px from Figma)
 */
 @media (width >= 900px) {
   header nav {
     display: grid;
     grid-template:
       'tools tools' auto
-      'brand sections' 57px / auto 1fr;
+      'brand sections' 46px / auto 1fr;
     gap: 0;
     max-width: var(--az-max-width);
     padding: 0;
@@ -179,7 +179,7 @@ header nav[aria-expanded='true'] {
   header nav[aria-expanded='true'] {
     grid-template:
       'tools tools' auto
-      'brand sections' 57px / auto 1fr;
+      'brand sections' 46px / auto 1fr;
     min-height: 0;
     overflow: visible;
   }
@@ -272,7 +272,7 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
 
 /* ================================
    ROW 2 — BRAND (Logo) left side of main header row
-   Figma: w-[122px] h-[29px], inside Main Header h-[57px]
+   Figma: w-[122px] h-[29px], inside Main Header h-[46px]
    ================================ */
 header nav .nav-brand {
   grid-area: brand;
@@ -427,7 +427,7 @@ header nav[aria-expanded='true'] .nav-sections {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 57px; /* Position at top of Row 2 */
+    bottom: 46px; /* Position at top of Row 2 */
     height: 0;
     border-top: 1px solid var(--az-border);
     pointer-events: none;
@@ -499,26 +499,36 @@ header nav .nav-sections .default-content-wrapper > ul > li > a {
     border-bottom: none;
     display: flex;
     align-items: center;
-    height: 57px; /* Figma: h-[57px] */
+    height: 46px; /* Figma: h-[46px] */
     padding: 0;
+    position: relative;
   }
 
-  /* Live site: padding: 15px 0 5px, border-bottom: 4px solid transparent */
   header nav .nav-sections .default-content-wrapper > ul > li > a {
-    padding: 15px 10px 5px; /* Live site + 10px horizontal spacing */
-    border-bottom: 4px solid transparent;
-    transition: border-bottom-color 0.3s ease;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     height: 100%;
     box-sizing: border-box;
-    letter-spacing: 1px;
   }
 
-  /* Hover: pink bottom ribbon */
-  header nav .nav-sections .default-content-wrapper > ul > li > a:hover,
-  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > a {
-    border-bottom-color: var(--az-accent);
+  /* Pink hover bar: expands from center outward — matching live site animation */
+  header nav .nav-sections .default-content-wrapper > ul > li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background-color: var(--az-accent);
+    transition: width 0.3s ease, left 0.3s ease;
+    z-index: 1;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li:hover::before,
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true']::before {
+    left: 10px;
+    width: calc(100% - 20px);
   }
 }
 
@@ -598,19 +608,21 @@ header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expand
   }
 }
 
-/* Secondary links — Live site: lexia 12px/20px 300, 0.5px spacing */
+/* Secondary links — Live site: lexia ITALIC 12px/20px 300, 0.5px spacing
+   bg: rgba(255,255,255,0.9) — semi-transparent white */
 header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
   display: block;
-  padding: 8px 30px 8px 10px;
+  padding: 8px 30px 8px 10px; /* Live site: exact padding */
   font-family: var(--az-font-lexia);
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
+  font-weight: 300; /* Live site: 300 */
+  font-size: 12px; /* Live site: 12px */
+  font-style: italic; /* Live site: ITALIC */
+  line-height: 20px; /* Live site: 20px */
+  letter-spacing: 0.5px; /* Live site: 0.5px */
   color: var(--az-text);
   text-decoration: none;
   white-space: nowrap;
-  background: var(--az-bg);
+  background: rgb(255 255 255 / 90%); /* Live site: rgba(255,255,255,0.9) */
 }
 
 header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover {

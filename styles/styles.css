@@ -57,8 +57,8 @@
   /* AstraZeneca layout (from Figma) */
   --az-site-max-width: 1180px;
 
-  /* nav height */
-  --nav-height: 90px;
+  /* nav height — Row 1 (18px) + Row 2 (46px) = 64px */
+  --nav-height: 64px;
 }
 
 /* fallback fonts */
