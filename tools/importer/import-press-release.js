@@ -4,6 +4,7 @@
 // PARSER IMPORTS
 import heroPressParser from './parsers/hero-press.js';
 import downloadPressParser from './parsers/download-press.js';
+import tablePressParser from './parsers/table-press.js';
 
 // TRANSFORMER IMPORTS
 import cleanupTransformer from './transformers/astrazeneca-cleanup.js';
@@ -13,6 +14,7 @@ import sectionsTransformer from './transformers/astrazeneca-sections.js';
 const parsers = {
   'hero-press': heroPressParser,
   'download-press': downloadPressParser,
+  'table-press': tablePressParser,
 };
 
 // PAGE TEMPLATE CONFIGURATION
@@ -30,6 +32,10 @@ const PAGE_TEMPLATE = {
     {
       name: 'download-press',
       instances: ['.download-lockup'],
+    },
+    {
+      name: 'table-press',
+      instances: ['.rich-text table'],
     },
   ],
   sections: [

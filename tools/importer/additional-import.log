@@ -1,0 +1,377 @@
+[Bulk Import] Starting run with:
+  Import script: /workspace/tools/importer/import-press-release.bundle.js
+  URLs file:     /workspace/tools/importer/urls-additional-templates.txt
+  Output dir:    /workspace/content
+  URL count:     67
+
+[1/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/PLAIV_CHMP.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[1/67] ✅ Saved content to area-stampa/press-releases/2016/plaiv-chmp
+[2/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[2/67] ✅ Saved content to area-stampa/press-releases/2016/top-employer
+[3/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/acalabrutinib_EMA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[3/67] ✅ Saved content to area-stampa/press-releases/2016/acalabrutinib-ema
+[4/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/aralez.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[4/67] ✅ Saved content to area-stampa/press-releases/2016/aralez
+[5/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[5/67] ✅ Saved content to area-stampa/press-releases/2016/astrazeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee
+[6/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/benralizumab_sirocco_calima.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[6/67] ✅ Saved content to area-stampa/press-releases/2016/benralizumab-sirocco-calima
+[7/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/congressiscientifici.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[7/67] ✅ Saved content to area-stampa/press-releases/2016/congressiscientifici
+[8/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/consorzio-RCP2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[8/67] ✅ Saved content to area-stampa/press-releases/2016/consorzio-rcp2
+[9/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/davidgoldstein.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[9/67] ✅ Saved content to area-stampa/press-releases/2016/davidgoldstein
+[10/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumab.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[10/67] ✅ Saved content to area-stampa/press-releases/2016/durvalumab
+[11/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumabasco2016.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[11/67] ✅ Saved content to area-stampa/press-releases/2016/durvalumabasco2016
+[12/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/lesinurad.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] ping:top {}
+[Browser Console] ping:language {source: it, target: en-US}
+[Browser Console] ping:enter {source: , target: visible}
+[Browser Console] ping:loadresource {source: https://www.astrazeneca.it/content/az-it/area-stam…releases/2016/lesinurad/jcr:content.darkSite.json, target: 27}
+[Browser Console] ping:viewmedia {target: https://www.astrazeneca.it/etc/designs/az/img/logo-az.png, source: nav img.navigation__logo--color}
+[Browser Console] ping:viewmedia {target: https://www.astrazeneca.it/content/dam/az-cn/cq5da…00.square.cq5dam.web.134x132.Icon%20phase%203.png, source: #main img.download-lockup__image}
+[Browser Console] ping:viewblock {target: https://www.astrazeneca.it/search-results.s.html, source: nav form.navigation__search-form}
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:a11y {source: off, target: off:low:medium:high}
+[Browser Console] ping:cwv {cwv: Object, target: undefined, source: #main .l-constrained}
+[Browser Console] ping:viewmedia {target: https://www.astrazeneca.it/etc/designs/az/img/logo-az-condensed.png, source: dialog img.navigation__header-sticky-logo}
+[Browser Console] Found 2 block instances on page
+[12/67] ✅ Saved content to area-stampa/press-releases/2016/lesinurad
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:cwv {cwv: Object}
+[13/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/lesinurad1.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[13/67] ✅ Saved content to area-stampa/press-releases/2016/lesinurad1
+[14/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/moventig_Prostrakan.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[14/67] ✅ Saved content to area-stampa/press-releases/2016/moventig-prostrakan
+[15/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[15/67] ✅ Saved content to area-stampa/press-releases/2016/osimertinib-aura3
+[16/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/takeda.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[16/67] ✅ Saved content to area-stampa/press-releases/2016/takeda
+[17/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/AACR_oncologia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/AACR_oncologia.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[17/67] ✅ Saved content to area-stampa/press-releases/2017/aacr-oncologia
+[18/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Circassia_patologierespiratorie.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/Circassia_patologierespiratorie.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[18/67] ✅ Saved content to area-stampa/press-releases/2017/circassia-patologierespiratorie
+[19/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/TopEmployers2017.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] ping:top {}
+[Browser Console] ping:language {source: it, target: en-US}
+[Browser Console] ping:enter {source: , target: visible}
+[Browser Console] ping:loadresource {source: https://www.astrazeneca.it/content/az-it/area-stam…s/2017/TopEmployers2017/jcr:content.darkSite.json, target: 25}
+[Browser Console] ping:viewmedia {target: https://www.astrazeneca.it/etc/designs/az/img/logo-az.png, source: nav img.navigation__logo--color}
+[Browser Console] ping:viewmedia {target: https://www.astrazeneca.it/content/dam/az-it/downl…straZeneca%20Top%20Employers%2008%2002%202017.pdf, source: #main img.download-lockup__image}
+[Browser Console] ping:viewblock {target: https://www.astrazeneca.it/search-results.s.html, source: nav form.navigation__search-form}
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:a11y {source: off, target: off:low:medium:high}
+[Browser Console] ping:cwv {cwv: Object, target: undefined, source: #main}
+[Browser Console] ping:viewmedia {target: https://www.astrazeneca.it/etc/designs/az/img/logo-az-condensed.png, source: dialog img.navigation__header-sticky-logo}
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/TopEmployers2017.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[19/67] ✅ Saved content to area-stampa/press-releases/2017/topemployers2017
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:cwv {cwv: Object}
+[20/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS-9_iperkaliemia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS-9_iperkaliemia.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[20/67] ✅ Saved content to area-stampa/press-releases/2017/zs-9-iperkaliemia
+[21/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS9_iperkaliemia_ZSPharma.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS9_iperkaliemia_ZSPharma.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[21/67] ✅ Saved content to area-stampa/press-releases/2017/zs9-iperkaliemia-zspharma
+[22/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/benralizumab.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[22/67] ✅ Saved content to area-stampa/press-releases/2017/benralizumab
+[23/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/budesonide_formoterolo_spray.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[23/67] ✅ Saved content to area-stampa/press-releases/2017/budesonide-formoterolo-spray
+[24/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_FDAUSA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_FDAUSA.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[24/67] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-fdausa
+[25/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_rimborsabile.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[25/67] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-rimborsabile
+[26/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[26/67] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-llc-approvazioneeu
+[27/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/AHA_20181.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[27/67] ✅ Saved content to area-stampa/press-releases/2018/aha-20181
+[28/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_TOPEMPLOYER2021.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[28/67] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-topemployer2021
+[29/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_TOP_EMPLOYERS_2020.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[29/67] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-top-employers-2020
+[30/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_VACCINO_COVID19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[30/67] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-vaccino-covid19
+[31/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_HF_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[31/67] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-hf-approvazioneeu
+[32/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DECLAREsottoanalisi.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[32/67] ✅ Saved content to area-stampa/press-releases/2018/declaresottoanalisi
+[33/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/HLR_FLAURA_OS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[33/67] ✅ Saved content to area-stampa/press-releases/2018/hlr-flaura-os
+[34/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_DRIOL_HR.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[34/67] ✅ Saved content to area-stampa/press-releases/2018/nomina-driol-hr
+[35/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_MIRKOMERLETTI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[35/67] ✅ Saved content to area-stampa/press-releases/2018/nomina-mirkomerletti
+[36/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_OLIVEROS_MEDICALHEAD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[36/67] ✅ Saved content to area-stampa/press-releases/2018/nomina-oliveros-medicalhead
+[37/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPAESTRANEITAVENDITAMERCATIPARALLELI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[37/67] ✅ Saved content to area-stampa/press-releases/2018/notastampaestraneitavenditamercatiparalleli
+[38/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Nomina_Scott_Pescatore_VP_OBU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[38/67] ✅ Saved content to area-stampa/press-releases/2018/nomina-scott-pescatore-vp-obu
+[39/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OSIMERTINIB_FLAURA_ESMO2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[39/67] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-flaura-esmo2019
+[40/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/PATIENTADVOCACYNETWORK.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[40/67] ✅ Saved content to area-stampa/press-releases/2018/patientadvocacynetwork
+[41/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/SOLO1_ESMO2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[41/67] ✅ Saved content to area-stampa/press-releases/2018/solo1-esmo2018
+[42/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Solo1_olaparib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[42/67] ✅ Saved content to area-stampa/press-releases/2018/solo1-olaparib
+[43/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/TopEmployers2017.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[43/67] ✅ Saved content to area-stampa/press-releases/2018/topemployers2017
+[44/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/benralizumabEMA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[44/67] ✅ Saved content to area-stampa/press-releases/2018/benralizumabema
+[45/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/topemployers2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[45/67] ✅ Saved content to area-stampa/press-releases/2018/topemployers2018
+[46/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[46/67] ✅ Saved content to area-stampa/press-releases/2016/pfizer
+[47/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/olaparib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[47/67] ✅ Saved content to area-stampa/press-releases/2016/olaparib
+[48/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPACONSEGNEVACCINO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[48/67] ✅ Saved content to area-stampa/press-releases/2018/notastampaconsegnevaccino
+[49/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/accordoaspen.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[49/67] ✅ Saved content to area-stampa/press-releases/2016/accordoaspen
+[50/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_ELEVATETN_ASH.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[50/67] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-elevatetn-ash
+[51/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_EHA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[51/67] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-llc-eha
+[52/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumabesmo.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[52/67] ✅ Saved content to area-stampa/press-releases/2016/durvalumabesmo
+[53/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[53/67] ✅ Saved content to area-stampa/press-releases/2016/osimertinib-ce
+[54/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[54/67] ✅ Saved content to area-stampa/press-releases/2017/cvd-real-sglt2
+[55/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/FLAURA_tumore_al_polmone1.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[55/67] ✅ Saved content to area-stampa/press-releases/2017/flaura-tumore-al-polmone1
+[56/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_BRCA_SOLO2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_BRCA_SOLO2.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[56/67] ✅ Saved content to area-stampa/press-releases/2017/olaparib-brca-solo2
+[57/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/PACIFIC_tumore_al_polmone.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[57/67] ✅ Saved content to area-stampa/press-releases/2017/pacific-tumore-al-polmone
+[58/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/durvalumab_breakthrough therapy designation.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Found 1 block instances on page
+[58/67] ✅ Saved content to area-stampa/press-releases/2017/durvalumab-breakthrough-therapy-designation
+[59/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_cFDA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_cFDA.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 2 block instances on page
+[59/67] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-cfda
+[60/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BUDESONIDE-GLICOPIRRONIO-FORMOTEROLO_ETHOS_BPCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[60/67] ✅ Saved content to area-stampa/press-releases/2018/budesonide-glicopirronio-formoterolo-ethos-bpco
+[61/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_CASPIAN_SCLC_ASCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[61/67] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-caspian-sclc-asco
+[62/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PAOLA_ESMO2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[62/67] ✅ Saved content to area-stampa/press-releases/2018/olaparib-paola-esmo2019
+[63/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PROFOUND_ESMO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[63/67] ✅ Saved content to area-stampa/press-releases/2018/olaparib-profound-esmo
+[64/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PROFOUND_PROSTATA_ESMO2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[64/67] ✅ Saved content to area-stampa/press-releases/2018/olaparib-profound-prostata-esmo2019
+[65/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_SOLO-1_ESMO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Mixed Content: The page at 'https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_SOLO-1_ESMO.html#modal-historic-confirmation' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://www.astrazeneca.it/'. This request has been blocked; the content must be served over HTTPS.
+[Browser Console] An error occurred with the dark site request {readyState: 0, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 2 block instances on page
+[65/67] ✅ Saved content to area-stampa/press-releases/2018/olaparib-solo-1-esmo
+[66/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OSIMERTINIB_NSCLC_ADAURA_ASCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[66/67] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-nsclc-adaura-asco
+[67/67] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/SENOMETASTATICO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 2 block instances on page
+[67/67] ✅ Saved content to area-stampa/press-releases/2018/senometastatico
+[Bulk Import] Completed. Success: 67/67, Failures: 0
+[Excel Export] Found 171 report file(s). Compiling to Excel...
+[Excel Export] ✅ Compiled 171 reports to: /workspace/tools/importer/reports/import-press-release.report.xlsx

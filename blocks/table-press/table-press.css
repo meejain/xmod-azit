@@ -1,0 +1,56 @@
+/* Table block — Figma: Desktop Table w/ Title
+   Design tokens from Figma node 3970:58739
+   Header: bg #d8dfde, Lexia 14px/18px, border #b1b9b9
+   Body odd: bg #fff, Inter 12px/18px
+   Body even (striped): bg #ebefee
+   All cells: padding 16px, border 1px solid #b1b9b9 */
+
+.table-press {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+.table-press table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: inter, arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #363b3b;
+}
+
+.table-press table th,
+.table-press table td {
+  border: 1px solid #b1b9b9;
+  padding: 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Header row — Figma: bg #d8dfde, Lexia font */
+.table-press table thead th {
+  background-color: #d8dfde;
+  font-family: lexia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #363b3b;
+}
+
+/* Striped body rows — Figma: even #ebefee, odd #fff */
+.table-press table tbody tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.table-press table tbody tr:nth-child(even) td {
+  background-color: #ebefee;
+}
+
+/* Remove p margins inside cells */
+.table-press table th p,
+.table-press table td p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}

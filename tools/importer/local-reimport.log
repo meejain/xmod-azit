@@ -1,0 +1,34 @@
+[Bulk Import] Starting run with:
+  Import script: /workspace/tools/importer/import-press-release.bundle.js
+  URLs file:     /workspace/tools/importer/urls-2017-2018.txt
+  Output dir:    /workspace/content
+  URL count:     110
+
+[1/110] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/AACR_oncologia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/AACR_oncologia.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[1/110] ✅ Saved content to area-stampa/press-releases/2017/aacr-oncologia
+[2/110] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[2/110] ✅ Saved content to area-stampa/press-releases/2017/cvd-real-sglt2
+[3/110] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Cambridge_nuovasede.html
+[Bulk Import] Unexpected error: browserContext.newPage: Target page, context or browser has been closed
+    at processUrl (/home/node/.excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:216:30)
+    at main (/home/node/.excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:457:28)
