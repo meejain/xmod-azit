@@ -43,32 +43,30 @@ main > .section.hero-press-container ~ .section {
   position: relative;
 }
 
-/* Download block — indented to match body text column on desktop */
+/* All content blocks (download, body text, tables) — indented on desktop */
 @media (width >= 900px) {
-  .hero-press-container ~ .section > .download-press-wrapper {
+  .hero-press-container ~ .section > .download-press-wrapper,
+  .hero-press-container ~ .section > .table-press-wrapper,
+  .hero-press-container ~ .section > .default-content-wrapper:not(:first-child) {
     margin-left: 17%;
     max-width: 64%;
+  }
+
+  .hero-press-container ~ .section > .download-press-wrapper {
     padding: 0;
     margin-bottom: 20px;
   }
 }
 
 /* Body text styling — matching original */
-.hero-press-container ~ .section > .default-content-wrapper:last-of-type {
+.hero-press-container ~ .section > .default-content-wrapper:not(:first-child) {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #3c4242;
 }
 
-@media (width >= 900px) {
-  .hero-press-container ~ .section > .default-content-wrapper:last-of-type {
-    margin-left: 17%;
-    max-width: 64%;
-  }
-}
-
-.hero-press-container ~ .section > .default-content-wrapper:last-of-type p {
+.hero-press-container ~ .section > .default-content-wrapper:not(:first-child) p {
   font-size: 14px;
   line-height: 20px;
   color: #3c4242;
