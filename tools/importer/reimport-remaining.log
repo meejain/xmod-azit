@@ -1,0 +1,290 @@
+[Bulk Import] Starting run with:
+  Import script: /workspace/tools/importer/import-press-release.bundle.js
+  URLs file:     /workspace/tools/importer/urls-2017-2018-remaining.txt
+  Output dir:    /workspace/content
+  URL count:     82
+
+[1/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Patient Advocacy Network.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[1/82] ✅ Saved content to area-stampa/press-releases/2017/patient-advocacy-network
+[2/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/durvalumab_breakthrough therapy designation.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[2/82] ✅ Saved content to area-stampa/press-releases/2017/durvalumab-breakthrough-therapy-designation
+[3/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/exenatide_studioEXSCEL.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[3/82] ✅ Saved content to area-stampa/press-releases/2017/exenatide-studioexscel
+[4/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/goserelin.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/goserelin.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[4/82] ✅ Saved content to area-stampa/press-releases/2017/goserelin
+[5/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/immunoncologia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[5/82] ✅ Saved content to area-stampa/press-releases/2017/immunoncologia
+[6/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/linfoma_mantellare.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[6/82] ✅ Saved content to area-stampa/press-releases/2017/linfoma-mantellare
+[7/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_FDAUSA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_FDAUSA.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[7/82] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-fdausa
+[8/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_cFDA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_cFDA.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[8/82] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-cfda
+[9/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_rimborsabile.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[9/82] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-rimborsabile
+[10/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_tumorealpolmone_AURA3.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[10/82] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-tumorealpolmone-aura3
+[11/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/AA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[11/82] ✅ Saved content to area-stampa/press-releases/2018/aa
+[12/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_ELEVATETN_ASH.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 4 block instances on page
+[12/82] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-elevatetn-ash
+[13/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[13/82] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-llc-approvazioneeu
+[14/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_ASCEND.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 3 block instances on page
+[14/82] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-llc-ascend
+[15/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_EHA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 4 block instances on page
+[15/82] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-llc-eha
+[16/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/AHA_2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[16/82] ✅ Saved content to area-stampa/press-releases/2018/aha-2018
+[17/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/AHA_20181.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[17/82] ✅ Saved content to area-stampa/press-releases/2018/aha-20181
+[18/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_COVID-19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[18/82] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-covid-19
+[19/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_TOPEMPLOYER2021.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[19/82] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-topemployer2021
+[20/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_TOP_EMPLOYERS_2020.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[20/82] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-top-employers-2020
+[21/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_VACCINO_COVID-19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[21/82] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-vaccino-covid-19
+[22/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_VACCINO_COVID19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[22/82] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-vaccino-covid19
+[23/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BENRALIZUMAB_CHMP_AUTOSOMMINISTRAZIONE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[23/82] ✅ Saved content to area-stampa/press-releases/2018/benralizumab-chmp-autosomministrazione
+[24/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BENRALIZUMAB_PONENTE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[24/82] ✅ Saved content to area-stampa/press-releases/2018/benralizumab-ponente
+[25/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BUDESONIDE-GLICOPIRRONIO-FORMOTEROLO_ETHOS_BPCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 4 block instances on page
+[25/82] ✅ Saved content to area-stampa/press-releases/2018/budesonide-glicopirronio-formoterolo-ethos-bpco
+[26/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Benralizumab_BORA_ERS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[26/82] ✅ Saved content to area-stampa/press-releases/2018/benralizumab-bora-ers
+[27/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_CHMP_DECLARE_CVDATA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[27/82] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-chmp-declare-cvdata
+[28/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DAPA-CKD_ESC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[28/82] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-dapa-ckd-esc
+[29/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DAPA-HF_ESC2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[29/82] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-dapa-hf-esc2019
+[30/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DAPACKD_ACC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[30/82] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-dapackd-acc
+[31/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DECLARE_renaldata.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[31/82] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-declare-renaldata
+[32/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_HF_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[32/82] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-hf-approvazioneeu
+[33/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DECLAREsottoanalisi.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[33/82] ✅ Saved content to area-stampa/press-releases/2018/declaresottoanalisi
+[34/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_CASPIAN_IASLC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 3 block instances on page
+[34/82] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-caspian-iaslc
+[35/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_CASPIAN_SCLC_ASCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Found 3 block instances on page
+[35/82] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-caspian-sclc-asco
+[36/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_OK_UE_SCLC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[36/82] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-ok-ue-sclc
+[37/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_PACIFIC_ESMO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[37/82] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-pacific-esmo
+[38/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_TumorePolmone.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[38/82] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-tumorepolmone
+[39/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Dapaglifozin__DECLARE_top_line.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[39/82] ✅ Saved content to area-stampa/press-releases/2018/dapaglifozin-declare-top-line
+[40/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Durvalumab_parerepositivoCHMP.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "download-press" selector not found: .download-lockup
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 1 block instances on page
+[40/82] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-parerepositivochmp
+[41/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/HLR_FLAURA_OS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[41/82] ✅ Saved content to area-stampa/press-releases/2018/hlr-flaura-os
+[42/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/LUNG_AMBITION_ALLIANCE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[42/82] ✅ Saved content to area-stampa/press-releases/2018/lung-ambition-alliance
+[43/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_DRIOL_HR.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[43/82] ✅ Saved content to area-stampa/press-releases/2018/nomina-driol-hr
+[44/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_MIRKOMERLETTI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[44/82] ✅ Saved content to area-stampa/press-releases/2018/nomina-mirkomerletti
+[45/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_OLIVEROS_MEDICALHEAD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[45/82] ✅ Saved content to area-stampa/press-releases/2018/nomina-oliveros-medicalhead
+[46/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPACONSEGNEVACCINO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[46/82] ✅ Saved content to area-stampa/press-releases/2018/notastampaconsegnevaccino
+[47/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPAESTRANEITAVENDITAMERCATIPARALLELI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[47/82] ✅ Saved content to area-stampa/press-releases/2018/notastampaestraneitavenditamercatiparalleli
+[48/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPA_DATI_INGLESI_RWE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[48/82] ✅ Saved content to area-stampa/press-releases/2018/notastampa-dati-inglesi-rwe
+[49/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOVELSTART.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[49/82] ✅ Saved content to area-stampa/press-releases/2018/novelstart
+[50/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Nomina_Chiara_Gargiulo_VP_RIA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[50/82] ✅ Saved content to area-stampa/press-releases/2018/nomina-chiara-gargiulo-vp-ria
+[51/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Nomina_Scott_Pescatore_VP_OBU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[51/82] ✅ Saved content to area-stampa/press-releases/2018/nomina-scott-pescatore-vp-obu
+[52/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_OVAIO_SOLOI_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[52/82] ❌ Failed for https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_OVAIO_SOLOI_APPROVAZIONEEU.html: page.evaluate: Target page, context or browser has been closed
+[53/82] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PAOLAI_APPROVAZIONEEU.html
+[Bulk Import] Unexpected error: browserContext.newPage: Target page, context or browser has been closed
+    at processUrl (/home/node/.excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:216:30)
+    at main (/home/node/.excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:457:28)

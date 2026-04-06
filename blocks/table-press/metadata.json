@@ -1,0 +1,32 @@
+{
+  "variantName": "table-press",
+  "baseBlock": "table",
+  "version": "1.0.0",
+  "created": "2026-04-05T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_EHA.html",
+    "originPage": "press release with clinical data tables",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "data-table",
+    "imagePattern": "noimg",
+    "structure": "header row + data rows"
+  },
+  "contentPattern": {
+    "structure": "thead + tbody rows with cells",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["press releases with clinical data", "data tables", "comparison tables"],
+    "notSuitableFor": ["layout tables", "pricing tables with CTAs"]
+  },
+  "usage": {
+    "pagesUsing": ["content/area-stampa/press-releases/2018/acalabrutinib-llc-eha"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-05T00:00:00.000Z"
+  }
+}

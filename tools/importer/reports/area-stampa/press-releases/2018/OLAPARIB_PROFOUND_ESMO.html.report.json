@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "url": "https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PROFOUND_ESMO.html",
+  "path": "area-stampa/press-releases/2018/OLAPARIB_PROFOUND_ESMO.html",
+  "timestamp": "2026-04-05T20:34:09.781Z",
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "errorStack": "page.evaluate: Target page, context or browser has been closed\n    at processUrl (/home/node/.excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:270:16)\n    at async main (/home/node/.excat-marketplace/excat/skills/excat-content-import/scripts/run-bulk-import.js:457:22)"
+}
