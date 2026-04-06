@@ -273,5 +273,17 @@ export default async function decorate(block) {
     });
   }
 
+  // Highlight active nav section based on current URL path
+  // Handles both /area-stampa/... and /content/area-stampa/... paths
+  const currentPath = window.location.pathname.replace(/^\/content/, '');
+  if (navSections) {
+    navSections.querySelectorAll('.default-content-wrapper > ul > li > a').forEach((link) => {
+      const href = link.getAttribute('href');
+      if (href && !href.startsWith('http') && currentPath.startsWith(href.replace(/\.html$/, ''))) {
+        link.closest('li').classList.add('nav-active');
+      }
+    });
+  }
+
   block.append(navWrapper);
 }
