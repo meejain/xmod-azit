@@ -1,3 +1,11 @@
+import {
+  buildBlock,
+  decorateBlock,
+  loadBlock,
+} from '../../scripts/aem.js';
+
+/* --- Date utilities --- */
+
 const MONTHS_IT = {
   gennaio: 0,
   febbraio: 1,
@@ -30,6 +38,8 @@ function getYear(dateStr) {
   return parts.length >= 3 ? parts[2] : null;
 }
 
+/* --- Data fetching --- */
+
 async function fetchAllPages(url) {
   const allData = [];
   let offset = 0;
@@ -60,19 +70,46 @@ async function fetchPressReleases() {
   return fallback.filter((item) => item.template === 'press-release');
 }
 
-function renderCards(items, container) {
-  items.forEach((item) => {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = item.path;
-    a.innerHTML = `
-      <p class="card-title">${item.title}</p>
-      <p class="card-date">${item['published-date'] || ''}</p>
-    `;
-    li.append(a);
-    container.append(li);
-  });
+/* --- Result parsers: transform query data into block-compatible DOM --- */
+
+const resultParsers = {
+  cards: (results) => results.map((item) => {
+    const wrapper = document.createElement('div');
+
+    const link = document.createElement('a');
+    link.href = item.path;
+
+    const title = document.createElement('p');
+    title.className = 'card-title';
+    title.textContent = item.title;
+    link.append(title);
+
+    const date = document.createElement('p');
+    date.className = 'card-date';
+    date.textContent = item['published-date'] || '';
+    link.append(date);
+
+    wrapper.append(link);
+    return [wrapper];
+  }),
+};
+
+/* --- Build cards using EDS block infrastructure --- */
+
+async function buildCardBlock(items, container) {
+  const blockContents = resultParsers.cards(items);
+  const cardsBlock = buildBlock('cards', blockContents);
+  cardsBlock.classList.add('press-release');
+
+  const wrapper = document.createElement('div');
+  wrapper.append(cardsBlock);
+  container.append(wrapper);
+
+  decorateBlock(cardsBlock);
+  await loadBlock(cardsBlock);
 }
+
+/* --- Main block decorator --- */
 
 export default async function decorate(block) {
   const config = {};
@@ -87,13 +124,13 @@ export default async function decorate(block) {
 
   block.textContent = '';
 
-  /* --- Filter bar (heading only, hidden on live site) --- */
+  /* --- Filter bar --- */
   const filterBar = document.createElement('div');
   filterBar.className = 'filter-bar';
   filterBar.innerHTML = `<h3>${heading}</h3>`;
   block.append(filterBar);
 
-  /* --- Toggle row (right-aligned Più/Meno filtri) --- */
+  /* --- Toggle row --- */
   const toggleRow = document.createElement('div');
   toggleRow.className = 'filter-toggle-row';
   toggleRow.innerHTML = `
@@ -101,7 +138,7 @@ export default async function decorate(block) {
   `;
   block.append(toggleRow);
 
-  /* --- Chip panel (hidden) --- */
+  /* --- Chip panel --- */
   const chipPanel = document.createElement('div');
   chipPanel.className = 'chip-panel';
   chipPanel.id = 'chip-panel';
@@ -119,10 +156,7 @@ export default async function decorate(block) {
   /* --- Results --- */
   const resultsSection = document.createElement('div');
   resultsSection.className = 'results';
-  resultsSection.innerHTML = `
-    <h3 class="results-label">Più recenti</h3>
-    <ul class="results-list"></ul>
-  `;
+  resultsSection.innerHTML = '<h3 class="results-label">Più recenti</h3>';
   block.append(resultsSection);
 
   const loadingEl = document.createElement('div');
@@ -169,7 +203,6 @@ export default async function decorate(block) {
   });
 
   /* --- State --- */
-  const resultsList = resultsSection.querySelector('.results-list');
   const resultsLabel = resultsSection.querySelector('.results-label');
   let visibleCount = pageSize;
   let filteredItems = allItems;
@@ -188,22 +221,28 @@ export default async function decorate(block) {
     visibleCount = pageSize;
   }
 
-  /* --- Render cards + load more --- */
-  function render() {
-    resultsList.innerHTML = '';
-    const toShow = filteredItems.slice(0, visibleCount);
-    renderCards(toShow, resultsList);
+  /* --- Render via resultParsers + buildBlock --- */
+  async function render() {
+    const existingCards = resultsSection.querySelector('.cards-wrapper');
+    if (existingCards) existingCards.remove();
 
-    const existing = block.querySelector('.load-more');
-    if (existing) existing.remove();
+    const existingMore = block.querySelector('.load-more');
+    if (existingMore) existingMore.remove();
+
+    const toShow = filteredItems.slice(0, visibleCount);
+
+    const cardsWrapper = document.createElement('div');
+    cardsWrapper.className = 'cards-wrapper';
+    resultsSection.append(cardsWrapper);
+    await buildCardBlock(toShow, cardsWrapper);
 
     if (visibleCount < filteredItems.length) {
       const loadMore = document.createElement('button');
       loadMore.className = 'load-more';
       loadMore.textContent = 'Mostra di più';
-      loadMore.addEventListener('click', () => {
+      loadMore.addEventListener('click', async () => {
         visibleCount += pageSize;
-        render();
+        await render();
       });
       resultsSection.append(loadMore);
     }
@@ -257,5 +296,5 @@ export default async function decorate(block) {
     render();
   });
 
-  render();
+  await render();
 }
