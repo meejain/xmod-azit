@@ -34,6 +34,8 @@
 .press-release-list .filter-toggle-row {
   display: flex;
   justify-content: flex-end;
+  max-width: 1220px;
+  margin: 0 auto;
   padding: 20px;
   border-bottom: 2px solid #ebefee;
 }
@@ -92,15 +94,12 @@
 @media (width >= 900px) {
   .press-release-list .chip-panel {
     padding: 30px 20px;
+    max-width: 1220px;
+    margin: 0 auto;
   }
 
   .press-release-list .chip-panel.open {
     display: block;
-  }
-
-  .press-release-list .chip-panel-inner {
-    margin-left: 0;
-    width: 100%;
   }
 }
 
@@ -174,6 +173,8 @@
 
 @media (width >= 900px) {
   .press-release-list .selected-filters {
+    max-width: 1220px;
+    margin: 0 auto;
     padding: 30px 20px 0;
   }
 }
@@ -232,9 +233,9 @@
 
 @media (width >= 900px) {
   .press-release-list .results {
-    width: 65.957%;
-    margin-left: 17.021%;
-    padding: 0;
+    width: 59%;
+    margin-left: 20%;
+    padding: 20px 0 0;
   }
 }
 
