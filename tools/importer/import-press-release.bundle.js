@@ -127,6 +127,13 @@ var CustomImportScript = (() => {
         "section.modal-window",
         "#modal-link-confirmation"
       ]);
+      const GOOD_ICON_SRC = "/content/dam/az-cn/cq5dam.web.134x132.Icon%20phase%203.png/jcr:content/renditions/cq5dam.web.100.square.cq5dam.web.134x132.Icon%20phase%203.png";
+      element.querySelectorAll(".download-lockup__image").forEach((img) => {
+        const src = img.getAttribute("src") || "";
+        if (src.includes("bianco.jpg") || src.includes("intelligentcontent") || !src.includes("Icon%20phase")) {
+          img.setAttribute("src", GOOD_ICON_SRC);
+        }
+      });
       const { document } = payload;
       const simpleDownloadLinks = element.querySelectorAll('a[href*="/content/dam/"][href*=".pdf"]');
       simpleDownloadLinks.forEach((a) => {

@@ -133,3 +133,37 @@
 .hero a:hover {
   opacity: 0.9;
 }
+
+/* =========================================
+   Hero Light variant — Figma (2214:53827)
+   Light background, purple (#830051) text
+   min-height: 250px
+   ========================================= */
+
+.hero.light {
+  min-height: 200px;
+  background-color: #f5f5f5;
+  align-items: center;
+}
+
+@media (width >= 900px) {
+  .hero.light {
+    min-height: 250px;
+  }
+}
+
+.hero.light > picture img {
+  opacity: 0.75;
+}
+
+.hero.light h1 {
+  color: #830051;
+}
+
+.hero.light h2 {
+  color: #830051;
+}
+
+.hero.light p:not(:has(picture)) {
+  color: #830051;
+}

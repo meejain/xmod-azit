@@ -21,6 +21,16 @@ export default function transform(hookName, element, payload) {
       '#modal-link-confirmation',
     ]);
 
+    // Fix broken download-lockup icons on 2021/2022/2026 pages
+    // These pages use bianco.jpg (white placeholder) or an unrelated SVG instead of the AZ circle icon
+    const GOOD_ICON_SRC = '/content/dam/az-cn/cq5dam.web.134x132.Icon%20phase%203.png/jcr:content/renditions/cq5dam.web.100.square.cq5dam.web.134x132.Icon%20phase%203.png';
+    element.querySelectorAll('.download-lockup__image').forEach((img) => {
+      const src = img.getAttribute('src') || '';
+      if (src.includes('bianco.jpg') || src.includes('intelligentcontent') || !src.includes('Icon%20phase')) {
+        img.setAttribute('src', GOOD_ICON_SRC);
+      }
+    });
+
     // Convert simple "Scarica il comunicato stampa" text links into download-lockup structure
     // MUST run in beforeTransform so the download-press parser can find .download-lockup
     // 2017/2018 pages use a plain <a> link instead of the .download-lockup component
