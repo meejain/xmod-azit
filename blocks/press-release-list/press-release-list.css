@@ -1,0 +1,367 @@
+/* =========================================
+   Press Release List — Live site parity
+   Source: https://www.astrazeneca.it/area-stampa.html
+   ========================================= */
+
+.press-release-list-container {
+  margin: 0;
+}
+
+.press-release-list-container .press-release-list-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+/* --- Filter bar (Comunicati stampa + Più filtri) --- */
+.press-release-list .filter-bar {
+  display: none;
+  padding: 20px;
+  border-bottom: 2px solid #ebefee;
+}
+
+.press-release-list .filter-bar h3 {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 20px;
+  color: #3c4242;
+  letter-spacing: 0.6px;
+  margin: 0;
+}
+
+/* --- Filter toggle row (right-aligned Più/Meno filtri) --- */
+.press-release-list .filter-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  border-bottom: 2px solid #ebefee;
+}
+
+/* "Più filtri / Meno filtri" toggle button */
+.press-release-list .filter-toggle {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #3c4242;
+  letter-spacing: 0.5px;
+  background: none;
+  border: 1px solid #d7dbdb;
+  cursor: pointer;
+  padding: 8px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.press-release-list .filter-toggle:hover {
+  border-color: #3c4242;
+}
+
+.press-release-list .filter-toggle::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid currentcolor;
+  border-bottom: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  position: relative;
+  top: -2px;
+}
+
+.press-release-list .filter-toggle.open::after {
+  transform: rotate(-135deg);
+  top: 1px;
+}
+
+/* --- Chip filter panel (hidden by default) --- */
+.press-release-list .chip-panel {
+  display: none;
+  padding: 20px;
+  border-bottom: 2px solid #ebefee;
+  background: #fff;
+}
+
+.press-release-list .chip-panel.open {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .press-release-list .chip-panel {
+    padding: 30px 20px;
+  }
+
+  .press-release-list .chip-panel.open {
+    display: block;
+  }
+
+  .press-release-list .chip-panel-inner {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.press-release-list .chip-panel-label {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  color: #3c4242;
+  letter-spacing: 0.6px;
+  margin: 0 0 10px;
+}
+
+.press-release-list .chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Chip — live site: 12px, padding 1px 11px, border-radius 24px, height ~21px */
+.press-release-list .chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 1px 11px;
+  border-radius: 24px;
+  border: 1px solid #d8dfde;
+  background: #fff;
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #3c4242;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.press-release-list .chip:hover {
+  border-color: #d0006f;
+  color: #d0006f;
+}
+
+/* Active/selected chip — pink bg, white text, × icon */
+.press-release-list .chip.active {
+  background: #d0006f;
+  border-color: #d0006f;
+  color: #fff;
+}
+
+.press-release-list .chip.active::after {
+  content: '×';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  margin-left: 2px;
+}
+
+/* --- Selected filters display --- */
+.press-release-list .selected-filters {
+  padding: 20px 20px 0;
+}
+
+.press-release-list .selected-filters:empty {
+  display: none;
+}
+
+@media (width >= 900px) {
+  .press-release-list .selected-filters {
+    padding: 30px 20px 0;
+  }
+}
+
+/* "X Risultati che contengono:" label */
+.press-release-list .selected-filters-label {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 20px;
+  color: #000;
+  margin: 0 0 12px;
+}
+
+/* Selected tags row */
+.press-release-list .selected-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* Individual selected tag — rectangular, border, with × */
+.press-release-list .selected-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  border: 1px solid #d8dfde;
+  border-radius: 0;
+  background: #fff;
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #3c4242;
+  cursor: pointer;
+}
+
+.press-release-list .selected-tag:hover {
+  border-color: #d0006f;
+}
+
+.press-release-list .selected-tag-x {
+  color: #d0006f;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* --- Results section --- */
+.press-release-list .results {
+  padding: 20px;
+}
+
+@media (width >= 900px) {
+  .press-release-list .results {
+    width: 65.957%;
+    margin-left: 17.021%;
+    padding: 0;
+  }
+}
+
+/* "Più recenti" / sort label */
+.press-release-list .results-label {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 20px;
+  color: #000;
+  padding: 20px 0 14px;
+  margin: 0;
+}
+
+/* --- Card list --- */
+.press-release-list .results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card item — Figma: divider 1px #b1b9b9, pt-20 pb-40 */
+.press-release-list .results-list li {
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+  border-bottom: 1px solid #b1b9b9;
+}
+
+.press-release-list .results-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Card link */
+.press-release-list .results-list a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Card title — Figma: Lexia 26px/34px normal #830051 */
+.press-release-list .card-title {
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #830051;
+  margin: 0;
+  transition: color 0.2s ease;
+}
+
+@media (width >= 900px) {
+  .press-release-list .card-title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+
+.press-release-list .results-list a:hover .card-title {
+  color: #d0006f;
+}
+
+/* Card date — Figma: Inter 16px/24px #363b3b, pt-[16px] */
+.press-release-list .card-date {
+  font-family: Inter, inter-fallback, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #363b3b;
+  margin: 0;
+  padding-top: 16px;
+}
+
+@media (width >= 900px) {
+  .press-release-list .card-date {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* --- "Mostra di più" button --- */
+.press-release-list .load-more {
+  display: block;
+  margin: 10px auto 40px;
+  padding: 8px 16px;
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #3c4242;
+  letter-spacing: 0.8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.press-release-list .load-more:hover {
+  color: #d0006f;
+}
+
+.press-release-list .load-more::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentcolor;
+  border-bottom: 2px solid currentcolor;
+  transform: rotate(45deg);
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+}
+
+/* --- Loading state --- */
+.press-release-list .loading {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Inter, inter-fallback, arial, sans-serif;
+  font-size: 14px;
+  color: #3c4242;
+}
+
+/* --- Empty state --- */
+.press-release-list .no-results {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Lexia, lexia-fallback, times, 'Times New Roman', serif;
+  font-size: 18px;
+  color: #3c4242;
+}

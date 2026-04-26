@@ -1,0 +1,1049 @@
+[Bulk Import] Starting run with:
+  Import script: /workspace/tools/importer/import-press-release.bundle.js
+  URLs file:     /workspace/tools/importer/urls-still-needed.txt
+  Output dir:    /workspace/content
+  URL count:     159
+
+[1/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPA_DATI_INGLESI_RWE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[1/159] ✅ Saved content to area-stampa/press-releases/2018/notastampa-dati-inglesi-rwe
+[2/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPACONSEGNEVACCINO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[2/159] ✅ Saved content to area-stampa/press-releases/2018/notastampaconsegnevaccino
+[3/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOTASTAMPAESTRANEITAVENDITAMERCATIPARALLELI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[3/159] ✅ Saved content to area-stampa/press-releases/2018/notastampaestraneitavenditamercatiparalleli
+[4/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_SENO_OVAIO_RIMBORSABILITA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[4/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-seno-ovaio-rimborsabilita
+[5/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PROFUND_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[5/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-profund-approvazioneeu
+[6/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PAOLAI_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[6/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-paolai-approvazioneeu
+[7/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_HF_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[7/159] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-hf-approvazioneeu
+[8/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BENRALIZUMAB_PONENTE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[8/159] ✅ Saved content to area-stampa/press-releases/2018/benralizumab-ponente
+[9/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PROFOUND_ESMO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[9/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-profound-esmo
+[10/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_PACIFIC_ESMO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[10/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-pacific-esmo
+[11/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_SOLO-1_ESMO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[11/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-solo-1-esmo
+[12/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/PENNABENRALIZUMAB_DISPONIBILITAITALIA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[12/159] ✅ Saved content to area-stampa/press-releases/2018/pennabenralizumab-disponibilitaitalia
+[13/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_OK_UE_SCLC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[13/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-ok-ue-sclc
+[14/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DAPA-CKD_ESC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[14/159] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-dapa-ckd-esc
+[15/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_VACCINO_COVID-19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[15/159] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-vaccino-covid-19
+[16/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PSP_AZ-MSD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[16/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-psp-az-msd
+[17/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BUDESONIDE-GLICOPIRRONIO-FORMOTEROLO_ETHOS_BPCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 4 block instances on page
+[17/159] ✅ Saved content to area-stampa/press-releases/2018/budesonide-glicopirronio-formoterolo-ethos-bpco
+[18/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_VACCINO_COVID19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[18/159] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-vaccino-covid19
+[19/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OSIMERTINIB_NSCLC_ADAURA_ASCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[19/159] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-nsclc-adaura-asco
+[20/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_CASPIAN_SCLC_ASCO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[20/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-caspian-sclc-asco
+[21/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_MIRKOMERLETTI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[21/159] ✅ Saved content to area-stampa/press-releases/2018/nomina-mirkomerletti
+[22/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DAPACKD_ACC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[22/159] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-dapackd-acc
+[23/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_COVID-19.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[23/159] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-covid-19
+[24/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ASTRAZENECA_TOP_EMPLOYERS_2020.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[24/159] ✅ Saved content to area-stampa/press-releases/2018/astrazeneca-top-employers-2020
+[25/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OSIMERTINIB_RIMBORSABILITA_1LINEA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[25/159] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-rimborsabilita-1linea
+[26/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_ELEVATETN_ASH.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 4 block instances on page
+[26/159] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-elevatetn-ash
+[27/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PROFOUND_PROSTATA_ESMO2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[27/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-profound-prostata-esmo2019
+[28/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_PAOLA_ESMO2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 4 block instances on page
+[28/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-paola-esmo2019
+[29/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OSIMERTINIB_FLAURA_ESMO2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[29/159] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-flaura-esmo2019
+[30/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_CASPIAN_IASLC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[30/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-caspian-iaslc
+[31/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DAPA-HF_ESC2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[31/159] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-dapa-hf-esc2019
+[32/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/TICAGRELOR_THEMIS_ESC2019.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[32/159] ✅ Saved content to area-stampa/press-releases/2018/ticagrelor-themis-esc2019
+[33/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/HLR_FLAURA_OS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[33/159] ✅ Saved content to area-stampa/press-releases/2018/hlr-flaura-os
+[34/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/LUNG_AMBITION_ALLIANCE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[34/159] ✅ Saved content to area-stampa/press-releases/2018/lung-ambition-alliance
+[35/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_CHMP_DECLARE_CVDATA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[35/159] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-chmp-declare-cvdata
+[36/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_DRIOL_HR.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[36/159] ✅ Saved content to area-stampa/press-releases/2018/nomina-driol-hr
+[37/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/BENRALIZUMAB_CHMP_AUTOSOMMINISTRAZIONE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[37/159] ✅ Saved content to area-stampa/press-releases/2018/benralizumab-chmp-autosomministrazione
+[38/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_OVAIO_SOLOI_APPROVAZIONEEU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[38/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-ovaio-soloi-approvazioneeu
+[39/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ACALABRUTINIB_LLC_ASCEND.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[39/159] ✅ Saved content to area-stampa/press-releases/2018/acalabrutinib-llc-ascend
+[40/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOMINA_OLIVEROS_MEDICALHEAD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[40/159] ✅ Saved content to area-stampa/press-releases/2018/nomina-oliveros-medicalhead
+[41/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DAPAGLIFLOZIN_DECLARE_renaldata.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[41/159] ✅ Saved content to area-stampa/press-releases/2018/dapagliflozin-declare-renaldata
+[42/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DURVALUMAB_TumorePolmone.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[42/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-tumorepolmone
+[43/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/OLAPARIB_TumorePancreas.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[43/159] ✅ Saved content to area-stampa/press-releases/2018/olaparib-tumorepancreas
+[44/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/NOVELSTART.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[44/159] ✅ Saved content to area-stampa/press-releases/2018/novelstart
+[45/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/PATIENTADVOCACYNETWORK.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[45/159] ✅ Saved content to area-stampa/press-releases/2018/patientadvocacynetwork
+[46/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/SENOMETASTATICO.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[46/159] ✅ Saved content to area-stampa/press-releases/2018/senometastatico
+[47/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/DECLAREsottoanalisi.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[47/159] ✅ Saved content to area-stampa/press-releases/2018/declaresottoanalisi
+[48/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/AA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[48/159] ✅ Saved content to area-stampa/press-releases/2018/aa
+[49/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/AHA_2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[49/159] ✅ Saved content to area-stampa/press-releases/2018/aha-2018
+[50/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/SOLO1_ESMO2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[50/159] ✅ Saved content to area-stampa/press-releases/2018/solo1-esmo2018
+[51/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/PACIFIC_OS_WCLC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[51/159] ✅ Saved content to area-stampa/press-releases/2018/pacific-os-wclc
+[52/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Dapaglifozin__DECLARE_top_line.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[52/159] ✅ Saved content to area-stampa/press-releases/2018/dapaglifozin-declare-top-line
+[53/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Benralizumab_BORA_ERS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[53/159] ✅ Saved content to area-stampa/press-releases/2018/benralizumab-bora-ers
+[54/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Nomina_Chiara_Gargiulo_VP_RIA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[54/159] ✅ Saved content to area-stampa/press-releases/2018/nomina-chiara-gargiulo-vp-ria
+[55/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Nomina_Scott_Pescatore_VP_OBU.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[55/159] ✅ Saved content to area-stampa/press-releases/2018/nomina-scott-pescatore-vp-obu
+[56/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Durvalumab_parerepositivoCHMP.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[56/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab-parerepositivochmp
+[57/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Solo1_olaparib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[57/159] ✅ Saved content to area-stampa/press-releases/2018/solo1-olaparib
+[58/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Osimertinib_Eu.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[58/159] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-eu
+[59/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/durvalumabPACIFICOS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[59/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumabpacificos
+[60/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/trialsygma.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[60/159] ✅ Saved content to area-stampa/press-releases/2018/trialsygma
+[61/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/patientadvocacynetwork2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[61/159] ✅ Saved content to area-stampa/press-releases/2018/patientadvocacynetwork2018
+[62/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/campagnaioscelgodisapere.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[62/159] ✅ Saved content to area-stampa/press-releases/2018/campagnaioscelgodisapere
+[63/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/studiocvdreal.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[63/159] ✅ Saved content to area-stampa/press-releases/2018/studiocvdreal
+[64/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/durvalumab.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[64/159] ✅ Saved content to area-stampa/press-releases/2018/durvalumab
+[65/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/ticagrelor.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[65/159] ✅ Saved content to area-stampa/press-releases/2018/ticagrelor
+[66/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/topemployers2018.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[66/159] ✅ Saved content to area-stampa/press-releases/2018/topemployers2018
+[67/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/benralizumabEMA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[67/159] ✅ Saved content to area-stampa/press-releases/2018/benralizumabema
+[68/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/acalabrutinib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[68/159] ✅ Saved content to area-stampa/press-releases/2017/acalabrutinib
+[69/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Durvalumab_EMA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[69/159] ✅ Saved content to area-stampa/press-releases/2017/durvalumab-ema
+[70/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Osimertinib_BTD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[70/159] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-btd
+[71/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/GlobalDiabetesPolicyForum.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[71/159] ✅ Saved content to area-stampa/press-releases/2017/globaldiabetespolicyforum
+[72/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/budesonide_formoterolo_spray.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[72/159] ✅ Saved content to area-stampa/press-releases/2017/budesonide-formoterolo-spray
+[73/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/FLAURA_tumore_al_polmone1.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[73/159] ✅ Saved content to area-stampa/press-releases/2017/flaura-tumore-al-polmone1
+[74/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/PACIFIC_tumore_al_polmone.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[74/159] ✅ Saved content to area-stampa/press-releases/2017/pacific-tumore-al-polmone
+[75/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_rimborsabile.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[75/159] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-rimborsabile
+[76/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/linfoma_mantellare.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[76/159] ✅ Saved content to area-stampa/press-releases/2017/linfoma-mantellare
+[77/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/dapagliflozin_ADA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[77/159] ✅ Saved content to area-stampa/press-releases/2017/dapagliflozin-ada
+[78/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_tumoreovarico_studioSOLO2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[78/159] ✅ Saved content to area-stampa/press-releases/2017/olaparib-tumoreovarico-studiosolo2
+[79/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_tumorealpolmone_AURA3.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[79/159] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-tumorealpolmone-aura3
+[80/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/osimertinib_tumorealpolmone_AURA3.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[80/159] ✅ Saved content to area-stampa/press-releases/2018/osimertinib-tumorealpolmone-aura3
+[81/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_carcinomamammario_OlympiAD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[81/159] ✅ Saved content to area-stampa/press-releases/2017/olaparib-carcinomamammario-olympiad
+[82/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/benralizumab_ZONDA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[82/159] ✅ Saved content to area-stampa/press-releases/2017/benralizumab-zonda
+[83/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/exenatide_studioEXSCEL.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[83/159] ✅ Saved content to area-stampa/press-releases/2017/exenatide-studioexscel
+[84/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/durvalumab_StudioPACIFIC.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[84/159] ✅ Saved content to area-stampa/press-releases/2017/durvalumab-studiopacific
+[85/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/durvalumab_approvazioneFDA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[85/159] ✅ Saved content to area-stampa/press-releases/2017/durvalumab-approvazionefda
+[86/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Cambridge_nuovasede.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[86/159] ✅ Saved content to area-stampa/press-releases/2017/cambridge-nuovasede
+[87/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_FDAUSA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_FDAUSA.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[87/159] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-fdausa
+[88/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/AACR_oncologia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/AACR_oncologia.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[88/159] ✅ Saved content to area-stampa/press-releases/2017/aacr-oncologia
+[89/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_cFDA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/osimertinib_cFDA.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[89/159] ✅ Saved content to area-stampa/press-releases/2017/osimertinib-cfda
+[90/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Neuromieliteottica.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/Neuromieliteottica.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[90/159] ✅ Saved content to area-stampa/press-releases/2017/neuromieliteottica
+[91/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Circassia_patologierespiratorie.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/Circassia_patologierespiratorie.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[91/159] ✅ Saved content to area-stampa/press-releases/2017/circassia-patologierespiratorie
+[92/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS-9_iperkaliemia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS-9_iperkaliemia.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[92/159] ✅ Saved content to area-stampa/press-releases/2017/zs-9-iperkaliemia
+[93/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/CVD_Real_SGLT2.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[93/159] ✅ Saved content to area-stampa/press-releases/2017/cvd-real-sglt2
+[94/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_BRCA_SOLO2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_BRCA_SOLO2.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Found 3 block instances on page
+[94/159] ✅ Saved content to area-stampa/press-releases/2017/olaparib-brca-solo2
+[95/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/diabete_dapagliflozin_saxagliptin.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/diabete_dapagliflozin_saxagliptin.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[95/159] ✅ Saved content to area-stampa/press-releases/2017/diabete-dapagliflozin-saxagliptin
+[96/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/MedImmune_SanofiPasteur_MEDI8897.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/MedImmune_SanofiPasteur_MEDI8897.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[96/159] ✅ Saved content to area-stampa/press-releases/2017/medimmune-sanofipasteur-medi8897
+[97/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_OlympiAD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/Olaparib_OlympiAD.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[97/159] ✅ Saved content to area-stampa/press-releases/2017/olaparib-olympiad
+[98/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS9_iperkaliemia_ZSPharma.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/ZS9_iperkaliemia_ZSPharma.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[98/159] ✅ Saved content to area-stampa/press-releases/2017/zs9-iperkaliemia-zspharma
+[99/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/goserelin.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/goserelin.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[99/159] ✅ Saved content to area-stampa/press-releases/2017/goserelin
+[100/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/brodalumab.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/brodalumab.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[100/159] ✅ Saved content to area-stampa/press-releases/2017/brodalumab
+[101/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/TopEmployers2017.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] get data url from a base64 image (https://www.astrazeneca.it/area-stampa/press-releases/2017/TopEmployers2017.html): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at _C.getDataUrlFromB64Img (<anonymous>:2:1876557)
+    at <anonymous>:2:1892650
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1892424)
+    at u.storageHandler.import (<anonymous>:2:1893650)
+    at async jC (<anonymous>:2:1900296)
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[101/159] ✅ Saved content to area-stampa/press-releases/2017/topemployers2017
+[102/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/TopEmployers2017.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[102/159] ✅ Saved content to area-stampa/press-releases/2018/topemployers2017
+[103/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2017/immunoncologia.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[103/159] ✅ Saved content to area-stampa/press-releases/2017/immunoncologia
+[104/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumab.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[104/159] ✅ Saved content to area-stampa/press-releases/2016/durvalumab
+[105/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/accordo_Cilag.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[105/159] ✅ Saved content to area-stampa/press-releases/2016/accordo-cilag
+[106/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/congressiscientifici.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[106/159] ✅ Saved content to area-stampa/press-releases/2016/congressiscientifici
+[107/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/testBRCA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[107/159] ✅ Saved content to area-stampa/press-releases/2016/testbrca
+[108/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/olaparibsolo2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[108/159] ✅ Saved content to area-stampa/press-releases/2016/olaparibsolo2
+[109/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumabesmo.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[109/159] ✅ Saved content to area-stampa/press-releases/2016/durvalumabesmo
+[110/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/euclid.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[110/159] ✅ Saved content to area-stampa/press-releases/2016/euclid
+[111/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/aralez.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[111/159] ✅ Saved content to area-stampa/press-releases/2016/aralez
+[112/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/fulvestrant_esmo.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[112/159] ✅ Saved content to area-stampa/press-releases/2016/fulvestrant-esmo
+[113/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/davidgoldstein.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[113/159] ✅ Saved content to area-stampa/press-releases/2016/davidgoldstein
+[114/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/cediranib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[114/159] ✅ Saved content to area-stampa/press-releases/2016/cediranib
+[115/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/exenatide.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[115/159] ✅ Saved content to area-stampa/press-releases/2016/exenatide
+[116/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/dapagliflozin.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[116/159] ✅ Saved content to area-stampa/press-releases/2016/dapagliflozin
+[117/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/benralizumabERS.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[117/159] ✅ Saved content to area-stampa/press-releases/2016/benralizumabers
+[118/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[118/159] ✅ Saved content to area-stampa/press-releases/2016/selumetinib
+[119/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Pfizer.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[119/159] ✅ Saved content to area-stampa/press-releases/2016/pfizer
+[120/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[120/159] ✅ Saved content to area-stampa/press-releases/2016/ceftazidime-avibactam
+[121/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_AURA3.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[121/159] ✅ Saved content to area-stampa/press-releases/2016/osimertinib-aura3
+[122/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/astraZeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[122/159] ✅ Saved content to area-stampa/press-releases/2016/astrazeneca-stipula-due-accordi-di-licenza-con-leo-pharmap-er-il-trattamento-delle-malattie-cutanee
+[123/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[123/159] ✅ Saved content to area-stampa/press-releases/2016/ceftazidime-avibactam-approvato-nell-unione-europea-per-il-trattamento-dei-pazienti-con-gravi-infezioni-batteriche
+[124/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/accordoolaparivconFMI.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[124/159] ✅ Saved content to area-stampa/press-releases/2016/accordoolaparivconfmi
+[125/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/lesinurad1.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[125/159] ✅ Saved content to area-stampa/press-releases/2016/lesinurad1
+[126/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumabasco2016.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[126/159] ✅ Saved content to area-stampa/press-releases/2016/durvalumabasco2016
+[127/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/olaparibasco2016.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[127/159] ✅ Saved content to area-stampa/press-releases/2016/olaparibasco2016
+[128/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinibasco2016.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[128/159] ✅ Saved content to area-stampa/press-releases/2016/osimertinibasco2016
+[129/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Saxa-dapa-CHMP.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[129/159] ✅ Saved content to area-stampa/press-releases/2016/saxa-dapa-chmp
+[130/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Fulvestrant_FALCON.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[130/159] ✅ Saved content to area-stampa/press-releases/2016/fulvestrant-falcon
+[131/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/takeda.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[131/159] ✅ Saved content to area-stampa/press-releases/2016/takeda
+[132/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/olaparib_GOLD.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[132/159] ✅ Saved content to area-stampa/press-releases/2016/olaparib-gold
+[133/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/selumetinib_farmacoorfano.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[133/159] ✅ Saved content to area-stampa/press-releases/2016/selumetinib-farmacoorfano
+[134/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/ricercagenomica.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[134/159] ✅ Saved content to area-stampa/press-releases/2016/ricercagenomica
+[135/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/ironwwod.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[135/159] ✅ Saved content to area-stampa/press-releases/2016/ironwwod
+[136/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/FDA-glicopirrolato.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[136/159] ✅ Saved content to area-stampa/press-releases/2016/fda-glicopirrolato
+[137/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/ECCMID-2016.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[137/159] ✅ Saved content to area-stampa/press-releases/2016/eccmid-2016
+[138/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/olaparib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[138/159] ✅ Saved content to area-stampa/press-releases/2016/olaparib
+[139/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/elcc_osimertinib.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[139/159] ✅ Saved content to area-stampa/press-releases/2016/elcc-osimertinib
+[140/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Linee-guida-ACC-AHA-ticagrelor.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[140/159] ✅ Saved content to area-stampa/press-releases/2016/linee-guida-acc-aha-ticagrelor
+[141/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/PLAIV_CHMP.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[141/159] ✅ Saved content to area-stampa/press-releases/2016/plaiv-chmp
+[142/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/risultati_Socrates.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[142/159] ✅ Saved content to area-stampa/press-releases/2016/risultati-socrates
+[143/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/moventig_Prostrakan.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[143/159] ✅ Saved content to area-stampa/press-releases/2016/moventig-prostrakan
+[144/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/MEDI8852_FDA_Fast_Track.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[144/159] ✅ Saved content to area-stampa/press-releases/2016/medi8852-fda-fast-track
+[145/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/MEDI551_Orphan_Drug.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[145/159] ✅ Saved content to area-stampa/press-releases/2016/medi551-orphan-drug
+[146/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/felodipina.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[146/159] ✅ Saved content to area-stampa/press-releases/2016/felodipina
+[147/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/durvalumab-breakthroughTherapy.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[147/159] ✅ Saved content to area-stampa/press-releases/2016/durvalumab-breakthroughtherapy
+[148/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/lesinurad.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[148/159] ✅ Saved content to area-stampa/press-releases/2016/lesinurad
+[149/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/acalabrutinib_EMA.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[149/159] ✅ Saved content to area-stampa/press-releases/2016/acalabrutinib-ema
+[150/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/lynparza-breakthroughTherapy.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[150/159] ✅ Saved content to area-stampa/press-releases/2016/lynparza-breakthroughtherapy
+[151/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/consorzio-RCP2.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[151/159] ✅ Saved content to area-stampa/press-releases/2016/consorzio-rcp2
+[152/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/acerta_pharma.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[152/159] ✅ Saved content to area-stampa/press-releases/2016/acerta-pharma
+[153/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/moderna_therapeutics.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[153/159] ✅ Saved content to area-stampa/press-releases/2016/moderna-therapeutics
+[154/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/ricerca_traslazionale.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[154/159] ✅ Saved content to area-stampa/press-releases/2016/ricerca-traslazionale
+[155/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/incyte.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[155/159] ✅ Saved content to area-stampa/press-releases/2016/incyte
+[156/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[156/159] ✅ Saved content to area-stampa/press-releases/2016/secretomics
+[157/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[157/159] ✅ Saved content to area-stampa/press-releases/2016/voluntis
+[158/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[158/159] ✅ Saved content to area-stampa/press-releases/2016/top-employer
+[159/159] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[159/159] ✅ Saved content to area-stampa/press-releases/2016/osimertinib-ce
+[Bulk Import] Completed. Success: 159/159, Failures: 0
+[Excel Export] Found 199 report file(s). Compiling to Excel...
+[Excel Export] ✅ Compiled 199 reports to: /workspace/tools/importer/reports/import-press-release.report.xlsx

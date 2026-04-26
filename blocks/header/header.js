@@ -141,8 +141,9 @@ export default async function decorate(block) {
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
   const classes = ['brand', 'sections', 'tools'];
+  const navChildren = [...nav.children].filter((child) => child.tagName === 'DIV');
   classes.forEach((c, i) => {
-    const section = nav.children[i];
+    const section = navChildren[i];
     if (section) section.classList.add(`nav-${c}`);
   });
 

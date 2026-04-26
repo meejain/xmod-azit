@@ -1,0 +1,44 @@
+[Bulk Import] Starting run with:
+  Import script: /workspace/tools/importer/import-press-release.bundle.js
+  URLs file:     /workspace/tools/importer/urls-remaining-v4.txt
+  Output dir:    /workspace/content
+  URL count:     6
+
+[1/6] Starting https://www.astrazeneca.it/area-stampa/press-releases/2018/Dapaglifozin__DECLARE_top_line.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[1/6] ✅ Saved content to area-stampa/press-releases/2018/dapaglifozin-declare-top-line
+[2/6] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/incyte.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[2/6] ✅ Saved content to area-stampa/press-releases/2016/incyte
+[3/6] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/secretomics.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[3/6] ✅ Saved content to area-stampa/press-releases/2016/secretomics
+[4/6] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Voluntis.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[4/6] ✅ Saved content to area-stampa/press-releases/2016/voluntis
+[5/6] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/Top_Employer.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Block "table-press" selector not found: .rich-text table
+[Browser Console] Found 2 block instances on page
+[5/6] ✅ Saved content to area-stampa/press-releases/2016/top-employer
+[6/6] Starting https://www.astrazeneca.it/area-stampa/press-releases/2016/osimertinib_CE.html
+[Browser Console] JQMIGRATE: Migrate is installed, version 3.2.0
+[Browser Console] An error occurred with the dark site request {readyState: 4, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: }
+[Browser Console] Found 3 block instances on page
+[6/6] ✅ Saved content to area-stampa/press-releases/2016/osimertinib-ce
+[Bulk Import] Completed. Success: 6/6, Failures: 0
+[Excel Export] Found 199 report file(s). Compiling to Excel...
+[Excel Export] ✅ Compiled 199 reports to: /workspace/tools/importer/reports/import-press-release.report.xlsx
