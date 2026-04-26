@@ -106,10 +106,8 @@ export default async function decorate(block) {
   chipPanel.className = 'chip-panel';
   chipPanel.id = 'chip-panel';
   chipPanel.innerHTML = `
-    <div class="chip-panel-inner">
-      <h4 class="chip-panel-label">Anni disponibili</h4>
-      <div class="chip-list" role="group" aria-label="Filtra per anno"></div>
-    </div>
+    <h4 class="chip-panel-label">Anni disponibili</h4>
+    <div class="chip-list" role="group" aria-label="Filtra per anno"></div>
   `;
   block.append(chipPanel);
 
