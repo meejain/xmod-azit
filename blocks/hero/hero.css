@@ -142,7 +142,7 @@
 
 .hero.light {
   min-height: 200px;
-  background-color: #f5f5f5;
+  background-color: #3c4242;
   align-items: center;
 }
 
@@ -157,13 +157,13 @@
 }
 
 .hero.light h1 {
-  color: #830051;
+  color: #fff;
 }
 
 .hero.light h2 {
-  color: #830051;
+  color: #fff;
 }
 
 .hero.light p:not(:has(picture)) {
-  color: #830051;
+  color: #fff;
 }
