@@ -251,27 +251,34 @@
   margin: 0;
 }
 
-/* --- Card list --- */
-.press-release-list .results-list {
+/* --- Cards block (press-release variant) — override default grid to vertical list --- */
+.press-release-list .cards.press-release > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Card item — Figma: divider 1px #b1b9b9, pt-20 pb-40 */
-.press-release-list .results-list li {
+.press-release-list .cards.press-release > ul > li {
   padding: 0 0 20px;
   margin: 0 0 40px;
+  border: none;
   border-bottom: 1px solid #b1b9b9;
+  background: none;
 }
 
-.press-release-list .results-list li:last-child {
+.press-release-list .cards.press-release > ul > li:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
 
-/* Card link */
-.press-release-list .results-list a {
+.press-release-list .cards.press-release .cards-card-body {
+  margin: 0;
+}
+
+.press-release-list .cards.press-release a {
   display: block;
   text-decoration: none;
 }
@@ -294,7 +301,7 @@
   }
 }
 
-.press-release-list .results-list a:hover .card-title {
+.press-release-list .cards.press-release a:hover .card-title {
   color: #d0006f;
 }
 
