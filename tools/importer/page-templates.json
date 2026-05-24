@@ -1,4 +1,7 @@
 {
+  "metadata": {
+    "projectType": "da"
+  },
   "templates": [
     {
       "name": "press-release",
@@ -71,6 +74,65 @@
             ".publishedDate",
             ".rich-text"
           ]
+        }
+      ]
+    },
+    {
+      "name": "index-hk",
+      "urls": [
+        "https://azhealthclub.com.hk/"
+      ],
+      "description": "AZ Health Club Hong Kong homepage with hero carousel, about section, and disease category cards",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [".homepage-slider-banner"]
+        },
+        {
+          "name": "columns-about",
+          "instances": [".homepage_content"]
+        },
+        {
+          "name": "cards-disease",
+          "instances": [".disease-grid.disease-page-cards"]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [".page-full-width-field"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Carousel",
+          "selector": ".homepage-slider-banner",
+          "style": null,
+          "blocks": ["carousel-hero"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "About Section",
+          "selector": ".homepage_content",
+          "style": null,
+          "blocks": ["columns-about"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Disease Categories",
+          "selector": ".home-section-3",
+          "style": null,
+          "blocks": ["cards-disease"],
+          "defaultContent": [".home-section-3 .section-title", ".home-section-3 .intro-text"]
+        },
+        {
+          "id": "section-4",
+          "name": "Footer Banner",
+          "selector": ".page-full-width-field",
+          "style": null,
+          "blocks": ["hero-banner"],
+          "defaultContent": []
         }
       ]
     }

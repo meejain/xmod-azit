@@ -1,5 +1,60 @@
 /* add global styles that can be loaded post LCP here */
 
+/* === HK Index Page Styles === */
+
+/* Hero HK section — full-bleed, no padding */
+main > .section.hero-container {
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.hero-container > .hero-wrapper {
+  max-width: 100%;
+  padding: 0;
+}
+
+/* Columns about section */
+main > .section.columns-about-container {
+  padding: 60px 20px;
+}
+
+/* Disease categories section — centered heading */
+main > .section.cards-disease-container {
+  padding: 40px 20px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main > .section.cards-disease-container > .default-content-wrapper h2 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #49b2a6;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+main > .section.cards-disease-container > .default-content-wrapper > p {
+  font-size: 14px;
+  color: #848484;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+/* Hero banner section — full bleed */
+main > .section.hero-banner-container {
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.hero-banner-container > .hero-banner-wrapper {
+  max-width: 100%;
+  padding: 0;
+}
+
 /* Press release — remove default section margins for seamless layout */
 main > .section.hero-press-container {
   margin: 0;

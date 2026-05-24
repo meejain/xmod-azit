@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-about",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-24T17:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://azhealthclub.com.hk/",
+    "originPage": "AZ Health Club Hong Kong homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "about-section",
+    "imagePattern": "large",
+    "structure": "heading + paragraph + small images | large image"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + small images | large image",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "about us sections with text and imagery",
+      "two-column layouts with mixed content",
+      "informational sections with descriptive text alongside photos"
+    ],
+    "notSuitableFor": [
+      "simple text-only columns",
+      "product comparison layouts",
+      "equal-weight content columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-24T17:33:00.000Z"
+  }
+}

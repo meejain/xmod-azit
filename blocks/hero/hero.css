@@ -167,3 +167,82 @@
 .hero.light p:not(:has(picture)) {
   color: #fff;
 }
+
+/* =========================================
+   Hero HK variant — Full-bleed banner with text overlay
+   Source: https://azhealthclub.com.hk/
+   ========================================= */
+
+.hero.hk {
+  min-height: auto;
+  background-color: #fff;
+  align-items: flex-start;
+}
+
+.hero.hk > picture {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  display: block;
+}
+
+.hero.hk > picture img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  opacity: 1;
+}
+
+.hero.hk > div {
+  position: absolute;
+  top: 15%;
+  left: 60px;
+  z-index: 2;
+  max-width: 45%;
+  padding: 0;
+  margin: 0;
+}
+
+.hero.hk h2,
+.hero.hk h3 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 3vw;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.4;
+  margin: 0;
+  text-shadow: 1.5px 1.5px 1.5px #49b2a6;
+}
+
+.hero.hk h3 {
+  margin-bottom: 10px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.hero.hk p {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 1.8vw;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  text-shadow: 1.5px 1.5px 1.5px #49b2a6;
+}
+
+@media (width < 600px) {
+  .hero.hk > div {
+    top: 5%;
+    left: 10px;
+    max-width: 60%;
+  }
+
+  .hero.hk h2,
+  .hero.hk h3 {
+    font-size: 5vw;
+  }
+
+  .hero.hk p {
+    font-size: 3vw;
+  }
+}

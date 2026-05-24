@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-disease",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-24T17:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://azhealthclub.com.hk/",
+    "originPage": "AZ Health Club Hong Kong homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "disease-category",
+    "imagePattern": "icon",
+    "structure": "circular icon + linked title"
+  },
+  "contentPattern": {
+    "structure": "circular icon image + linked heading title",
+    "buttonCount": 0,
+    "imageCount": 7
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "disease or health category grids",
+      "icon-based navigation cards",
+      "category selection pages with circular icons"
+    ],
+    "notSuitableFor": [
+      "product cards with photos",
+      "article/blog cards with thumbnails",
+      "team member cards with portraits"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-24T17:33:00.000Z"
+  }
+}
