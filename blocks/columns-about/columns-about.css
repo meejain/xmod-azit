@@ -68,14 +68,24 @@
   }
 }
 
-/* Small icon images in left column */
+/* Small icon images in left column — horizontal row */
+.columns-about > div > div:first-child p:last-child {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.columns-about > div > div:first-child p:last-child picture {
+  display: block;
+  flex-shrink: 0;
+}
+
 .columns-about > div > div:first-child p picture img {
-  width: 80px;
-  max-width: 80px;
+  width: 70px;
+  max-width: 70px;
   height: auto;
-  display: inline-block;
-  margin-right: 12px;
-  margin-top: 10px;
+  display: block;
 }
 
 /* Desktop: side by side, image floats over left */
@@ -88,14 +98,14 @@
   }
 
   .columns-about > div > div:first-child {
-    width: 55%;
-    flex: 0 0 55%;
-    padding: 60px 120px 60px 60px;
+    width: 50%;
+    flex: 0 0 50%;
+    padding: 50px 60px;
   }
 
   .columns-about > div > div:last-child {
-    width: 50%;
-    flex: 0 0 50%;
+    width: 55%;
+    flex: 0 0 55%;
     margin-left: -5%;
     position: relative;
     z-index: 1;
