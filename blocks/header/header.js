@@ -74,11 +74,19 @@ function decorateDropdowns(navSections) {
       navItem.classList.add('nav-drop');
       navItem.setAttribute('aria-expanded', 'false');
 
+      // Mark sub-items that have their own nested ul (3rd level)
+      navItem.querySelectorAll(':scope > ul > li').forEach((subItem) => {
+        if (subItem.querySelector('ul')) {
+          subItem.classList.add('nav-sub-drop');
+          subItem.setAttribute('aria-expanded', 'false');
+        }
+      });
+
       const topLink = navItem.querySelector(':scope > a');
       if (topLink) {
         const toggle = document.createElement('button');
         toggle.className = 'nav-drop-toggle';
-        toggle.setAttribute('aria-label', `Espandi ${topLink.textContent.trim()}`);
+        toggle.setAttribute('aria-label', `Expand ${topLink.textContent.trim()}`);
         toggle.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
         toggle.addEventListener('click', (e) => {
           e.preventDefault();
@@ -118,6 +126,38 @@ function decorateDropdowns(navSections) {
           }
         });
       }
+
+      // Sub-drop hover/click for 3rd level (flyout to right)
+      navItem.querySelectorAll(':scope > ul > li.nav-sub-drop').forEach((subItem) => {
+        const subLink = subItem.querySelector(':scope > a');
+
+        subItem.addEventListener('mouseenter', () => {
+          if (isDesktop.matches) {
+            subItem.closest('ul').querySelectorAll('.nav-sub-drop').forEach((sd) => {
+              if (sd !== subItem) sd.setAttribute('aria-expanded', 'false');
+            });
+            subItem.setAttribute('aria-expanded', 'true');
+          }
+        });
+        subItem.addEventListener('mouseleave', () => {
+          if (isDesktop.matches) {
+            subItem.setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        if (subLink) {
+          subLink.addEventListener('click', (e) => {
+            if (!isDesktop.matches) {
+              e.preventDefault();
+              const isExpanded = subItem.getAttribute('aria-expanded') === 'true';
+              subItem.closest('ul').querySelectorAll('.nav-sub-drop').forEach((sd) => {
+                if (sd !== subItem) sd.setAttribute('aria-expanded', 'false');
+              });
+              subItem.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+            }
+          });
+        }
+      });
 
       navItem.addEventListener('click', (e) => {
         if (!isDesktop.matches && e.target === navItem) {
