@@ -68,12 +68,13 @@
   }
 }
 
-/* Icon images — horizontal flex row */
+/* Icon image paragraphs — handles both single-p and multi-p structures */
 .columns-about p.columns-about-icon {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  float: left;
+  margin: 20px 12px 0 0;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
