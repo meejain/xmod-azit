@@ -44,7 +44,7 @@ main > .section.cards-disease-container > .default-content-wrapper > p {
   margin: 0 auto 40px;
 }
 
-/* Hero banner section — full bleed */
+/* Hero banner section — full bleed, no gap to footer */
 main > .section.hero-banner-container {
   margin: 0;
   padding: 0;
@@ -52,6 +52,12 @@ main > .section.hero-banner-container {
 
 main > .section.hero-banner-container > .hero-banner-wrapper {
   max-width: 100%;
+  padding: 0;
+}
+
+/* Remove gap from empty section after hero-banner */
+main > .section.hero-banner-container ~ .section {
+  margin: 0;
   padding: 0;
 }
 
