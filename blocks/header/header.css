@@ -533,8 +533,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > a {
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li:hover::before,
-  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true']::before,
-  header nav .nav-sections .default-content-wrapper > ul > li.nav-active::before {
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true']::before {
     left: 10px;
     width: calc(100% - 20px);
   }
