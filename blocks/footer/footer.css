@@ -77,12 +77,11 @@ footer .footer .footer-col-1 {
   }
 }
 
-/* Figma: Logo w-[162px] h-[38px] — inverted for dark bg */
+/* Figma: Logo w-[162px] h-[38px] */
 footer .footer .footer-col-1 img {
   width: 162px;
   height: 38px;
   display: block;
-  filter: brightness(0) invert(1); /* White logo on dark bg */
 }
 
 /* Description: slightly muted for hierarchy on dark bg */

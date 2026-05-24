@@ -162,9 +162,9 @@ header nav[aria-expanded='true'] {
   min-height: 100dvh;
 }
 
-/* --- Desktop: 2-row grid (Figma layout) ---
-   Row 1: tools only (utility links + search, thin ~28px)
-   Row 2: brand LEFT | sections CENTER | (46px from Figma)
+/* --- Desktop: 2-row layout ---
+   Row 1: Utility links right-aligned (spans full width)
+   Row 2: Logo LEFT | Nav items TRUE CENTER | (46px height)
 */
 @media (width >= 900px) {
   header nav {
@@ -175,6 +175,7 @@ header nav[aria-expanded='true'] {
     gap: 0;
     max-width: var(--az-max-width);
     padding: 0;
+    position: relative;
   }
 
   header nav[aria-expanded='true'] {
@@ -439,9 +440,14 @@ header nav[aria-expanded='true'] .nav-sections {
     display: flex;
     visibility: visible;
     align-items: center;
-    justify-content: center; /* Figma: nav items centered in Row 2 */
+    justify-content: center;
     white-space: nowrap;
     overflow: visible;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 46px;
+    bottom: 0;
   }
 
   header nav[aria-expanded='true'] .nav-sections {
@@ -464,7 +470,7 @@ header nav .nav-sections .default-content-wrapper > ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0;
+    gap: 32px;
     margin: 0;
   }
 }
@@ -585,7 +591,7 @@ header nav .nav-drop[aria-expanded='true'] .nav-drop-toggle svg {
 }
 
 /* ================================
-   DROPDOWN MENUS — Live site values
+   DROPDOWN MENUS
    ================================ */
 header nav .nav-sections .default-content-wrapper > ul > li > ul {
   display: none;
@@ -596,39 +602,6 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul {
 
 header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > ul {
   display: block;
-}
-
-@media (width >= 900px) {
-  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 200px;
-    z-index: 1000;
-    background: transparent;
-    padding: 0;
-  }
-}
-
-/* Secondary links — Live site: lexia ITALIC 12px/20px 300, 0.5px spacing
-   bg: rgba(255,255,255,0.9) — semi-transparent white */
-header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
-  display: block;
-  padding: 8px 30px 8px 10px; /* Live site: exact padding */
-  font-family: var(--az-font-lexia);
-  font-weight: 300; /* Live site: 300 */
-  font-size: 12px; /* Live site: 12px */
-  font-style: italic; /* Live site: ITALIC */
-  line-height: 20px; /* Live site: 20px */
-  letter-spacing: 0.5px; /* Live site: 0.5px */
-  color: var(--az-text);
-  text-decoration: none;
-  white-space: nowrap;
-  background: rgb(255 255 255 / 90%); /* Live site: rgba(255,255,255,0.9) */
-}
-
-header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover {
-  color: var(--az-accent);
 }
 
 /* ================================
@@ -684,8 +657,10 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover 
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
+    display: block;
     font-size: 14px; /* Live site: 14px */
     font-weight: 400; /* Live site: 400 */
+    font-style: normal;
     padding: 20px 50px 17px 17px; /* Live site padding */
     border-bottom: 1px solid #d8dfde; /* Live site: 1px solid #d8dfde */
     background: var(--az-bg);
@@ -711,8 +686,8 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover 
     border-top: none;
   }
 
-  /* Sub-item ">" arrow on right — must come before expanded state */
-  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > a::after {
+  /* Sub-item ">" arrow on right — only on items with 3rd level children */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop > a::after {
     content: '';
     position: absolute;
     right: 22px;
@@ -724,7 +699,8 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover 
     transform: translateY(-50%) rotate(-45deg);
   }
 
-  /* Arrow rotates up when expanded — pink color (highest specificity) */
+  /* Arrow rotates up when expanded — pink color */
+  /* stylelint-disable-next-line no-descending-specificity */
   header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > a::after {
     transform: rotate(-135deg);
     top: 28px;
@@ -842,5 +818,186 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a:hover 
 
   header nav .nav-mobile-search {
     display: none;
+  }
+}
+
+/* ================================
+   MEGAMENU — 3-level flyout
+   Level 1: top nav bar headings
+   Level 2: dropdown panel (left column)
+   Level 3: flyout sub-panel (right column)
+   ================================ */
+
+/* Desktop: megamenu dropdown panel */
+@media (width >= 900px) {
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop[aria-expanded='true'] > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 280px;
+    z-index: 1000;
+    background: rgb(255 255 255 / 97%);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    padding: 8px 0;
+    border-top: none;
+  }
+
+  /* Level 2 items */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li {
+    position: relative;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > a {
+    display: block;
+    padding: 12px 40px 12px 16px;
+    font-family: var(--az-font-lexia);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: var(--az-text);
+    text-decoration: none;
+    white-space: normal;
+    background: transparent;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > a:hover,
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop[aria-expanded='true'] > a {
+    background: #f5f5f5;
+    color: var(--az-accent);
+  }
+
+  /* Pink marker on active sub-item */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop[aria-expanded='true'] > a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 20px;
+    background: var(--az-accent);
+    border-radius: 0 2px 2px 0;
+  }
+
+  /* Right chevron on sub-drop items */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop > a::after {
+    content: '';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    border-right: 1.5px solid var(--az-text);
+    border-bottom: 1.5px solid var(--az-text);
+    transform: translateY(-50%) rotate(-45deg);
+    transition: border-color 0.15s ease;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop[aria-expanded='true'] > a::after {
+    border-color: var(--az-accent);
+  }
+
+  /* Level 3 — flyout panel to the right (targets nested ul, not level 2 ul) */
+  /* stylelint-disable-next-line no-descending-specificity */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 260px;
+    background: #f8f9f9;
+    box-shadow: 4px 4px 12px rgb(0 0 0 / 8%);
+    padding: 8px 0;
+    margin: 0;
+    list-style: none;
+    z-index: 1001;
+    min-height: 100%;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop[aria-expanded='true'] > ul {
+    display: block;
+  }
+
+  /* Level 3 links */
+  /* stylelint-disable-next-line no-descending-specificity */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > ul > li > a {
+    display: block;
+    padding: 10px 16px;
+    font-family: var(--az-font-lexia);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--az-text);
+    text-decoration: none;
+    white-space: normal;
+    background: transparent;
+    transition: color 0.15s ease;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > ul > li > a:hover {
+    color: var(--az-accent);
+  }
+}
+
+/* ================================
+   MOBILE: 3-level accordion
+   ================================ */
+@media (width < 900px) {
+  /* Level 2 sub-drop items */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop > a {
+    position: relative;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop > a::after {
+    content: '';
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid var(--az-text);
+    border-bottom: 1px solid var(--az-text);
+    transform: translateY(-50%) rotate(45deg);
+    transition: transform 0.2s ease;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop[aria-expanded='true'] > a::after {
+    transform: translateY(-50%) rotate(-135deg);
+    border-color: var(--az-accent);
+  }
+
+  /* Level 3 list hidden by default */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li.nav-sub-drop[aria-expanded='true'] > ul {
+    display: block;
+  }
+
+  /* Level 3 links — indented */
+  /* stylelint-disable-next-line no-descending-specificity */
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > ul > li > a {
+    display: block;
+    padding: 14px 50px 14px 34px;
+    font-family: var(--az-font-lexia);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--az-text);
+    text-decoration: none;
+    border-bottom: 1px solid #e8eceb;
+    background: #f8f9f9;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li.nav-drop > ul > li > ul > li > a:hover {
+    color: var(--az-accent);
   }
 }
