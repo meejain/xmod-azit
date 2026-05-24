@@ -1,14 +1,20 @@
 export default function decorate(block) {
-  // Move the picture out of the content wrapper to be a direct child of .hero
-  // This allows it to be positioned absolute relative to .hero, not the content div
   const picture = block.querySelector('picture');
   if (picture) {
-    const pictureParent = picture.closest('p') || picture.parentElement;
-    // Move picture to be first child of the block
+    const pictureParent = picture.closest('div');
     block.prepend(picture);
-    // Remove the empty <p> left behind
-    if (pictureParent && pictureParent.tagName === 'P' && !pictureParent.textContent.trim()) {
+    if (pictureParent && !pictureParent.textContent.trim() && !pictureParent.querySelector('picture')) {
       pictureParent.remove();
+    }
+  }
+
+  // For two-cell layout (image cell + text cell), unwrap the text cell
+  const row = block.querySelector(':scope > div');
+  if (row) {
+    const textCell = row.querySelector(':scope > div');
+    if (textCell) {
+      while (textCell.firstChild) row.appendChild(textCell.firstChild);
+      textCell.remove();
     }
   }
 }

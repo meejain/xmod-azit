@@ -1,0 +1,31 @@
+.hero-banner-container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.hero-banner-wrapper {
+  max-width: 100%;
+  padding: 0;
+}
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  min-height: auto;
+}
+
+.hero-banner picture {
+  display: block;
+  width: 100%;
+  position: relative;
+  inset: auto;
+  z-index: auto;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}

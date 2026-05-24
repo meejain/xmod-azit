@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-24T17:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://azhealthclub.com.hk/",
+    "originPage": "AZ Health Club Hong Kong homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "decorative-banner",
+    "imagePattern": "large",
+    "structure": "background image + heading text"
+  },
+  "contentPattern": {
+    "structure": "background image + overlay heading text",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "decorative section banners with background images",
+      "full-width motivational or branding banners",
+      "footer-area decorative hero sections"
+    ],
+    "notSuitableFor": [
+      "hero sections with CTA buttons",
+      "text-only hero sections",
+      "hero sections requiring interactive elements"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-24T17:33:00.000Z"
+  }
+}

@@ -1,0 +1,103 @@
+.columns-about-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.columns-about-wrapper {
+  max-width: 100%;
+  padding: 0;
+}
+
+.columns-about > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Left column — gray background with padding */
+.columns-about > div > div:first-child {
+  background-color: #f0f0f0;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* Right column */
+.columns-about > div > div:last-child {
+  overflow: hidden;
+}
+
+/* Right column image — natural size, no stretching */
+.columns-about > div > div:last-child picture {
+  display: block;
+}
+
+.columns-about > div > div:last-child picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+
+/* Heading */
+.columns-about h1 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #49b2a6;
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+
+/* Body text */
+/* stylelint-disable-next-line no-descending-specificity */
+.columns-about p {
+  font-size: 14px;
+  color: #848484;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+@media (width >= 900px) {
+  .columns-about h1 {
+    font-size: 48px;
+  }
+
+  .columns-about p {
+    font-size: 16px;
+  }
+}
+
+/* Small icon images in left column */
+.columns-about > div > div:first-child p picture img {
+  width: 80px;
+  max-width: 80px;
+  height: auto;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+
+/* Desktop: side by side, image floats over left */
+@media (width >= 900px) {
+  .columns-about > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    position: relative;
+  }
+
+  .columns-about > div > div:first-child {
+    width: 55%;
+    flex: 0 0 55%;
+    padding: 60px 120px 60px 60px;
+  }
+
+  .columns-about > div > div:last-child {
+    width: 50%;
+    flex: 0 0 50%;
+    margin-left: -5%;
+    position: relative;
+    z-index: 1;
+  }
+}
