@@ -1,0 +1,248 @@
+{
+  "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/audiencias-publicas",
+  "timestamp": "2026-06-30T21:37:45.787Z",
+  "duration": "69.2s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/participacao-social/audiencias-publicas",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 175
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 517,
+        "y": 75,
+        "width": 85,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 602,
+        "y": 75,
+        "width": 149,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 751,
+        "y": 75,
+        "width": 134,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 885,
+        "y": 75,
+        "width": 140,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 115,
+        "width": 427,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 517,
+        "y": 75,
+        "width": 85,
+        "height": 21,
+        "textLength": 10
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 623,
+        "y": 75,
+        "width": 149,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 793,
+        "y": 75,
+        "width": 134,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 948,
+        "y": 75,
+        "width": 140,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 115,
+        "width": 853,
+        "height": 46,
+        "textLength": 19
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 161,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 115,
+      "width": 853,
+      "height": 46,
+      "text": "Audiências Públicas"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 175,
+      "width": 1440,
+      "height": 1345
+    },
+    "bodyStartY": 175,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 238,
+        "width": 408,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 304,
+        "width": 853,
+        "height": 54
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-6c95730f",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 1,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + list"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-9a8807e9-ac21-a0a3-9c63-fc00c001b122",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-6c95730f.jpg"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 148
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

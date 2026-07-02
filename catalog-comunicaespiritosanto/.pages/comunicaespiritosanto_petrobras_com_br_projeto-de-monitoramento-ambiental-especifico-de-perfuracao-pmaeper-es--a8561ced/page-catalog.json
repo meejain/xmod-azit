@@ -1,0 +1,240 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es",
+  "timestamp": "2026-07-01T11:32:05.092Z",
+  "duration": "10.1s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 98
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Projeto de Monitoramento Ambiental Específico de Perfuração (PMAEPER-ES) | Comunica Espirito Santo"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 1520
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 56,
+        "y": 150,
+        "width": 1368,
+        "height": 419
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 626,
+        "width": 453,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 964,
+        "width": 554,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 992,
+        "width": 248,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 1016,
+        "width": 198,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 1040,
+        "width": 130,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 1064,
+        "width": 99,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 1088,
+        "width": 341,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 1112,
+        "width": 338,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 161,
+        "y": 1136,
+        "width": 155,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 671,
+        "y": 1294,
+        "width": 78,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1371,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1116,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1162,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1208,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1254,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1300,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1346,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1392,
+        "y": 1461,
+        "width": 35,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-2bb6f93",
+      "type": "default",
+      "confidence": "medium",
+      "description": "3 lists + 4-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 11,
+        "listCount": 3,
+        "childCount": 4,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "list"
+      },
+      "columnCount": 4,
+      "selector": "ul.layouts.level-2",
+      "bounds": {
+        "x": 226,
+        "y": 424,
+        "width": 1198,
+        "height": 391
+      },
+      "screenshot": "blocks/default-2bb6f93.jpg",
+      "reclassifiedFrom": "columns"
+    }
+  ]
+}

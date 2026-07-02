@@ -1,0 +1,1614 @@
+2026-06-30 21:43:43 | INFO | Setting up catalog project for: https://termomacae.com.br/
+2026-06-30 21:43:43 | INFO | Project root: /workspace
+2026-06-30 21:43:43 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 21:43:43 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 21:43:43 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 21:43:43 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 21:43:43 | INFO | Session initialized: DISCOVERY
+2026-06-30 21:43:43 | INFO | Catalog project setup complete
+2026-06-30 21:43:43 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 21:43:43 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 21:43:43 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 21:43:43 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-06-30 21:44:23 | INFO | Creating sample URLs...
+2026-06-30 21:44:23 | INFO | Total URLs in grouped data: 60
+2026-06-30 21:44:23 | INFO | Total URLs (60) <= 1000, using ALL URLs
+2026-06-30 21:44:23 | INFO | Created urls-sample.json with 60 URLs
+2026-06-30 21:44:23 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 21:44:23 | INFO | Schema validation passed
+2026-06-30 21:44:23 | INFO | Sample creation complete - urls-sample.json with 60 URLs
+2026-06-30 21:44:23 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 21:44:23 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 21:44:23 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 21:44:23 | INFO | Created urls-checklist.json with 60 URLs
+2026-06-30 21:44:23 | INFO | Session state: ANALYZING
+2026-06-30 21:44:23 | INFO | ================================================================================
+2026-06-30 21:44:23 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 21:44:23 | INFO | Catalog: /workspace/catalog
+2026-06-30 21:44:23 | INFO | Delay: 1500ms between requests
+2026-06-30 21:44:23 | INFO | Workers: 5
+2026-06-30 21:44:23 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 21:44:23 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 21:44:23 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 21:44:23 | INFO | ================================================================================
+2026-06-30 21:44:23 | INFO | Found 60 URLs to process (5 workers)
+2026-06-30 21:44:23 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 21:44:23 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 21:44:23 | INFO | Pages to analyze: 60
+2026-06-30 21:44:23 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-06-30 21:44:23 | INFO | Estimated analysis time: ~2 min
+2026-06-30 21:44:23 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 21:44:23 | INFO | Launching stealth browser...
+2026-06-30 21:44:23 | INFO | [1/60] Processing: https://termomacae.com.br/
+2026-06-30 21:44:23 | INFO | Generated slug: termomacae_com_br--1930b556
+2026-06-30 21:44:23 | INFO | Starting analysis: https://termomacae.com.br/ -> /workspace/catalog/.pages/termomacae_com_br--1930b556
+2026-06-30 21:44:23 | INFO | Loading: https://termomacae.com.br/
+2026-06-30 21:44:25 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 21:44:25 | INFO | Launching stealth browser...
+2026-06-30 21:44:25 | INFO | [2/60] Processing: https://termomacae.com.br/acesso-a-informacao
+2026-06-30 21:44:25 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao--2b5943a5
+2026-06-30 21:44:25 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao--2b5943a5
+2026-06-30 21:44:25 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao
+2026-06-30 21:44:26 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 21:44:26 | INFO | Launching stealth browser...
+2026-06-30 21:44:26 | INFO | [3/60] Processing: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 21:44:26 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_acoes-e-programas--202009b5
+2026-06-30 21:44:26 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas--202009b5
+2026-06-30 21:44:26 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 21:44:28 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 21:44:28 | INFO | Launching stealth browser...
+2026-06-30 21:44:28 | INFO | [4/60] Processing: https://termomacae.com.br/acesso-a-informacao/auditorias
+2026-06-30 21:44:28 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_auditorias--8b0580d2
+2026-06-30 21:44:28 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/auditorias -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias--8b0580d2
+2026-06-30 21:44:28 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/auditorias
+2026-06-30 21:44:29 | INFO | Worker 4 started (profile 4: macOS)
+2026-06-30 21:44:29 | INFO | Launching stealth browser...
+2026-06-30 21:44:29 | INFO | [5/60] Processing: https://termomacae.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 21:44:29 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_convenios-e-transferencias--ea403b07
+2026-06-30 21:44:29 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/convenios-e-transferencias -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_convenios-e-transferencias--ea403b07
+2026-06-30 21:44:29 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 21:44:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:44:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:44:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:44:33 | INFO | Lazy-load scroll complete
+2026-06-30 21:44:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:44:34 | INFO | Lazy-load scroll complete
+2026-06-30 21:44:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:44:34 | INFO | Lazy-load scroll complete
+2026-06-30 21:44:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:44:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:44:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:44:36 | INFO | Lazy-load scroll complete
+2026-06-30 21:44:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:44:37 | INFO | Lazy-load scroll complete
+2026-06-30 21:44:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:45:34 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu---empresas.lfr-layout-structure-item-91c2dabe-3de2-a598-22ee-3b143a56ad27
+   ✅ Saved global footer: #ec-footer
+2026-06-30 21:45:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:45:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:45:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:45:34 | INFO | Main content: #main-content
+2026-06-30 21:45:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:45:35 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:45:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:45:35 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:45:35 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:45:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:45:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:45:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:45:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:45:35 | INFO | Main content: #main-content
+2026-06-30 21:45:35 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:45:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:45:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:45:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:45:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:45:35 | INFO | Main content: #main-content
+2026-06-30 21:45:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:45:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:45:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:45:35 | INFO | Captured 4 block screenshots
+2026-06-30 21:45:35 | INFO | Detected 4 blocks
+2026-06-30 21:45:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:45:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:45:36 | INFO | Captured 2 block screenshots
+2026-06-30 21:45:36 | INFO | Detected 2 blocks
+2026-06-30 21:45:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:45:37 | INFO | Captured 9 block screenshots
+2026-06-30 21:45:37 | INFO | Detected 9 blocks
+2026-06-30 21:45:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:45:37 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:45:37 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:45:37 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:45:37 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:45:37 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:45:37 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:45:37 | INFO | Main content: #main-content
+2026-06-30 21:45:37 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:45:37 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:45:38 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:45:38 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:45:38 | INFO | URL Pattern: /acesso-a-informacao
+2026-06-30 21:45:38 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao--2b5943a5/page-catalog.json
+2026-06-30 21:45:38 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao
+2026-06-30 21:45:38 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu---empresas.lfr-layout-structure-item-91c2dabe-3de2-a598-22ee-3b143a56ad27)
+2026-06-30 21:45:38 | INFO | Created footer-global metadata (selector: #ec-footer)
+2026-06-30 21:45:38 | INFO | Captured 2 block screenshots
+2026-06-30 21:45:38 | INFO | Detected 2 blocks
+2026-06-30 21:45:38 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:45:38 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:45:38 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:45:38 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:45:38 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:45:38 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:45:38 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:45:38 | INFO | Main content: #main-content
+2026-06-30 21:45:38 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:45:38 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:45:38 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:45:38 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:45:38 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas
+2026-06-30 21:45:38 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas--202009b5/page-catalog.json
+2026-06-30 21:45:38 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 21:45:39 | INFO |    Top-section: 12 rows via title+container
+2026-06-30 21:45:39 | INFO |    Body start: y=300 (start row 12 via below-title+container)
+2026-06-30 21:45:39 | INFO | URL Pattern: /
+2026-06-30 21:45:39 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br--1930b556/page-catalog.json
+2026-06-30 21:45:39 | INFO | SUCCESS: https://termomacae.com.br/
+2026-06-30 21:45:39 | INFO | Captured 4 block screenshots
+2026-06-30 21:45:39 | INFO | Detected 4 blocks
+2026-06-30 21:45:39 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:45:39 | INFO | [6/60] Processing: https://termomacae.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 21:45:39 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_dados-abertos--9d6f6efa
+2026-06-30 21:45:39 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/dados-abertos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_dados-abertos--9d6f6efa
+2026-06-30 21:45:39 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 21:45:40 | INFO | [7/60] Processing: https://termomacae.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 21:45:40 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_empregados-publicos--ba5f2635
+2026-06-30 21:45:40 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/empregados-publicos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_empregados-publicos--ba5f2635
+2026-06-30 21:45:40 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 21:45:40 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:45:40 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:45:40 | INFO | URL Pattern: /acesso-a-informacao/auditorias
+2026-06-30 21:45:40 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias--8b0580d2/page-catalog.json
+2026-06-30 21:45:40 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/auditorias
+2026-06-30 21:45:40 | INFO | [8/60] Processing: https://termomacae.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 21:45:40 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_informacoes-classificadas--33aa4f15
+2026-06-30 21:45:40 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/informacoes-classificadas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_informacoes-classificadas--33aa4f15
+2026-06-30 21:45:40 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 21:45:41 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:45:41 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:45:41 | INFO | URL Pattern: /acesso-a-informacao/convenios-e-transferencias
+2026-06-30 21:45:41 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_convenios-e-transferencias--ea403b07/page-catalog.json
+2026-06-30 21:45:41 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 21:45:41 | INFO | PROGRESS: 5/60 analyzed (8% checklist complete) | 5 ok, 0 failed, 0 skipped | ~15 min remaining
+2026-06-30 21:45:42 | INFO | [9/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional
+2026-06-30 21:45:42 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional--fdc7107e
+2026-06-30 21:45:42 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional--fdc7107e
+2026-06-30 21:45:42 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional
+2026-06-30 21:45:42 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:45:43 | INFO | [10/60] Processing: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 21:45:43 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos--e94b6a16
+2026-06-30 21:45:43 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos--e94b6a16
+2026-06-30 21:45:43 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 21:45:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:45:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:45:44 | INFO | Lazy-load scroll complete
+2026-06-30 21:45:44 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:45:45 | INFO | Lazy-load scroll complete
+2026-06-30 21:45:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:45:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:45:45 | INFO | Lazy-load scroll complete
+2026-06-30 21:45:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:45:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:45:47 | INFO | Lazy-load scroll complete
+2026-06-30 21:45:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:45:48 | INFO | Lazy-load scroll complete
+2026-06-30 21:45:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:46:45 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:46:45 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:46:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:46:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:46:45 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:46:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:46:45 | INFO | Main content: #main-content
+2026-06-30 21:46:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:46:45 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:46:45 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:46:46 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:46:46 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:46:46 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:46:46 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:46:46 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:46:46 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:46:46 | INFO | Main content: #main-content
+2026-06-30 21:46:46 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:46:46 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:46:46 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:46:46 | INFO | Captured 2 block screenshots
+2026-06-30 21:46:46 | INFO | Detected 2 blocks
+2026-06-30 21:46:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:46:46 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:46:46 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:46:46 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:46:46 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:46:46 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:46:46 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:46:46 | INFO | Main content: #main-content
+2026-06-30 21:46:47 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:46:47 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:46:47 | INFO | Captured 4 block screenshots
+2026-06-30 21:46:47 | INFO | Detected 4 blocks
+2026-06-30 21:46:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:46:47 | INFO | Captured 2 block screenshots
+2026-06-30 21:46:47 | INFO | Detected 2 blocks
+2026-06-30 21:46:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:46:48 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:46:48 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:46:48 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:46:48 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:46:48 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:46:48 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:46:48 | INFO | Main content: #main-content
+2026-06-30 21:46:48 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:46:48 | WARNING | Blocks - 78% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:46:48 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:46:48 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:46:48 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:46:48 | INFO | URL Pattern: /acesso-a-informacao/dados-abertos
+2026-06-30 21:46:48 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_dados-abertos--9d6f6efa/page-catalog.json
+2026-06-30 21:46:48 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 21:46:49 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:46:49 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:46:49 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:46:49 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:46:49 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:46:49 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:46:49 | INFO | Main content: #main-content
+2026-06-30 21:46:49 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:46:49 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:46:49 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:46:49 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:46:49 | INFO | URL Pattern: /acesso-a-informacao/empregados-publicos
+2026-06-30 21:46:49 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_empregados-publicos--ba5f2635/page-catalog.json
+2026-06-30 21:46:49 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 21:46:49 | INFO | Captured 9 block screenshots
+2026-06-30 21:46:49 | INFO | Detected 9 blocks
+2026-06-30 21:46:49 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:46:49 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:46:49 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:46:49 | INFO | URL Pattern: /acesso-a-informacao/informacoes-classificadas
+2026-06-30 21:46:49 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_informacoes-classificadas--33aa4f15/page-catalog.json
+2026-06-30 21:46:49 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 21:46:50 | INFO | Captured 2 block screenshots
+2026-06-30 21:46:50 | INFO | Detected 2 blocks
+2026-06-30 21:46:50 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:46:50 | INFO | [11/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social
+2026-06-30 21:46:50 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social--a8c8f582
+2026-06-30 21:46:50 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social--a8c8f582
+2026-06-30 21:46:50 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social
+2026-06-30 21:46:51 | INFO | [12/60] Processing: https://termomacae.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 21:46:51 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_perguntas-frequentes--11259cf2
+2026-06-30 21:46:51 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/perguntas-frequentes -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_perguntas-frequentes--11259cf2
+2026-06-30 21:46:51 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 21:46:51 | INFO | [13/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 21:46:51 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas--00b58214
+2026-06-30 21:46:51 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas--00b58214
+2026-06-30 21:46:51 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 21:46:51 | INFO |    Top-section: 13 rows via title
+2026-06-30 21:46:51 | INFO |    Body start: y=325 (start row 13 via below-title)
+2026-06-30 21:46:51 | INFO | URL Pattern: /acesso-a-informacao/institucional
+2026-06-30 21:46:51 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional--fdc7107e/page-catalog.json
+2026-06-30 21:46:51 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional
+2026-06-30 21:46:52 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:46:52 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:46:52 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 21:46:52 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos--e94b6a16/page-catalog.json
+2026-06-30 21:46:52 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 21:46:52 | INFO | PROGRESS: 10/60 analyzed (17% checklist complete) | 10 ok, 0 failed, 0 skipped | ~13 min remaining
+2026-06-30 21:46:53 | INFO | [14/60] Processing: https://termomacae.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 21:46:53 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_sancoes-administrativas--bb51f2c3
+2026-06-30 21:46:53 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/sancoes-administrativas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_sancoes-administrativas--bb51f2c3
+2026-06-30 21:46:53 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 21:46:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:46:53 | INFO | [15/60] Processing: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 21:46:53 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596
+2026-06-30 21:46:53 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596
+2026-06-30 21:46:54 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 21:46:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:46:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:46:55 | INFO | Lazy-load scroll complete
+2026-06-30 21:46:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:46:55 | INFO | Lazy-load scroll complete
+2026-06-30 21:46:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:46:56 | INFO | Lazy-load scroll complete
+2026-06-30 21:46:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:46:56 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:46:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:46:58 | INFO | Lazy-load scroll complete
+2026-06-30 21:46:58 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:46:59 | INFO | Lazy-load scroll complete
+2026-06-30 21:46:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:47:56 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:47:56 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:47:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:47:56 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:47:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:47:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:47:56 | INFO | Main content: #main-content
+2026-06-30 21:47:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:47:56 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:47:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:47:57 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:47:57 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:47:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:47:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:47:57 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:47:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:47:57 | INFO | Main content: #main-content
+2026-06-30 21:47:57 | INFO | Captured 2 block screenshots
+2026-06-30 21:47:57 | INFO | Detected 2 blocks
+2026-06-30 21:47:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:47:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:47:57 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:47:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:47:57 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:47:57 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:47:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:47:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:47:57 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:47:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:47:57 | INFO | Main content: #main-content
+2026-06-30 21:47:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:47:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:47:58 | INFO | Captured 3 block screenshots
+2026-06-30 21:47:58 | INFO | Detected 3 blocks
+2026-06-30 21:47:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:47:58 | INFO | Captured 2 block screenshots
+2026-06-30 21:47:58 | INFO | Detected 2 blocks
+2026-06-30 21:47:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:47:59 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:47:59 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:47:59 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:47:59 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:47:59 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:47:59 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:47:59 | INFO | Main content: #main-content
+2026-06-30 21:47:59 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:47:59 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:47:59 | INFO | URL Pattern: /acesso-a-informacao/participacao-social
+2026-06-30 21:47:59 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social--a8c8f582/page-catalog.json
+2026-06-30 21:47:59 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social
+2026-06-30 21:47:59 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:47:59 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:48:00 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:48:00 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:48:00 | INFO | URL Pattern: /acesso-a-informacao/perguntas-frequentes
+2026-06-30 21:48:00 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_perguntas-frequentes--11259cf2/page-catalog.json
+2026-06-30 21:48:00 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 21:48:00 | INFO | Captured 3 block screenshots
+2026-06-30 21:48:00 | INFO | Detected 3 blocks
+2026-06-30 21:48:00 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:48:00 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:48:00 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:48:00 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:48:00 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:48:00 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:48:00 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:48:00 | INFO | Main content: #main-content
+2026-06-30 21:48:00 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:48:00 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:48:00 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas
+2026-06-30 21:48:00 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas--00b58214/page-catalog.json
+2026-06-30 21:48:00 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 21:48:00 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:48:00 | WARNING | Blocks - 71% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:48:00 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:48:01 | INFO | [16/60] Processing: https://termomacae.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 21:48:01 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9cc179c
+2026-06-30 21:48:01 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9cc179c
+2026-06-30 21:48:01 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 21:48:01 | INFO | Captured 7 block screenshots
+2026-06-30 21:48:01 | INFO | Detected 7 blocks
+2026-06-30 21:48:01 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:48:01 | INFO | [17/60] Processing: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 21:48:01 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--e99df52f
+2026-06-30 21:48:01 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--e99df52f
+2026-06-30 21:48:01 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 21:48:02 | INFO | [18/60] Processing: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 21:48:02 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_acoes-e-programas_governanca--571bf599
+2026-06-30 21:48:02 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/governanca -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_governanca--571bf599
+2026-06-30 21:48:02 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 21:48:02 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:48:02 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:48:02 | INFO | URL Pattern: /acesso-a-informacao/sancoes-administrativas
+2026-06-30 21:48:02 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_sancoes-administrativas--bb51f2c3/page-catalog.json
+2026-06-30 21:48:02 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 21:48:03 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:48:03 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:48:03 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 21:48:03 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596/page-catalog.json
+2026-06-30 21:48:03 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 21:48:03 | INFO | PROGRESS: 15/60 analyzed (25% checklist complete) | 15 ok, 0 failed, 0 skipped | ~12 min remaining
+2026-06-30 21:48:04 | INFO | [19/60] Processing: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 21:48:04 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--6de4d1aa
+2026-06-30 21:48:04 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--6de4d1aa
+2026-06-30 21:48:04 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 21:48:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:48:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:48:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:48:05 | INFO | [20/60] Processing: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 21:48:05 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--64aeea49
+2026-06-30 21:48:05 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--64aeea49
+2026-06-30 21:48:05 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 21:48:05 | INFO | Lazy-load scroll complete
+2026-06-30 21:48:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:48:06 | INFO | Lazy-load scroll complete
+2026-06-30 21:48:06 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:48:06 | INFO | Lazy-load scroll complete
+2026-06-30 21:48:06 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:48:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:48:08 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:48:09 | INFO | Lazy-load scroll complete
+2026-06-30 21:48:09 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:48:10 | INFO | Lazy-load scroll complete
+2026-06-30 21:48:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:49:07 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:49:07 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:49:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:49:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:49:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:49:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:49:07 | INFO | Main content: #main-content
+2026-06-30 21:49:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:49:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:49:07 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:49:08 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:49:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:49:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:49:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:49:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:49:08 | INFO | Main content: #main-content
+2026-06-30 21:49:08 | INFO | Captured 3 block screenshots
+2026-06-30 21:49:08 | INFO | Detected 3 blocks
+2026-06-30 21:49:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:49:08 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:49:08 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:49:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:49:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:49:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:49:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:49:08 | INFO | Main content: #main-content
+2026-06-30 21:49:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:49:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:49:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:49:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:49:08 | INFO | Captured 3 block screenshots
+2026-06-30 21:49:08 | INFO | Detected 3 blocks
+2026-06-30 21:49:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:49:08 | INFO | Captured 3 block screenshots
+2026-06-30 21:49:08 | INFO | Detected 3 blocks
+2026-06-30 21:49:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:49:10 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:49:10 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:49:10 | INFO | URL Pattern: /acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 21:49:10 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9cc179c/page-catalog.json
+2026-06-30 21:49:10 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 21:49:10 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:49:10 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:49:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:49:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:49:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:49:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:49:10 | INFO | Main content: #main-content
+2026-06-30 21:49:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:49:10 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:49:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:49:11 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:49:11 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:49:11 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 21:49:11 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--e99df52f/page-catalog.json
+2026-06-30 21:49:11 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 21:49:11 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:49:11 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:49:11 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 21:49:11 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_governanca--571bf599/page-catalog.json
+2026-06-30 21:49:11 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 21:49:11 | INFO | Captured 3 block screenshots
+2026-06-30 21:49:11 | INFO | Detected 3 blocks
+2026-06-30 21:49:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:49:11 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:49:11 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:49:11 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:49:11 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:49:11 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:49:11 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:49:11 | INFO | Main content: #main-content
+2026-06-30 21:49:11 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:49:11 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:49:11 | INFO | [21/60] Processing: https://termomacae.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 21:49:11 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--885edd54
+2026-06-30 21:49:11 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--885edd54
+2026-06-30 21:49:11 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 21:49:12 | INFO | Captured 3 block screenshots
+2026-06-30 21:49:12 | INFO | Detected 3 blocks
+2026-06-30 21:49:12 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:49:12 | INFO | [22/60] Processing: https://termomacae.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 21:49:12 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--5fe6c853
+2026-06-30 21:49:12 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--5fe6c853
+2026-06-30 21:49:12 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 21:49:12 | INFO | [23/60] Processing: https://termomacae.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 21:49:12 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--7adaf195
+2026-06-30 21:49:12 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/auditorias/prestacao-de-contas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--7adaf195
+2026-06-30 21:49:12 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 21:49:13 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:49:13 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:49:13 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 21:49:13 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--6de4d1aa/page-catalog.json
+2026-06-30 21:49:13 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 21:49:14 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 21:49:14 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 21:49:14 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 21:49:14 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--64aeea49/page-catalog.json
+2026-06-30 21:49:14 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 21:49:14 | INFO | PROGRESS: 20/60 analyzed (33% checklist complete) | 20 ok, 0 failed, 0 skipped | ~10 min remaining
+2026-06-30 21:49:14 | INFO | [24/60] Processing: https://termomacae.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 21:49:14 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--bbf77e68
+2026-06-30 21:49:14 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--bbf77e68
+2026-06-30 21:49:14 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 21:49:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:49:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:49:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:49:16 | INFO | [25/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 21:49:16 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--b6845da1
+2026-06-30 21:49:16 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/agenda-de-autoridades -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--b6845da1
+2026-06-30 21:49:16 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 21:49:16 | INFO | Lazy-load scroll complete
+2026-06-30 21:49:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:49:17 | INFO | Lazy-load scroll complete
+2026-06-30 21:49:17 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:49:17 | INFO | Lazy-load scroll complete
+2026-06-30 21:49:17 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:49:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:49:19 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:49:19 | INFO | Lazy-load scroll complete
+2026-06-30 21:49:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:49:21 | INFO | Lazy-load scroll complete
+2026-06-30 21:49:21 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:50:17 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:50:17 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:50:17 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:50:17 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:50:17 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:50:17 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:50:17 | INFO | Main content: #main-content
+2026-06-30 21:50:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:50:18 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:50:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:50:18 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:50:18 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:50:18 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:50:18 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:50:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:50:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:50:18 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:50:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:50:18 | INFO | Main content: #main-content
+2026-06-30 21:50:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:50:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:50:18 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:50:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:50:18 | INFO | Main content: #main-content
+2026-06-30 21:50:18 | INFO | Captured 2 block screenshots
+2026-06-30 21:50:18 | INFO | Detected 2 blocks
+2026-06-30 21:50:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:50:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:50:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:50:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:50:18 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:50:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:50:19 | INFO | Captured 2 block screenshots
+2026-06-30 21:50:19 | INFO | Detected 2 blocks
+2026-06-30 21:50:19 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:50:19 | INFO | Captured 2 block screenshots
+2026-06-30 21:50:19 | INFO | Detected 2 blocks
+2026-06-30 21:50:19 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:50:21 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:50:21 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 21:50:21 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 21:50:21 | INFO | URL Pattern: /acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 21:50:21 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--885edd54/page-catalog.json
+2026-06-30 21:50:21 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 21:50:21 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:50:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:50:21 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:50:21 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:50:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:50:21 | INFO | Main content: #main-content
+2026-06-30 21:50:21 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:50:21 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:50:21 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:50:21 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:50:21 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:50:21 | INFO | URL Pattern: /acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 21:50:21 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--5fe6c853/page-catalog.json
+2026-06-30 21:50:21 | INFO |    Top-section: 10 rows via title+container
+2026-06-30 21:50:21 | INFO |    Body start: y=250 (start row 10 via below-title+container)
+2026-06-30 21:50:21 | INFO | URL Pattern: /acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 21:50:21 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--7adaf195/page-catalog.json
+2026-06-30 21:50:21 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 21:50:21 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 21:50:21 | INFO | Captured 2 block screenshots
+2026-06-30 21:50:21 | INFO | Detected 2 blocks
+2026-06-30 21:50:21 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:50:22 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:50:22 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:50:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:50:22 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:50:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:50:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:50:22 | INFO | Main content: #main-content
+2026-06-30 21:50:22 | INFO | [26/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 21:50:22 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_atas--f149e195
+2026-06-30 21:50:22 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/atas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_atas--f149e195
+2026-06-30 21:50:22 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 21:50:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:50:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:50:23 | INFO | [27/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 21:50:23 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_atos-normativos--545b79b1
+2026-06-30 21:50:23 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/atos-normativos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_atos-normativos--545b79b1
+2026-06-30 21:50:23 | INFO | [28/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 21:50:23 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_horario-de-atendimento--af50ee21
+2026-06-30 21:50:23 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/horario-de-atendimento -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_horario-de-atendimento--af50ee21
+2026-06-30 21:50:23 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 21:50:23 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 21:50:23 | INFO | Captured 3 block screenshots
+2026-06-30 21:50:23 | INFO | Detected 3 blocks
+2026-06-30 21:50:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:50:24 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:50:24 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:50:24 | INFO | URL Pattern: /acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 21:50:24 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--bbf77e68/page-catalog.json
+2026-06-30 21:50:24 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 21:50:25 | INFO | [29/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 21:50:25 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_hospitalidades--ac88a40a
+2026-06-30 21:50:25 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/hospitalidades -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_hospitalidades--ac88a40a
+2026-06-30 21:50:25 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:50:25 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:50:25 | INFO | URL Pattern: /acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 21:50:25 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--b6845da1/page-catalog.json
+2026-06-30 21:50:25 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 21:50:25 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 21:50:25 | INFO | PROGRESS: 25/60 analyzed (42% checklist complete) | 25 ok, 0 failed, 0 skipped | ~9 min remaining
+2026-06-30 21:50:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:50:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:50:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:50:27 | INFO | [30/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 21:50:27 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_presentes--c0f1d5d9
+2026-06-30 21:50:27 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/presentes -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_presentes--c0f1d5d9
+2026-06-30 21:50:27 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 21:50:27 | INFO | Lazy-load scroll complete
+2026-06-30 21:50:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:50:28 | INFO | Lazy-load scroll complete
+2026-06-30 21:50:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:50:28 | INFO | Lazy-load scroll complete
+2026-06-30 21:50:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:50:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:50:30 | INFO | Lazy-load scroll complete
+2026-06-30 21:50:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:50:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:50:31 | INFO | Lazy-load scroll complete
+2026-06-30 21:50:31 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:51:28 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:51:28 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:51:28 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:51:28 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:51:28 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:51:28 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:51:28 | INFO | Main content: #main-content
+2026-06-30 21:51:28 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:51:28 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:51:28 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:51:29 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:51:29 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:51:29 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:51:29 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:51:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:51:29 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:51:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:51:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:51:29 | INFO | Main content: #main-content
+2026-06-30 21:51:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:51:29 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:51:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:51:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:51:29 | INFO | Main content: #main-content
+2026-06-30 21:51:29 | INFO | Captured 3 block screenshots
+2026-06-30 21:51:29 | INFO | Detected 3 blocks
+2026-06-30 21:51:29 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:51:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:51:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:51:29 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:51:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:51:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:51:30 | INFO | Captured 2 block screenshots
+2026-06-30 21:51:30 | INFO | Detected 2 blocks
+2026-06-30 21:51:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:51:30 | INFO | Captured 2 block screenshots
+2026-06-30 21:51:30 | INFO | Detected 2 blocks
+2026-06-30 21:51:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:51:31 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:51:31 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:51:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:51:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:51:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:51:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:51:31 | INFO | Main content: #main-content
+2026-06-30 21:51:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:51:31 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:51:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:51:31 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:51:31 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:51:31 | INFO | URL Pattern: /acesso-a-informacao/institucional/atas
+2026-06-30 21:51:31 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_atas--f149e195/page-catalog.json
+2026-06-30 21:51:31 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 21:51:32 | INFO | Captured 3 block screenshots
+2026-06-30 21:51:32 | INFO | Detected 3 blocks
+2026-06-30 21:51:32 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:51:32 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:51:32 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:51:32 | INFO | URL Pattern: /acesso-a-informacao/institucional/atos-normativos
+2026-06-30 21:51:32 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_atos-normativos--545b79b1/page-catalog.json
+2026-06-30 21:51:32 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:51:32 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:51:32 | INFO | URL Pattern: /acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 21:51:32 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_horario-de-atendimento--af50ee21/page-catalog.json
+2026-06-30 21:51:32 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 21:51:32 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 21:51:33 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:51:33 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:51:33 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:51:33 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:51:33 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:51:33 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:51:33 | INFO | Main content: #main-content
+2026-06-30 21:51:33 | INFO | [31/60] Processing: https://termomacae.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 21:51:33 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_institucional_sobre--f0f06fd4
+2026-06-30 21:51:33 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/institucional/sobre -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_sobre--f0f06fd4
+2026-06-30 21:51:33 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:51:33 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:51:33 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:51:33 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 21:51:34 | INFO | [32/60] Processing: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 21:51:34 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--954f99db
+2026-06-30 21:51:34 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--954f99db
+2026-06-30 21:51:34 | INFO | [33/60] Processing: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 21:51:34 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a4f15e79
+2026-06-30 21:51:34 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a4f15e79
+2026-06-30 21:51:34 | INFO | Captured 3 block screenshots
+2026-06-30 21:51:34 | INFO | Detected 3 blocks
+2026-06-30 21:51:34 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:51:34 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 21:51:34 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 21:51:34 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:51:34 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:51:34 | INFO | URL Pattern: /acesso-a-informacao/institucional/hospitalidades
+2026-06-30 21:51:34 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_hospitalidades--ac88a40a/page-catalog.json
+2026-06-30 21:51:34 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 21:51:36 | INFO | [34/60] Processing: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 21:51:36 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--d9e7d3cc
+2026-06-30 21:51:36 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--d9e7d3cc
+2026-06-30 21:51:36 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 21:51:36 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:51:36 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:51:36 | INFO | URL Pattern: /acesso-a-informacao/institucional/presentes
+2026-06-30 21:51:36 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_presentes--c0f1d5d9/page-catalog.json
+2026-06-30 21:51:36 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 21:51:36 | INFO | PROGRESS: 30/60 analyzed (50% checklist complete) | 30 ok, 0 failed, 0 skipped | ~8 min remaining
+2026-06-30 21:51:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:51:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:51:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:51:37 | INFO | [35/60] Processing: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 21:51:37 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--bf38c657
+2026-06-30 21:51:37 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--bf38c657
+2026-06-30 21:51:38 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 21:51:38 | INFO | Lazy-load scroll complete
+2026-06-30 21:51:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:51:38 | INFO | Lazy-load scroll complete
+2026-06-30 21:51:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:51:38 | INFO | Lazy-load scroll complete
+2026-06-30 21:51:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:51:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:51:41 | INFO | Lazy-load scroll complete
+2026-06-30 21:51:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:51:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:51:42 | INFO | Lazy-load scroll complete
+2026-06-30 21:51:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:52:10 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:52:10 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:52:10 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:52:10 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:52:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:52:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:52:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:52:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:52:10 | INFO | Main content: #main-content
+2026-06-30 21:52:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:52:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:52:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:52:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:52:10 | INFO | Main content: #main-content
+2026-06-30 21:52:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:52:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:52:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:52:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:52:11 | INFO | Captured 3 block screenshots
+2026-06-30 21:52:11 | INFO | Detected 3 blocks
+2026-06-30 21:52:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:52:11 | INFO | Captured 3 block screenshots
+2026-06-30 21:52:11 | INFO | Detected 3 blocks
+2026-06-30 21:52:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:52:13 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:52:13 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:52:13 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 21:52:13 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--954f99db/page-catalog.json
+2026-06-30 21:52:13 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:52:13 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:52:13 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 21:52:13 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a4f15e79/page-catalog.json
+2026-06-30 21:52:13 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 21:52:13 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 21:52:14 | INFO | [36/60] Processing: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 21:52:14 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--36258a17
+2026-06-30 21:52:14 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--36258a17
+2026-06-30 21:52:14 | INFO | [37/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 21:52:14 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--bcf8ea71
+2026-06-30 21:52:14 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social/audiencias-publicas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--bcf8ea71
+2026-06-30 21:52:15 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 21:52:15 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 21:52:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:52:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:52:19 | INFO | Lazy-load scroll complete
+2026-06-30 21:52:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:52:19 | INFO | Lazy-load scroll complete
+2026-06-30 21:52:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:52:39 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:52:39 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:52:39 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:52:39 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:52:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:52:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:52:39 | INFO | Main content: #main-content
+2026-06-30 21:52:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:52:39 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:52:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:52:40 | INFO | Captured 2 block screenshots
+2026-06-30 21:52:40 | INFO | Detected 2 blocks
+2026-06-30 21:52:40 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:52:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:52:42 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:52:42 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:52:42 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:52:42 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:52:42 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:52:42 | INFO | Main content: #main-content
+2026-06-30 21:52:42 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:52:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:52:42 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:52:42 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:52:42 | INFO | URL Pattern: /acesso-a-informacao/institucional/sobre
+2026-06-30 21:52:42 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_institucional_sobre--f0f06fd4/page-catalog.json
+2026-06-30 21:52:42 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 21:52:43 | INFO | Captured 3 block screenshots
+2026-06-30 21:52:43 | INFO | Detected 3 blocks
+2026-06-30 21:52:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:52:44 | INFO | [38/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 21:52:44 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social_conferencias--5471877b
+2026-06-30 21:52:44 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social/conferencias -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_conferencias--5471877b
+2026-06-30 21:52:44 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:52:44 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 21:52:44 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:52:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:52:44 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:52:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:52:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:52:44 | INFO | Main content: #main-content
+2026-06-30 21:52:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:52:44 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:52:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:52:45 | INFO | Captured 4 block screenshots
+2026-06-30 21:52:45 | INFO | Detected 4 blocks
+2026-06-30 21:52:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:52:45 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 21:52:45 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 21:52:45 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 21:52:45 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--d9e7d3cc/page-catalog.json
+2026-06-30 21:52:45 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 21:52:47 | INFO | [39/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 21:52:47 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--92dac4d0
+2026-06-30 21:52:47 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--92dac4d0
+2026-06-30 21:52:47 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 21:52:47 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:52:47 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:52:47 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 21:52:47 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--bf38c657/page-catalog.json
+2026-06-30 21:52:47 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 21:52:47 | INFO | PROGRESS: 35/60 analyzed (58% checklist complete) | 35 ok, 0 failed, 0 skipped | ~6 min remaining
+2026-06-30 21:52:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:52:48 | INFO | Lazy-load scroll complete
+2026-06-30 21:52:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:52:48 | INFO | [40/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 21:52:48 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--fd517398
+2026-06-30 21:52:48 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--fd517398
+2026-06-30 21:52:49 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 21:52:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:52:51 | INFO | Lazy-load scroll complete
+2026-06-30 21:52:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:52:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:52:53 | INFO | Lazy-load scroll complete
+2026-06-30 21:52:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:53:21 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:53:21 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:53:21 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:53:21 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:53:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:53:21 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:53:21 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:53:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:53:21 | INFO | Main content: #main-content
+2026-06-30 21:53:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:53:21 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:53:21 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:53:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:53:21 | INFO | Main content: #main-content
+2026-06-30 21:53:21 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:53:21 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:53:21 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:53:21 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:53:21 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:53:21 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:53:22 | INFO | Captured 2 block screenshots
+2026-06-30 21:53:22 | INFO | Detected 2 blocks
+2026-06-30 21:53:22 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:53:22 | INFO | Captured 3 block screenshots
+2026-06-30 21:53:22 | INFO | Detected 3 blocks
+2026-06-30 21:53:22 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:53:24 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:53:24 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:53:24 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 21:53:24 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--36258a17/page-catalog.json
+2026-06-30 21:53:24 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:53:24 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:53:24 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 21:53:24 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--bcf8ea71/page-catalog.json
+2026-06-30 21:53:24 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 21:53:24 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 21:53:25 | INFO | [41/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 21:53:25 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social_outras-acoes--5a0e518c
+2026-06-30 21:53:25 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social/outras-acoes -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_outras-acoes--5a0e518c
+2026-06-30 21:53:25 | INFO | [42/60] Processing: https://termomacae.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 21:53:25 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_participacao-social_ouvidoria--f7135759
+2026-06-30 21:53:25 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/participacao-social/ouvidoria -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_ouvidoria--f7135759
+2026-06-30 21:53:25 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 21:53:25 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 21:53:29 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:53:29 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:53:30 | INFO | Lazy-load scroll complete
+2026-06-30 21:53:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:53:30 | INFO | Lazy-load scroll complete
+2026-06-30 21:53:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:53:50 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:53:50 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:53:50 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:53:50 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:53:50 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:53:50 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:53:50 | INFO | Main content: #main-content
+2026-06-30 21:53:50 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:53:50 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:53:50 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:53:51 | INFO | Captured 2 block screenshots
+2026-06-30 21:53:51 | INFO | Detected 2 blocks
+2026-06-30 21:53:51 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:53:53 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:53:53 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:53:53 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:53:53 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:53:53 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:53:53 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:53:53 | INFO | Main content: #main-content
+2026-06-30 21:53:53 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:53:53 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:53:53 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:53:53 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:53:53 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:53:53 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/conferencias
+2026-06-30 21:53:53 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_conferencias--5471877b/page-catalog.json
+2026-06-30 21:53:53 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 21:53:54 | INFO | Captured 2 block screenshots
+2026-06-30 21:53:54 | INFO | Detected 2 blocks
+2026-06-30 21:53:54 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:53:54 | INFO | [43/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 21:53:54 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--cb440b41
+2026-06-30 21:53:54 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--cb440b41
+2026-06-30 21:53:55 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 21:53:55 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:53:55 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:53:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:53:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:53:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:53:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:53:55 | INFO | Main content: #main-content
+2026-06-30 21:53:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:53:55 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:53:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:53:55 | INFO | Captured 2 block screenshots
+2026-06-30 21:53:55 | INFO | Detected 2 blocks
+2026-06-30 21:53:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:53:56 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:53:56 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:53:56 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 21:53:56 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--92dac4d0/page-catalog.json
+2026-06-30 21:53:56 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 21:53:57 | INFO | [44/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 21:53:57 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--1366349f
+2026-06-30 21:53:57 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--1366349f
+2026-06-30 21:53:57 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 21:53:58 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:53:58 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:53:58 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 21:53:58 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--fd517398/page-catalog.json
+2026-06-30 21:53:58 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 21:53:58 | INFO | PROGRESS: 40/60 analyzed (67% checklist complete) | 40 ok, 0 failed, 0 skipped | ~5 min remaining
+2026-06-30 21:53:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:53:59 | INFO | [45/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 21:53:59 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--24d3e880
+2026-06-30 21:53:59 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--24d3e880
+2026-06-30 21:53:59 | INFO | Lazy-load scroll complete
+2026-06-30 21:53:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:53:59 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 21:54:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:54:02 | INFO | Lazy-load scroll complete
+2026-06-30 21:54:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:54:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:54:04 | INFO | Lazy-load scroll complete
+2026-06-30 21:54:04 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:54:32 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:54:32 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:54:32 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:54:32 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:54:32 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:54:32 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:54:32 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:54:32 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:54:32 | INFO | Main content: #main-content
+2026-06-30 21:54:32 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:54:32 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:54:32 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:54:32 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:54:32 | INFO | Main content: #main-content
+2026-06-30 21:54:32 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:54:32 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:54:32 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:54:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:54:32 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:54:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:54:32 | INFO | Captured 3 block screenshots
+2026-06-30 21:54:32 | INFO | Detected 3 blocks
+2026-06-30 21:54:32 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:54:33 | INFO | Captured 4 block screenshots
+2026-06-30 21:54:33 | INFO | Detected 4 blocks
+2026-06-30 21:54:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:54:33 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:54:34 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:54:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:54:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:54:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:54:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:54:34 | INFO | Main content: #main-content
+2026-06-30 21:54:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:54:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:54:34 | INFO | Captured 3 block screenshots
+2026-06-30 21:54:34 | INFO | Detected 3 blocks
+2026-06-30 21:54:34 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:54:35 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:54:35 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:54:35 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 21:54:35 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_outras-acoes--5a0e518c/page-catalog.json
+2026-06-30 21:54:35 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 21:54:35 | INFO |    Top-section: 21 rows via title
+2026-06-30 21:54:35 | INFO |    Body start: y=525 (start row 21 via below-title)
+2026-06-30 21:54:35 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 21:54:35 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_participacao-social_ouvidoria--f7135759/page-catalog.json
+2026-06-30 21:54:35 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 21:54:36 | INFO | [46/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 21:54:36 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--27833d29
+2026-06-30 21:54:36 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--27833d29
+2026-06-30 21:54:36 | INFO | [47/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 21:54:36 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--af8ceaea
+2026-06-30 21:54:36 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--af8ceaea
+2026-06-30 21:54:36 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 21:54:36 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 21:54:37 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:54:37 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:54:37 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 21:54:37 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--1366349f/page-catalog.json
+2026-06-30 21:54:37 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 21:54:38 | INFO | [48/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 21:54:38 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--33971fa0
+2026-06-30 21:54:38 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--33971fa0
+2026-06-30 21:54:38 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 21:54:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:54:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:54:41 | INFO | Lazy-load scroll complete
+2026-06-30 21:54:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:54:41 | INFO | Lazy-load scroll complete
+2026-06-30 21:54:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:54:42 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:54:43 | INFO | Lazy-load scroll complete
+2026-06-30 21:54:43 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:55:01 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:55:01 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:55:01 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:55:01 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:55:01 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:55:01 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:55:01 | INFO | Main content: #main-content
+2026-06-30 21:55:01 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:55:01 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:55:01 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:55:01 | INFO | Captured 2 block screenshots
+2026-06-30 21:55:01 | INFO | Detected 2 blocks
+2026-06-30 21:55:01 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:55:04 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:55:04 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:55:04 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 21:55:04 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--cb440b41/page-catalog.json
+2026-06-30 21:55:04 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 21:55:05 | INFO | [49/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 21:55:05 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--f4a12008
+2026-06-30 21:55:05 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/publicidade -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--f4a12008
+2026-06-30 21:55:05 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:55:05 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:55:05 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 21:55:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:55:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:55:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:55:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:55:05 | INFO | Main content: #main-content
+2026-06-30 21:55:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:55:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:55:06 | INFO | Captured 3 block screenshots
+2026-06-30 21:55:06 | INFO | Detected 3 blocks
+2026-06-30 21:55:06 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:55:09 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:55:09 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:55:09 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 21:55:09 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--24d3e880/page-catalog.json
+2026-06-30 21:55:09 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 21:55:09 | INFO | PROGRESS: 45/60 analyzed (75% checklist complete) | 45 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-06-30 21:55:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:55:10 | INFO | [50/60] Processing: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 21:55:10 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_receitas-e-despesas_receitas--d6d69093
+2026-06-30 21:55:10 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/receitas -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_receitas--d6d69093
+2026-06-30 21:55:10 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 21:55:11 | INFO | Lazy-load scroll complete
+2026-06-30 21:55:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:55:14 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:55:16 | INFO | Lazy-load scroll complete
+2026-06-30 21:55:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:55:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:55:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:55:43 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:55:43 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:55:43 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:55:43 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:55:43 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:55:43 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:55:43 | INFO | Main content: #main-content
+2026-06-30 21:55:43 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:55:43 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:55:43 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:55:43 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:55:43 | INFO | Main content: #main-content
+2026-06-30 21:55:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:55:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:55:43 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:55:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:55:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:55:43 | INFO | Captured 2 block screenshots
+2026-06-30 21:55:43 | INFO | Detected 2 blocks
+2026-06-30 21:55:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:55:43 | INFO | Captured 3 block screenshots
+2026-06-30 21:55:43 | INFO | Detected 3 blocks
+2026-06-30 21:55:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:55:44 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:55:44 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:55:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:55:44 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:55:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:55:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:55:44 | INFO | Main content: #main-content
+2026-06-30 21:55:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:55:44 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:55:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:55:45 | INFO | Captured 2 block screenshots
+2026-06-30 21:55:45 | INFO | Detected 2 blocks
+2026-06-30 21:55:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:55:46 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:55:46 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:55:46 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 21:55:46 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--af8ceaea/page-catalog.json
+2026-06-30 21:55:46 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:55:46 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:55:46 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 21:55:46 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--27833d29/page-catalog.json
+2026-06-30 21:55:46 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 21:55:46 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 21:55:47 | INFO | [51/60] Processing: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 21:55:47 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--aff8db01
+2026-06-30 21:55:47 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--aff8db01
+2026-06-30 21:55:47 | INFO | [52/60] Processing: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 21:55:47 | INFO | Generated slug: termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--bc160276
+2026-06-30 21:55:47 | INFO | Starting analysis: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic -> /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--bc160276
+2026-06-30 21:55:47 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 21:55:47 | INFO | Loading: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 21:55:48 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 21:55:48 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 21:55:48 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 21:55:48 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--33971fa0/page-catalog.json
+2026-06-30 21:55:48 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 21:55:49 | INFO | [53/60] Processing: https://termomacae.com.br/institucional
+2026-06-30 21:55:49 | INFO | Generated slug: termomacae_com_br_institucional--c31c533c
+2026-06-30 21:55:49 | INFO | Starting analysis: https://termomacae.com.br/institucional -> /workspace/catalog/.pages/termomacae_com_br_institucional--c31c533c
+2026-06-30 21:55:49 | INFO | Loading: https://termomacae.com.br/institucional
+2026-06-30 21:55:51 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:55:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:55:53 | INFO | Lazy-load scroll complete
+2026-06-30 21:55:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:55:53 | INFO | Lazy-load scroll complete
+2026-06-30 21:55:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:55:56 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:55:58 | INFO | Lazy-load scroll complete
+2026-06-30 21:55:58 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:56:13 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:56:13 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:56:13 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:56:13 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:56:13 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:56:13 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:56:13 | INFO | Main content: #main-content
+2026-06-30 21:56:13 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:56:13 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 21:56:13 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:56:13 | INFO | Captured 3 block screenshots
+2026-06-30 21:56:13 | INFO | Detected 3 blocks
+2026-06-30 21:56:13 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:56:16 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:56:16 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:56:16 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 21:56:16 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--f4a12008/page-catalog.json
+2026-06-30 21:56:16 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 21:56:17 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:56:17 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:56:17 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:56:17 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:56:17 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:56:17 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:56:17 | INFO | Main content: #main-content
+2026-06-30 21:56:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:56:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:56:17 | INFO | [54/60] Processing: https://termomacae.com.br/institucional/auditoria
+2026-06-30 21:56:17 | INFO | Generated slug: termomacae_com_br_institucional_auditoria--40387007
+2026-06-30 21:56:17 | INFO | Starting analysis: https://termomacae.com.br/institucional/auditoria -> /workspace/catalog/.pages/termomacae_com_br_institucional_auditoria--40387007
+2026-06-30 21:56:17 | INFO | Loading: https://termomacae.com.br/institucional/auditoria
+2026-06-30 21:56:18 | INFO | Captured 2 block screenshots
+2026-06-30 21:56:18 | INFO | Detected 2 blocks
+2026-06-30 21:56:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:56:20 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:56:20 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:56:20 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 21:56:20 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_receitas--d6d69093/page-catalog.json
+2026-06-30 21:56:20 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 21:56:20 | INFO | PROGRESS: 50/60 analyzed (83% checklist complete) | 50 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 21:56:22 | INFO | [55/60] Processing: https://termomacae.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 21:56:22 | INFO | Generated slug: termomacae_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--bee3f9f7
+2026-06-30 21:56:22 | INFO | Starting analysis: https://termomacae.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens -> /workspace/catalog/.pages/termomacae_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--bee3f9f7
+2026-06-30 21:56:22 | INFO | Loading: https://termomacae.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 21:56:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:56:26 | INFO | Lazy-load scroll complete
+2026-06-30 21:56:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:56:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:56:29 | INFO | Lazy-load scroll complete
+2026-06-30 21:56:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:56:54 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:56:54 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:56:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:56:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:56:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:56:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:56:54 | INFO | Main content: #main-content
+2026-06-30 21:56:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:56:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:56:54 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:56:54 | INFO | Template - Reused saved header selector on current page
+2026-06-30 21:56:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:56:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:56:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:56:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:56:54 | INFO | Main content: #main-content
+2026-06-30 21:56:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:56:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:56:55 | INFO | Captured 2 block screenshots
+2026-06-30 21:56:55 | INFO | Detected 2 blocks
+2026-06-30 21:56:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:56:55 | INFO | Captured 2 block screenshots
+2026-06-30 21:56:55 | INFO | Detected 2 blocks
+2026-06-30 21:56:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:56:57 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:56:57 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:56:57 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 21:56:57 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--bc160276/page-catalog.json
+2026-06-30 21:56:57 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 21:56:58 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:56:58 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:56:58 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 21:56:58 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--aff8db01/page-catalog.json
+2026-06-30 21:56:58 | INFO | SUCCESS: https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 21:56:59 | INFO | [56/60] Processing: https://termomacae.com.br/institucional/orgaos-estatutarios
+2026-06-30 21:56:59 | INFO | Generated slug: termomacae_com_br_institucional_orgaos-estatutarios--ada072ab
+2026-06-30 21:56:59 | INFO | Starting analysis: https://termomacae.com.br/institucional/orgaos-estatutarios -> /workspace/catalog/.pages/termomacae_com_br_institucional_orgaos-estatutarios--ada072ab
+2026-06-30 21:56:59 | INFO | Loading: https://termomacae.com.br/institucional/orgaos-estatutarios
+2026-06-30 21:56:59 | INFO | [57/60] Processing: https://termomacae.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 21:56:59 | INFO | Generated slug: termomacae_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--891319da
+2026-06-30 21:56:59 | INFO | Starting analysis: https://termomacae.com.br/institucional/relatorios-anuais-e-informacoes-financeiras -> /workspace/catalog/.pages/termomacae_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--891319da
+2026-06-30 21:56:59 | INFO | Loading: https://termomacae.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 21:57:00 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:57:00 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:57:00 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:57:00 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:57:00 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:57:00 | INFO | Main content: #main-content
+2026-06-30 21:57:00 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:57:00 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:57:01 | INFO | Captured 9 block screenshots
+2026-06-30 21:57:01 | INFO | Detected 9 blocks
+2026-06-30 21:57:01 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:57:03 | INFO |    Top-section: 12 rows via title+container
+2026-06-30 21:57:03 | INFO |    Body start: y=300 (start row 12 via below-title+container)
+2026-06-30 21:57:03 | INFO | URL Pattern: /institucional
+2026-06-30 21:57:03 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_institucional--c31c533c/page-catalog.json
+2026-06-30 21:57:03 | INFO | SUCCESS: https://termomacae.com.br/institucional
+2026-06-30 21:57:05 | INFO | [58/60] Processing: https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 21:57:05 | INFO | Generated slug: termomacae_com_br_cartas-de-governanca-e-politicas-publicas--6516dd35
+2026-06-30 21:57:05 | INFO | Starting analysis: https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas -> /workspace/catalog/.pages/termomacae_com_br_cartas-de-governanca-e-politicas-publicas--6516dd35
+2026-06-30 21:57:05 | INFO | Loading: https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 21:57:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:57:07 | INFO | Lazy-load scroll complete
+2026-06-30 21:57:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:57:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:57:11 | INFO | Lazy-load scroll complete
+2026-06-30 21:57:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:57:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:57:13 | INFO | Lazy-load scroll complete
+2026-06-30 21:57:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:57:27 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:57:27 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:57:27 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:57:27 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:57:27 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:57:27 | INFO | Main content: #main-content
+2026-06-30 21:57:27 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:57:27 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:57:28 | INFO | Captured 4 block screenshots
+2026-06-30 21:57:28 | INFO | Detected 4 blocks
+2026-06-30 21:57:28 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:57:30 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:57:30 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:57:30 | INFO | URL Pattern: /institucional/auditoria
+2026-06-30 21:57:30 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_institucional_auditoria--40387007/page-catalog.json
+2026-06-30 21:57:30 | INFO | SUCCESS: https://termomacae.com.br/institucional/auditoria
+2026-06-30 21:57:31 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:57:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:57:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:57:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:57:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:57:31 | INFO | Main content: #main-content
+2026-06-30 21:57:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:57:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:57:32 | INFO | Captured 4 block screenshots
+2026-06-30 21:57:32 | INFO | Detected 4 blocks
+2026-06-30 21:57:32 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:57:32 | INFO | [59/60] Processing: https://termomacae.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 21:57:32 | INFO | Generated slug: termomacae_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--eb1c96eb
+2026-06-30 21:57:32 | INFO | Starting analysis: https://termomacae.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos -> /workspace/catalog/.pages/termomacae_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--eb1c96eb
+2026-06-30 21:57:32 | INFO | Loading: https://termomacae.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 21:57:34 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 21:57:34 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 21:57:34 | INFO | URL Pattern: /institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 21:57:34 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--bee3f9f7/page-catalog.json
+2026-06-30 21:57:34 | INFO | SUCCESS: https://termomacae.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 21:57:34 | INFO | PROGRESS: 55/60 analyzed (92% checklist complete) | 55 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 21:57:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:57:35 | INFO | [60/60] Processing: https://termomacae.com.br/outras-informacoes
+2026-06-30 21:57:35 | INFO | Generated slug: termomacae_com_br_outras-informacoes--9d1c34ea
+2026-06-30 21:57:35 | INFO | Starting analysis: https://termomacae.com.br/outras-informacoes -> /workspace/catalog/.pages/termomacae_com_br_outras-informacoes--9d1c34ea
+2026-06-30 21:57:36 | INFO | Loading: https://termomacae.com.br/outras-informacoes
+2026-06-30 21:57:37 | INFO | Lazy-load scroll complete
+2026-06-30 21:57:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:57:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 21:57:40 | INFO | Lazy-load scroll complete
+2026-06-30 21:57:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 21:58:08 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:58:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:58:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:58:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:58:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:58:08 | INFO | Main content: #main-content
+2026-06-30 21:58:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:58:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:58:09 | INFO | Captured 7 block screenshots
+2026-06-30 21:58:09 | INFO | Detected 7 blocks
+2026-06-30 21:58:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:58:12 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 21:58:12 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 21:58:12 | INFO | URL Pattern: /institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 21:58:12 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--891319da/page-catalog.json
+2026-06-30 21:58:12 | INFO | SUCCESS: https://termomacae.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 21:58:12 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:58:12 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:58:12 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:58:12 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:58:12 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:58:12 | INFO | Main content: #main-content
+2026-06-30 21:58:12 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:58:12 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:58:13 | INFO | Captured 6 block screenshots
+2026-06-30 21:58:13 | INFO | Detected 6 blocks
+2026-06-30 21:58:13 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:58:13 | INFO | Worker 0 finished
+2026-06-30 21:58:15 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:58:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:58:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:58:15 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:58:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:58:15 | INFO | Main content: #main-content
+2026-06-30 21:58:15 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:58:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:58:15 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 21:58:15 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 21:58:15 | INFO | URL Pattern: /cartas-de-governanca-e-politicas-publicas
+2026-06-30 21:58:15 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_cartas-de-governanca-e-politicas-publicas--6516dd35/page-catalog.json
+2026-06-30 21:58:15 | INFO | SUCCESS: https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 21:58:16 | INFO | Captured 7 block screenshots
+2026-06-30 21:58:16 | INFO | Detected 7 blocks
+2026-06-30 21:58:16 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:58:17 | INFO | Worker 3 finished
+2026-06-30 21:58:18 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:58:18 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:58:18 | INFO | URL Pattern: /institucional/orgaos-estatutarios
+2026-06-30 21:58:18 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_institucional_orgaos-estatutarios--ada072ab/page-catalog.json
+2026-06-30 21:58:18 | INFO | SUCCESS: https://termomacae.com.br/institucional/orgaos-estatutarios
+2026-06-30 21:58:20 | INFO | Worker 2 finished
+2026-06-30 21:58:38 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:58:38 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:58:38 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:58:38 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:58:38 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:58:38 | INFO | Main content: #main-content
+2026-06-30 21:58:38 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:58:38 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:58:39 | INFO | Captured 3 block screenshots
+2026-06-30 21:58:39 | INFO | Detected 3 blocks
+2026-06-30 21:58:39 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:58:41 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 21:58:41 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 21:58:41 | INFO | URL Pattern: /demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 21:58:41 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--eb1c96eb/page-catalog.json
+2026-06-30 21:58:41 | INFO | SUCCESS: https://termomacae.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 21:58:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 21:58:42 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 21:58:42 | INFO | Header: complex complexity, 3 features
+2026-06-30 21:58:42 | INFO | Footer: simple complexity, 0 features
+2026-06-30 21:58:42 | INFO | Phase 2: Identifying main content area...
+2026-06-30 21:58:42 | INFO | Main content: #main-content
+2026-06-30 21:58:42 | INFO | Phase 3: Detecting blocks...
+2026-06-30 21:58:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 21:58:43 | INFO | Captured 3 block screenshots
+2026-06-30 21:58:43 | INFO | Detected 3 blocks
+2026-06-30 21:58:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 21:58:43 | INFO | Worker 1 finished
+2026-06-30 21:58:45 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 21:58:45 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 21:58:45 | INFO | URL Pattern: /outras-informacoes
+2026-06-30 21:58:45 | INFO | Page catalog complete: /workspace/catalog/.pages/termomacae_com_br_outras-informacoes--9d1c34ea/page-catalog.json
+2026-06-30 21:58:45 | INFO | SUCCESS: https://termomacae.com.br/outras-informacoes
+2026-06-30 21:58:45 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 21:58:45 | INFO | Worker 4 finished
+2026-06-30 21:58:45 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 21:58:45 | INFO | ================================================================================
+2026-06-30 21:58:45 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 21:58:45 | INFO | ================================================================================
+2026-06-30 21:58:45 | INFO | Total URLs: 60
+2026-06-30 21:58:45 | INFO | Attempt successes: 60
+2026-06-30 21:58:45 | INFO | Attempt failures: 0
+2026-06-30 21:58:45 | INFO | Skipped: 0
+2026-06-30 21:58:45 | INFO | Checklist final status: 60 analyzed, 0 failed, 0 marked
+2026-06-30 21:58:45 | INFO | Workers: 5
+2026-06-30 21:58:45 | INFO | ================================================================================
+2026-06-30 21:58:45 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T21:59:12.908Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T21:59:12.925Z | INFO | consolidate-fingerprints - Consolidated 60 fingerprints
+2026-06-30 21:59:28 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 21:59:28 | INFO | Agent 4 Progress - Starting representative pass with 8 page(s) and 39 block occurrence(s)
+2026-06-30 21:59:28 | INFO | Agent 4 Progress - representative: 8/8 page(s), 39/39 block occurrence(s), 17 unique signatures, 19 variants (17 new, 22 reused)
+2026-06-30 21:59:28 | INFO | Agent 4 Progress - Starting backfill pass with 52 page(s) and 157 block occurrence(s)
+2026-06-30 21:59:28 | INFO | Agent 4 Progress - backfill: 25/52 page(s), 71/157 block occurrence(s), 19 unique signatures, 21 variants (19 new, 91 reused)
+2026-06-30 21:59:28 | INFO | Agent 4 Progress - backfill: 50/52 page(s), 146/157 block occurrence(s), 20 unique signatures, 22 variants (20 new, 165 reused)
+2026-06-30 21:59:28 | INFO | Agent 4 Progress - backfill: 52/52 page(s), 157/157 block occurrence(s), 21 unique signatures, 23 variants (21 new, 175 reused)
+2026-06-30 21:59:28 | INFO | Agent 4 Completed - Cataloged 23 block variants (21 new, 175 reused)
+2026-06-30 21:59:28 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 21:59:28 | INFO | Session state set to INACTIVE
+2026-06-30 21:59:28 | INFO | Agent 2 Completed - Summary generated successfully

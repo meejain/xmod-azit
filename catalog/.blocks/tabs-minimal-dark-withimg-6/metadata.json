@@ -1,0 +1,31 @@
+{
+  "variantName": "tabs-minimal-dark-withimg-6",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.230Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/refino",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 45 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 45 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refino--b9d94c00/blocks/tabs-67ad7d93.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

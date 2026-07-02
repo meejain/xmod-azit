@@ -1,0 +1,96 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T20:54:23.229Z",
+    "totalBlockVariants": 7,
+    "totalBlocksProcessed": 189,
+    "newVariantsCreated": 5,
+    "variantsReused": 173,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 59,
+        "description": "1 heading + 1 image + 1 list block; 1 heading + 1 image + 5 CTAs + 1 list block; 1 heading + 1 image + 7 CTAs + 1 list block; 1 heading + 1 image + 8 CTAs + 1 list block; 1 heading + 1 image + 9 CTAs ",
+        "screenshots": [
+          ".pages/pbio_com_br_acesso-a-informacao--6989c609/blocks/hero-3c5a2d2d.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas--3e52993d/blocks/hero-98df95d.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d71d77e8/blocks/hero-17d9a07f.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_governanca--e8f732ed/blocks/hero-17d9a07f.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--67c53145/blocks/hero-2a0b4447.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--0732c9c5/blocks/hero-17d9a07f.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "description": "lfr-layout-structure-item-iframe",
+        "screenshots": [
+          ".pages/pbio_com_br_acesso-a-informacao_convenios-e-transferencias--9459f2e4/blocks/embed-56a7e468.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--ef705a6a/blocks/embed-6e4acf79.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--5b592831/blocks/embed-5563625c.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9a0884df/blocks/embed-7cb4d056.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fab84c43/blocks/embed-a4a6841.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "2 headings + 2 images + 2 paragraphs block; 5 headings + 5 images block",
+        "screenshots": [
+          ".pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas--9f313d38/blocks/cards-48d53133.jpg",
+          ".pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--45ca25b4/blocks/cards-4586852e.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "3 headings block",
+        "screenshots": [
+          ".pages/pbio_com_br_institucional_orgaos-estatutarios--69e107b1/blocks/accordion-d84d2c1.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "3 images + 1 paragraph block",
+        "screenshots": [
+          ".pages/pbio_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--5741a9be/blocks/columns-10c08a28.jpg"
+        ]
+      }
+    }
+  }
+}

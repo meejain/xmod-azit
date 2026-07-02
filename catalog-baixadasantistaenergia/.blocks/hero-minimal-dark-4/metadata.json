@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-minimal-dark-4",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:15:39.246Z",
+  "sourceContext": {
+    "originUrl": "https://baixadasantistaenergia.com.br/outras-informacoes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "1 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"1 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://baixadasantistaenergia.com.br/outras-informacoes",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_outras-informacoes--3ed94afc/blocks/hero-2b147e6a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

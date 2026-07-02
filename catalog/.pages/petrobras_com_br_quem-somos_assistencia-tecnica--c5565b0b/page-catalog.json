@@ -1,0 +1,2453 @@
+{
+  "url": "https://petrobras.com.br/quem-somos/assistencia-tecnica",
+  "timestamp": "2026-07-01T15:42:51.137Z",
+  "duration": "47.5s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/quem-somos/assistencia-tecnica",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1512,
+      "height": 375
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 140,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 1195,
+        "y": 16,
+        "width": 100,
+        "height": 68
+      },
+      {
+        "type": "text",
+        "x": 417,
+        "y": 28,
+        "width": 151,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 617,
+        "y": 28,
+        "width": 131,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 792,
+        "y": 28,
+        "width": 159,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 1000,
+        "y": 38,
+        "width": 51,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 1091,
+        "y": 38,
+        "width": 64,
+        "height": 28
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 1336,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "image",
+        "x": 561,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 736,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 944,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1288,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 413,
+        "y": 147,
+        "width": 36,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 489,
+        "y": 147,
+        "width": 82,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 611,
+        "y": 147,
+        "width": 56,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 707,
+        "y": 147,
+        "width": 118,
+        "height": 18
+      },
+      {
+        "type": "background",
+        "x": 451,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "background",
+        "x": 573,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "background",
+        "x": 669,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 264,
+        "width": 507,
+        "height": 91
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "button",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 28
+      },
+      {
+        "tag": "a",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#009030",
+        "backgroundColor": "#f0f0f0",
+        "x": 1000,
+        "y": 38,
+        "width": 51,
+        "height": 24,
+        "textLength": 7
+      },
+      {
+        "tag": "a",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#009030",
+        "backgroundColor": "#f0f0f0",
+        "x": 1091,
+        "y": 38,
+        "width": 64,
+        "height": 24,
+        "textLength": 8
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 413,
+        "y": 145,
+        "width": 36,
+        "height": 22,
+        "textLength": 4
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 489,
+        "y": 145,
+        "width": 82,
+        "height": 22,
+        "textLength": 10
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 611,
+        "y": 145,
+        "width": 56,
+        "height": 22,
+        "textLength": 8
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 698,
+        "y": 144,
+        "width": 136,
+        "height": 24,
+        "textLength": 19
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 264,
+        "width": 632,
+        "height": 91,
+        "textLength": 57
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "svg",
+        "x": 72,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "kind": "svg",
+        "x": 561,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 736,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 944,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 1288,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 1336,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "kind": "background-image",
+        "x": 451,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "kind": "background-image",
+        "x": 573,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "kind": "background-image",
+        "x": 669,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      }
+    ],
+    "topSectionCropBottomY": 356,
+    "topSectionTitleRect": {
+      "x": 404,
+      "y": 264,
+      "width": 632,
+      "height": 91,
+      "text": "Assistência técnica: temos um compromisso com a qualidade"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 375,
+      "width": 1512,
+      "height": 12074
+    },
+    "bodyStartY": 375,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 404,
+        "y": 393,
+        "width": 632,
+        "height": 64
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 489,
+        "width": 227,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 476,
+        "y": 508,
+        "width": 293,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 436,
+        "y": 509,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 596,
+        "width": 594,
+        "height": 137
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 846,
+        "width": 123,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 972,
+        "width": 628,
+        "height": 108
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1193,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 1280,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 1282,
+        "width": 98,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1389,
+        "width": 583,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1473,
+        "width": 533,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1670,
+        "width": 162,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1796,
+        "width": 629,
+        "height": 224
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2132,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 2219,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 2221,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2328,
+        "width": 196,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 2414,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 2417,
+        "width": 204,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 2448,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 2451,
+        "width": 167,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2560,
+        "width": 533,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2725,
+        "width": 278,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2852,
+        "width": 628,
+        "height": 339
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3302,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 3389,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 3391,
+        "width": 98,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3498,
+        "width": 345,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3624,
+        "width": 624,
+        "height": 339
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 4075,
+        "width": 185,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 4162,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 4164,
+        "width": 241,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 4196,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 4198,
+        "width": 187,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 4305,
+        "width": 354,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 4431,
+        "width": 632,
+        "height": 396
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 4940,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 5026,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 5029,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5135,
+        "width": 464,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5262,
+        "width": 629,
+        "height": 368
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5742,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 5828,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 5831,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5937,
+        "width": 285,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6035,
+        "width": 619,
+        "height": 108
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6150,
+        "width": 454,
+        "height": 51
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6208,
+        "width": 599,
+        "height": 108
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6400,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 6486,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 6489,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6595,
+        "width": 120,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6693,
+        "width": 631,
+        "height": 166
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 6972,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 7058,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 7061,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 7167,
+        "width": 402,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 7293,
+        "width": 632,
+        "height": 224
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 7629,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 7716,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 7718,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 7825,
+        "width": 254,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 7951,
+        "width": 629,
+        "height": 339
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 8373,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 8460,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 8462,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 8569,
+        "width": 317,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 8695,
+        "width": 632,
+        "height": 281
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 9060,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 9147,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 9149,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 9256,
+        "width": 310,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 9353,
+        "width": 613,
+        "height": 252
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 9718,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 9804,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 9807,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 9913,
+        "width": 142,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 10011,
+        "width": 628,
+        "height": 310
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 10434,
+        "width": 164,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 408,
+        "y": 10520,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 444,
+        "y": 10523,
+        "width": 99,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 10584,
+        "width": 660,
+        "height": 600
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 10589,
+        "width": 1296,
+        "height": 600
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 10791,
+        "width": 237,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 10846,
+        "width": 387,
+        "height": 97
+      },
+      {
+        "type": "image",
+        "x": 187,
+        "y": 10983,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 223,
+        "y": 10985,
+        "width": 177,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 11229,
+        "width": 397,
+        "height": 38
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 11332,
+        "width": 410,
+        "height": 302
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 11332,
+        "width": 221,
+        "height": 17
+      },
+      {
+        "type": "image",
+        "x": 514,
+        "y": 11332,
+        "width": 410,
+        "height": 302
+      },
+      {
+        "type": "text",
+        "x": 514,
+        "y": 11332,
+        "width": 55,
+        "height": 17
+      },
+      {
+        "type": "image",
+        "x": 956,
+        "y": 11332,
+        "width": 410,
+        "height": 302
+      },
+      {
+        "type": "text",
+        "x": 956,
+        "y": 11332,
+        "width": 74,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 1398,
+        "y": 11332,
+        "width": 114,
+        "height": 17
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 11425,
+        "width": 410,
+        "height": 204
+      },
+      {
+        "type": "image",
+        "x": 514,
+        "y": 11425,
+        "width": 410,
+        "height": 204
+      },
+      {
+        "type": "image",
+        "x": 956,
+        "y": 11425,
+        "width": 410,
+        "height": 204
+      },
+      {
+        "type": "text",
+        "x": 96,
+        "y": 11552,
+        "width": 209,
+        "height": 58
+      },
+      {
+        "type": "text",
+        "x": 538,
+        "y": 11581,
+        "width": 97,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 980,
+        "y": 11581,
+        "width": 132,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 1432,
+        "y": 11714,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1484,
+        "y": 11714,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 11867,
+        "width": 189,
+        "height": 37
+      },
+      {
+        "type": "text",
+        "x": 1076,
+        "y": 11889,
+        "width": 292,
+        "height": 17
+      },
+      {
+        "type": "form",
+        "x": 1101,
+        "y": 11925,
+        "width": 222,
+        "height": 40
+      },
+      {
+        "type": "image",
+        "x": 1323,
+        "y": 11933,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 74,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 166,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 212,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 258,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 304,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 350,
+        "y": 11951,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "image",
+        "x": 84,
+        "y": 11956,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 130,
+        "y": 11956,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 176,
+        "y": 11961,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 222,
+        "y": 11961,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 268,
+        "y": 11961,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 314,
+        "y": 11961,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 360,
+        "y": 11961,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 940,
+        "y": 12050,
+        "width": 428,
+        "height": 265
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 12052,
+        "width": 300,
+        "height": 227
+      },
+      {
+        "type": "text",
+        "x": 306,
+        "y": 12052,
+        "width": 371,
+        "height": 227
+      },
+      {
+        "type": "text",
+        "x": 587,
+        "y": 12052,
+        "width": 477,
+        "height": 191
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 12389,
+        "width": 512,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 1022,
+        "y": 12389,
+        "width": 346,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "carousel-35a6db18",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 2 images + 1 CTA block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 2,
+        "buttonCount": 1,
+        "linkCount": 4,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + 1 CTAs + 2 images"
+      },
+      "selector": "div.lfr-layout-structure-item-0d74bec5-acd0-d088-12f0-a44aae258022.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 152,
+        "width": 1440,
+        "height": 449
+      },
+      "screenshot": "blocks/carousel-35a6db18.jpg"
+    },
+    {
+      "id": "columns-1917e12d",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-bcf0d3cd-4217-d703-dfba-b692f47c5582 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 601,
+        "width": 1296,
+        "height": 253
+      },
+      "screenshot": "blocks/columns-1917e12d.jpg"
+    },
+    {
+      "id": "columns-4d6c1750",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-b4f67820-9a7b-8730-837e-18fb356591d7 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 854,
+        "width": 1296,
+        "height": 348
+      },
+      "screenshot": "blocks/columns-4d6c1750.jpg"
+    },
+    {
+      "id": "columns-25d6259d",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-20108e4c-ed49-004c-d95c-feaa48dd21dd > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1202,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-25d6259d.jpg"
+    },
+    {
+      "id": "columns-269eef60",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-a8a114b1-23c9-b50a-5cc8-57101ab3d18f > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1397,
+        "width": 1296,
+        "height": 281
+      },
+      "screenshot": "blocks/columns-269eef60.jpg"
+    },
+    {
+      "id": "columns-fe27781",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-41dd4dd9-c54e-3728-f0ee-ea884a2a6a10 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1678,
+        "width": 1296,
+        "height": 463
+      },
+      "screenshot": "blocks/columns-fe27781.jpg"
+    },
+    {
+      "id": "columns-4a5b35a3",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-638e5901-0999-20e5-6ec8-0454567fed34 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2141,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-4a5b35a3.jpg"
+    },
+    {
+      "id": "carousel-275c10a8",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 2 images + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 2,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + 2 images"
+      },
+      "selector": "#fragment-9332d23c-24fc-9c83-7f2a-921d30256047 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2336,
+        "width": 1296,
+        "height": 229
+      },
+      "screenshot": "blocks/carousel-275c10a8.jpg"
+    },
+    {
+      "id": "columns-6ee8e879",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-bbf195e4-9ab1-ee38-4313-263f563f271e > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2565,
+        "width": 1296,
+        "height": 167
+      },
+      "screenshot": "blocks/columns-6ee8e879.jpg"
+    },
+    {
+      "id": "columns-498fe799",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-c273aaab-ec91-f948-c412-f85c1527030b > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2733,
+        "width": 1296,
+        "height": 578
+      },
+      "screenshot": "blocks/columns-498fe799.jpg"
+    },
+    {
+      "id": "columns-250c1aa3",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-7934762a-8d2b-8afc-9220-eb6dbe0c32ed > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3311,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-250c1aa3.jpg"
+    },
+    {
+      "id": "columns-75247514",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-a6568539-9711-2ba6-3ef7-34b5aceeba79 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3506,
+        "width": 1296,
+        "height": 578
+      },
+      "screenshot": "blocks/columns-75247514.jpg"
+    },
+    {
+      "id": "carousel-4bfac33f",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 2 images + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 2,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + 2 images"
+      },
+      "selector": "#fragment-c662edb5-e7d2-8550-780a-c01a5927022d > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 4084,
+        "width": 1296,
+        "height": 229
+      },
+      "screenshot": "blocks/carousel-4bfac33f.jpg"
+    },
+    {
+      "id": "columns-35b8faa8",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-1fa3ef17-abff-1ef9-f6fc-17e8db704f76 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 4313,
+        "width": 1296,
+        "height": 636
+      },
+      "screenshot": "blocks/columns-35b8faa8.jpg"
+    },
+    {
+      "id": "columns-564c17e1",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-551ff207-9992-388f-1e59-7fe384a2fd8e > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 4949,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-564c17e1.jpg"
+    },
+    {
+      "id": "columns-1971a182",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-cb84b361-bcd4-d183-3f6b-63f7f60d13f5 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 5144,
+        "width": 1296,
+        "height": 607
+      },
+      "screenshot": "blocks/columns-1971a182.jpg"
+    },
+    {
+      "id": "columns-4d9b03f1",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-571bfd17-3c98-1b99-f706-fc32c2f8c632 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 5751,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-4d9b03f1.jpg"
+    },
+    {
+      "id": "unknown-3b23aa7d",
+      "type": "unknown",
+      "confidence": "low",
+      "description": "1 heading + 3 paragraphs block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 3,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "div.fragment_88796.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 5946,
+        "width": 1296,
+        "height": 463
+      },
+      "screenshot": "blocks/unknown-3b23aa7d.jpg"
+    },
+    {
+      "id": "columns-a6a39da",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-a55bae18-e2ab-45db-566b-9b90b663f06e > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 6409,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-a6a39da.jpg"
+    },
+    {
+      "id": "columns-1794df90",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-7cc2b9c8-9b4a-b644-878b-0a4ce82cbc5d > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 6605,
+        "width": 1296,
+        "height": 376
+      },
+      "screenshot": "blocks/columns-1794df90.jpg"
+    },
+    {
+      "id": "columns-44376840",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-bd74183c-ff99-956d-657c-110975153eb0 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 6981,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-44376840.jpg"
+    },
+    {
+      "id": "columns-32e4845",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-f3b4077f-6bbc-7315-9446-f3cbfb6202e9 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 7176,
+        "width": 1296,
+        "height": 463
+      },
+      "screenshot": "blocks/columns-32e4845.jpg"
+    },
+    {
+      "id": "columns-25d0bc14",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-7c23a8c4-5c72-b8e0-eaa5-8816c9886c3b > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 7639,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-25d0bc14.jpg"
+    },
+    {
+      "id": "columns-13189320",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-5f86deb4-4133-7baa-03b3-db48a11bb1e7 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 7835,
+        "width": 1296,
+        "height": 549
+      },
+      "screenshot": "blocks/columns-13189320.jpg"
+    },
+    {
+      "id": "columns-742b217c",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-6c776b92-eb9b-b6f6-fa6a-a98fb9b45a10 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 8384,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-742b217c.jpg"
+    },
+    {
+      "id": "columns-5ea82bf7",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-68c53c32-51d5-bc11-8f9e-dcb36b170659 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 8579,
+        "width": 1296,
+        "height": 492
+      },
+      "screenshot": "blocks/columns-5ea82bf7.jpg"
+    },
+    {
+      "id": "columns-47d44a5",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-e97480a3-34c1-1487-fc35-4e65d76da97d > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 9071,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-47d44a5.jpg"
+    },
+    {
+      "id": "columns-42536e11",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-63b14f71-8748-82ec-fb45-0ef4a614518b > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 9266,
+        "width": 1296,
+        "height": 463
+      },
+      "screenshot": "blocks/columns-42536e11.jpg"
+    },
+    {
+      "id": "columns-6e27a592",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-17fb24f9-d4a6-6d69-232e-54678d57455e > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 9729,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-6e27a592.jpg"
+    },
+    {
+      "id": "columns-27c5b414",
+      "type": "columns",
+      "confidence": "high",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-0a360b83-e6d1-9590-be00-ceb832f4a577 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 9924,
+        "width": 1296,
+        "height": 520
+      },
+      "screenshot": "blocks/columns-27c5b414.jpg"
+    },
+    {
+      "id": "columns-6bd585e4",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "1 heading + 1 image + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "icon",
+        "structure": "heading + image"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-038d164a-91b9-307a-ff3d-254aa6fa1aae > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 10445,
+        "width": 1296,
+        "height": 195
+      },
+      "screenshot": "blocks/columns-6bd585e4.jpg"
+    },
+    {
+      "id": "unknown-57583278",
+      "type": "unknown",
+      "confidence": "low",
+      "description": "1 heading + 2 images + 2 paragraphs block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 2,
+        "imageCount": 2,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + 2 images"
+      },
+      "selector": "div.lfr-layout-structure-item-42d5a457-eab0-7e81-7c51-969b17b643e5.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 10640,
+        "width": 1440,
+        "height": 600
+      },
+      "screenshot": "blocks/unknown-57583278.jpg"
+    },
+    {
+      "id": "carousel-231b3eaf",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "6 headings + 5 images block",
+      "content": {
+        "headingCount": 6,
+        "paragraphCount": 0,
+        "imageCount": 5,
+        "buttonCount": 0,
+        "linkCount": 7,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 5 images"
+      },
+      "selector": "div.lfr-layout-structure-item-42b74fdf-cd69-4e5e-861b-216fc6473626.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 11280,
+        "width": 1440,
+        "height": 565
+      },
+      "screenshot": "blocks/carousel-231b3eaf.jpg"
+    },
+    {
+      "id": "carousel-3b64943a",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "6 headings + 5 images block",
+      "content": {
+        "headingCount": 6,
+        "paragraphCount": 0,
+        "imageCount": 5,
+        "buttonCount": 0,
+        "linkCount": 7,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 5 images"
+      },
+      "selector": "div.lfr-layout-structure-item-lista-de-cards--copiar-.lfr-layout-structure-item-7485bbd8-75fc-d61c-2dc3-350af1a867b8",
+      "bounds": {
+        "x": 0,
+        "y": 11280,
+        "width": 1440,
+        "height": 565
+      },
+      "screenshot": "blocks/carousel-3b64943a.jpg"
+    },
+    {
+      "id": "carousel-195f5b87",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "6 headings + 5 images + 3-item layout block",
+      "content": {
+        "headingCount": 6,
+        "paragraphCount": 0,
+        "imageCount": 5,
+        "buttonCount": 0,
+        "linkCount": 7,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "large",
+        "structure": "heading + 5 images"
+      },
+      "selector": "div.cards-carousel",
+      "bounds": {
+        "x": 0,
+        "y": 11280,
+        "width": 1440,
+        "height": 565
+      },
+      "screenshot": "blocks/carousel-195f5b87.jpg"
+    }
+  ]
+}

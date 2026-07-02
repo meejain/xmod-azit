@@ -1,0 +1,286 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/impactos",
+  "timestamp": "2026-07-01T11:31:15.348Z",
+  "duration": "10.6s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/impactos",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 925
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 10,
+        "width": 1440,
+        "height": 898
+      },
+      {
+        "type": "text",
+        "x": 216,
+        "y": 89,
+        "width": 363,
+        "height": 58
+      },
+      {
+        "type": "image",
+        "x": 216,
+        "y": 177,
+        "width": 32,
+        "height": 5
+      },
+      {
+        "type": "text",
+        "x": 539,
+        "y": 670,
+        "width": 363,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 34
+      },
+      {
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 216,
+        "y": 89,
+        "width": 363,
+        "height": 58,
+        "textLength": 14
+      },
+      {
+        "tag": "p",
+        "fontSize": 36,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 539,
+        "y": 665,
+        "width": 363,
+        "height": 54,
+        "textLength": 19
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 10,
+        "width": 1440,
+        "height": 898
+      }
+    ],
+    "topSectionCropBottomY": 909,
+    "topSectionTitleRect": {
+      "x": 216,
+      "y": 89,
+      "width": 363,
+      "height": 58,
+      "text": "ESPÍRITO SANTO"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 925,
+      "width": 1440,
+      "height": 781
+    },
+    "bodyStartY": 925,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 121,
+        "y": 925,
+        "width": 1192,
+        "height": 418
+      },
+      {
+        "type": "text",
+        "x": 494,
+        "y": 1391,
+        "width": 160,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 770,
+        "y": 1391,
+        "width": 193,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 485,
+        "y": 1461,
+        "width": 178,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1556,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1676,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-1d8dc6f7",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-comunica.lfr-layout-structure-item-39bcdfd0-8f8f-f284-d169-139f26609881",
+      "bounds": {
+        "x": 0,
+        "y": 248,
+        "width": 1440,
+        "height": 630
+      },
+      "screenshot": "blocks/hero-1d8dc6f7.jpg"
+    },
+    {
+      "id": "cards-127a97db",
+      "type": "cards",
+      "confidence": "medium",
+      "description": "3-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "itemCount": 3,
+      "selector": "div.list",
+      "bounds": {
+        "x": 418,
+        "y": 1598,
+        "width": 604,
+        "height": 160
+      },
+      "screenshot": "blocks/cards-127a97db.jpg"
+    }
+  ]
+}

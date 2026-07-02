@@ -1,0 +1,198 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/programa-de-comunicacao-social-regional-da-bacia-de-santos-pcsr-bs-",
+  "timestamp": "2026-07-01T12:08:33.954Z",
+  "duration": "11.1s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/programa-de-comunicacao-social-regional-da-bacia-de-santos-pcsr-bs-",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 94
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Programa de Comunicação Social Regional da Bacia de Santos(PCSR-BS) | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 2005
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 56,
+        "y": 150,
+        "width": 1368,
+        "height": 398
+      },
+      {
+        "type": "text",
+        "x": 9,
+        "y": 621,
+        "width": 1422,
+        "height": 95
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 799,
+        "width": 1199,
+        "height": 715
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 1559,
+        "width": 252,
+        "height": 211
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 1791,
+        "width": 251,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1880,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1999,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-2bb6f93",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 list + 8-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 11,
+        "listCount": 1,
+        "childCount": 8,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "list"
+      },
+      "itemCount": 22,
+      "selector": "ul.layouts.level-2",
+      "bounds": {
+        "x": 226,
+        "y": 462,
+        "width": 1198,
+        "height": 370
+      },
+      "screenshot": "blocks/default-2bb6f93.jpg",
+      "reclassifiedFrom": "cards"
+    }
+  ]
+}

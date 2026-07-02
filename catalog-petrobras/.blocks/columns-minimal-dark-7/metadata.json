@@ -1,0 +1,71 @@
+{
+  "variantName": "columns-minimal-dark-7",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/columns-4b2c17b3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/columns-2390ad65.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_centro-de-pesquisa--2952ed13/blocks/columns-bebd0b2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_assistencia-tecnica--734ffd77/blocks/columns-13b3f0eb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/columns-3403eae3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/columns-4749bf23.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/columns-7db1775e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_assistencia-tecnica--c5565b0b/blocks/columns-25d6259d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel--b62014df/blocks/columns-4d91781c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/columns-1d331400.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/columns-6d966810.jpg"
+      }
+    ],
+    "reuseCount": 11
+  }
+}

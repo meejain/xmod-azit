@@ -1,0 +1,55 @@
+{
+  "variantName": "1 heading + 1 image + 1 list block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.213Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/unknown-48facaaa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/unknown-48facaaa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estrategia--621edce9/blocks/unknown-39ded2e6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/unknown-6d78ec6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estrategia--4a5e8b79/blocks/unknown-552e448.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/unknown-196c3668.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_biodiversidade--83f1cfa5/blocks/unknown-7c497397.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

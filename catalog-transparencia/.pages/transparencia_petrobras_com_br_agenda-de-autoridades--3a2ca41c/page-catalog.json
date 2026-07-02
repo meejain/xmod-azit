@@ -1,0 +1,478 @@
+{
+  "url": "https://transparencia.petrobras.com.br/agenda-de-autoridades",
+  "timestamp": "2026-06-30T19:27:00.999Z",
+  "duration": "56.7s",
+  "cleanup": {
+    "elementsRemoved": 8,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/agenda-de-autoridades",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 300
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 165,
+        "height": 17
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 1256,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "image",
+        "x": 1334,
+        "y": 40,
+        "width": 28,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 167,
+        "y": 41,
+        "width": 194,
+        "height": 22
+      },
+      {
+        "type": "text",
+        "x": 302,
+        "y": 147,
+        "width": 36,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 378,
+        "y": 147,
+        "width": 75,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 493,
+        "y": 147,
+        "width": 146,
+        "height": 18
+      },
+      {
+        "type": "background",
+        "x": 340,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "background",
+        "x": 455,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 293,
+        "y": 248,
+        "width": 335,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#606060",
+        "backgroundColor": "#f0f0f0",
+        "x": 239,
+        "y": 38,
+        "width": 194,
+        "height": 29,
+        "textLength": 23
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 302,
+        "y": 145,
+        "width": 36,
+        "height": 22,
+        "textLength": 4
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 378,
+        "y": 145,
+        "width": 75,
+        "height": 22,
+        "textLength": 13
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 484,
+        "y": 144,
+        "width": 164,
+        "height": 24,
+        "textLength": 21
+      },
+      {
+        "tag": "h1",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 293,
+        "y": 248,
+        "width": 853,
+        "height": 38,
+        "textLength": 21
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "svg",
+        "x": 72,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "kind": "svg",
+        "x": 1256,
+        "y": 41,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "kind": "svg",
+        "x": 1328,
+        "y": 32,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "kind": "background-image",
+        "x": 340,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "kind": "background-image",
+        "x": 455,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      }
+    ],
+    "topSectionCropBottomY": 287,
+    "topSectionTitleRect": {
+      "x": 293,
+      "y": 248,
+      "width": 853,
+      "height": 38,
+      "text": "Agenda de autoridades"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 300,
+      "width": 1440,
+      "height": 2111
+    },
+    "bodyStartY": 300,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 293,
+        "y": 346,
+        "width": 846,
+        "height": 80
+      },
+      {
+        "type": "text",
+        "x": 293,
+        "y": 460,
+        "width": 799,
+        "height": 80
+      },
+      {
+        "type": "image",
+        "x": 1075,
+        "y": 983,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1119,
+        "y": 983,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "embed",
+        "x": 293,
+        "y": 1053,
+        "width": 853,
+        "height": 678
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 1852,
+        "width": 158,
+        "height": 309
+      },
+      {
+        "type": "text",
+        "x": 262,
+        "y": 1852,
+        "width": 158,
+        "height": 242
+      },
+      {
+        "type": "text",
+        "x": 451,
+        "y": 1852,
+        "width": 158,
+        "height": 258
+      },
+      {
+        "type": "text",
+        "x": 641,
+        "y": 1852,
+        "width": 158,
+        "height": 242
+      },
+      {
+        "type": "text",
+        "x": 831,
+        "y": 1852,
+        "width": 158,
+        "height": 402
+      },
+      {
+        "type": "text",
+        "x": 1021,
+        "y": 1852,
+        "width": 158,
+        "height": 296
+      },
+      {
+        "type": "text",
+        "x": 1210,
+        "y": 1852,
+        "width": 158,
+        "height": 366
+      },
+      {
+        "type": "text",
+        "x": 1022,
+        "y": 2350,
+        "width": 346,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 2352,
+        "width": 85,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 206,
+        "y": 2352,
+        "width": 131,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 386,
+        "y": 2352,
+        "width": 249,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 684,
+        "y": 2352,
+        "width": 50,
+        "height": 17
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "carousel-5ba600de",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 2 paragraphs + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 2,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "div.fragment_2115475.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 152,
+        "width": 1296,
+        "height": 480
+      },
+      "screenshot": "blocks/carousel-5ba600de.jpg"
+    },
+    {
+      "id": "carousel-4b9c6aa3",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "2-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "div.carousel-container.col-3-10",
+      "bounds": {
+        "x": 293,
+        "y": 632,
+        "width": 853,
+        "height": 430
+      },
+      "screenshot": "blocks/carousel-4b9c6aa3.jpg"
+    },
+    {
+      "id": "embed-713eb861",
+      "type": "embed",
+      "confidence": "high",
+      "description": "iframe-container",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "columnCount": 1,
+      "selector": "div.iframe-container.col-3-10",
+      "bounds": {
+        "x": 293,
+        "y": 1102,
+        "width": 853,
+        "height": 678
+      },
+      "screenshot": "blocks/embed-713eb861.jpg",
+      "reclassifiedFrom": "columns"
+    }
+  ],
+  "globalElements": {
+    "header": {
+      "selector": "div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-78575d8e-8ab3-a30f-91fc-9c8b497f058f",
+      "complexity": "complex",
+      "features": [
+        "dropdowns",
+        "language-picker",
+        "mobile-toggle"
+      ]
+    },
+    "footer": {
+      "selector": "div.footer-top.breakpoint",
+      "complexity": "simple",
+      "features": [
+        "newsletter-form",
+        "social-icons"
+      ]
+    },
+    "isFirstCapture": true
+  }
+}

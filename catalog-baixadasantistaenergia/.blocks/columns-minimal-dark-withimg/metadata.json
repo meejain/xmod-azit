@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-withimg",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:15:39.243Z",
+  "sourceContext": {
+    "originUrl": "https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3d8ac2b6/blocks/columns-5b6cb304.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "17 images + 1 cta block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.229Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/refinaria-capuava",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "1 CTAs + 17 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"1 CTAs + 17 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-capuava",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-capuava--f50805b0/blocks/unknown-79d82f1d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

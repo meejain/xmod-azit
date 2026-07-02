@@ -1,0 +1,55 @@
+{
+  "variantName": "hero-minimal-dark-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:15:39.243Z",
+  "sourceContext": {
+    "originUrl": "https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d152c964/blocks/hero-61e88d5.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_governanca--2c761656/blocks/hero-5df5ee44.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--73d8bdb6/blocks/hero-5d7aa72a.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--623a84df/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional--a4163172/blocks/hero-67335dfe.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--71aec80d/blocks/hero-2d433b83.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--d823533f/blocks/hero-3bbd76ce.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

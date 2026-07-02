@@ -1,0 +1,35 @@
+{
+  "variantName": "accordion-minimal-dark-16",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.218Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text + 3 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + 3 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_add-cleaner-petrobras--5733e421/blocks/accordion-7be1d4f4.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_add-cleaner-petrobras--4e0305d5/blocks/accordion-7be1d4f4.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

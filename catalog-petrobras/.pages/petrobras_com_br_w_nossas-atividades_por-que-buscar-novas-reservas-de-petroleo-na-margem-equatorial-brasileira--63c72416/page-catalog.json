@@ -1,0 +1,174 @@
+{
+  "url": "https://petrobras.com.br/w/nossas-atividades/por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira",
+  "timestamp": "2026-07-01T15:49:47.978Z",
+  "duration": "8.1s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/w/nossas-atividades/por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "background",
+        "x": 968,
+        "y": 426,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 580,
+        "width": 321,
+        "height": 72
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 652,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 677,
+        "width": 345,
+        "height": 77
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 716,
+        "width": 351,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "h1",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 579,
+        "width": 351,
+        "height": 72,
+        "textLength": 74
+      },
+      {
+        "tag": "p",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 715,
+        "width": 351,
+        "height": 38,
+        "textLength": 63
+      },
+      {
+        "tag": "p",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 677,
+        "width": 351,
+        "height": 77,
+        "textLength": 153
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "kind": "canvas",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "topSectionCropBottomY": 900,
+    "topSectionTitleRect": {
+      "x": 497,
+      "y": 74,
+      "width": 447,
+      "height": 752,
+      "text": "Por que buscar novas reservas de petróleo na Margem Equatorial brasileira? — Entenda porque a Margem Equatorial é estratégica para o Brasil."
+    },
+    "bodyBounds": null,
+    "bodyStartY": null,
+    "bodyPlaceholders": []
+  },
+  "blocks": [
+    {
+      "id": "carousel-422412a9",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 3 images + 2 CTAs block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 38,
+        "imageCount": 3,
+        "buttonCount": 2,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + 2 CTAs + 3 images"
+      },
+      "selector": "body.amp-mode-mouse.amp-mode-keyboard-active",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "blocks/carousel-422412a9.jpg"
+    }
+  ]
+}

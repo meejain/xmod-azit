@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-withimg-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.213Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_jovem-aprendiz--53f48221/blocks/columns-ffca504.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/columns-7c9c7d99.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

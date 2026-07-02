@@ -1,0 +1,284 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10",
+  "timestamp": "2026-07-01T12:05:37.365Z",
+  "duration": "10.1s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/fundacao-florestal/etapa-3/cond-10",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 50,
+      "width": 1440,
+      "height": 175
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 124
+      },
+      {
+        "tag": "a",
+        "fontSize": 28,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 40,
+        "y": 60,
+        "width": 380,
+        "height": 128,
+        "textLength": 38
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 460,
+        "y": 108,
+        "width": 974,
+        "height": 21,
+        "textLength": 6
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 500,
+        "y": 138,
+        "width": 934,
+        "height": 21,
+        "textLength": 21
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 500,
+        "y": 168,
+        "width": 934,
+        "height": 21,
+        "textLength": 75
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 500,
+        "y": 198,
+        "width": 934,
+        "height": 21,
+        "textLength": 52
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 219,
+    "topSectionTitleRect": {
+      "x": 500,
+      "y": 198,
+      "width": 934,
+      "height": 21,
+      "text": "PMIC - Projeto de Monitoramento Ilhas Costeiras PMIC"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 225,
+      "width": 1440,
+      "height": 1216
+    },
+    "bodyStartY": 225,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 40,
+        "y": 225,
+        "width": 1400,
+        "height": 743
+      },
+      {
+        "type": "text",
+        "x": 66,
+        "y": 1015,
+        "width": 1309,
+        "height": 95
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 1193,
+        "width": 601,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1266,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1251,
+        "y": 1356,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1297,
+        "y": 1356,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1389,
+        "y": 1356,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1385,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1385,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1385,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1385,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-26acfdc6",
+      "type": "default",
+      "confidence": "medium",
+      "description": "5-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 5,
+        "listCount": 0,
+        "childCount": 5,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "itemCount": 10,
+      "selector": "ul.layouts.level-2 > li:nth-child(1) > ul:nth-child(2)",
+      "bounds": {
+        "x": 460,
+        "y": 376,
+        "width": 974,
+        "height": 150
+      },
+      "screenshot": "blocks/default-26acfdc6.jpg",
+      "reclassifiedFrom": "cards"
+    },
+    {
+      "id": "default-e4ed425",
+      "type": "default",
+      "confidence": "medium",
+      "description": "3 lists + 3-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 21,
+        "listCount": 3,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "list"
+      },
+      "itemCount": 42,
+      "selector": "ul.layouts.level-2 > li:nth-child(2) > ul:nth-child(2)",
+      "bounds": {
+        "x": 460,
+        "y": 556,
+        "width": 974,
+        "height": 630
+      },
+      "screenshot": "blocks/default-e4ed425.jpg",
+      "reclassifiedFrom": "cards"
+    }
+  ]
+}

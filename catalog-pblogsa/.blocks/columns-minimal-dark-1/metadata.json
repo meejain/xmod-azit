@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/cartas-de-governanca-e-politicas-publicas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/pblogsa_com_br_cartas-de-governanca-e-politicas-publicas--c9a2ec54/blocks/columns-758e0d7f.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional",
+        "screenshot": ".pages/pblogsa_com_br_institucional--fc1f54dd/blocks/columns-513af2d0.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

@@ -1,0 +1,690 @@
+{
+  "url": "https://precos.petrobras.com.br/",
+  "timestamp": "2026-06-30T19:49:26.761Z",
+  "duration": "42.6s",
+  "cleanup": {
+    "elementsRemoved": 8,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 350
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 525,
+        "height": 99
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 350
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 230,
+        "height": 17
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 1256,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "image",
+        "x": 1334,
+        "y": 40,
+        "width": 28,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 167,
+        "y": 41,
+        "width": 192,
+        "height": 22
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 140,
+        "width": 658,
+        "height": 91
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 242,
+        "width": 434,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 295,
+        "width": 45,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 96,
+        "y": 308,
+        "width": 51,
+        "height": 23
+      },
+      {
+        "type": "image",
+        "x": 163,
+        "y": 309,
+        "width": 20,
+        "height": 20
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#606060",
+        "backgroundColor": "#f0f0f0",
+        "x": 239,
+        "y": 38,
+        "width": 192,
+        "height": 29,
+        "textLength": 23
+      },
+      {
+        "tag": "span",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 72,
+        "y": 138,
+        "width": 658,
+        "height": 95,
+        "textLength": 57
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#0060f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 72,
+        "y": 295,
+        "width": 1,
+        "height": 1,
+        "textLength": 7
+      },
+      {
+        "tag": "span",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 96,
+        "y": 308,
+        "width": 51,
+        "height": 23,
+        "textLength": 7
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "svg",
+        "x": 0,
+        "y": 0,
+        "width": 525,
+        "height": 99
+      },
+      {
+        "kind": "svg",
+        "x": 1256,
+        "y": 41,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "kind": "svg",
+        "x": 1328,
+        "y": 32,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1728,
+        "height": 600
+      }
+    ],
+    "topSectionCropBottomY": 344,
+    "topSectionTitleRect": {
+      "x": 72,
+      "y": 239,
+      "width": 743,
+      "height": 32,
+      "text": "Entenda como é definido o preço dos combustíveis"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 350,
+      "width": 1440,
+      "height": 1729
+    },
+    "bodyStartY": 350,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 13,
+        "y": 496,
+        "width": 14,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 73,
+        "y": 496,
+        "width": 22,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 185,
+        "y": 496,
+        "width": 22,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 64,
+        "y": 588,
+        "width": 807,
+        "height": 38
+      },
+      {
+        "type": "image",
+        "x": 64,
+        "y": 646,
+        "width": 397,
+        "height": 170
+      },
+      {
+        "type": "image",
+        "x": 481,
+        "y": 646,
+        "width": 397,
+        "height": 170
+      },
+      {
+        "type": "image",
+        "x": 898,
+        "y": 646,
+        "width": 397,
+        "height": 170
+      },
+      {
+        "type": "text",
+        "x": 64,
+        "y": 826,
+        "width": 397,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 481,
+        "y": 826,
+        "width": 397,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 898,
+        "y": 826,
+        "width": 397,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 64,
+        "y": 911,
+        "width": 785,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 64,
+        "y": 965,
+        "width": 1041,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 64,
+        "y": 1030,
+        "width": 128,
+        "height": 18
+      },
+      {
+        "type": "text",
+        "x": 105,
+        "y": 1110,
+        "width": 305,
+        "height": 42
+      },
+      {
+        "type": "text",
+        "x": 96,
+        "y": 1252,
+        "width": 136,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 96,
+        "y": 1322,
+        "width": 479,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 96,
+        "y": 1380,
+        "width": 479,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 96,
+        "y": 1438,
+        "width": 479,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 1599,
+        "width": 176,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 1076,
+        "y": 1620,
+        "width": 292,
+        "height": 17
+      },
+      {
+        "type": "form",
+        "x": 1101,
+        "y": 1656,
+        "width": 222,
+        "height": 40
+      },
+      {
+        "type": "image",
+        "x": 1323,
+        "y": 1664,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 74,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 166,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 212,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 258,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 304,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 350,
+        "y": 1680,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "image",
+        "x": 84,
+        "y": 1686,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 130,
+        "y": 1686,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 176,
+        "y": 1690,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 222,
+        "y": 1690,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 268,
+        "y": 1690,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 314,
+        "y": 1690,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 360,
+        "y": 1690,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 1779,
+        "width": 539,
+        "height": 156
+      },
+      {
+        "type": "text",
+        "x": 643,
+        "y": 1779,
+        "width": 725,
+        "height": 156
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 2009,
+        "width": 587,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 1022,
+        "y": 2009,
+        "width": 346,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "video-17e74e6",
+      "type": "video",
+      "confidence": "high",
+      "description": "form + video block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": true,
+        "hasVideo": true
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "div.lfr-layout-structure-item-story-video.lfr-layout-structure-item-bbc1eeb2-5ccd-b54e-9799-f7de2d34d01e",
+      "bounds": {
+        "x": 0,
+        "y": 152,
+        "width": 1440,
+        "height": 0
+      },
+      "screenshot": null,
+      "error": "Element not visible"
+    },
+    {
+      "id": "carousel-2373823e",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 3 images + 4 CTAs block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 3,
+        "buttonCount": 4,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 4 CTAs + 3 images"
+      },
+      "selector": "div.lfr-layout-structure-item-estrutura---do-carrossel-banner-destaque.lfr-layout-structure-item-217c1e4a-233b-a30a-0caa-099dee0c6cb3",
+      "bounds": {
+        "x": 0,
+        "y": 152,
+        "width": 1440,
+        "height": 448
+      },
+      "screenshot": "blocks/carousel-2373823e.jpg",
+      "reclassifiedFrom": "hero"
+    },
+    {
+      "id": "hero-66f2a135",
+      "type": "hero",
+      "confidence": "high",
+      "description": "3 headings + 3 images block",
+      "content": {
+        "headingCount": 3,
+        "paragraphCount": 0,
+        "imageCount": 3,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 3 images"
+      },
+      "selector": "div.lfr-layout-structure-item-escolha-de-combust-vel.lfr-layout-structure-item-0dbc9603-ab12-9750-0190-e4dfe2792333",
+      "bounds": {
+        "x": 0,
+        "y": 600,
+        "width": 1440,
+        "height": 359
+      },
+      "screenshot": "blocks/hero-66f2a135.jpg"
+    },
+    {
+      "id": "form-6e89fc6d",
+      "type": "form",
+      "confidence": "high",
+      "description": "1 heading + form + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": true,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "div.lfr-layout-structure-item-com-liferay-asset-publisher-web-portlet-assetpublisherportlet.lfr-layout-structure-item-81aaa032-191d-6049-4c85-98582480d347",
+      "bounds": {
+        "x": 0,
+        "y": 959,
+        "width": 1440,
+        "height": 299
+      },
+      "screenshot": "blocks/form-6e89fc6d.jpg"
+    },
+    {
+      "id": "columns-170efa8f",
+      "type": "columns",
+      "confidence": "medium",
+      "description": "5 headings + 2 lists + 3-item layout block",
+      "content": {
+        "headingCount": 5,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 4,
+        "listCount": 2,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + list"
+      },
+      "columnCount": 3,
+      "selector": "div.fragment_5680 > div:nth-child(1)",
+      "bounds": {
+        "x": 64,
+        "y": 1268,
+        "width": 543,
+        "height": 285
+      },
+      "screenshot": "blocks/columns-170efa8f.jpg"
+    }
+  ],
+  "globalElements": {
+    "header": {
+      "selector": "div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-369e034e-e87c-f34b-8858-272a4bb3db83",
+      "complexity": "complex",
+      "features": [
+        "dropdowns",
+        "language-picker",
+        "mobile-toggle"
+      ]
+    },
+    "footer": {
+      "selector": "div.icons-footer.containers",
+      "complexity": "simple",
+      "features": []
+    },
+    "isFirstCapture": true
+  }
+}

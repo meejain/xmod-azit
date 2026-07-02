@@ -1,0 +1,51 @@
+{
+  "variantName": "hero-minimal-dark-withimg-3",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:35:10.434Z",
+  "sourceContext": {
+    "originUrl": "https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_comunidades-pesqueiras-participam-de-oficinas-de-mec_C3_A2nica-naval--28fc5ae2/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores--44eaea5a/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/destaque-para-a%C3%A7%C3%B5es-de-socioeconomia-na-edi%C3%A7%C3%A3o-56-do-informe-comunidade",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_destaque-para-a_C3_A7_C3_B5es-de-socioeconomia-na-edi_C3_A7_C3_A3o-56-do-informe-comunidade--d7b75f92/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/evento-marca-culmin%C3%A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_evento-marca-culmin_C3_A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es--80f8118e/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/informe-comunidade-chega-%C3%A0-edi%C3%A7%C3%A3o-55-destacando-os-15-anos-do-pmp",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_informe-comunidade-chega-_C3_A0-edi_C3_A7_C3_A3o-55-destacando-os-15-anos-do-pmp--ae251bf7/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca%C3%A7%C3%B5es",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca_C3_A7_C3_B5es--33b49e9e/blocks/hero-40372059.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

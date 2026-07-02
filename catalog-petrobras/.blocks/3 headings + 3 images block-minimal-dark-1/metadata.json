@@ -1,0 +1,39 @@
+{
+  "variantName": "3 headings + 3 images block-minimal-dark-1",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.217Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/bolivia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/unknown-7cfb9aad.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/unknown-5d273dfe.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/unknown-5dcfbc38.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

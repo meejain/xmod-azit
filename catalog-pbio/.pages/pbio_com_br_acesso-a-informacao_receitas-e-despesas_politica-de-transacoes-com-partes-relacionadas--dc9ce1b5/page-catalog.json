@@ -1,0 +1,264 @@
+{
+  "url": "https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas",
+  "timestamp": "2026-06-30T20:51:13.780Z",
+  "duration": "70.7s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 225
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 225
+      },
+      {
+        "type": "text",
+        "x": 517,
+        "y": 75,
+        "width": 181,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 698,
+        "y": 75,
+        "width": 149,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 847,
+        "y": 75,
+        "width": 145,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 992,
+        "y": 75,
+        "width": 286,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 115,
+        "width": 734,
+        "height": 90
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 517,
+        "y": 75,
+        "width": 181,
+        "height": 21,
+        "textLength": 24
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 719,
+        "y": 75,
+        "width": 149,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 889,
+        "y": 75,
+        "width": 145,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 1055,
+        "y": 75,
+        "width": 286,
+        "height": 21,
+        "textLength": 46
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 115,
+        "width": 853,
+        "height": 91,
+        "textLength": 46
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 238
+      }
+    ],
+    "topSectionCropBottomY": 207,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 115,
+      "width": 853,
+      "height": 91,
+      "text": "Política de Transações com Partes Relacionadas"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 225,
+      "width": 1440,
+      "height": 1411
+    },
+    "bodyStartY": 225,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 238,
+        "width": 615,
+        "height": 76
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 343,
+        "width": 829,
+        "height": 56
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-74fd1b15",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image + list"
+      },
+      "selector": "div.lfr-layout-structure-item-39441d0e-5633-c1b8-d2a1-1950c8517841.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-74fd1b15.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 187
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

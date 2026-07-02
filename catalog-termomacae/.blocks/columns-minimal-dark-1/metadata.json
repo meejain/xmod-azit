@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.234Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/",
+        "screenshot": ".pages/termomacae_com_br--1930b556/blocks/columns-77a4e7fa.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional",
+        "screenshot": ".pages/termomacae_com_br_institucional--c31c533c/blocks/columns-166379e4.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

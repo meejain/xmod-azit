@@ -1,0 +1,88 @@
+{
+  "variantName": "hero-minimal-dark-withimg-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/energia-em-transformacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 1 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 1 CTAs + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 1 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/hero-1e3f88cb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/hero-76732ad0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_en_ouvidoria--08cae8fa/blocks/hero-588add6a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_carreiras--59c53b01/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_perfil--cbd5b9e3/blocks/hero-711a9ecb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_mudancas-climaticas--15a1a892/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_energia-em-transformacao--19501090/blocks/hero-1e3f88cb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_inovacao-aberta--a4d3fd4e/blocks/hero-76732ad0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_ouvidoria--aa65f3bd/blocks/hero-588add6a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_autonomia-e-renda--a406b194/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_perfil--b7731683/blocks/hero-711a9ecb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/dados-abertos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_dados-abertos--15030f70/blocks/hero-588add6a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/hero-4d293c6a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica--b7996fe9/blocks/hero-1e3f88cb.jpg"
+      }
+    ],
+    "reuseCount": 15
+  }
+}

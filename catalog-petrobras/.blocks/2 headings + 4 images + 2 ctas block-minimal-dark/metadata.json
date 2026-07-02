@@ -1,0 +1,35 @@
+{
+  "variantName": "2 headings + 4 images + 2 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.217Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/colombia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 2 CTAs + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 2 CTAs + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/colombia",
+        "screenshot": ".pages/petrobras_com_br_colombia--e0377991/blocks/unknown-5de777ed.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/colombia",
+        "screenshot": ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/unknown-5de777ed.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

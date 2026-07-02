@@ -1,0 +1,31 @@
+{
+  "variantName": "2 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.216Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/web-stories",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "2 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"2 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/web-stories",
+        "screenshot": ".pages/petrobras_com_br_web-stories--121afd5c/blocks/unknown-55421fb.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

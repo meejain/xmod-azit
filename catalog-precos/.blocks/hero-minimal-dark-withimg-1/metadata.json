@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-minimal-dark-withimg-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:50:35.687Z",
+  "sourceContext": {
+    "originUrl": "https://precos.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://precos.petrobras.com.br/",
+        "screenshot": ".pages/precos_petrobras_com_br--eff6fed6/blocks/hero-66f2a135.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

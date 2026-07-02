@@ -1,0 +1,35 @@
+{
+  "variantName": "14 images + 1 cta block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.229Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/refinaria-de-paulinia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "1 CTAs + 14 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"1 CTAs + 14 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-de-paulinia--1bdb57bf/blocks/unknown-79d82f1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-henrique-lage--0a746af3/blocks/unknown-79d82f1d.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

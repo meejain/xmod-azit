@@ -1,0 +1,136 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-07-01T11:58:53.877Z",
+    "totalBlockVariants": 10,
+    "totalBlocksProcessed": 591,
+    "newVariantsCreated": 8,
+    "variantsReused": 562,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 64,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 55,
+        "description": "47 headings + 46 images block; 7 headings + 3-item layout block; 8 headings + 7 images + 3-item layout block; 8 headings + 7 images block; 9 headings + 3-item layout block; 9 headings + 8 images + 3-i",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br--aef59f69/blocks/carousel-2a844085.jpg",
+          ".pages/agencia_petrobras_com_br--aef59f69/blocks/carousel-69524b2f.jpg",
+          ".pages/agencia_petrobras_com_br--aef59f69/blocks/carousel-62663c1d.jpg",
+          ".pages/agencia_petrobras_com_br--aef59f69/blocks/carousel-224e467a.jpg",
+          ".pages/agencia_petrobras_com_br--aef59f69/blocks/carousel-326edc6a.jpg",
+          ".pages/agencia_petrobras_com_br_w_edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr_C3_A9ditos-de-carbono--b0e36754/blocks/carousel-195f5b87.jpg"
+        ]
+      },
+      "cards-minimal-light": {
+        "blockVariantId": "cards-minimal-light",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 7,
+        "description": "2 paragraphs block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee2ff.jpg",
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee31e.jpg",
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee33d.jpg",
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee35c.jpg",
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee37b.jpg",
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee39a.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 6,
+        "description": "embed-responsive; video block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br_w_institucional_05-com-150-vagas--2de3ed09/blocks/embed-3f04c1.jpg",
+          ".pages/agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-programa-de-est_C3_A1gio-2026-com-150-vagas-em-12-estados--2fcccd83/blocks/embed-3f04c1.jpg",
+          ".pages/agencia_petrobras_com_br_w_negocio_petrobras-e-pemex-firmam-parceria-para-coopera_C3_A7_C3_A3o-em-explora_C3_A7_C3_A3o-e-produ_C3_A7_C3_A3o-e-processos-industriais--b66e7d39/blocks/embed-3f04c1.jpg",
+          ".pages/agencia_petrobras_com_br_w_parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera_C3_A7_C3_A3o-o-maior-aerogerador-onshore-das-am_C3_A9ricas--fa45db92/blocks/embed-6b3df925.jpg",
+          ".pages/agencia_petrobras_com_br_w_parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera_C3_A7_C3_A3o-o-maior-aerogerador-onshore-das-am_C3_A9ricas--fa45db92/blocks/embed-6b3df963.jpg",
+          ".pages/agencia_petrobras_com_br_w_petrobras-coloca-em-opera_C3_A7_C3_A3o-o-supercomputador-harpia--ff5fa730/blocks/embed-3f04c1.jpg"
+        ]
+      },
+      "table-minimal-dark": {
+        "blockVariantId": "table-minimal-dark",
+        "baseBlock": "table",
+        "canonicalModel": "standalone",
+        "pagesFound": 6,
+        "description": "1 CTA + 2 lists + 1 paragraph + 2-item layout block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/table-546a547.jpg",
+          ".pages/agencia_petrobras_com_br_inovacao--36718c7e/blocks/table-6cfce448.jpg",
+          ".pages/agencia_petrobras_com_br_institucional--cd101b8b/blocks/table-7a730290.jpg",
+          ".pages/agencia_petrobras_com_br_mais-recentes--66c47419/blocks/table-71261ea5.jpg",
+          ".pages/agencia_petrobras_com_br_negocio--8db52f4e/blocks/table-75ef38ac.jpg",
+          ".pages/agencia_petrobras_com_br_regionais--e6eacb9c/blocks/table-2ee068db.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "8 CTAs block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br_selecao--5e341364/blocks/accordion-2dd94ea2.jpg"
+        ]
+      },
+      "carousel-moderate-dark": {
+        "blockVariantId": "carousel-moderate-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "47 headings + 46 images + 4-item layout block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br--aef59f69/blocks/carousel-4461df85.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "1 heading + 2 images + 1 paragraph + 2-item layout block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br_selecao--5e341364/blocks/columns-46d9752d.jpg"
+        ]
+      },
+      "search-minimal-dark": {
+        "blockVariantId": "search-minimal-dark",
+        "baseBlock": "search",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "11 CTAs + form + 3 lists block",
+        "screenshots": [
+          ".pages/agencia_petrobras_com_br_listar-editoria--744b913b/blocks/search-ed87a67.jpg"
+        ]
+      }
+    }
+  }
+}

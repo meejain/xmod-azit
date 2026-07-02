@@ -1,0 +1,31 @@
+{
+  "variantName": "1 heading + 1 image + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/unknown-57e174fa.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

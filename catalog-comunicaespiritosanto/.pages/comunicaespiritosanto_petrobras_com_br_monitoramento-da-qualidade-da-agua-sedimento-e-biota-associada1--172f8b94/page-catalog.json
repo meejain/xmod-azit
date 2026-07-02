@@ -1,0 +1,225 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1",
+  "timestamp": "2026-07-01T11:31:53.507Z",
+  "duration": "9.9s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 89
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Monitoramento da Qualidade da Água, Sedimento e Biota Associada | Comunica Espirito Santo"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 1572
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 56,
+        "y": 150,
+        "width": 1368,
+        "height": 419
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 626,
+        "width": 479,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 882,
+        "y": 988,
+        "width": 74,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 370,
+        "y": 1014,
+        "width": 700,
+        "height": 304
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1423,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1116,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1162,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1208,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1254,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1300,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1346,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1392,
+        "y": 1513,
+        "width": 35,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-2bb6f93",
+      "type": "default",
+      "confidence": "medium",
+      "description": "3 lists + 4-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 11,
+        "listCount": 3,
+        "childCount": 4,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "list"
+      },
+      "columnCount": 4,
+      "selector": "ul.layouts.level-2",
+      "bounds": {
+        "x": 226,
+        "y": 424,
+        "width": 1198,
+        "height": 391
+      },
+      "screenshot": "blocks/default-2bb6f93.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-1d5ef8f6",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "div.lfr-layout-structure-item-textos.lfr-layout-structure-item-e40e154d-ec80-0007-9ca5-df473a96eac6",
+      "bounds": {
+        "x": 0,
+        "y": 857,
+        "width": 1440,
+        "height": 766
+      },
+      "screenshot": "blocks/default-1d5ef8f6.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

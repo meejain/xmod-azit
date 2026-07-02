@@ -1,0 +1,94 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T21:27:13.779Z",
+    "totalBlockVariants": 7,
+    "totalBlocksProcessed": 206,
+    "newVariantsCreated": 5,
+    "variantsReused": 185,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 51,
+        "description": "1 heading + 1 list block",
+        "screenshots": [
+          ".pages/pben_com_br_acesso-a-informacao--54fc3e28/blocks/hero-213c48dc.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas--38556246/blocks/hero-5a846208.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--9cb1a6fd/blocks/hero-5a57b68a.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_governanca--45041771/blocks/hero-5a57b68a.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--e12543cb/blocks/hero-25ee1de.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--51c05f3d/blocks/hero-5a57b68a.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "lfr-layout-structure-item-iframe",
+        "screenshots": [
+          ".pages/pben_com_br_acesso-a-informacao_convenios-e-transferencias--6e57e62c/blocks/embed-56a7e468.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--1c96e1d4/blocks/embed-6e4acf79.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--68fda79a/blocks/embed-5563625c.jpg",
+          ".pages/pben_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fb815aed/blocks/embed-a4a6841.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings block",
+        "screenshots": [
+          ".pages/pben_com_br_institucional_orgaos-estatutarios--8694c3d0/blocks/accordion-d84d2c1.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + 2 images + 2 paragraphs block",
+        "screenshots": [
+          ".pages/pben_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--c1997d63/blocks/cards-4586852e.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "3 images + 1 paragraph block",
+        "screenshots": [
+          ".pages/pben_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--69ac8a2d/blocks/columns-62531b75.jpg"
+        ]
+      }
+    }
+  }
+}

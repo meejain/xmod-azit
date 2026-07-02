@@ -1,0 +1,26 @@
+{
+  "variantName": "header-global",
+  "baseBlock": "header",
+  "canonicalModel": "configuration",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:54:40.346Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en",
+    "discoveredDuring": "global-header-capture"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "complexity": "complex",
+    "density": "moderate"
+  },
+  "knownSignatures": [],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en",
+        "screenshot": ".pages/_global/header.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

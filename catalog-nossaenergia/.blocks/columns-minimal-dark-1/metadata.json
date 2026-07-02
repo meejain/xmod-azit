@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.750Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/nossa-jornada-comeca-na-bahia-vem-conferir-mochileiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/nossa-jornada-comeca-na-bahia-vem-conferir-mochileiras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_nossa-jornada-comeca-na-bahia-vem-conferir-mochileiras--693bce19/blocks/columns-275a3b63.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-70-anos-o-brasil-e-a-nossa-energia",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-70-anos-o-brasil-e-a-nossa-energia--0e4ac585/blocks/columns-275a3b63.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/podcast-nossa-energia",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_podcast-nossa-energia--57787f95/blocks/columns-275a3b63.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

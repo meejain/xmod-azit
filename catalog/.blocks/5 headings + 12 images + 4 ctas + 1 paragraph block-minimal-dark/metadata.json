@@ -1,0 +1,56 @@
+{
+  "variantName": "5 headings + 12 images + 4 ctas + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.219Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/bunker",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 4 CTAs + 12 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 4 CTAs + 12 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 4 CTAs + 12 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_bunker--12eef8be/blocks/unknown-7179f5eb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/unknown-718775df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_querosene-de-aviacao--5817c150/blocks/unknown-7b09588e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_tipos-de-fertilizantes--210bc799/blocks/unknown-23e2ed7a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/unknown-7179f5eb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel--b62014df/blocks/unknown-718775df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_tipos-de-fertilizantes--1f71f494/blocks/unknown-23e2ed7a.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

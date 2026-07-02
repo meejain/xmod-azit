@@ -1,0 +1,59 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:15:39.243Z",
+  "sourceContext": {
+    "originUrl": "https://baixadasantistaenergia.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://baixadasantistaenergia.com.br/",
+        "screenshot": ".pages/baixadasantistaenergia_com_br--bdf20611/blocks/columns-1332ee06.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_cartas-de-governanca-e-politicas-publicas--e27e517b/blocks/columns-1688e61a.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--3b435b5e/blocks/columns-52a0bd84.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional--16e5562f/blocks/columns-7508be6f.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional/auditoria",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional_auditoria--ee948343/blocks/columns-6f0081c2.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--8377efef/blocks/columns-25bdc2d5.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional_orgaos-estatutarios--92366290/blocks/columns-1e67c6bf.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--19180992/blocks/columns-680db657.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

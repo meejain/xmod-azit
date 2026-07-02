@@ -1,0 +1,383 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-3",
+  "timestamp": "2026-07-01T12:04:09.659Z",
+  "duration": "11.7s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/empreendimentos/etapa-3",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 625
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 625
+      },
+      {
+        "type": "text",
+        "x": 65,
+        "y": 100,
+        "width": 327,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 34
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 65,
+        "y": 130,
+        "width": 635,
+        "height": 44,
+        "textLength": 15
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 700
+      }
+    ],
+    "topSectionCropBottomY": 610,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Etapa 3 | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 625,
+      "width": 1440,
+      "height": 2468
+    },
+    "bodyStartY": 625,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 648,
+        "y": 756,
+        "width": 145,
+        "height": 41
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 889,
+        "width": 750,
+        "height": 538
+      },
+      {
+        "type": "text",
+        "x": 300,
+        "y": 1547,
+        "width": 229,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 753,
+        "y": 1693,
+        "width": 94,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 305,
+        "y": 2295,
+        "width": 342,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 630,
+        "y": 2345,
+        "width": 35,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 465,
+        "y": 2395,
+        "width": 85,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 565,
+        "y": 2395,
+        "width": 85,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 660,
+        "y": 2395,
+        "width": 85,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 765,
+        "y": 2395,
+        "width": 85,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 233,
+        "y": 2510,
+        "width": 166,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 558,
+        "y": 2510,
+        "width": 253,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 970,
+        "y": 2510,
+        "width": 237,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 233,
+        "y": 2550,
+        "width": 32,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 558,
+        "y": 2550,
+        "width": 32,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 970,
+        "y": 2550,
+        "width": 32,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 189,
+        "y": 2678,
+        "width": 124,
+        "height": 91
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 2918,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1113,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1159,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1205,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1251,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1297,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1343,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1389,
+        "y": 3008,
+        "width": 40,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-6a8cf3de",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-comunica.lfr-layout-structure-item-7e9823d7-8049-0133-0ba9-5a536ebd9e21",
+      "bounds": {
+        "x": 0,
+        "y": 262,
+        "width": 1440,
+        "height": 700
+      },
+      "screenshot": "blocks/hero-6a8cf3de.jpg"
+    },
+    {
+      "id": "default-615946dd",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "#fragment-9a7a5626-845c-37e3-ed89-9dc78ee8a9e2 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
+      "bounds": {
+        "x": 121,
+        "y": 1141,
+        "width": 1199,
+        "height": 538
+      },
+      "screenshot": "blocks/default-615946dd.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "tabs-629e5bef",
+      "type": "tabs",
+      "confidence": "high",
+      "description": "tabs-container",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 4,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 20,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "selector": "div.tabs-container",
+      "bounds": {
+        "x": 154,
+        "y": 2723,
+        "width": 1133,
+        "height": 359
+      },
+      "screenshot": "blocks/tabs-629e5bef.jpg"
+    }
+  ]
+}

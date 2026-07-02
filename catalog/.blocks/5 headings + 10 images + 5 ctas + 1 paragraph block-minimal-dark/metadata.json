@@ -1,0 +1,36 @@
+{
+  "variantName": "5 headings + 10 images + 5 ctas + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.223Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/meio-ambiente",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 5 CTAs + 10 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 5 CTAs + 10 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 5 CTAs + 10 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/meio-ambiente",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_meio-ambiente--bcf1ed9d/blocks/unknown-58e99397.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/meio-ambiente",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_meio-ambiente--609cd926/blocks/unknown-58e99397.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

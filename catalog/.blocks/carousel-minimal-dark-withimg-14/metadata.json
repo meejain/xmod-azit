@@ -1,0 +1,48 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-14",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.216Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/liderancas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossos-escritorios--0ecde680/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/recursos-hidricos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_recursos-hidricos--7e79a71b/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/carousel-5b788231.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossos-escritorios--be52ed68/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/recursos-hidricos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_recursos-hidricos--eaea9f15/blocks/carousel-1bfd4179.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

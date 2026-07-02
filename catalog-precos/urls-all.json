@@ -1,0 +1,28 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-06-30T19:48:38.279Z",
+    "totalUrls": 4,
+    "totalDocuments": 0,
+    "method": "playwright",
+    "sitemapURL": null,
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "Bot protection. URLs via browser. Small site.",
+    "confidence": "90%",
+    "urls": [
+      {
+        "url": "https://precos.petrobras.com.br/"
+      },
+      {
+        "url": "https://precos.petrobras.com.br/precos-diesel"
+      },
+      {
+        "url": "https://precos.petrobras.com.br/precos-gasolina"
+      },
+      {
+        "url": "https://precos.petrobras.com.br/precos-glp"
+      }
+    ],
+    "documents": []
+  }
+}

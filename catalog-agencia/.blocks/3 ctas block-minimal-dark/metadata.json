@@ -1,0 +1,31 @@
+{
+  "variantName": "3 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.793Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + 3 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text + 3 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_negocio_petrobras-e-pemex-firmam-parceria-para-coopera_C3_A7_C3_A3o-em-explora_C3_A7_C3_A3o-e-produ_C3_A7_C3_A3o-e-processos-industriais--b66e7d39/blocks/unknown-6f6730c2.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

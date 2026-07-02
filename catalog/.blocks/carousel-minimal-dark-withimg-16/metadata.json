@@ -1,0 +1,103 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-16",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.218Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/carousel-5322f24d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-alberto-pasqualini",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-alberto-pasqualini--325aed18/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-capuava",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-capuava--fbcdbcbb/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-de-paulinia--d6c8b3ae/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-duque-de-caxias--d3e15b28/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-gabriel-passos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-gabriel-passos--11f39dc2/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-henrique-lage--b7633e94/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-presidente-bernardes--8ccfdf25/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-presidente-getulio-vargas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-presidente-getulio-vargas--e4fd59f0/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esporte-motor",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esporte-motor--3e317a53/blocks/carousel-38d4a668.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_inovacao-aberta--a4d3fd4e/blocks/carousel-5322f24d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-alberto-pasqualini",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-alberto-pasqualini--e3407a52/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-de-paulinia--1bdb57bf/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-duque-de-caxias--1d80c1a9/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-gabriel-passos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-gabriel-passos--a1a4be85/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-henrique-lage--0a746af3/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-bernardes--ffd19a35/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-getulio-vargas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-getulio-vargas--7c3101b7/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esporte-motor",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esporte-motor--a9d9b475/blocks/carousel-38d4a668.jpg"
+      }
+    ],
+    "reuseCount": 19
+  }
+}

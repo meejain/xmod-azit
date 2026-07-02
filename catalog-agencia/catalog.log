@@ -1,0 +1,1747 @@
+2026-07-01 11:38:51 | INFO | Setting up catalog project for: https://agencia.petrobras.com.br/
+2026-07-01 11:38:51 | INFO | Project root: /workspace
+2026-07-01 11:38:51 | INFO | Creating catalog folder: /workspace/catalog
+2026-07-01 11:38:51 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-07-01 11:38:51 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-07-01 11:38:51 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-07-01 11:38:51 | INFO | Session initialized: DISCOVERY
+2026-07-01 11:38:51 | INFO | Catalog project setup complete
+2026-07-01 11:38:51 | INFO | Catalog folder: /workspace/catalog
+2026-07-01 11:38:51 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-07-01 11:38:51 | INFO | Log file: /workspace/catalog/catalog.log
+2026-07-01 11:38:51 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-07-01 11:38:51 | INFO | Creating sample URLs...
+2026-07-01 11:38:51 | INFO | Total URLs in grouped data: 64
+2026-07-01 11:38:51 | INFO | Total URLs (64) <= 1000, using ALL URLs
+2026-07-01 11:38:51 | INFO | Created urls-sample.json with 64 URLs
+2026-07-01 11:38:51 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-07-01 11:38:51 | INFO | Schema validation passed
+2026-07-01 11:38:51 | INFO | Sample creation complete - urls-sample.json with 64 URLs
+2026-07-01 11:38:51 | INFO | Checklist not found, looking for URLs source file...
+2026-07-01 11:38:51 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-07-01 11:38:51 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-07-01 11:38:51 | INFO | Created urls-checklist.json with 64 URLs
+2026-07-01 11:38:51 | INFO | Session state: ANALYZING
+2026-07-01 11:38:51 | INFO | ================================================================================
+2026-07-01 11:38:51 | INFO | BATCH ANALYSIS STARTED
+2026-07-01 11:38:51 | INFO | Catalog: /workspace/catalog
+2026-07-01 11:38:51 | INFO | Delay: 2500ms between requests
+2026-07-01 11:38:51 | INFO | Workers: 4
+2026-07-01 11:38:51 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-07-01 11:38:51 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-07-01 11:38:51 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-07-01 11:38:51 | INFO | ================================================================================
+2026-07-01 11:38:51 | INFO | Found 64 URLs to process (4 workers)
+2026-07-01 11:38:51 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-07-01 11:38:51 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-07-01 11:38:51 | INFO | Pages to analyze: 64
+2026-07-01 11:38:51 | INFO | Processing speed baseline: ~40 pages/minute (4 workers)
+2026-07-01 11:38:51 | INFO | Estimated analysis time: ~2 min
+2026-07-01 11:38:51 | INFO | Worker 0 started (profile 0: Windows)
+2026-07-01 11:38:51 | INFO | Launching stealth browser...
+2026-07-01 11:38:52 | INFO | [1/64] Processing: https://agencia.petrobras.com.br/
+2026-07-01 11:38:52 | INFO | Generated slug: agencia_petrobras_com_br--aef59f69
+2026-07-01 11:38:52 | INFO | Starting analysis: https://agencia.petrobras.com.br/ -> /workspace/catalog/.pages/agencia_petrobras_com_br--aef59f69
+2026-07-01 11:38:52 | INFO | Loading: https://agencia.petrobras.com.br/
+2026-07-01 11:38:53 | INFO | Worker 1 started (profile 1: Windows)
+2026-07-01 11:38:53 | INFO | Launching stealth browser...
+2026-07-01 11:38:53 | INFO | [2/64] Processing: https://agencia.petrobras.com.br/w/petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao
+2026-07-01 11:38:53 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao--3a986e7a
+2026-07-01 11:38:53 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao--3a986e7a
+2026-07-01 11:38:53 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao
+2026-07-01 11:38:55 | INFO | Worker 2 started (profile 2: Windows)
+2026-07-01 11:38:55 | INFO | Launching stealth browser...
+2026-07-01 11:38:55 | INFO | [3/64] Processing: https://agencia.petrobras.com.br/w/petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial
+2026-07-01 11:38:55 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial--b393cf83
+2026-07-01 11:38:55 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial--b393cf83
+2026-07-01 11:38:55 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial
+2026-07-01 11:38:56 | INFO | Worker 3 started (profile 3: Windows)
+2026-07-01 11:38:56 | INFO | Launching stealth browser...
+2026-07-01 11:38:56 | INFO | [4/64] Processing: https://agencia.petrobras.com.br/w/petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino
+2026-07-01 11:38:56 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino--6c055842
+2026-07-01 11:38:56 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino--6c055842
+2026-07-01 11:38:56 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino
+2026-07-01 11:38:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:39:00 | INFO | Lazy-load scroll complete
+2026-07-01 11:39:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:39:00 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:39:02 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:39:02 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:39:03 | INFO | Lazy-load scroll complete
+2026-07-01 11:39:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:39:04 | INFO | Lazy-load scroll complete
+2026-07-01 11:39:04 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:39:04 | INFO | Lazy-load scroll complete
+2026-07-01 11:39:04 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:40:02 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu.lfr-layout-structure-item-805cd700-9bd2-4149-49fe-8d4c2c0a15f9
+   ✅ Saved global footer: div.footer-message-title.col-1-12
+2026-07-01 11:40:02 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:02 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:02 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:02 | INFO | Main content: #main-content
+2026-07-01 11:40:02 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:02 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:03 | INFO | Captured 7 block screenshots
+2026-07-01 11:40:03 | INFO | Detected 7 blocks
+2026-07-01 11:40:03 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:04 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:40:04 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:40:04 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:40:04 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:04 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:04 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:04 | INFO | Main content: #main-content
+2026-07-01 11:40:04 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:04 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:40:04 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:05 | INFO | Captured 8 block screenshots
+2026-07-01 11:40:05 | INFO | Detected 8 blocks
+2026-07-01 11:40:05 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:05 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:40:05 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:40:05 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:40:05 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:05 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:05 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:05 | INFO | Main content: #main-content
+2026-07-01 11:40:05 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:40:05 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:40:05 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:40:05 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:05 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:05 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:05 | INFO | Main content: #main-content
+2026-07-01 11:40:06 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:06 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:40:06 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:06 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:06 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:40:06 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:06 | INFO |    Top-section: 23 rows via title+placeholder
+2026-07-01 11:40:06 | INFO |    Body start: y=575 (start row 23 via below-title+placeholder)
+2026-07-01 11:40:06 | INFO | URL Pattern: /
+2026-07-01 11:40:06 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br--aef59f69/page-catalog.json
+2026-07-01 11:40:06 | INFO | SUCCESS: https://agencia.petrobras.com.br/
+2026-07-01 11:40:06 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu.lfr-layout-structure-item-805cd700-9bd2-4149-49fe-8d4c2c0a15f9)
+2026-07-01 11:40:06 | INFO | Created footer-global metadata (selector: div.footer-message-title.col-1-12)
+2026-07-01 11:40:07 | INFO | Captured 8 block screenshots
+2026-07-01 11:40:07 | INFO | Detected 8 blocks
+2026-07-01 11:40:07 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:07 | INFO | Captured 9 block screenshots
+2026-07-01 11:40:07 | INFO | Detected 9 blocks
+2026-07-01 11:40:07 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:08 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:40:08 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:40:08 | INFO | URL Pattern: /w/petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao
+2026-07-01 11:40:08 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao--3a986e7a/page-catalog.json
+2026-07-01 11:40:08 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao
+2026-07-01 11:40:08 | INFO | [5/64] Processing: https://agencia.petrobras.com.br/w/petrobras-informa-sobre-reservas-provadas-em-2023
+2026-07-01 11:40:08 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-informa-sobre-reservas-provadas-em-2023--92bda010
+2026-07-01 11:40:08 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-informa-sobre-reservas-provadas-em-2023 -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-informa-sobre-reservas-provadas-em-2023--92bda010
+2026-07-01 11:40:08 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-informa-sobre-reservas-provadas-em-2023
+2026-07-01 11:40:09 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:40:09 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:40:09 | INFO | URL Pattern: /w/petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial
+2026-07-01 11:40:09 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial--b393cf83/page-catalog.json
+2026-07-01 11:40:09 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial
+2026-07-01 11:40:09 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:40:09 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:40:09 | INFO | URL Pattern: /w/petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino
+2026-07-01 11:40:09 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino--6c055842/page-catalog.json
+2026-07-01 11:40:09 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-amplia-testes-para-producao-de-diesel-com-conteudo-renovavel-em-seu-parque-de-refino
+2026-07-01 11:40:10 | INFO | [6/64] Processing: https://agencia.petrobras.com.br/w/repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023
+2026-07-01 11:40:10 | INFO | Generated slug: agencia_petrobras_com_br_w_repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023--2da482e4
+2026-07-01 11:40:10 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023 -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023--2da482e4
+2026-07-01 11:40:10 | INFO | Loading: https://agencia.petrobras.com.br/w/repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023
+2026-07-01 11:40:12 | INFO | [7/64] Processing: https://agencia.petrobras.com.br/w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks
+2026-07-01 11:40:12 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-prev_C3_AA-investimento-superior-a-r-150-milh_C3_B5es-em-caracteriza_C3_A7_C3_A3o-geol_C3_B3gica-do-pr_C3_A9-sal-com-projeto-libra-rocks--f6cd68b8
+2026-07-01 11:40:12 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-prev_C3_AA-investimento-superior-a-r-150-milh_C3_B5es-em-caracteriza_C3_A7_C3_A3o-geol_C3_B3gica-do-pr_C3_A9-sal-com-projeto-libra-rocks--f6cd68b8
+2026-07-01 11:40:12 | INFO | [8/64] Processing: https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+2026-07-01 11:40:12 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-coloca-em-opera_C3_A7_C3_A3o-o-supercomputador-harpia--ff5fa730
+2026-07-01 11:40:12 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-coloca-em-opera_C3_A7_C3_A3o-o-supercomputador-harpia--ff5fa730
+2026-07-01 11:40:12 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks
+2026-07-01 11:40:12 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+2026-07-01 11:40:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:40:13 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:40:14 | INFO | Lazy-load scroll complete
+2026-07-01 11:40:14 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:40:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:40:15 | INFO | Lazy-load scroll complete
+2026-07-01 11:40:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:40:16 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:40:17 | INFO | Lazy-load scroll complete
+2026-07-01 11:40:17 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:40:19 | INFO | Lazy-load scroll complete
+2026-07-01 11:40:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:40:45 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:40:45 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:40:45 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:40:45 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:45 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:45 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:45 | INFO | Main content: #main-content
+2026-07-01 11:40:45 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:45 | WARNING | Blocks - 56% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:40:45 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:47 | INFO | Captured 9 block screenshots
+2026-07-01 11:40:47 | INFO | Detected 9 blocks
+2026-07-01 11:40:47 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:49 | INFO | Removed 27 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:40:49 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:40:49 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:40:49 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:49 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:49 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:49 | INFO | Main content: #main-content
+2026-07-01 11:40:49 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:49 | WARNING | Blocks - 56% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:40:49 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:49 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:40:49 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:40:49 | INFO | URL Pattern: /w/petrobras-informa-sobre-reservas-provadas-em-2023
+2026-07-01 11:40:49 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-informa-sobre-reservas-provadas-em-2023--92bda010/page-catalog.json
+2026-07-01 11:40:49 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-informa-sobre-reservas-provadas-em-2023
+2026-07-01 11:40:49 | INFO | PROGRESS: 5/64 analyzed (8% checklist complete) | 5 ok, 0 failed, 0 skipped | ~24 min remaining
+2026-07-01 11:40:50 | INFO | Removed 21 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:40:50 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:40:50 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:40:50 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:40:50 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:40:50 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:40:50 | INFO | Main content: #main-content
+2026-07-01 11:40:50 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:40:50 | WARNING | Blocks - 64% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:40:50 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:40:50 | INFO | Captured 9 block screenshots
+2026-07-01 11:40:50 | INFO | Detected 9 blocks
+2026-07-01 11:40:50 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:51 | INFO | Captured 11 block screenshots
+2026-07-01 11:40:51 | INFO | Detected 11 blocks
+2026-07-01 11:40:51 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:40:52 | INFO | [9/64] Processing: https://agencia.petrobras.com.br/w/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera%C3%A7%C3%A3o-o-maior-aerogerador-onshore-das-am%C3%A9ricas
+2026-07-01 11:40:52 | INFO | Generated slug: agencia_petrobras_com_br_w_parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera_C3_A7_C3_A3o-o-maior-aerogerador-onshore-das-am_C3_A9ricas--fa45db92
+2026-07-01 11:40:52 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera%C3%A7%C3%A3o-o-maior-aerogerador-onshore-das-am%C3%A9ricas -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera_C3_A7_C3_A3o-o-maior-aerogerador-onshore-das-am_C3_A9ricas--fa45db92
+2026-07-01 11:40:52 | INFO | Loading: https://agencia.petrobras.com.br/w/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera%C3%A7%C3%A3o-o-maior-aerogerador-onshore-das-am%C3%A9ricas
+2026-07-01 11:40:52 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:40:52 | INFO |    Body start: y=400 (start row 16 via below-title+container)
+2026-07-01 11:40:52 | INFO | URL Pattern: /w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks
+2026-07-01 11:40:52 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-prev_C3_AA-investimento-superior-a-r-150-milh_C3_B5es-em-caracteriza_C3_A7_C3_A3o-geol_C3_B3gica-do-pr_C3_A9-sal-com-projeto-libra-rocks--f6cd68b8/page-catalog.json
+2026-07-01 11:40:52 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks
+2026-07-01 11:40:54 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:40:54 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:40:54 | INFO | URL Pattern: /w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+2026-07-01 11:40:54 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-coloca-em-opera_C3_A7_C3_A3o-o-supercomputador-harpia--ff5fa730/page-catalog.json
+2026-07-01 11:40:54 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+2026-07-01 11:40:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:40:55 | INFO | [10/64] Processing: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais
+2026-07-01 11:40:55 | INFO | Generated slug: agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais--e668e0c6
+2026-07-01 11:40:55 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais--e668e0c6
+2026-07-01 11:40:55 | INFO | Loading: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais
+2026-07-01 11:40:56 | INFO | [11/64] Processing: https://agencia.petrobras.com.br/w/inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo
+2026-07-01 11:40:56 | INFO | Generated slug: agencia_petrobras_com_br_w_inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo--a60fb472
+2026-07-01 11:40:56 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo--a60fb472
+2026-07-01 11:40:56 | INFO | Loading: https://agencia.petrobras.com.br/w/inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo
+2026-07-01 11:40:57 | INFO | Lazy-load scroll complete
+2026-07-01 11:40:57 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:40:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:40:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:41:01 | INFO | Lazy-load scroll complete
+2026-07-01 11:41:01 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:41:01 | INFO | Lazy-load scroll complete
+2026-07-01 11:41:01 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:41:17 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:41:17 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:41:17 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:41:17 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:41:17 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:41:17 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:41:17 | INFO | Main content: #main-content
+2026-07-01 11:41:17 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:41:17 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:41:17 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:41:18 | INFO | Captured 9 block screenshots
+2026-07-01 11:41:18 | INFO | Detected 9 blocks
+2026-07-01 11:41:18 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:41:21 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:41:21 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:41:21 | INFO | URL Pattern: /w/repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023
+2026-07-01 11:41:21 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023--2da482e4/page-catalog.json
+2026-07-01 11:41:21 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/repar-bate-recordes-historicos-de-producao-e-vendas-de-diesel-gasolina-e-asfalto-em-2023
+2026-07-01 11:41:23 | INFO | [12/64] Processing: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes
+2026-07-01 11:41:23 | INFO | Generated slug: agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes--ddb9c289
+2026-07-01 11:41:23 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes--ddb9c289
+2026-07-01 11:41:23 | INFO | Loading: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes
+2026-07-01 11:41:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:41:28 | INFO | Lazy-load scroll complete
+2026-07-01 11:41:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:41:58 | INFO | Removed 12 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:41:58 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:41:58 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:41:58 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:41:58 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:41:58 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:41:58 | INFO | Main content: #main-content
+2026-07-01 11:41:58 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:41:58 | WARNING | Blocks - 58% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:41:58 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:42:00 | INFO | Captured 12 block screenshots
+2026-07-01 11:42:00 | INFO | Detected 12 blocks
+2026-07-01 11:42:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:42:02 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:42:02 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:42:02 | INFO | URL Pattern: /w/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera%C3%A7%C3%A3o-o-maior-aerogerador-onshore-das-am%C3%A9ricas
+2026-07-01 11:42:02 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera_C3_A7_C3_A3o-o-maior-aerogerador-onshore-das-am_C3_A9ricas--fa45db92/page-catalog.json
+2026-07-01 11:42:02 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera%C3%A7%C3%A3o-o-maior-aerogerador-onshore-das-am%C3%A9ricas
+2026-07-01 11:42:02 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:42:02 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:42:02 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:42:02 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:42:02 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:42:02 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:42:02 | INFO | Main content: #main-content
+2026-07-01 11:42:02 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:42:02 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:42:02 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:42:02 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:42:02 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:42:02 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:42:02 | INFO | Main content: #main-content
+2026-07-01 11:42:03 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:42:03 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:42:03 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:42:03 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:42:03 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:42:03 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:42:04 | INFO | Captured 9 block screenshots
+2026-07-01 11:42:04 | INFO | Detected 9 blocks
+2026-07-01 11:42:04 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:42:04 | INFO | Captured 10 block screenshots
+2026-07-01 11:42:04 | INFO | Detected 10 blocks
+2026-07-01 11:42:04 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:42:05 | INFO | [13/64] Processing: https://agencia.petrobras.com.br/w/petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas
+2026-07-01 11:42:05 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas--d5f86552
+2026-07-01 11:42:05 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas--d5f86552
+2026-07-01 11:42:05 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas
+2026-07-01 11:42:06 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:42:06 | INFO |    Body start: y=381 (start row 15 via below-title+container)
+2026-07-01 11:42:06 | INFO | URL Pattern: /w/selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais
+2026-07-01 11:42:06 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais--e668e0c6/page-catalog.json
+2026-07-01 11:42:06 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais
+2026-07-01 11:42:06 | INFO | PROGRESS: 10/64 analyzed (16% checklist complete) | 10 ok, 0 failed, 0 skipped | ~18 min remaining
+2026-07-01 11:42:06 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:42:06 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:42:06 | INFO | URL Pattern: /w/inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo
+2026-07-01 11:42:06 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo--a60fb472/page-catalog.json
+2026-07-01 11:42:06 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/inscricoes-prorrogadas-para-a-selecao-petrobras-de-jornalismo
+2026-07-01 11:42:08 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:42:09 | INFO | [14/64] Processing: https://agencia.petrobras.com.br/w/edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr%C3%A9ditos-de-carbono
+2026-07-01 11:42:09 | INFO | Generated slug: agencia_petrobras_com_br_w_edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr_C3_A9ditos-de-carbono--b0e36754
+2026-07-01 11:42:09 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr%C3%A9ditos-de-carbono -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr_C3_A9ditos-de-carbono--b0e36754
+2026-07-01 11:42:09 | INFO | [15/64] Processing: https://agencia.petrobras.com.br/w/petrobras-amplia-presen%C3%A7a-no-mercado-internacional-com-venda-de-bunker-com-conte%C3%BAdo-renov%C3%A1vel
+2026-07-01 11:42:09 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-amplia-presen_C3_A7a-no-mercado-internacional-com-venda-de-bunker-com-conte_C3_BAdo-renov_C3_A1vel--7660b681
+2026-07-01 11:42:09 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-amplia-presen%C3%A7a-no-mercado-internacional-com-venda-de-bunker-com-conte%C3%BAdo-renov%C3%A1vel -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-amplia-presen_C3_A7a-no-mercado-internacional-com-venda-de-bunker-com-conte_C3_BAdo-renov_C3_A1vel--7660b681
+2026-07-01 11:42:09 | INFO | Loading: https://agencia.petrobras.com.br/w/edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr%C3%A9ditos-de-carbono
+2026-07-01 11:42:09 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-amplia-presen%C3%A7a-no-mercado-internacional-com-venda-de-bunker-com-conte%C3%BAdo-renov%C3%A1vel
+2026-07-01 11:42:10 | INFO | Lazy-load scroll complete
+2026-07-01 11:42:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:42:11 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:42:11 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:42:13 | INFO | Lazy-load scroll complete
+2026-07-01 11:42:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:42:13 | INFO | Lazy-load scroll complete
+2026-07-01 11:42:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:42:30 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:42:30 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:42:30 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:42:30 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:42:30 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:42:30 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:42:30 | INFO | Main content: #main-content
+2026-07-01 11:42:30 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:42:30 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:42:30 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:42:31 | INFO | Captured 10 block screenshots
+2026-07-01 11:42:31 | INFO | Detected 10 blocks
+2026-07-01 11:42:31 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:42:34 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:42:34 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:42:34 | INFO | URL Pattern: /w/selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes
+2026-07-01 11:42:34 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes--ddb9c289/page-catalog.json
+2026-07-01 11:42:34 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes
+2026-07-01 11:42:36 | INFO | [16/64] Processing: https://agencia.petrobras.com.br/w/petrobras-e-shell-brasil-lan%C3%A7am-o-carbon-countdown-maior-invent%C3%A1rio-de-estoques-de-carbono-j%C3%A1-realizado-no-pa%C3%ADs
+2026-07-01 11:42:36 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-e-shell-brasil-lan_C3_A7am-o-carbon-countdown-maior-invent_C3_A1rio-de-estoques-de-carbono-j_C3_A1-realizado-no-pa_C3_ADs--fc57c70d
+2026-07-01 11:42:36 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-e-shell-brasil-lan%C3%A7am-o-carbon-countdown-maior-invent%C3%A1rio-de-estoques-de-carbono-j%C3%A1-realizado-no-pa%C3%ADs -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-e-shell-brasil-lan_C3_A7am-o-carbon-countdown-maior-invent_C3_A1rio-de-estoques-de-carbono-j_C3_A1-realizado-no-pa_C3_ADs--fc57c70d
+2026-07-01 11:42:36 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-e-shell-brasil-lan%C3%A7am-o-carbon-countdown-maior-invent%C3%A1rio-de-estoques-de-carbono-j%C3%A1-realizado-no-pa%C3%ADs
+2026-07-01 11:42:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:42:41 | INFO | Lazy-load scroll complete
+2026-07-01 11:42:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:43:11 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:43:11 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:43:11 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:43:11 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:43:11 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:43:11 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:43:11 | INFO | Main content: #main-content
+2026-07-01 11:43:12 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:43:12 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:43:12 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:43:12 | INFO | Removed 12 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:43:13 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:43:13 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:43:13 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:43:13 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:43:13 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:43:13 | INFO | Main content: #main-content
+2026-07-01 11:43:13 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:43:13 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:43:13 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:43:13 | INFO | Captured 10 block screenshots
+2026-07-01 11:43:13 | INFO | Detected 10 blocks
+2026-07-01 11:43:13 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:43:14 | INFO | Captured 10 block screenshots
+2026-07-01 11:43:14 | INFO | Detected 10 blocks
+2026-07-01 11:43:14 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:43:15 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:43:15 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:43:15 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:43:15 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:43:15 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:43:15 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:43:15 | INFO | Main content: #main-content
+2026-07-01 11:43:15 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:43:15 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:43:15 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:43:15 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:43:15 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:43:15 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:43:15 | INFO | Main content: #main-content
+2026-07-01 11:43:15 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:43:15 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:43:15 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:43:15 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:43:15 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:43:15 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:43:15 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:43:15 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:43:15 | INFO | URL Pattern: /w/petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas
+2026-07-01 11:43:15 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas--d5f86552/page-catalog.json
+2026-07-01 11:43:15 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas
+2026-07-01 11:43:16 | INFO | Captured 9 block screenshots
+2026-07-01 11:43:16 | INFO | Detected 9 blocks
+2026-07-01 11:43:16 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:43:16 | INFO | Captured 9 block screenshots
+2026-07-01 11:43:16 | INFO | Detected 9 blocks
+2026-07-01 11:43:16 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:43:16 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:43:16 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:43:16 | INFO | URL Pattern: /w/petrobras-e-shell-brasil-lan%C3%A7am-o-carbon-countdown-maior-invent%C3%A1rio-de-estoques-de-carbono-j%C3%A1-realizado-no-pa%C3%ADs
+2026-07-01 11:43:16 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-e-shell-brasil-lan_C3_A7am-o-carbon-countdown-maior-invent_C3_A1rio-de-estoques-de-carbono-j_C3_A1-realizado-no-pa_C3_ADs--fc57c70d/page-catalog.json
+2026-07-01 11:43:16 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-e-shell-brasil-lan%C3%A7am-o-carbon-countdown-maior-invent%C3%A1rio-de-estoques-de-carbono-j%C3%A1-realizado-no-pa%C3%ADs
+2026-07-01 11:43:18 | INFO | [17/64] Processing: https://agencia.petrobras.com.br/w/petrobras-lan%C3%A7a-combust%C3%ADvel-sustent%C3%A1vel-de-avia%C3%A7%C3%A3o-produzido-totalmente-no-brasil
+2026-07-01 11:43:18 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-lan_C3_A7a-combust_C3_ADvel-sustent_C3_A1vel-de-avia_C3_A7_C3_A3o-produzido-totalmente-no-brasil--7b6a6adc
+2026-07-01 11:43:18 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-lan%C3%A7a-combust%C3%ADvel-sustent%C3%A1vel-de-avia%C3%A7%C3%A3o-produzido-totalmente-no-brasil -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-lan_C3_A7a-combust_C3_ADvel-sustent_C3_A1vel-de-avia_C3_A7_C3_A3o-produzido-totalmente-no-brasil--7b6a6adc
+2026-07-01 11:43:18 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-lan%C3%A7a-combust%C3%ADvel-sustent%C3%A1vel-de-avia%C3%A7%C3%A3o-produzido-totalmente-no-brasil
+2026-07-01 11:43:19 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:43:19 | INFO |    Body start: y=381 (start row 15 via below-title+container)
+2026-07-01 11:43:19 | INFO | URL Pattern: /w/petrobras-amplia-presen%C3%A7a-no-mercado-internacional-com-venda-de-bunker-com-conte%C3%BAdo-renov%C3%A1vel
+2026-07-01 11:43:19 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-amplia-presen_C3_A7a-no-mercado-internacional-com-venda-de-bunker-com-conte_C3_BAdo-renov_C3_A1vel--7660b681/page-catalog.json
+2026-07-01 11:43:19 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-amplia-presen%C3%A7a-no-mercado-internacional-com-venda-de-bunker-com-conte%C3%BAdo-renov%C3%A1vel
+2026-07-01 11:43:19 | INFO | PROGRESS: 15/64 analyzed (23% checklist complete) | 15 ok, 0 failed, 0 skipped | ~15 min remaining
+2026-07-01 11:43:19 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:43:19 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:43:19 | INFO | URL Pattern: /w/edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr%C3%A9ditos-de-carbono
+2026-07-01 11:43:19 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr_C3_A9ditos-de-carbono--b0e36754/page-catalog.json
+2026-07-01 11:43:19 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/edital-profloresta-supera-expectativas-e-recebe-16-propostas-de-venda-de-cr%C3%A9ditos-de-carbono
+2026-07-01 11:43:19 | INFO | [18/64] Processing: https://agencia.petrobras.com.br/w/petrobras-vai-aportar-combust%C3%ADvel-com-conte%C3%BAdo-renov%C3%A1vel-para-a-cop-30
+2026-07-01 11:43:19 | INFO | Generated slug: agencia_petrobras_com_br_w_petrobras-vai-aportar-combust_C3_ADvel-com-conte_C3_BAdo-renov_C3_A1vel-para-a-cop-30--3664246b
+2026-07-01 11:43:19 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/petrobras-vai-aportar-combust%C3%ADvel-com-conte%C3%BAdo-renov%C3%A1vel-para-a-cop-30 -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-vai-aportar-combust_C3_ADvel-com-conte_C3_BAdo-renov_C3_A1vel-para-a-cop-30--3664246b
+2026-07-01 11:43:19 | INFO | Loading: https://agencia.petrobras.com.br/w/petrobras-vai-aportar-combust%C3%ADvel-com-conte%C3%BAdo-renov%C3%A1vel-para-a-cop-30
+2026-07-01 11:43:21 | INFO | [19/64] Processing: https://agencia.petrobras.com.br/w/inovacao/petrobras-vai-oferecer-1500-bolsas-de-inicia%C3%A7%C3%A3o-cient%C3%ADfica-para-estudantes-negras-do-ensino-m%C3%A9dio
+2026-07-01 11:43:21 | INFO | Generated slug: agencia_petrobras_com_br_w_inovacao_petrobras-vai-oferecer-1500-bolsas-de-inicia_C3_A7_C3_A3o-cient_C3_ADfica-para-estudantes-negras-do-ensino-m_C3_A9dio--c68472e9
+2026-07-01 11:43:21 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/inovacao/petrobras-vai-oferecer-1500-bolsas-de-inicia%C3%A7%C3%A3o-cient%C3%ADfica-para-estudantes-negras-do-ensino-m%C3%A9dio -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-vai-oferecer-1500-bolsas-de-inicia_C3_A7_C3_A3o-cient_C3_ADfica-para-estudantes-negras-do-ensino-m_C3_A9dio--c68472e9
+2026-07-01 11:43:21 | INFO | [20/64] Processing: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova%C3%A7%C3%A3o-em-minerais-cr%C3%ADticos
+2026-07-01 11:43:21 | INFO | Generated slug: agencia_petrobras_com_br_w_inovacao_petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova_C3_A7_C3_A3o-em-minerais-cr_C3_ADticos--9186d81f
+2026-07-01 11:43:21 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova%C3%A7%C3%A3o-em-minerais-cr%C3%ADticos -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova_C3_A7_C3_A3o-em-minerais-cr_C3_ADticos--9186d81f
+2026-07-01 11:43:21 | INFO | Loading: https://agencia.petrobras.com.br/w/inovacao/petrobras-vai-oferecer-1500-bolsas-de-inicia%C3%A7%C3%A3o-cient%C3%ADfica-para-estudantes-negras-do-ensino-m%C3%A9dio
+2026-07-01 11:43:21 | INFO | Loading: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova%C3%A7%C3%A3o-em-minerais-cr%C3%ADticos
+2026-07-01 11:43:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:43:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:43:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:43:26 | INFO | Lazy-load scroll complete
+2026-07-01 11:43:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:43:26 | INFO | Lazy-load scroll complete
+2026-07-01 11:43:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:43:27 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:43:27 | INFO | Lazy-load scroll complete
+2026-07-01 11:43:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:43:29 | INFO | Lazy-load scroll complete
+2026-07-01 11:43:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:44:27 | INFO | Removed 12 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:44:27 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:44:27 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:44:27 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:44:27 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:44:27 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:44:27 | INFO | Main content: #main-content
+2026-07-01 11:44:27 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:44:27 | INFO | Removed 18 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:44:27 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:44:27 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:44:27 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:44:27 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:44:27 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:44:27 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:44:27 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:44:27 | INFO | Main content: #main-content
+2026-07-01 11:44:27 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:44:27 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:44:27 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:44:28 | INFO | Removed 12 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:44:28 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:44:28 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:44:28 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:44:28 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:44:28 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:44:28 | INFO | Main content: #main-content
+2026-07-01 11:44:28 | INFO | Captured 9 block screenshots
+2026-07-01 11:44:28 | INFO | Detected 9 blocks
+2026-07-01 11:44:28 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:44:29 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:44:29 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:44:29 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:44:29 | INFO | Captured 10 block screenshots
+2026-07-01 11:44:29 | INFO | Detected 10 blocks
+2026-07-01 11:44:29 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:44:30 | INFO | Captured 10 block screenshots
+2026-07-01 11:44:30 | INFO | Detected 10 blocks
+2026-07-01 11:44:30 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:44:30 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:44:30 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:44:30 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:44:30 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:44:30 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:44:30 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:44:30 | INFO | Main content: #main-content
+2026-07-01 11:44:30 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:44:30 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:44:30 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:44:31 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:44:31 | INFO |    Body start: y=400 (start row 16 via below-title+container)
+2026-07-01 11:44:31 | INFO | URL Pattern: /w/inovacao/petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova%C3%A7%C3%A3o-em-minerais-cr%C3%ADticos
+2026-07-01 11:44:31 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova_C3_A7_C3_A3o-em-minerais-cr_C3_ADticos--9186d81f/page-catalog.json
+2026-07-01 11:44:31 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-bndes-firmam-parceria-para-avaliar-oportunidades-em-pesquisa-desenvolvimento-e-inova%C3%A7%C3%A3o-em-minerais-cr%C3%ADticos
+2026-07-01 11:44:31 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:44:31 | INFO |    Body start: y=381 (start row 15 via below-title+container)
+2026-07-01 11:44:31 | INFO | URL Pattern: /w/inovacao/petrobras-vai-oferecer-1500-bolsas-de-inicia%C3%A7%C3%A3o-cient%C3%ADfica-para-estudantes-negras-do-ensino-m%C3%A9dio
+2026-07-01 11:44:31 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-vai-oferecer-1500-bolsas-de-inicia_C3_A7_C3_A3o-cient_C3_ADfica-para-estudantes-negras-do-ensino-m_C3_A9dio--c68472e9/page-catalog.json
+2026-07-01 11:44:31 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/inovacao/petrobras-vai-oferecer-1500-bolsas-de-inicia%C3%A7%C3%A3o-cient%C3%ADfica-para-estudantes-negras-do-ensino-m%C3%A9dio
+2026-07-01 11:44:32 | INFO | Captured 9 block screenshots
+2026-07-01 11:44:32 | INFO | Detected 9 blocks
+2026-07-01 11:44:32 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:44:32 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:44:32 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:44:32 | INFO | URL Pattern: /w/petrobras-lan%C3%A7a-combust%C3%ADvel-sustent%C3%A1vel-de-avia%C3%A7%C3%A3o-produzido-totalmente-no-brasil
+2026-07-01 11:44:32 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-lan_C3_A7a-combust_C3_ADvel-sustent_C3_A1vel-de-avia_C3_A7_C3_A3o-produzido-totalmente-no-brasil--7b6a6adc/page-catalog.json
+2026-07-01 11:44:32 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-lan%C3%A7a-combust%C3%ADvel-sustent%C3%A1vel-de-avia%C3%A7%C3%A3o-produzido-totalmente-no-brasil
+2026-07-01 11:44:33 | INFO | [21/64] Processing: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+2026-07-01 11:44:33 | INFO | Generated slug: agencia_petrobras_com_br_w_inovacao_petrobras-e-finep-lan_C3_A7am-edital-de-r-150-milh_C3_B5es-para-desenvolvimento-de-eletrolisador-para-produ_C3_A7_C3_A3o-de-hidrog_C3_AAnio--11d479c4
+2026-07-01 11:44:33 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-e-finep-lan_C3_A7am-edital-de-r-150-milh_C3_B5es-para-desenvolvimento-de-eletrolisador-para-produ_C3_A7_C3_A3o-de-hidrog_C3_AAnio--11d479c4
+2026-07-01 11:44:33 | INFO | Loading: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+2026-07-01 11:44:34 | INFO | [22/64] Processing: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-30-milh%C3%B5es-para-projetos-de-pd-i-em-biorrefino
+2026-07-01 11:44:34 | INFO | Generated slug: agencia_petrobras_com_br_w_inovacao_petrobras-e-finep-lan_C3_A7am-edital-de-r-30-milh_C3_B5es-para-projetos-de-pd-i-em-biorrefino--2d71d8d9
+2026-07-01 11:44:34 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-30-milh%C3%B5es-para-projetos-de-pd-i-em-biorrefino -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-e-finep-lan_C3_A7am-edital-de-r-30-milh_C3_B5es-para-projetos-de-pd-i-em-biorrefino--2d71d8d9
+2026-07-01 11:44:34 | INFO | Loading: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-30-milh%C3%B5es-para-projetos-de-pd-i-em-biorrefino
+2026-07-01 11:44:34 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:44:34 | INFO |    Body start: y=381 (start row 15 via below-title+container)
+2026-07-01 11:44:34 | INFO | URL Pattern: /w/petrobras-vai-aportar-combust%C3%ADvel-com-conte%C3%BAdo-renov%C3%A1vel-para-a-cop-30
+2026-07-01 11:44:34 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_petrobras-vai-aportar-combust_C3_ADvel-com-conte_C3_BAdo-renov_C3_A1vel-para-a-cop-30--3664246b/page-catalog.json
+2026-07-01 11:44:34 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/petrobras-vai-aportar-combust%C3%ADvel-com-conte%C3%BAdo-renov%C3%A1vel-para-a-cop-30
+2026-07-01 11:44:34 | INFO | PROGRESS: 20/64 analyzed (31% checklist complete) | 20 ok, 0 failed, 0 skipped | ~13 min remaining
+2026-07-01 11:44:35 | INFO | [23/64] Processing: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-investir%C3%A1-r-270-milh%C3%B5es-em-projetos-culturais-de-todo-o-brasil
+2026-07-01 11:44:35 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-investir_C3_A1-r-270-milh_C3_B5es-em-projetos-culturais-de-todo-o-brasil--b723084b
+2026-07-01 11:44:35 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-investir%C3%A1-r-270-milh%C3%B5es-em-projetos-culturais-de-todo-o-brasil -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-investir_C3_A1-r-270-milh_C3_B5es-em-projetos-culturais-de-todo-o-brasil--b723084b
+2026-07-01 11:44:35 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-investir%C3%A1-r-270-milh%C3%B5es-em-projetos-culturais-de-todo-o-brasil
+2026-07-01 11:44:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:44:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:44:37 | INFO | [24/64] Processing: https://agencia.petrobras.com.br/w/institucional/01-
+2026-07-01 11:44:37 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_01---9f05cff1
+2026-07-01 11:44:37 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/01- -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_01---9f05cff1
+2026-07-01 11:44:37 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/01-
+2026-07-01 11:44:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:44:39 | INFO | Lazy-load scroll complete
+2026-07-01 11:44:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:44:39 | INFO | Lazy-load scroll complete
+2026-07-01 11:44:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:44:40 | INFO | Lazy-load scroll complete
+2026-07-01 11:44:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:44:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:44:42 | INFO | Lazy-load scroll complete
+2026-07-01 11:44:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:45:10 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:45:10 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:45:10 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:45:10 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:45:10 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:45:10 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:45:10 | INFO | Main content: #main-content
+2026-07-01 11:45:10 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:45:10 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:45:10 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:45:11 | INFO | Captured 9 block screenshots
+2026-07-01 11:45:11 | INFO | Detected 9 blocks
+2026-07-01 11:45:11 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:45:14 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:45:14 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:45:14 | INFO | URL Pattern: /w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-30-milh%C3%B5es-para-projetos-de-pd-i-em-biorrefino
+2026-07-01 11:45:14 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-e-finep-lan_C3_A7am-edital-de-r-30-milh_C3_B5es-para-projetos-de-pd-i-em-biorrefino--2d71d8d9/page-catalog.json
+2026-07-01 11:45:14 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-30-milh%C3%B5es-para-projetos-de-pd-i-em-biorrefino
+2026-07-01 11:45:16 | INFO | [25/64] Processing: https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano
+2026-07-01 11:45:16 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano--02a58a0e
+2026-07-01 11:45:16 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano--02a58a0e
+2026-07-01 11:45:17 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano
+2026-07-01 11:45:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:45:22 | INFO | Lazy-load scroll complete
+2026-07-01 11:45:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:45:40 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:45:40 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:45:40 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:45:40 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:45:40 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:45:40 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:45:40 | INFO | Main content: #main-content
+2026-07-01 11:45:40 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:45:40 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:45:40 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:45:41 | INFO | Captured 9 block screenshots
+2026-07-01 11:45:41 | INFO | Detected 9 blocks
+2026-07-01 11:45:41 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:45:42 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:45:42 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:45:42 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:45:42 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:45:42 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:45:42 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:45:42 | INFO | Main content: #main-content
+2026-07-01 11:45:42 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:45:42 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:45:42 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:45:43 | INFO | Captured 8 block screenshots
+2026-07-01 11:45:43 | INFO | Detected 8 blocks
+2026-07-01 11:45:43 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:45:44 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:45:44 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:45:44 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:45:44 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:45:44 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:45:44 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:45:44 | INFO | Main content: #main-content
+2026-07-01 11:45:44 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:45:44 | INFO |    Body start: y=400 (start row 16 via below-title+container)
+2026-07-01 11:45:44 | INFO | URL Pattern: /w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+2026-07-01 11:45:44 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_inovacao_petrobras-e-finep-lan_C3_A7am-edital-de-r-150-milh_C3_B5es-para-desenvolvimento-de-eletrolisador-para-produ_C3_A7_C3_A3o-de-hidrog_C3_AAnio--11d479c4/page-catalog.json
+2026-07-01 11:45:44 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+2026-07-01 11:45:44 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:45:44 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:45:44 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:45:45 | INFO | Captured 9 block screenshots
+2026-07-01 11:45:45 | INFO | Detected 9 blocks
+2026-07-01 11:45:45 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:45:45 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:45:45 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:45:45 | INFO | URL Pattern: /w/institucional/aviso-de-pauta-petrobras-investir%C3%A1-r-270-milh%C3%B5es-em-projetos-culturais-de-todo-o-brasil
+2026-07-01 11:45:45 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-investir_C3_A1-r-270-milh_C3_B5es-em-projetos-culturais-de-todo-o-brasil--b723084b/page-catalog.json
+2026-07-01 11:45:45 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-investir%C3%A1-r-270-milh%C3%B5es-em-projetos-culturais-de-todo-o-brasil
+2026-07-01 11:45:46 | INFO | [26/64] Processing: https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque
+2026-07-01 11:45:46 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque--de9c5b74
+2026-07-01 11:45:46 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque--de9c5b74
+2026-07-01 11:45:46 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque
+2026-07-01 11:45:48 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:45:48 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:45:48 | INFO | URL Pattern: /w/institucional/01-
+2026-07-01 11:45:48 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_01---9f05cff1/page-catalog.json
+2026-07-01 11:45:48 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/01-
+2026-07-01 11:45:48 | INFO | [27/64] Processing: https://agencia.petrobras.com.br/w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:45:48 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--fed3232a
+2026-07-01 11:45:48 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--fed3232a
+2026-07-01 11:45:48 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:45:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:45:50 | INFO | [28/64] Processing: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-segunda-edi%C3%A7%C3%A3o-da-sele%C3%A7%C3%A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas
+2026-07-01 11:45:50 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-segunda-edi_C3_A7_C3_A3o-da-sele_C3_A7_C3_A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas--34801d56
+2026-07-01 11:45:50 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-segunda-edi%C3%A7%C3%A3o-da-sele%C3%A7%C3%A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-segunda-edi_C3_A7_C3_A3o-da-sele_C3_A7_C3_A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas--34801d56
+2026-07-01 11:45:50 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-segunda-edi%C3%A7%C3%A3o-da-sele%C3%A7%C3%A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas
+2026-07-01 11:45:51 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:45:51 | INFO | Lazy-load scroll complete
+2026-07-01 11:45:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:45:53 | INFO | Lazy-load scroll complete
+2026-07-01 11:45:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:45:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:45:56 | INFO | Lazy-load scroll complete
+2026-07-01 11:45:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:46:23 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:46:23 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:46:23 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:46:23 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:46:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:46:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:46:23 | INFO | Main content: #main-content
+2026-07-01 11:46:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:46:24 | WARNING | Blocks - 73% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:46:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:46:24 | INFO | Removed 33 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:46:25 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:46:25 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:46:25 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:46:25 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:46:25 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:46:25 | INFO | Main content: #main-content
+2026-07-01 11:46:25 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:46:25 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:46:25 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:46:25 | INFO | Captured 11 block screenshots
+2026-07-01 11:46:25 | INFO | Detected 11 blocks
+2026-07-01 11:46:25 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:46:26 | INFO | Captured 10 block screenshots
+2026-07-01 11:46:26 | INFO | Detected 10 blocks
+2026-07-01 11:46:26 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:46:28 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:46:28 | INFO |    Body start: y=400 (start row 16 via below-title+container)
+2026-07-01 11:46:28 | INFO | URL Pattern: /w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano
+2026-07-01 11:46:28 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano--02a58a0e/page-catalog.json
+2026-07-01 11:46:28 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano
+2026-07-01 11:46:28 | INFO | PROGRESS: 25/64 analyzed (39% checklist complete) | 25 ok, 0 failed, 0 skipped | ~12 min remaining
+2026-07-01 11:46:29 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:46:29 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:46:29 | INFO | URL Pattern: /w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:46:29 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--fed3232a/page-catalog.json
+2026-07-01 11:46:29 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:46:30 | INFO | [29/64] Processing: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:46:30 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--470b040e
+2026-07-01 11:46:30 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--470b040e
+2026-07-01 11:46:30 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:46:31 | INFO | [30/64] Processing: https://agencia.petrobras.com.br/w/institucional/05-com-150-vagas
+2026-07-01 11:46:31 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_05-com-150-vagas--2de3ed09
+2026-07-01 11:46:31 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/05-com-150-vagas -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_05-com-150-vagas--2de3ed09
+2026-07-01 11:46:31 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/05-com-150-vagas
+2026-07-01 11:46:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:46:35 | INFO | Lazy-load scroll complete
+2026-07-01 11:46:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:46:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:46:37 | INFO | Lazy-load scroll complete
+2026-07-01 11:46:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:46:53 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:46:53 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:46:53 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:46:53 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:46:53 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:46:53 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:46:53 | INFO | Main content: #main-content
+2026-07-01 11:46:53 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:46:53 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:46:53 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:46:54 | INFO | Captured 10 block screenshots
+2026-07-01 11:46:54 | INFO | Detected 10 blocks
+2026-07-01 11:46:54 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:46:57 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:46:57 | INFO |    Body start: y=400 (start row 16 via below-title+container)
+2026-07-01 11:46:57 | INFO | URL Pattern: /w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque
+2026-07-01 11:46:57 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque--de9c5b74/page-catalog.json
+2026-07-01 11:46:57 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque
+2026-07-01 11:46:58 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:46:58 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:46:58 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:46:58 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:46:58 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:46:58 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:46:58 | INFO | Main content: #main-content
+2026-07-01 11:46:58 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:46:58 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:46:58 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:46:59 | INFO | Captured 9 block screenshots
+2026-07-01 11:46:59 | INFO | Detected 9 blocks
+2026-07-01 11:46:59 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:46:59 | INFO | [31/64] Processing: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-visita-de-lula-%C3%A0-fafen-ba
+2026-07-01 11:46:59 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_aviso-de-pauta-visita-de-lula-_C3_A0-fafen-ba--71f92351
+2026-07-01 11:46:59 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-visita-de-lula-%C3%A0-fafen-ba -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-visita-de-lula-_C3_A0-fafen-ba--71f92351
+2026-07-01 11:46:59 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-visita-de-lula-%C3%A0-fafen-ba
+2026-07-01 11:47:02 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:47:02 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:47:02 | INFO | URL Pattern: /w/institucional/petrobras-lan%C3%A7a-segunda-edi%C3%A7%C3%A3o-da-sele%C3%A7%C3%A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas
+2026-07-01 11:47:02 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-segunda-edi_C3_A7_C3_A3o-da-sele_C3_A7_C3_A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas--34801d56/page-catalog.json
+2026-07-01 11:47:02 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-segunda-edi%C3%A7%C3%A3o-da-sele%C3%A7%C3%A3o-de-jornalismo-com-bolsas-de-r-20-mil-para-jornalistas
+2026-07-01 11:47:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:47:04 | INFO | [32/64] Processing: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-programa-de-est%C3%A1gio-2026-com-150-vagas-em-12-estados
+2026-07-01 11:47:04 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-programa-de-est_C3_A1gio-2026-com-150-vagas-em-12-estados--2fcccd83
+2026-07-01 11:47:04 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-programa-de-est%C3%A1gio-2026-com-150-vagas-em-12-estados -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-programa-de-est_C3_A1gio-2026-com-150-vagas-em-12-estados--2fcccd83
+2026-07-01 11:47:04 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-programa-de-est%C3%A1gio-2026-com-150-vagas-em-12-estados
+2026-07-01 11:47:05 | INFO | Lazy-load scroll complete
+2026-07-01 11:47:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:47:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:47:10 | INFO | Lazy-load scroll complete
+2026-07-01 11:47:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:47:36 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:47:36 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:47:36 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:47:36 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:47:36 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:47:36 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:47:36 | INFO | Main content: #main-content
+2026-07-01 11:47:36 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:47:36 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:47:36 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:47:38 | INFO | Captured 8 block screenshots
+2026-07-01 11:47:38 | INFO | Detected 8 blocks
+2026-07-01 11:47:38 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:47:38 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:47:38 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:47:38 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:47:38 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:47:38 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:47:38 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:47:38 | INFO | Main content: #main-content
+2026-07-01 11:47:39 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:47:39 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:47:39 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:47:40 | INFO | Captured 10 block screenshots
+2026-07-01 11:47:40 | INFO | Detected 10 blocks
+2026-07-01 11:47:40 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:47:40 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:47:40 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:47:40 | INFO | URL Pattern: /w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:47:40 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--470b040e/page-catalog.json
+2026-07-01 11:47:40 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro
+2026-07-01 11:47:42 | INFO | [33/64] Processing: https://agencia.petrobras.com.br/w/institucional/petrobras-informa-sobre-as-delibera%C3%A7%C3%B5es-da-assembleia-geral-ordin%C3%A1ria
+2026-07-01 11:47:42 | INFO | Generated slug: agencia_petrobras_com_br_w_institucional_petrobras-informa-sobre-as-delibera_C3_A7_C3_B5es-da-assembleia-geral-ordin_C3_A1ria--8302764b
+2026-07-01 11:47:42 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/institucional/petrobras-informa-sobre-as-delibera%C3%A7%C3%B5es-da-assembleia-geral-ordin%C3%A1ria -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-informa-sobre-as-delibera_C3_A7_C3_B5es-da-assembleia-geral-ordin_C3_A1ria--8302764b
+2026-07-01 11:47:42 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:47:42 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:47:42 | INFO | URL Pattern: /w/institucional/05-com-150-vagas
+2026-07-01 11:47:42 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_05-com-150-vagas--2de3ed09/page-catalog.json
+2026-07-01 11:47:42 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/05-com-150-vagas
+2026-07-01 11:47:42 | INFO | PROGRESS: 30/64 analyzed (47% checklist complete) | 30 ok, 0 failed, 0 skipped | ~11 min remaining
+2026-07-01 11:47:43 | INFO | Loading: https://agencia.petrobras.com.br/w/institucional/petrobras-informa-sobre-as-delibera%C3%A7%C3%B5es-da-assembleia-geral-ordin%C3%A1ria
+2026-07-01 11:47:45 | INFO | [34/64] Processing: https://agencia.petrobras.com.br/w/negocio/petrobras-investe-na-constru%C3%A7%C3%A3o-de-embarca%C3%A7%C3%B5es-com-previs%C3%A3o-de-r-12-bilh%C3%B5es-em-santa-catarina
+2026-07-01 11:47:45 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_petrobras-investe-na-constru_C3_A7_C3_A3o-de-embarca_C3_A7_C3_B5es-com-previs_C3_A3o-de-r-12-bilh_C3_B5es-em-santa-catarina--3736fe10
+2026-07-01 11:47:45 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/petrobras-investe-na-constru%C3%A7%C3%A3o-de-embarca%C3%A7%C3%B5es-com-previs%C3%A3o-de-r-12-bilh%C3%B5es-em-santa-catarina -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-investe-na-constru_C3_A7_C3_A3o-de-embarca_C3_A7_C3_B5es-com-previs_C3_A3o-de-r-12-bilh_C3_B5es-em-santa-catarina--3736fe10
+2026-07-01 11:47:45 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/petrobras-investe-na-constru%C3%A7%C3%A3o-de-embarca%C3%A7%C3%B5es-com-previs%C3%A3o-de-r-12-bilh%C3%B5es-em-santa-catarina
+2026-07-01 11:47:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:47:48 | INFO | Lazy-load scroll complete
+2026-07-01 11:47:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:47:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:47:52 | INFO | Lazy-load scroll complete
+2026-07-01 11:47:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:48:06 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:48:06 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:48:06 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:48:06 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:48:06 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:48:06 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:48:06 | INFO | Main content: #main-content
+2026-07-01 11:48:06 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:48:06 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:48:06 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:48:07 | INFO | Captured 8 block screenshots
+2026-07-01 11:48:07 | INFO | Detected 8 blocks
+2026-07-01 11:48:07 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:48:10 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:48:10 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:48:10 | INFO | URL Pattern: /w/institucional/aviso-de-pauta-visita-de-lula-%C3%A0-fafen-ba
+2026-07-01 11:48:10 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-visita-de-lula-_C3_A0-fafen-ba--71f92351/page-catalog.json
+2026-07-01 11:48:10 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-visita-de-lula-%C3%A0-fafen-ba
+2026-07-01 11:48:11 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:48:11 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:48:11 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:48:11 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:48:11 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:48:11 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:48:11 | INFO | Main content: #main-content
+2026-07-01 11:48:11 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:48:11 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:48:11 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:48:12 | INFO | [35/64] Processing: https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel
+2026-07-01 11:48:12 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_petrobras-informa-sobre-pre_C3_A7os-de-diesel--e1f31b46
+2026-07-01 11:48:12 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-informa-sobre-pre_C3_A7os-de-diesel--e1f31b46
+2026-07-01 11:48:13 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel
+2026-07-01 11:48:13 | INFO | Captured 10 block screenshots
+2026-07-01 11:48:13 | INFO | Detected 10 blocks
+2026-07-01 11:48:13 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:48:15 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:48:15 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:48:15 | INFO | URL Pattern: /w/institucional/petrobras-lan%C3%A7a-programa-de-est%C3%A1gio-2026-com-150-vagas-em-12-estados
+2026-07-01 11:48:15 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-programa-de-est_C3_A1gio-2026-com-150-vagas-em-12-estados--2fcccd83/page-catalog.json
+2026-07-01 11:48:15 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-programa-de-est%C3%A1gio-2026-com-150-vagas-em-12-estados
+2026-07-01 11:48:16 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:48:18 | INFO | [36/64] Processing: https://agencia.petrobras.com.br/w/negocio/dia
+2026-07-01 11:48:18 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_dia--5fb49d67
+2026-07-01 11:48:18 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/dia -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_dia--5fb49d67
+2026-07-01 11:48:18 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/dia
+2026-07-01 11:48:18 | INFO | Lazy-load scroll complete
+2026-07-01 11:48:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:48:19 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:48:19 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:48:19 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:48:19 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:48:19 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:48:19 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:48:19 | INFO | Main content: #main-content
+2026-07-01 11:48:19 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:48:19 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:48:19 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:48:20 | INFO | Captured 8 block screenshots
+2026-07-01 11:48:20 | INFO | Detected 8 blocks
+2026-07-01 11:48:20 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:48:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:48:23 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:48:23 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:48:23 | INFO | URL Pattern: /w/institucional/petrobras-informa-sobre-as-delibera%C3%A7%C3%B5es-da-assembleia-geral-ordin%C3%A1ria
+2026-07-01 11:48:23 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_institucional_petrobras-informa-sobre-as-delibera_C3_A7_C3_B5es-da-assembleia-geral-ordin_C3_A1ria--8302764b/page-catalog.json
+2026-07-01 11:48:23 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/institucional/petrobras-informa-sobre-as-delibera%C3%A7%C3%B5es-da-assembleia-geral-ordin%C3%A1ria
+2026-07-01 11:48:23 | INFO | Removed 24 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:48:23 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:48:23 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:48:23 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:48:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:48:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:48:23 | INFO | Main content: #main-content
+2026-07-01 11:48:23 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:48:23 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:48:23 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:48:24 | INFO | Lazy-load scroll complete
+2026-07-01 11:48:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:48:25 | INFO | Captured 10 block screenshots
+2026-07-01 11:48:25 | INFO | Detected 10 blocks
+2026-07-01 11:48:25 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:48:25 | INFO | [37/64] Processing: https://agencia.petrobras.com.br/w/negocio/petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:48:25 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen_C3_A7a-do-presidente-lula--60aa77cd
+2026-07-01 11:48:25 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen_C3_A7a-do-presidente-lula--60aa77cd
+2026-07-01 11:48:25 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:48:27 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:48:27 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:48:27 | INFO | URL Pattern: /w/negocio/petrobras-investe-na-constru%C3%A7%C3%A3o-de-embarca%C3%A7%C3%B5es-com-previs%C3%A3o-de-r-12-bilh%C3%B5es-em-santa-catarina
+2026-07-01 11:48:27 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-investe-na-constru_C3_A7_C3_A3o-de-embarca_C3_A7_C3_B5es-com-previs_C3_A3o-de-r-12-bilh_C3_B5es-em-santa-catarina--3736fe10/page-catalog.json
+2026-07-01 11:48:27 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/petrobras-investe-na-constru%C3%A7%C3%A3o-de-embarca%C3%A7%C3%B5es-com-previs%C3%A3o-de-r-12-bilh%C3%B5es-em-santa-catarina
+2026-07-01 11:48:30 | INFO | [38/64] Processing: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-presidente-lula-participa-de-visita-%C3%A0s-obras-de-embarca%C3%A7%C3%B5es-da-petrobras-em-itaja%C3%AD-sc-
+2026-07-01 11:48:30 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_aviso-de-pauta-presidente-lula-participa-de-visita-_C3_A0s-obras-de-embarca_C3_A7_C3_B5es-da-petrobras-em-itaja_C3_AD-sc---c89f8cc5
+2026-07-01 11:48:30 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-presidente-lula-participa-de-visita-%C3%A0s-obras-de-embarca%C3%A7%C3%B5es-da-petrobras-em-itaja%C3%AD-sc- -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-presidente-lula-participa-de-visita-_C3_A0s-obras-de-embarca_C3_A7_C3_B5es-da-petrobras-em-itaja_C3_AD-sc---c89f8cc5
+2026-07-01 11:48:30 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-presidente-lula-participa-de-visita-%C3%A0s-obras-de-embarca%C3%A7%C3%B5es-da-petrobras-em-itaja%C3%AD-sc-
+2026-07-01 11:48:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:48:32 | INFO | Lazy-load scroll complete
+2026-07-01 11:48:32 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:48:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:48:35 | INFO | Lazy-load scroll complete
+2026-07-01 11:48:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:49:19 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:49:19 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:49:19 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:49:19 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:49:19 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:49:19 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:49:19 | INFO | Main content: #main-content
+2026-07-01 11:49:19 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:49:19 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:49:19 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:49:21 | INFO | Captured 8 block screenshots
+2026-07-01 11:49:21 | INFO | Detected 8 blocks
+2026-07-01 11:49:21 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:49:23 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:49:23 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:49:23 | INFO | URL Pattern: /w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel
+2026-07-01 11:49:23 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-informa-sobre-pre_C3_A7os-de-diesel--e1f31b46/page-catalog.json
+2026-07-01 11:49:23 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel
+2026-07-01 11:49:23 | INFO | PROGRESS: 35/64 analyzed (55% checklist complete) | 35 ok, 0 failed, 0 skipped | ~9 min remaining
+2026-07-01 11:49:26 | INFO | [39/64] Processing: https://agencia.petrobras.com.br/w/negocio/campo-de-b%C3%BAzios-supera-pr%C3%B3prio-recorde-e-produz-1-milh%C3%A3o-e-100-mil-bpd
+2026-07-01 11:49:26 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_campo-de-b_C3_BAzios-supera-pr_C3_B3prio-recorde-e-produz-1-milh_C3_A3o-e-100-mil-bpd--c567fa0b
+2026-07-01 11:49:26 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/campo-de-b%C3%BAzios-supera-pr%C3%B3prio-recorde-e-produz-1-milh%C3%A3o-e-100-mil-bpd -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_campo-de-b_C3_BAzios-supera-pr_C3_B3prio-recorde-e-produz-1-milh_C3_A3o-e-100-mil-bpd--c567fa0b
+2026-07-01 11:49:26 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/campo-de-b%C3%BAzios-supera-pr%C3%B3prio-recorde-e-produz-1-milh%C3%A3o-e-100-mil-bpd
+2026-07-01 11:49:26 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:49:26 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:49:26 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:49:26 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:49:26 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:49:26 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:49:26 | INFO | Main content: #main-content
+2026-07-01 11:49:26 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:49:26 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:49:26 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:49:27 | INFO | Captured 10 block screenshots
+2026-07-01 11:49:27 | INFO | Detected 10 blocks
+2026-07-01 11:49:27 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:49:30 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:49:30 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:49:30 | INFO | URL Pattern: /w/negocio/dia
+2026-07-01 11:49:30 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_dia--5fb49d67/page-catalog.json
+2026-07-01 11:49:30 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/dia
+2026-07-01 11:49:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:49:32 | INFO | [40/64] Processing: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:49:32 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen_C3_A7a-do-presidente-lula--eb2603f6
+2026-07-01 11:49:32 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen_C3_A7a-do-presidente-lula--eb2603f6
+2026-07-01 11:49:32 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:49:33 | INFO | Lazy-load scroll complete
+2026-07-01 11:49:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:49:33 | INFO | Removed 21 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:49:33 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:49:33 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:49:33 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:49:33 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:49:33 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:49:33 | INFO | Main content: #main-content
+2026-07-01 11:49:34 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:49:34 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:49:34 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:49:35 | INFO | Captured 10 block screenshots
+2026-07-01 11:49:35 | INFO | Detected 10 blocks
+2026-07-01 11:49:35 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:49:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:49:36 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:49:36 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:49:36 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:49:36 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:49:36 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:49:36 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:49:36 | INFO | Main content: #main-content
+2026-07-01 11:49:36 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:49:36 | WARNING | Blocks - 63% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:49:36 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:49:37 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:49:37 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:49:37 | INFO | URL Pattern: /w/negocio/petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:49:37 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen_C3_A7a-do-presidente-lula--60aa77cd/page-catalog.json
+2026-07-01 11:49:37 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:49:38 | INFO | Captured 8 block screenshots
+2026-07-01 11:49:38 | INFO | Detected 8 blocks
+2026-07-01 11:49:38 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:49:38 | INFO | Lazy-load scroll complete
+2026-07-01 11:49:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:49:40 | INFO | [41/64] Processing: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii
+2026-07-01 11:49:40 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii--5c787925
+2026-07-01 11:49:40 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii--5c787925
+2026-07-01 11:49:40 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii
+2026-07-01 11:49:40 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:49:40 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:49:40 | INFO | URL Pattern: /w/negocio/aviso-de-pauta-presidente-lula-participa-de-visita-%C3%A0s-obras-de-embarca%C3%A7%C3%B5es-da-petrobras-em-itaja%C3%AD-sc-
+2026-07-01 11:49:40 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-presidente-lula-participa-de-visita-_C3_A0s-obras-de-embarca_C3_A7_C3_B5es-da-petrobras-em-itaja_C3_AD-sc---c89f8cc5/page-catalog.json
+2026-07-01 11:49:40 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-presidente-lula-participa-de-visita-%C3%A0s-obras-de-embarca%C3%A7%C3%B5es-da-petrobras-em-itaja%C3%AD-sc-
+2026-07-01 11:49:42 | INFO | [42/64] Processing: https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais
+2026-07-01 11:49:43 | INFO | Generated slug: agencia_petrobras_com_br_w_negocio_petrobras-e-pemex-firmam-parceria-para-coopera_C3_A7_C3_A3o-em-explora_C3_A7_C3_A3o-e-produ_C3_A7_C3_A3o-e-processos-industriais--b66e7d39
+2026-07-01 11:49:43 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-e-pemex-firmam-parceria-para-coopera_C3_A7_C3_A3o-em-explora_C3_A7_C3_A3o-e-produ_C3_A7_C3_A3o-e-processos-industriais--b66e7d39
+2026-07-01 11:49:43 | INFO | Loading: https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais
+2026-07-01 11:49:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:49:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:49:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:49:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:49:49 | INFO | Lazy-load scroll complete
+2026-07-01 11:49:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:50:04 | INFO | Removed 21 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:50:04 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:50:04 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:50:04 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:50:04 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:50:04 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:50:04 | INFO | Main content: #main-content
+2026-07-01 11:50:04 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:50:04 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:50:04 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:50:05 | INFO | Captured 10 block screenshots
+2026-07-01 11:50:05 | INFO | Detected 10 blocks
+2026-07-01 11:50:05 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:50:08 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:50:08 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:50:08 | INFO | URL Pattern: /w/negocio/campo-de-b%C3%BAzios-supera-pr%C3%B3prio-recorde-e-produz-1-milh%C3%A3o-e-100-mil-bpd
+2026-07-01 11:50:08 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_campo-de-b_C3_BAzios-supera-pr_C3_B3prio-recorde-e-produz-1-milh_C3_A3o-e-100-mil-bpd--c567fa0b/page-catalog.json
+2026-07-01 11:50:08 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/campo-de-b%C3%BAzios-supera-pr%C3%B3prio-recorde-e-produz-1-milh%C3%A3o-e-100-mil-bpd
+2026-07-01 11:50:11 | INFO | [43/64] Processing: https://agencia.petrobras.com.br/w/regionais/petrobras-celebra-60-anos-da-lubnor-refer%C3%AAncia-em-asfaltos-e-produtos-especiais
+2026-07-01 11:50:11 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_petrobras-celebra-60-anos-da-lubnor-refer_C3_AAncia-em-asfaltos-e-produtos-especiais--4ff0f6c2
+2026-07-01 11:50:11 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/petrobras-celebra-60-anos-da-lubnor-refer%C3%AAncia-em-asfaltos-e-produtos-especiais -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-celebra-60-anos-da-lubnor-refer_C3_AAncia-em-asfaltos-e-produtos-especiais--4ff0f6c2
+2026-07-01 11:50:11 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/petrobras-celebra-60-anos-da-lubnor-refer%C3%AAncia-em-asfaltos-e-produtos-especiais
+2026-07-01 11:50:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:50:17 | INFO | Lazy-load scroll complete
+2026-07-01 11:50:17 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:50:20 | INFO | Removed 24 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:50:20 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:50:20 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:50:20 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:50:20 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:50:20 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:50:20 | INFO | Main content: #main-content
+2026-07-01 11:50:20 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:50:20 | WARNING | Blocks - 64% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:50:20 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:50:22 | INFO | Captured 11 block screenshots
+2026-07-01 11:50:22 | INFO | Detected 11 blocks
+2026-07-01 11:50:22 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:50:25 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:50:25 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:50:25 | INFO | URL Pattern: /w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais
+2026-07-01 11:50:25 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_petrobras-e-pemex-firmam-parceria-para-coopera_C3_A7_C3_A3o-em-explora_C3_A7_C3_A3o-e-produ_C3_A7_C3_A3o-e-processos-industriais--b66e7d39/page-catalog.json
+2026-07-01 11:50:25 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais
+2026-07-01 11:50:25 | INFO | PROGRESS: 40/64 analyzed (63% checklist complete) | 40 ok, 0 failed, 0 skipped | ~7 min remaining
+2026-07-01 11:50:27 | INFO | [44/64] Processing: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:50:27 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--acdd64b4
+2026-07-01 11:50:27 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--acdd64b4
+2026-07-01 11:50:27 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:50:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:50:33 | INFO | Lazy-load scroll complete
+2026-07-01 11:50:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:50:39 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:50:39 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:50:39 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:50:39 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:50:39 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:50:39 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:50:39 | INFO | Main content: #main-content
+2026-07-01 11:50:39 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:50:39 | WARNING | Blocks - 63% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:50:39 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:50:41 | INFO | Captured 8 block screenshots
+2026-07-01 11:50:41 | INFO | Detected 8 blocks
+2026-07-01 11:50:41 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:50:43 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:50:43 | INFO |    Body start: y=400 (start row 16 via below-title+container)
+2026-07-01 11:50:43 | INFO | URL Pattern: /w/negocio/aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:50:43 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen_C3_A7a-do-presidente-lula--eb2603f6/page-catalog.json
+2026-07-01 11:50:43 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-petrobras-assina-contratos-para-retomada-das-obras-da-ufn-iii-com-a-presen%C3%A7a-do-presidente-lula
+2026-07-01 11:50:46 | INFO | [45/64] Processing: https://agencia.petrobras.com.br/w/regionais/petrobras-investir%C3%A1-at%C3%A9-r-23-milh%C3%B5es-em-projetos-de-coleta-de-%C3%B3leos-e-gorduras-residuais
+2026-07-01 11:50:46 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_petrobras-investir_C3_A1-at_C3_A9-r-23-milh_C3_B5es-em-projetos-de-coleta-de-_C3_B3leos-e-gorduras-residuais--89c66c2d
+2026-07-01 11:50:46 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/petrobras-investir%C3%A1-at%C3%A9-r-23-milh%C3%B5es-em-projetos-de-coleta-de-%C3%B3leos-e-gorduras-residuais -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-investir_C3_A1-at_C3_A9-r-23-milh_C3_B5es-em-projetos-de-coleta-de-_C3_B3leos-e-gorduras-residuais--89c66c2d
+2026-07-01 11:50:46 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/petrobras-investir%C3%A1-at%C3%A9-r-23-milh%C3%B5es-em-projetos-de-coleta-de-%C3%B3leos-e-gorduras-residuais
+2026-07-01 11:50:48 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:50:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:50:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:50:48 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:50:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:50:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:50:48 | INFO | Main content: #main-content
+2026-07-01 11:50:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:50:48 | WARNING | Blocks - 56% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:50:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:50:50 | INFO | Captured 9 block screenshots
+2026-07-01 11:50:50 | INFO | Detected 9 blocks
+2026-07-01 11:50:50 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:50:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:50:52 | INFO | Lazy-load scroll complete
+2026-07-01 11:50:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:50:52 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:50:52 | INFO |    Body start: y=385 (start row 15 via below-title+container)
+2026-07-01 11:50:52 | INFO | URL Pattern: /w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii
+2026-07-01 11:50:52 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii--5c787925/page-catalog.json
+2026-07-01 11:50:52 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii
+2026-07-01 11:50:55 | INFO | [46/64] Processing: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-estado-de-s%C3%A3o-paulo-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:50:55 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-estado-de-s_C3_A3o-paulo-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--d5ffa910
+2026-07-01 11:50:55 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-estado-de-s%C3%A3o-paulo-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-estado-de-s_C3_A3o-paulo-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--d5ffa910
+2026-07-01 11:50:55 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-estado-de-s%C3%A3o-paulo-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:50:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:51:01 | INFO | Lazy-load scroll complete
+2026-07-01 11:51:01 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:51:18 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:51:18 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:51:18 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:51:18 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:51:18 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:51:18 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:51:18 | INFO | Main content: #main-content
+2026-07-01 11:51:18 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:51:18 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:51:18 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:51:19 | INFO | Captured 9 block screenshots
+2026-07-01 11:51:19 | INFO | Detected 9 blocks
+2026-07-01 11:51:19 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:51:22 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:51:22 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:51:22 | INFO | URL Pattern: /w/regionais/petrobras-celebra-60-anos-da-lubnor-refer%C3%AAncia-em-asfaltos-e-produtos-especiais
+2026-07-01 11:51:22 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-celebra-60-anos-da-lubnor-refer_C3_AAncia-em-asfaltos-e-produtos-especiais--4ff0f6c2/page-catalog.json
+2026-07-01 11:51:22 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/petrobras-celebra-60-anos-da-lubnor-refer%C3%AAncia-em-asfaltos-e-produtos-especiais
+2026-07-01 11:51:24 | INFO | [47/64] Processing: https://agencia.petrobras.com.br/w/regionais/petrobras-leva-iniciativas-sustent%C3%A1veis-a-comunidades-quilombolas
+2026-07-01 11:51:24 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_petrobras-leva-iniciativas-sustent_C3_A1veis-a-comunidades-quilombolas--da61f28c
+2026-07-01 11:51:24 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/petrobras-leva-iniciativas-sustent%C3%A1veis-a-comunidades-quilombolas -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-leva-iniciativas-sustent_C3_A1veis-a-comunidades-quilombolas--da61f28c
+2026-07-01 11:51:24 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/petrobras-leva-iniciativas-sustent%C3%A1veis-a-comunidades-quilombolas
+2026-07-01 11:51:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:51:33 | INFO | Lazy-load scroll complete
+2026-07-01 11:51:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:51:34 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:51:34 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:51:34 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:51:34 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:51:34 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:51:34 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:51:34 | INFO | Main content: #main-content
+2026-07-01 11:51:34 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:51:34 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:51:34 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:51:36 | INFO | Captured 9 block screenshots
+2026-07-01 11:51:36 | INFO | Detected 9 blocks
+2026-07-01 11:51:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:51:38 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:51:38 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:51:38 | INFO | URL Pattern: /w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:51:38 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--acdd64b4/page-catalog.json
+2026-07-01 11:51:38 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-grande-do-sul-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:51:41 | INFO | [48/64] Processing: https://agencia.petrobras.com.br/w/regionais/video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia
+2026-07-01 11:51:41 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia--9bf33921
+2026-07-01 11:51:41 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia--9bf33921
+2026-07-01 11:51:41 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia
+2026-07-01 11:51:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:51:46 | INFO | Lazy-load scroll complete
+2026-07-01 11:51:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:51:54 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:51:54 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:51:54 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:51:54 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:51:54 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:51:54 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:51:54 | INFO | Main content: #main-content
+2026-07-01 11:51:54 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:51:54 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:51:54 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:51:55 | INFO | Captured 9 block screenshots
+2026-07-01 11:51:55 | INFO | Detected 9 blocks
+2026-07-01 11:51:55 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:51:58 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:51:58 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:51:58 | INFO | URL Pattern: /w/regionais/petrobras-investir%C3%A1-at%C3%A9-r-23-milh%C3%B5es-em-projetos-de-coleta-de-%C3%B3leos-e-gorduras-residuais
+2026-07-01 11:51:58 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-investir_C3_A1-at_C3_A9-r-23-milh_C3_B5es-em-projetos-de-coleta-de-_C3_B3leos-e-gorduras-residuais--89c66c2d/page-catalog.json
+2026-07-01 11:51:58 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/petrobras-investir%C3%A1-at%C3%A9-r-23-milh%C3%B5es-em-projetos-de-coleta-de-%C3%B3leos-e-gorduras-residuais
+2026-07-01 11:51:58 | INFO | PROGRESS: 45/64 analyzed (70% checklist complete) | 45 ok, 0 failed, 0 skipped | ~6 min remaining
+2026-07-01 11:52:00 | INFO | [49/64] Processing: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:52:00 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--eb03aeab
+2026-07-01 11:52:00 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--eb03aeab
+2026-07-01 11:52:00 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:52:02 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:52:02 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:52:02 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:52:02 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:52:02 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:52:02 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:52:02 | INFO | Main content: #main-content
+2026-07-01 11:52:02 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:52:02 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:52:02 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:52:04 | INFO | Captured 9 block screenshots
+2026-07-01 11:52:04 | INFO | Detected 9 blocks
+2026-07-01 11:52:04 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:52:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:52:06 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:52:06 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:52:06 | INFO | URL Pattern: /w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-estado-de-s%C3%A3o-paulo-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:52:06 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-estado-de-s_C3_A3o-paulo-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--d5ffa910/page-catalog.json
+2026-07-01 11:52:06 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-estado-de-s%C3%A3o-paulo-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:52:06 | INFO | Lazy-load scroll complete
+2026-07-01 11:52:06 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:52:09 | INFO | [50/64] Processing: https://agencia.petrobras.com.br/w/regionais/petrobras-investe-em-projetos-socioambientais-no-cear%C3%A1
+2026-07-01 11:52:09 | INFO | Generated slug: agencia_petrobras_com_br_w_regionais_petrobras-investe-em-projetos-socioambientais-no-cear_C3_A1--128c75c3
+2026-07-01 11:52:09 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/regionais/petrobras-investe-em-projetos-socioambientais-no-cear%C3%A1 -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-investe-em-projetos-socioambientais-no-cear_C3_A1--128c75c3
+2026-07-01 11:52:09 | INFO | Loading: https://agencia.petrobras.com.br/w/regionais/petrobras-investe-em-projetos-socioambientais-no-cear%C3%A1
+2026-07-01 11:52:13 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:52:15 | INFO | Lazy-load scroll complete
+2026-07-01 11:52:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:52:34 | INFO | Removed 15 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:52:35 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:52:35 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:52:35 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:52:35 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:52:35 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:52:35 | INFO | Main content: #main-content
+2026-07-01 11:52:35 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:52:35 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:52:35 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:52:36 | INFO | Captured 10 block screenshots
+2026-07-01 11:52:36 | INFO | Detected 10 blocks
+2026-07-01 11:52:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:52:39 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:52:39 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:52:39 | INFO | URL Pattern: /w/regionais/petrobras-leva-iniciativas-sustent%C3%A1veis-a-comunidades-quilombolas
+2026-07-01 11:52:39 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-leva-iniciativas-sustent_C3_A1veis-a-comunidades-quilombolas--da61f28c/page-catalog.json
+2026-07-01 11:52:39 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/petrobras-leva-iniciativas-sustent%C3%A1veis-a-comunidades-quilombolas
+2026-07-01 11:52:41 | INFO | [51/64] Processing: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo
+2026-07-01 11:52:41 | INFO | Generated slug: agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo--344bc9d6
+2026-07-01 11:52:41 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo--344bc9d6
+2026-07-01 11:52:41 | INFO | Loading: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo
+2026-07-01 11:52:47 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:52:47 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:52:47 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:52:47 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:52:47 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:52:47 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:52:47 | INFO | Main content: #main-content
+2026-07-01 11:52:47 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:52:47 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:52:47 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:52:49 | INFO | Captured 10 block screenshots
+2026-07-01 11:52:49 | INFO | Detected 10 blocks
+2026-07-01 11:52:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:52:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:52:51 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:52:51 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:52:51 | INFO | URL Pattern: /w/regionais/video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia
+2026-07-01 11:52:51 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia--9bf33921/page-catalog.json
+2026-07-01 11:52:51 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia
+2026-07-01 11:52:52 | INFO | Lazy-load scroll complete
+2026-07-01 11:52:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:52:54 | INFO | [52/64] Processing: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo
+2026-07-01 11:52:54 | INFO | Generated slug: agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-lanca-selecao-de-jornalismo--62d786ad
+2026-07-01 11:52:54 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-lanca-selecao-de-jornalismo--62d786ad
+2026-07-01 11:52:54 | INFO | Loading: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo
+2026-07-01 11:52:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:53:00 | INFO | Lazy-load scroll complete
+2026-07-01 11:53:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:53:08 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:53:08 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:53:08 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:53:08 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:53:08 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:53:08 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:53:08 | INFO | Main content: #main-content
+2026-07-01 11:53:08 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:53:08 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:53:08 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:53:09 | INFO | Captured 9 block screenshots
+2026-07-01 11:53:09 | INFO | Detected 9 blocks
+2026-07-01 11:53:09 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:53:12 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:53:12 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:53:12 | INFO | URL Pattern: /w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:53:12 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_projeto-cine-petrobras-chegar_C3_A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula_C3_A7_C3_A3o--eb03aeab/page-catalog.json
+2026-07-01 11:53:12 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/projeto-cine-petrobras-chegar%C3%A1-no-rio-de-janeiro-com-cinema-gratuito-para-a-popula%C3%A7%C3%A3o
+2026-07-01 11:53:14 | INFO | [53/64] Processing: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-reduz-emiss%C3%B5es-em-36-e-amplia-contribui%C3%A7%C3%B5es-%C3%A0-sociedade
+2026-07-01 11:53:14 | INFO | Generated slug: agencia_petrobras_com_br_w_sustentabilidade_petrobras-reduz-emiss_C3_B5es-em-36-e-amplia-contribui_C3_A7_C3_B5es-_C3_A0-sociedade--b69e579c
+2026-07-01 11:53:14 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-reduz-emiss%C3%B5es-em-36-e-amplia-contribui%C3%A7%C3%B5es-%C3%A0-sociedade -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_sustentabilidade_petrobras-reduz-emiss_C3_B5es-em-36-e-amplia-contribui_C3_A7_C3_B5es-_C3_A0-sociedade--b69e579c
+2026-07-01 11:53:14 | INFO | Loading: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-reduz-emiss%C3%B5es-em-36-e-amplia-contribui%C3%A7%C3%B5es-%C3%A0-sociedade
+2026-07-01 11:53:16 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:53:16 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:53:16 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:53:16 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:53:16 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:53:16 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:53:16 | INFO | Main content: #main-content
+2026-07-01 11:53:16 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:53:16 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:53:16 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:53:18 | INFO | Captured 9 block screenshots
+2026-07-01 11:53:18 | INFO | Detected 9 blocks
+2026-07-01 11:53:18 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:53:20 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:53:20 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:53:20 | INFO | URL Pattern: /w/regionais/petrobras-investe-em-projetos-socioambientais-no-cear%C3%A1
+2026-07-01 11:53:20 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_regionais_petrobras-investe-em-projetos-socioambientais-no-cear_C3_A1--128c75c3/page-catalog.json
+2026-07-01 11:53:20 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/regionais/petrobras-investe-em-projetos-socioambientais-no-cear%C3%A1
+2026-07-01 11:53:20 | INFO | PROGRESS: 50/64 analyzed (78% checklist complete) | 50 ok, 0 failed, 0 skipped | ~5 min remaining
+2026-07-01 11:53:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:53:23 | INFO | [54/64] Processing: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil%C3%A3o-do-profloresta-
+2026-07-01 11:53:23 | INFO | Generated slug: agencia_petrobras_com_br_w_sustentabilidade_petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil_C3_A3o-do-profloresta---41a263d2
+2026-07-01 11:53:23 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil%C3%A3o-do-profloresta- -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_sustentabilidade_petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil_C3_A3o-do-profloresta---41a263d2
+2026-07-01 11:53:23 | INFO | Loading: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil%C3%A3o-do-profloresta-
+2026-07-01 11:53:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:53:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:53:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:53:28 | INFO | Lazy-load scroll complete
+2026-07-01 11:53:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:53:53 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:53:53 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:53:53 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:53:53 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:53:53 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:53:53 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:53:53 | INFO | Main content: #main-content
+2026-07-01 11:53:53 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:53:53 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:53:53 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:53:55 | INFO | Captured 10 block screenshots
+2026-07-01 11:53:55 | INFO | Detected 10 blocks
+2026-07-01 11:53:55 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:53:57 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:53:57 | INFO |    Body start: y=381 (start row 15 via below-title+container)
+2026-07-01 11:53:57 | INFO | URL Pattern: /w/selecao-de-jornalismo/petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo
+2026-07-01 11:53:57 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo--344bc9d6/page-catalog.json
+2026-07-01 11:53:57 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo
+2026-07-01 11:54:00 | INFO | [55/64] Processing: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica
+2026-07-01 11:54:00 | INFO | Generated slug: agencia_petrobras_com_br_w_sustentabilidade_petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica--078628b8
+2026-07-01 11:54:00 | INFO | Starting analysis: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica -> /workspace/catalog/.pages/agencia_petrobras_com_br_w_sustentabilidade_petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica--078628b8
+2026-07-01 11:54:00 | INFO | Loading: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica
+2026-07-01 11:54:01 | INFO | Removed 18 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:54:01 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:54:01 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:54:01 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:54:01 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:54:01 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:54:01 | INFO | Main content: #main-content
+2026-07-01 11:54:01 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:54:01 | WARNING | Blocks - 73% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:54:01 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:54:03 | INFO | Captured 11 block screenshots
+2026-07-01 11:54:03 | INFO | Detected 11 blocks
+2026-07-01 11:54:03 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:54:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:54:05 | INFO |    Top-section: 13 rows via title+container
+2026-07-01 11:54:05 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-07-01 11:54:05 | INFO | URL Pattern: /w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo
+2026-07-01 11:54:05 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-lanca-selecao-de-jornalismo--62d786ad/page-catalog.json
+2026-07-01 11:54:05 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo
+2026-07-01 11:54:06 | INFO | Lazy-load scroll complete
+2026-07-01 11:54:06 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:54:08 | INFO | [56/64] Processing: https://agencia.petrobras.com.br/selecao
+2026-07-01 11:54:08 | INFO | Generated slug: agencia_petrobras_com_br_selecao--5e341364
+2026-07-01 11:54:08 | INFO | Starting analysis: https://agencia.petrobras.com.br/selecao -> /workspace/catalog/.pages/agencia_petrobras_com_br_selecao--5e341364
+2026-07-01 11:54:08 | INFO | Loading: https://agencia.petrobras.com.br/selecao
+2026-07-01 11:54:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:54:14 | INFO | Lazy-load scroll complete
+2026-07-01 11:54:14 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:54:24 | INFO | Removed 18 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:54:24 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:54:24 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:54:24 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:54:24 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:54:24 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:54:24 | INFO | Main content: #main-content
+2026-07-01 11:54:25 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:54:25 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:54:25 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:54:26 | INFO | Captured 10 block screenshots
+2026-07-01 11:54:26 | INFO | Detected 10 blocks
+2026-07-01 11:54:26 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:54:29 | INFO |    Top-section: 16 rows via title+container
+2026-07-01 11:54:29 | INFO |    Body start: y=381 (start row 15 via below-title+container)
+2026-07-01 11:54:29 | INFO | URL Pattern: /w/sustentabilidade/petrobras-reduz-emiss%C3%B5es-em-36-e-amplia-contribui%C3%A7%C3%B5es-%C3%A0-sociedade
+2026-07-01 11:54:29 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_sustentabilidade_petrobras-reduz-emiss_C3_B5es-em-36-e-amplia-contribui_C3_A7_C3_B5es-_C3_A0-sociedade--b69e579c/page-catalog.json
+2026-07-01 11:54:29 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-reduz-emiss%C3%B5es-em-36-e-amplia-contribui%C3%A7%C3%B5es-%C3%A0-sociedade
+2026-07-01 11:54:30 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:54:30 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:54:30 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:54:30 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:54:30 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:54:30 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:54:30 | INFO | Main content: #main-content
+2026-07-01 11:54:30 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:54:30 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:54:30 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:54:31 | INFO | [57/64] Processing: https://agencia.petrobras.com.br/institucional
+2026-07-01 11:54:31 | INFO | Generated slug: agencia_petrobras_com_br_institucional--cd101b8b
+2026-07-01 11:54:31 | INFO | Starting analysis: https://agencia.petrobras.com.br/institucional -> /workspace/catalog/.pages/agencia_petrobras_com_br_institucional--cd101b8b
+2026-07-01 11:54:31 | INFO | Loading: https://agencia.petrobras.com.br/institucional
+2026-07-01 11:54:31 | INFO | Captured 9 block screenshots
+2026-07-01 11:54:31 | INFO | Detected 9 blocks
+2026-07-01 11:54:31 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:54:34 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:54:34 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:54:34 | INFO | URL Pattern: /w/sustentabilidade/petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil%C3%A3o-do-profloresta-
+2026-07-01 11:54:34 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_sustentabilidade_petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil_C3_A3o-do-profloresta---41a263d2/page-catalog.json
+2026-07-01 11:54:34 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-e-bndes-anunciam-vencedores-do-primeiro-leil%C3%A3o-do-profloresta-
+2026-07-01 11:54:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:54:36 | INFO | [58/64] Processing: https://agencia.petrobras.com.br/inovacao
+2026-07-01 11:54:36 | INFO | Generated slug: agencia_petrobras_com_br_inovacao--36718c7e
+2026-07-01 11:54:36 | INFO | Starting analysis: https://agencia.petrobras.com.br/inovacao -> /workspace/catalog/.pages/agencia_petrobras_com_br_inovacao--36718c7e
+2026-07-01 11:54:36 | INFO | Loading: https://agencia.petrobras.com.br/inovacao
+2026-07-01 11:54:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:54:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:54:37 | INFO | Removed 21 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:54:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:54:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:54:37 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:54:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:54:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:54:37 | INFO | Main content: #main-content
+2026-07-01 11:54:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:54:37 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:54:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:54:39 | INFO | Captured 10 block screenshots
+2026-07-01 11:54:39 | INFO | Detected 10 blocks
+2026-07-01 11:54:39 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:54:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:54:41 | INFO |    Top-section: 15 rows via title+container
+2026-07-01 11:54:41 | INFO |    Body start: y=375 (start row 15 via below-title+container)
+2026-07-01 11:54:41 | INFO | URL Pattern: /w/sustentabilidade/petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica
+2026-07-01 11:54:41 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_w_sustentabilidade_petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica--078628b8/page-catalog.json
+2026-07-01 11:54:41 | INFO | SUCCESS: https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica
+2026-07-01 11:54:41 | INFO | PROGRESS: 55/64 analyzed (86% checklist complete) | 55 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-07-01 11:54:42 | INFO | Lazy-load scroll complete
+2026-07-01 11:54:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:54:44 | INFO | [59/64] Processing: https://agencia.petrobras.com.br/sustentabilidade
+2026-07-01 11:54:44 | INFO | Generated slug: agencia_petrobras_com_br_sustentabilidade--15afc24b
+2026-07-01 11:54:44 | INFO | Starting analysis: https://agencia.petrobras.com.br/sustentabilidade -> /workspace/catalog/.pages/agencia_petrobras_com_br_sustentabilidade--15afc24b
+2026-07-01 11:54:44 | INFO | Loading: https://agencia.petrobras.com.br/sustentabilidade
+2026-07-01 11:54:46 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:54:46 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:54:46 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:54:46 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:54:46 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:54:46 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:54:46 | INFO | Main content: #main-content
+2026-07-01 11:54:46 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:54:46 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:54:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:54:48 | INFO | Captured 14 block screenshots
+2026-07-01 11:54:48 | INFO | Detected 14 blocks
+2026-07-01 11:54:48 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:54:49 | INFO | Lazy-load scroll complete
+2026-07-01 11:54:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:54:50 | INFO |    Top-section: 14 rows via title
+2026-07-01 11:54:50 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-07-01 11:54:50 | INFO | URL Pattern: /selecao
+2026-07-01 11:54:50 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_selecao--5e341364/page-catalog.json
+2026-07-01 11:54:50 | INFO | SUCCESS: https://agencia.petrobras.com.br/selecao
+2026-07-01 11:54:53 | INFO | [60/64] Processing: https://agencia.petrobras.com.br/negocio
+2026-07-01 11:54:53 | INFO | Generated slug: agencia_petrobras_com_br_negocio--8db52f4e
+2026-07-01 11:54:53 | INFO | Starting analysis: https://agencia.petrobras.com.br/negocio -> /workspace/catalog/.pages/agencia_petrobras_com_br_negocio--8db52f4e
+2026-07-01 11:54:53 | INFO | Loading: https://agencia.petrobras.com.br/negocio
+2026-07-01 11:54:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:54:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:54:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:55:08 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:55:08 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:55:08 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:55:08 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:55:08 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:55:08 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:55:08 | INFO | Main content: #main-content
+2026-07-01 11:55:08 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:55:08 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:55:09 | INFO | Captured 9 block screenshots
+2026-07-01 11:55:09 | INFO | Detected 9 blocks
+2026-07-01 11:55:09 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:55:12 | INFO |    Top-section: 5 rows via title+container
+2026-07-01 11:55:12 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-07-01 11:55:12 | INFO | URL Pattern: /institucional
+2026-07-01 11:55:12 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_institucional--cd101b8b/page-catalog.json
+2026-07-01 11:55:12 | INFO | SUCCESS: https://agencia.petrobras.com.br/institucional
+2026-07-01 11:55:13 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:55:13 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:55:13 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:55:13 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:55:13 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:55:13 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:55:13 | INFO | Main content: #main-content
+2026-07-01 11:55:13 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:55:13 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:55:14 | INFO | [61/64] Processing: https://agencia.petrobras.com.br/regionais
+2026-07-01 11:55:14 | INFO | Generated slug: agencia_petrobras_com_br_regionais--e6eacb9c
+2026-07-01 11:55:14 | INFO | Starting analysis: https://agencia.petrobras.com.br/regionais -> /workspace/catalog/.pages/agencia_petrobras_com_br_regionais--e6eacb9c
+2026-07-01 11:55:14 | INFO | Loading: https://agencia.petrobras.com.br/regionais
+2026-07-01 11:55:15 | INFO | Captured 9 block screenshots
+2026-07-01 11:55:15 | INFO | Detected 9 blocks
+2026-07-01 11:55:15 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:55:17 | INFO |    Top-section: 5 rows via title+container
+2026-07-01 11:55:17 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-07-01 11:55:17 | INFO | URL Pattern: /inovacao
+2026-07-01 11:55:17 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_inovacao--36718c7e/page-catalog.json
+2026-07-01 11:55:17 | INFO | SUCCESS: https://agencia.petrobras.com.br/inovacao
+2026-07-01 11:55:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:55:20 | INFO | [62/64] Processing: https://agencia.petrobras.com.br/mais-recentes
+2026-07-01 11:55:20 | INFO | Generated slug: agencia_petrobras_com_br_mais-recentes--66c47419
+2026-07-01 11:55:20 | INFO | Starting analysis: https://agencia.petrobras.com.br/mais-recentes -> /workspace/catalog/.pages/agencia_petrobras_com_br_mais-recentes--66c47419
+2026-07-01 11:55:20 | INFO | Loading: https://agencia.petrobras.com.br/mais-recentes
+2026-07-01 11:55:20 | INFO | Lazy-load scroll complete
+2026-07-01 11:55:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:55:20 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:55:20 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:55:20 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:55:20 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:55:20 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:55:20 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:55:20 | INFO | Main content: #main-content
+2026-07-01 11:55:20 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:55:20 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:55:22 | INFO | Captured 8 block screenshots
+2026-07-01 11:55:22 | INFO | Detected 8 blocks
+2026-07-01 11:55:22 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:55:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:55:24 | INFO |    Top-section: 5 rows via title+container
+2026-07-01 11:55:24 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-07-01 11:55:24 | INFO | URL Pattern: /sustentabilidade
+2026-07-01 11:55:24 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_sustentabilidade--15afc24b/page-catalog.json
+2026-07-01 11:55:24 | INFO | SUCCESS: https://agencia.petrobras.com.br/sustentabilidade
+2026-07-01 11:55:25 | INFO | Lazy-load scroll complete
+2026-07-01 11:55:25 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:55:27 | INFO | [63/64] Processing: https://agencia.petrobras.com.br/editoria-mais-lidos
+2026-07-01 11:55:27 | INFO | Generated slug: agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96
+2026-07-01 11:55:27 | INFO | Starting analysis: https://agencia.petrobras.com.br/editoria-mais-lidos -> /workspace/catalog/.pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96
+2026-07-01 11:55:27 | INFO | Loading: https://agencia.petrobras.com.br/editoria-mais-lidos
+2026-07-01 11:55:30 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:55:30 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:55:30 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:55:30 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:55:30 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:55:30 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:55:30 | INFO | Main content: #main-content
+2026-07-01 11:55:30 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:55:30 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:55:32 | INFO | Captured 9 block screenshots
+2026-07-01 11:55:32 | INFO | Detected 9 blocks
+2026-07-01 11:55:32 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:55:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:55:34 | INFO |    Top-section: 5 rows via title+container
+2026-07-01 11:55:34 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-07-01 11:55:34 | INFO | URL Pattern: /negocio
+2026-07-01 11:55:34 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_negocio--8db52f4e/page-catalog.json
+2026-07-01 11:55:34 | INFO | SUCCESS: https://agencia.petrobras.com.br/negocio
+2026-07-01 11:55:34 | INFO | PROGRESS: 60/64 analyzed (94% checklist complete) | 60 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-07-01 11:55:34 | INFO | Lazy-load scroll complete
+2026-07-01 11:55:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:55:37 | INFO | [64/64] Processing: https://agencia.petrobras.com.br/listar-editoria
+2026-07-01 11:55:37 | INFO | Generated slug: agencia_petrobras_com_br_listar-editoria--744b913b
+2026-07-01 11:55:37 | INFO | Starting analysis: https://agencia.petrobras.com.br/listar-editoria -> /workspace/catalog/.pages/agencia_petrobras_com_br_listar-editoria--744b913b
+2026-07-01 11:55:37 | INFO | Loading: https://agencia.petrobras.com.br/listar-editoria
+2026-07-01 11:55:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:55:42 | INFO | Lazy-load scroll complete
+2026-07-01 11:55:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:55:51 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:55:51 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:55:51 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:55:51 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:55:51 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:55:51 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:55:51 | INFO | Main content: #main-content
+2026-07-01 11:55:51 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:55:51 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:55:53 | INFO | Captured 9 block screenshots
+2026-07-01 11:55:53 | INFO | Detected 9 blocks
+2026-07-01 11:55:53 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:55:55 | INFO |    Top-section: 5 rows via title+container
+2026-07-01 11:55:55 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-07-01 11:55:55 | INFO | URL Pattern: /regionais
+2026-07-01 11:55:55 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_regionais--e6eacb9c/page-catalog.json
+2026-07-01 11:55:55 | INFO | SUCCESS: https://agencia.petrobras.com.br/regionais
+2026-07-01 11:55:56 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:55:56 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:55:56 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:55:56 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:55:56 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:55:56 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:55:56 | INFO | Main content: #main-content
+2026-07-01 11:55:56 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:55:56 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:55:58 | INFO | Worker 1 finished
+2026-07-01 11:55:58 | INFO | Captured 9 block screenshots
+2026-07-01 11:55:58 | INFO | Detected 9 blocks
+2026-07-01 11:55:58 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:56:00 | INFO |    Top-section: 5 rows via title+container
+2026-07-01 11:56:00 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-07-01 11:56:00 | INFO | URL Pattern: /mais-recentes
+2026-07-01 11:56:00 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_mais-recentes--66c47419/page-catalog.json
+2026-07-01 11:56:00 | INFO | SUCCESS: https://agencia.petrobras.com.br/mais-recentes
+2026-07-01 11:56:03 | INFO | Worker 3 finished
+2026-07-01 11:56:06 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:56:06 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:56:06 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:56:06 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:56:06 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:56:06 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:56:06 | INFO | Main content: #main-content
+2026-07-01 11:56:06 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:56:06 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:56:07 | INFO | Captured 9 block screenshots
+2026-07-01 11:56:07 | INFO | Detected 9 blocks
+2026-07-01 11:56:07 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:56:10 | INFO |    Top-section: 13 rows via title
+2026-07-01 11:56:10 | INFO |    Body start: y=325 (start row 13 via below-title)
+2026-07-01 11:56:10 | INFO | URL Pattern: /editoria-mais-lidos
+2026-07-01 11:56:10 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/page-catalog.json
+2026-07-01 11:56:10 | INFO | SUCCESS: https://agencia.petrobras.com.br/editoria-mais-lidos
+2026-07-01 11:56:12 | INFO | Worker 2 finished
+2026-07-01 11:56:13 | INFO | Removed 6 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:56:13 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:56:13 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:56:13 | INFO | Header: complex complexity, 3 features
+2026-07-01 11:56:13 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:56:13 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:56:13 | INFO | Main content: #main-content
+2026-07-01 11:56:14 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:56:14 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:56:14 | INFO | Captured 1 block screenshots
+2026-07-01 11:56:14 | INFO | Detected 1 blocks
+2026-07-01 11:56:14 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:56:17 | INFO |    Top-section: 13 rows via title
+2026-07-01 11:56:17 | INFO |    Body start: y=325 (start row 13 via below-title)
+2026-07-01 11:56:17 | INFO | URL Pattern: /listar-editoria
+2026-07-01 11:56:17 | INFO | Page catalog complete: /workspace/catalog/.pages/agencia_petrobras_com_br_listar-editoria--744b913b/page-catalog.json
+2026-07-01 11:56:17 | INFO | SUCCESS: https://agencia.petrobras.com.br/listar-editoria
+2026-07-01 11:56:17 | INFO | PROGRESS: 64/64 analyzed (100% checklist complete) | 64 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-07-01 11:56:17 | INFO | Worker 0 finished
+2026-07-01 11:56:17 | INFO | PROGRESS: 64/64 analyzed (100% checklist complete) | 64 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-07-01 11:56:17 | INFO | ================================================================================
+2026-07-01 11:56:17 | INFO | BATCH ANALYSIS COMPLETED
+2026-07-01 11:56:17 | INFO | ================================================================================
+2026-07-01 11:56:17 | INFO | Total URLs: 64
+2026-07-01 11:56:17 | INFO | Attempt successes: 64
+2026-07-01 11:56:17 | INFO | Attempt failures: 0
+2026-07-01 11:56:17 | INFO | Skipped: 0
+2026-07-01 11:56:17 | INFO | Checklist final status: 64 analyzed, 0 failed, 0 marked
+2026-07-01 11:56:17 | INFO | Workers: 4
+2026-07-01 11:56:17 | INFO | ================================================================================
+2026-07-01 11:56:17 | INFO | Session state: ANALYZING → TEMPLATING
+2026-07-01T11:58:33.481Z | INFO | Consolidating fingerprints from page catalogs...
+2026-07-01T11:58:33.516Z | INFO | consolidate-fingerprints - Consolidated 64 fingerprints
+2026-07-01 11:58:53 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-07-01 11:58:53 | INFO | Agent 4 Progress - Starting representative pass with 7 page(s) and 58 block occurrence(s)
+2026-07-01 11:58:53 | INFO | Agent 4 Progress - representative: 7/7 page(s), 58/58 block occurrence(s), 25 unique signatures, 25 variants (23 new, 35 reused)
+2026-07-01 11:58:53 | INFO | Agent 4 Progress - Starting backfill pass with 57 page(s) and 533 block occurrence(s)
+2026-07-01 11:58:53 | INFO | Agent 4 Progress - backfill: 25/57 page(s), 227/533 block occurrence(s), 29 unique signatures, 29 variants (27 new, 258 reused)
+2026-07-01 11:58:53 | INFO | Agent 4 Progress - backfill: 50/57 page(s), 463/533 block occurrence(s), 31 unique signatures, 31 variants (29 new, 492 reused)
+2026-07-01 11:58:53 | INFO | Agent 4 Progress - backfill: 57/57 page(s), 533/533 block occurrence(s), 31 unique signatures, 31 variants (29 new, 562 reused)
+2026-07-01 11:58:53 | INFO | Agent 4 Completed - Cataloged 31 block variants (29 new, 562 reused)
+2026-07-01 11:58:53 | INFO | Agent 2 Started - Generate summary.json
+2026-07-01 11:58:53 | INFO | Session state set to INACTIVE
+2026-07-01 11:58:53 | INFO | Agent 2 Completed - Summary generated successfully

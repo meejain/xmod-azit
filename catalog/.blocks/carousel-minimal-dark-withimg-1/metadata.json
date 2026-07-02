@@ -1,0 +1,76 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-1",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 5 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 5 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + 5 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/",
+        "screenshot": ".pages/petrobras_com_br--64872776/blocks/carousel-2e9319cf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_assistencia-tecnica--734ffd77/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_carreiras--59c53b01/blocks/carousel-2d5db8fd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_eventos--4f713a52/blocks/carousel-2b971086.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_socioambiental--a3230219/blocks/carousel-5551e7d0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_inovacao-aberta--a4d3fd4e/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_assistencia-tecnica--c5565b0b/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/carousel-2d5db8fd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_complexo-boaventura--92450213/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_eventos--55cf47d4/blocks/carousel-2b971086.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_socioambiental--abd06c59/blocks/carousel-5551e7d0.jpg"
+      }
+    ],
+    "reuseCount": 12
+  }
+}

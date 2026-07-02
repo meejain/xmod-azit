@@ -1,0 +1,40 @@
+{
+  "variantName": "accordion-minimal-dark-5",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/privacy-protection-personal-data",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text + 8 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + 8 CTAs + list\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 8 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_en_privacy-protection-personal-data--511e645c/blocks/accordion-db3aa09.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados--6ca8e6a9/blocks/accordion-db3aa09.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_privacy-protection-personal-data--458a7de4/blocks/accordion-db3aa09.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

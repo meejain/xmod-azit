@@ -1,0 +1,313 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/cadastro",
+  "timestamp": "2026-07-01T12:07:07.104Z",
+  "duration": "10.4s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/cadastro",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 35
+      },
+      {
+        "tag": "a",
+        "fontSize": 13,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#009030",
+        "backgroundColor": "#f0f0f0",
+        "x": 72,
+        "y": 0,
+        "width": 82,
+        "height": 15,
+        "textLength": 12
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Cadastro | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 875
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 46,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 165,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-4ff7c7f8",
+      "type": "hero",
+      "confidence": "medium",
+      "description": "form block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": true,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "#main-content",
+      "bounds": {
+        "x": 0,
+        "y": 258,
+        "width": 1440,
+        "height": 0
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "reclassifiedFrom": "form"
+    },
+    {
+      "id": "form-3eb25f69",
+      "type": "form",
+      "confidence": "low",
+      "description": "form + 2 paragraphs block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 2,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": true,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "selector": "div.lfr-layout-structure-item-selecione-um-idioma.lfr-layout-structure-item-d5a3c94a-fbe2-4f90-154c-a381b5804fcb",
+      "bounds": {
+        "x": 0,
+        "y": 258,
+        "width": 1440,
+        "height": 0
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "form-77826036",
+      "type": "form",
+      "confidence": "high",
+      "description": "form block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 7,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": true,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "selector": "div.lfr-layout-structure-item-op--es-de-acessibilidade.lfr-layout-structure-item-716be3be-392a-e8c4-b395-ad5186c29dfe",
+      "bounds": {
+        "x": 0,
+        "y": 258,
+        "width": 1440,
+        "height": 0
+      },
+      "screenshot": null,
+      "error": "Element not visible"
+    },
+    {
+      "id": "form-30f026ed",
+      "type": "form",
+      "confidence": "low",
+      "description": "form + 1 paragraph block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": true,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "selector": "div.lfr-layout-structure-item-busca.lfr-layout-structure-item-b3759d55-71dd-9b2c-5ec1-68778c23e6bc",
+      "bounds": {
+        "x": 0,
+        "y": 258,
+        "width": 1440,
+        "height": 0
+      },
+      "screenshot": null,
+      "error": "Element not visible",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "embed-335bdad9",
+      "type": "embed",
+      "confidence": "high",
+      "description": "7 images block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 7,
+        "buttonCount": 0,
+        "linkCount": 7,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "7 images"
+      },
+      "selector": "div.social-media-footer",
+      "bounds": {
+        "x": 0,
+        "y": 258,
+        "width": 1440,
+        "height": 36
+      },
+      "screenshot": "blocks/embed-335bdad9.jpg"
+    }
+  ]
+}

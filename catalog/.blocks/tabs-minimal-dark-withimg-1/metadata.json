@@ -1,0 +1,35 @@
+{
+  "variantName": "tabs-minimal-dark-withimg-1",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 13 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 13 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/tabs-745cb032.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_fertilizantes--a1277641/blocks/tabs-745cb032.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

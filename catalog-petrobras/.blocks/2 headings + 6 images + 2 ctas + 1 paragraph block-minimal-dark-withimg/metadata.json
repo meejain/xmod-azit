@@ -1,0 +1,35 @@
+{
+  "variantName": "2 headings + 6 images + 2 ctas + 1 paragraph block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.223Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/investimento-socioambiental",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 2 CTAs + 6 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 2 CTAs + 6 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/investimento-socioambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_investimento-socioambiental--f2f2a9f2/blocks/unknown-d90ec9b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/investimento-socioambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_investimento-socioambiental--44d1a86d/blocks/unknown-d90ec9b.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

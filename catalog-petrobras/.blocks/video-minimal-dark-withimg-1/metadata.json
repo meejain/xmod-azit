@@ -1,0 +1,35 @@
+{
+  "variantName": "video-minimal-dark-withimg-1",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/para-criancas/jornada-da-energia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 14 CTAs + 6 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"video\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 14 CTAs + 6 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/para-criancas/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_en_para-criancas_jornada-da-energia--48a13d97/blocks/video-b843c97.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/para-criancas/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_para-criancas_jornada-da-energia--d8a869d8/blocks/video-b843c97.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

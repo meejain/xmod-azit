@@ -1,0 +1,39 @@
+{
+  "variantName": "4 headings + 4 images block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.219Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/concursos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_concursos--95f9ce8d/blocks/unknown-15fcba33.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_concursos--30749157/blocks/unknown-15fcba33.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/unknown-71070493.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

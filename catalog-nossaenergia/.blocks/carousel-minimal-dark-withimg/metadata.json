@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-minimal-dark-withimg",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.746Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 14 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 14 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br--6fe37d71/blocks/carousel-7936ceba.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

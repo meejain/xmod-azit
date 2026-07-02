@@ -1,0 +1,363 @@
+{
+  "url": "https://pbio.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+  "timestamp": "2026-06-30T20:52:29.473Z",
+  "duration": "69.7s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 225
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 225
+      },
+      {
+        "type": "text",
+        "x": 406,
+        "y": 75,
+        "width": 181,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 587,
+        "y": 75,
+        "width": 131,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 718,
+        "y": 75,
+        "width": 286,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 115,
+        "width": 599,
+        "height": 76
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 406,
+        "y": 75,
+        "width": 181,
+        "height": 21,
+        "textLength": 24
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 608,
+        "y": 75,
+        "width": 131,
+        "height": 21,
+        "textLength": 20
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 420,
+        "y": 96,
+        "width": 286,
+        "height": 21,
+        "textLength": 41
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 136,
+        "width": 632,
+        "height": 77,
+        "textLength": 41
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 238
+      }
+    ],
+    "topSectionCropBottomY": 213,
+    "topSectionTitleRect": {
+      "x": 404,
+      "y": 136,
+      "width": 632,
+      "height": 77,
+      "text": "Licitações, Contratos e Aquisição de Bens"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 225,
+      "width": 1440,
+      "height": 1228
+    },
+    "bodyStartY": 225,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 179,
+        "y": 248,
+        "width": 378,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 601,
+        "y": 248,
+        "width": 529,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 92,
+        "y": 249,
+        "width": 43,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 329,
+        "width": 560,
+        "height": 79
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 610,
+        "width": 441,
+        "height": 76
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 738,
+        "width": 523,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 476,
+        "y": 809,
+        "width": 437,
+        "height": 38
+      },
+      {
+        "type": "image",
+        "x": 440,
+        "y": 816,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 984,
+        "width": 439,
+        "height": 115
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1150,
+        "width": 567,
+        "height": 194
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-494cd0f1",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 5 CTAs + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 5,
+        "linkCount": 5,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 5 CTAs + image + list"
+      },
+      "selector": "div.lfr-layout-structure-item-a1fe871f-b55a-8996-7e5c-d227b1270ffd.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 286
+      },
+      "screenshot": "blocks/hero-494cd0f1.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-7e698045",
+      "type": "default",
+      "confidence": "low",
+      "description": "fragment_",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "div.fragment_1174685.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 362,
+        "width": 1296,
+        "height": 166
+      },
+      "screenshot": "blocks/default-7e698045.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-1f1bd31f",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-48ddea91-8e97-147e-e849-707c6050fa59 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 608,
+        "width": 1296,
+        "height": 374
+      },
+      "screenshot": "blocks/default-1f1bd31f.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-167d4f2a",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-bc88e776-67e8-e11f-4a52-c201817e93d4 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 982,
+        "width": 1296,
+        "height": 537
+      },
+      "screenshot": "blocks/default-167d4f2a.jpg",
+      "reclassifiedFrom": "columns"
+    }
+  ]
+}

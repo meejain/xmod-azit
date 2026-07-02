@@ -1,0 +1,43 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.894Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/acesso-a-informacao/empregados-publicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_empregados-publicos--115eb13e/blocks/unknown-3cedae2f.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional--08d6edca/blocks/unknown-6d06110.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_ouvidoria--519eb727/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--ef01c653/blocks/unknown-35a4c9e7.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

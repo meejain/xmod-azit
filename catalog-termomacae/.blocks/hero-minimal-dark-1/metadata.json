@@ -1,0 +1,231 @@
+{
+  "variantName": "hero-minimal-dark-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.234Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/acesso-a-informacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao--2b5943a5/blocks/hero-213c48dc.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas--202009b5/blocks/hero-5a846208.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--e99df52f/blocks/hero-5a57b68a.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_governanca--571bf599/blocks/hero-5a57b68a.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--6de4d1aa/blocks/hero-25ee1de.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--64aeea49/blocks/hero-5a57b68a.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/auditorias",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_auditorias--8b0580d2/blocks/hero-7350567f.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--885edd54/blocks/hero-7d5d2f2f.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--5fe6c853/blocks/hero-30129c44.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--7adaf195/blocks/hero-4a971413.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--bbf77e68/blocks/hero-56a5034e.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_convenios-e-transferencias--ea403b07/blocks/hero-27bbbd2c.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/dados-abertos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_dados-abertos--9d6f6efa/blocks/hero-3941eefc.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_empregados-publicos--ba5f2635/blocks/hero-1c73e57f.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/informacoes-classificadas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_informacoes-classificadas--33aa4f15/blocks/hero-39db569a.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional--fdc7107e/blocks/hero-18a0733d.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--b6845da1/blocks/hero-3617f41a.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/atas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_atas--f149e195/blocks/hero-199e340.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/atos-normativos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_atos-normativos--545b79b1/blocks/hero-10609b79.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/horario-de-atendimento",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_horario-de-atendimento--af50ee21/blocks/hero-7f06dc4.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/hospitalidades",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_hospitalidades--ac88a40a/blocks/hero-fb357a9.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/presentes",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_presentes--c0f1d5d9/blocks/hero-9f23560.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional/sobre",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional_sobre--f0f06fd4/blocks/hero-3e5f7d.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos--e94b6a16/blocks/hero-64f0b877.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--954f99db/blocks/hero-15a04906.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a4f15e79/blocks/hero-76ba56a4.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--d9e7d3cc/blocks/hero-15246c78.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--bf38c657/blocks/hero-6f39087c.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--36258a17/blocks/hero-1e0219ac.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social--a8c8f582/blocks/hero-76c988f9.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/audiencias-publicas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--bcf8ea71/blocks/hero-6c95730f.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/conferencias",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_conferencias--5471877b/blocks/hero-7df17ddb.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--92dac4d0/blocks/hero-22e130fc.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--fd517398/blocks/hero-7df17ddb.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/outras-acoes",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_outras-acoes--5a0e518c/blocks/hero-21351d22.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_ouvidoria--f7135759/blocks/hero-1aa9f680.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_perguntas-frequentes--11259cf2/blocks/hero-793dc5db.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas--00b58214/blocks/hero-fade4af.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--cb440b41/blocks/hero-1ac8423c.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--1366349f/blocks/hero-37b9b6eb.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--24d3e880/blocks/hero-75c74e00.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--27833d29/blocks/hero-32e0a1c.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--af8ceaea/blocks/hero-434b34db.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--33971fa0/blocks/hero-626e00b1.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/publicidade",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--f4a12008/blocks/hero-3fb325d2.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/receitas-e-despesas/receitas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_receitas--d6d69093/blocks/hero-41b8eb19.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_sancoes-administrativas--bb51f2c3/blocks/hero-62839881.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596/blocks/hero-5384a50f.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--aff8db01/blocks/hero-1d63bda3.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--bc160276/blocks/hero-d4f0abf.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9cc179c/blocks/hero-6cc6758d.jpg"
+      }
+    ],
+    "reuseCount": 51
+  }
+}

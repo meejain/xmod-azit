@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-minimal-dark-withimg",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.435Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 5 CTAs + 5 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 5 CTAs + 5 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/",
+        "screenshot": ".pages/transparencia_petrobras_com_br--d11b5b77/blocks/hero-443d1edd.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/home",
+        "screenshot": ".pages/transparencia_petrobras_com_br_home--9081fd60/blocks/hero-443d1edd.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-minimal-light",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.746Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/produtos-mais-sustentaveis",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/produtos-mais-sustentaveis",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-746d7fc4.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

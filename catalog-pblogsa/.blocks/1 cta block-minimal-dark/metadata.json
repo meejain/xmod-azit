@@ -1,0 +1,31 @@
+{
+  "variantName": "1 cta block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/outras-informacoes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "1 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"1 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/outras-informacoes",
+        "screenshot": ".pages/pblogsa_com_br_outras-informacoes--1347e241/blocks/unknown-2b147e6a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

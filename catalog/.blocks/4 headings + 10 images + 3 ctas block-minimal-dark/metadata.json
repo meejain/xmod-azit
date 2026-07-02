@@ -1,0 +1,43 @@
+{
+  "variantName": "4 headings + 10 images + 3 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/diesel-r5",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 3 CTAs + 10 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 3 CTAs + 10 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-r5--f691e024/blocks/unknown-3c5b100d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/raro-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_raro-petrobras--3ef6e63c/blocks/unknown-43b5b861.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-r5--634373ab/blocks/unknown-3c5b100d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/raro-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_raro-petrobras--b6cbc77c/blocks/unknown-43b5b861.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

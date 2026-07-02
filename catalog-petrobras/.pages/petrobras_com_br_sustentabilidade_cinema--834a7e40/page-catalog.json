@@ -1,0 +1,1305 @@
+{
+  "url": "https://petrobras.com.br/sustentabilidade/cinema",
+  "timestamp": "2026-07-01T15:46:47.415Z",
+  "duration": "41.6s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/sustentabilidade/cinema",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 375
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 140,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 1195,
+        "y": 16,
+        "width": 100,
+        "height": 68
+      },
+      {
+        "type": "text",
+        "x": 417,
+        "y": 28,
+        "width": 151,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 617,
+        "y": 28,
+        "width": 131,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 792,
+        "y": 28,
+        "width": 159,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 1000,
+        "y": 38,
+        "width": 51,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 1091,
+        "y": 38,
+        "width": 64,
+        "height": 28
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 1336,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "image",
+        "x": 561,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 736,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 944,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1288,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 192,
+        "y": 147,
+        "width": 36,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 268,
+        "y": 147,
+        "width": 102,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 410,
+        "y": 147,
+        "width": 67,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 517,
+        "y": 147,
+        "width": 46,
+        "height": 18
+      },
+      {
+        "type": "background",
+        "x": 230,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "background",
+        "x": 372,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "background",
+        "x": 479,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 264,
+        "width": 496,
+        "height": 91
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "button",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 28
+      },
+      {
+        "tag": "a",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#009030",
+        "backgroundColor": "#f0f0f0",
+        "x": 1000,
+        "y": 38,
+        "width": 51,
+        "height": 24,
+        "textLength": 7
+      },
+      {
+        "tag": "a",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#009030",
+        "backgroundColor": "#f0f0f0",
+        "x": 1091,
+        "y": 38,
+        "width": 64,
+        "height": 24,
+        "textLength": 8
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 192,
+        "y": 145,
+        "width": 36,
+        "height": 22,
+        "textLength": 4
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 268,
+        "y": 145,
+        "width": 102,
+        "height": 22,
+        "textLength": 16
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 410,
+        "y": 145,
+        "width": 67,
+        "height": 22,
+        "textLength": 11
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 508,
+        "y": 144,
+        "width": 64,
+        "height": 24,
+        "textLength": 6
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 183,
+        "y": 264,
+        "width": 521,
+        "height": 91,
+        "textLength": 53
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "svg",
+        "x": 72,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "kind": "svg",
+        "x": 561,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 736,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 944,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 1288,
+        "y": 42,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "kind": "svg",
+        "x": 1336,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "kind": "svg",
+        "x": 776,
+        "y": 0,
+        "width": 727,
+        "height": 709
+      },
+      {
+        "kind": "img",
+        "x": 768,
+        "y": 0,
+        "width": 735,
+        "height": 848
+      },
+      {
+        "kind": "background-image",
+        "x": 230,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "kind": "background-image",
+        "x": 372,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "kind": "background-image",
+        "x": 479,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      }
+    ],
+    "topSectionCropBottomY": 356,
+    "topSectionTitleRect": {
+      "x": 183,
+      "y": 264,
+      "width": 521,
+      "height": 91,
+      "text": "Nossa energia está nas histórias do cinema brasileiro"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 375,
+      "width": 1440,
+      "height": 6586
+    },
+    "bodyStartY": 375,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 768,
+        "y": 375,
+        "width": 672,
+        "height": 473
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 404,
+        "width": 519,
+        "height": 89
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 732,
+        "width": 533,
+        "height": 77
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 869,
+        "width": 627,
+        "height": 108
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 995,
+        "width": 1440,
+        "height": 1064
+      },
+      {
+        "type": "text",
+        "x": 410,
+        "y": 1325,
+        "width": 125,
+        "height": 47
+      },
+      {
+        "type": "text",
+        "x": 416,
+        "y": 1453,
+        "width": 80,
+        "height": 47
+      },
+      {
+        "type": "text",
+        "x": 528,
+        "y": 1453,
+        "width": 306,
+        "height": 23
+      },
+      {
+        "type": "text",
+        "x": 528,
+        "y": 1526,
+        "width": 614,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 525,
+        "y": 1777,
+        "width": 48,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 705,
+        "y": 1777,
+        "width": 48,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 885,
+        "y": 1777,
+        "width": 48,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 1065,
+        "y": 1777,
+        "width": 48,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 1245,
+        "y": 1777,
+        "width": 48,
+        "height": 28
+      },
+      {
+        "type": "image",
+        "x": 534,
+        "y": 1893,
+        "width": 14,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 574,
+        "y": 1893,
+        "width": 14,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 1360,
+        "y": 1893,
+        "width": 14,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2141,
+        "width": 596,
+        "height": 77
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2277,
+        "width": 627,
+        "height": 137
+      },
+      {
+        "type": "text",
+        "x": 293,
+        "y": 2498,
+        "width": 501,
+        "height": 29
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 2572,
+        "width": 853,
+        "height": 409
+      },
+      {
+        "type": "image",
+        "x": 1111,
+        "y": 2766,
+        "width": 10,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 293,
+        "y": 3006,
+        "width": 374,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3110,
+        "width": 582,
+        "height": 77
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3247,
+        "width": 631,
+        "height": 80
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3410,
+        "width": 156,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 3494,
+        "width": 623,
+        "height": 108
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 3686,
+        "width": 853,
+        "height": 409
+      },
+      {
+        "type": "text",
+        "x": 293,
+        "y": 4121,
+        "width": 507,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 4225,
+        "width": 152,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 4309,
+        "width": 627,
+        "height": 137
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 4530,
+        "width": 853,
+        "height": 409
+      },
+      {
+        "type": "text",
+        "x": 293,
+        "y": 4965,
+        "width": 337,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5069,
+        "width": 300,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5154,
+        "width": 632,
+        "height": 166
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 5404,
+        "width": 853,
+        "height": 409
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 5892,
+        "width": 589,
+        "height": 77
+      },
+      {
+        "type": "image",
+        "x": 1249,
+        "y": 6222,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1301,
+        "y": 6222,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 6379,
+        "width": 189,
+        "height": 37
+      },
+      {
+        "type": "text",
+        "x": 1076,
+        "y": 6401,
+        "width": 292,
+        "height": 17
+      },
+      {
+        "type": "form",
+        "x": 1101,
+        "y": 6437,
+        "width": 222,
+        "height": 40
+      },
+      {
+        "type": "image",
+        "x": 1323,
+        "y": 6445,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 74,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 166,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 212,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 258,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 304,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 350,
+        "y": 6463,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "image",
+        "x": 84,
+        "y": 6468,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 130,
+        "y": 6468,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 176,
+        "y": 6473,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 222,
+        "y": 6473,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 268,
+        "y": 6473,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 314,
+        "y": 6473,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 360,
+        "y": 6473,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 940,
+        "y": 6562,
+        "width": 428,
+        "height": 265
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 6564,
+        "width": 300,
+        "height": 227
+      },
+      {
+        "type": "text",
+        "x": 306,
+        "y": 6564,
+        "width": 371,
+        "height": 227
+      },
+      {
+        "type": "text",
+        "x": 587,
+        "y": 6564,
+        "width": 477,
+        "height": 191
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 6901,
+        "width": 512,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 1022,
+        "y": 6901,
+        "width": 346,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "carousel-61850d01",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-e52c49c7-72ae-1732-6395-bcf592c893c5.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 152,
+        "width": 1440,
+        "height": 588
+      },
+      "screenshot": "blocks/carousel-61850d01.jpg"
+    },
+    {
+      "id": "default-9e827e5",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-1218a897-0b32-4d1a-bfec-6930012890b5 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 740,
+        "width": 1296,
+        "height": 329
+      },
+      "screenshot": "blocks/default-9e827e5.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "hero-3595883c",
+      "type": "hero",
+      "confidence": "low",
+      "description": "42 headings + 15 images + 4 CTAs block",
+      "content": {
+        "headingCount": 42,
+        "paragraphCount": 15,
+        "imageCount": 15,
+        "buttonCount": 4,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + 4 CTAs + 15 images"
+      },
+      "selector": "#fragment-ede77e08-b59c-0201-91b2-62165cbb589d",
+      "bounds": {
+        "x": 0,
+        "y": 1293,
+        "width": 1440,
+        "height": 846
+      },
+      "screenshot": "blocks/hero-3595883c.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-7009142c",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-3fcd6551-cf50-7094-c5c6-51c28cccad61 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2149,
+        "width": 1296,
+        "height": 357
+      },
+      "screenshot": "blocks/default-7009142c.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "carousel-5c962ff1",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 8 images block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 8,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 8 images"
+      },
+      "selector": "div.lfr-layout-structure-item-ca321673-f147-cd4c-e158-7cbfbac4dbe5.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 2506,
+        "width": 1440,
+        "height": 612
+      },
+      "screenshot": "blocks/carousel-5c962ff1.jpg"
+    },
+    {
+      "id": "default-795dd8f8",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-1c7d013c-015d-8eb7-ef65-cd96c41ed3b6 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3118,
+        "width": 1296,
+        "height": 300
+      },
+      "screenshot": "blocks/default-795dd8f8.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-3e43fa5f",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-9864c1fc-401d-e7f0-4725-c1cf2d2b9985 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3417,
+        "width": 1296,
+        "height": 276
+      },
+      "screenshot": "blocks/default-3e43fa5f.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-32f63961",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "div.lfr-layout-structure-item-2365fc7b-223e-6e73-5a73-c9328cb9d7f2.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 3694,
+        "width": 1440,
+        "height": 538
+      },
+      "screenshot": "blocks/default-32f63961.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-5e6729a7",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-8dc81ba7-53bc-c24b-21bd-dc651626c916 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 4232,
+        "width": 1296,
+        "height": 305
+      },
+      "screenshot": "blocks/default-5e6729a7.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "carousel-776f8c19",
+      "type": "carousel",
+      "confidence": "low",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "div.lfr-layout-structure-item-estrutura---galeria.lfr-layout-structure-item-1d234076-8213-4a26-c63c-31580fe77ebe",
+      "bounds": {
+        "x": 0,
+        "y": 4537,
+        "width": 1440,
+        "height": 538
+      },
+      "screenshot": "blocks/carousel-776f8c19.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-8b5aaf0",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-5e174e0c-3583-dd39-3656-9dce975ec9bb > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 5076,
+        "width": 1296,
+        "height": 334
+      },
+      "screenshot": "blocks/default-8b5aaf0.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "carousel-5884af47",
+      "type": "carousel",
+      "confidence": "low",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "div.lfr-layout-structure-item-estrutura---galeria.lfr-layout-structure-item-ec9fe28c-91fb-8bf5-b301-77fdf3ffb9cf",
+      "bounds": {
+        "x": 0,
+        "y": 5410,
+        "width": 1440,
+        "height": 489
+      },
+      "screenshot": "blocks/carousel-5884af47.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-4b2f446b",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-572dadbb-1f91-f7b9-6f80-19ae993bde49 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 5898,
+        "width": 1296,
+        "height": 181
+      },
+      "screenshot": "blocks/default-4b2f446b.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "carousel-367a09fc",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.fragment_90062.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 6080,
+        "width": 1296,
+        "height": 296
+      },
+      "screenshot": "blocks/carousel-367a09fc.jpg"
+    }
+  ]
+}

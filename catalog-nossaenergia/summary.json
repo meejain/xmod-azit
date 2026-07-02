@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://nossaenergia.petrobras.com.br/",
+      "siteName": "nossaenergia.petrobras.com.br",
+      "analysisDate": "2026-07-01"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 190,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 190
+        }
+      ],
+      "totalTemplates": 20,
+      "totalBlockTypes": 7,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 5,
+      "pagesAnalyzed": 190,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 4
+    }
+  }
+}

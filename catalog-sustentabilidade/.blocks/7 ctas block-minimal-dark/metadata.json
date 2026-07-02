@@ -1,0 +1,35 @@
+{
+  "variantName": "7 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.865Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "7 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"7 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/unknown-3cd9e98c.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/home",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_home--fca13a48/blocks/unknown-3cd9e98c.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

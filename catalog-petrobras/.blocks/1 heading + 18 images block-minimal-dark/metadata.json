@@ -1,0 +1,35 @@
+{
+  "variantName": "1 heading + 18 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.214Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 18 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 18 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_biodiversidade--881028f1/blocks/unknown-1d00c5c1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_biodiversidade--83f1cfa5/blocks/unknown-1d00c5c1.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

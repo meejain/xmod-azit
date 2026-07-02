@@ -1,0 +1,313 @@
+{
+  "url": "https://pben.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+  "timestamp": "2026-06-30T21:18:20.568Z",
+  "duration": "69.3s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/auditorias/prestacao-de-contas",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 598
+    },
+    "topSectionStrategy": "fallback",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 517,
+        "y": 75,
+        "width": 286,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 803,
+        "y": 75,
+        "width": 149,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 952,
+        "y": 75,
+        "width": 72,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 1024,
+        "y": 75,
+        "width": 145,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 115,
+        "width": 778,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 238,
+        "width": 778,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 305,
+        "width": 678,
+        "height": 64
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 392,
+        "width": 846,
+        "height": 206
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 8,
+        "y": 341,
+        "width": 96,
+        "height": 26,
+        "textLength": 13
+      },
+      {
+        "tag": "span",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 8,
+        "y": 399,
+        "width": 156,
+        "height": 26,
+        "textLength": 17
+      },
+      {
+        "tag": "span",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 8,
+        "y": 457,
+        "width": 150,
+        "height": 26,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 517,
+        "y": 75,
+        "width": 286,
+        "height": 21,
+        "textLength": 59
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 824,
+        "y": 75,
+        "width": 149,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 994,
+        "y": 75,
+        "width": 72,
+        "height": 21,
+        "textLength": 10
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 1087,
+        "y": 75,
+        "width": 145,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 115,
+        "width": 853,
+        "height": 46,
+        "textLength": 36
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#006060",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 238,
+        "width": 853,
+        "height": 38,
+        "textLength": 36
+      },
+      {
+        "tag": "p",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#006060",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 301,
+        "width": 853,
+        "height": 72,
+        "textLength": 76
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 500,
+    "topSectionTitleRect": null,
+    "bodyBounds": {
+      "x": 0,
+      "y": 598,
+      "width": 1440,
+      "height": 806
+    },
+    "bodyStartY": 598,
+    "bodyPlaceholders": []
+  },
+  "blocks": [
+    {
+      "id": "hero-4a971413",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 1,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + list"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-7b5c723e-c6a5-c960-85fd-43c6a9163d59",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-4a971413.jpg"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 386
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "hero"
+    }
+  ]
+}

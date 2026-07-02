@@ -1,0 +1,43 @@
+{
+  "variantName": "5 headings + 12 images + 4 ctas block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/energia-em-transformacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 4 CTAs + 12 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 4 CTAs + 12 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/unknown-2d61214.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_en_transicao-energetica--a7fe59d8/blocks/unknown-77264019.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_energia-em-transformacao--19501090/blocks/unknown-2d61214.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica--b7996fe9/blocks/unknown-2d61214.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

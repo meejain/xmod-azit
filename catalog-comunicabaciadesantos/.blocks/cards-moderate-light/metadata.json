@@ -1,0 +1,51 @@
+{
+  "variantName": "cards-moderate-light",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.433Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/caracterizacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/caracterizacao",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_caracterizacao--b566b4e4/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/condicionantes",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_condicionantes--8f868b33/blocks/cards-3615529e.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-avaliacao-de-impactos-resultantes-daperfuracao-pai-bs-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-avaliacao-de-impactos-resultantes-daperfuracao-pai-bs---82df3daf/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-caracterizacao-de-territorios-tradicionais-pctt-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-caracterizacao-de-territorios-tradicionais-pctt---fd4355ea/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-caracterizacao-regional-da-bacia-de-santos-pcr-bs-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-caracterizacao-regional-da-bacia-de-santos-pcr-bs---9b5ab2c3/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-caracterizacao-socioeconomica-da-pesca-e-aquicultura-pcspa-bs-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-caracterizacao-socioeconomica-da-pesca-e-aquicultura-pcspa-bs---9641077a/blocks/cards-2bb6f93.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-withimg",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/compliance/conexoes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/conexoes",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_conexoes--0e29e38e/blocks/columns-340498ab.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

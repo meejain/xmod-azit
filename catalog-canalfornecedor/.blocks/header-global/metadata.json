@@ -1,0 +1,26 @@
+{
+  "variantName": "header-global",
+  "baseBlock": "header",
+  "canonicalModel": "configuration",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:23:59.782Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/",
+    "discoveredDuring": "global-header-capture"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "complexity": "moderate",
+    "density": "moderate"
+  },
+  "knownSignatures": [],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/",
+        "screenshot": ".pages/_global/header.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

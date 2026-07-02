@@ -1,0 +1,31 @@
+{
+  "variantName": "1 heading + 1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:35:10.432Z",
+  "sourceContext": {
+    "originUrl": "https://comunicaespiritosanto.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br--caec7366/blocks/unknown-5bbc891f.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

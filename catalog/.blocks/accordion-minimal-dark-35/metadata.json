@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-35",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.229Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/refinaria-presidente-bernardes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "2 CTAs + 15 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"2 CTAs + 15 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-bernardes--ffd19a35/blocks/accordion-79d82f1d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

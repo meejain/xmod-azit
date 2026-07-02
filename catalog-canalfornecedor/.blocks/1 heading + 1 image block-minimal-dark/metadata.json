@@ -1,0 +1,47 @@
+{
+  "variantName": "1 heading + 1 image block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/unknown-57e17519.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e/blocks/unknown-3ba8624a.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25/blocks/unknown-57e17519.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_formas-de-contratacao-da-petrobras--efc92401/blocks/unknown-57e17519.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_conteudo-do-edital--2088a463/blocks/unknown-57e17519.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

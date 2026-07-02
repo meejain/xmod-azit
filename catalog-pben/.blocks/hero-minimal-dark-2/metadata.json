@@ -1,0 +1,55 @@
+{
+  "variantName": "hero-minimal-dark-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.719Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--9cb1a6fd/blocks/hero-23a05952.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_governanca--45041771/blocks/hero-36334dc3.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--51c05f3d/blocks/hero-2c9a9e6a.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--bf332410/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_institucional--092ff959/blocks/hero-2e2578bc.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9e7d21ed/blocks/hero-2d433b83.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--c1997d63/blocks/hero-12b69286.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

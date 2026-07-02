@@ -1,0 +1,71 @@
+{
+  "variantName": "hero-minimal-dark-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--74750780/blocks/hero-6e0552be.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_governanca--dd749547/blocks/hero-2b491cec.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--63c47957/blocks/hero-110b1b2b.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--6e36bb34/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/dados-abertos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_dados-abertos--45083830/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_institucional--a8690fa6/blocks/hero-5e6a9473.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a31c6613/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_participacao-social_ouvidoria--5a2e90f1/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--5163d449/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--2bf5e9ba/blocks/hero-1fe041c0.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--1ce2a4ca/blocks/hero-17c790da.jpg"
+      }
+    ],
+    "reuseCount": 11
+  }
+}

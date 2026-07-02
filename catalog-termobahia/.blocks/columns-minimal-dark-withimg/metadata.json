@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-withimg",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.893Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3b04afc2/blocks/columns-16b1599c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

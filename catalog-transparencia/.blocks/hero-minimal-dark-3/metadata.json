@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-minimal-dark-3",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.438Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_transparencia-e-prestacao-de-contas--f2086d3e/blocks/hero-38540678.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

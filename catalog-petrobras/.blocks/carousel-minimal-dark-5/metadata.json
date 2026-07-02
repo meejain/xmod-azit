@@ -1,0 +1,36 @@
+{
+  "variantName": "carousel-minimal-dark-5",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/liderancas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 8 CTAs + 24 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 8 CTAs + 24 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 8 CTAs + 24 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_liderancas--493a6a78/blocks/carousel-20af96eb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/carousel-20af96eb.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

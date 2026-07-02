@@ -1,0 +1,31 @@
+{
+  "variantName": "4 images + 4 lists block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/estrategia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "4 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"4 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estrategia--621edce9/blocks/unknown-3c9a3598.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

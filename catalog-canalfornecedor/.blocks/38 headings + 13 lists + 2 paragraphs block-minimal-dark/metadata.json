@@ -1,0 +1,35 @@
+{
+  "variantName": "38 headings + 13 lists + 2 paragraphs block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_eventos--6a762ae5/blocks/unknown-56d86afb.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_eventos--7662190c/blocks/unknown-56d86afb.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

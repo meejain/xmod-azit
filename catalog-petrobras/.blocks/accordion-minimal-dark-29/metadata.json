@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-29",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.227Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/estagios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 10 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 10 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estagios--e55fc8bd/blocks/accordion-49288f82.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

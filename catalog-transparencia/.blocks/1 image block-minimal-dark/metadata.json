@@ -1,0 +1,35 @@
+{
+  "variantName": "1 image block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.437Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/transparencia_petrobras_com_br_contratos-de-transferencia-de-tecnologia--8b30ee3e/blocks/unknown-6b89519e.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/convenios-e-transferencias",
+        "screenshot": ".pages/transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9/blocks/unknown-53530e6e.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

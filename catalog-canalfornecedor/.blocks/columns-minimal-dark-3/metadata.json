@@ -1,0 +1,67 @@
+{
+  "variantName": "columns-minimal-dark-3",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58/blocks/columns-6de0c2af.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/sustentabilidade",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_sustentabilidade--f3a9b07a/blocks/columns-1f40467d.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_eventos--6a762ae5/blocks/columns-16def2a7.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_eventos--7662190c/blocks/columns-16def2a7.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/consulta-tributos-retidos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_consulta-tributos-retidos--647c7f49/blocks/columns-21fa5329.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_diligenciamento-de-pedido-de-bens--0c8ee9d2/blocks/columns-46c7b4a8.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/pagamentos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_pagamentos--817eacb2/blocks/columns-448284f7.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_pedidos-e-pagamentos--f995344d/blocks/columns-1ee2859e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/blocks/columns-321bd068.jpg"
+      }
+    ],
+    "reuseCount": 10
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-36",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.230Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "5 CTAs + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"5 CTAs + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/accordion-2fa26371.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

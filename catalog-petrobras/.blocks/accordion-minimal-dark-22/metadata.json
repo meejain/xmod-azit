@@ -1,0 +1,35 @@
+{
+  "variantName": "accordion-minimal-dark-22",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.222Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 5 CTAs + 4 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 5 CTAs + 4 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_porto-de-macae--3cab617f/blocks/accordion-378f7a45.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_porto-de-macae--aead1fef/blocks/accordion-378f7a45.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

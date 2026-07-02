@@ -1,0 +1,144 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-07-01T12:14:26.523Z",
+    "totalBlockVariants": 11,
+    "totalBlocksProcessed": 274,
+    "newVariantsCreated": 9,
+    "variantsReused": 244,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 138,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 36,
+        "description": "1 heading + 1 image + 1 paragraph block; 1 heading + 1 image block; 13 images + 12 CTAs block; form block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br--2424e4b6/blocks/hero-3b393945.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_agbs--0f2f88d4/blocks/hero-7a43e568.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_agbs--28bd815d/blocks/hero-7a43e568.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-1--da89144c/blocks/hero-59e813f7.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-2--46917856/blocks/hero-1d1ea726.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-3--3f121fc5/blocks/hero-6a8cf3de.jpg"
+        ]
+      },
+      "tabs-minimal-light": {
+        "blockVariantId": "tabs-minimal-light",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 18,
+        "description": "1 paragraph block; 2 paragraphs block; 3 paragraphs block; tabs-container",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_agbs--0f2f88d4/blocks/tabs-629e5bef.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_agbs--28bd815d/blocks/tabs-629e5bef.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-1--da89144c/blocks/tabs-629e5bef.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-2--46917856/blocks/tabs-629e5bef.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-3--3f121fc5/blocks/tabs-629e5bef.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-4--a36713e3/blocks/tabs-629e5bef.jpg"
+        ]
+      },
+      "form-minimal-dark": {
+        "blockVariantId": "form-minimal-dark",
+        "baseBlock": "form",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "19 images + form + 2-item layout block; form + 1 paragraph block; form + 2 paragraphs block; form block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_mapa--62cf140e/blocks/form-229a2a4d.jpg"
+        ]
+      },
+      "video-minimal-dark": {
+        "blockVariantId": "video-minimal-dark",
+        "baseBlock": "video",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "lfr-layout-structure-item-basic-component-external-video; video block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_plano-de-compensacao-da-atividade-pesqueira-pcap---e34f24b3/blocks/video-d4d0c00.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-monitoramento-da-atividade-pesqueira-pmap---367b4731/blocks/video-1598707a.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_royalties--8877afcc/blocks/video-2659b8d6.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "1 heading + 1 image block; 1 image + 1 paragraph block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br--2424e4b6/blocks/cards-2d06c9a9.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br--2424e4b6/blocks/cards-e5395d8.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br--2424e4b6/blocks/cards-72f1a82.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br--2424e4b6/blocks/cards-2cdae7cf.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_informe--4bdc6bb4/blocks/cards-1f5b43b4.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_informe--4bdc6bb4/blocks/cards-54d81a93.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "54 images + 1 paragraph block; 7 images block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_cadastro--a7dcde6b/blocks/embed-335bdad9.jpg",
+          ".pages/comunicabaciadesantos_petrobras_com_br_mapa--62cf140e/blocks/embed-118e59.jpg"
+        ]
+      },
+      "accordion-moderate-dark": {
+        "blockVariantId": "accordion-moderate-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "5-item layout block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_informe--4bdc6bb4/blocks/accordion-6a8ce1ba.jpg"
+        ]
+      },
+      "cards-moderate-dark": {
+        "blockVariantId": "cards-moderate-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "4-item layout block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_impactos--ebc6c0b2/blocks/cards-127a97db.jpg"
+        ]
+      },
+      "carousel-moderate-dark": {
+        "blockVariantId": "carousel-moderate-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "18 headings + 4-item layout block",
+        "screenshots": [
+          ".pages/comunicabaciadesantos_petrobras_com_br_glossario--e680cb94/blocks/carousel-3640e40f.jpg"
+        ]
+      }
+    }
+  }
+}

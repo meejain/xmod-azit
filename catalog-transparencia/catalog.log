@@ -1,0 +1,1600 @@
+2026-06-30 19:22:36 | INFO | Setting up catalog project for: https://transparencia.petrobras.com.br/
+2026-06-30 19:22:36 | INFO | Project root: /workspace
+2026-06-30 19:22:36 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 19:22:36 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 19:22:36 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 19:22:36 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 19:22:36 | INFO | Session initialized: DISCOVERY
+2026-06-30 19:22:36 | INFO | Catalog project setup complete
+2026-06-30 19:22:36 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 19:22:36 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 19:22:36 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 19:22:36 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+INFO | Agent 1 Started - URL discovery
+2026-06-30 19:22:46 | WARNING | HTTP status: 403
+2026-06-30 19:22:47 | WARNING | Fetch error: fetch failed
+2026-06-30 19:22:47 | INFO | Checking root page for sitemap-like links...
+2026-06-30 19:22:48 | WARNING | HTTP status: 403
+2026-06-30 19:22:48 | INFO | Trying sitemap candidates...
+2026-06-30 19:22:48 | INFO | Trying sitemap candidate: https://transparencia.petrobras.com.br/sitemap.xml
+2026-06-30 19:22:49 | INFO | Found sitemap at: https://transparencia.petrobras.com.br/sitemap.xml (sitemapindex)
+2026-06-30 19:22:49 | INFO | Trying sitemap candidate: https://transparencia.petrobras.com.br/sitemap.xml.gz
+2026-06-30 19:22:49 | WARNING | HTTP status: 403
+2026-06-30 19:22:49 | INFO | Trying sitemap candidate: https://transparencia.petrobras.com.br/sitemap_index.xml
+2026-06-30 19:22:50 | WARNING | HTTP status: 404
+2026-06-30 19:22:50 | INFO | Trying sitemap candidate: https://transparencia.petrobras.com.br/sitemap-index.xml
+2026-06-30 19:22:51 | WARNING | HTTP status: 403
+2026-06-30 19:22:51 | INFO | Trying sitemap candidate: https://transparencia.petrobras.com.br/sitemap.txt
+2026-06-30 19:22:51 | WARNING | HTTP status: 404
+2026-06-30 19:22:51 | INFO | Checking robots.txt for sitemap references...
+2026-06-30 19:22:52 | WARNING | HTTP status: 403
+2026-06-30 19:22:52 | INFO | Successfully fetched 1 sitemap(s)
+2026-06-30 19:22:52 | INFO | Fetching sitemap for site root: https://transparencia.petrobras.com.br
+2026-06-30 19:22:52 | INFO | Processing 1 sitemap(s)...
+2026-06-30 19:22:52 | INFO | [1/1] Processing sitemap: https://transparencia.petrobras.com.br/sitemap.xml
+2026-06-30 19:22:52 | INFO | Sitemap type: index
+2026-06-30 19:22:52 | INFO | Found 52 nested sitemaps
+2026-06-30 19:22:52 | INFO | Fetching nested sitemap 1/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762340&layoutUuid=89e28d9b-221c-9f2a-5b98-6a1175075892&groupId=41711919&privateLayout=false
+2026-06-30 19:22:52 | INFO | Sitemap type: urlset
+2026-06-30 19:22:52 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:52 | INFO | Fetching nested sitemap 2/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762324&layoutUuid=cc9e0195-8374-a7a8-7551-98e886e02252&groupId=41711919&privateLayout=false
+2026-06-30 19:22:53 | WARNING | HTTP status: 403
+2026-06-30 19:22:53 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762324&layoutUuid=cc9e0195-8374-a7a8-7551-98e886e02252&groupId=41711919&privateLayout=false
+2026-06-30 19:22:53 | INFO | Fetching nested sitemap 3/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762372&layoutUuid=1528d872-bcc2-8a39-bd0d-505ecaf10824&groupId=41711919&privateLayout=false
+2026-06-30 19:22:54 | INFO | Sitemap type: urlset
+2026-06-30 19:22:54 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:54 | INFO | Fetching nested sitemap 4/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762298&layoutUuid=78f7f8ba-be7f-6c53-c8be-85edac23914b&groupId=41711919&privateLayout=false
+2026-06-30 19:22:54 | WARNING | HTTP status: 403
+2026-06-30 19:22:54 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762298&layoutUuid=78f7f8ba-be7f-6c53-c8be-85edac23914b&groupId=41711919&privateLayout=false
+2026-06-30 19:22:54 | INFO | Fetching nested sitemap 5/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762362&layoutUuid=82838624-1d20-fac4-871b-02ba8363ad4f&groupId=41711919&privateLayout=false
+2026-06-30 19:22:55 | INFO | Sitemap type: urlset
+2026-06-30 19:22:55 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:55 | INFO | Fetching nested sitemap 6/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762354&layoutUuid=050f3d0d-8b3e-04c3-3802-eb7479a136d6&groupId=41711919&privateLayout=false
+2026-06-30 19:22:55 | WARNING | HTTP status: 403
+2026-06-30 19:22:55 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762354&layoutUuid=050f3d0d-8b3e-04c3-3802-eb7479a136d6&groupId=41711919&privateLayout=false
+2026-06-30 19:22:55 | INFO | Fetching nested sitemap 7/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762308&layoutUuid=5a4f6b3d-25ff-f02c-dff8-18c664a3f906&groupId=41711919&privateLayout=false
+2026-06-30 19:22:56 | INFO | Sitemap type: urlset
+2026-06-30 19:22:56 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:56 | INFO | Fetching nested sitemap 8/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762306&layoutUuid=5e7c6590-bc69-fe35-edae-63b9906860f0&groupId=41711919&privateLayout=false
+2026-06-30 19:22:56 | WARNING | HTTP status: 403
+2026-06-30 19:22:56 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762306&layoutUuid=5e7c6590-bc69-fe35-edae-63b9906860f0&groupId=41711919&privateLayout=false
+2026-06-30 19:22:56 | INFO | Fetching nested sitemap 9/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762316&layoutUuid=be25138e-ad9f-9095-29cf-bf36e5bf86a5&groupId=41711919&privateLayout=false
+2026-06-30 19:22:57 | INFO | Sitemap type: urlset
+2026-06-30 19:22:57 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:57 | INFO | Fetching nested sitemap 10/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762334&layoutUuid=c68520f6-2223-1c5a-6188-6aa4c398152e&groupId=41711919&privateLayout=false
+2026-06-30 19:22:57 | WARNING | HTTP status: 403
+2026-06-30 19:22:57 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762334&layoutUuid=c68520f6-2223-1c5a-6188-6aa4c398152e&groupId=41711919&privateLayout=false
+2026-06-30 19:22:57 | INFO | Fetching nested sitemap 11/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762380&layoutUuid=5e6c428d-724c-3435-a335-1eee11099567&groupId=41711919&privateLayout=false
+2026-06-30 19:22:58 | INFO | Sitemap type: urlset
+2026-06-30 19:22:58 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:58 | INFO | Fetching nested sitemap 12/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762322&layoutUuid=bfafaf8b-e5ba-7d98-c888-5468515fe9c8&groupId=41711919&privateLayout=false
+2026-06-30 19:22:58 | WARNING | HTTP status: 403
+2026-06-30 19:22:58 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762322&layoutUuid=bfafaf8b-e5ba-7d98-c888-5468515fe9c8&groupId=41711919&privateLayout=false
+2026-06-30 19:22:58 | INFO | Fetching nested sitemap 13/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762320&layoutUuid=1115029a-6579-460d-5de5-007c44216d33&groupId=41711919&privateLayout=false
+2026-06-30 19:22:59 | INFO | Sitemap type: urlset
+2026-06-30 19:22:59 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:22:59 | INFO | Fetching nested sitemap 14/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762370&layoutUuid=f0736fa7-8fe6-9869-063d-3e2eaeea98bf&groupId=41711919&privateLayout=false
+2026-06-30 19:22:59 | WARNING | HTTP status: 403
+2026-06-30 19:22:59 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762370&layoutUuid=f0736fa7-8fe6-9869-063d-3e2eaeea98bf&groupId=41711919&privateLayout=false
+2026-06-30 19:22:59 | INFO | Fetching nested sitemap 15/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762376&layoutUuid=e6c375a4-bf47-0582-823a-818b5915d87b&groupId=41711919&privateLayout=false
+2026-06-30 19:23:00 | INFO | Sitemap type: urlset
+2026-06-30 19:23:00 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:00 | INFO | Fetching nested sitemap 16/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762384&layoutUuid=b976f8df-6e4f-0e45-cf30-b14bf2e60ecd&groupId=41711919&privateLayout=false
+2026-06-30 19:23:01 | WARNING | HTTP status: 403
+2026-06-30 19:23:01 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762384&layoutUuid=b976f8df-6e4f-0e45-cf30-b14bf2e60ecd&groupId=41711919&privateLayout=false
+2026-06-30 19:23:01 | INFO | Fetching nested sitemap 17/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762392&layoutUuid=237fe9aa-a11c-85b2-1887-1a475edfbac3&groupId=41711919&privateLayout=false
+2026-06-30 19:23:01 | INFO | Sitemap type: urlset
+2026-06-30 19:23:01 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:01 | INFO | Fetching nested sitemap 18/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762342&layoutUuid=297b030a-2c08-de92-89c3-9c216ef26bf7&groupId=41711919&privateLayout=false
+2026-06-30 19:23:02 | WARNING | HTTP status: 403
+2026-06-30 19:23:02 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762342&layoutUuid=297b030a-2c08-de92-89c3-9c216ef26bf7&groupId=41711919&privateLayout=false
+2026-06-30 19:23:02 | INFO | Fetching nested sitemap 19/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762350&layoutUuid=b9a16898-2114-3bca-8ef0-db82e398caf0&groupId=41711919&privateLayout=false
+2026-06-30 19:23:02 | INFO | Sitemap type: urlset
+2026-06-30 19:23:02 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:02 | INFO | Fetching nested sitemap 20/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762386&layoutUuid=324651ee-653d-d3f2-3b54-5354386952ec&groupId=41711919&privateLayout=false
+2026-06-30 19:23:03 | WARNING | HTTP status: 403
+2026-06-30 19:23:03 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762386&layoutUuid=324651ee-653d-d3f2-3b54-5354386952ec&groupId=41711919&privateLayout=false
+2026-06-30 19:23:03 | INFO | Fetching nested sitemap 21/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762382&layoutUuid=c0310cc5-f69a-ae13-eada-c5d0ed4a6966&groupId=41711919&privateLayout=false
+2026-06-30 19:23:03 | INFO | Sitemap type: urlset
+2026-06-30 19:23:03 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:03 | INFO | Fetching nested sitemap 22/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762276&layoutUuid=723d01f8-8db4-e926-9738-89442b10606d&groupId=41711919&privateLayout=false
+2026-06-30 19:23:04 | WARNING | HTTP status: 403
+2026-06-30 19:23:04 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762276&layoutUuid=723d01f8-8db4-e926-9738-89442b10606d&groupId=41711919&privateLayout=false
+2026-06-30 19:23:04 | INFO | Fetching nested sitemap 23/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762304&layoutUuid=35be6c99-673b-495b-1bcb-50134afd7ab7&groupId=41711919&privateLayout=false
+2026-06-30 19:23:04 | INFO | Sitemap type: urlset
+2026-06-30 19:23:04 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:04 | INFO | Fetching nested sitemap 24/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762302&layoutUuid=f7cc846e-9082-6b44-7c89-b61f75046031&groupId=41711919&privateLayout=false
+2026-06-30 19:23:05 | WARNING | HTTP status: 403
+2026-06-30 19:23:05 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762302&layoutUuid=f7cc846e-9082-6b44-7c89-b61f75046031&groupId=41711919&privateLayout=false
+2026-06-30 19:23:05 | INFO | Fetching nested sitemap 25/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762388&layoutUuid=94ea7862-a5d4-9b93-f719-094b292f7f39&groupId=41711919&privateLayout=false
+2026-06-30 19:23:05 | INFO | Sitemap type: urlset
+2026-06-30 19:23:05 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:05 | INFO | Fetching nested sitemap 26/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762294&layoutUuid=a2d7e4af-9ef7-ea2d-75cd-a3ad63cdf710&groupId=41711919&privateLayout=false
+2026-06-30 19:23:06 | WARNING | HTTP status: 403
+2026-06-30 19:23:06 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762294&layoutUuid=a2d7e4af-9ef7-ea2d-75cd-a3ad63cdf710&groupId=41711919&privateLayout=false
+2026-06-30 19:23:06 | INFO | Fetching nested sitemap 27/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762368&layoutUuid=e38d05d6-7fdf-4001-1cad-97e93a971141&groupId=41711919&privateLayout=false
+2026-06-30 19:23:06 | INFO | Sitemap type: urlset
+2026-06-30 19:23:06 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:06 | INFO | Fetching nested sitemap 28/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762366&layoutUuid=53873d3f-86a4-9bb5-fed8-e7fe7751bb28&groupId=41711919&privateLayout=false
+2026-06-30 19:23:07 | WARNING | HTTP status: 403
+2026-06-30 19:23:07 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762366&layoutUuid=53873d3f-86a4-9bb5-fed8-e7fe7751bb28&groupId=41711919&privateLayout=false
+2026-06-30 19:23:07 | INFO | Fetching nested sitemap 29/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762450&layoutUuid=aec7b6d5-c324-180b-2e2c-b58473b3dfd0&groupId=41711919&privateLayout=false
+2026-06-30 19:23:07 | INFO | Sitemap type: urlset
+2026-06-30 19:23:08 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:08 | INFO | Fetching nested sitemap 30/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762348&layoutUuid=c6937b44-4a94-68a6-d173-d50a5f8c3fb9&groupId=41711919&privateLayout=false
+2026-06-30 19:23:08 | WARNING | HTTP status: 403
+2026-06-30 19:23:08 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762348&layoutUuid=c6937b44-4a94-68a6-d173-d50a5f8c3fb9&groupId=41711919&privateLayout=false
+2026-06-30 19:23:08 | INFO | Fetching nested sitemap 31/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762318&layoutUuid=88b18275-8a3e-e426-e071-7d608faef1af&groupId=41711919&privateLayout=false
+2026-06-30 19:23:09 | INFO | Sitemap type: urlset
+2026-06-30 19:23:09 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:09 | INFO | Fetching nested sitemap 32/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762314&layoutUuid=601184a3-dec7-5772-04c5-5e107a6e91a3&groupId=41711919&privateLayout=false
+2026-06-30 19:23:09 | WARNING | HTTP status: 403
+2026-06-30 19:23:09 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762314&layoutUuid=601184a3-dec7-5772-04c5-5e107a6e91a3&groupId=41711919&privateLayout=false
+2026-06-30 19:23:09 | INFO | Fetching nested sitemap 33/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762312&layoutUuid=0927bced-ff24-470e-6a22-99ca24260079&groupId=41711919&privateLayout=false
+2026-06-30 19:23:10 | INFO | Sitemap type: urlset
+2026-06-30 19:23:10 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:10 | INFO | Fetching nested sitemap 34/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762374&layoutUuid=2acaa092-f524-1810-b03f-930d571c97f5&groupId=41711919&privateLayout=false
+2026-06-30 19:23:10 | WARNING | HTTP status: 403
+2026-06-30 19:23:10 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762374&layoutUuid=2acaa092-f524-1810-b03f-930d571c97f5&groupId=41711919&privateLayout=false
+2026-06-30 19:23:10 | INFO | Fetching nested sitemap 35/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762390&layoutUuid=deb74a30-0f4c-5c79-5ada-5991e2b4ba64&groupId=41711919&privateLayout=false
+2026-06-30 19:23:11 | INFO | Sitemap type: urlset
+2026-06-30 19:23:11 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:11 | INFO | Fetching nested sitemap 36/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762360&layoutUuid=7174f15d-ac74-5ca1-e657-4ced4209066e&groupId=41711919&privateLayout=false
+2026-06-30 19:23:11 | WARNING | HTTP status: 403
+2026-06-30 19:23:11 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762360&layoutUuid=7174f15d-ac74-5ca1-e657-4ced4209066e&groupId=41711919&privateLayout=false
+2026-06-30 19:23:11 | INFO | Fetching nested sitemap 37/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762358&layoutUuid=c69a6eef-28c4-24db-0dc5-8967411104ab&groupId=41711919&privateLayout=false
+2026-06-30 19:23:12 | INFO | Sitemap type: urlset
+2026-06-30 19:23:12 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:12 | INFO | Fetching nested sitemap 38/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762300&layoutUuid=77adbb15-89b9-3129-8323-92534dfe1ebb&groupId=41711919&privateLayout=false
+2026-06-30 19:23:12 | WARNING | HTTP status: 403
+2026-06-30 19:23:12 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762300&layoutUuid=77adbb15-89b9-3129-8323-92534dfe1ebb&groupId=41711919&privateLayout=false
+2026-06-30 19:23:12 | INFO | Fetching nested sitemap 39/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762336&layoutUuid=621aa119-3b8f-b88a-28b5-30df9143cce7&groupId=41711919&privateLayout=false
+2026-06-30 19:23:13 | INFO | Sitemap type: urlset
+2026-06-30 19:23:13 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:13 | INFO | Fetching nested sitemap 40/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762332&layoutUuid=c968615e-f514-0161-c272-ef5b1d2f5112&groupId=41711919&privateLayout=false
+2026-06-30 19:23:13 | WARNING | HTTP status: 403
+2026-06-30 19:23:13 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762332&layoutUuid=c968615e-f514-0161-c272-ef5b1d2f5112&groupId=41711919&privateLayout=false
+2026-06-30 19:23:13 | INFO | Fetching nested sitemap 41/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762330&layoutUuid=82d60937-3a3e-af89-88f0-95b1499d8d7a&groupId=41711919&privateLayout=false
+2026-06-30 19:23:14 | INFO | Sitemap type: urlset
+2026-06-30 19:23:14 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:14 | INFO | Fetching nested sitemap 42/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762326&layoutUuid=5d940227-dda2-be78-d34a-fc82138623a1&groupId=41711919&privateLayout=false
+2026-06-30 19:23:14 | WARNING | HTTP status: 403
+2026-06-30 19:23:14 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762326&layoutUuid=5d940227-dda2-be78-d34a-fc82138623a1&groupId=41711919&privateLayout=false
+2026-06-30 19:23:14 | INFO | Fetching nested sitemap 43/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762352&layoutUuid=67e701ba-17b0-9e76-d0e5-62dad6365a3a&groupId=41711919&privateLayout=false
+2026-06-30 19:23:15 | INFO | Sitemap type: urlset
+2026-06-30 19:23:15 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:15 | INFO | Fetching nested sitemap 44/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762356&layoutUuid=0dfebd17-42e7-146e-97f9-9747b6db025d&groupId=41711919&privateLayout=false
+2026-06-30 19:23:16 | WARNING | HTTP status: 403
+2026-06-30 19:23:16 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762356&layoutUuid=0dfebd17-42e7-146e-97f9-9747b6db025d&groupId=41711919&privateLayout=false
+2026-06-30 19:23:16 | INFO | Fetching nested sitemap 45/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762346&layoutUuid=0f6cc3ae-3a50-8154-16de-ce7f3ce39e0f&groupId=41711919&privateLayout=false
+2026-06-30 19:23:16 | INFO | Sitemap type: urlset
+2026-06-30 19:23:16 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:16 | INFO | Fetching nested sitemap 46/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762338&layoutUuid=6b705f81-93d0-7a97-68cf-3ec25d3cc794&groupId=41711919&privateLayout=false
+2026-06-30 19:23:17 | WARNING | HTTP status: 403
+2026-06-30 19:23:17 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762338&layoutUuid=6b705f81-93d0-7a97-68cf-3ec25d3cc794&groupId=41711919&privateLayout=false
+2026-06-30 19:23:17 | INFO | Fetching nested sitemap 47/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762394&layoutUuid=7a80718b-7445-55da-cf04-973aad36d2d9&groupId=41711919&privateLayout=false
+2026-06-30 19:23:17 | INFO | Sitemap type: urlset
+2026-06-30 19:23:17 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:17 | INFO | Fetching nested sitemap 48/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762328&layoutUuid=9269a6c3-5235-0eab-0813-4887d80cf492&groupId=41711919&privateLayout=false
+2026-06-30 19:23:18 | WARNING | HTTP status: 403
+2026-06-30 19:23:18 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762328&layoutUuid=9269a6c3-5235-0eab-0813-4887d80cf492&groupId=41711919&privateLayout=false
+2026-06-30 19:23:18 | INFO | Fetching nested sitemap 49/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762378&layoutUuid=c0426b83-163c-866f-ae43-5d7d1af7ef57&groupId=41711919&privateLayout=false
+2026-06-30 19:23:18 | INFO | Sitemap type: urlset
+2026-06-30 19:23:18 | INFO | Extracted 1 URLs from nested sitemap
+2026-06-30 19:23:18 | INFO | Fetching nested sitemap 50/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762296&layoutUuid=f1f6e1a7-6571-19b3-ffcf-e7e45415c9f6&groupId=41711919&privateLayout=false
+2026-06-30 19:23:19 | WARNING | HTTP status: 403
+2026-06-30 19:23:19 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762296&layoutUuid=f1f6e1a7-6571-19b3-ffcf-e7e45415c9f6&groupId=41711919&privateLayout=false
+2026-06-30 19:23:19 | INFO | Fetching nested sitemap 51/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762417&layoutUuid=e448fbcd-8b9f-5b69-181b-29d09cde6550&groupId=41711919&privateLayout=false
+2026-06-30 19:23:19 | WARNING | HTTP status: 404
+2026-06-30 19:23:19 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762417&layoutUuid=e448fbcd-8b9f-5b69-181b-29d09cde6550&groupId=41711919&privateLayout=false
+2026-06-30 19:23:19 | INFO | Fetching nested sitemap 52/52: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762396&layoutUuid=68c0587a-79b4-0430-fbda-48d49b3a562a&groupId=41711919&privateLayout=false
+2026-06-30 19:23:20 | WARNING | HTTP status: 403
+2026-06-30 19:23:20 | WARNING | Failed to fetch or parse nested sitemap: https://transparencia.petrobras.com.br/sitemap.xml?p_l_id=762396&layoutUuid=68c0587a-79b4-0430-fbda-48d49b3a562a&groupId=41711919&privateLayout=false
+2026-06-30 19:23:20 | INFO | Extracted 25 URLs
+2026-06-30 19:23:20 | INFO | Sitemap fetch complete
+2026-06-30 19:23:20 | INFO | Total sitemaps processed: 1
+2026-06-30 19:23:20 | INFO | Total URLs discovered: 25
+2026-06-30 19:23:20 | INFO | Sitemap location 1: https://transparencia.petrobras.com.br/sitemap.xml
+2026-06-30 19:25:51 | INFO | Creating sample URLs...
+2026-06-30 19:25:51 | INFO | Total URLs in grouped data: 51
+2026-06-30 19:25:51 | INFO | Total URLs (51) <= 1000, using ALL URLs
+2026-06-30 19:25:51 | INFO | Created urls-sample.json with 51 URLs
+2026-06-30 19:25:51 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 19:25:51 | INFO | Schema validation passed
+2026-06-30 19:25:51 | INFO | Sample creation complete - urls-sample.json with 51 URLs
+2026-06-30 19:25:58 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 19:25:58 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 19:25:58 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 19:25:58 | INFO | Created urls-checklist.json with 51 URLs
+2026-06-30 19:25:58 | INFO | Session state: ANALYZING
+2026-06-30 19:25:58 | INFO | ================================================================================
+2026-06-30 19:25:58 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 19:25:58 | INFO | Catalog: /workspace/catalog
+2026-06-30 19:25:58 | INFO | Delay: 1500ms between requests
+2026-06-30 19:25:58 | INFO | Workers: 5
+2026-06-30 19:25:58 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 19:25:58 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 19:25:58 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 19:25:58 | INFO | ================================================================================
+2026-06-30 19:25:58 | INFO | Found 51 URLs to process (5 workers)
+2026-06-30 19:25:58 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 19:25:58 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 19:25:58 | INFO | Pages to analyze: 51
+2026-06-30 19:25:58 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-06-30 19:25:58 | INFO | Estimated analysis time: ~2 min
+2026-06-30 19:25:58 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 19:25:58 | INFO | Launching stealth browser...
+2026-06-30 19:25:58 | INFO | [1/51] Processing: https://transparencia.petrobras.com.br/
+2026-06-30 19:25:58 | INFO | Generated slug: transparencia_petrobras_com_br--d11b5b77
+2026-06-30 19:25:58 | INFO | Starting analysis: https://transparencia.petrobras.com.br/ -> /workspace/catalog/.pages/transparencia_petrobras_com_br--d11b5b77
+2026-06-30 19:25:58 | INFO | Loading: https://transparencia.petrobras.com.br/
+2026-06-30 19:25:59 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 19:25:59 | INFO | Launching stealth browser...
+2026-06-30 19:25:59 | INFO | [2/51] Processing: https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao
+2026-06-30 19:25:59 | INFO | Generated slug: transparencia_petrobras_com_br_acoes-de-supervisao-controle-e-correicao--51db9a1e
+2026-06-30 19:25:59 | INFO | Starting analysis: https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao -> /workspace/catalog/.pages/transparencia_petrobras_com_br_acoes-de-supervisao-controle-e-correicao--51db9a1e
+2026-06-30 19:25:59 | INFO | Loading: https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao
+2026-06-30 19:26:01 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 19:26:01 | INFO | Launching stealth browser...
+2026-06-30 19:26:01 | INFO | [3/51] Processing: https://transparencia.petrobras.com.br/acoes-e-programas
+2026-06-30 19:26:01 | INFO | Generated slug: transparencia_petrobras_com_br_acoes-e-programas--f391dec0
+2026-06-30 19:26:01 | INFO | Starting analysis: https://transparencia.petrobras.com.br/acoes-e-programas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_acoes-e-programas--f391dec0
+2026-06-30 19:26:01 | INFO | Loading: https://transparencia.petrobras.com.br/acoes-e-programas
+2026-06-30 19:26:02 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 19:26:02 | INFO | Launching stealth browser...
+2026-06-30 19:26:02 | INFO | [4/51] Processing: https://transparencia.petrobras.com.br/aditivos
+2026-06-30 19:26:02 | INFO | Generated slug: transparencia_petrobras_com_br_aditivos--6ceea72f
+2026-06-30 19:26:02 | INFO | Starting analysis: https://transparencia.petrobras.com.br/aditivos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_aditivos--6ceea72f
+2026-06-30 19:26:02 | INFO | Loading: https://transparencia.petrobras.com.br/aditivos
+2026-06-30 19:26:04 | INFO | Worker 4 started (profile 4: macOS)
+2026-06-30 19:26:04 | INFO | Launching stealth browser...
+2026-06-30 19:26:04 | INFO | [5/51] Processing: https://transparencia.petrobras.com.br/agenda-de-autoridades
+2026-06-30 19:26:04 | INFO | Generated slug: transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c
+2026-06-30 19:26:04 | INFO | Starting analysis: https://transparencia.petrobras.com.br/agenda-de-autoridades -> /workspace/catalog/.pages/transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c
+2026-06-30 19:26:04 | INFO | Loading: https://transparencia.petrobras.com.br/agenda-de-autoridades
+2026-06-30 19:26:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:26:14 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:26:14 | INFO | Lazy-load scroll complete
+2026-06-30 19:26:14 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:26:15 | INFO | Lazy-load scroll complete
+2026-06-30 19:26:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:26:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:26:21 | INFO | Lazy-load scroll complete
+2026-06-30 19:26:21 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:26:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:26:26 | INFO | Lazy-load scroll complete
+2026-06-30 19:26:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:26:29 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:26:31 | INFO | Lazy-load scroll complete
+2026-06-30 19:26:31 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:26:57 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-78575d8e-8ab3-a30f-91fc-9c8b497f058f
+   ✅ Saved global footer: div.footer-top.breakpoint
+2026-06-30 19:26:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:26:57 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:26:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:26:57 | INFO | Main content: #main-content
+2026-06-30 19:26:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:26:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:26:58 | INFO | Captured 3 block screenshots
+2026-06-30 19:26:58 | INFO | Detected 3 blocks
+2026-06-30 19:26:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:27:00 | INFO |    Top-section: 12 rows via title
+2026-06-30 19:27:00 | INFO |    Body start: y=300 (start row 12 via below-title)
+2026-06-30 19:27:00 | INFO | URL Pattern: /agenda-de-autoridades
+2026-06-30 19:27:01 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c/page-catalog.json
+2026-06-30 19:27:01 | INFO | SUCCESS: https://transparencia.petrobras.com.br/agenda-de-autoridades
+2026-06-30 19:27:01 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-78575d8e-8ab3-a30f-91fc-9c8b497f058f)
+2026-06-30 19:27:01 | INFO | Created footer-global metadata (selector: div.footer-top.breakpoint)
+2026-06-30 19:27:02 | INFO | [6/51] Processing: https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis
+2026-06-30 19:27:02 | INFO | Generated slug: transparencia_petrobras_com_br_alienacao-de-bens-imoveis--b8037ea5
+2026-06-30 19:27:02 | INFO | Starting analysis: https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis -> /workspace/catalog/.pages/transparencia_petrobras_com_br_alienacao-de-bens-imoveis--b8037ea5
+2026-06-30 19:27:02 | INFO | Loading: https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis
+2026-06-30 19:27:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:27:07 | INFO | Lazy-load scroll complete
+2026-06-30 19:27:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:27:15 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:27:15 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:27:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:27:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:27:15 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:27:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:27:15 | INFO | Main content: #main-content
+2026-06-30 19:27:15 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:27:15 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:27:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:27:16 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:27:16 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:27:16 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:27:16 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:27:16 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:27:16 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:27:16 | INFO | Main content: #main-content
+2026-06-30 19:27:16 | INFO | Captured 5 block screenshots
+2026-06-30 19:27:16 | INFO | Detected 5 blocks
+2026-06-30 19:27:16 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:27:16 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:27:16 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:27:16 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:27:17 | INFO | Captured 3 block screenshots
+2026-06-30 19:27:17 | INFO | Detected 3 blocks
+2026-06-30 19:27:17 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:27:18 | INFO |    Top-section: 23 rows via title+placeholder
+2026-06-30 19:27:18 | INFO |    Body start: y=575 (start row 23 via below-title+placeholder)
+2026-06-30 19:27:18 | INFO | URL Pattern: /
+2026-06-30 19:27:18 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br--d11b5b77/page-catalog.json
+2026-06-30 19:27:18 | INFO | SUCCESS: https://transparencia.petrobras.com.br/
+2026-06-30 19:27:19 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:27:19 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:27:19 | INFO | URL Pattern: /acoes-de-supervisao-controle-e-correicao
+2026-06-30 19:27:19 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_acoes-de-supervisao-controle-e-correicao--51db9a1e/page-catalog.json
+2026-06-30 19:27:19 | INFO | SUCCESS: https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao
+2026-06-30 19:27:20 | INFO | [7/51] Processing: https://transparencia.petrobras.com.br/aquisicao-de-bens
+2026-06-30 19:27:20 | INFO | Generated slug: transparencia_petrobras_com_br_aquisicao-de-bens--a7016656
+2026-06-30 19:27:20 | INFO | Starting analysis: https://transparencia.petrobras.com.br/aquisicao-de-bens -> /workspace/catalog/.pages/transparencia_petrobras_com_br_aquisicao-de-bens--a7016656
+2026-06-30 19:27:20 | INFO | Loading: https://transparencia.petrobras.com.br/aquisicao-de-bens
+2026-06-30 19:27:21 | INFO | [8/51] Processing: https://transparencia.petrobras.com.br/atas
+2026-06-30 19:27:21 | INFO | Generated slug: transparencia_petrobras_com_br_atas--d7eb1129
+2026-06-30 19:27:21 | INFO | Starting analysis: https://transparencia.petrobras.com.br/atas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_atas--d7eb1129
+2026-06-30 19:27:21 | INFO | Loading: https://transparencia.petrobras.com.br/atas
+2026-06-30 19:27:22 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:27:22 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:27:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:27:22 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:27:22 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:27:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:27:22 | INFO | Main content: #main-content
+2026-06-30 19:27:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:27:22 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:27:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:27:23 | INFO | Captured 4 block screenshots
+2026-06-30 19:27:23 | INFO | Detected 4 blocks
+2026-06-30 19:27:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:27:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:27:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:27:25 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:27:25 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:27:25 | INFO | URL Pattern: /aditivos
+2026-06-30 19:27:25 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_aditivos--6ceea72f/page-catalog.json
+2026-06-30 19:27:25 | INFO | SUCCESS: https://transparencia.petrobras.com.br/aditivos
+2026-06-30 19:27:26 | INFO | Lazy-load scroll complete
+2026-06-30 19:27:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:27:26 | INFO | Lazy-load scroll complete
+2026-06-30 19:27:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:27:27 | INFO | [9/51] Processing: https://transparencia.petrobras.com.br/atos-normativos
+2026-06-30 19:27:27 | INFO | Generated slug: transparencia_petrobras_com_br_atos-normativos--fbd9a750
+2026-06-30 19:27:27 | INFO | Starting analysis: https://transparencia.petrobras.com.br/atos-normativos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_atos-normativos--fbd9a750
+2026-06-30 19:27:27 | INFO | Loading: https://transparencia.petrobras.com.br/atos-normativos
+2026-06-30 19:27:32 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:27:32 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:27:32 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:27:32 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:27:32 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:27:32 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:27:32 | INFO | Main content: #main-content
+2026-06-30 19:27:32 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:27:32 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:27:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:27:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:27:33 | INFO | Captured 6 block screenshots
+2026-06-30 19:27:33 | INFO | Detected 6 blocks
+2026-06-30 19:27:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:27:33 | INFO | Lazy-load scroll complete
+2026-06-30 19:27:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:27:35 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:27:35 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:27:35 | INFO | URL Pattern: /acoes-e-programas
+2026-06-30 19:27:35 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_acoes-e-programas--f391dec0/page-catalog.json
+2026-06-30 19:27:35 | INFO | SUCCESS: https://transparencia.petrobras.com.br/acoes-e-programas
+2026-06-30 19:27:35 | INFO | PROGRESS: 5/51 analyzed (10% checklist complete) | 5 ok, 0 failed, 0 skipped | ~15 min remaining
+2026-06-30 19:27:37 | INFO | [10/51] Processing: https://transparencia.petrobras.com.br/audiencias-publicas
+2026-06-30 19:27:37 | INFO | Generated slug: transparencia_petrobras_com_br_audiencias-publicas--60511e3f
+2026-06-30 19:27:37 | INFO | Starting analysis: https://transparencia.petrobras.com.br/audiencias-publicas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f
+2026-06-30 19:27:37 | INFO | Loading: https://transparencia.petrobras.com.br/audiencias-publicas
+2026-06-30 19:27:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:27:44 | INFO | Lazy-load scroll complete
+2026-06-30 19:27:44 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:27:57 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:27:57 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:27:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:27:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:27:57 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:27:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:27:57 | INFO | Main content: #main-content
+2026-06-30 19:27:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:27:57 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:27:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:27:58 | INFO | Captured 4 block screenshots
+2026-06-30 19:27:58 | INFO | Detected 4 blocks
+2026-06-30 19:27:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:28:00 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:28:00 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:28:00 | INFO | URL Pattern: /aquisicao-de-bens
+2026-06-30 19:28:00 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_aquisicao-de-bens--a7016656/page-catalog.json
+2026-06-30 19:28:00 | INFO | SUCCESS: https://transparencia.petrobras.com.br/aquisicao-de-bens
+2026-06-30 19:28:01 | INFO | [11/51] Processing: https://transparencia.petrobras.com.br/auditorias
+2026-06-30 19:28:01 | INFO | Generated slug: transparencia_petrobras_com_br_auditorias--b461a4ff
+2026-06-30 19:28:01 | INFO | Starting analysis: https://transparencia.petrobras.com.br/auditorias -> /workspace/catalog/.pages/transparencia_petrobras_com_br_auditorias--b461a4ff
+2026-06-30 19:28:01 | INFO | Loading: https://transparencia.petrobras.com.br/auditorias
+2026-06-30 19:28:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:28:07 | INFO | Lazy-load scroll complete
+2026-06-30 19:28:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:28:08 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:28:08 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:28:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:28:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:28:08 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:28:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:28:08 | INFO | Main content: #main-content
+2026-06-30 19:28:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:28:08 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:28:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:28:09 | INFO | Captured 4 block screenshots
+2026-06-30 19:28:09 | INFO | Detected 4 blocks
+2026-06-30 19:28:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:28:11 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:28:11 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:28:11 | INFO | URL Pattern: /alienacao-de-bens-imoveis
+2026-06-30 19:28:11 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_alienacao-de-bens-imoveis--b8037ea5/page-catalog.json
+2026-06-30 19:28:11 | INFO | SUCCESS: https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis
+2026-06-30 19:28:13 | INFO | [12/51] Processing: https://transparencia.petrobras.com.br/balcao-de-atendimento
+2026-06-30 19:28:13 | INFO | Generated slug: transparencia_petrobras_com_br_balcao-de-atendimento--c30390f0
+2026-06-30 19:28:13 | INFO | Starting analysis: https://transparencia.petrobras.com.br/balcao-de-atendimento -> /workspace/catalog/.pages/transparencia_petrobras_com_br_balcao-de-atendimento--c30390f0
+2026-06-30 19:28:13 | INFO | Loading: https://transparencia.petrobras.com.br/balcao-de-atendimento
+2026-06-30 19:28:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:28:18 | INFO | Lazy-load scroll complete
+2026-06-30 19:28:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:28:27 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:28:27 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:28:27 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:28:27 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:28:27 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:28:27 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:28:27 | INFO | Main content: #main-content
+2026-06-30 19:28:27 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:28:27 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:28:27 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:28:28 | INFO | Captured 4 block screenshots
+2026-06-30 19:28:28 | INFO | Detected 4 blocks
+2026-06-30 19:28:28 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:28:30 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:28:30 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:28:30 | INFO | URL Pattern: /atas
+2026-06-30 19:28:30 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_atas--d7eb1129/page-catalog.json
+2026-06-30 19:28:30 | INFO | SUCCESS: https://transparencia.petrobras.com.br/atas
+2026-06-30 19:28:32 | INFO | [13/51] Processing: https://transparencia.petrobras.com.br/conferencias
+2026-06-30 19:28:32 | INFO | Generated slug: transparencia_petrobras_com_br_conferencias--9ba3d0e5
+2026-06-30 19:28:32 | INFO | Starting analysis: https://transparencia.petrobras.com.br/conferencias -> /workspace/catalog/.pages/transparencia_petrobras_com_br_conferencias--9ba3d0e5
+2026-06-30 19:28:32 | INFO | Loading: https://transparencia.petrobras.com.br/conferencias
+2026-06-30 19:28:34 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:28:34 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:28:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:28:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:28:34 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:28:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:28:34 | INFO | Main content: #main-content
+2026-06-30 19:28:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:28:34 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:28:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:28:35 | INFO | Captured 3 block screenshots
+2026-06-30 19:28:35 | INFO | Detected 3 blocks
+2026-06-30 19:28:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:28:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:28:37 | INFO | Lazy-load scroll complete
+2026-06-30 19:28:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:28:37 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:28:37 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:28:37 | INFO | URL Pattern: /atos-normativos
+2026-06-30 19:28:37 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_atos-normativos--fbd9a750/page-catalog.json
+2026-06-30 19:28:37 | INFO | SUCCESS: https://transparencia.petrobras.com.br/atos-normativos
+2026-06-30 19:28:39 | INFO | [14/51] Processing: https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados
+2026-06-30 19:28:39 | INFO | Generated slug: transparencia_petrobras_com_br_conselhos-e-orgaos-colegiados--74a6adb3
+2026-06-30 19:28:39 | INFO | Starting analysis: https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados -> /workspace/catalog/.pages/transparencia_petrobras_com_br_conselhos-e-orgaos-colegiados--74a6adb3
+2026-06-30 19:28:39 | INFO | Loading: https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados
+2026-06-30 19:28:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:28:45 | INFO | Lazy-load scroll complete
+2026-06-30 19:28:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:28:45 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:28:45 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:28:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:28:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:28:45 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:28:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:28:45 | INFO | Main content: #main-content
+2026-06-30 19:28:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:28:45 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:28:47 | INFO | Captured 18 block screenshots
+2026-06-30 19:28:47 | INFO | Detected 18 blocks
+2026-06-30 19:28:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:28:50 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:28:50 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:28:50 | INFO | URL Pattern: /audiencias-publicas
+2026-06-30 19:28:50 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/page-catalog.json
+2026-06-30 19:28:50 | INFO | SUCCESS: https://transparencia.petrobras.com.br/audiencias-publicas
+2026-06-30 19:28:50 | INFO | PROGRESS: 10/51 analyzed (20% checklist complete) | 10 ok, 0 failed, 0 skipped | ~12 min remaining
+2026-06-30 19:28:51 | INFO | [15/51] Processing: https://transparencia.petrobras.com.br/contratos
+2026-06-30 19:28:51 | INFO | Generated slug: transparencia_petrobras_com_br_contratos--6227fa32
+2026-06-30 19:28:51 | INFO | Starting analysis: https://transparencia.petrobras.com.br/contratos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_contratos--6227fa32
+2026-06-30 19:28:51 | INFO | Loading: https://transparencia.petrobras.com.br/contratos
+2026-06-30 19:28:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:28:59 | INFO | Lazy-load scroll complete
+2026-06-30 19:28:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:29:08 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:29:08 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:29:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:29:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:29:08 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:29:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:29:08 | INFO | Main content: #main-content
+2026-06-30 19:29:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:29:08 | WARNING | Blocks - 80% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:29:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:29:09 | INFO | Captured 5 block screenshots
+2026-06-30 19:29:09 | INFO | Detected 5 blocks
+2026-06-30 19:29:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:29:11 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:29:11 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:29:11 | INFO | URL Pattern: /auditorias
+2026-06-30 19:29:11 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_auditorias--b461a4ff/page-catalog.json
+2026-06-30 19:29:11 | INFO | SUCCESS: https://transparencia.petrobras.com.br/auditorias
+2026-06-30 19:29:13 | INFO | [16/51] Processing: https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia
+2026-06-30 19:29:13 | INFO | Generated slug: transparencia_petrobras_com_br_contratos-de-transferencia-de-tecnologia--8b30ee3e
+2026-06-30 19:29:13 | INFO | Starting analysis: https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia -> /workspace/catalog/.pages/transparencia_petrobras_com_br_contratos-de-transferencia-de-tecnologia--8b30ee3e
+2026-06-30 19:29:13 | INFO | Loading: https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia
+2026-06-30 19:29:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:29:19 | INFO | Lazy-load scroll complete
+2026-06-30 19:29:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:29:19 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:29:19 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:29:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:29:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:29:19 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:29:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:29:19 | INFO | Main content: #main-content
+2026-06-30 19:29:19 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:29:19 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:29:19 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:29:20 | INFO | Captured 4 block screenshots
+2026-06-30 19:29:20 | INFO | Detected 4 blocks
+2026-06-30 19:29:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:29:22 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:29:22 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:29:22 | INFO | URL Pattern: /balcao-de-atendimento
+2026-06-30 19:29:22 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_balcao-de-atendimento--c30390f0/page-catalog.json
+2026-06-30 19:29:22 | INFO | SUCCESS: https://transparencia.petrobras.com.br/balcao-de-atendimento
+2026-06-30 19:29:24 | INFO | [17/51] Processing: https://transparencia.petrobras.com.br/convenios-e-transferencias
+2026-06-30 19:29:24 | INFO | Generated slug: transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9
+2026-06-30 19:29:24 | INFO | Starting analysis: https://transparencia.petrobras.com.br/convenios-e-transferencias -> /workspace/catalog/.pages/transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9
+2026-06-30 19:29:24 | INFO | Loading: https://transparencia.petrobras.com.br/convenios-e-transferencias
+2026-06-30 19:29:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:29:30 | INFO | Lazy-load scroll complete
+2026-06-30 19:29:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:29:38 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:29:38 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:29:38 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:29:38 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:29:38 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:29:38 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:29:38 | INFO | Main content: #main-content
+2026-06-30 19:29:38 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:29:38 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:29:38 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:29:39 | INFO | Captured 3 block screenshots
+2026-06-30 19:29:39 | INFO | Detected 3 blocks
+2026-06-30 19:29:39 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:29:41 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:29:41 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:29:41 | INFO | URL Pattern: /conferencias
+2026-06-30 19:29:41 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_conferencias--9ba3d0e5/page-catalog.json
+2026-06-30 19:29:41 | INFO | SUCCESS: https://transparencia.petrobras.com.br/conferencias
+2026-06-30 19:29:43 | INFO | [18/51] Processing: https://transparencia.petrobras.com.br/dados-abertos
+2026-06-30 19:29:43 | INFO | Generated slug: transparencia_petrobras_com_br_dados-abertos--c42a3912
+2026-06-30 19:29:43 | INFO | Starting analysis: https://transparencia.petrobras.com.br/dados-abertos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_dados-abertos--c42a3912
+2026-06-30 19:29:43 | INFO | Loading: https://transparencia.petrobras.com.br/dados-abertos
+2026-06-30 19:29:45 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:29:45 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:29:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:29:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:29:45 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:29:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:29:45 | INFO | Main content: #main-content
+2026-06-30 19:29:46 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:29:46 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:29:46 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:29:46 | INFO | Captured 3 block screenshots
+2026-06-30 19:29:46 | INFO | Detected 3 blocks
+2026-06-30 19:29:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:29:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:29:49 | INFO | Lazy-load scroll complete
+2026-06-30 19:29:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:29:49 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:29:49 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:29:49 | INFO | URL Pattern: /conselhos-e-orgaos-colegiados
+2026-06-30 19:29:49 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_conselhos-e-orgaos-colegiados--74a6adb3/page-catalog.json
+2026-06-30 19:29:49 | INFO | SUCCESS: https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados
+2026-06-30 19:29:50 | INFO | [19/51] Processing: https://transparencia.petrobras.com.br/demonstracoes-financeiras
+2026-06-30 19:29:50 | INFO | Generated slug: transparencia_petrobras_com_br_demonstracoes-financeiras--580e6d20
+2026-06-30 19:29:50 | INFO | Starting analysis: https://transparencia.petrobras.com.br/demonstracoes-financeiras -> /workspace/catalog/.pages/transparencia_petrobras_com_br_demonstracoes-financeiras--580e6d20
+2026-06-30 19:29:50 | INFO | Loading: https://transparencia.petrobras.com.br/demonstracoes-financeiras
+2026-06-30 19:29:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:29:56 | INFO | Lazy-load scroll complete
+2026-06-30 19:29:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:30:00 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:30:00 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:30:00 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:30:00 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:30:00 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:30:00 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:30:00 | INFO | Main content: #main-content
+2026-06-30 19:30:00 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:30:00 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:30:00 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:30:01 | INFO | Captured 4 block screenshots
+2026-06-30 19:30:01 | INFO | Detected 4 blocks
+2026-06-30 19:30:01 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:30:04 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:30:04 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:30:04 | INFO | URL Pattern: /contratos
+2026-06-30 19:30:04 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_contratos--6227fa32/page-catalog.json
+2026-06-30 19:30:04 | INFO | SUCCESS: https://transparencia.petrobras.com.br/contratos
+2026-06-30 19:30:04 | INFO | PROGRESS: 15/51 analyzed (29% checklist complete) | 15 ok, 0 failed, 0 skipped | ~10 min remaining
+2026-06-30 19:30:05 | INFO | [20/51] Processing: https://transparencia.petrobras.com.br/diarias-e-passagens
+2026-06-30 19:30:05 | INFO | Generated slug: transparencia_petrobras_com_br_diarias-e-passagens--bc4e362a
+2026-06-30 19:30:05 | INFO | Starting analysis: https://transparencia.petrobras.com.br/diarias-e-passagens -> /workspace/catalog/.pages/transparencia_petrobras_com_br_diarias-e-passagens--bc4e362a
+2026-06-30 19:30:05 | INFO | Loading: https://transparencia.petrobras.com.br/diarias-e-passagens
+2026-06-30 19:30:13 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:30:15 | INFO | Lazy-load scroll complete
+2026-06-30 19:30:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:30:19 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:30:19 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:30:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:30:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:30:19 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:30:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:30:19 | INFO | Main content: #main-content
+2026-06-30 19:30:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:30:20 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:30:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:30:20 | INFO | Captured 4 block screenshots
+2026-06-30 19:30:20 | INFO | Detected 4 blocks
+2026-06-30 19:30:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:30:23 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:30:23 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:30:23 | INFO | URL Pattern: /contratos-de-transferencia-de-tecnologia
+2026-06-30 19:30:23 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_contratos-de-transferencia-de-tecnologia--8b30ee3e/page-catalog.json
+2026-06-30 19:30:23 | INFO | SUCCESS: https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia
+2026-06-30 19:30:24 | INFO | [21/51] Processing: https://transparencia.petrobras.com.br/empregados-publicos
+2026-06-30 19:30:24 | INFO | Generated slug: transparencia_petrobras_com_br_empregados-publicos--00e3bb4a
+2026-06-30 19:30:24 | INFO | Starting analysis: https://transparencia.petrobras.com.br/empregados-publicos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_empregados-publicos--00e3bb4a
+2026-06-30 19:30:24 | INFO | Loading: https://transparencia.petrobras.com.br/empregados-publicos
+2026-06-30 19:30:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:30:31 | INFO | Lazy-load scroll complete
+2026-06-30 19:30:31 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:30:31 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:30:31 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:30:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:30:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:30:31 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:30:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:30:31 | INFO | Main content: #main-content
+2026-06-30 19:30:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:30:31 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:30:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:30:32 | INFO | Captured 5 block screenshots
+2026-06-30 19:30:32 | INFO | Detected 5 blocks
+2026-06-30 19:30:32 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:30:34 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:30:34 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:30:34 | INFO | URL Pattern: /convenios-e-transferencias
+2026-06-30 19:30:34 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9/page-catalog.json
+2026-06-30 19:30:34 | INFO | SUCCESS: https://transparencia.petrobras.com.br/convenios-e-transferencias
+2026-06-30 19:30:36 | INFO | [22/51] Processing: https://transparencia.petrobras.com.br/estatistica-do-sic
+2026-06-30 19:30:36 | INFO | Generated slug: transparencia_petrobras_com_br_estatistica-do-sic--09549a22
+2026-06-30 19:30:36 | INFO | Starting analysis: https://transparencia.petrobras.com.br/estatistica-do-sic -> /workspace/catalog/.pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22
+2026-06-30 19:30:36 | INFO | Loading: https://transparencia.petrobras.com.br/estatistica-do-sic
+2026-06-30 19:30:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:30:41 | INFO | Lazy-load scroll complete
+2026-06-30 19:30:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:30:49 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:30:49 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:30:49 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:30:49 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:30:49 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:30:49 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:30:49 | INFO | Main content: #main-content
+2026-06-30 19:30:50 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:30:50 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:30:50 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:30:50 | INFO | Captured 3 block screenshots
+2026-06-30 19:30:50 | INFO | Detected 3 blocks
+2026-06-30 19:30:50 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:30:53 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:30:53 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:30:53 | INFO | URL Pattern: /dados-abertos
+2026-06-30 19:30:53 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_dados-abertos--c42a3912/page-catalog.json
+2026-06-30 19:30:53 | INFO | SUCCESS: https://transparencia.petrobras.com.br/dados-abertos
+2026-06-30 19:30:54 | INFO | [23/51] Processing: https://transparencia.petrobras.com.br/home
+2026-06-30 19:30:54 | INFO | Generated slug: transparencia_petrobras_com_br_home--9081fd60
+2026-06-30 19:30:54 | INFO | Starting analysis: https://transparencia.petrobras.com.br/home -> /workspace/catalog/.pages/transparencia_petrobras_com_br_home--9081fd60
+2026-06-30 19:30:54 | INFO | Loading: https://transparencia.petrobras.com.br/home
+2026-06-30 19:30:57 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:30:57 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:30:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:30:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:30:57 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:30:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:30:57 | INFO | Main content: #main-content
+2026-06-30 19:30:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:30:57 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:30:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:30:57 | INFO | Captured 3 block screenshots
+2026-06-30 19:30:57 | INFO | Detected 3 blocks
+2026-06-30 19:30:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:30:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:31:00 | INFO | Lazy-load scroll complete
+2026-06-30 19:31:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:31:00 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:31:00 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:31:00 | INFO | URL Pattern: /demonstracoes-financeiras
+2026-06-30 19:31:00 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_demonstracoes-financeiras--580e6d20/page-catalog.json
+2026-06-30 19:31:00 | INFO | SUCCESS: https://transparencia.petrobras.com.br/demonstracoes-financeiras
+2026-06-30 19:31:01 | INFO | [24/51] Processing: https://transparencia.petrobras.com.br/horario-de-atendimento
+2026-06-30 19:31:01 | INFO | Generated slug: transparencia_petrobras_com_br_horario-de-atendimento--abda7693
+2026-06-30 19:31:01 | INFO | Starting analysis: https://transparencia.petrobras.com.br/horario-de-atendimento -> /workspace/catalog/.pages/transparencia_petrobras_com_br_horario-de-atendimento--abda7693
+2026-06-30 19:31:01 | INFO | Loading: https://transparencia.petrobras.com.br/horario-de-atendimento
+2026-06-30 19:31:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:31:06 | INFO | Lazy-load scroll complete
+2026-06-30 19:31:06 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:31:12 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:31:12 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:31:12 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:31:12 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:31:12 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:31:12 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:31:12 | INFO | Main content: #main-content
+2026-06-30 19:31:12 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:31:12 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:31:14 | INFO | Captured 15 block screenshots
+2026-06-30 19:31:14 | INFO | Detected 15 blocks
+2026-06-30 19:31:14 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:31:15 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:31:15 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:31:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:31:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:31:15 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:31:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:31:15 | INFO | Main content: #main-content
+2026-06-30 19:31:15 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:31:15 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:31:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:31:16 | INFO | Captured 4 block screenshots
+2026-06-30 19:31:16 | INFO | Detected 4 blocks
+2026-06-30 19:31:16 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:31:16 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:31:16 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:31:16 | INFO | URL Pattern: /estatistica-do-sic
+2026-06-30 19:31:16 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22/page-catalog.json
+2026-06-30 19:31:16 | INFO | SUCCESS: https://transparencia.petrobras.com.br/estatistica-do-sic
+2026-06-30 19:31:16 | INFO | PROGRESS: 20/51 analyzed (39% checklist complete) | 20 ok, 0 failed, 0 skipped | ~9 min remaining
+2026-06-30 19:31:18 | INFO | [25/51] Processing: https://transparencia.petrobras.com.br/hospitalidades
+2026-06-30 19:31:18 | INFO | Generated slug: transparencia_petrobras_com_br_hospitalidades--196efffd
+2026-06-30 19:31:18 | INFO | Starting analysis: https://transparencia.petrobras.com.br/hospitalidades -> /workspace/catalog/.pages/transparencia_petrobras_com_br_hospitalidades--196efffd
+2026-06-30 19:31:18 | INFO | Loading: https://transparencia.petrobras.com.br/hospitalidades
+2026-06-30 19:31:19 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:31:19 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:31:19 | INFO | URL Pattern: /diarias-e-passagens
+2026-06-30 19:31:19 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_diarias-e-passagens--bc4e362a/page-catalog.json
+2026-06-30 19:31:19 | INFO | SUCCESS: https://transparencia.petrobras.com.br/diarias-e-passagens
+2026-06-30 19:31:20 | INFO | [26/51] Processing: https://transparencia.petrobras.com.br/informacoes-classificadas
+2026-06-30 19:31:20 | INFO | Generated slug: transparencia_petrobras_com_br_informacoes-classificadas--34896dcb
+2026-06-30 19:31:20 | INFO | Starting analysis: https://transparencia.petrobras.com.br/informacoes-classificadas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_informacoes-classificadas--34896dcb
+2026-06-30 19:31:20 | INFO | Loading: https://transparencia.petrobras.com.br/informacoes-classificadas
+2026-06-30 19:31:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:31:23 | INFO | Lazy-load scroll complete
+2026-06-30 19:31:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:31:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:31:26 | INFO | Lazy-load scroll complete
+2026-06-30 19:31:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:31:31 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:31:31 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:31:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:31:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:31:31 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:31:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:31:31 | INFO | Main content: #main-content
+2026-06-30 19:31:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:31:32 | WARNING | Blocks - 93% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:31:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:31:33 | INFO | Captured 15 block screenshots
+2026-06-30 19:31:33 | INFO | Detected 15 blocks
+2026-06-30 19:31:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:31:36 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:31:36 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:31:36 | INFO | URL Pattern: /empregados-publicos
+2026-06-30 19:31:36 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_empregados-publicos--00e3bb4a/page-catalog.json
+2026-06-30 19:31:36 | INFO | SUCCESS: https://transparencia.petrobras.com.br/empregados-publicos
+2026-06-30 19:31:37 | INFO | [27/51] Processing: https://transparencia.petrobras.com.br/institucional
+2026-06-30 19:31:37 | INFO | Generated slug: transparencia_petrobras_com_br_institucional--b371af1b
+2026-06-30 19:31:37 | INFO | Starting analysis: https://transparencia.petrobras.com.br/institucional -> /workspace/catalog/.pages/transparencia_petrobras_com_br_institucional--b371af1b
+2026-06-30 19:31:37 | INFO | Loading: https://transparencia.petrobras.com.br/institucional
+2026-06-30 19:31:42 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:31:45 | INFO | Lazy-load scroll complete
+2026-06-30 19:31:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:32:01 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:32:01 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:32:01 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:32:01 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:32:01 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:32:01 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:32:01 | INFO | Main content: #main-content
+2026-06-30 19:32:01 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:32:01 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:32:01 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:32:02 | INFO | Captured 5 block screenshots
+2026-06-30 19:32:02 | INFO | Detected 5 blocks
+2026-06-30 19:32:02 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:32:04 | INFO |    Top-section: 23 rows via title+placeholder
+2026-06-30 19:32:04 | INFO |    Body start: y=575 (start row 23 via below-title+placeholder)
+2026-06-30 19:32:04 | INFO | URL Pattern: /home
+2026-06-30 19:32:04 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_home--9081fd60/page-catalog.json
+2026-06-30 19:32:04 | INFO | SUCCESS: https://transparencia.petrobras.com.br/home
+2026-06-30 19:32:06 | INFO | [28/51] Processing: https://transparencia.petrobras.com.br/licitacoes
+2026-06-30 19:32:06 | INFO | Generated slug: transparencia_petrobras_com_br_licitacoes--d69afeff
+2026-06-30 19:32:06 | INFO | Starting analysis: https://transparencia.petrobras.com.br/licitacoes -> /workspace/catalog/.pages/transparencia_petrobras_com_br_licitacoes--d69afeff
+2026-06-30 19:32:06 | INFO | Loading: https://transparencia.petrobras.com.br/licitacoes
+2026-06-30 19:32:07 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:32:07 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:32:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:32:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:32:07 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:32:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:32:07 | INFO | Main content: #main-content
+2026-06-30 19:32:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:32:07 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:32:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:32:08 | INFO | Captured 3 block screenshots
+2026-06-30 19:32:08 | INFO | Detected 3 blocks
+2026-06-30 19:32:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:32:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:32:10 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:32:10 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:32:10 | INFO | URL Pattern: /horario-de-atendimento
+2026-06-30 19:32:10 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_horario-de-atendimento--abda7693/page-catalog.json
+2026-06-30 19:32:10 | INFO | SUCCESS: https://transparencia.petrobras.com.br/horario-de-atendimento
+2026-06-30 19:32:11 | INFO | Lazy-load scroll complete
+2026-06-30 19:32:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:32:12 | INFO | [29/51] Processing: https://transparencia.petrobras.com.br/licitacoes-e-contratos
+2026-06-30 19:32:12 | INFO | Generated slug: transparencia_petrobras_com_br_licitacoes-e-contratos--e95c5fa5
+2026-06-30 19:32:12 | INFO | Starting analysis: https://transparencia.petrobras.com.br/licitacoes-e-contratos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_licitacoes-e-contratos--e95c5fa5
+2026-06-30 19:32:12 | INFO | Loading: https://transparencia.petrobras.com.br/licitacoes-e-contratos
+2026-06-30 19:32:16 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:32:17 | INFO | Lazy-load scroll complete
+2026-06-30 19:32:17 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:32:24 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:32:24 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:32:24 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:32:24 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:32:24 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:32:24 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:32:24 | INFO | Main content: #main-content
+2026-06-30 19:32:24 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:32:24 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:32:24 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:32:25 | INFO | Captured 5 block screenshots
+2026-06-30 19:32:25 | INFO | Detected 5 blocks
+2026-06-30 19:32:25 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:32:27 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:32:27 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:32:27 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:32:27 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:32:27 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:32:27 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:32:27 | INFO | Main content: #main-content
+2026-06-30 19:32:27 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:32:27 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:32:27 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:32:27 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:32:27 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:32:27 | INFO | URL Pattern: /hospitalidades
+2026-06-30 19:32:27 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_hospitalidades--196efffd/page-catalog.json
+2026-06-30 19:32:27 | INFO | SUCCESS: https://transparencia.petrobras.com.br/hospitalidades
+2026-06-30 19:32:27 | INFO | PROGRESS: 25/51 analyzed (49% checklist complete) | 25 ok, 0 failed, 0 skipped | ~7 min remaining
+2026-06-30 19:32:27 | INFO | Captured 3 block screenshots
+2026-06-30 19:32:27 | INFO | Detected 3 blocks
+2026-06-30 19:32:27 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:32:29 | INFO | [30/51] Processing: https://transparencia.petrobras.com.br/obras
+2026-06-30 19:32:29 | INFO | Generated slug: transparencia_petrobras_com_br_obras--82b50d81
+2026-06-30 19:32:29 | INFO | Starting analysis: https://transparencia.petrobras.com.br/obras -> /workspace/catalog/.pages/transparencia_petrobras_com_br_obras--82b50d81
+2026-06-30 19:32:29 | INFO | Loading: https://transparencia.petrobras.com.br/obras
+2026-06-30 19:32:30 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:32:30 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:32:30 | INFO | URL Pattern: /informacoes-classificadas
+2026-06-30 19:32:30 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_informacoes-classificadas--34896dcb/page-catalog.json
+2026-06-30 19:32:30 | INFO | SUCCESS: https://transparencia.petrobras.com.br/informacoes-classificadas
+2026-06-30 19:32:31 | INFO | [31/51] Processing: https://transparencia.petrobras.com.br/orcamento-de-investimento
+2026-06-30 19:32:31 | INFO | Generated slug: transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e
+2026-06-30 19:32:31 | INFO | Starting analysis: https://transparencia.petrobras.com.br/orcamento-de-investimento -> /workspace/catalog/.pages/transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e
+2026-06-30 19:32:31 | INFO | Loading: https://transparencia.petrobras.com.br/orcamento-de-investimento
+2026-06-30 19:32:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:32:35 | INFO | Lazy-load scroll complete
+2026-06-30 19:32:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:32:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:32:39 | INFO | Lazy-load scroll complete
+2026-06-30 19:32:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:32:42 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:32:42 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:32:42 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:32:42 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:32:42 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:32:42 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:32:42 | INFO | Main content: #main-content
+2026-06-30 19:32:42 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:32:42 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:32:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:32:43 | INFO | Captured 3 block screenshots
+2026-06-30 19:32:43 | INFO | Detected 3 blocks
+2026-06-30 19:32:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:32:45 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:32:45 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:32:45 | INFO | URL Pattern: /licitacoes
+2026-06-30 19:32:45 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_licitacoes--d69afeff/page-catalog.json
+2026-06-30 19:32:45 | INFO | SUCCESS: https://transparencia.petrobras.com.br/licitacoes
+2026-06-30 19:32:46 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:32:46 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:32:46 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:32:46 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:32:46 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:32:46 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:32:46 | INFO | Main content: #main-content
+2026-06-30 19:32:46 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:32:46 | WARNING | Blocks - 89% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:32:46 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:32:47 | INFO | [32/51] Processing: https://transparencia.petrobras.com.br/outras-acoes
+2026-06-30 19:32:47 | INFO | Generated slug: transparencia_petrobras_com_br_outras-acoes--fafcd72b
+2026-06-30 19:32:47 | INFO | Starting analysis: https://transparencia.petrobras.com.br/outras-acoes -> /workspace/catalog/.pages/transparencia_petrobras_com_br_outras-acoes--fafcd72b
+2026-06-30 19:32:47 | INFO | Loading: https://transparencia.petrobras.com.br/outras-acoes
+2026-06-30 19:32:47 | INFO | Captured 9 block screenshots
+2026-06-30 19:32:47 | INFO | Detected 9 blocks
+2026-06-30 19:32:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:32:49 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 19:32:49 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 19:32:49 | INFO | URL Pattern: /institucional
+2026-06-30 19:32:49 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_institucional--b371af1b/page-catalog.json
+2026-06-30 19:32:49 | INFO | SUCCESS: https://transparencia.petrobras.com.br/institucional
+2026-06-30 19:32:51 | INFO | [33/51] Processing: https://transparencia.petrobras.com.br/participacao-social
+2026-06-30 19:32:51 | INFO | Generated slug: transparencia_petrobras_com_br_participacao-social--b9308f4a
+2026-06-30 19:32:51 | INFO | Starting analysis: https://transparencia.petrobras.com.br/participacao-social -> /workspace/catalog/.pages/transparencia_petrobras_com_br_participacao-social--b9308f4a
+2026-06-30 19:32:51 | INFO | Loading: https://transparencia.petrobras.com.br/participacao-social
+2026-06-30 19:32:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:32:55 | INFO | Lazy-load scroll complete
+2026-06-30 19:32:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:32:56 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:32:57 | INFO | Lazy-load scroll complete
+2026-06-30 19:32:57 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:33:10 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:33:10 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:33:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:33:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:33:10 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:33:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:33:10 | INFO | Main content: #main-content
+2026-06-30 19:33:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:33:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:33:11 | INFO | Captured 5 block screenshots
+2026-06-30 19:33:11 | INFO | Detected 5 blocks
+2026-06-30 19:33:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:33:13 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:33:13 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:33:13 | INFO | URL Pattern: /orcamento-de-investimento
+2026-06-30 19:33:13 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e/page-catalog.json
+2026-06-30 19:33:13 | INFO | SUCCESS: https://transparencia.petrobras.com.br/orcamento-de-investimento
+2026-06-30 19:33:15 | INFO | [34/51] Processing: https://transparencia.petrobras.com.br/patrocinios
+2026-06-30 19:33:15 | INFO | Generated slug: transparencia_petrobras_com_br_patrocinios--dbb4af17
+2026-06-30 19:33:15 | INFO | Starting analysis: https://transparencia.petrobras.com.br/patrocinios -> /workspace/catalog/.pages/transparencia_petrobras_com_br_patrocinios--dbb4af17
+2026-06-30 19:33:15 | INFO | Loading: https://transparencia.petrobras.com.br/patrocinios
+2026-06-30 19:33:18 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:33:18 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:33:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:33:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:33:18 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:33:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:33:18 | INFO | Main content: #main-content
+2026-06-30 19:33:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:33:18 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:33:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:33:19 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:33:19 | INFO | Captured 4 block screenshots
+2026-06-30 19:33:19 | INFO | Detected 4 blocks
+2026-06-30 19:33:19 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:33:20 | INFO | Lazy-load scroll complete
+2026-06-30 19:33:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:33:21 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:33:21 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:33:21 | INFO | URL Pattern: /licitacoes-e-contratos
+2026-06-30 19:33:21 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_licitacoes-e-contratos--e95c5fa5/page-catalog.json
+2026-06-30 19:33:22 | INFO | SUCCESS: https://transparencia.petrobras.com.br/licitacoes-e-contratos
+2026-06-30 19:33:22 | INFO | PROGRESS: 30/51 analyzed (59% checklist complete) | 30 ok, 0 failed, 0 skipped | ~6 min remaining
+2026-06-30 19:33:23 | INFO | [35/51] Processing: https://transparencia.petrobras.com.br/perguntas-frequentes
+2026-06-30 19:33:23 | INFO | Generated slug: transparencia_petrobras_com_br_perguntas-frequentes--1663b38d
+2026-06-30 19:33:23 | INFO | Starting analysis: https://transparencia.petrobras.com.br/perguntas-frequentes -> /workspace/catalog/.pages/transparencia_petrobras_com_br_perguntas-frequentes--1663b38d
+2026-06-30 19:33:23 | INFO | Loading: https://transparencia.petrobras.com.br/perguntas-frequentes
+2026-06-30 19:33:27 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:33:29 | INFO | Lazy-load scroll complete
+2026-06-30 19:33:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:33:36 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:33:36 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:33:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:33:36 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:33:36 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:33:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:33:36 | INFO | Main content: #main-content
+2026-06-30 19:33:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:33:36 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:33:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:33:37 | INFO | Captured 4 block screenshots
+2026-06-30 19:33:37 | INFO | Detected 4 blocks
+2026-06-30 19:33:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:33:39 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 19:33:39 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 19:33:39 | INFO | URL Pattern: /obras
+2026-06-30 19:33:39 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_obras--82b50d81/page-catalog.json
+2026-06-30 19:33:39 | INFO | SUCCESS: https://transparencia.petrobras.com.br/obras
+2026-06-30 19:33:41 | INFO | [36/51] Processing: https://transparencia.petrobras.com.br/politica-de-dividendos
+2026-06-30 19:33:41 | INFO | Generated slug: transparencia_petrobras_com_br_politica-de-dividendos--0210b9b6
+2026-06-30 19:33:41 | INFO | Starting analysis: https://transparencia.petrobras.com.br/politica-de-dividendos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_politica-de-dividendos--0210b9b6
+2026-06-30 19:33:41 | INFO | Loading: https://transparencia.petrobras.com.br/politica-de-dividendos
+2026-06-30 19:33:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:33:46 | INFO | Lazy-load scroll complete
+2026-06-30 19:33:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:33:55 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:33:55 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:33:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:33:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:33:55 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:33:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:33:55 | INFO | Main content: #main-content
+2026-06-30 19:33:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:33:56 | WARNING | Blocks - 94% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:33:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:33:58 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:33:58 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:33:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:33:58 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:33:58 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:33:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:33:58 | INFO | Main content: #main-content
+2026-06-30 19:33:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:33:58 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:33:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:33:59 | INFO | Captured 31 block screenshots
+2026-06-30 19:33:59 | INFO | Detected 31 blocks
+2026-06-30 19:33:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:33:59 | INFO | Captured 4 block screenshots
+2026-06-30 19:33:59 | INFO | Detected 4 blocks
+2026-06-30 19:33:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:34:01 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:34:01 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:34:01 | INFO | URL Pattern: /outras-acoes
+2026-06-30 19:34:01 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_outras-acoes--fafcd72b/page-catalog.json
+2026-06-30 19:34:01 | INFO | SUCCESS: https://transparencia.petrobras.com.br/outras-acoes
+2026-06-30 19:34:01 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:34:01 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:34:01 | INFO | URL Pattern: /participacao-social
+2026-06-30 19:34:01 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_participacao-social--b9308f4a/page-catalog.json
+2026-06-30 19:34:01 | INFO | SUCCESS: https://transparencia.petrobras.com.br/participacao-social
+2026-06-30 19:34:03 | INFO | [37/51] Processing: https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 19:34:03 | INFO | Generated slug: transparencia_petrobras_com_br_politica-de-transacoes-com-partes-relacionadas--d387c79a
+2026-06-30 19:34:03 | INFO | Starting analysis: https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_politica-de-transacoes-com-partes-relacionadas--d387c79a
+2026-06-30 19:34:03 | INFO | Loading: https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 19:34:03 | INFO | [38/51] Processing: https://transparencia.petrobras.com.br/presentes
+2026-06-30 19:34:03 | INFO | Generated slug: transparencia_petrobras_com_br_presentes--c5101857
+2026-06-30 19:34:03 | INFO | Starting analysis: https://transparencia.petrobras.com.br/presentes -> /workspace/catalog/.pages/transparencia_petrobras_com_br_presentes--c5101857
+2026-06-30 19:34:03 | INFO | Loading: https://transparencia.petrobras.com.br/presentes
+2026-06-30 19:34:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:34:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:34:07 | INFO | Lazy-load scroll complete
+2026-06-30 19:34:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:34:08 | INFO | Lazy-load scroll complete
+2026-06-30 19:34:08 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:34:21 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:34:21 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:34:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:34:21 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:34:21 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:34:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:34:21 | INFO | Main content: #main-content
+2026-06-30 19:34:21 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:34:21 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:34:21 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:34:22 | INFO | Captured 3 block screenshots
+2026-06-30 19:34:22 | INFO | Detected 3 blocks
+2026-06-30 19:34:22 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:34:24 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:34:24 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:34:24 | INFO | URL Pattern: /patrocinios
+2026-06-30 19:34:24 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_patrocinios--dbb4af17/page-catalog.json
+2026-06-30 19:34:24 | INFO | SUCCESS: https://transparencia.petrobras.com.br/patrocinios
+2026-06-30 19:34:26 | INFO | [39/51] Processing: https://transparencia.petrobras.com.br/prestacao-de-contas
+2026-06-30 19:34:26 | INFO | Generated slug: transparencia_petrobras_com_br_prestacao-de-contas--fb27fd92
+2026-06-30 19:34:26 | INFO | Starting analysis: https://transparencia.petrobras.com.br/prestacao-de-contas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_prestacao-de-contas--fb27fd92
+2026-06-30 19:34:26 | INFO | Loading: https://transparencia.petrobras.com.br/prestacao-de-contas
+2026-06-30 19:34:30 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:34:30 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:34:30 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:34:30 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:34:30 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:34:30 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:34:30 | INFO | Main content: #main-content
+2026-06-30 19:34:30 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:34:30 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:34:30 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:34:31 | INFO | Captured 4 block screenshots
+2026-06-30 19:34:31 | INFO | Detected 4 blocks
+2026-06-30 19:34:31 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:34:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:34:33 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:34:33 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:34:33 | INFO | URL Pattern: /perguntas-frequentes
+2026-06-30 19:34:33 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_perguntas-frequentes--1663b38d/page-catalog.json
+2026-06-30 19:34:33 | INFO | SUCCESS: https://transparencia.petrobras.com.br/perguntas-frequentes
+2026-06-30 19:34:33 | INFO | PROGRESS: 35/51 analyzed (69% checklist complete) | 35 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-06-30 19:34:33 | INFO | Lazy-load scroll complete
+2026-06-30 19:34:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:34:34 | INFO | [40/51] Processing: https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao
+2026-06-30 19:34:34 | INFO | Generated slug: transparencia_petrobras_com_br_programa-conexoes-para-inovacao--b08a6cb6
+2026-06-30 19:34:34 | INFO | Starting analysis: https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao -> /workspace/catalog/.pages/transparencia_petrobras_com_br_programa-conexoes-para-inovacao--b08a6cb6
+2026-06-30 19:34:35 | INFO | Loading: https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao
+2026-06-30 19:34:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:34:40 | INFO | Lazy-load scroll complete
+2026-06-30 19:34:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:34:46 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:34:46 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:34:46 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:34:46 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:34:46 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:34:46 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:34:46 | INFO | Main content: #main-content
+2026-06-30 19:34:47 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:34:47 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:34:47 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:34:47 | INFO | Captured 3 block screenshots
+2026-06-30 19:34:47 | INFO | Detected 3 blocks
+2026-06-30 19:34:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:34:50 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:34:50 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:34:50 | INFO | URL Pattern: /politica-de-dividendos
+2026-06-30 19:34:50 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_politica-de-dividendos--0210b9b6/page-catalog.json
+2026-06-30 19:34:50 | INFO | SUCCESS: https://transparencia.petrobras.com.br/politica-de-dividendos
+2026-06-30 19:34:51 | INFO | [41/51] Processing: https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica
+2026-06-30 19:34:51 | INFO | Generated slug: transparencia_petrobras_com_br_programa-de-p-d-do-setor-de-energia-eletrica--f19e8909
+2026-06-30 19:34:51 | INFO | Starting analysis: https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica -> /workspace/catalog/.pages/transparencia_petrobras_com_br_programa-de-p-d-do-setor-de-energia-eletrica--f19e8909
+2026-06-30 19:34:51 | INFO | Loading: https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica
+2026-06-30 19:34:55 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:34:57 | INFO | Lazy-load scroll complete
+2026-06-30 19:34:57 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:35:08 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:35:08 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:35:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:35:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:35:08 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:35:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:35:08 | INFO | Main content: #main-content
+2026-06-30 19:35:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:35:08 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:35:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:35:09 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:35:09 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:35:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:35:09 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:35:09 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:35:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:35:09 | INFO | Main content: #main-content
+2026-06-30 19:35:09 | INFO | Captured 3 block screenshots
+2026-06-30 19:35:09 | INFO | Detected 3 blocks
+2026-06-30 19:35:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:35:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:35:09 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:35:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:35:10 | INFO | Captured 4 block screenshots
+2026-06-30 19:35:10 | INFO | Detected 4 blocks
+2026-06-30 19:35:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:35:11 | INFO |    Top-section: 14 rows via title+container
+2026-06-30 19:35:11 | INFO |    Body start: y=350 (start row 14 via below-title+container)
+2026-06-30 19:35:11 | INFO | URL Pattern: /politica-de-transacoes-com-partes-relacionadas
+2026-06-30 19:35:11 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_politica-de-transacoes-com-partes-relacionadas--d387c79a/page-catalog.json
+2026-06-30 19:35:11 | INFO | SUCCESS: https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 19:35:12 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:35:12 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:35:12 | INFO | URL Pattern: /presentes
+2026-06-30 19:35:12 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_presentes--c5101857/page-catalog.json
+2026-06-30 19:35:12 | INFO | SUCCESS: https://transparencia.petrobras.com.br/presentes
+2026-06-30 19:35:13 | INFO | [42/51] Processing: https://transparencia.petrobras.com.br/programas-finalisticos
+2026-06-30 19:35:13 | INFO | Generated slug: transparencia_petrobras_com_br_programas-finalisticos--cb9df055
+2026-06-30 19:35:13 | INFO | Starting analysis: https://transparencia.petrobras.com.br/programas-finalisticos -> /workspace/catalog/.pages/transparencia_petrobras_com_br_programas-finalisticos--cb9df055
+2026-06-30 19:35:13 | INFO | Loading: https://transparencia.petrobras.com.br/programas-finalisticos
+2026-06-30 19:35:14 | INFO | [43/51] Processing: https://transparencia.petrobras.com.br/publicidade
+2026-06-30 19:35:14 | INFO | Generated slug: transparencia_petrobras_com_br_publicidade--6127773c
+2026-06-30 19:35:14 | INFO | Starting analysis: https://transparencia.petrobras.com.br/publicidade -> /workspace/catalog/.pages/transparencia_petrobras_com_br_publicidade--6127773c
+2026-06-30 19:35:14 | INFO | Loading: https://transparencia.petrobras.com.br/publicidade
+2026-06-30 19:35:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:35:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:35:18 | INFO | Lazy-load scroll complete
+2026-06-30 19:35:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:35:19 | INFO | Lazy-load scroll complete
+2026-06-30 19:35:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:35:34 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:35:34 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:35:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:35:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:35:34 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:35:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:35:34 | INFO | Main content: #main-content
+2026-06-30 19:35:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:35:34 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:35:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:35:35 | INFO | Captured 4 block screenshots
+2026-06-30 19:35:35 | INFO | Detected 4 blocks
+2026-06-30 19:35:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:35:38 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:35:38 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:35:38 | INFO | URL Pattern: /prestacao-de-contas
+2026-06-30 19:35:38 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_prestacao-de-contas--fb27fd92/page-catalog.json
+2026-06-30 19:35:38 | INFO | SUCCESS: https://transparencia.petrobras.com.br/prestacao-de-contas
+2026-06-30 19:35:39 | INFO | [44/51] Processing: https://transparencia.petrobras.com.br/receitas
+2026-06-30 19:35:39 | INFO | Generated slug: transparencia_petrobras_com_br_receitas--d5ceb72a
+2026-06-30 19:35:39 | INFO | Starting analysis: https://transparencia.petrobras.com.br/receitas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_receitas--d5ceb72a
+2026-06-30 19:35:39 | INFO | Loading: https://transparencia.petrobras.com.br/receitas
+2026-06-30 19:35:41 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:35:41 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:35:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:35:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:35:41 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:35:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:35:41 | INFO | Main content: #main-content
+2026-06-30 19:35:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:35:41 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:35:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:35:42 | INFO | Captured 3 block screenshots
+2026-06-30 19:35:42 | INFO | Detected 3 blocks
+2026-06-30 19:35:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:35:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:35:44 | INFO |    Top-section: 14 rows via title
+2026-06-30 19:35:44 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 19:35:44 | INFO | URL Pattern: /programa-conexoes-para-inovacao
+2026-06-30 19:35:44 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_programa-conexoes-para-inovacao--b08a6cb6/page-catalog.json
+2026-06-30 19:35:44 | INFO | SUCCESS: https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao
+2026-06-30 19:35:44 | INFO | PROGRESS: 40/51 analyzed (78% checklist complete) | 40 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 19:35:45 | INFO | Lazy-load scroll complete
+2026-06-30 19:35:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:35:45 | INFO | [45/51] Processing: https://transparencia.petrobras.com.br/receitas-e-despesas
+2026-06-30 19:35:45 | INFO | Generated slug: transparencia_petrobras_com_br_receitas-e-despesas--93b44e2c
+2026-06-30 19:35:45 | INFO | Starting analysis: https://transparencia.petrobras.com.br/receitas-e-despesas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_receitas-e-despesas--93b44e2c
+2026-06-30 19:35:45 | INFO | Loading: https://transparencia.petrobras.com.br/receitas-e-despesas
+2026-06-30 19:35:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:35:51 | INFO | Lazy-load scroll complete
+2026-06-30 19:35:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:35:58 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:35:58 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:35:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:35:58 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:35:58 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:35:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:35:58 | INFO | Main content: #main-content
+2026-06-30 19:35:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:35:58 | WARNING | Blocks - 60% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:35:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:35:59 | INFO | Captured 5 block screenshots
+2026-06-30 19:35:59 | INFO | Detected 5 blocks
+2026-06-30 19:35:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:36:02 | INFO |    Top-section: 14 rows via title+container
+2026-06-30 19:36:02 | INFO |    Body start: y=350 (start row 14 via below-title+container)
+2026-06-30 19:36:02 | INFO | URL Pattern: /programa-de-p-d-do-setor-de-energia-eletrica
+2026-06-30 19:36:02 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_programa-de-p-d-do-setor-de-energia-eletrica--f19e8909/page-catalog.json
+2026-06-30 19:36:02 | INFO | SUCCESS: https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica
+2026-06-30 19:36:03 | INFO | [46/51] Processing: https://transparencia.petrobras.com.br/relatorios-da-cgu
+2026-06-30 19:36:03 | INFO | Generated slug: transparencia_petrobras_com_br_relatorios-da-cgu--7fe63e78
+2026-06-30 19:36:03 | INFO | Starting analysis: https://transparencia.petrobras.com.br/relatorios-da-cgu -> /workspace/catalog/.pages/transparencia_petrobras_com_br_relatorios-da-cgu--7fe63e78
+2026-06-30 19:36:03 | INFO | Loading: https://transparencia.petrobras.com.br/relatorios-da-cgu
+2026-06-30 19:36:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:36:08 | INFO | Lazy-load scroll complete
+2026-06-30 19:36:08 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:36:19 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:36:19 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:36:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:36:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:36:19 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:36:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:36:19 | INFO | Main content: #main-content
+2026-06-30 19:36:19 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:36:19 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:36:19 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:36:20 | INFO | Captured 4 block screenshots
+2026-06-30 19:36:20 | INFO | Detected 4 blocks
+2026-06-30 19:36:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:36:20 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:36:20 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:36:20 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:36:20 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:36:20 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:36:20 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:36:20 | INFO | Main content: #main-content
+2026-06-30 19:36:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:36:20 | WARNING | Blocks - 86% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:36:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:36:21 | INFO | Captured 7 block screenshots
+2026-06-30 19:36:21 | INFO | Detected 7 blocks
+2026-06-30 19:36:21 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:36:22 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:36:22 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:36:22 | INFO | URL Pattern: /programas-finalisticos
+2026-06-30 19:36:22 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_programas-finalisticos--cb9df055/page-catalog.json
+2026-06-30 19:36:22 | INFO | SUCCESS: https://transparencia.petrobras.com.br/programas-finalisticos
+2026-06-30 19:36:24 | INFO | [47/51] Processing: https://transparencia.petrobras.com.br/sancoes-administrativas
+2026-06-30 19:36:24 | INFO | Generated slug: transparencia_petrobras_com_br_sancoes-administrativas--e62398bf
+2026-06-30 19:36:24 | INFO | Starting analysis: https://transparencia.petrobras.com.br/sancoes-administrativas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_sancoes-administrativas--e62398bf
+2026-06-30 19:36:24 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:36:24 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:36:24 | INFO | URL Pattern: /publicidade
+2026-06-30 19:36:24 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_publicidade--6127773c/page-catalog.json
+2026-06-30 19:36:24 | INFO | SUCCESS: https://transparencia.petrobras.com.br/publicidade
+2026-06-30 19:36:24 | INFO | Loading: https://transparencia.petrobras.com.br/sancoes-administrativas
+2026-06-30 19:36:25 | INFO | [48/51] Processing: https://transparencia.petrobras.com.br/selecoes-publicas
+2026-06-30 19:36:25 | INFO | Generated slug: transparencia_petrobras_com_br_selecoes-publicas--f5eaa6ac
+2026-06-30 19:36:25 | INFO | Starting analysis: https://transparencia.petrobras.com.br/selecoes-publicas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_selecoes-publicas--f5eaa6ac
+2026-06-30 19:36:25 | INFO | Loading: https://transparencia.petrobras.com.br/selecoes-publicas
+2026-06-30 19:36:29 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:36:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:36:31 | INFO | Lazy-load scroll complete
+2026-06-30 19:36:31 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:36:32 | INFO | Lazy-load scroll complete
+2026-06-30 19:36:32 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:36:45 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:36:45 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:36:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:36:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:36:45 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:36:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:36:45 | INFO | Main content: #main-content
+2026-06-30 19:36:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:36:46 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:36:46 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:36:46 | INFO | Captured 3 block screenshots
+2026-06-30 19:36:46 | INFO | Detected 3 blocks
+2026-06-30 19:36:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:36:49 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:36:49 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:36:49 | INFO | URL Pattern: /receitas
+2026-06-30 19:36:49 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_receitas--d5ceb72a/page-catalog.json
+2026-06-30 19:36:49 | INFO | SUCCESS: https://transparencia.petrobras.com.br/receitas
+2026-06-30 19:36:50 | INFO | [49/51] Processing: https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic
+2026-06-30 19:36:50 | INFO | Generated slug: transparencia_petrobras_com_br_servico-de-informacao-ao-cidadao-sic--2d8dab72
+2026-06-30 19:36:50 | INFO | Starting analysis: https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic -> /workspace/catalog/.pages/transparencia_petrobras_com_br_servico-de-informacao-ao-cidadao-sic--2d8dab72
+2026-06-30 19:36:50 | INFO | Loading: https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic
+2026-06-30 19:36:52 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:36:52 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:36:52 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:36:52 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:36:52 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:36:52 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:36:52 | INFO | Main content: #main-content
+2026-06-30 19:36:52 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:36:52 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:36:52 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:36:53 | INFO | Captured 4 block screenshots
+2026-06-30 19:36:53 | INFO | Detected 4 blocks
+2026-06-30 19:36:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:36:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:36:55 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:36:55 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:36:55 | INFO | URL Pattern: /receitas-e-despesas
+2026-06-30 19:36:55 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_receitas-e-despesas--93b44e2c/page-catalog.json
+2026-06-30 19:36:55 | INFO | SUCCESS: https://transparencia.petrobras.com.br/receitas-e-despesas
+2026-06-30 19:36:55 | INFO | PROGRESS: 45/51 analyzed (88% checklist complete) | 45 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 19:36:56 | INFO | Lazy-load scroll complete
+2026-06-30 19:36:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:36:56 | INFO | [50/51] Processing: https://transparencia.petrobras.com.br/sobre-a-petrobras
+2026-06-30 19:36:56 | INFO | Generated slug: transparencia_petrobras_com_br_sobre-a-petrobras--c33383dd
+2026-06-30 19:36:56 | INFO | Starting analysis: https://transparencia.petrobras.com.br/sobre-a-petrobras -> /workspace/catalog/.pages/transparencia_petrobras_com_br_sobre-a-petrobras--c33383dd
+2026-06-30 19:36:56 | INFO | Loading: https://transparencia.petrobras.com.br/sobre-a-petrobras
+2026-06-30 19:37:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:37:03 | INFO | Lazy-load scroll complete
+2026-06-30 19:37:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:37:09 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:37:09 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:37:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:37:09 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:37:09 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:37:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:37:09 | INFO | Main content: #main-content
+2026-06-30 19:37:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:37:09 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:37:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:37:10 | INFO | Captured 3 block screenshots
+2026-06-30 19:37:10 | INFO | Detected 3 blocks
+2026-06-30 19:37:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:37:13 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:37:13 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:37:13 | INFO | URL Pattern: /relatorios-da-cgu
+2026-06-30 19:37:13 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_relatorios-da-cgu--7fe63e78/page-catalog.json
+2026-06-30 19:37:13 | INFO | SUCCESS: https://transparencia.petrobras.com.br/relatorios-da-cgu
+2026-06-30 19:37:14 | INFO | [51/51] Processing: https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas
+2026-06-30 19:37:14 | INFO | Generated slug: transparencia_petrobras_com_br_transparencia-e-prestacao-de-contas--f2086d3e
+2026-06-30 19:37:14 | INFO | Starting analysis: https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas -> /workspace/catalog/.pages/transparencia_petrobras_com_br_transparencia-e-prestacao-de-contas--f2086d3e
+2026-06-30 19:37:14 | INFO | Loading: https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas
+2026-06-30 19:37:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:37:19 | INFO | Lazy-load scroll complete
+2026-06-30 19:37:19 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:37:32 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:37:32 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:37:32 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:37:32 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:37:32 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:37:32 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:37:32 | INFO | Main content: #main-content
+2026-06-30 19:37:32 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:37:32 | WARNING | Blocks - 57% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:37:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:37:32 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:37:32 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:37:32 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:37:32 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:37:32 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:37:32 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:37:32 | INFO | Main content: #main-content
+2026-06-30 19:37:33 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:37:33 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:37:33 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:37:33 | INFO | Captured 7 block screenshots
+2026-06-30 19:37:33 | INFO | Detected 7 blocks
+2026-06-30 19:37:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:37:33 | INFO | Captured 4 block screenshots
+2026-06-30 19:37:33 | INFO | Detected 4 blocks
+2026-06-30 19:37:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:37:35 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:37:35 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:37:35 | INFO | URL Pattern: /sancoes-administrativas
+2026-06-30 19:37:35 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_sancoes-administrativas--e62398bf/page-catalog.json
+2026-06-30 19:37:35 | INFO | SUCCESS: https://transparencia.petrobras.com.br/sancoes-administrativas
+2026-06-30 19:37:36 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:37:36 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:37:36 | INFO | URL Pattern: /selecoes-publicas
+2026-06-30 19:37:36 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_selecoes-publicas--f5eaa6ac/page-catalog.json
+2026-06-30 19:37:36 | INFO | SUCCESS: https://transparencia.petrobras.com.br/selecoes-publicas
+2026-06-30 19:37:37 | INFO | Worker 1 finished
+2026-06-30 19:37:37 | INFO | Worker 0 finished
+2026-06-30 19:37:57 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:37:57 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:37:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:37:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:37:57 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:37:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:37:57 | INFO | Main content: #main-content
+2026-06-30 19:37:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:37:57 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:37:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:37:58 | INFO | Captured 3 block screenshots
+2026-06-30 19:37:58 | INFO | Detected 3 blocks
+2026-06-30 19:37:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:38:00 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:38:00 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:38:00 | INFO | URL Pattern: /servico-de-informacao-ao-cidadao-sic
+2026-06-30 19:38:00 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_servico-de-informacao-ao-cidadao-sic--2d8dab72/page-catalog.json
+2026-06-30 19:38:00 | INFO | SUCCESS: https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic
+2026-06-30 19:38:02 | INFO | Worker 2 finished
+2026-06-30 19:38:04 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:38:04 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:38:04 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:38:04 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:38:04 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:38:04 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:38:04 | INFO | Main content: #main-content
+2026-06-30 19:38:04 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:38:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:38:05 | INFO | Captured 9 block screenshots
+2026-06-30 19:38:05 | INFO | Detected 9 blocks
+2026-06-30 19:38:05 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:38:08 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:38:08 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:38:08 | INFO | URL Pattern: /sobre-a-petrobras
+2026-06-30 19:38:08 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_sobre-a-petrobras--c33383dd/page-catalog.json
+2026-06-30 19:38:08 | INFO | SUCCESS: https://transparencia.petrobras.com.br/sobre-a-petrobras
+2026-06-30 19:38:08 | INFO | PROGRESS: 50/51 analyzed (98% checklist complete) | 50 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-06-30 19:38:09 | INFO | Worker 3 finished
+2026-06-30 19:38:20 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:38:20 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:38:20 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:38:20 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:38:20 | INFO | Footer: simple complexity, 2 features
+2026-06-30 19:38:20 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:38:20 | INFO | Main content: #main-content
+2026-06-30 19:38:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:38:20 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:38:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:38:21 | INFO | Captured 4 block screenshots
+2026-06-30 19:38:21 | INFO | Detected 4 blocks
+2026-06-30 19:38:21 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:38:23 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:38:23 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:38:23 | INFO | URL Pattern: /transparencia-e-prestacao-de-contas
+2026-06-30 19:38:23 | INFO | Page catalog complete: /workspace/catalog/.pages/transparencia_petrobras_com_br_transparencia-e-prestacao-de-contas--f2086d3e/page-catalog.json
+2026-06-30 19:38:23 | INFO | SUCCESS: https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas
+2026-06-30 19:38:23 | INFO | PROGRESS: 51/51 analyzed (100% checklist complete) | 51 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 19:38:24 | INFO | Worker 4 finished
+2026-06-30 19:38:24 | INFO | PROGRESS: 51/51 analyzed (100% checklist complete) | 51 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 19:38:24 | INFO | ================================================================================
+2026-06-30 19:38:24 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 19:38:24 | INFO | ================================================================================
+2026-06-30 19:38:24 | INFO | Total URLs: 51
+2026-06-30 19:38:24 | INFO | Attempt successes: 51
+2026-06-30 19:38:24 | INFO | Attempt failures: 0
+2026-06-30 19:38:24 | INFO | Skipped: 0
+2026-06-30 19:38:24 | INFO | Checklist final status: 51 analyzed, 0 failed, 0 marked
+2026-06-30 19:38:24 | INFO | Workers: 5
+2026-06-30 19:38:24 | INFO | ================================================================================
+2026-06-30 19:38:24 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T19:39:02.391Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T19:39:02.406Z | INFO | consolidate-fingerprints - Consolidated 51 fingerprints
+2026-06-30 19:39:27 | ERROR | Schema validation failed for template-catalog.json: / should NOT have more than 5 items
+2026-06-30 19:40:01 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 19:40:01 | INFO | Agent 4 Progress - Starting representative pass with 6 page(s) and 43 block occurrence(s)
+2026-06-30 19:40:01 | INFO | Agent 4 Progress - representative: 6/6 page(s), 43/43 block occurrence(s), 16 unique signatures, 18 variants (16 new, 27 reused)
+2026-06-30 19:40:01 | INFO | Agent 4 Progress - Starting backfill pass with 45 page(s) and 232 block occurrence(s)
+2026-06-30 19:40:01 | INFO | Agent 4 Progress - backfill: 25/45 page(s), 127/232 block occurrence(s), 31 unique signatures, 33 variants (31 new, 139 reused)
+2026-06-30 19:40:01 | INFO | Agent 4 Progress - backfill: 45/45 page(s), 232/232 block occurrence(s), 42 unique signatures, 44 variants (42 new, 233 reused)
+2026-06-30 19:40:01 | INFO | Agent 4 Completed - Cataloged 44 block variants (42 new, 233 reused)
+2026-06-30 19:40:01 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 19:40:01 | INFO | Session state set to INACTIVE
+2026-06-30 19:40:01 | INFO | Agent 2 Completed - Summary generated successfully

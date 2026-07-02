@@ -1,0 +1,63 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.397Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/",
+        "screenshot": ".pages/araucarianitrogenados_com_br--50cb08c1/blocks/columns-300d0baa.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/araucarianitrogenados_com_br_cartas-de-governanca-e-politicas-publicas--5b7fb70e/blocks/columns-6cfe33b4.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--a014367c/blocks/columns-648107f3.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional--38b958b0/blocks/columns-4a2cdb19.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/auditoria",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_auditoria--e5d8f0c4/blocks/columns-558be47.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--68e745e3/blocks/columns-5838f25c.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_orgaos-estatutarios--4138a81c/blocks/columns-7465ce95.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--40686108/blocks/columns-78229ba8.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/outras-informacoes",
+        "screenshot": ".pages/araucarianitrogenados_com_br_outras-informacoes--e39dfff1/blocks/columns-efbe20e.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

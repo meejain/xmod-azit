@@ -1,0 +1,255 @@
+{
+  "url": "https://termoba.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+  "timestamp": "2026-06-30T21:34:15.132Z",
+  "duration": "69.1s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/auditorias/prestacao-de-contas",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 250
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 517,
+        "y": 75,
+        "width": 85,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 602,
+        "y": 75,
+        "width": 149,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 751,
+        "y": 75,
+        "width": 72,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 823,
+        "y": 75,
+        "width": 145,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 115,
+        "width": 778,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 517,
+        "y": 75,
+        "width": 85,
+        "height": 21,
+        "textLength": 10
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 623,
+        "y": 75,
+        "width": 149,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 793,
+        "y": 75,
+        "width": 72,
+        "height": 21,
+        "textLength": 10
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 886,
+        "y": 75,
+        "width": 145,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 115,
+        "width": 853,
+        "height": 46,
+        "textLength": 36
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 238,
+    "topSectionTitleRect": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 238,
+      "text": "Termobahia Acesso à Informação Auditorias Prestação de Contas Relatório Anual de Auditoria Interna"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 1154
+    },
+    "bodyStartY": 250,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 250,
+        "width": 778,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 305,
+        "width": 678,
+        "height": 64
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 392,
+        "width": 849,
+        "height": 176
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-4a971413",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 1,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + list"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-7b5c723e-c6a5-c960-85fd-43c6a9163d59",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-4a971413.jpg"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 356
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "hero"
+    }
+  ]
+}

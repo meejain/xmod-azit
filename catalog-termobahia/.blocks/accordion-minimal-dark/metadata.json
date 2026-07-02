@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.893Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/institucional/orgaos-estatutarios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/termoba_com_br_institucional_orgaos-estatutarios--57196900/blocks/accordion-d84d2c1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

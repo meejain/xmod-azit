@@ -1,0 +1,64 @@
+{
+  "variantName": "1 heading + 3 images + 1 cta block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/carreiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 1 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 1 CTAs + 3 images + list\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 1 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_carreiras--59c53b01/blocks/unknown-54832bee.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esportes--528df9a3/blocks/unknown-5dd6dbd2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-operacional--e87966a0/blocks/unknown-5dd6dbd2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_autonomia-e-renda--a406b194/blocks/unknown-3f10918c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/unknown-54832bee.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estagios--e55fc8bd/blocks/unknown-62f97cc0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/unknown-140796f5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esportes--9e5c352c/blocks/unknown-5dd6dbd2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-operacional--61aeb695/blocks/unknown-5dd6dbd2.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "accordion-minimal-dark-21",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.221Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/linha-podium",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "text + 8 CTAs + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"text + 8 CTAs + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_linha-podium--a18180cf/blocks/accordion-6983b429.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina-podium--11a9615e/blocks/accordion-6983b429.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_linha-podium--6378fc8c/blocks/accordion-6983b429.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

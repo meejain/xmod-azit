@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.791Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/selecao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 8 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 8 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/selecao",
+        "screenshot": ".pages/agencia_petrobras_com_br_selecao--5e341364/blocks/accordion-2dd94ea2.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

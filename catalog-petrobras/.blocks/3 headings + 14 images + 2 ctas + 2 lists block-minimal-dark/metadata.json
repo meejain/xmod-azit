@@ -1,0 +1,31 @@
+{
+  "variantName": "3 headings + 14 images + 2 ctas + 2 lists block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.226Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 2 CTAs + 14 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 2 CTAs + 14 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_complexo-boaventura--92450213/blocks/unknown-79d82f1d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

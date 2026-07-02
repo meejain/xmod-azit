@@ -1,0 +1,31 @@
+{
+  "variantName": "42 headings + 15 images + 4 ctas block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.230Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/sustentabilidade/cinema",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 4 CTAs + 15 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 4 CTAs + 15 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cinema",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cinema--834a7e40/blocks/unknown-3595883c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

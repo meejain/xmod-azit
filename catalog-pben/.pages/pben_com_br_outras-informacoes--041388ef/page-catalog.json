@@ -1,0 +1,216 @@
+{
+  "url": "https://pben.com.br/outras-informacoes",
+  "timestamp": "2026-06-30T21:26:43.022Z",
+  "duration": "69.3s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/outras-informacoes",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 175
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 537,
+        "y": 75,
+        "width": 140,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 115,
+        "width": 357,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21,
+        "textLength": 20
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 558,
+        "y": 75,
+        "width": 140,
+        "height": 21,
+        "textLength": 18
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 115,
+        "width": 632,
+        "height": 38,
+        "textLength": 18
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 154,
+    "topSectionTitleRect": {
+      "x": 404,
+      "y": 115,
+      "width": 632,
+      "height": 38,
+      "text": "Outras Informações"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 175,
+      "width": 1440,
+      "height": 725
+    },
+    "bodyStartY": 175,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 92,
+        "y": 249,
+        "width": 156,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 364,
+        "width": 357,
+        "height": 38
+      },
+      {
+        "type": "image",
+        "x": 460,
+        "y": 426,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 488,
+        "y": 431,
+        "width": 271,
+        "height": 16
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-59239cac",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 3 CTAs + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 3,
+        "linkCount": 2,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + 3 CTAs + list"
+      },
+      "selector": "div.lfr-layout-structure-item-1488c9c1-49bc-b5e2-d2a3-35f0bc02a2ad.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 286
+      },
+      "screenshot": "blocks/default-59239cac.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-6e014d88",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.fragment_1115041.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 362,
+        "width": 1296,
+        "height": 231
+      },
+      "screenshot": "blocks/default-6e014d88.jpg",
+      "reclassifiedFrom": "hero"
+    }
+  ]
+}

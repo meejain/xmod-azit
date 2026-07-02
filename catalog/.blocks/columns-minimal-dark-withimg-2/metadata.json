@@ -1,0 +1,47 @@
+{
+  "variantName": "columns-minimal-dark-withimg-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.218Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_add-cleaner-petrobras--5733e421/blocks/columns-340498ab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/columns-340498ab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/skate",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_skate--fed9e670/blocks/columns-340498ab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_futebol-feminino--4998f2ba/blocks/columns-340498ab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/skate",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_skate--197689c3/blocks/columns-340498ab.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

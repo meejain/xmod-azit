@@ -1,0 +1,35 @@
+{
+  "variantName": "breadcrumbs-minimal-dark-2",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.888Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + 4 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"breadcrumbs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + 4 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/pblogsa_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--4b23aedb/blocks/breadcrumbs-c2873be.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/auditoria",
+        "screenshot": ".pages/pblogsa_com_br_institucional_auditoria--a8db1e78/blocks/breadcrumbs-494cd0f1.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-11",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/liderancas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 2 CTAs + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + text + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_liderancas--493a6a78/blocks/carousel-5b788231.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/nossas-atividades/por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira",
+        "screenshot": ".pages/petrobras_com_br_w_nossas-atividades_por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira--63c72416/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/nossas-atividades/por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_nossas-atividades_por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira--f51d3b5f/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/como-alcancar-a-seguranca-energetica",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_como-alcancar-a-seguranca-energetica--beaadad2/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa--cf7ade93/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/o-que-e-transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_o-que-e-transicao-energetica--9b73d17c/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/produtos-de-baixo-carbono",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_produtos-de-baixo-carbono--e2fda614/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/quais-sao-as-energias-renovaveis",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_quais-sao-as-energias-renovaveis--5004fc12/blocks/carousel-422412a9.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

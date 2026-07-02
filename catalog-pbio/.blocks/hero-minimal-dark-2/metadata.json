@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-minimal-dark-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.178Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9e5ff26/blocks/hero-367a09fc.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

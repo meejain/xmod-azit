@@ -1,0 +1,350 @@
+{
+  "url": "https://pbio.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+  "timestamp": "2026-06-30T20:53:38.706Z",
+  "duration": "69.8s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 200
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 200
+      },
+      {
+        "type": "text",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 537,
+        "y": 75,
+        "width": 286,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 115,
+        "width": 505,
+        "height": 76
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21,
+        "textLength": 20
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 558,
+        "y": 75,
+        "width": 286,
+        "height": 21,
+        "textLength": 55
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 115,
+        "width": 632,
+        "height": 77,
+        "textLength": 52
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 238
+      }
+    ],
+    "topSectionCropBottomY": 192,
+    "topSectionTitleRect": {
+      "x": 404,
+      "y": 115,
+      "width": 632,
+      "height": 77,
+      "text": "Demonstrativos de Quadro Pessoal e Acordos Coletivos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 200,
+      "width": 1440,
+      "height": 1722
+    },
+    "bodyStartY": 200,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 179,
+        "y": 248,
+        "width": 529,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 752,
+        "y": 248,
+        "width": 688,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 92,
+        "y": 249,
+        "width": 43,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 329,
+        "width": 538,
+        "height": 79
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 610,
+        "width": 539,
+        "height": 115
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 776,
+        "width": 565,
+        "height": 539
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1492,
+        "width": 554,
+        "height": 153
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1697,
+        "width": 529,
+        "height": 50
+      },
+      {
+        "type": "text",
+        "x": 449,
+        "y": 1823,
+        "width": 141,
+        "height": 22
+      },
+      {
+        "type": "image",
+        "x": 974,
+        "y": 1824,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 900,
+        "y": 1826,
+        "width": 16,
+        "height": 16
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-c2873be",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 5 CTAs + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 5,
+        "linkCount": 4,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 5 CTAs + image + list"
+      },
+      "selector": "div.lfr-layout-structure-item-5e28d786-8d1f-649b-d9e5-40251f7537c7.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 286
+      },
+      "screenshot": "blocks/hero-c2873be.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-7e698045",
+      "type": "default",
+      "confidence": "low",
+      "description": "fragment_",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "div.fragment_1174685.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 362,
+        "width": 1296,
+        "height": 166
+      },
+      "screenshot": "blocks/default-7e698045.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-6b4a0613",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-87ddbaf4-e044-8e98-da2e-05e3e8c48e5a > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 608,
+        "width": 1296,
+        "height": 882
+      },
+      "screenshot": "blocks/default-6b4a0613.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-673187df",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 7,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-c6dfd81b-0681-5724-894c-f08cf44e65dc > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1491,
+        "width": 1296,
+        "height": 497
+      },
+      "screenshot": "blocks/default-673187df.jpg",
+      "reclassifiedFrom": "columns"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "cards-minimal-light-1",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/jornada-da-energia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/cards-3ee33bfa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_jornada-da-energia--58889390/blocks/cards-3ee33bfa.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

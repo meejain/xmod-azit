@@ -1,0 +1,35 @@
+{
+  "variantName": "1 heading + 1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.432Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br--2424e4b6/blocks/unknown-2d06c9a9.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/tipos-de-plataformas-utilizadas-na-bacia-de-santos",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_tipos-de-plataformas-utilizadas-na-bacia-de-santos--cb65f4b6/blocks/unknown-4ba6dd40.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

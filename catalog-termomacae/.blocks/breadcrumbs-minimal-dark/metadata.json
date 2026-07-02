@@ -1,0 +1,35 @@
+{
+  "variantName": "breadcrumbs-minimal-dark",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.234Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + 10 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"breadcrumbs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + 10 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/",
+        "screenshot": ".pages/termomacae_com_br--1930b556/blocks/breadcrumbs-494cd0f1.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional",
+        "screenshot": ".pages/termomacae_com_br_institucional--c31c533c/blocks/breadcrumbs-494cd0f1.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

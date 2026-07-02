@@ -1,0 +1,91 @@
+{
+  "variantName": "carousel-minimal-dark-1",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/cultural/selecoes-publicas-culturais",
+        "screenshot": ".pages/petrobras_com_br_cultural_selecoes-publicas-culturais--a0cfbcca/blocks/carousel-2e1a6645.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-de-regaseificacao-de-gas--6e7fbd37/blocks/carousel-40ec239f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-escoamento-de-gas--e9514cd5/blocks/carousel-1e3c31a3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-processamento-de-gas--e935934d/blocks/carousel-69880076.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_exploracao-e-producao--f324514c/blocks/carousel-1e10026c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_perfil--cbd5b9e3/blocks/carousel-1a684f2c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/carousel-35679861.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/licenciamento-ambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_licenciamento-ambiental--8d3d6a0c/blocks/carousel-29647e43.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_mudancas-climaticas--15a1a892/blocks/carousel-2c5e1d52.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_socioambiental--a3230219/blocks/carousel-34bcfe50.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-de-regaseificacao-de-gas--58ca71ce/blocks/carousel-29c02bf2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-escoamento-de-gas--ad599604/blocks/carousel-52da471d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-processamento-de-gas--0a7a82bd/blocks/carousel-47723dc9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/carousel-aecd1ff.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/carousel-4cf35440.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/licenciamento-ambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_licenciamento-ambiental--0675000e/blocks/carousel-eaa72b8.jpg"
+      }
+    ],
+    "reuseCount": 16
+  }
+}

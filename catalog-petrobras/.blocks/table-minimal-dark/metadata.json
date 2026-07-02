@@ -1,0 +1,43 @@
+{
+  "variantName": "table-minimal-dark",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/diesel-podium",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"table\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-podium--b13f4f2f/blocks/table-6859dd83.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel-maritimo--9ec46392/blocks/table-183a21d3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_concursos--30749157/blocks/table-4cc8786.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-podium--0665b9dd/blocks/table-6751c4c3.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "variantName": "3 headings + 9 images + 3 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.218Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 3 CTAs + 9 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 3 CTAs + 9 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 3 CTAs + 9 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_add-cleaner-petrobras--5733e421/blocks/unknown-6f23b487.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_combustiveis-customizados--3d74319b/blocks/unknown-56d0fa17.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural--e9d13e3e/blocks/unknown-5da81723.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/unknown-bc888d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_add-cleaner-petrobras--4e0305d5/blocks/unknown-6f23b487.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_combustiveis-customizados--c5edafba/blocks/unknown-56d0fa17.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural--ae1cfbc1/blocks/unknown-5da81723.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/unknown-bc888d.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

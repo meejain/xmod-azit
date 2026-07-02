@@ -1,0 +1,215 @@
+{
+  "variantName": "1 heading block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.435Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao",
+        "screenshot": ".pages/transparencia_petrobras_com_br_acoes-de-supervisao-controle-e-correicao--51db9a1e/blocks/unknown-3e21d4ec.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/acoes-e-programas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_acoes-e-programas--f391dec0/blocks/unknown-87acf20.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/aditivos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_aditivos--6ceea72f/blocks/unknown-60bc0824.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis",
+        "screenshot": ".pages/transparencia_petrobras_com_br_alienacao-de-bens-imoveis--b8037ea5/blocks/unknown-1e1ab680.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/aquisicao-de-bens",
+        "screenshot": ".pages/transparencia_petrobras_com_br_aquisicao-de-bens--a7016656/blocks/unknown-75dbd53c.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/atas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_atas--d7eb1129/blocks/unknown-1bf8e033.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/atos-normativos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_atos-normativos--fbd9a750/blocks/unknown-23cdb548.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/audiencias-publicas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/unknown-57230207.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/auditorias",
+        "screenshot": ".pages/transparencia_petrobras_com_br_auditorias--b461a4ff/blocks/unknown-352e2734.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/balcao-de-atendimento",
+        "screenshot": ".pages/transparencia_petrobras_com_br_balcao-de-atendimento--c30390f0/blocks/unknown-6cf12061.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/conferencias",
+        "screenshot": ".pages/transparencia_petrobras_com_br_conferencias--9ba3d0e5/blocks/unknown-23eb552e.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados",
+        "screenshot": ".pages/transparencia_petrobras_com_br_conselhos-e-orgaos-colegiados--74a6adb3/blocks/unknown-79faad19.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/contratos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_contratos--6227fa32/blocks/unknown-5b67c005.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/transparencia_petrobras_com_br_contratos-de-transferencia-de-tecnologia--8b30ee3e/blocks/unknown-36e0f20d.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/convenios-e-transferencias",
+        "screenshot": ".pages/transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9/blocks/unknown-41819fcb.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/dados-abertos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_dados-abertos--c42a3912/blocks/unknown-5ea8cd2b.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/demonstracoes-financeiras",
+        "screenshot": ".pages/transparencia_petrobras_com_br_demonstracoes-financeiras--580e6d20/blocks/unknown-6b59788c.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/diarias-e-passagens",
+        "screenshot": ".pages/transparencia_petrobras_com_br_diarias-e-passagens--bc4e362a/blocks/unknown-4ec494ce.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/empregados-publicos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_empregados-publicos--00e3bb4a/blocks/unknown-3e6e5f9b.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/estatistica-do-sic",
+        "screenshot": ".pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22/blocks/unknown-7630f657.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/horario-de-atendimento",
+        "screenshot": ".pages/transparencia_petrobras_com_br_horario-de-atendimento--abda7693/blocks/unknown-7be6e689.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/hospitalidades",
+        "screenshot": ".pages/transparencia_petrobras_com_br_hospitalidades--196efffd/blocks/unknown-65ba5db6.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/informacoes-classificadas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_informacoes-classificadas--34896dcb/blocks/unknown-65767c23.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/institucional",
+        "screenshot": ".pages/transparencia_petrobras_com_br_institucional--b371af1b/blocks/unknown-6a3f77.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/licitacoes",
+        "screenshot": ".pages/transparencia_petrobras_com_br_licitacoes--d69afeff/blocks/unknown-72027bb1.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/licitacoes-e-contratos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_licitacoes-e-contratos--e95c5fa5/blocks/unknown-7b5a3ca5.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/obras",
+        "screenshot": ".pages/transparencia_petrobras_com_br_obras--82b50d81/blocks/unknown-90b5d9.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/orcamento-de-investimento",
+        "screenshot": ".pages/transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e/blocks/unknown-7ef587dd.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/outras-acoes",
+        "screenshot": ".pages/transparencia_petrobras_com_br_outras-acoes--fafcd72b/blocks/unknown-389ff1f.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/participacao-social",
+        "screenshot": ".pages/transparencia_petrobras_com_br_participacao-social--b9308f4a/blocks/unknown-41d5ec2e.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/patrocinios",
+        "screenshot": ".pages/transparencia_petrobras_com_br_patrocinios--dbb4af17/blocks/unknown-72e9341.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/perguntas-frequentes",
+        "screenshot": ".pages/transparencia_petrobras_com_br_perguntas-frequentes--1663b38d/blocks/unknown-30fb1ff6.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/politica-de-dividendos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_politica-de-dividendos--0210b9b6/blocks/unknown-594434ac.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_politica-de-transacoes-com-partes-relacionadas--d387c79a/blocks/unknown-220863f7.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/presentes",
+        "screenshot": ".pages/transparencia_petrobras_com_br_presentes--c5101857/blocks/unknown-207a6d66.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/prestacao-de-contas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_prestacao-de-contas--fb27fd92/blocks/unknown-313ec545.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica",
+        "screenshot": ".pages/transparencia_petrobras_com_br_programa-de-p-d-do-setor-de-energia-eletrica--f19e8909/blocks/unknown-acb292d.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/programas-finalisticos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_programas-finalisticos--cb9df055/blocks/unknown-5f41f88f.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/publicidade",
+        "screenshot": ".pages/transparencia_petrobras_com_br_publicidade--6127773c/blocks/unknown-345f5f58.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/receitas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_receitas--d5ceb72a/blocks/unknown-53696600.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/receitas-e-despesas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_receitas-e-despesas--93b44e2c/blocks/unknown-490fa22b.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/relatorios-da-cgu",
+        "screenshot": ".pages/transparencia_petrobras_com_br_relatorios-da-cgu--7fe63e78/blocks/unknown-5160ebec.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/sancoes-administrativas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_sancoes-administrativas--e62398bf/blocks/unknown-5bf30a2f.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/selecoes-publicas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_selecoes-publicas--f5eaa6ac/blocks/unknown-22658532.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/transparencia_petrobras_com_br_servico-de-informacao-ao-cidadao-sic--2d8dab72/blocks/unknown-3cd39ee5.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/sobre-a-petrobras",
+        "screenshot": ".pages/transparencia_petrobras_com_br_sobre-a-petrobras--c33383dd/blocks/unknown-1b73b6d1.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_transparencia-e-prestacao-de-contas--f2086d3e/blocks/unknown-4f1eab34.jpg"
+      }
+    ],
+    "reuseCount": 47
+  }
+}

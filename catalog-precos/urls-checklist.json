@@ -1,0 +1,37 @@
+{
+  "analysis-urls-checklist": {
+    "captured": "2026-06-30T19:48:44.058Z",
+    "totalPages": 4,
+    "statusBreakdown": {
+      "marked": 0,
+      "analyzed": 4,
+      "failed": 0
+    },
+    "pages": {
+      "https://precos.petrobras.com.br/": {
+        "url": "https://precos.petrobras.com.br/",
+        "status": "analyzed",
+        "analyzedAt": "2026-06-30T19:49:26.768Z",
+        "slug": "precos_petrobras_com_br--eff6fed6"
+      },
+      "https://precos.petrobras.com.br/precos-diesel": {
+        "url": "https://precos.petrobras.com.br/precos-diesel",
+        "status": "analyzed",
+        "analyzedAt": "2026-06-30T19:49:57.402Z",
+        "slug": "precos_petrobras_com_br_precos-diesel--bc7f97a5"
+      },
+      "https://precos.petrobras.com.br/precos-gasolina": {
+        "url": "https://precos.petrobras.com.br/precos-gasolina",
+        "status": "analyzed",
+        "analyzedAt": "2026-06-30T19:49:58.862Z",
+        "slug": "precos_petrobras_com_br_precos-gasolina--60beca62"
+      },
+      "https://precos.petrobras.com.br/precos-glp": {
+        "url": "https://precos.petrobras.com.br/precos-glp",
+        "status": "analyzed",
+        "analyzedAt": "2026-06-30T19:50:00.376Z",
+        "slug": "precos_petrobras_com_br_precos-glp--c6adc7ad"
+      }
+    }
+  }
+}

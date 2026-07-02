@@ -1,0 +1,31 @@
+{
+  "variantName": "4 images block-minimal-dark-1",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.222Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/tipos-de-fertilizantes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "text + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"text + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_tipos-de-fertilizantes--210bc799/blocks/unknown-1434b628.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "1 heading + 1 cta + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.213Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/vida-na-plataforma",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": true,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text + 1 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":true,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + 1 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/vida-na-plataforma",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/unknown-223a0fb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/vida-na-plataforma",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/unknown-223a0fb.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

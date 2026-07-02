@@ -1,0 +1,198 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/areas-de-exclusao-em-torno-das-plataformas",
+  "timestamp": "2026-07-01T12:07:43.781Z",
+  "duration": "10.0s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/areas-de-exclusao-em-torno-das-plataformas",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    },
+    "topSectionStrategy": "title+hero",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 246,
+        "y": 41,
+        "width": 949,
+        "height": 41
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 163,
+        "width": 840,
+        "height": 732
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 69
+      },
+      {
+        "tag": "p",
+        "fontSize": 36,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 245,
+        "y": 35,
+        "width": 949,
+        "height": 54,
+        "textLength": 42
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 121,
+        "y": 163,
+        "width": 840,
+        "height": 732
+      }
+    ],
+    "topSectionCropBottomY": 895,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Áreas de exclusão em torno das plataformas | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 900,
+      "width": 1440,
+      "height": 844
+    },
+    "bodyStartY": 900,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1594,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1713,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-1ae5bcf0",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "div.text > div:nth-child(1)",
+      "bounds": {
+        "x": 121,
+        "y": 401,
+        "width": 1199,
+        "height": 732
+      },
+      "screenshot": "blocks/default-1ae5bcf0.jpg",
+      "reclassifiedFrom": "hero"
+    }
+  ]
+}

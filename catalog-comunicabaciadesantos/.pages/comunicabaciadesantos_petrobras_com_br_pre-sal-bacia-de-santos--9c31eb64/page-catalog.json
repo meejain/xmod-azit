@@ -1,0 +1,205 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos",
+  "timestamp": "2026-07-01T12:07:35.291Z",
+  "duration": "10.9s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/pre-sal-bacia-de-santos",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 925
+    },
+    "topSectionStrategy": "title+hero",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 474,
+        "y": 41,
+        "width": 493,
+        "height": 41
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 403,
+        "width": 739,
+        "height": 520
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 50
+      },
+      {
+        "tag": "p",
+        "fontSize": 36,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 474,
+        "y": 35,
+        "width": 493,
+        "height": 54,
+        "textLength": 23
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 351,
+        "y": 403,
+        "width": 739,
+        "height": 520
+      }
+    ],
+    "topSectionCropBottomY": 923,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "PRÉ-SAL BACIA DE SANTOS | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 925,
+      "width": 1440,
+      "height": 249
+    },
+    "bodyStartY": 925,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 337,
+        "y": 947,
+        "width": 106,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1024,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1143,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-53921545",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 image block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "image"
+      },
+      "selector": "div.lfr-layout-structure-item-textos.lfr-layout-structure-item-3c5653a6-aa24-a2ce-5f8c-6fb2250952be",
+      "bounds": {
+        "x": 0,
+        "y": 386,
+        "width": 1440,
+        "height": 838
+      },
+      "screenshot": "blocks/default-53921545.jpg",
+      "reclassifiedFrom": "hero"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T21:43:16.960Z",
+    "totalBlockVariants": 7,
+    "totalBlocksProcessed": 177,
+    "newVariantsCreated": 5,
+    "variantsReused": 156,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 51,
+        "description": "1 heading + 1 list block",
+        "screenshots": [
+          ".pages/termoba_com_br_acesso-a-informacao--1a8946ff/blocks/hero-213c48dc.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas--376ae200/blocks/hero-5a846208.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--1768f65a/blocks/hero-5a57b68a.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_governanca--93882f4e/blocks/hero-5a57b68a.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--39d38876/blocks/hero-25ee1de.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--83c5510f/blocks/hero-5a57b68a.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "lfr-layout-structure-item-iframe",
+        "screenshots": [
+          ".pages/termoba_com_br_acesso-a-informacao_convenios-e-transferencias--8c7a688d/blocks/embed-56a7e468.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--322f8145/blocks/embed-6e4acf79.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--cc114b76/blocks/embed-5563625c.jpg",
+          ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--64438afe/blocks/embed-a4a6841.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "3 headings block",
+        "screenshots": [
+          ".pages/termoba_com_br_institucional_orgaos-estatutarios--57196900/blocks/accordion-d84d2c1.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + 2 images + 2 paragraphs block",
+        "screenshots": [
+          ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--ef01c653/blocks/cards-4586852e.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 images + 1 paragraph block",
+        "screenshots": [
+          ".pages/termoba_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3b04afc2/blocks/columns-16b1599c.jpg"
+        ]
+      }
+    }
+  }
+}

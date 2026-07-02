@@ -1,0 +1,43 @@
+{
+  "variantName": "cards-moderate-dark",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/liderancas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_liderancas--493a6a78/blocks/cards-5fd86ad3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/cards-5fd86ad3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sitemap",
+        "screenshot": ".pages/petrobras_com_br_sitemap--530acaf1/blocks/cards-7fae8ad0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/web-stories",
+        "screenshot": ".pages/petrobras_com_br_web-stories--121afd5c/blocks/cards-26fdd3a9.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.887Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/acesso-a-informacao/empregados-publicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_empregados-publicos--c2cb3ea2/blocks/unknown-464184e.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional--f75d336b/blocks/unknown-351e9ce9.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--8b2b9f6b/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_ouvidoria--9d2d8b55/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--2b21d89d/blocks/unknown-19814dbb.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

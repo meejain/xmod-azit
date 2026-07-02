@@ -1,0 +1,97 @@
+{
+  "variantName": "hero-minimal-dark-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/energia-em-transformacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":true,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/hero-59785b2d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_centro-de-pesquisa--2952ed13/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/hero-1dcac127.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossos-escritorios--0ecde680/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_porto-de-macae--3cab617f/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/vida-na-plataforma",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/hero-81f8aa6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/hero-237ed84f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_energia-em-transformacao--19501090/blocks/hero-59785b2d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_fale-conosco--e4adb542/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_jornada-da-energia--58889390/blocks/hero-1dcac127.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/vida-na-plataforma",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/hero-81f8aa6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/hero-237ed84f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_selecoes-publicas--435619c6/blocks/hero-15fa404f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica--b7996fe9/blocks/hero-59785b2d.jpg"
+      }
+    ],
+    "reuseCount": 17
+  }
+}

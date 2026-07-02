@@ -1,0 +1,47 @@
+{
+  "variantName": "cards-minimal-light",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.435Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/condicionantes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/condicionantes",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_condicionantes--8f868b33/blocks/cards-558ff5c.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/emergencia",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_emergencia--3dfbee26/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/plano-de-emergencia-individual-pei-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_plano-de-emergencia-individual-pei---307eaa07/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_plano-de-emergencia-para-vazamento-de-oleo-pevo---fb9c9cb2/blocks/cards-2bb6f93.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/plano-de-protecao-a-fauna-ppaf-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_plano-de-protecao-a-fauna-ppaf---39f765a2/blocks/cards-2bb6f93.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

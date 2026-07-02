@@ -1,0 +1,53 @@
+{
+  "variantName": "3 headings + 3 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 1 CTAs + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_en_produtos-mais-sustent_C3_A1veis--e208a6d7/blocks/unknown-2fae2c2a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_tipos-de-fertilizantes--210bc799/blocks/unknown-754c16d1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/unknown-53c5c40f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_produtos-mais-sustent_C3_A1veis--afda81ef/blocks/unknown-2fae2c2a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_tipos-de-fertilizantes--1f71f494/blocks/unknown-754c16d1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_selecoes-publicas--435619c6/blocks/unknown-79bc30cf.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

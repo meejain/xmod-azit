@@ -1,0 +1,105 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T19:50:35.711Z",
+    "totalBlockVariants": 9,
+    "totalBlocksProcessed": 9,
+    "newVariantsCreated": 7,
+    "variantsReused": 2,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 4,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "cards-moderate-dark": {
+        "blockVariantId": "cards-moderate-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "2 headings + form + 3 paragraphs + 5-item layout block",
+        "screenshots": [
+          ".pages/precos_petrobras_com_br_precos-diesel--bc7f97a5/blocks/cards-3761530b.jpg",
+          ".pages/precos_petrobras_com_br_precos-gasolina--60beca62/blocks/cards-3761530b.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "1 heading + 3 images + 4 CTAs block",
+        "screenshots": [
+          ".pages/precos_petrobras_com_br--eff6fed6/blocks/carousel-2373823e.jpg"
+        ]
+      },
+      "columns-minimal-light": {
+        "blockVariantId": "columns-minimal-light",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "5 headings + 2 lists + 3-item layout block",
+        "screenshots": [
+          ".pages/precos_petrobras_com_br--eff6fed6/blocks/columns-170efa8f.jpg"
+        ]
+      },
+      "form-minimal-dark": {
+        "blockVariantId": "form-minimal-dark",
+        "baseBlock": "form",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "1 heading + form + 1 paragraph block",
+        "screenshots": [
+          ".pages/precos_petrobras_com_br--eff6fed6/blocks/form-6e89fc6d.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "3 headings + 3 images block",
+        "screenshots": [
+          ".pages/precos_petrobras_com_br--eff6fed6/blocks/hero-66f2a135.jpg"
+        ]
+      },
+      "hero-moderate-dark": {
+        "blockVariantId": "hero-moderate-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + form + 6-item layout block",
+        "screenshots": [
+          ".pages/precos_petrobras_com_br_precos-glp--c6adc7ad/blocks/hero-3d212080.jpg"
+        ]
+      },
+      "video-minimal-dark": {
+        "blockVariantId": "video-minimal-dark",
+        "baseBlock": "video",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "form + video block",
+        "screenshots": []
+      }
+    }
+  }
+}

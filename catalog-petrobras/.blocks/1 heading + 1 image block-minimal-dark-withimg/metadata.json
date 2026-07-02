@@ -1,0 +1,95 @@
+{
+  "variantName": "1 heading + 1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/unknown-5ea0d8c9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/colombia",
+        "screenshot": ".pages/petrobras_com_br_colombia--e0377991/blocks/unknown-3fe0cb8d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/unknown-5ea0d8c9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/colombia",
+        "screenshot": ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/unknown-3fe0cb8d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_patentes--1ee30656/blocks/unknown-74f3f12c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-escoamento-de-gas--e9514cd5/blocks/unknown-5ff20f5a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-processamento-de-gas--e935934d/blocks/unknown-144fc7d3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_bunker--12eef8be/blocks/unknown-10a0db73.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/unknown-3ef8e93.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_futebol-feminino--211e0359/blocks/unknown-41f889eb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-operacional--e87966a0/blocks/unknown-5dd6dc2f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/unknown-2d8f2b01.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-escoamento-de-gas--ad599604/blocks/unknown-5ff20f5a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-processamento-de-gas--0a7a82bd/blocks/unknown-144fc7d3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/unknown-6001b161.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/unknown-342aff3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-operacional--61aeb695/blocks/unknown-5dd6dc10.jpg"
+      }
+    ],
+    "reuseCount": 17
+  }
+}

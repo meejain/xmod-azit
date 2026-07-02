@@ -1,0 +1,51 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-13",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.215Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_tipos-de-fertilizantes--210bc799/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/licenciamento-ambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_licenciamento-ambiental--8d3d6a0c/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-processamento-de-gas--0a7a82bd/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/carousel-212b07aa.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

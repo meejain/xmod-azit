@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/acesso-a-informacao/perguntas-frequentes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_perguntas-frequentes--be41bfb1/blocks/accordion-451d4e6a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.175Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/",
+        "screenshot": ".pages/pbio_com_br--9b40ae98/blocks/columns-4df5680d.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/institucional",
+        "screenshot": ".pages/pbio_com_br_institucional--49722a03/blocks/columns-77b34b85.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

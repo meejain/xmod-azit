@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-minimal-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.793Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-prev%C3%AA-investimento-superior-a-r-150-milh%C3%B5es-em-caracteriza%C3%A7%C3%A3o-geol%C3%B3gica-do-pr%C3%A9-sal-com-projeto-libra-rocks",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-prev_C3_AA-investimento-superior-a-r-150-milh_C3_B5es-em-caracteriza_C3_A7_C3_A3o-geol_C3_B3gica-do-pr_C3_A9-sal-com-projeto-libra-rocks--f6cd68b8/blocks/hero-6f672c47.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

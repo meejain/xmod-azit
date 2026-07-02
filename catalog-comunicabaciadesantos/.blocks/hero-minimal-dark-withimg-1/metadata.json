@@ -1,0 +1,163 @@
+{
+  "variantName": "hero-minimal-dark-withimg-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.432Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/agbs",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/agbs",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_agbs--0f2f88d4/blocks/hero-7a43e568.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_agbs--28bd815d/blocks/hero-7a43e568.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-1",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-1--da89144c/blocks/hero-59e813f7.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-2",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-2--46917856/blocks/hero-1d1ea726.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-3",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-3--3f121fc5/blocks/hero-6a8cf3de.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-4",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-4--a36713e3/blocks/hero-108cdedb.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/libra",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_libra--7e5040e3/blocks/hero-477ec42a.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/merluza",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_merluza--c31d9a2a/blocks/hero-60f539cd.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/mexilhao",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_mexilhao--5d5eaa4c/blocks/hero-1b5e3370.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/pesquisa-sismica-maritima",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_pesquisa-sismica-maritima--1cbc995c/blocks/hero-164a1a6e.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/piloto-de-tupi",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_piloto-de-tupi--f153341e/blocks/hero-64552878.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/rota-2",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_rota-2--d4ae0c5f/blocks/hero-ba6080a.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/rota-3",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_rota-3--d65a9f6d/blocks/hero-614dc659.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/urugua-e-tambau",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_urugua-e-tambau--1e115123/blocks/hero-64829ea7.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-bw-cidade-de-sao-vicente",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-bw-cidade-de-sao-vicente--47439f46/blocks/hero-24546399.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-ilhabela",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-ilhabela--90d5637b/blocks/hero-7e91eae2.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-itaguai",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-itaguai--0d70b8aa/blocks/hero-46866252.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-mangaratiba",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-mangaratiba--427a332c/blocks/hero-370f4087.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-marica",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-marica--431aa30a/blocks/hero-752d0ea0.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-paraty",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-paraty--d28c2f48/blocks/hero-8ffd26.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-sao-paulo",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-sao-paulo--df9495af/blocks/hero-79c57483.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-saquarema",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-cidade-de-saquarema--c8e8d1ae/blocks/hero-5a3dc6bc.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-dynamic-producer",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-dynamic-producer--32abd7f6/blocks/hero-3e60228.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-p-67",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-p-67--eaffa8f1/blocks/hero-106eb91f.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-p-68",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fpso-p-68--bd23697d/blocks/hero-7305d412.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/impactos",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_impactos--ebc6c0b2/blocks/hero-254cf8c8.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/mexilhao",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_mexilhao--ac1e0851/blocks/hero-1b5e3370.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/p-66",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_p-66--b4bf4a67/blocks/hero-4ec04971.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/p-69",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_p-69--6e1b10ab/blocks/hero-44381732.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/p-74",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_p-74--05500800/blocks/hero-208df996.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/rota-2",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_rota-2--6754f946/blocks/hero-ba6080a.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/rota-3",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_rota-3--dba31c65/blocks/hero-614dc659.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/tipos-de-plataformas-utilizadas-na-bacia-de-santos",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_tipos-de-plataformas-utilizadas-na-bacia-de-santos--cb65f4b6/blocks/hero-73d63aff.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/unidade-de-tratamento-de-gas-monteiro-lobato",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_unidade-de-tratamento-de-gas-monteiro-lobato--440990fc/blocks/hero-5d258312.jpg"
+      }
+    ],
+    "reuseCount": 34
+  }
+}

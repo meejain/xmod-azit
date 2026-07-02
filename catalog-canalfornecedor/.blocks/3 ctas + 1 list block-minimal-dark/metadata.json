@@ -1,0 +1,47 @@
+{
+  "variantName": "3 ctas + 1 list block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "3 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"3 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores--3faeef63/blocks/unknown-3bbad402.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_eventos--6a762ae5/blocks/unknown-6d727840.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_lives--adef4166/blocks/unknown-3bbad402.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_eventos--7662190c/blocks/unknown-6d727840.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_lives--2d00e8e6/blocks/unknown-3bbad402.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

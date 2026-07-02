@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-37",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.231Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/sustentabilidade/licenciamento-ambiental",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "3 CTAs + 9 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"3 CTAs + 9 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/licenciamento-ambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_licenciamento-ambiental--0675000e/blocks/accordion-79d68dc3.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

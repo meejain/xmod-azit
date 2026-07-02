@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-minimal-dark-3",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.720Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--4c5c4ded/blocks/hero-367a09fc.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional",
+        "screenshot": ".pages/pben_com_br_institucional--54e74b4d/blocks/hero-7e698045.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

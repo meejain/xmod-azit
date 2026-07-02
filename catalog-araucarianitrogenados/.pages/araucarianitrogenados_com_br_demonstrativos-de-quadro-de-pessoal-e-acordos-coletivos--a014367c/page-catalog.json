@@ -1,0 +1,307 @@
+{
+  "url": "https://araucarianitrogenados.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+  "timestamp": "2026-06-30T22:30:54.838Z",
+  "duration": "69.5s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 200
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 537,
+        "y": 75,
+        "width": 286,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 115,
+        "width": 505,
+        "height": 76
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21,
+        "textLength": 20
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 558,
+        "y": 75,
+        "width": 286,
+        "height": 21,
+        "textLength": 55
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 115,
+        "width": 632,
+        "height": 77,
+        "textLength": 52
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 192,
+    "topSectionTitleRect": {
+      "x": 404,
+      "y": 115,
+      "width": 632,
+      "height": 77,
+      "text": "Demonstrativos de Quadro Pessoal e Acordos Coletivos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 200,
+      "width": 1440,
+      "height": 1426
+    },
+    "bodyStartY": 200,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 604,
+        "y": 248,
+        "width": 529,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 92,
+        "y": 249,
+        "width": 468,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 329,
+        "width": 568,
+        "height": 79
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 610,
+        "width": 539,
+        "height": 115
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 776,
+        "width": 565,
+        "height": 309
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1262,
+        "width": 554,
+        "height": 153
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1467,
+        "width": 529,
+        "height": 50
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-c2873be",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 4 CTAs + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 4,
+        "linkCount": 3,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + 4 CTAs + list"
+      },
+      "selector": "div.lfr-layout-structure-item-5e28d786-8d1f-649b-d9e5-40251f7537c7.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 286
+      },
+      "screenshot": "blocks/default-c2873be.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-7e698045",
+      "type": "default",
+      "confidence": "low",
+      "description": "fragment_",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "div.fragment_1174685.breakpoint",
+      "bounds": {
+        "x": 72,
+        "y": 362,
+        "width": 1296,
+        "height": 166
+      },
+      "screenshot": "blocks/default-7e698045.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-648107f3",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-5290100a-28f3-a2c0-9f2a-5c74c3a395a2 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 608,
+        "width": 1296,
+        "height": 652
+      },
+      "screenshot": "blocks/default-648107f3.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-d61b7fd",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-38e33c3d-7924-7200-147d-c07481fb3fe5 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1260,
+        "width": 1296,
+        "height": 431
+      },
+      "screenshot": "blocks/default-d61b7fd.jpg",
+      "reclassifiedFrom": "columns"
+    }
+  ]
+}

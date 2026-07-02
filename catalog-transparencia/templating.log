@@ -1,0 +1,167 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 51 terminal entries (51 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 51 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 0 path groups + 51 root singletons
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+Layout-descriptor partition: 0 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 51
+
+Starting: 51 total (0 clusters, 51 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -51 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas → https://transparencia.petrobras.com.br/sobre-a-petrobras
+  ✓ MERGE: -49 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic → https://transparencia.petrobras.com.br/sobre-a-petrobras
+  ✓ MERGE: -48 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/selecoes-publicas → https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic
+  ✓ MERGE: -47 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/sancoes-administrativas → https://transparencia.petrobras.com.br/selecoes-publicas
+  ✓ MERGE: -46 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/relatorios-da-cgu → https://transparencia.petrobras.com.br/sancoes-administrativas
+  ✓ MERGE: -45 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/receitas-e-despesas → https://transparencia.petrobras.com.br/relatorios-da-cgu
+  ✓ MERGE: -44 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/receitas → https://transparencia.petrobras.com.br/receitas-e-despesas
+  ✓ MERGE: -43 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/publicidade → https://transparencia.petrobras.com.br/receitas
+  ✓ MERGE: -42 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/programas-finalisticos → https://transparencia.petrobras.com.br/publicidade
+  ✓ MERGE: -41 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica → https://transparencia.petrobras.com.br/programas-finalisticos
+  ✓ MERGE: -40 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao → https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica
+  ✓ MERGE: -39 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/prestacao-de-contas → https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao
+  ✓ MERGE: -38 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/presentes → https://transparencia.petrobras.com.br/prestacao-de-contas
+  ✓ MERGE: -37 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas → https://transparencia.petrobras.com.br/presentes
+  ✓ MERGE: -36 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/politica-de-dividendos → https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas
+  ✓ MERGE: -35 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/perguntas-frequentes → https://transparencia.petrobras.com.br/politica-de-dividendos
+  ✓ MERGE: -34 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/patrocinios → https://transparencia.petrobras.com.br/perguntas-frequentes
+  ✓ MERGE: -33 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/participacao-social → https://transparencia.petrobras.com.br/patrocinios
+  ✓ MERGE: -32 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/outras-acoes → https://transparencia.petrobras.com.br/participacao-social
+  ✓ MERGE: -31 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/orcamento-de-investimento → https://transparencia.petrobras.com.br/outras-acoes
+  ✓ MERGE: -30 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/obras → https://transparencia.petrobras.com.br/orcamento-de-investimento
+  ✓ MERGE: -29 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/licitacoes-e-contratos → https://transparencia.petrobras.com.br/orcamento-de-investimento
+  ✓ MERGE: -28 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/licitacoes → https://transparencia.petrobras.com.br/licitacoes-e-contratos
+  ✓ MERGE: -27 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/institucional → https://transparencia.petrobras.com.br/licitacoes
+  ✓ MERGE: -26 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/informacoes-classificadas → https://transparencia.petrobras.com.br/licitacoes
+  ✓ MERGE: -25 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/hospitalidades → https://transparencia.petrobras.com.br/informacoes-classificadas
+  ✓ MERGE: -24 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/horario-de-atendimento → https://transparencia.petrobras.com.br/hospitalidades
+  ✓ MERGE: -22 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/estatistica-do-sic → https://transparencia.petrobras.com.br/horario-de-atendimento
+  ✓ MERGE: -21 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/empregados-publicos → https://transparencia.petrobras.com.br/estatistica-do-sic
+  ✓ MERGE: -20 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/diarias-e-passagens → https://transparencia.petrobras.com.br/empregados-publicos
+  ✓ MERGE: -19 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/demonstracoes-financeiras → https://transparencia.petrobras.com.br/diarias-e-passagens
+  ✓ MERGE: -18 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/dados-abertos → https://transparencia.petrobras.com.br/demonstracoes-financeiras
+  ✓ MERGE: -17 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/convenios-e-transferencias → https://transparencia.petrobras.com.br/dados-abertos
+  ✓ MERGE: -16 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia → https://transparencia.petrobras.com.br/convenios-e-transferencias
+  ✓ MERGE: -15 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/contratos → https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia
+  ✓ MERGE: -14 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados → https://transparencia.petrobras.com.br/contratos
+  ✓ MERGE: -13 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/conferencias → https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados
+  ✓ MERGE: -12 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/balcao-de-atendimento → https://transparencia.petrobras.com.br/conferencias
+  ✓ MERGE: -11 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/auditorias → https://transparencia.petrobras.com.br/balcao-de-atendimento
+  ✓ MERGE: -10 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/audiencias-publicas → https://transparencia.petrobras.com.br/auditorias
+  ✓ MERGE: -9 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/atos-normativos → https://transparencia.petrobras.com.br/audiencias-publicas
+  ✓ MERGE: -8 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/atas → https://transparencia.petrobras.com.br/atos-normativos
+  ✓ MERGE: -7 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/aquisicao-de-bens → https://transparencia.petrobras.com.br/atas
+  ✓ MERGE: -6 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis → https://transparencia.petrobras.com.br/aquisicao-de-bens
+  ✓ MERGE: -5 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/agenda-de-autoridades → https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis
+  ✓ MERGE: -4 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/aditivos → https://transparencia.petrobras.com.br/agenda-de-autoridades
+  ✓ MERGE: -3 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/acoes-e-programas → https://transparencia.petrobras.com.br/aditivos
+  ✓ MERGE: -2 → -50  [sim: 100%]
+      https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao → https://transparencia.petrobras.com.br/acoes-e-programas
+  ✓ MERGE: -23 → -1  [sim: 100%]
+      https://transparencia.petrobras.com.br/home → https://transparencia.petrobras.com.br/
+  49 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 51 clusters
+After:  2 clusters (2 multi-page, 0 singletons)
+Merged: 49 clusters (49 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -50: 49p -> 1 template (pair_matches=48/48)
+  Family -1: 2p -> 1 template (pair_matches=1/1)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -50: 49p | representatives 6
+  Template candidate -1: 2p
+Built 2 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 2 templates, 51 pages, 0 singletons, biggest family=49
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 2 templates, 0 singletons. Ready for tuning.

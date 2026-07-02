@@ -1,0 +1,154 @@
+{
+  "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa",
+  "timestamp": "2026-07-01T15:47:15.660Z",
+  "duration": "7.7s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/w/web-stories/transicao-energetica/conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "background",
+        "x": 968,
+        "y": 426,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 658,
+        "width": 351,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 696,
+        "width": 326,
+        "height": 58
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 706,
+        "width": 24,
+        "height": 24
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "h1",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 658,
+        "width": 351,
+        "height": 48,
+        "textLength": 63
+      },
+      {
+        "tag": "p",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 696,
+        "width": 351,
+        "height": 58,
+        "textLength": 114
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "kind": "canvas",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "topSectionCropBottomY": 900,
+    "topSectionTitleRect": {
+      "x": 497,
+      "y": 74,
+      "width": 447,
+      "height": 752,
+      "text": "Conheça 5 iniciativas para liderar a transição energética justa —"
+    },
+    "bodyBounds": null,
+    "bodyStartY": null,
+    "bodyPlaceholders": []
+  },
+  "blocks": [
+    {
+      "id": "carousel-422412a9",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "6 headings + 3 images + 2 CTAs block",
+      "content": {
+        "headingCount": 6,
+        "paragraphCount": 27,
+        "imageCount": 3,
+        "buttonCount": 2,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + 2 CTAs + 3 images"
+      },
+      "selector": "body.amp-mode-mouse.amp-mode-keyboard-active",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "blocks/carousel-422412a9.jpg"
+    }
+  ]
+}

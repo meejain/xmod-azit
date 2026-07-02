@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-minimal-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/duvidas-frequentes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/duvidas-frequentes",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/hero-38961c43.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_funcionamento-de-uma-licitacao--738a8e64/blocks/hero-62f420f3.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

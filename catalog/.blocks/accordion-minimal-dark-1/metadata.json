@@ -1,0 +1,47 @@
+{
+  "variantName": "accordion-minimal-dark-1",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/energia-em-transformacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 3 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 3 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/accordion-49ac78f9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina--845c5cba/blocks/accordion-784fa0cf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_energia-em-transformacao--19501090/blocks/accordion-49ac78f9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina--5a807921/blocks/accordion-784fa0cf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica--b7996fe9/blocks/accordion-49ac78f9.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

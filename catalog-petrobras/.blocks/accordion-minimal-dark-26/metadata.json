@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-26",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.223Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 6 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 6 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_mudancas-climaticas--15a1a892/blocks/accordion-1c54e7f1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

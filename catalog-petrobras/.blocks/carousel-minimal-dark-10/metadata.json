@@ -1,0 +1,67 @@
+{
+  "variantName": "carousel-minimal-dark-10",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.217Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/bolivia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/carousel-66fa517a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/carousel-17233248.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-de-regaseificacao-de-gas--6e7fbd37/blocks/carousel-1fa65bbf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/carousel-1c2e9d3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_porto-de-macae--3cab617f/blocks/carousel-1fa65bbf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/carousel-1fa65bbf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-de-regaseificacao-de-gas--58ca71ce/blocks/carousel-1fa65bbf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/carousel-2e06bfc.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_porto-de-macae--aead1fef/blocks/carousel-1fa65bbf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/carousel-1fa65bbf.jpg"
+      }
+    ],
+    "reuseCount": 10
+  }
+}

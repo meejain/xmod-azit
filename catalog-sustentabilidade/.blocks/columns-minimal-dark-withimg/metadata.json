@@ -1,0 +1,247 @@
+{
+  "variantName": "columns-minimal-dark-withimg",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.865Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/w/%C3%A1guas-e-efluentes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/%C3%A1guas-e-efluentes",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_C3_A1guas-e-efluentes--c875acf3/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes--2e9765fa/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes-1--80992c61/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/biodiversidade",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade--c4e36311/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/biodiversidade-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade-1--c41f41e7/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/biodiversidade-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade-3--b90438c1/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais--fdba5943/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-1--db43e082/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-3--e8baf281/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/engajamento-com-publico-de-interesse",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_engajamento-com-publico-de-interesse--fcf0867c/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/engajamento-com-publicos-de-interesse",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_engajamento-com-publicos-de-interesse--54e47b0b/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas--fb2a935b/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro--8c8957f7/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/estrat%C3%A9gia-em-sustentabilidade-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_estrat_C3_A9gia-em-sustentabilidade-3--0a471cb9/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade--9bdf4c42/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade-1--dfa25de1/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/expediente",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_expediente--d1cbf018/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/expediente-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_expediente-1--7246208f/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento--a017e972/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento-sustentavel",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento-sustentavel--bac9c7cd/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/governanca-corporativa",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa--13b2077c/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/governanca-corporativa-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa-1--5c209542/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/impactos-economicos",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_impactos-economicos--c0377903/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_impactos-economicos-1--159a65e9/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios--906212ec/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios-1--7e892cbd/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/materialidade",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_materialidade--d7c650e0/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/materialidade-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_materialidade-1--c224d300/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/materialidade-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_materialidade-3--54546b9a/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-2",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-2--d9be3350/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-3--823a3c48/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos--01e14840/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-1--5556123e/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-3--ed29370e/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/painel-asg",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_painel-asg--7940fa76/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/painel-asg-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_painel-asg-1--19ad98dd/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/painel-asg-2",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_painel-asg-2--8abcfe6d/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades--228b9e0d/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades-1--63ffe617/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes--6fb4dd19/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes-de-processo",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes-de-processo--ac0cb75b/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/quem-somos-2",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_quem-somos-2--3ea51bc0/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/quem-somos-3",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_quem-somos-3--ce6ded7e/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores--8a4d9f66/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores-1--d81bac00/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases--f0c2d90b/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases-1--745bb94d/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar--2d6458c6/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar-do-trabalhador",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar-do-trabalhador--ce8b9386/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/sobre-o-relat%C3%B3rio",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_sobre-o-relat_C3_B3rio--a00728e0/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/sobre-o-relatorio-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_sobre-o-relatorio-1--05b884b2/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri--f1196b11/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri-1--48d2f4ba/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb--77897d8f/blocks/columns-39bf302f.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb-1--598fe647/blocks/columns-39bf302f.jpg"
+      }
+    ],
+    "reuseCount": 55
+  }
+}

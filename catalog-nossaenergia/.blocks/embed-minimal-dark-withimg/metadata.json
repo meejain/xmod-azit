@@ -1,0 +1,371 @@
+{
+  "variantName": "embed-minimal-dark-withimg",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.746Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/w/biocombustiveis-no-brasil-transicao-energetica-justa",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/biocombustiveis-no-brasil-transicao-energetica-justa",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_biocombustiveis-no-brasil-transicao-energetica-justa--33f2d06b/blocks/embed-4601e2bd.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/cartola-feminino-mais-espa%C3%A7o-e-visibilidade-para-o-futebol-das-nossas-craques",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_cartola-feminino-mais-espa_C3_A7o-e-visibilidade-para-o-futebol-das-nossas-craques--fabb5701/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/10-tipos-de-robos-usados-pela-petrobras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_10-tipos-de-robos-usados-pela-petrobras--a3567a5a/blocks/embed-4601eaf9.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/6-tecnologias-inovadoras-para-produzir-petroleo",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_6-tecnologias-inovadoras-para-produzir-petroleo--56339661/blocks/embed-4601ee7c.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/7-tipos-de-robos-que-nos-temos-e-voce-precisa-conhecer",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_7-tipos-de-robos-que-nos-temos-e-voce-precisa-conhecer--e6a94006/blocks/embed-4601eaf9.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/digital-twins-na-petrobras-impulsionam-eficiencia-operacional-1-1",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_digital-twins-na-petrobras-impulsionam-eficiencia-operacional-1-1--659d421e/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/internet-das-coisas-em-favor-da-seguranca",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_internet-das-coisas-em-favor-da-seguranca--96227756/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/realidade-aumentada",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_realidade-aumentada--f36b1330/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/sismica-4d",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_sismica-4d--2848991e/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/supercomputadores-quem-sao-onde-habitam-e-para-que-servem",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_supercomputadores-quem-sao-onde-habitam-e-para-que-servem--0340d20e/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/tecnologias-sustentaveis",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_tecnologias-sustentaveis--43311f6c/blocks/embed-4601e69d.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/10-duvidas-sobre-exploracao-na-margem-equatorial",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_10-duvidas-sobre-exploracao-na-margem-equatorial--9c5f9d6c/blocks/embed-50528444.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/bacia-de-santos-da-inviabilidade-de-producao-aos-destaques-no-pre-sal",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_bacia-de-santos-da-inviabilidade-de-producao-aos-destaques-no-pre-sal--6b94c92a/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/ccs-sao-tome-conheca-o-grande-laboratorio-de-captura-e-armazenamento-de-co2-da-petrobras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_ccs-sao-tome-conheca-o-grande-laboratorio-de-captura-e-armazenamento-de-co2-da-petrobras--4edbba93/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/cinco-tecnologias-que-parecem-futuristas-mas-ja-sao-reais-na-petrobras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_cinco-tecnologias-que-parecem-futuristas-mas-ja-sao-reais-na-petrobras--785a8db1/blocks/embed-4601e2dc.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/d%C3%BAvidas-sobre-o-pre%C3%A7o-dos-combust%C3%ADveis-por-que-os-pre%C3%A7os-podem-variar",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_d_C3_BAvidas-sobre-o-pre_C3_A7o-dos-combust_C3_ADveis-por-que-os-pre_C3_A7os-podem-variar--0cc13fe3/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/de-onde-vem-a-gasolina",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_de-onde-vem-a-gasolina--56143f24/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/eficiencia-operacional",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_eficiencia-operacional--cbf4f9b2/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/margem-equatorial",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_margem-equatorial--f097aa30/blocks/embed-4601e2fb.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/movimento-petrobras-pelo-rio-grande-energia-para-o-rs-ser-cada-vez-maior",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_movimento-petrobras-pelo-rio-grande-energia-para-o-rs-ser-cada-vez-maior--5ed1023e/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/o-que-um-convento-tem-a-ver-com-a-energia-que-o-brasil-precisa-",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_o-que-um-convento-tem-a-ver-com-a-energia-que-o-brasil-precisa---62b94528/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-brasilia-articulacao-inovacao-projetos",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-brasilia-articulacao-inovacao-projetos--490e5439/blocks/embed-4601e67e.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-goias-energia-cerrado-cultura",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-goias-energia-cerrado-cultura--2563eca4/blocks/embed-4601e2fb.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-minas-gerais",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-minas-gerais--ea5b2730/blocks/embed-50528444.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-pernambuco",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-pernambuco--4f3142de/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-santa-catarina",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-santa-catarina--70a3a483/blocks/embed-4601e27f.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-sao-paulo",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-sao-paulo--85362bdc/blocks/embed-505284df.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-sergipe-inovacao-fronteira-energetica",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-sergipe-inovacao-fronteira-energetica--738f230a/blocks/embed-50528425.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-amazonas-energia-floresta-biodiversidade",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-amazonas-energia-floresta-biodiversidade--3508ab2a/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-es",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-es--6b26b977/blocks/embed-50528482.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-ms-energia-biodiversidade-margem-equatorial",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-ms-energia-biodiversidade-margem-equatorial--e0f06475/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-mt-energia-agro",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-mt-energia-agro--439baeb2/blocks/embed-4601e67e.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-parana",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-parana--ae7a2c2f/blocks/embed-4601e2bd.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-rio-grande-do-sul",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-rio-grande-do-sul--3762d4b4/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/por-todo-brasil-tem-petrobras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_por-todo-brasil-tem-petrobras--15e46726/blocks/embed-50528425.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/produtos-do-dia-a-dia-e-petroquimicos-conheca-os-principais-derivados-do-petroleo",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_produtos-do-dia-a-dia-e-petroquimicos-conheca-os-principais-derivados-do-petroleo--1d05beed/blocks/embed-50528425.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/projetos-socioambientais-petrobras-parcerias-e-legado",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_projetos-socioambientais-petrobras-parcerias-e-legado--0b6d4671/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/seis-coisas-que-aconteceram-primeiro-na-bahia",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_seis-coisas-que-aconteceram-primeiro-na-bahia--de195d03/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/10-festas-populares-para-conhecer-o-brasil",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_10-festas-populares-para-conhecer-o-brasil--8b9c560b/blocks/embed-4601e27f.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/6-curiosidades-sobre-a-amazonia-que-voce-precisa-conhecer",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_6-curiosidades-sobre-a-amazonia-que-voce-precisa-conhecer--c3c791f1/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/7-autores-negros-que-voce-precisa-conhecer",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_7-autores-negros-que-voce-precisa-conhecer--13f60eea/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/a-historia-do-futebol-feminino-do-primeiro-time-a-proibicao-e-o-cenario-atual",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_a-historia-do-futebol-feminino-do-primeiro-time-a-proibicao-e-o-cenario-atual--f29e859c/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/aves-migratorias-por-que-precisamos-preservar-a-mudanca-",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_aves-migratorias-por-que-precisamos-preservar-a-mudanca---7a2cc2e0/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/caprichoso-ou-garantido-qual-boi-mais-animado-de-parintins-",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_caprichoso-ou-garantido-qual-boi-mais-animado-de-parintins---6a690aff/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/cartola-feminino-mais-espa%C3%A7o-e-visibilidade-para-o-futebol-das-nossas-craques",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_cartola-feminino-mais-espa_C3_A7o-e-visibilidade-para-o-futebol-das-nossas-craques--99c31c5a/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/cerrado-brasileiro",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_cerrado-brasileiro--0f3be54b/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/cinco-curiosidades-sobre-as-festas-de-sao-joao",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_cinco-curiosidades-sobre-as-festas-de-sao-joao--e254174d/blocks/embed-4601eaf9.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/como-a-baleia-jubarte-se-salvou-da-quase-extincao",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_como-a-baleia-jubarte-se-salvou-da-quase-extincao--99e8ba5d/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/como-se-tornar-jogadora-de-futebol",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_como-se-tornar-jogadora-de-futebol--71e758ea/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/conheca-fred-jorge-e-a-ciencia-na-recuperacao-das-florestas",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_conheca-fred-jorge-e-a-ciencia-na-recuperacao-das-florestas--8446bcb3/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/corredores-ecologicos-preservando-a-biodiversidade-brasileira-para-o-amanha",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_corredores-ecologicos-preservando-a-biodiversidade-brasileira-para-o-amanha--7bcab56e/blocks/embed-4601e377.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/curiosidades-do-cinema-brasileiro-filme-de-sucesso-com-atores-iniciantes",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_curiosidades-do-cinema-brasileiro-filme-de-sucesso-com-atores-iniciantes--2f0b58b0/blocks/embed-4601e377.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/diversidade-equidade-e-inclusao-porque-a-energia-que-move-o-mundo-e-para-todos",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_diversidade-equidade-e-inclusao-porque-a-energia-que-move-o-mundo-e-para-todos--2202d062/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/diversidade-equidade-inclusao",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_diversidade-equidade-inclusao--68c0bc16/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/mochileiras-webserie-mostra-de-onde-vem-a-energia-que-move-o-brasileiro",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_mochileiras-webserie-mostra-de-onde-vem-a-energia-que-move-o-brasileiro--c3b44758/blocks/embed-4601e31a.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/o-en-canto-que-vem-do-oceano",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_o-en-canto-que-vem-do-oceano--aebd0842/blocks/embed-4601e27f.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/o-que-e-germoplasma-e-como-se-conecta-ao-corredor-caipira",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_o-que-e-germoplasma-e-como-se-conecta-ao-corredor-caipira--860d855b/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/peixe-mero-maior-garoupa-do-atlantico-e-termometro-de-saude-ambiental",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_peixe-mero-maior-garoupa-do-atlantico-e-termometro-de-saude-ambiental--7cdec991/blocks/embed-50528463.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/projetos-socioambientais-do-peixe-boi-ao-futuro-da-nossa-biodiversidade",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_projetos-socioambientais-do-peixe-boi-ao-futuro-da-nossa-biodiversidade--f2e7a578/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/protagonismo-feminino",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_protagonismo-feminino--79c72889/blocks/embed-4601e6db.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/solucoes-baseadas-na-natureza-como-elas-melhoram-a-qualidade-de-vida-nas-cidades",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_solucoes-baseadas-na-natureza-como-elas-melhoram-a-qualidade-de-vida-nas-cidades--95f06981/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/tecnologia-social",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_tecnologia-social--827e241a/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/urucu-reflorestamento-de-especies-protegidas",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_urucu-reflorestamento-de-especies-protegidas--72a12e12/blocks/embed-50528444.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/vida-no-fundo-do-mar-confira-esse-reality-show",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_vida-no-fundo-do-mar-confira-esse-reality-show--0b7266c1/blocks/embed-50528425.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica-justa-e-transicao-energetica-entenda-a-diferenca-1",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica-justa-e-transicao-energetica-entenda-a-diferenca-1--64b7cce2/blocks/embed-50528482.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/10-termos-relacionados-mudancas-climaticas-transicao-energetica-justa",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_10-termos-relacionados-mudancas-climaticas-transicao-energetica-justa--0f4b3abb/blocks/embed-4601e31a.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/a-importancia-da-reposicao-de-reservas-de-petroleo-e-da-margem-equatorial-para-a-transicao-energetica-justa",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_a-importancia-da-reposicao-de-reservas-de-petroleo-e-da-margem-equatorial-para-a-transicao-energetica-justa--caf908c2/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/a-importancia-da-soberania-e-seguranca-energetica",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_a-importancia-da-soberania-e-seguranca-energetica--070b4461/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/biocombustiveis",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_biocombustiveis--242228ae/blocks/embed-50528482.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/biocombustiveis-no-brasil-transicao-energetica-justa",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_biocombustiveis-no-brasil-transicao-energetica-justa--8411ee10/blocks/embed-4601e2bd.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/ccus",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_ccus--ba8bdea5/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa--1716823b/blocks/embed-505284c0.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/conheca-quais-sao-as-fontes-de-energias-renovaveis-seu-papel-e-exemplos-1",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_conheca-quais-sao-as-fontes-de-energias-renovaveis-seu-papel-e-exemplos-1--9de53b6c/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/descarbonizacao-e-produtos-de-baixo-carbono",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_descarbonizacao-e-produtos-de-baixo-carbono--93c20503/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/e-possivel-plantar-combustivel-conheca-o-novo-diesel-r",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_e-possivel-plantar-combustivel-conheca-o-novo-diesel-r--86512fe1/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/matriz-energetica-o-que-e-e-o-que-estamos-fazendo",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_matriz-energetica-o-que-e-e-o-que-estamos-fazendo--654dde92/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/mudancas-climaticas-impactos-e-causas",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_mudancas-climaticas-impactos-e-causas--e1e732bd/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/podium-gasolina-carbono-neutro",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_podium-gasolina-carbono-neutro--846c559a/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/reinjecao-de-co2-no-pre-sal-ccus",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_reinjecao-de-co2-no-pre-sal-ccus--a0b88d4e/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/saf-veja-como-investimos-em-tecnologia-rumo-ao-futuro-dos-combustiveis-sustentaveis",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_saf-veja-como-investimos-em-tecnologia-rumo-ao-futuro-dos-combustiveis-sustentaveis--6640f9b5/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/seguranca-energetica",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_seguranca-energetica--edadacbe/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/transicao-energetica-justa-entenda-os-caminhos-que-movem-a-petrobras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_transicao-energetica-justa-entenda-os-caminhos-que-movem-a-petrobras--c2237108/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/tudo-sobre-transicao-energetica-o-que-e-qual-a-importancia-principais-beneficios-e-mais",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_tudo-sobre-transicao-energetica-o-que-e-qual-a-importancia-principais-beneficios-e-mais--9434d6fa/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/um-brasil-de-energia-caminhos-para-uma-transicao-energetica-justa",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_um-brasil-de-energia-caminhos-para-uma-transicao-energetica-justa--f56109a7/blocks/embed-50528463.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/voce-conhece-o-mercado-de-carbono-e-a-primeira-gasolina-carbono-neutro-do-brasil",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_voce-conhece-o-mercado-de-carbono-e-a-primeira-gasolina-carbono-neutro-do-brasil--cd40ed14/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/voce-sabe-o-que-e-descarbonizacao-da-economia-descubra-tudo-agora-",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_voce-sabe-o-que-e-descarbonizacao-da-economia-descubra-tudo-agora---9c19a51a/blocks/embed-3f04c1.jpg"
+      }
+    ],
+    "reuseCount": 86
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "variantName": "2 images + 1 cta block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "1 CTAs + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"1 CTAs + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/unknown-2c91fdd6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_patentes--1ee30656/blocks/unknown-342df4af.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-convencional--b285dbbe/blocks/unknown-2c91fdd6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_exploracao-e-producao--f324514c/blocks/unknown-12f76d9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina-podium--8f45218b/blocks/unknown-1b0641b5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/unknown-342df4af.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-convencional--0cea9b55/blocks/unknown-2c91fdd6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/unknown-12f76d9.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

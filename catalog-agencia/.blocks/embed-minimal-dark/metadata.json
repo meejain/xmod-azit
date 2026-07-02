@@ -1,0 +1,51 @@
+{
+  "variantName": "embed-minimal-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.791Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/institucional/05-com-150-vagas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/05-com-150-vagas",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_05-com-150-vagas--2de3ed09/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-lan%C3%A7a-programa-de-est%C3%A1gio-2026-com-150-vagas-em-12-estados",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-lan_C3_A7a-programa-de-est_C3_A1gio-2026-com-150-vagas-em-12-estados--2fcccd83/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-e-pemex-firmam-parceria-para-coopera%C3%A7%C3%A3o-em-explora%C3%A7%C3%A3o-e-produ%C3%A7%C3%A3o-e-processos-industriais",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_negocio_petrobras-e-pemex-firmam-parceria-para-coopera_C3_A7_C3_A3o-em-explora_C3_A7_C3_A3o-e-produ_C3_A7_C3_A3o-e-processos-industriais--b66e7d39/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera%C3%A7%C3%A3o-o-maior-aerogerador-onshore-das-am%C3%A9ricas",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_parceria-inovadora-entre-petrobras-weg-e-statkraft-coloca-em-opera_C3_A7_C3_A3o-o-maior-aerogerador-onshore-das-am_C3_A9ricas--fa45db92/blocks/embed-6b3df925.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-coloca-em-opera_C3_A7_C3_A3o-o-supercomputador-harpia--ff5fa730/blocks/embed-3f04c1.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/regionais/video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_regionais_video-coletiva-de-imprensa-sobre-retomada-da-producao-de-fertilizantes-na-bahia--9bf33921/blocks/embed-3f04c1.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

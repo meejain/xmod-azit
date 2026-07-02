@@ -1,0 +1,35 @@
+{
+  "variantName": "table-minimal-dark",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.436Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/sancoes-administrativas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "1 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"table\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"1 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/programas-finalisticos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_programas-finalisticos--cb9df055/blocks/table-43905fe9.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/sancoes-administrativas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_sancoes-administrativas--e62398bf/blocks/table-637e0868.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

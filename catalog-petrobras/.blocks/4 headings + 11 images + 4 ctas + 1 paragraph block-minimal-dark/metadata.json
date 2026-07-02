@@ -1,0 +1,104 @@
+{
+  "variantName": "4 headings + 11 images + 4 ctas + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/gasolina",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 4 CTAs + 11 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 4 CTAs + 11 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 4 CTAs + 11 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-pro--72c50d48/blocks/unknown-23e2ed7a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-verana--72d3604c/blocks/unknown-7b09588e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_enxofre--6236687c/blocks/unknown-34dfadc5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-liquefeito-de-petroleo--891e8026/blocks/unknown-5e27da19.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina--845c5cba/blocks/unknown-4aadfb94.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-basico-lubrificante",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-basico-lubrificante--70b7b906/blocks/unknown-3a8f5492.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel-maritimo--9ec46392/blocks/unknown-5c5da421.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleos-combustiveis--0dc14861/blocks/unknown-3d5df889.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_parafina--74720faa/blocks/unknown-efcc876.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos-asfalticos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos-asfalticos--2aa5b68d/blocks/unknown-23e2ed7a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-pro--cd64c48a/blocks/unknown-23e2ed7a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-verana--e3d98c9f/blocks/unknown-7b09588e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_enxofre--b17b9001/blocks/unknown-34dfadc5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-liquefeito-de-petroleo--b7f837df/blocks/unknown-5e27da19.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina--5a807921/blocks/unknown-4aadfb94.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-basico-lubrificante",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-basico-lubrificante--57c5f26d/blocks/unknown-3a8f5492.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel-maritimo--6b51fd56/blocks/unknown-5c5da421.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleos-combustiveis--d3337edf/blocks/unknown-3d5df889.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/unknown-efcc876.jpg"
+      }
+    ],
+    "reuseCount": 19
+  }
+}

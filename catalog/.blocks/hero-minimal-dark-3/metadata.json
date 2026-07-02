@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-minimal-dark-3",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.221Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/nossos-escritorios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 1 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 1 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossos-escritorios--0ecde680/blocks/hero-57e17519.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossos-escritorios--be52ed68/blocks/hero-57e17519.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

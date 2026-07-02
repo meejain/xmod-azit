@@ -1,0 +1,231 @@
+{
+  "variantName": "hero-minimal-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.892Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/acesso-a-informacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao--1a8946ff/blocks/hero-213c48dc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas--376ae200/blocks/hero-5a846208.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--1768f65a/blocks/hero-5a57b68a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_governanca--93882f4e/blocks/hero-5a57b68a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--39d38876/blocks/hero-25ee1de.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--83c5510f/blocks/hero-5a57b68a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias--2a4f5c99/blocks/hero-7350567f.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--d2134481/blocks/hero-7d5d2f2f.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--ce51309f/blocks/hero-30129c44.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--c6b16ad2/blocks/hero-4a971413.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--79bf27f0/blocks/hero-56a5034e.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_convenios-e-transferencias--8c7a688d/blocks/hero-27bbbd2c.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/dados-abertos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_dados-abertos--8ce5628d/blocks/hero-3941eefc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_empregados-publicos--115eb13e/blocks/hero-1c73e57f.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/informacoes-classificadas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_informacoes-classificadas--0e77c49e/blocks/hero-39db569a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional--08d6edca/blocks/hero-18a0733d.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3b04afc2/blocks/hero-3617f41a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/atas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_atas--7eea90c0/blocks/hero-199e340.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/atos-normativos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_atos-normativos--9c60097d/blocks/hero-10609b79.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/horario-de-atendimento",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_horario-de-atendimento--2901799d/blocks/hero-7f06dc4.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/hospitalidades",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_hospitalidades--7f0a7771/blocks/hero-fb357a9.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/presentes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_presentes--565c5be9/blocks/hero-9f23560.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/sobre",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_sobre--5f7b8f14/blocks/hero-3e5f7d.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos--29f6d31c/blocks/hero-64f0b877.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--322f8145/blocks/hero-15a04906.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--cc114b76/blocks/hero-76ba56a4.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--4fa5f32d/blocks/hero-15246c78.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--08be12ae/blocks/hero-6f39087c.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--e68aa3db/blocks/hero-1e0219ac.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social--f02ff766/blocks/hero-76c988f9.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/audiencias-publicas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--469ab105/blocks/hero-6c95730f.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/conferencias",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_conferencias--33c2ddeb/blocks/hero-7df17ddb.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--cd054890/blocks/hero-22e130fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--a3872043/blocks/hero-7df17ddb.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/outras-acoes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_outras-acoes--1cd79dff/blocks/hero-21351d22.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_ouvidoria--519eb727/blocks/hero-1aa9f680.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_perguntas-frequentes--f7a084df/blocks/hero-793dc5db.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas--a8f76f97/blocks/hero-fade4af.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--d5bdefe5/blocks/hero-1ac8423c.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--64438afe/blocks/hero-37b9b6eb.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--98e22fc9/blocks/hero-75c74e00.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--9cd94ae6/blocks/hero-32e0a1c.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--c1d7da71/blocks/hero-434b34db.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--70d922e9/blocks/hero-626e00b1.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/publicidade",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--ceea3368/blocks/hero-3fb325d2.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/receitas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_receitas--ae41bed9/blocks/hero-41b8eb19.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_sancoes-administrativas--d8bdc3f3/blocks/hero-62839881.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--ef01c653/blocks/hero-5384a50f.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--800ef0ed/blocks/hero-1d63bda3.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--0a388fdb/blocks/hero-d4f0abf.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--39844cdb/blocks/hero-6cc6758d.jpg"
+      }
+    ],
+    "reuseCount": 51
+  }
+}

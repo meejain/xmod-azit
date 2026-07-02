@@ -1,0 +1,131 @@
+{
+  "variantName": "hero-minimal-dark-withimg-3",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia--ff40a5f2/blocks/hero-34d17709.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_centro-de-pesquisa--2952ed13/blocks/hero-55421eb8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/hero-310b0186.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios",
+        "screenshot": ".pages/petrobras_com_br_en_negocios--4601e2fc/blocks/hero-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_en_produtos-mais-sustent_C3_A1veis--e208a6d7/blocks/hero-2409da26.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_liderancas--493a6a78/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/hero-5fc643be.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_perfil--cbd5b9e3/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_biodiversidade--881028f1/blocks/hero-522e0b22.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/hero-688f3a30.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_futebol-feminino--211e0359/blocks/hero-7ccae9f8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/hero-1561efb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/iniciativas-de-reflorestamento",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_iniciativas-de-reflorestamento--8420e892/blocks/hero-1496d963.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/time-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_time-petrobras--dd22aadb/blocks/hero-76fcb9ef.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia--70bf2304/blocks/hero-34d17709.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/hero-55421eb8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_inovacao-aberta--a4d3fd4e/blocks/hero-310b0186.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_logistica--74ca30bd/blocks/hero-5fc643be.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_biodiversidade--83f1cfa5/blocks/hero-68c8b316.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/hero-688f3a30.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_futebol-feminino--4998f2ba/blocks/hero-7ccae9f8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/hero-1561efb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/iniciativas-de-reflorestamento",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_iniciativas-de-reflorestamento--de7573d5/blocks/hero-1496d963.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/meio-ambiente",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_meio-ambiente--609cd926/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/time-petrobras",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_time-petrobras--ed0ad4ec/blocks/hero-1000cd02.jpg"
+      }
+    ],
+    "reuseCount": 26
+  }
+}

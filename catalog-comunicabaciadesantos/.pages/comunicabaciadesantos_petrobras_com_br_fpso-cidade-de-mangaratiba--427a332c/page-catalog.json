@@ -1,0 +1,211 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-mangaratiba",
+  "timestamp": "2026-07-01T12:11:03.623Z",
+  "duration": "10.3s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/fpso-cidade-de-mangaratiba",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 200
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 65,
+        "y": 100,
+        "width": 327,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 53
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 65,
+        "y": 130,
+        "width": 635,
+        "height": 44,
+        "textLength": 15
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 700
+      }
+    ],
+    "topSectionCropBottomY": 198,
+    "topSectionTitleRect": {
+      "x": 65,
+      "y": 130,
+      "width": 635,
+      "height": 44,
+      "text": "BACIA DE SANTOS"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 200,
+      "width": 1440,
+      "height": 1035
+    },
+    "bodyStartY": 200,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 200,
+        "width": 1440,
+        "height": 500
+      },
+      {
+        "type": "text",
+        "x": 431,
+        "y": 756,
+        "width": 579,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 891,
+        "width": 1199,
+        "height": 115
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1060,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1205,
+        "y": 1150,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1179,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1179,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1179,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1179,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1179,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1179,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-370f4087",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-comunica.lfr-layout-structure-item-bb31cf8f-9d09-f0a9-49fb-4559a84721db",
+      "bounds": {
+        "x": 0,
+        "y": 248,
+        "width": 1440,
+        "height": 700
+      },
+      "screenshot": "blocks/hero-370f4087.jpg"
+    }
+  ]
+}

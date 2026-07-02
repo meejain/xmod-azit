@@ -1,0 +1,31 @@
+{
+  "variantName": "table-minimal-dark-1",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.215Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/jovem-aprendiz",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"table\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_jovem-aprendiz--44a7d26e/blocks/table-ef62742.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

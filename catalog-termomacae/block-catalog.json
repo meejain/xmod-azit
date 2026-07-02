@@ -1,0 +1,95 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T21:59:28.301Z",
+    "totalBlockVariants": 7,
+    "totalBlocksProcessed": 196,
+    "newVariantsCreated": 5,
+    "variantsReused": 175,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 51,
+        "description": "1 heading + 1 list block",
+        "screenshots": [
+          ".pages/termomacae_com_br_acesso-a-informacao--2b5943a5/blocks/hero-213c48dc.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas--202009b5/blocks/hero-5a846208.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--e99df52f/blocks/hero-5a57b68a.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_governanca--571bf599/blocks/hero-5a57b68a.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--6de4d1aa/blocks/hero-25ee1de.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--64aeea49/blocks/hero-5a57b68a.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "description": "lfr-layout-structure-item-iframe",
+        "screenshots": [
+          ".pages/termomacae_com_br_acesso-a-informacao_convenios-e-transferencias--ea403b07/blocks/embed-56a7e468.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--954f99db/blocks/embed-6e4acf79.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a4f15e79/blocks/embed-5563625c.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--bf38c657/blocks/embed-f3881b5.jpg",
+          ".pages/termomacae_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--1366349f/blocks/embed-a4a6841.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings block",
+        "screenshots": [
+          ".pages/termomacae_com_br_institucional_orgaos-estatutarios--ada072ab/blocks/accordion-f4ba04d.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + 2 images + 2 paragraphs block",
+        "screenshots": [
+          ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596/blocks/cards-4586852e.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 images + 1 paragraph block",
+        "screenshots": [
+          ".pages/termomacae_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--b6845da1/blocks/columns-53a02a85.jpg"
+        ]
+      }
+    }
+  }
+}

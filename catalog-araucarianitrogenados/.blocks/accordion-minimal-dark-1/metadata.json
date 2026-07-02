@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-1",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/institucional/orgaos-estatutarios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_orgaos-estatutarios--4138a81c/blocks/accordion-d84d2c1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

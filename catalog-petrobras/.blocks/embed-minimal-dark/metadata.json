@@ -1,0 +1,55 @@
+{
+  "variantName": "embed-minimal-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.214Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade--ef98acf0/blocks/embed-3b0189af.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_biodiversidade--881028f1/blocks/embed-31bd19bb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/embed-21be172e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade--1c281267/blocks/embed-3b0189af.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_biodiversidade--83f1cfa5/blocks/embed-31bd19bb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_mudancas-climaticas--b6255d63/blocks/embed-5c5865f0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/embed-41bba2c2.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

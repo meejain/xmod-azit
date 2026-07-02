@@ -1,0 +1,168 @@
+{
+  "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis",
+  "timestamp": "2026-06-30T22:27:19.758Z",
+  "duration": "69.6s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 125
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 65,
+        "width": 570,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 65,
+        "width": 853,
+        "height": 46,
+        "textLength": 25
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 111,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 65,
+      "width": 853,
+      "height": 46,
+      "text": "Alienação de bens imóveis"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 125,
+      "width": 1440,
+      "height": 1511
+    },
+    "bodyStartY": 125,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 238,
+        "width": 302,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 304,
+        "width": 751,
+        "height": 54
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-1ac8423c",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-756e31b2-02d5-55cb-c07e-7b74ed7b6a91",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-1ac8423c.jpg"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 148
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

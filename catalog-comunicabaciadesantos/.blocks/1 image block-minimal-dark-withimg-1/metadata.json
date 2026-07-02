@@ -1,0 +1,35 @@
+{
+  "variantName": "1 image block-minimal-dark-withimg-1",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.435Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/rota-3",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/rota-3",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_rota-3--d65a9f6d/blocks/unknown-97afc27.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/rota-3",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_rota-3--dba31c65/blocks/unknown-97afc27.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

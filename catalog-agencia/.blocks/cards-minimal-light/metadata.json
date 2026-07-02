@@ -1,0 +1,55 @@
+{
+  "variantName": "cards-minimal-light",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.791Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/editoria-mais-lidos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/editoria-mais-lidos",
+        "screenshot": ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/cards-4e9ee2ff.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/inovacao",
+        "screenshot": ".pages/agencia_petrobras_com_br_inovacao--36718c7e/blocks/cards-4e9ee2ff.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/institucional",
+        "screenshot": ".pages/agencia_petrobras_com_br_institucional--cd101b8b/blocks/cards-4e9ee2ff.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/mais-recentes",
+        "screenshot": ".pages/agencia_petrobras_com_br_mais-recentes--66c47419/blocks/cards-4e9ee2ff.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/negocio",
+        "screenshot": ".pages/agencia_petrobras_com_br_negocio--8db52f4e/blocks/cards-4e9ee2ff.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/regionais",
+        "screenshot": ".pages/agencia_petrobras_com_br_regionais--e6eacb9c/blocks/cards-4e9ee2ff.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/sustentabilidade",
+        "screenshot": ".pages/agencia_petrobras_com_br_sustentabilidade--15afc24b/blocks/cards-4e9ee2ff.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

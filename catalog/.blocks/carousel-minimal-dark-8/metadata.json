@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-minimal-dark-8",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.214Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "text + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"text + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/carousel-34d5d80d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

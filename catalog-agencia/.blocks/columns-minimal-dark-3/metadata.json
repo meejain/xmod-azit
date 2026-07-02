@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-3",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.792Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_negocio_aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii--5c787925/blocks/columns-275a3b63.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

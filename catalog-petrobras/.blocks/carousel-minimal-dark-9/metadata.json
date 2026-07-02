@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-minimal-dark-9",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.216Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_jovem-aprendiz--53f48221/blocks/carousel-54103a3a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-meio-ambiente-saude--69abbd57/blocks/carousel-1836a5c9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-meio-ambiente-saude--3714fa53/blocks/carousel-33503e54.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

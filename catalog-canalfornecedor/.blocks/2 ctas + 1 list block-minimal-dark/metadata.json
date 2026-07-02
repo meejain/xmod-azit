@@ -1,0 +1,39 @@
+{
+  "variantName": "2 ctas + 1 list block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.723Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "2 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"2 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos--ef4b6f9b/blocks/unknown-65b6661b.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_canais-de-atendimento--23855fc0/blocks/unknown-2ec5ef7.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_pedidos-e-pagamentos--f995344d/blocks/unknown-2ec5ef7.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

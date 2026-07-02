@@ -1,0 +1,59 @@
+{
+  "variantName": "hero-minimal-dark-4",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.235Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--e99df52f/blocks/hero-3b58f968.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_governanca--571bf599/blocks/hero-504027be.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--64aeea49/blocks/hero-7a54ead6.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--7adaf195/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_empregados-publicos--ba5f2635/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional--fdc7107e/blocks/hero-7b46cfba.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596/blocks/hero-490bb54.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--bc160276/blocks/hero-17c790da.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

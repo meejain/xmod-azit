@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-28",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.225Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "11 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"11 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_autonomia-e-renda--a406b194/blocks/accordion-41c892cc.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-minimal-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.234Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/",
+        "screenshot": ".pages/termomacae_com_br--1930b556/blocks/hero-7e698045.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9cc179c/blocks/hero-367a09fc.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional",
+        "screenshot": ".pages/termomacae_com_br_institucional--c31c533c/blocks/hero-7e698045.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

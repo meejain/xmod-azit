@@ -1,0 +1,55 @@
+{
+  "variantName": "hero-minimal-dark-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.176Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/acoes-e-programas",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas--3e52993d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d71d77e8/blocks/hero-2a3bde39.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_governanca--e8f732ed/blocks/hero-10d2440e.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--0732c9c5/blocks/hero-47b76c4a.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--b4d49e99/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_institucional--e1ca624a/blocks/hero-6f45a626.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--5b592831/blocks/hero-17c790da.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

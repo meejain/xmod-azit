@@ -1,0 +1,1407 @@
+2026-06-30 20:21:27 | INFO | Setting up catalog project for: https://canalfornecedor.petrobras.com.br/
+2026-06-30 20:21:27 | INFO | Project root: /workspace
+2026-06-30 20:21:27 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 20:21:27 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 20:21:27 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 20:21:27 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 20:21:27 | INFO | Session initialized: DISCOVERY
+2026-06-30 20:21:27 | INFO | Catalog project setup complete
+2026-06-30 20:21:27 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 20:21:27 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 20:21:27 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 20:21:27 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-06-30 20:22:35 | INFO | Creating sample URLs...
+2026-06-30 20:22:35 | INFO | Total URLs in grouped data: 54
+2026-06-30 20:22:35 | INFO | Total URLs (54) <= 1000, using ALL URLs
+2026-06-30 20:22:35 | INFO | Created urls-sample.json with 54 URLs
+2026-06-30 20:22:35 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 20:22:35 | INFO | Schema validation passed
+2026-06-30 20:22:35 | INFO | Sample creation complete - urls-sample.json with 54 URLs
+2026-06-30 20:22:42 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 20:22:42 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 20:22:42 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 20:22:42 | INFO | Created urls-checklist.json with 54 URLs
+2026-06-30 20:22:42 | INFO | Session state: ANALYZING
+2026-06-30 20:22:42 | INFO | ================================================================================
+2026-06-30 20:22:42 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 20:22:42 | INFO | Catalog: /workspace/catalog
+2026-06-30 20:22:42 | INFO | Delay: 1500ms between requests
+2026-06-30 20:22:42 | INFO | Workers: 5
+2026-06-30 20:22:42 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 20:22:42 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 20:22:42 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 20:22:42 | INFO | ================================================================================
+2026-06-30 20:22:42 | INFO | Found 54 URLs to process (5 workers)
+2026-06-30 20:22:42 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 20:22:42 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 20:22:42 | INFO | Pages to analyze: 54
+2026-06-30 20:22:42 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-06-30 20:22:42 | INFO | Estimated analysis time: ~2 min
+2026-06-30 20:22:42 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 20:22:42 | INFO | Launching stealth browser...
+2026-06-30 20:22:42 | INFO | [1/54] Processing: https://canalfornecedor.petrobras.com.br/
+2026-06-30 20:22:42 | INFO | Generated slug: canalfornecedor_petrobras_com_br--060f2a85
+2026-06-30 20:22:42 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/ -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br--060f2a85
+2026-06-30 20:22:42 | INFO | Loading: https://canalfornecedor.petrobras.com.br/
+2026-06-30 20:22:44 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 20:22:44 | INFO | Launching stealth browser...
+2026-06-30 20:22:44 | INFO | [2/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+2026-06-30 20:22:44 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores--962efe04
+2026-06-30 20:22:44 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores--962efe04
+2026-06-30 20:22:44 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+2026-06-30 20:22:45 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 20:22:45 | INFO | Launching stealth browser...
+2026-06-30 20:22:45 | INFO | [3/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+2026-06-30 20:22:45 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249
+2026-06-30 20:22:45 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249
+2026-06-30 20:22:45 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+2026-06-30 20:22:47 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 20:22:47 | INFO | Launching stealth browser...
+2026-06-30 20:22:47 | INFO | [4/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras
+2026-06-30 20:22:47 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800
+2026-06-30 20:22:47 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800
+2026-06-30 20:22:47 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras
+2026-06-30 20:22:48 | INFO | Worker 4 started (profile 4: macOS)
+2026-06-30 20:22:48 | INFO | Launching stealth browser...
+2026-06-30 20:22:48 | INFO | [5/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/certificado-de-registro-cadastral
+2026-06-30 20:22:48 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_certificado-de-registro-cadastral--d571fb80
+2026-06-30 20:22:48 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/certificado-de-registro-cadastral -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_certificado-de-registro-cadastral--d571fb80
+2026-06-30 20:22:48 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/certificado-de-registro-cadastral
+2026-06-30 20:22:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:22:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:22:54 | INFO | Lazy-load scroll complete
+2026-06-30 20:22:54 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:22:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:22:55 | INFO | Lazy-load scroll complete
+2026-06-30 20:22:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:22:55 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:22:56 | INFO | Lazy-load scroll complete
+2026-06-30 20:22:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:22:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:22:57 | INFO | Lazy-load scroll complete
+2026-06-30 20:22:57 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:22:58 | INFO | Lazy-load scroll complete
+2026-06-30 20:22:58 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:23:55 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu.lfr-layout-structure-item-731e18cd-9bc8-feff-c75a-9fde57ed09c9
+   ✅ Saved global footer: div.icons-footer.containers
+2026-06-30 20:23:55 | INFO | Header: moderate complexity, 3 features
+2026-06-30 20:23:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:23:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:23:55 | INFO | Main content: #main-content
+2026-06-30 20:23:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:23:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:23:56 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:23:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:23:56 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:23:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:23:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:23:56 | INFO | Main content: #main-content
+2026-06-30 20:23:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:23:56 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:23:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:23:57 | INFO | Captured 1 block screenshots
+2026-06-30 20:23:57 | INFO | Detected 1 blocks
+2026-06-30 20:23:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:23:57 | INFO | Captured 2 block screenshots
+2026-06-30 20:23:57 | INFO | Detected 2 blocks
+2026-06-30 20:23:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:23:58 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:23:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:23:58 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:23:58 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:23:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:23:58 | INFO | Main content: #main-content
+2026-06-30 20:23:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:23:58 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:23:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:23:58 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:23:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:23:58 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:23:58 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:23:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:23:58 | INFO | Main content: #main-content
+2026-06-30 20:23:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:23:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:23:59 | INFO | Captured 9 block screenshots
+2026-06-30 20:23:59 | INFO | Detected 9 blocks
+2026-06-30 20:23:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:23:59 | INFO | Captured 4 block screenshots
+2026-06-30 20:23:59 | INFO | Detected 4 blocks
+2026-06-30 20:23:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:23:59 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:23:59 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:23:59 | INFO | URL Pattern: /
+2026-06-30 20:23:59 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br--060f2a85/page-catalog.json
+2026-06-30 20:23:59 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/
+2026-06-30 20:23:59 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu.lfr-layout-structure-item-731e18cd-9bc8-feff-c75a-9fde57ed09c9)
+2026-06-30 20:23:59 | INFO | Created footer-global metadata (selector: div.icons-footer.containers)
+2026-06-30 20:23:59 | INFO |    Top-section: 13 rows via title
+2026-06-30 20:23:59 | INFO |    Body start: y=325 (start row 13 via below-title)
+2026-06-30 20:23:59 | INFO | URL Pattern: /cadastro-de-fornecedores
+2026-06-30 20:23:59 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores--962efe04/page-catalog.json
+2026-06-30 20:23:59 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+2026-06-30 20:24:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:24:00 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:24:00 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:24:00 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:24:00 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:24:00 | INFO | Main content: #main-content
+2026-06-30 20:24:00 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:24:00 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:24:01 | INFO | Captured 5 block screenshots
+2026-06-30 20:24:01 | INFO | Detected 5 blocks
+2026-06-30 20:24:01 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:24:01 | INFO | [6/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/credenciamento-mentoria-refino
+2026-06-30 20:24:01 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_credenciamento-mentoria-refino--47c48805
+2026-06-30 20:24:01 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/credenciamento-mentoria-refino -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_credenciamento-mentoria-refino--47c48805
+2026-06-30 20:24:01 | INFO | [7/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao
+2026-06-30 20:24:01 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e
+2026-06-30 20:24:01 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e
+2026-06-30 20:24:01 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/credenciamento-mentoria-refino
+2026-06-30 20:24:01 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao
+2026-06-30 20:24:01 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:24:01 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:24:01 | INFO | URL Pattern: /cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras
+2026-06-30 20:24:01 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800/page-catalog.json
+2026-06-30 20:24:01 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras
+2026-06-30 20:24:01 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:24:01 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:24:01 | INFO | URL Pattern: /cadastro-de-fornecedores/apoio-ao-cadastro
+2026-06-30 20:24:01 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/page-catalog.json
+2026-06-30 20:24:01 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+2026-06-30 20:24:03 | INFO | [8/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento
+2026-06-30 20:24:03 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4
+2026-06-30 20:24:03 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4
+2026-06-30 20:24:03 | INFO | [9/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar
+2026-06-30 20:24:03 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25
+2026-06-30 20:24:03 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25
+2026-06-30 20:24:03 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento
+2026-06-30 20:24:03 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar
+2026-06-30 20:24:03 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:24:03 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:24:03 | INFO | URL Pattern: /cadastro-de-fornecedores/certificado-de-registro-cadastral
+2026-06-30 20:24:03 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_certificado-de-registro-cadastral--d571fb80/page-catalog.json
+2026-06-30 20:24:03 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/certificado-de-registro-cadastral
+2026-06-30 20:24:03 | INFO | PROGRESS: 5/54 analyzed (9% checklist complete) | 5 ok, 0 failed, 0 skipped | ~14 min remaining
+2026-06-30 20:24:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:24:05 | INFO | [10/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/pre-qualificacao
+2026-06-30 20:24:05 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_pre-qualificacao--8abe792a
+2026-06-30 20:24:05 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/pre-qualificacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_pre-qualificacao--8abe792a
+2026-06-30 20:24:05 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/pre-qualificacao
+2026-06-30 20:24:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:24:06 | INFO | Lazy-load scroll complete
+2026-06-30 20:24:06 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:24:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:24:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:24:07 | INFO | Lazy-load scroll complete
+2026-06-30 20:24:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:24:08 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:24:08 | INFO | Lazy-load scroll complete
+2026-06-30 20:24:08 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:24:09 | INFO | Lazy-load scroll complete
+2026-06-30 20:24:09 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:24:10 | INFO | Lazy-load scroll complete
+2026-06-30 20:24:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:25:08 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:25:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:25:08 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:25:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:25:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:25:08 | INFO | Main content: #main-content
+2026-06-30 20:25:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:25:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:25:09 | INFO | Captured 3 block screenshots
+2026-06-30 20:25:09 | INFO | Detected 3 blocks
+2026-06-30 20:25:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:25:09 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:25:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:25:09 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:25:09 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:25:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:25:09 | INFO | Main content: #main-content
+2026-06-30 20:25:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:25:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:25:10 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:25:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:25:10 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:25:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:25:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:25:10 | INFO | Main content: #main-content
+2026-06-30 20:25:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:25:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:25:10 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:25:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:25:10 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:25:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:25:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:25:10 | INFO | Main content: #main-content
+2026-06-30 20:25:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:25:10 | WARNING | Blocks - 57% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:25:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:25:11 | INFO | Captured 5 block screenshots
+2026-06-30 20:25:11 | INFO | Detected 5 blocks
+2026-06-30 20:25:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:25:11 | INFO | Captured 18 block screenshots
+2026-06-30 20:25:11 | INFO | Detected 18 blocks
+2026-06-30 20:25:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:25:11 | INFO | Captured 7 block screenshots
+2026-06-30 20:25:11 | INFO | Detected 7 blocks
+2026-06-30 20:25:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:25:11 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:25:11 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:25:11 | INFO | URL Pattern: /cadastro-de-fornecedores/credenciamento-mentoria-refino
+2026-06-30 20:25:11 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_credenciamento-mentoria-refino--47c48805/page-catalog.json
+2026-06-30 20:25:11 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/credenciamento-mentoria-refino
+2026-06-30 20:25:11 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:25:11 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:25:11 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:25:11 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:25:11 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:25:11 | INFO | Main content: #main-content
+2026-06-30 20:25:12 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:25:12 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:25:13 | INFO | [11/54] Processing: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores
+2026-06-30 20:25:13 | INFO | Generated slug: canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58
+2026-06-30 20:25:13 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58
+2026-06-30 20:25:13 | INFO | Loading: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores
+2026-06-30 20:25:13 | INFO | Captured 6 block screenshots
+2026-06-30 20:25:13 | INFO | Detected 6 blocks
+2026-06-30 20:25:13 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:25:13 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:25:13 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:25:13 | INFO | URL Pattern: /cadastro-de-fornecedores/etapas-do-processo-de-cadastramento
+2026-06-30 20:25:13 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4/page-catalog.json
+2026-06-30 20:25:13 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento
+2026-06-30 20:25:13 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:25:13 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:25:13 | INFO | URL Pattern: /cadastro-de-fornecedores/criterios-de-avaliacao
+2026-06-30 20:25:13 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e/page-catalog.json
+2026-06-30 20:25:13 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao
+2026-06-30 20:25:13 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:25:13 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:25:13 | INFO | URL Pattern: /cadastro-de-fornecedores/porque-se-cadastrar
+2026-06-30 20:25:13 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25/page-catalog.json
+2026-06-30 20:25:13 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar
+2026-06-30 20:25:15 | INFO | [12/54] Processing: https://canalfornecedor.petrobras.com.br/compliance
+2026-06-30 20:25:15 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance--d8c42dc1
+2026-06-30 20:25:15 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance--d8c42dc1
+2026-06-30 20:25:15 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance
+2026-06-30 20:25:15 | INFO | [13/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/compliance
+2026-06-30 20:25:15 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_compliance--3d4e57d2
+2026-06-30 20:25:15 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/compliance -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_compliance--3d4e57d2
+2026-06-30 20:25:15 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/compliance
+2026-06-30 20:25:15 | INFO | [14/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/conexoes
+2026-06-30 20:25:15 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_conexoes--0e29e38e
+2026-06-30 20:25:15 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/conexoes -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_conexoes--0e29e38e
+2026-06-30 20:25:15 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/conexoes
+2026-06-30 20:25:15 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:25:15 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:25:15 | INFO | URL Pattern: /cadastro-de-fornecedores/pre-qualificacao
+2026-06-30 20:25:15 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_pre-qualificacao--8abe792a/page-catalog.json
+2026-06-30 20:25:15 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/pre-qualificacao
+2026-06-30 20:25:15 | INFO | PROGRESS: 10/54 analyzed (19% checklist complete) | 10 ok, 0 failed, 0 skipped | ~12 min remaining
+2026-06-30 20:25:17 | INFO | [15/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/due-diligence-de-integridade
+2026-06-30 20:25:17 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_due-diligence-de-integridade--56a781de
+2026-06-30 20:25:17 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/due-diligence-de-integridade -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_due-diligence-de-integridade--56a781de
+2026-06-30 20:25:17 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/due-diligence-de-integridade
+2026-06-30 20:25:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:25:19 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:25:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:25:20 | INFO | Lazy-load scroll complete
+2026-06-30 20:25:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:25:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:25:20 | INFO | Lazy-load scroll complete
+2026-06-30 20:25:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:25:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:25:22 | INFO | Lazy-load scroll complete
+2026-06-30 20:25:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:25:23 | INFO | Lazy-load scroll complete
+2026-06-30 20:25:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:25:24 | INFO | Lazy-load scroll complete
+2026-06-30 20:25:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:26:21 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:26:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:26:21 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:26:21 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:26:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:26:21 | INFO | Main content: #main-content
+2026-06-30 20:26:21 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:26:21 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:26:21 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:26:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:26:21 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:26:21 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:26:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:26:21 | INFO | Main content: #main-content
+2026-06-30 20:26:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:26:22 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:26:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:26:22 | INFO | Captured 2 block screenshots
+2026-06-30 20:26:22 | INFO | Detected 2 blocks
+2026-06-30 20:26:22 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:26:23 | INFO | Captured 10 block screenshots
+2026-06-30 20:26:23 | INFO | Detected 10 blocks
+2026-06-30 20:26:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:26:23 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:26:23 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:26:23 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:26:23 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:26:23 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:26:23 | INFO | Main content: #main-content
+2026-06-30 20:26:23 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:26:23 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:26:24 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:26:24 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:26:24 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:26:24 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:26:24 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:26:24 | INFO | Main content: #main-content
+2026-06-30 20:26:24 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:26:24 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:26:24 | INFO | Captured 5 block screenshots
+2026-06-30 20:26:24 | INFO | Detected 5 blocks
+2026-06-30 20:26:24 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:26:25 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:26:25 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:26:25 | INFO | URL Pattern: /compliance
+2026-06-30 20:26:25 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance--d8c42dc1/page-catalog.json
+2026-06-30 20:26:25 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance
+2026-06-30 20:26:25 | INFO | Captured 4 block screenshots
+2026-06-30 20:26:25 | INFO | Detected 4 blocks
+2026-06-30 20:26:25 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:26:25 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:26:25 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:26:25 | INFO | URL Pattern: /cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores
+2026-06-30 20:26:25 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58/page-catalog.json
+2026-06-30 20:26:25 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores
+2026-06-30 20:26:25 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:26:25 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:26:25 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:26:25 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:26:25 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:26:25 | INFO | Main content: #main-content
+2026-06-30 20:26:25 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:26:25 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:26:26 | WARNING | Screenshots - Block not visible: columns-340498ab
+2026-06-30 20:26:26 | INFO | [16/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/gestao-asg-para-fornecedores
+2026-06-30 20:26:26 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_gestao-asg-para-fornecedores--f71d7bc4
+2026-06-30 20:26:26 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/gestao-asg-para-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_gestao-asg-para-fornecedores--f71d7bc4
+2026-06-30 20:26:26 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/gestao-asg-para-fornecedores
+2026-06-30 20:26:27 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:26:27 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:26:27 | INFO | URL Pattern: /compliance/conexoes
+2026-06-30 20:26:27 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_conexoes--0e29e38e/page-catalog.json
+2026-06-30 20:26:27 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/conexoes
+2026-06-30 20:26:27 | INFO | [17/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/jornada-asg-para-fornecedores
+2026-06-30 20:26:27 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_jornada-asg-para-fornecedores--337de1e6
+2026-06-30 20:26:27 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/jornada-asg-para-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_jornada-asg-para-fornecedores--337de1e6
+2026-06-30 20:26:27 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/jornada-asg-para-fornecedores
+2026-06-30 20:26:27 | INFO | Captured 7 block screenshots
+2026-06-30 20:26:27 | INFO | Detected 8 blocks
+2026-06-30 20:26:27 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:26:27 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:26:27 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:26:27 | INFO | URL Pattern: /compliance/due-diligence-de-integridade
+2026-06-30 20:26:27 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_due-diligence-de-integridade--56a781de/page-catalog.json
+2026-06-30 20:26:27 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/due-diligence-de-integridade
+2026-06-30 20:26:28 | INFO | [18/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores
+2026-06-30 20:26:28 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459
+2026-06-30 20:26:28 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459
+2026-06-30 20:26:28 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores
+2026-06-30 20:26:29 | INFO | [19/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/mudancas-climaticas
+2026-06-30 20:26:29 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_mudancas-climaticas--63d003b4
+2026-06-30 20:26:29 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/mudancas-climaticas -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_mudancas-climaticas--63d003b4
+2026-06-30 20:26:29 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/mudancas-climaticas
+2026-06-30 20:26:29 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:26:29 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:26:29 | INFO | URL Pattern: /compliance/compliance
+2026-06-30 20:26:29 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_compliance--3d4e57d2/page-catalog.json
+2026-06-30 20:26:29 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/compliance
+2026-06-30 20:26:29 | INFO | PROGRESS: 15/54 analyzed (28% checklist complete) | 15 ok, 0 failed, 0 skipped | ~10 min remaining
+2026-06-30 20:26:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:26:31 | INFO | [20/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/programa-autonomia-e-renda-petrobras
+2026-06-30 20:26:31 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_programa-autonomia-e-renda-petrobras--33bf3951
+2026-06-30 20:26:31 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/programa-autonomia-e-renda-petrobras -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_programa-autonomia-e-renda-petrobras--33bf3951
+2026-06-30 20:26:31 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/programa-autonomia-e-renda-petrobras
+2026-06-30 20:26:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:26:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:26:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:26:33 | INFO | Lazy-load scroll complete
+2026-06-30 20:26:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:26:34 | INFO | Lazy-load scroll complete
+2026-06-30 20:26:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:26:35 | INFO | Lazy-load scroll complete
+2026-06-30 20:26:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:26:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:26:35 | INFO | Lazy-load scroll complete
+2026-06-30 20:26:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:26:37 | INFO | Lazy-load scroll complete
+2026-06-30 20:26:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:27:34 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:27:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:27:34 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:27:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:27:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:27:34 | INFO | Main content: #main-content
+2026-06-30 20:27:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:27:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:27:35 | INFO | Captured 4 block screenshots
+2026-06-30 20:27:35 | INFO | Detected 4 blocks
+2026-06-30 20:27:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:27:36 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:27:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:27:36 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:27:36 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:27:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:27:36 | INFO | Main content: #main-content
+2026-06-30 20:27:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:27:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:27:36 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:27:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:27:36 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:27:36 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:27:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:27:36 | INFO | Main content: #main-content
+2026-06-30 20:27:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:27:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:27:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:27:37 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:27:37 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:27:37 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:27:37 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:27:37 | INFO | Main content: #main-content
+2026-06-30 20:27:37 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:27:37 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:27:37 | INFO | Captured 8 block screenshots
+2026-06-30 20:27:37 | INFO | Detected 8 blocks
+2026-06-30 20:27:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:27:37 | INFO | Captured 3 block screenshots
+2026-06-30 20:27:37 | INFO | Detected 3 blocks
+2026-06-30 20:27:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:27:38 | INFO | Captured 3 block screenshots
+2026-06-30 20:27:38 | INFO | Detected 3 blocks
+2026-06-30 20:27:38 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:27:38 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:27:38 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:27:38 | INFO | URL Pattern: /compliance/jornada-asg-para-fornecedores
+2026-06-30 20:27:38 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_jornada-asg-para-fornecedores--337de1e6/page-catalog.json
+2026-06-30 20:27:38 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/jornada-asg-para-fornecedores
+2026-06-30 20:27:38 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:27:38 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:27:38 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:27:38 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:27:38 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:27:38 | INFO | Main content: #main-content
+2026-06-30 20:27:38 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:27:38 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:27:39 | INFO | Captured 3 block screenshots
+2026-06-30 20:27:39 | INFO | Detected 3 blocks
+2026-06-30 20:27:39 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:27:39 | INFO | [21/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/programa-fortalecer
+2026-06-30 20:27:39 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_programa-fortalecer--970e84db
+2026-06-30 20:27:39 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/programa-fortalecer -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_programa-fortalecer--970e84db
+2026-06-30 20:27:39 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/programa-fortalecer
+2026-06-30 20:27:40 | INFO |    Top-section: 7 rows via title
+2026-06-30 20:27:40 | INFO |    Body start: y=175 (start row 7 via below-title)
+2026-06-30 20:27:40 | INFO | URL Pattern: /compliance/monitoramento-de-fornecedores
+2026-06-30 20:27:40 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459/page-catalog.json
+2026-06-30 20:27:40 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores
+2026-06-30 20:27:40 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:27:40 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:27:40 | INFO | URL Pattern: /compliance/gestao-asg-para-fornecedores
+2026-06-30 20:27:40 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_gestao-asg-para-fornecedores--f71d7bc4/page-catalog.json
+2026-06-30 20:27:40 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/gestao-asg-para-fornecedores
+2026-06-30 20:27:40 | INFO |    Top-section: 7 rows via title
+2026-06-30 20:27:40 | INFO |    Body start: y=175 (start row 7 via below-title)
+2026-06-30 20:27:40 | INFO | URL Pattern: /compliance/mudancas-climaticas
+2026-06-30 20:27:40 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_mudancas-climaticas--63d003b4/page-catalog.json
+2026-06-30 20:27:40 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/mudancas-climaticas
+2026-06-30 20:27:41 | INFO | [22/54] Processing: https://canalfornecedor.petrobras.com.br/compliance/sustentabilidade
+2026-06-30 20:27:41 | INFO | Generated slug: canalfornecedor_petrobras_com_br_compliance_sustentabilidade--f3a9b07a
+2026-06-30 20:27:41 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/compliance/sustentabilidade -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_sustentabilidade--f3a9b07a
+2026-06-30 20:27:41 | INFO | Loading: https://canalfornecedor.petrobras.com.br/compliance/sustentabilidade
+2026-06-30 20:27:41 | INFO | [23/54] Processing: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores
+2026-06-30 20:27:41 | INFO | Generated slug: canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores--3faeef63
+2026-06-30 20:27:41 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores--3faeef63
+2026-06-30 20:27:41 | INFO | Loading: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores
+2026-06-30 20:27:41 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:27:41 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:27:41 | INFO | URL Pattern: /compliance/programa-autonomia-e-renda-petrobras
+2026-06-30 20:27:41 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_programa-autonomia-e-renda-petrobras--33bf3951/page-catalog.json
+2026-06-30 20:27:41 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/programa-autonomia-e-renda-petrobras
+2026-06-30 20:27:41 | INFO | PROGRESS: 20/54 analyzed (37% checklist complete) | 20 ok, 0 failed, 0 skipped | ~9 min remaining
+2026-06-30 20:27:42 | INFO | [24/54] Processing: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos
+2026-06-30 20:27:42 | INFO | Generated slug: canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_eventos--6a762ae5
+2026-06-30 20:27:42 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_eventos--6a762ae5
+2026-06-30 20:27:42 | INFO | Loading: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos
+2026-06-30 20:27:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:27:43 | INFO | [25/54] Processing: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives
+2026-06-30 20:27:43 | INFO | Generated slug: canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_lives--adef4166
+2026-06-30 20:27:43 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_lives--adef4166
+2026-06-30 20:27:43 | INFO | Loading: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives
+2026-06-30 20:27:45 | INFO | Lazy-load scroll complete
+2026-06-30 20:27:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:27:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:27:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:27:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:27:47 | INFO | Lazy-load scroll complete
+2026-06-30 20:27:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:27:48 | INFO | Lazy-load scroll complete
+2026-06-30 20:27:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:27:48 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:27:49 | INFO | Lazy-load scroll complete
+2026-06-30 20:27:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:27:50 | INFO | Lazy-load scroll complete
+2026-06-30 20:27:50 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:28:16 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:28:16 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:28:16 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:28:16 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:28:16 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:28:16 | INFO | Main content: #main-content
+2026-06-30 20:28:16 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:28:16 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:28:17 | INFO | Captured 2 block screenshots
+2026-06-30 20:28:17 | INFO | Detected 2 blocks
+2026-06-30 20:28:17 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:28:19 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:28:19 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:28:19 | INFO | URL Pattern: /compliance/programa-fortalecer
+2026-06-30 20:28:19 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_programa-fortalecer--970e84db/page-catalog.json
+2026-06-30 20:28:19 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/programa-fortalecer
+2026-06-30 20:28:19 | INFO | Removed 31 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:28:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:28:19 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:28:19 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:28:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:28:19 | INFO | Main content: #main-content
+2026-06-30 20:28:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:28:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:28:20 | INFO | Captured 5 block screenshots
+2026-06-30 20:28:20 | INFO | Detected 5 blocks
+2026-06-30 20:28:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:28:21 | INFO | [26/54] Processing: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos
+2026-06-30 20:28:21 | INFO | Generated slug: canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_eventos--7662190c
+2026-06-30 20:28:21 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_eventos--7662190c
+2026-06-30 20:28:21 | INFO | Loading: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos
+2026-06-30 20:28:23 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:28:23 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:28:23 | INFO | URL Pattern: /lives-encontro-com-fornecedores
+2026-06-30 20:28:23 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores--3faeef63/page-catalog.json
+2026-06-30 20:28:23 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores
+2026-06-30 20:28:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:28:24 | INFO | [27/54] Processing: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives
+2026-06-30 20:28:24 | INFO | Generated slug: canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_lives--2d00e8e6
+2026-06-30 20:28:24 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_lives--2d00e8e6
+2026-06-30 20:28:24 | INFO | Loading: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives
+2026-06-30 20:28:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:28:28 | INFO | Lazy-load scroll complete
+2026-06-30 20:28:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:28:30 | INFO | Lazy-load scroll complete
+2026-06-30 20:28:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:28:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:28:48 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:28:48 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:28:48 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:28:48 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:28:48 | INFO | Main content: #main-content
+2026-06-30 20:28:49 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:28:49 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:28:50 | INFO | Captured 4 block screenshots
+2026-06-30 20:28:50 | INFO | Detected 4 blocks
+2026-06-30 20:28:50 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:28:50 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:28:50 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:28:50 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:28:50 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:28:50 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:28:50 | INFO | Main content: #main-content
+2026-06-30 20:28:51 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:28:51 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:28:51 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:28:51 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:28:51 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:28:51 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:28:51 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:28:51 | INFO | Main content: #main-content
+2026-06-30 20:28:51 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:28:51 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:28:52 | INFO | Captured 5 block screenshots
+2026-06-30 20:28:52 | INFO | Detected 5 blocks
+2026-06-30 20:28:52 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:28:52 | INFO |    Top-section: 7 rows via title
+2026-06-30 20:28:52 | INFO |    Body start: y=175 (start row 7 via below-title)
+2026-06-30 20:28:52 | INFO | URL Pattern: /compliance/sustentabilidade
+2026-06-30 20:28:52 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_compliance_sustentabilidade--f3a9b07a/page-catalog.json
+2026-06-30 20:28:52 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/compliance/sustentabilidade
+2026-06-30 20:28:52 | INFO | Captured 8 block screenshots
+2026-06-30 20:28:52 | INFO | Detected 8 blocks
+2026-06-30 20:28:52 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:28:53 | INFO | [28/54] Processing: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/oportunidades
+2026-06-30 20:28:53 | INFO | Generated slug: canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_oportunidades--2432b5e2
+2026-06-30 20:28:53 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/oportunidades -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_oportunidades--2432b5e2
+2026-06-30 20:28:54 | INFO | Loading: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/oportunidades
+2026-06-30 20:28:54 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:28:54 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:28:54 | INFO | URL Pattern: /lives-encontro-com-fornecedores/eventos
+2026-06-30 20:28:54 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_eventos--6a762ae5/page-catalog.json
+2026-06-30 20:28:54 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos
+2026-06-30 20:28:55 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:28:55 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:28:55 | INFO | URL Pattern: /lives-encontro-com-fornecedores/lives
+2026-06-30 20:28:55 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_lives--adef4166/page-catalog.json
+2026-06-30 20:28:55 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives
+2026-06-30 20:28:55 | INFO | PROGRESS: 25/54 analyzed (46% checklist complete) | 25 ok, 0 failed, 0 skipped | ~8 min remaining
+2026-06-30 20:28:56 | INFO | [29/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/acesso-solucoes-financeiras
+2026-06-30 20:28:56 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_acesso-solucoes-financeiras--2fca8c3a
+2026-06-30 20:28:56 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/acesso-solucoes-financeiras -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_acesso-solucoes-financeiras--2fca8c3a
+2026-06-30 20:28:56 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/acesso-solucoes-financeiras
+2026-06-30 20:28:56 | INFO | [30/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais
+2026-06-30 20:28:56 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_agendamento-de-entrega-de-materiais--0cffb1ef
+2026-06-30 20:28:56 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_agendamento-de-entrega-de-materiais--0cffb1ef
+2026-06-30 20:28:56 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais
+2026-06-30 20:28:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:28:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:29:00 | INFO | Lazy-load scroll complete
+2026-06-30 20:29:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:29:00 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:29:02 | INFO | Lazy-load scroll complete
+2026-06-30 20:29:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:29:03 | INFO | Lazy-load scroll complete
+2026-06-30 20:29:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:29:29 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:29:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:29:29 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:29:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:29:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:29:29 | INFO | Main content: #main-content
+2026-06-30 20:29:30 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:29:30 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:29:31 | INFO | Captured 5 block screenshots
+2026-06-30 20:29:31 | INFO | Detected 5 blocks
+2026-06-30 20:29:31 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:29:31 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:29:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:29:31 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:29:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:29:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:29:31 | INFO | Main content: #main-content
+2026-06-30 20:29:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:29:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:29:32 | INFO | Captured 8 block screenshots
+2026-06-30 20:29:32 | INFO | Detected 8 blocks
+2026-06-30 20:29:32 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:29:33 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:29:33 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:29:33 | INFO | URL Pattern: /lives-eventos-oportunidades/eventos
+2026-06-30 20:29:33 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_eventos--7662190c/page-catalog.json
+2026-06-30 20:29:33 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos
+2026-06-30 20:29:35 | INFO | [31/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores
+2026-06-30 20:29:35 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_avaliacao-de-desempenho-de-fornecedores--697d3fd7
+2026-06-30 20:29:35 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_avaliacao-de-desempenho-de-fornecedores--697d3fd7
+2026-06-30 20:29:35 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores
+2026-06-30 20:29:35 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:29:35 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:29:35 | INFO | URL Pattern: /lives-eventos-oportunidades/lives
+2026-06-30 20:29:35 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_lives--2d00e8e6/page-catalog.json
+2026-06-30 20:29:35 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives
+2026-06-30 20:29:36 | INFO | [32/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/consulta-tributos-retidos
+2026-06-30 20:29:36 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_consulta-tributos-retidos--647c7f49
+2026-06-30 20:29:36 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/consulta-tributos-retidos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_consulta-tributos-retidos--647c7f49
+2026-06-30 20:29:37 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/consulta-tributos-retidos
+2026-06-30 20:29:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:29:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:29:42 | INFO | Lazy-load scroll complete
+2026-06-30 20:29:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:29:43 | INFO | Lazy-load scroll complete
+2026-06-30 20:29:43 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:30:01 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:30:01 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:30:01 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:30:01 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:30:01 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:30:01 | INFO | Main content: #main-content
+2026-06-30 20:30:01 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:30:01 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:30:02 | INFO | Captured 5 block screenshots
+2026-06-30 20:30:02 | INFO | Detected 5 blocks
+2026-06-30 20:30:02 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:30:03 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:30:03 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:30:03 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:30:03 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:30:03 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:30:03 | INFO | Main content: #main-content
+2026-06-30 20:30:03 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:30:03 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:30:03 | WARNING | Screenshots - Block not visible: columns-340498ab
+2026-06-30 20:30:04 | INFO | Captured 5 block screenshots
+2026-06-30 20:30:04 | INFO | Detected 6 blocks
+2026-06-30 20:30:04 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:30:05 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:30:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:30:05 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:30:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:30:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:30:05 | INFO | Main content: #main-content
+2026-06-30 20:30:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:30:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:30:05 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:30:05 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:30:05 | INFO | URL Pattern: /lives-eventos-oportunidades/oportunidades
+2026-06-30 20:30:05 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_oportunidades--2432b5e2/page-catalog.json
+2026-06-30 20:30:05 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/oportunidades
+2026-06-30 20:30:06 | INFO | Captured 5 block screenshots
+2026-06-30 20:30:06 | INFO | Detected 5 blocks
+2026-06-30 20:30:06 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:30:06 | INFO | [33/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens
+2026-06-30 20:30:06 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_diligenciamento-de-pedido-de-bens--0c8ee9d2
+2026-06-30 20:30:06 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_diligenciamento-de-pedido-de-bens--0c8ee9d2
+2026-06-30 20:30:06 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens
+2026-06-30 20:30:06 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:30:06 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:30:06 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/acesso-solucoes-financeiras
+2026-06-30 20:30:06 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_acesso-solucoes-financeiras--2fca8c3a/page-catalog.json
+2026-06-30 20:30:06 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/acesso-solucoes-financeiras
+2026-06-30 20:30:08 | INFO | [34/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/gestao-contratual
+2026-06-30 20:30:08 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_gestao-contratual--36be7ecf
+2026-06-30 20:30:08 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/gestao-contratual -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_gestao-contratual--36be7ecf
+2026-06-30 20:30:08 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/gestao-contratual
+2026-06-30 20:30:08 | INFO |    Top-section: 7 rows via title
+2026-06-30 20:30:08 | INFO |    Body start: y=175 (start row 7 via below-title)
+2026-06-30 20:30:08 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais
+2026-06-30 20:30:08 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_agendamento-de-entrega-de-materiais--0cffb1ef/page-catalog.json
+2026-06-30 20:30:08 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais
+2026-06-30 20:30:08 | INFO | PROGRESS: 30/54 analyzed (56% checklist complete) | 30 ok, 0 failed, 0 skipped | ~6 min remaining
+2026-06-30 20:30:10 | INFO | [35/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/pagamentos
+2026-06-30 20:30:10 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_pagamentos--817eacb2
+2026-06-30 20:30:10 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/pagamentos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_pagamentos--817eacb2
+2026-06-30 20:30:10 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/pagamentos
+2026-06-30 20:30:11 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:30:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:30:13 | INFO | Lazy-load scroll complete
+2026-06-30 20:30:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:30:14 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:30:15 | INFO | Lazy-load scroll complete
+2026-06-30 20:30:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:30:16 | INFO | Lazy-load scroll complete
+2026-06-30 20:30:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:30:44 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:30:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:30:44 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:30:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:30:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:30:44 | INFO | Main content: #main-content
+2026-06-30 20:30:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:30:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:30:44 | WARNING | Screenshots - Block not visible: columns-340498ab
+2026-06-30 20:30:44 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:30:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:30:44 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:30:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:30:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:30:44 | INFO | Main content: #main-content
+2026-06-30 20:30:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:30:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:30:45 | INFO | Captured 7 block screenshots
+2026-06-30 20:30:45 | INFO | Detected 8 blocks
+2026-06-30 20:30:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:30:46 | INFO | Captured 7 block screenshots
+2026-06-30 20:30:46 | INFO | Detected 7 blocks
+2026-06-30 20:30:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:30:48 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:30:48 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:30:48 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores
+2026-06-30 20:30:48 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_avaliacao-de-desempenho-de-fornecedores--697d3fd7/page-catalog.json
+2026-06-30 20:30:48 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores
+2026-06-30 20:30:48 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:30:48 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:30:48 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/consulta-tributos-retidos
+2026-06-30 20:30:48 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_consulta-tributos-retidos--647c7f49/page-catalog.json
+2026-06-30 20:30:48 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/consulta-tributos-retidos
+2026-06-30 20:30:49 | INFO | [36/54] Processing: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/qualidade-de-bens
+2026-06-30 20:30:49 | INFO | Generated slug: canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_qualidade-de-bens--85aed9d4
+2026-06-30 20:30:49 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/qualidade-de-bens -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_qualidade-de-bens--85aed9d4
+2026-06-30 20:30:49 | INFO | Loading: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/qualidade-de-bens
+2026-06-30 20:30:50 | INFO | [37/54] Processing: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos
+2026-06-30 20:30:50 | INFO | Generated slug: canalfornecedor_petrobras_com_br_pedidos-e-pagamentos--ef4b6f9b
+2026-06-30 20:30:50 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos--ef4b6f9b
+2026-06-30 20:30:50 | INFO | Loading: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos
+2026-06-30 20:30:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:30:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:30:55 | INFO | Lazy-load scroll complete
+2026-06-30 20:30:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:30:55 | INFO | Lazy-load scroll complete
+2026-06-30 20:30:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:31:14 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:31:14 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:31:14 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:31:14 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:31:14 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:31:14 | INFO | Main content: #main-content
+2026-06-30 20:31:14 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:31:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:31:16 | INFO | Captured 7 block screenshots
+2026-06-30 20:31:16 | INFO | Detected 7 blocks
+2026-06-30 20:31:16 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:31:16 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:31:16 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:31:16 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:31:16 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:31:16 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:31:16 | INFO | Main content: #main-content
+2026-06-30 20:31:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:31:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:31:17 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:31:17 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:31:17 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:31:17 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:31:17 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:31:17 | INFO | Main content: #main-content
+2026-06-30 20:31:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:31:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:31:18 | INFO | Captured 9 block screenshots
+2026-06-30 20:31:18 | INFO | Detected 9 blocks
+2026-06-30 20:31:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:31:18 | INFO |    Top-section: 7 rows via title
+2026-06-30 20:31:18 | INFO |    Body start: y=175 (start row 7 via below-title)
+2026-06-30 20:31:18 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens
+2026-06-30 20:31:18 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_diligenciamento-de-pedido-de-bens--0c8ee9d2/page-catalog.json
+2026-06-30 20:31:18 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens
+2026-06-30 20:31:18 | INFO | Captured 8 block screenshots
+2026-06-30 20:31:18 | INFO | Detected 8 blocks
+2026-06-30 20:31:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:31:20 | INFO | [38/54] Processing: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento
+2026-06-30 20:31:20 | INFO | Generated slug: canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_canais-de-atendimento--23855fc0
+2026-06-30 20:31:20 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_canais-de-atendimento--23855fc0
+2026-06-30 20:31:20 | INFO | Loading: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento
+2026-06-30 20:31:20 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:31:20 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:31:20 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/gestao-contratual
+2026-06-30 20:31:20 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_gestao-contratual--36be7ecf/page-catalog.json
+2026-06-30 20:31:20 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/gestao-contratual
+2026-06-30 20:31:21 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:31:21 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:31:21 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/pagamentos
+2026-06-30 20:31:21 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_pagamentos--817eacb2/page-catalog.json
+2026-06-30 20:31:21 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/pagamentos
+2026-06-30 20:31:21 | INFO | PROGRESS: 35/54 analyzed (65% checklist complete) | 35 ok, 0 failed, 0 skipped | ~5 min remaining
+2026-06-30 20:31:22 | INFO | [39/54] Processing: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos
+2026-06-30 20:31:22 | INFO | Generated slug: canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_pedidos-e-pagamentos--f995344d
+2026-06-30 20:31:22 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_pedidos-e-pagamentos--f995344d
+2026-06-30 20:31:22 | INFO | Loading: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos
+2026-06-30 20:31:22 | INFO | [40/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao
+2026-06-30 20:31:22 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao--7f49c09f
+2026-06-30 20:31:22 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao--7f49c09f
+2026-06-30 20:31:22 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao
+2026-06-30 20:31:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:31:25 | INFO | Lazy-load scroll complete
+2026-06-30 20:31:25 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:31:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:31:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:31:27 | INFO | Lazy-load scroll complete
+2026-06-30 20:31:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:31:28 | INFO | Lazy-load scroll complete
+2026-06-30 20:31:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:31:56 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:31:56 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:31:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:31:56 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:31:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:31:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:31:56 | INFO | Main content: #main-content
+2026-06-30 20:31:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:31:56 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:31:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:31:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:31:56 | INFO | Main content: #main-content
+2026-06-30 20:31:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:31:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:31:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:31:56 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:31:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:31:57 | INFO | Captured 2 block screenshots
+2026-06-30 20:31:57 | INFO | Detected 2 blocks
+2026-06-30 20:31:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:31:57 | INFO | Captured 4 block screenshots
+2026-06-30 20:31:57 | INFO | Detected 4 blocks
+2026-06-30 20:31:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:31:59 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:31:59 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:31:59 | INFO | URL Pattern: /pedidos-e-pagamentos
+2026-06-30 20:31:59 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos--ef4b6f9b/page-catalog.json
+2026-06-30 20:31:59 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos
+2026-06-30 20:32:00 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:32:00 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:32:00 | INFO | URL Pattern: /o-funcionamento-de-um-contrato/qualidade-de-bens
+2026-06-30 20:32:00 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_qualidade-de-bens--85aed9d4/page-catalog.json
+2026-06-30 20:32:00 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/qualidade-de-bens
+2026-06-30 20:32:01 | INFO | [41/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao
+2026-06-30 20:32:01 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126
+2026-06-30 20:32:01 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126
+2026-06-30 20:32:01 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao
+2026-06-30 20:32:01 | INFO | [42/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais
+2026-06-30 20:32:01 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55
+2026-06-30 20:32:01 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55
+2026-06-30 20:32:01 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais
+2026-06-30 20:32:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:32:07 | INFO | Lazy-load scroll complete
+2026-06-30 20:32:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:32:11 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:32:14 | INFO | Lazy-load scroll complete
+2026-06-30 20:32:14 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:32:26 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:32:26 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:32:26 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:32:26 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:32:26 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:32:26 | INFO | Main content: #main-content
+2026-06-30 20:32:26 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:32:26 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:32:27 | INFO | Captured 4 block screenshots
+2026-06-30 20:32:27 | INFO | Detected 4 blocks
+2026-06-30 20:32:27 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:32:29 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:32:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:32:29 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:32:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:32:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:32:29 | INFO | Main content: #main-content
+2026-06-30 20:32:29 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:32:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:32:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:32:29 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:32:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:32:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:32:29 | INFO | Main content: #main-content
+2026-06-30 20:32:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:32:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:32:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:32:30 | INFO | Captured 3 block screenshots
+2026-06-30 20:32:30 | INFO | Detected 3 blocks
+2026-06-30 20:32:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:32:30 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:32:30 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:32:30 | INFO | URL Pattern: /pedidos-e-pagamentos/canais-de-atendimento
+2026-06-30 20:32:30 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_canais-de-atendimento--23855fc0/page-catalog.json
+2026-06-30 20:32:30 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento
+2026-06-30 20:32:30 | INFO | Captured 5 block screenshots
+2026-06-30 20:32:30 | INFO | Detected 5 blocks
+2026-06-30 20:32:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:32:31 | INFO | [43/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras
+2026-06-30 20:32:31 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_formas-de-contratacao-da-petrobras--efc92401
+2026-06-30 20:32:31 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_formas-de-contratacao-da-petrobras--efc92401
+2026-06-30 20:32:31 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras
+2026-06-30 20:32:32 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:32:32 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:32:32 | INFO | URL Pattern: /regras-de-contratacao
+2026-06-30 20:32:32 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao--7f49c09f/page-catalog.json
+2026-06-30 20:32:32 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao
+2026-06-30 20:32:32 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:32:32 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:32:32 | INFO | URL Pattern: /pedidos-e-pagamentos/pedidos-e-pagamentos
+2026-06-30 20:32:32 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_pedidos-e-pagamentos--f995344d/page-catalog.json
+2026-06-30 20:32:32 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos
+2026-06-30 20:32:32 | INFO | PROGRESS: 40/54 analyzed (74% checklist complete) | 40 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-06-30 20:32:34 | INFO | [44/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao
+2026-06-30 20:32:34 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_funcionamento-de-uma-licitacao--738a8e64
+2026-06-30 20:32:34 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_funcionamento-de-uma-licitacao--738a8e64
+2026-06-30 20:32:34 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao
+2026-06-30 20:32:34 | INFO | [45/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital
+2026-06-30 20:32:34 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_conteudo-do-edital--2088a463
+2026-06-30 20:32:34 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_conteudo-do-edital--2088a463
+2026-06-30 20:32:34 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital
+2026-06-30 20:32:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:32:37 | INFO | Lazy-load scroll complete
+2026-06-30 20:32:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:32:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:32:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:32:39 | INFO | Lazy-load scroll complete
+2026-06-30 20:32:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:32:41 | INFO | Lazy-load scroll complete
+2026-06-30 20:32:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:33:08 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:33:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:33:08 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:33:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:33:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:33:08 | INFO | Main content: #main-content
+2026-06-30 20:33:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:33:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:33:10 | INFO | Captured 9 block screenshots
+2026-06-30 20:33:10 | INFO | Detected 9 blocks
+2026-06-30 20:33:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:33:12 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:33:12 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:33:12 | INFO | URL Pattern: /regras-de-contratacao/conheca-lei-das-estatais
+2026-06-30 20:33:12 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55/page-catalog.json
+2026-06-30 20:33:12 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais
+2026-06-30 20:33:14 | INFO | [46/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao
+2026-06-30 20:33:14 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_etapas-da-licitacao--db815bcb
+2026-06-30 20:33:14 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_etapas-da-licitacao--db815bcb
+2026-06-30 20:33:14 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao
+2026-06-30 20:33:16 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:33:16 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:33:16 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:33:16 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:33:16 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:33:16 | INFO | Main content: #main-content
+2026-06-30 20:33:16 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:33:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:33:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:33:19 | INFO | Captured 15 block screenshots
+2026-06-30 20:33:19 | INFO | Detected 15 blocks
+2026-06-30 20:33:19 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:33:20 | INFO | Lazy-load scroll complete
+2026-06-30 20:33:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:33:23 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:33:23 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:33:23 | INFO | URL Pattern: /regras-de-contratacao/catalogo-de-padronizacao
+2026-06-30 20:33:23 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/page-catalog.json
+2026-06-30 20:33:23 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao
+2026-06-30 20:33:24 | INFO | [47/54] Processing: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao
+2026-06-30 20:33:24 | INFO | Generated slug: canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_os-meios-de-divulgacao-da-licitacao--2712724d
+2026-06-30 20:33:24 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_os-meios-de-divulgacao-da-licitacao--2712724d
+2026-06-30 20:33:24 | INFO | Loading: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao
+2026-06-30 20:33:29 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:33:31 | INFO | Lazy-load scroll complete
+2026-06-30 20:33:31 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:33:39 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:33:39 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:33:39 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:33:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:33:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:33:39 | INFO | Main content: #main-content
+2026-06-30 20:33:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:33:39 | WARNING | Blocks - 56% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:33:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:33:40 | INFO | Captured 9 block screenshots
+2026-06-30 20:33:40 | INFO | Detected 9 blocks
+2026-06-30 20:33:40 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:33:41 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:33:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:33:41 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:33:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:33:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:33:41 | INFO | Main content: #main-content
+2026-06-30 20:33:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:33:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:33:42 | INFO | Captured 4 block screenshots
+2026-06-30 20:33:42 | INFO | Detected 4 blocks
+2026-06-30 20:33:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:33:43 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:33:43 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:33:43 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:33:43 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:33:43 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:33:43 | INFO | Main content: #main-content
+2026-06-30 20:33:43 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:33:43 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:33:43 | INFO | URL Pattern: /regras-de-contratacao/formas-de-contratacao-da-petrobras
+2026-06-30 20:33:43 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_formas-de-contratacao-da-petrobras--efc92401/page-catalog.json
+2026-06-30 20:33:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:33:43 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras
+2026-06-30 20:33:43 | WARNING | Blocks - 53% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:33:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:33:44 | INFO |    Top-section: 14 rows via title+container
+2026-06-30 20:33:44 | INFO |    Body start: y=350 (start row 14 via below-title+container)
+2026-06-30 20:33:44 | INFO | URL Pattern: /regras-de-contratacao/funcionamento-de-uma-licitacao
+2026-06-30 20:33:44 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_funcionamento-de-uma-licitacao--738a8e64/page-catalog.json
+2026-06-30 20:33:44 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao
+2026-06-30 20:33:44 | INFO | [48/54] Processing: https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+2026-06-30 20:33:44 | INFO | Generated slug: canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758
+2026-06-30 20:33:44 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758
+2026-06-30 20:33:44 | INFO | Loading: https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+2026-06-30 20:33:45 | INFO | Captured 17 block screenshots
+2026-06-30 20:33:45 | INFO | Detected 17 blocks
+2026-06-30 20:33:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:33:45 | INFO | [49/54] Processing: https://canalfornecedor.petrobras.com.br/canais-de-contato
+2026-06-30 20:33:45 | INFO | Generated slug: canalfornecedor_petrobras_com_br_canais-de-contato--a9213e97
+2026-06-30 20:33:45 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/canais-de-contato -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_canais-de-contato--a9213e97
+2026-06-30 20:33:45 | INFO | Loading: https://canalfornecedor.petrobras.com.br/canais-de-contato
+2026-06-30 20:33:47 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:33:47 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:33:47 | INFO | URL Pattern: /regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital
+2026-06-30 20:33:47 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_conteudo-do-edital--2088a463/page-catalog.json
+2026-06-30 20:33:47 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital
+2026-06-30 20:33:47 | INFO | PROGRESS: 45/54 analyzed (83% checklist complete) | 45 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 20:33:49 | INFO | [50/54] Processing: https://canalfornecedor.petrobras.com.br/consumo-contratos
+2026-06-30 20:33:49 | INFO | Generated slug: canalfornecedor_petrobras_com_br_consumo-contratos--c7a9fcea
+2026-06-30 20:33:49 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/consumo-contratos -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_consumo-contratos--c7a9fcea
+2026-06-30 20:33:49 | INFO | Loading: https://canalfornecedor.petrobras.com.br/consumo-contratos
+2026-06-30 20:33:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:33:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:33:51 | INFO | Lazy-load scroll complete
+2026-06-30 20:33:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:33:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:33:53 | INFO | Lazy-load scroll complete
+2026-06-30 20:33:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:33:54 | INFO | Lazy-load scroll complete
+2026-06-30 20:33:54 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:34:22 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:34:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:34:22 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:34:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:34:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:34:22 | INFO | Main content: #main-content
+2026-06-30 20:34:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:34:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:34:23 | INFO | Captured 5 block screenshots
+2026-06-30 20:34:23 | INFO | Detected 5 blocks
+2026-06-30 20:34:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:34:25 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:34:25 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:34:25 | INFO | URL Pattern: /regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao
+2026-06-30 20:34:25 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_etapas-da-licitacao--db815bcb/page-catalog.json
+2026-06-30 20:34:25 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao
+2026-06-30 20:34:27 | INFO | [51/54] Processing: https://canalfornecedor.petrobras.com.br/duvidas-frequentes
+2026-06-30 20:34:27 | INFO | Generated slug: canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733
+2026-06-30 20:34:27 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/duvidas-frequentes -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733
+2026-06-30 20:34:27 | INFO | Loading: https://canalfornecedor.petrobras.com.br/duvidas-frequentes
+2026-06-30 20:34:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:34:32 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:34:32 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:34:32 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:34:32 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:34:32 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:34:32 | INFO | Main content: #main-content
+2026-06-30 20:34:32 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:34:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:34:33 | INFO | Lazy-load scroll complete
+2026-06-30 20:34:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:34:33 | INFO | Captured 5 block screenshots
+2026-06-30 20:34:33 | INFO | Detected 5 blocks
+2026-06-30 20:34:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:34:36 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:34:36 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:34:36 | INFO | URL Pattern: /regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao
+2026-06-30 20:34:36 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_os-meios-de-divulgacao-da-licitacao--2712724d/page-catalog.json
+2026-06-30 20:34:36 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao
+2026-06-30 20:34:37 | INFO | [52/54] Processing: https://canalfornecedor.petrobras.com.br/funcionamento-de-um-contrato
+2026-06-30 20:34:37 | INFO | Generated slug: canalfornecedor_petrobras_com_br_funcionamento-de-um-contrato--8bd98cd5
+2026-06-30 20:34:37 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/funcionamento-de-um-contrato -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_funcionamento-de-um-contrato--8bd98cd5
+2026-06-30 20:34:37 | INFO | Loading: https://canalfornecedor.petrobras.com.br/funcionamento-de-um-contrato
+2026-06-30 20:34:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:34:43 | INFO | Lazy-load scroll complete
+2026-06-30 20:34:43 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:34:53 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:34:53 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:34:53 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:34:53 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:34:53 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:34:53 | INFO | Main content: #main-content
+2026-06-30 20:34:53 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:34:53 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:34:53 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:34:53 | INFO | Captured 2 block screenshots
+2026-06-30 20:34:53 | INFO | Detected 2 blocks
+2026-06-30 20:34:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:34:54 | INFO | Removed 7 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:34:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:34:54 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:34:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:34:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:34:54 | INFO | Main content: #main-content
+2026-06-30 20:34:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:34:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:34:55 | WARNING | Screenshots - Block not visible: unknown-2a021609
+2026-06-30 20:34:55 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:34:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:34:55 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:34:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:34:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:34:55 | INFO | Main content: #main-content
+2026-06-30 20:34:56 | INFO | Captured 6 block screenshots
+2026-06-30 20:34:56 | INFO | Detected 7 blocks
+2026-06-30 20:34:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:34:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:34:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:34:56 | INFO |    Top-section: 14 rows via title
+2026-06-30 20:34:56 | INFO |    Body start: y=350 (start row 14 via below-title)
+2026-06-30 20:34:56 | INFO | URL Pattern: /canais-de-contato
+2026-06-30 20:34:56 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_canais-de-contato--a9213e97/page-catalog.json
+2026-06-30 20:34:56 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/canais-de-contato
+2026-06-30 20:34:56 | INFO | Captured 3 block screenshots
+2026-06-30 20:34:56 | INFO | Detected 3 blocks
+2026-06-30 20:34:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:34:57 | INFO | [53/54] Processing: https://canalfornecedor.petrobras.com.br/programa-autonomia-e-renda-petrobras
+2026-06-30 20:34:57 | INFO | Generated slug: canalfornecedor_petrobras_com_br_programa-autonomia-e-renda-petrobras--415fefc4
+2026-06-30 20:34:57 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/programa-autonomia-e-renda-petrobras -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_programa-autonomia-e-renda-petrobras--415fefc4
+2026-06-30 20:34:57 | INFO | Loading: https://canalfornecedor.petrobras.com.br/programa-autonomia-e-renda-petrobras
+2026-06-30 20:34:58 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:34:58 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:34:58 | INFO | URL Pattern: /atendimento-ao-fornecedor
+2026-06-30 20:34:58 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/page-catalog.json
+2026-06-30 20:34:58 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+2026-06-30 20:34:59 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:34:59 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:34:59 | INFO | URL Pattern: /consumo-contratos
+2026-06-30 20:34:59 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_consumo-contratos--c7a9fcea/page-catalog.json
+2026-06-30 20:34:59 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/consumo-contratos
+2026-06-30 20:34:59 | INFO | PROGRESS: 50/54 analyzed (93% checklist complete) | 50 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-06-30 20:35:00 | INFO | [54/54] Processing: https://canalfornecedor.petrobras.com.br/programa-fortalecer
+2026-06-30 20:35:00 | INFO | Generated slug: canalfornecedor_petrobras_com_br_programa-fortalecer--c9a373c4
+2026-06-30 20:35:00 | INFO | Starting analysis: https://canalfornecedor.petrobras.com.br/programa-fortalecer -> /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_programa-fortalecer--c9a373c4
+2026-06-30 20:35:00 | INFO | Loading: https://canalfornecedor.petrobras.com.br/programa-fortalecer
+2026-06-30 20:35:00 | INFO | Worker 4 finished
+2026-06-30 20:35:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:35:03 | INFO | Lazy-load scroll complete
+2026-06-30 20:35:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:35:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:35:05 | INFO | Lazy-load scroll complete
+2026-06-30 20:35:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:35:34 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:35:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:35:34 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:35:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:35:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:35:34 | INFO | Main content: #main-content
+2026-06-30 20:35:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:35:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:35:36 | INFO | Captured 20 block screenshots
+2026-06-30 20:35:36 | INFO | Detected 20 blocks
+2026-06-30 20:35:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:35:36 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:35:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:35:36 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:35:36 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:35:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:35:36 | INFO | Main content: #main-content
+2026-06-30 20:35:37 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:35:37 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:35:37 | INFO | Captured 2 block screenshots
+2026-06-30 20:35:37 | INFO | Detected 2 blocks
+2026-06-30 20:35:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:35:39 | INFO |    Top-section: 19 rows via title+container
+2026-06-30 20:35:39 | INFO |    Body start: y=475 (start row 19 via below-title+container)
+2026-06-30 20:35:39 | INFO | URL Pattern: /duvidas-frequentes
+2026-06-30 20:35:39 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/page-catalog.json
+2026-06-30 20:35:39 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/duvidas-frequentes
+2026-06-30 20:35:40 | INFO |    Top-section: 5 rows via title+container
+2026-06-30 20:35:40 | INFO |    Body start: y=125 (start row 5 via below-title+container)
+2026-06-30 20:35:40 | INFO | URL Pattern: /programa-fortalecer
+2026-06-30 20:35:40 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_programa-fortalecer--c9a373c4/page-catalog.json
+2026-06-30 20:35:40 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/programa-fortalecer
+2026-06-30 20:35:40 | INFO | Worker 2 finished
+2026-06-30 20:35:40 | INFO | Worker 0 finished
+2026-06-30 20:35:44 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:35:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:35:44 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:35:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:35:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:35:44 | INFO | Main content: #main-content
+2026-06-30 20:35:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:35:44 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:35:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:35:45 | INFO | Captured 2 block screenshots
+2026-06-30 20:35:45 | INFO | Detected 2 blocks
+2026-06-30 20:35:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:35:47 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:35:47 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:35:47 | INFO | URL Pattern: /funcionamento-de-um-contrato
+2026-06-30 20:35:47 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_funcionamento-de-um-contrato--8bd98cd5/page-catalog.json
+2026-06-30 20:35:47 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/funcionamento-de-um-contrato
+2026-06-30 20:35:49 | INFO | Worker 3 finished
+2026-06-30 20:36:04 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:36:04 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:36:04 | INFO | Header: moderate complexity, 2 features
+2026-06-30 20:36:04 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:36:04 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:36:04 | INFO | Main content: #main-content
+2026-06-30 20:36:04 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:36:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:36:05 | INFO | Captured 3 block screenshots
+2026-06-30 20:36:05 | INFO | Detected 3 blocks
+2026-06-30 20:36:05 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:36:08 | INFO |    Top-section: 17 rows via title
+2026-06-30 20:36:08 | INFO |    Body start: y=425 (start row 17 via below-title)
+2026-06-30 20:36:08 | INFO | URL Pattern: /programa-autonomia-e-renda-petrobras
+2026-06-30 20:36:08 | INFO | Page catalog complete: /workspace/catalog/.pages/canalfornecedor_petrobras_com_br_programa-autonomia-e-renda-petrobras--415fefc4/page-catalog.json
+2026-06-30 20:36:08 | INFO | SUCCESS: https://canalfornecedor.petrobras.com.br/programa-autonomia-e-renda-petrobras
+2026-06-30 20:36:08 | INFO | PROGRESS: 54/54 analyzed (100% checklist complete) | 54 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 20:36:09 | INFO | Worker 1 finished
+2026-06-30 20:36:09 | INFO | PROGRESS: 54/54 analyzed (100% checklist complete) | 54 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 20:36:09 | INFO | ================================================================================
+2026-06-30 20:36:09 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 20:36:09 | INFO | ================================================================================
+2026-06-30 20:36:09 | INFO | Total URLs: 54
+2026-06-30 20:36:09 | INFO | Attempt successes: 54
+2026-06-30 20:36:09 | INFO | Attempt failures: 0
+2026-06-30 20:36:09 | INFO | Skipped: 0
+2026-06-30 20:36:09 | INFO | Checklist final status: 54 analyzed, 0 failed, 0 marked
+2026-06-30 20:36:09 | INFO | Workers: 5
+2026-06-30 20:36:09 | INFO | ================================================================================
+2026-06-30 20:36:09 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T20:37:20.140Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T20:37:20.162Z | INFO | consolidate-fingerprints - Consolidated 54 fingerprints
+2026-06-30 20:37:33 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 20:37:33 | INFO | Agent 4 Progress - Starting representative pass with 8 page(s) and 49 block occurrence(s)
+2026-06-30 20:37:33 | ERROR | Agent 4 - Block unknown from https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor has no screenshot - cannot catalog without visual proof
+2026-06-30 20:37:33 | INFO | Agent 4 Progress - representative: 8/8 page(s), 48/49 block occurrence(s), 19 unique signatures, 20 variants (18 new, 30 reused)
+2026-06-30 20:37:33 | INFO | Agent 4 Progress - Starting backfill pass with 46 page(s) and 274 block occurrence(s)
+2026-06-30 20:37:33 | ERROR | Agent 4 - Block columns from https://canalfornecedor.petrobras.com.br/compliance/compliance has no screenshot - cannot catalog without visual proof
+2026-06-30 20:37:33 | INFO | Agent 4 Progress - backfill: 25/46 page(s), 140/274 block occurrence(s), 33 unique signatures, 34 variants (32 new, 156 reused)
+2026-06-30 20:37:33 | ERROR | Agent 4 - Block columns from https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/acesso-solucoes-financeiras has no screenshot - cannot catalog without visual proof
+2026-06-30 20:37:33 | ERROR | Agent 4 - Block columns from https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores has no screenshot - cannot catalog without visual proof
+2026-06-30 20:37:33 | INFO | Agent 4 Progress - backfill: 46/46 page(s), 271/274 block occurrence(s), 42 unique signatures, 42 variants (40 new, 279 reused)
+2026-06-30 20:37:33 | INFO | Agent 4 Completed - Cataloged 42 block variants (40 new, 279 reused)
+2026-06-30 20:37:33 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 20:37:33 | INFO | Session state set to INACTIVE
+2026-06-30 20:37:33 | INFO | Agent 2 Completed - Summary generated successfully

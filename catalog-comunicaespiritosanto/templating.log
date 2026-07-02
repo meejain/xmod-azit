@@ -1,0 +1,179 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 66 terminal entries (66 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 66 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 1 path groups + 51 root singletons
+  Group 1 (w): 15 pages
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+  Seed group 1 (15p): SPLIT -> 2 groups [8, 7]
+    reason: layout-descriptor partition
+Layout-descriptor partition: 1 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 51
+
+Starting: 53 total (2 clusters, 51 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -49 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/royalties-e-pe → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -48 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/quem-somos → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -47 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projetos-de-monitoramento-ambiental-pma-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -46 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -45 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -44 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -43 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -42 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-rock-placement-pdet-pra → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -41 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -40 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-educa%C3%A7%C3%A3o-ambiental-redes-de-cidadania-pea-redes- → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -39 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-controle-da-polui%C3%A7%C3%A3o-pcp- → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -38 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -37 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-dos-trabalhadores → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -36 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-do-espirito-santo-pea-es1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -35 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -34 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/producao1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -33 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/plano-de-protecao-a-fauna-e-areas-vulneraveis1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -32 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -31 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-individual-pei-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -30 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -29 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/perfuracao1 → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -28 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/pcap-da-sismica-maritima-4d → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -27 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/pcap-bacia-de-campos → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -26 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/noticias → https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+  ✓ MERGE: -25 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/n%C3%BAcleo-de-educa%C3%A7%C3%A3o-ambiental-da-regi%C3%A3o-da-bacia-de-campos-nea-bc- → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -24 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/monitoramento1 → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -23 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/monitoramento-meteoceanografico-operacional → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -22 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/monitoramento-de-agua-produzida → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -21 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1 → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -19 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/mitigacao1 → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -18 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/licenciamento → https://comunicaespiritosanto.petrobras.com.br/noticias
+  ✓ MERGE: -17 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/legislacao → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -16 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/informes → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -14 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/glossario → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -8 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/fale-conosco → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -7 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/empreendimentos → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -6 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/emergencia1 → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -5 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/condicionantes → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -4 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/compensacao1 → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -3 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/caracterizacao1 → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -2 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/cadastro → https://comunicaespiritosanto.petrobras.com.br/licenciamento
+  ✓ MERGE: -1 → 2  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/ → https://comunicaespiritosanto.petrobras.com.br/cadastro
+  ✓ MERGE: -51 → -15  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1 → https://comunicaespiritosanto.petrobras.com.br/impactos
+  ✓ MERGE: -13 → -15  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-58-p-58-1 → https://comunicaespiritosanto.petrobras.com.br/impactos
+  ✓ MERGE: -12 → -15  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-57-p-57-1 → https://comunicaespiritosanto.petrobras.com.br/impactos
+  ✓ MERGE: -10 → -15  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1 → https://comunicaespiritosanto.petrobras.com.br/impactos
+  ✓ MERGE: -50 → -20  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1 → https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1
+  ✓ MERGE: -11 → -20  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria → https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1
+  ✓ MERGE: -9 → -20  [sim: 100%]
+      https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1 → https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria
+  49 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 53 clusters
+After:  4 clusters (4 multi-page, 0 singletons)
+Merged: 49 clusters (49 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -20: 4p -> 1 template (pair_matches=3/3)
+  Family -15: 5p -> 1 template (pair_matches=4/4)
+  Family 1: 8p -> 3 templates [6, 1, 1] (pair_matches=5/8)
+  Family 2: 49p -> 4 templates [40, 7, 1, 1] (pair_matches=44/56)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -20: 4p
+  Template candidate -15: 5p | representatives 2
+  Template candidate 1: 6p | representatives 2
+  Template candidate 2: 40p | representatives 6
+  Template candidate 3: 1p
+  Template candidate 4: 1p
+  Template candidate 5: 7p | representatives 2
+  Template candidate 6: 1p
+  Template candidate 7: 1p
+Built 9 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 9 templates, 66 pages, 4 singletons, biggest family=40
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 9 templates, 4 singletons. Ready for tuning.

@@ -1,0 +1,31 @@
+{
+  "variantName": "5 headings + 5 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.224Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/transicao-energetica",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 5 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 5 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_en_transicao-energetica--a7fe59d8/blocks/unknown-f67da8b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

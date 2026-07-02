@@ -1,0 +1,51 @@
+{
+  "variantName": "columns-minimal-dark-18",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.221Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/linha-podium",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_linha-podium--a18180cf/blocks/columns-47811ff2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_socioambiental--a3230219/blocks/columns-6a828525.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina-podium--11a9615e/blocks/columns-51afbf05.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_linha-podium--6378fc8c/blocks/columns-51afbf05.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_selecoes-publicas--435619c6/blocks/columns-192fd221.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_socioambiental--abd06c59/blocks/columns-7c7d2930.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

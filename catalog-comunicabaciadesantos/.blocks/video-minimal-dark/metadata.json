@@ -1,0 +1,39 @@
+{
+  "variantName": "video-minimal-dark",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.434Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"video\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_plano-de-compensacao-da-atividade-pesqueira-pcap---e34f24b3/blocks/video-d4d0c00.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-atividade-pesqueira-pmap-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-monitoramento-da-atividade-pesqueira-pmap---367b4731/blocks/video-1598707a.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/royalties",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_royalties--8877afcc/blocks/video-2659b8d6.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

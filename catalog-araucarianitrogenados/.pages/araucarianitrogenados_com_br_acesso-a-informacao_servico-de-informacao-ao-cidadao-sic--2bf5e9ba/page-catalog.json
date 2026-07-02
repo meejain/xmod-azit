@@ -1,0 +1,443 @@
+{
+  "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+  "timestamp": "2026-06-30T22:20:19.356Z",
+  "duration": "69.8s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 125
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 65,
+        "width": 844,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 65,
+        "width": 853,
+        "height": 46,
+        "textLength": 38
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 111,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 65,
+      "width": 853,
+      "height": 46,
+      "text": "Serviço de Informação ao Cidadão - SIC"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 125,
+      "width": 1440,
+      "height": 2940
+    },
+    "bodyStartY": 125,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 266,
+        "width": 849,
+        "height": 84
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 410,
+        "width": 381,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 469,
+        "width": 852,
+        "height": 684
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1307,
+        "width": 441,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1366,
+        "width": 846,
+        "height": 264
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1784,
+        "width": 466,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1843,
+        "width": 841,
+        "height": 54
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 2051,
+        "width": 398,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 2110,
+        "width": 824,
+        "height": 444
+      },
+      {
+        "type": "image",
+        "x": 691,
+        "y": 2726,
+        "width": 58,
+        "height": 58
+      },
+      {
+        "type": "image",
+        "x": 1133,
+        "y": 2726,
+        "width": 58,
+        "height": 58
+      },
+      {
+        "type": "text",
+        "x": 610,
+        "y": 2792,
+        "width": 220,
+        "height": 54
+      },
+      {
+        "type": "text",
+        "x": 1031,
+        "y": 2792,
+        "width": 263,
+        "height": 54
+      },
+      {
+        "type": "text",
+        "x": 586,
+        "y": 2860,
+        "width": 269,
+        "height": 84
+      },
+      {
+        "type": "text",
+        "x": 997,
+        "y": 2860,
+        "width": 331,
+        "height": 84
+      },
+      {
+        "type": "text",
+        "x": 671,
+        "y": 2970,
+        "width": 98,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 1113,
+        "y": 2970,
+        "width": 98,
+        "height": 19
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-5384a50f",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-ab4cec47-8860-2c4c-aade-58a1365f1fbf",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-5384a50f.jpg"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 140
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-1fe041c0",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-63911f7b-6ce8-63c1-ed70-c14d5c5d53dc > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 484,
+        "width": 1296,
+        "height": 877
+      },
+      "screenshot": "blocks/default-1fe041c0.jpg",
+      "reclassifiedFrom": "hero"
+    },
+    {
+      "id": "default-4a4c53a5",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-3b485fbf-30c5-e310-b439-60cc975c3813 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1381,
+        "width": 1296,
+        "height": 457
+      },
+      "screenshot": "blocks/default-4a4c53a5.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-4215b0b9",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-c03adcdb-ac8c-dccb-4ee2-a60fa2d145f8 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1858,
+        "width": 1296,
+        "height": 247
+      },
+      "screenshot": "blocks/default-4215b0b9.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-c15ab9c",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-dc553309-56cf-c229-abb3-3ca4f1fde283 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2125,
+        "width": 1296,
+        "height": 637
+      },
+      "screenshot": "blocks/default-c15ab9c.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "cards-4586852e",
+      "type": "cards",
+      "confidence": "low",
+      "description": "2 headings + 2 images + 2 paragraphs block",
+      "content": {
+        "headingCount": 2,
+        "paragraphCount": 2,
+        "imageCount": 2,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + text + 2 images"
+      },
+      "selector": "div.lfr-layout-structure-item-cards-saiba-mais.lfr-layout-structure-item-566862e1-7554-19ee-d888-6b973681a137",
+      "bounds": {
+        "x": 0,
+        "y": 2762,
+        "width": 1440,
+        "height": 369
+      },
+      "screenshot": "blocks/cards-4586852e.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

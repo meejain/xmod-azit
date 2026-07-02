@@ -1,0 +1,127 @@
+{
+  "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+  "timestamp": "2026-06-30T22:29:12.745Z",
+  "duration": "69.9s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 125
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 65,
+        "width": 398,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 65,
+        "width": 853,
+        "height": 46,
+        "textLength": 19
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 111,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 65,
+      "width": 853,
+      "height": 46,
+      "text": "Estatísticas do SIC"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 125,
+      "width": 1440,
+      "height": 1163
+    },
+    "bodyStartY": 125,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 266,
+        "width": 104,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-d4f0abf",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-d12fb86f-4f38-e99a-1253-6748590c6ad4",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-d4f0abf.jpg"
+    }
+  ]
+}

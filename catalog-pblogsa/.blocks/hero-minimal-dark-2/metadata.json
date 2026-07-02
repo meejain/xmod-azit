@@ -1,0 +1,51 @@
+{
+  "variantName": "hero-minimal-dark-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--1a0878b1/blocks/hero-30cad6b4.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_governanca--c2bc4f2b/blocks/hero-158377d1.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--3462d56d/blocks/hero-7c8170b4.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--2d3aba03/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional--f75d336b/blocks/hero-7c892c9c.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--2b21d89d/blocks/hero-5ebb63ab.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

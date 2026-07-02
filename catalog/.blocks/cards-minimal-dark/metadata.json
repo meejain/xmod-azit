@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-minimal-dark",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/liderancas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_liderancas--493a6a78/blocks/cards-11ec8512.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/cards-60566d78.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/web-stories",
+        "screenshot": ".pages/petrobras_com_br_web-stories--121afd5c/blocks/cards-4e856223.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

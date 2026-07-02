@@ -1,0 +1,218 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1",
+  "timestamp": "2026-07-01T11:31:42.091Z",
+  "duration": "9.8s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 75,
+      "width": 1440,
+      "height": 150
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 84,
+        "width": 1440,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 216,
+        "y": 163,
+        "width": 363,
+        "height": 58
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 73
+      },
+      {
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 216,
+        "y": 163,
+        "width": 363,
+        "height": 58,
+        "textLength": 14
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 84,
+        "width": 1440,
+        "height": 16
+      }
+    ],
+    "topSectionCropBottomY": 221,
+    "topSectionTitleRect": {
+      "x": 216,
+      "y": 163,
+      "width": 363,
+      "height": 58,
+      "text": "ESPÍRITO SANTO"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 225,
+      "width": 1440,
+      "height": 1107
+    },
+    "bodyStartY": 225,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 216,
+        "y": 251,
+        "width": 32,
+        "height": 5
+      },
+      {
+        "type": "text",
+        "x": 276,
+        "y": 744,
+        "width": 888,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 867,
+        "width": 1199,
+        "height": 240
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1158,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1116,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1162,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1208,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1254,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1300,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1346,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1392,
+        "y": 1248,
+        "width": 35,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-3f72152",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-comunica.lfr-layout-structure-item-fe287528-0ee5-fbc6-2ad6-9cbe169d2983",
+      "bounds": {
+        "x": 0,
+        "y": 330,
+        "width": 1440,
+        "height": 630
+      },
+      "screenshot": "blocks/hero-3f72152.jpg"
+    }
+  ]
+}

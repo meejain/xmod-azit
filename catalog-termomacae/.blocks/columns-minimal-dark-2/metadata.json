@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.235Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/termomacae_com_br_cartas-de-governanca-e-politicas-publicas--6516dd35/blocks/columns-75139dac.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

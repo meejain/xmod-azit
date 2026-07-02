@@ -1,0 +1,51 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.720Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/blocks/columns-2fbd5584.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_agendamento-de-entrega-de-materiais--0cffb1ef/blocks/columns-79685ff4.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/gestao-contratual",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_gestao-contratual--36be7ecf/blocks/columns-10d1475d.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55/blocks/columns-4f3df278.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_formas-de-contratacao-da-petrobras--efc92401/blocks/columns-676a5d11.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_conteudo-do-edital--2088a463/blocks/columns-6dc07135.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

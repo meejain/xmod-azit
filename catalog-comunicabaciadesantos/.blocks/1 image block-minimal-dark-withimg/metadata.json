@@ -1,0 +1,107 @@
+{
+  "variantName": "1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.433Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-1",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos--7b0434ac/blocks/unknown-50fba552.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-1",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-1--da89144c/blocks/unknown-654d2c7e.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-2",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-2--46917856/blocks/unknown-53603907.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-3",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_etapa-3--3f121fc5/blocks/unknown-615946dd.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/merluza",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_merluza--c31d9a2a/blocks/unknown-147ebdb1.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/mexilhao",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_mexilhao--5d5eaa4c/blocks/unknown-74446c7.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/pesquisa-sismica-maritima",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_pesquisa-sismica-maritima--1cbc995c/blocks/unknown-2a9c764d.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/piloto-de-tupi",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_piloto-de-tupi--f153341e/blocks/unknown-21c4d7a8.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/rota-2",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_rota-2--d4ae0c5f/blocks/unknown-46c19f53.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/urugua-e-tambau",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_urugua-e-tambau--1e115123/blocks/unknown-461af586.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-8",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_fundacao-florestal_etapa-3_cond-8--f4c44ba6/blocks/unknown-33f82fcf.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/icmbio/pcea",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_icmbio_pcea--1282e0aa/blocks/unknown-33f82fb0.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-de-praias-pmp-",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_projeto-de-monitoramento-de-praias-pmp---396b19f9/blocks/unknown-44bc8205.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/rota-2",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_rota-2--6754f946/blocks/unknown-5df68df8.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/unidade-de-tratamento-de-gas-monteiro-lobato",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_unidade-de-tratamento-de-gas-monteiro-lobato--440990fc/blocks/unknown-29e43f37.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/dia-do-meio-ambiente-refor%C3%A7a-rela%C3%A7%C3%A3o-entre-ci%C3%AAncia-e-comunidades",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_dia-do-meio-ambiente-refor_C3_A7a-rela_C3_A7_C3_A3o-entre-ci_C3_AAncia-e-comunidades--682b4091/blocks/unknown-6c029044.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/equipes-do-pmp-bs-se-preparam-para-nova-temporada-de-esp%C3%A9cies-migrat%C3%B3rias",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_equipes-do-pmp-bs-se-preparam-para-nova-temporada-de-esp_C3_A9cies-migrat_C3_B3rias--5d860f89/blocks/unknown-36527f06.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/pea-costa-verde-projeto-redes-petrobras-d%C3%A1-in%C3%ADcio-ao-plano-de-comunica%C3%A7%C3%A3o-e-repactua%C3%A7%C3%A3o",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_pea-costa-verde-projeto-redes-petrobras-d_C3_A1-in_C3_ADcio-ao-plano-de-comunica_C3_A7_C3_A3o-e-repactua_C3_A7_C3_A3o--888d5752/blocks/unknown-7977f09e.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/programa-visa-proteger-esp%C3%A9cies-amea%C3%A7adas-de-extin%C3%A7%C3%A3o-na-ba%C3%ADa-de-guanabara",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_programa-visa-proteger-esp_C3_A9cies-amea_C3_A7adas-de-extin_C3_A7_C3_A3o-na-ba_C3_ADa-de-guanabara--42d41da2/blocks/unknown-7977f0bd.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/resgates-de-animais-alertam-sobre-o-descarte-inadequado-de-lixo",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_resgates-de-animais-alertam-sobre-o-descarte-inadequado-de-lixo--6362c870/blocks/unknown-7977f0fb.jpg"
+      }
+    ],
+    "reuseCount": 20
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "variantName": "accordion-minimal-dark-11",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.215Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/jovem-aprendiz",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 10 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 10 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/candidato-em-concurso-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_candidato-em-concurso-publico--02db0876/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/cliente-fornecedor-consumidor-concorrente",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_cliente-fornecedor-consumidor-concorrente--c29688c9/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe--d3d4f1ed/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/demais-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_demais-publico--bfba5b1b/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/midia-investidor-parceiro-de-negocios-poder-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_midia-investidor-parceiro-de-negocios-poder-publico--fc709543/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros--0e933ad3/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "screenshot": ".pages/petrobras_com_br_publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros--03e27a0d/blocks/accordion-40f5de1d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_jovem-aprendiz--44a7d26e/blocks/accordion-28b21275.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

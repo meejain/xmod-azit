@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-17",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina-podium--8f45218b/blocks/columns-7d3354a7.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/plano-de-protecao-a-fauna-ppaf-",
+  "timestamp": "2026-07-01T12:08:07.558Z",
+  "duration": "9.9s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/plano-de-protecao-a-fauna-ppaf-",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 50,
+      "width": 1440,
+      "height": 200
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 40,
+        "y": 60,
+        "width": 1400,
+        "height": 178
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 58
+      },
+      {
+        "tag": "a",
+        "fontSize": 28,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 40,
+        "y": 60,
+        "width": 380,
+        "height": 128,
+        "textLength": 10
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 460,
+        "y": 108,
+        "width": 974,
+        "height": 21,
+        "textLength": 48
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 460,
+        "y": 138,
+        "width": 974,
+        "height": 21,
+        "textLength": 35
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 460,
+        "y": 168,
+        "width": 974,
+        "height": 21,
+        "textLength": 31
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 238,
+    "topSectionTitleRect": {
+      "x": 460,
+      "y": 138,
+      "width": 974,
+      "height": 21,
+      "text": "Plano de Emergência Individual(PEI)"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 250,
+      "width": 1440,
+      "height": 1078
+    },
+    "bodyStartY": 250,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 440,
+        "y": 285,
+        "width": 561,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 409,
+        "width": 1199,
+        "height": 715
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1178,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1297,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-2bb6f93",
+      "type": "default",
+      "confidence": "medium",
+      "description": "3-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "itemCount": 6,
+      "selector": "ul.layouts.level-2",
+      "bounds": {
+        "x": 210,
+        "y": 326,
+        "width": 1230,
+        "height": 150
+      },
+      "screenshot": "blocks/default-2bb6f93.jpg",
+      "reclassifiedFrom": "cards"
+    }
+  ]
+}

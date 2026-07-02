@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-minimal-dark-withimg-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_centro-de-pesquisa--2952ed13/blocks/hero-69951527.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/hero-69951527.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

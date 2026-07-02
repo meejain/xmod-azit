@@ -1,0 +1,51 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.176Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao/institucional",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_empregados-publicos--c906aba6/blocks/unknown-5e512725.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_institucional--e1ca624a/blocks/unknown-56d0680c.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/institucional/sobre",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_institucional_sobre--78fafbb8/blocks/unknown-4353395e.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9a0884df/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_participacao-social_ouvidoria--2c359dcf/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--45ca25b4/blocks/unknown-2a9759dd.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

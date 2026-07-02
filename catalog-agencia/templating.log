@@ -1,0 +1,120 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 64 terminal entries (64 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 64 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 7 path groups + 10 root singletons
+  Group 1 (w): 17 pages
+  Group 2 (w/inovacao): 4 pages
+  Group 3 (w/institucional): 11 pages
+  Group 4 (w/negocio): 9 pages
+  Group 5 (w/regionais): 8 pages
+  Group 6 (w/selecao-de-jornalismo): 2 pages
+  Group 7 (w/sustentabilidade): 3 pages
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+  Seed group 1 (17p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 2 (4p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 3 (11p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 4 (9p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 5 (8p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 6 (2p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 7 (3p): KEEP
+    reason: all pages share a layout descriptor
+Layout-descriptor partition: 0 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 10
+
+Starting: 17 total (7 clusters, 10 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -10 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/sustentabilidade → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: -9 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/selecao → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: -8 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/regionais → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: -7 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/negocio → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: -6 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/mais-recentes → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: -4 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/institucional → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: -3 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/inovacao → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: 2 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio → https://agencia.petrobras.com.br/w/petrobras-coloca-em-opera%C3%A7%C3%A3o-o-supercomputador-harpia
+  ✓ MERGE: 3 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano → https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+  ✓ MERGE: 4 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/w/negocio/aviso-de-pauta-coletiva-de-imprensa-sobre-retomada-das-obras-na-ufniii → https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+  ✓ MERGE: 5 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/w/regionais/petrobras-investe-em-projetos-socioambientais-no-cear%C3%A1 → https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+  ✓ MERGE: 6 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo → https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+  ✓ MERGE: 7 → 1  [sim: 100%]
+      https://agencia.petrobras.com.br/w/sustentabilidade/petrobras-divulga-avancos-em-iniciativas-para-a-transicao-energetica → https://agencia.petrobras.com.br/w/inovacao/petrobras-e-finep-lan%C3%A7am-edital-de-r-150-milh%C3%B5es-para-desenvolvimento-de-eletrolisador-para-produ%C3%A7%C3%A3o-de-hidrog%C3%AAnio
+  ✓ MERGE: -5 → -2  [sim: 100%]
+      https://agencia.petrobras.com.br/listar-editoria → https://agencia.petrobras.com.br/editoria-mais-lidos
+  14 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 17 clusters
+After:  3 clusters (2 multi-page, 1 singletons)
+Merged: 14 clusters (45 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -2: 2p -> 1 template (pair_matches=1/1)
+  Family -1: 1p -> 1 template (pair_matches=0/0)
+  Family 1: 61p -> 1 template (pair_matches=60/60)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -2: 2p | representatives 2
+  Template candidate -1: 1p
+  Template candidate 1: 61p | representatives 4
+Built 3 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 3 templates, 64 pages, 1 singletons, biggest family=61
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 3 templates, 1 singletons. Ready for tuning.

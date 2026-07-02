@@ -1,0 +1,35 @@
+{
+  "variantName": "search-minimal-dark-withimg",
+  "baseBlock": "search",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.746Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/inovacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 1 CTAs + 42 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"search\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 1 CTAs + 42 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/inovacao",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_inovacao--f34e88df/blocks/search-adb3055.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/sustentabilidade",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_sustentabilidade--23096223/blocks/search-adb3055.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

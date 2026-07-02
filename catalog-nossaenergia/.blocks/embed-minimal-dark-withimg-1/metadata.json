@@ -1,0 +1,35 @@
+{
+  "variantName": "embed-minimal-dark-withimg-1",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.750Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/nossa-jornada-comeca-na-bahia-vem-conferir-mochileiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/nossa-jornada-comeca-na-bahia-vem-conferir-mochileiras",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_nossa-jornada-comeca-na-bahia-vem-conferir-mochileiras--693bce19/blocks/embed-406be6e2.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/podcast-nossa-energia",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_podcast-nossa-energia--57787f95/blocks/embed-406be6e2.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

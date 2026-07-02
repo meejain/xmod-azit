@@ -1,0 +1,43 @@
+{
+  "variantName": "embed-minimal-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/acesso-a-informacao/convenios-e-transferencias",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_convenios-e-transferencias--3c3aaace/blocks/embed-56a7e468.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--7b119300/blocks/embed-6e4acf79.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a31c6613/blocks/embed-5563625c.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--b7495bd7/blocks/embed-a4a6841.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

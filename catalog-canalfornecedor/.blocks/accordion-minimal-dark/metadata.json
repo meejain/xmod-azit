@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "15 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"15 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4/blocks/accordion-367a09fc.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

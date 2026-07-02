@@ -1,0 +1,81 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T22:15:39.304Z",
+    "totalBlockVariants": 6,
+    "totalBlocksProcessed": 195,
+    "newVariantsCreated": 4,
+    "variantsReused": 176,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 51,
+        "description": "1 heading + 1 list block",
+        "screenshots": [
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao--6b1aafa6/blocks/hero-213c48dc.jpg",
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas--76608661/blocks/hero-5a846208.jpg",
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d152c964/blocks/hero-5a57b68a.jpg",
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_governanca--2c761656/blocks/hero-5a57b68a.jpg",
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--82bd7e1d/blocks/hero-25ee1de.jpg",
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--73d8bdb6/blocks/hero-5a57b68a.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings block",
+        "screenshots": [
+          ".pages/baixadasantistaenergia_com_br_institucional_orgaos-estatutarios--92366290/blocks/accordion-d84d2c1.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + 2 images + 2 paragraphs block",
+        "screenshots": [
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--d823533f/blocks/cards-4586852e.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 images + 1 paragraph block",
+        "screenshots": [
+          ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3d8ac2b6/blocks/columns-5b6cb304.jpg"
+        ]
+      }
+    }
+  }
+}

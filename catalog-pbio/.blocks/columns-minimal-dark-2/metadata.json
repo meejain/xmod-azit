@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.176Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/outras-informacoes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/pbio_com_br_cartas-de-governanca-e-politicas-publicas--cc0f16f4/blocks/columns-56df0a63.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/outras-informacoes",
+        "screenshot": ".pages/pbio_com_br_outras-informacoes--27f6a5b5/blocks/columns-28e041c2.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

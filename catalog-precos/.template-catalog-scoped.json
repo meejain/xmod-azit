@@ -1,0 +1,27 @@
+{
+  "templates": [
+    {
+      "name": "template--1",
+      "representativePages": [
+        "https://precos.petrobras.com.br/"
+      ],
+      "urls": [
+        "https://precos.petrobras.com.br/"
+      ],
+      "description": "To be named in tuning step"
+    },
+    {
+      "name": "template--3",
+      "representativePages": [
+        "https://precos.petrobras.com.br/precos-diesel",
+        "https://precos.petrobras.com.br/precos-glp"
+      ],
+      "urls": [
+        "https://precos.petrobras.com.br/precos-diesel",
+        "https://precos.petrobras.com.br/precos-gasolina",
+        "https://precos.petrobras.com.br/precos-glp"
+      ],
+      "description": "To be named in tuning step"
+    }
+  ]
+}

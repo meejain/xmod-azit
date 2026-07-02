@@ -1,0 +1,39 @@
+{
+  "variantName": "video-minimal-dark-withimg-1",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.748Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/w/inovacao/inovacao-aberta-e-o-futuro.-mas-voce-sabe-o-que-e",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"video\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/inovacao-aberta-e-o-futuro.-mas-voce-sabe-o-que-e",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_inovacao-aberta-e-o-futuro_-mas-voce-sabe-o-que-e--723e96ea/blocks/video-4601e2dc.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/industria-naval-impulsiona-o-crescimento-do-brasil",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_industria-naval-impulsiona-o-crescimento-do-brasil--dc14d51f/blocks/video-50528482.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/transicao-energetica/biogas",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_biogas--46d21e26/blocks/video-50528463.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

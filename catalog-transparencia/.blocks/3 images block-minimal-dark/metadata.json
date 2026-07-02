@@ -1,0 +1,31 @@
+{
+  "variantName": "3 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.438Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/publicidade",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/publicidade",
+        "screenshot": ".pages/transparencia_petrobras_com_br_publicidade--6127773c/blocks/unknown-1d7a335a.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "variantName": "1 list + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/unknown-64da4619.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina-podium--8f45218b/blocks/unknown-456e08f0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_linha-podium--a18180cf/blocks/unknown-3d4952d9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_fertilizantes--a1277641/blocks/unknown-6ff46e31.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina-podium--11a9615e/blocks/unknown-56d9a29b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_linha-podium--6378fc8c/blocks/unknown-56d9a29b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/unknown-73a2fa12.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

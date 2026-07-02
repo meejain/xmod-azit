@@ -1,0 +1,325 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-07-01T15:54:50.931Z",
+    "totalBlockVariants": 24,
+    "totalBlocksProcessed": 2854,
+    "newVariantsCreated": 22,
+    "variantsReused": 2618,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 249,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 224,
+        "description": "1 heading + 1 image + 1 list + 3-item layout block; 1 heading + 1 image + 1 paragraph + 2-item layout block; 1 heading + 1 image + 1 paragraph + 3-item layout block; 1 heading + 1 image + 1 paragraph ",
+        "screenshots": [
+          ".pages/petrobras_com_br--64872776/blocks/carousel-4fcae3a3.jpg",
+          ".pages/petrobras_com_br--64872776/blocks/carousel-2e9319cf.jpg",
+          ".pages/petrobras_com_br--64872776/blocks/carousel-11509482.jpg",
+          ".pages/petrobras_com_br--64872776/blocks/carousel-d08a4c0.jpg",
+          ".pages/petrobras_com_br--64872776/blocks/carousel-2a5d5390.jpg",
+          ".pages/petrobras_com_br--64872776/blocks/carousel-1882f549.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 104,
+        "description": "1 heading + 1 image + 1 paragraph block; 1 heading + 1 image block; 1 heading + 1 paragraph + 3-item layout block; 1 heading + 1 paragraph block; 1 heading + 2 paragraphs block; 1 heading + 8 images +",
+        "screenshots": [
+          ".pages/petrobras_com_br--64872776/blocks/hero-70bae9c8.jpg",
+          ".pages/petrobras_com_br_acessibilidade--f7106f79/blocks/hero-5560224b.jpg",
+          ".pages/petrobras_com_br_colombia--e0377991/blocks/hero-5560224b.jpg",
+          ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/hero-5560224b.jpg",
+          ".pages/petrobras_com_br_en_cultural_selecoes-publicas-culturais--ad64475a/blocks/hero-5560224b.jpg",
+          ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/hero-2d61214.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 78,
+        "description": "1 CTA + 1 paragraph block; 1 CTA + 2 paragraphs block; 1 CTA + 3 paragraphs block; 1 CTA block; 1 heading + 1 image + 4 CTAs block; 1 heading + 3 CTAs block; 1 heading + 5 CTAs + 1 list block; 1 headi",
+        "screenshots": [
+          ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/accordion-19f41ff9.jpg",
+          ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/accordion-56ecf6b9.jpg",
+          ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/accordion-3f9f438b.jpg",
+          ".pages/petrobras_com_br_cultural_selecoes-publicas-culturais--a0cfbcca/blocks/accordion-5e90c916.jpg",
+          ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/accordion-7c87e3ad.jpg",
+          ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/accordion-49ac78f9.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 70,
+        "description": "1 heading + 1 image + 1 list block; 1 heading + 1 image block; 1 heading + 1 list block; 1 heading + 3 images + 1 CTA + 1 list block; 1 heading + 3 images + 1 CTA block; 1 heading block; 1 image + 1 l",
+        "screenshots": [
+          ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/cards-7cfb9aad.jpg",
+          ".pages/petrobras_com_br_colombia--e0377991/blocks/cards-5de777ed.jpg",
+          ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/cards-5d273dfe.jpg",
+          ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/cards-5de777ed.jpg",
+          ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/cards-510f11a0.jpg",
+          ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/cards-231ac150.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 24,
+        "description": "1 heading + 2 images + 1 paragraph + 2-item layout block; 1 heading + 2 images + 2-item layout block; 1 heading + 2 lists + 2 paragraphs + 2-item layout block; 1 heading + 3 images + 2-item layout blo",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/columns-57e17519.jpg",
+          ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/columns-57e174fa.jpg",
+          ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/columns-57e174db.jpg",
+          ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/columns-6e5d28b.jpg",
+          ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/columns-6e5d2aa.jpg",
+          ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/columns-6e5d2c9.jpg"
+        ]
+      },
+      "tabs-minimal-dark": {
+        "blockVariantId": "tabs-minimal-dark",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 16,
+        "description": "10 headings + 3-item layout block; 18 headings + 9 images + 8 CTAs + 15 lists block; 19 headings + 4 images + 5 CTAs + 14 lists block; 22 headings + 45 images + 2-item layout block; 24 headings + 41 i",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_exploracao-e-producao--f324514c/blocks/tabs-222eda54.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/tabs-745cb032.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_gas--ac7fbe77/blocks/tabs-3a6d754f.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/tabs-222eda54.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/tabs-67ad7d93.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_participacoes-societarias--18f54c79/blocks/tabs-131b5fa9.jpg"
+        ]
+      },
+      "table-minimal-dark": {
+        "blockVariantId": "table-minimal-dark",
+        "baseBlock": "table",
+        "canonicalModel": "standalone",
+        "pagesFound": 8,
+        "description": "1 heading + 1 image + 2-item layout block; 2 headings block; 3 headings block; 4 headings + 1 image + 2-item layout block; 4 headings + 3 paragraphs block; fragment_",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_bunker--12eef8be/blocks/table-292e29c9.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_diesel-podium--b13f4f2f/blocks/table-6859dd83.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/table-478c7f2d.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_oleo-diesel-maritimo--9ec46392/blocks/table-183a21d3.jpg",
+          ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/table-5dfe3e9c.jpg",
+          ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/table-5eff6d07.jpg"
+        ]
+      },
+      "cards-moderate-dark": {
+        "blockVariantId": "cards-moderate-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "description": "4-item layout block; 5-item layout block; 7-item layout block; 9 images + 9-item layout block; 9-item layout block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_liderancas--493a6a78/blocks/cards-5fd86ad3.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-63bfb4e9.jpg",
+          ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/cards-5fd86ad3.jpg",
+          ".pages/petrobras_com_br_quem-somos_produtos--d4f28aaf/blocks/cards-63bfb4e9.jpg",
+          ".pages/petrobras_com_br_sitemap--530acaf1/blocks/cards-7fae8ad0.jpg",
+          ".pages/petrobras_com_br_sitemap--530acaf1/blocks/cards-48af8211.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "description": "lfr-layout-structure-item-issuu",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_sustentabilidade--ef98acf0/blocks/embed-3b0189af.jpg",
+          ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/embed-21be172e.jpg",
+          ".pages/petrobras_com_br_sustentabilidade--1c281267/blocks/embed-3b0189af.jpg",
+          ".pages/petrobras_com_br_sustentabilidade_mudancas-climaticas--b6255d63/blocks/embed-5c5865f0.jpg",
+          ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/embed-41bba2c2.jpg"
+        ]
+      },
+      "tabs-moderate-dark": {
+        "blockVariantId": "tabs-moderate-dark",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "description": "4 headings + 4-item layout block; 5 headings + 5-item layout block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_ouvidoria--08cae8fa/blocks/tabs-222eda54.jpg",
+          ".pages/petrobras_com_br_en_privacy-protection-personal-data--511e645c/blocks/tabs-222eda54.jpg",
+          ".pages/petrobras_com_br_ouvidoria--aa65f3bd/blocks/tabs-222eda54.jpg",
+          ".pages/petrobras_com_br_privacidade-protecao-de-dados--6ca8e6a9/blocks/tabs-222eda54.jpg",
+          ".pages/petrobras_com_br_privacy-protection-personal-data--458a7de4/blocks/tabs-222eda54.jpg"
+        ]
+      },
+      "cards-minimal-light": {
+        "blockVariantId": "cards-minimal-light",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "1 heading + 1 paragraph + 3-item layout block; 2 headings + 2 images + 1 CTA block; 2 headings + 3-item layout block; 2 headings + 4 images + 2 CTAs + 1 paragraph block; 2 headings + 4 images + 2 CTAs",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/cards-3ee33bdb.jpg",
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/cards-3ee33bfa.jpg",
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/cards-c8d9d9c.jpg",
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/cards-c8d9dbb.jpg",
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/cards-6f56035d.jpg",
+          ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/cards-38f2b155.jpg"
+        ]
+      },
+      "hero-moderate-dark": {
+        "blockVariantId": "hero-moderate-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "1 heading + 2 CTAs + video + 1 paragraph block; 1 heading + video + 1 paragraph block; 1 heading + video + 2 paragraphs + 5-item layout block",
+        "screenshots": []
+      },
+      "video-minimal-dark": {
+        "blockVariantId": "video-minimal-dark",
+        "baseBlock": "video",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "1 heading + 1 image + video + 1 paragraph block; 1 heading + 1 image + video block; 2 headings + 6 images + 14 CTAs + form + video block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_para-criancas_jornada-da-energia--48a13d97/blocks/video-b843c97.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_gasolina--845c5cba/blocks/video-7d34b8b4.jpg",
+          ".pages/petrobras_com_br_para-criancas_jornada-da-energia--d8a869d8/blocks/video-b843c97.jpg",
+          ".pages/petrobras_com_br_quem-somos_gasolina--5a807921/blocks/video-7d34b8b4.jpg"
+        ]
+      },
+      "cards-dense-dark": {
+        "blockVariantId": "cards-dense-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "21-item layout block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/cards-7b66fd98.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/cards-6ece0817.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/cards-62351296.jpg",
+          ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/cards-7b66fd98.jpg",
+          ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/cards-6ece0817.jpg",
+          ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/cards-62351296.jpg"
+        ]
+      },
+      "accordion-minimal-light": {
+        "blockVariantId": "accordion-minimal-light",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "8 headings + 1 paragraph block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/accordion-117413.jpg",
+          ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/accordion-117413.jpg"
+        ]
+      },
+      "cards-moderate-medium": {
+        "blockVariantId": "cards-moderate-medium",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "1 image + 2 paragraphs + 4-item layout block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-3ea6475e.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-3ea6477d.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-3ea6479c.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-3ea647bb.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-3ea647da.jpg",
+          ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-3ea647f9.jpg"
+        ]
+      },
+      "carousel-minimal-light": {
+        "blockVariantId": "carousel-minimal-light",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "2 headings + 1 image block; 5 headings + 4 images + 1 paragraph block; 5 headings + 4 images block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/carousel-43a910a5.jpg",
+          ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/carousel-46060862.jpg",
+          ".pages/petrobras_com_br_jornada-da-energia--58889390/blocks/carousel-43a910a5.jpg",
+          ".pages/petrobras_com_br_jornada-da-energia--58889390/blocks/carousel-46060862.jpg"
+        ]
+      },
+      "form-minimal-dark": {
+        "blockVariantId": "form-minimal-dark",
+        "baseBlock": "form",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "2 headings + 2 images + 1 CTA + form + 1 list block; 4 headings + 2 images + 1 CTA + form + 1 list block",
+        "screenshots": [
+          ".pages/petrobras_com_br_quem-somos_jovem-aprendiz--44a7d26e/blocks/form-7057f7d.jpg"
+        ]
+      },
+      "hero-minimal-light": {
+        "blockVariantId": "hero-minimal-light",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "4 headings block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_quem-somos_exploracao-e-producao--f324514c/blocks/hero-3b6b4104.jpg",
+          ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/hero-3b6b4104.jpg"
+        ]
+      },
+      "search-minimal-dark": {
+        "blockVariantId": "search-minimal-dark",
+        "baseBlock": "search",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "12 headings + 2 images block; 12 headings + 3 images block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_negocios--4601e2fc/blocks/search-24fc28f1.jpg",
+          ".pages/petrobras_com_br_negocios--0a8ec899/blocks/search-24fc28f1.jpg"
+        ]
+      },
+      "table-moderate-dark": {
+        "blockVariantId": "table-moderate-dark",
+        "baseBlock": "table",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "98 images + 49 CTAs block",
+        "screenshots": [
+          ".pages/petrobras_com_br_en_sustentabilidade_relatorios-anuais--4410142e/blocks/table-24ccf459.jpg",
+          ".pages/petrobras_com_br_sustentabilidade_relatorios-anuais--2607bd7f/blocks/table-24ccf459.jpg"
+        ]
+      },
+      "accordion-moderate-dark": {
+        "blockVariantId": "accordion-moderate-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "6 CTAs block",
+        "screenshots": []
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "accordion-minimal-dark-6",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 3 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 3 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_en_produtos-mais-sustent_C3_A1veis--e208a6d7/blocks/accordion-3961a0a0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_produtos-mais-sustent_C3_A1veis--afda81ef/blocks/accordion-3961a0a0.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

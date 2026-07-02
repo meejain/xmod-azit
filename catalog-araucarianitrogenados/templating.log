@@ -1,0 +1,149 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 60 terminal entries (60 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 60 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 16 path groups + 6 root singletons
+  Group 1 (acesso-a-informacao/__landing__:acoes-e-programas): 1 pages
+  Group 2 (acesso-a-informacao/acoes-e-programas): 4 pages
+  Group 3 (acesso-a-informacao/__landing__:auditorias): 1 pages
+  Group 4 (acesso-a-informacao/auditorias): 4 pages
+  Group 5 (acesso-a-informacao): 7 pages
+  Group 6 (acesso-a-informacao/__landing__:institucional): 1 pages
+  Group 7 (acesso-a-informacao/institucional): 7 pages
+  Group 8 (acesso-a-informacao/__landing__:licitacoes-e-contratos): 1 pages
+  Group 9 (acesso-a-informacao/licitacoes-e-contratos): 5 pages
+  Group 10 (acesso-a-informacao/__landing__:participacao-social): 1 pages
+  Group 11 (acesso-a-informacao/participacao-social): 6 pages
+  Group 12 (acesso-a-informacao/__landing__:receitas-e-despesas): 1 pages
+  Group 13 (acesso-a-informacao/receitas-e-despesas): 8 pages
+  Group 14 (acesso-a-informacao/__landing__:servico-de-informacao-ao-cidadao-sic): 1 pages
+  Group 15 (acesso-a-informacao/servico-de-informacao-ao-cidadao-sic): 2 pages
+  Group 16 (institucional): 4 pages
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+  Seed group 2 (4p): SPLIT -> 2 groups [3, 1]
+    reason: layout-descriptor partition
+  Seed group 4 (4p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 5 (7p): SPLIT -> 2 groups [6, 1]
+    reason: layout-descriptor partition
+  Seed group 7 (7p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 9 (5p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 11 (6p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 13 (8p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 15 (2p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 16 (4p): KEEP
+    reason: all pages share a layout descriptor
+Layout-descriptor partition: 2 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 15
+
+Starting: 24 total (9 clusters, 15 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -2 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao → https://araucarianitrogenados.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+  ✓ MERGE: 1 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas → https://araucarianitrogenados.com.br/acesso-a-informacao
+  ✓ MERGE: 3 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias → https://araucarianitrogenados.com.br/acesso-a-informacao
+  ✓ MERGE: 4 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 5 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/empregados-publicos → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 7 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/institucional/agenda-de-autoridades → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 9 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 10 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/participacao-social → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 11 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/participacao-social/audiencias-publicas → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 12 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/receitas-e-despesas → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 14 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 15 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: 17 → 13  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos → https://araucarianitrogenados.com.br/acesso-a-informacao/auditorias
+  ✓ MERGE: -6 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/outras-informacoes → https://araucarianitrogenados.com.br/institucional/auditoria
+  ✓ MERGE: -5 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/institucional → https://araucarianitrogenados.com.br/institucional/auditoria
+  ✓ MERGE: -4 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos → https://araucarianitrogenados.com.br/institucional
+  ✓ MERGE: -3 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/cartas-de-governanca-e-politicas-publicas → https://araucarianitrogenados.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+  ✓ MERGE: -1 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/ → https://araucarianitrogenados.com.br/cartas-de-governanca-e-politicas-publicas
+  ✓ MERGE: 2 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos → https://araucarianitrogenados.com.br/
+  ✓ MERGE: 6 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/institucional → https://araucarianitrogenados.com.br/
+  ✓ MERGE: 8 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/licitacoes-e-contratos → https://araucarianitrogenados.com.br/acesso-a-informacao/institucional
+  ✓ MERGE: 18 → 16  [sim: 100%]
+      https://araucarianitrogenados.com.br/acesso-a-informacao/convenios-e-transferencias → https://araucarianitrogenados.com.br/acesso-a-informacao/institucional
+  22 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 24 clusters
+After:  2 clusters (2 multi-page, 0 singletons)
+Merged: 22 clusters (48 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family 13: 45p -> 1 template (pair_matches=14/14)
+  Family 16: 15p -> 3 templates [8, 4, 3] (pair_matches=9/23)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate 13: 45p | representatives 3
+  Template candidate 16: 8p | representatives 2
+  Template candidate 17: 4p | representatives 3
+  Template candidate 18: 3p | representatives 2
+Built 4 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 4 templates, 60 pages, 0 singletons, biggest family=45
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 4 templates, 0 singletons. Ready for tuning.

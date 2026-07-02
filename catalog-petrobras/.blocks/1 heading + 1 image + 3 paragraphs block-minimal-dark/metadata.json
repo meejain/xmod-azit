@@ -1,0 +1,48 @@
+{
+  "variantName": "1 heading + 1 image + 3 paragraphs block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + image\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_en_produtos-mais-sustent_C3_A1veis--e208a6d7/blocks/unknown-12433ac0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/unknown-190a0361.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refino--16ca74fa/blocks/unknown-38beb64d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_produtos-mais-sustent_C3_A1veis--afda81ef/blocks/unknown-12433ac0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refino--b9d94c00/blocks/unknown-1c9dafcb.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

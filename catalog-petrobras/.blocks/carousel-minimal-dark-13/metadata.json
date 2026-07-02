@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-minimal-dark-13",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.217Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/colombia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/colombia",
+        "screenshot": ".pages/petrobras_com_br_colombia--e0377991/blocks/carousel-3a0bdfc3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/colombia",
+        "screenshot": ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/carousel-21e156bf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/reach",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_reach--099069ae/blocks/carousel-14e96dc4.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

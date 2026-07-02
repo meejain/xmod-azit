@@ -1,0 +1,73 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 4 terminal entries (4 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 4 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 0 path groups + 4 root singletons
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+Layout-descriptor partition: 0 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 4
+
+Starting: 4 total (0 clusters, 4 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -4 → -3  [sim: 100%]
+      https://precos.petrobras.com.br/precos-glp → https://precos.petrobras.com.br/precos-gasolina
+  ✓ MERGE: -2 → -3  [sim: 100%]
+      https://precos.petrobras.com.br/precos-diesel → https://precos.petrobras.com.br/precos-gasolina
+  2 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 4 clusters
+After:  2 clusters (1 multi-page, 1 singletons)
+Merged: 2 clusters (2 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -3: 3p -> 1 template (pair_matches=2/2)
+  Family -1: 1p -> 1 template (pair_matches=0/0)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -3: 3p | representatives 2
+  Template candidate -1: 1p
+Built 2 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 2 templates, 4 pages, 1 singletons, biggest family=3
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 2 templates, 1 singletons. Ready for tuning.

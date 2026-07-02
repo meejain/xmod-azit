@@ -1,0 +1,31 @@
+{
+  "variantName": "table-minimal-dark-3",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.225Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/bunker",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"table\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/table-5dfe3e9c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

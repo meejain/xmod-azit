@@ -1,0 +1,43 @@
+{
+  "variantName": "1 list block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.221Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/parafina",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_parafina--74720faa/blocks/unknown-3ddd7319.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/unknown-7051a5da.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sitemap",
+        "screenshot": ".pages/petrobras_com_br_sitemap--530acaf1/blocks/unknown-7ce5c585.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/unknown-1b404937.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

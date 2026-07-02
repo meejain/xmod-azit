@@ -1,0 +1,35 @@
+{
+  "variantName": "4 headings + 8 images + 2 ctas + 2 paragraphs block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.223Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 2 CTAs + 8 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 2 CTAs + 8 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/unknown-5c9944c2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/unknown-5c9944c2.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

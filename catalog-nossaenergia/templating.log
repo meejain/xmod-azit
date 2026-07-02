@@ -1,0 +1,108 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 190 terminal entries (190 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 190 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 7 path groups + 6 root singletons
+  Group 1 (w): 6 pages
+  Group 2 (w/inovacao): 30 pages
+  Group 3 (w/nossas-atividades): 51 pages
+  Group 4 (w/sustentabilidade): 58 pages
+  Group 5 (w/transicao-energetica): 37 pages
+  Group 6 (w/transicao-energetica/__landing__:energia-eolica-offshore): 1 pages
+  Group 7 (w/transicao-energetica/energia-eolica-offshore): 1 pages
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+  Seed group 1 (6p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 2 (30p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 3 (51p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 4 (58p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 5 (37p): KEEP
+    reason: all pages share a layout descriptor
+Layout-descriptor partition: 0 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 8
+
+Starting: 13 total (5 clusters, 8 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -1 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/ → https://nossaenergia.petrobras.com.br/w/sustentabilidade/petrobras-e-o-cinema-nacional
+  ✓ MERGE: 1 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/w/biocombustiveis-no-brasil-transicao-energetica-justa → https://nossaenergia.petrobras.com.br/w/sustentabilidade/petrobras-e-o-cinema-nacional
+  ✓ MERGE: 2 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/w/inovacao/10-filmes-sobre-tecnologia-e-inovacao → https://nossaenergia.petrobras.com.br/w/sustentabilidade/petrobras-e-o-cinema-nacional
+  ✓ MERGE: 3 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-e-o-cinema-nacional → https://nossaenergia.petrobras.com.br/w/sustentabilidade/petrobras-e-o-cinema-nacional
+  ✓ MERGE: 5 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/w/transicao-energetica/descarbonizacao-e-produtos-de-baixo-carbono → https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-e-o-cinema-nacional
+  ✓ MERGE: 6 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/w/transicao-energetica/energia-eolica-offshore → https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-e-o-cinema-nacional
+  ✓ MERGE: 7 → 4  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/w/transicao-energetica/energia-eolica-offshore/acordo-equinor → https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-e-o-cinema-nacional
+  ✓ MERGE: -6 → -5  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/transicao-energetica → https://nossaenergia.petrobras.com.br/sustentabilidade
+  ✓ MERGE: -3 → -5  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/nossas-atividades → https://nossaenergia.petrobras.com.br/sustentabilidade
+  ✓ MERGE: -2 → -5  [sim: 100%]
+      https://nossaenergia.petrobras.com.br/inovacao → https://nossaenergia.petrobras.com.br/nossas-atividades
+  10 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 13 clusters
+After:  3 clusters (2 multi-page, 1 singletons)
+Merged: 10 clusters (130 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -5: 4p -> 1 template (pair_matches=3/3)
+  Family -4: 1p -> 1 template (pair_matches=0/0)
+  Family 4: 185p -> 1 template (pair_matches=184/184)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -5: 4p
+  Template candidate -4: 1p
+  Template candidate 4: 185p | representatives 4
+Built 3 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 3 templates, 190 pages, 1 singletons, biggest family=185
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 3 templates, 1 singletons. Ready for tuning.

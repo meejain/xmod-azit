@@ -1,0 +1,35 @@
+{
+  "variantName": "4 headings + 4 images + 2 ctas + 2 paragraphs block-minimal-light",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.223Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 2 CTAs + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 2 CTAs + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/unknown-38f2b155.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/unknown-38f2b155.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

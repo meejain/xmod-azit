@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.436Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/agenda-de-autoridades",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/agenda-de-autoridades",
+        "screenshot": ".pages/transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c/blocks/columns-713eb861.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

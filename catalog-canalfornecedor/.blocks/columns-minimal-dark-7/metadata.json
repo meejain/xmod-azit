@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-7",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.723Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/blocks/columns-37f4a92b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

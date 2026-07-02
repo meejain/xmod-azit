@@ -1,0 +1,39 @@
+{
+  "variantName": "fragment_-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_lives--adef4166/blocks/unknown-2b7a652b.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_lives--2d00e8e6/blocks/unknown-2b7a652b.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55/blocks/unknown-3b23aa7d.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

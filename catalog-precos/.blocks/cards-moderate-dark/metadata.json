@@ -1,0 +1,35 @@
+{
+  "variantName": "cards-moderate-dark",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:50:35.688Z",
+  "sourceContext": {
+    "originUrl": "https://precos.petrobras.com.br/precos-diesel",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://precos.petrobras.com.br/precos-diesel",
+        "screenshot": ".pages/precos_petrobras_com_br_precos-diesel--bc7f97a5/blocks/cards-3761530b.jpg"
+      },
+      {
+        "url": "https://precos.petrobras.com.br/precos-gasolina",
+        "screenshot": ".pages/precos_petrobras_com_br_precos-gasolina--60beca62/blocks/cards-3761530b.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

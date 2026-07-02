@@ -1,0 +1,130 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T19:40:01.529Z",
+    "totalBlockVariants": 9,
+    "totalBlocksProcessed": 64,
+    "newVariantsCreated": 7,
+    "variantsReused": 233,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 51,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 9,
+        "description": "1 heading + 2 images block; 2 headings + 2 images + 2 paragraphs block; 2 headings + 2 images block; 3 headings + 3 images + 2 paragraphs block; 3 headings + 3 images + 3 paragraphs block; 3 headings ",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br_acoes-e-programas--f391dec0/blocks/cards-59679c33.jpg",
+          ".pages/transparencia_petrobras_com_br_institucional--b371af1b/blocks/cards-36b4b48.jpg",
+          ".pages/transparencia_petrobras_com_br_institucional--b371af1b/blocks/cards-4e92e441.jpg",
+          ".pages/transparencia_petrobras_com_br_licitacoes-e-contratos--e95c5fa5/blocks/cards-1b500da6.jpg",
+          ".pages/transparencia_petrobras_com_br_participacao-social--b9308f4a/blocks/cards-5cd267bd.jpg",
+          ".pages/transparencia_petrobras_com_br_programa-conexoes-para-inovacao--b08a6cb6/blocks/cards-43ea9899.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 9,
+        "description": "iframe-container; lfr-layout-structure-item-grade-linhas-e-colunas",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br_aditivos--6ceea72f/blocks/embed-77ab1735.jpg",
+          ".pages/transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c/blocks/embed-713eb861.jpg",
+          ".pages/transparencia_petrobras_com_br_alienacao-de-bens-imoveis--b8037ea5/blocks/embed-6c7633ae.jpg",
+          ".pages/transparencia_petrobras_com_br_aquisicao-de-bens--a7016656/blocks/embed-c7cafcc.jpg",
+          ".pages/transparencia_petrobras_com_br_contratos--6227fa32/blocks/embed-15933be3.jpg",
+          ".pages/transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9/blocks/embed-47868f1b.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 7,
+        "description": "1 CTA + 1 paragraph block; 1 heading + 1 CTA + 2 paragraphs block; 10 CTAs + 2 lists block; 14 images + 9 CTAs block; 2 CTAs + 1 paragraph + 2-item layout block; 3 CTAs + 1 paragraph + 2-item layout b",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/accordion-29b8a100.jpg",
+          ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/accordion-188b3441.jpg",
+          ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/accordion-188b3422.jpg",
+          ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/accordion-188b3403.jpg",
+          ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/accordion-188b33e4.jpg",
+          ".pages/transparencia_petrobras_com_br_audiencias-publicas--60511e3f/blocks/accordion-188b33c5.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "1 heading + 2 paragraphs + 2-item layout block; 2 headings + 5 images + 5 CTAs + video block; 2-item layout block; 74 headings + 62 images + 3-item layout block",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br--d11b5b77/blocks/carousel-443d1edd.jpg",
+          ".pages/transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c/blocks/carousel-5ba600de.jpg",
+          ".pages/transparencia_petrobras_com_br_agenda-de-autoridades--3a2ca41c/blocks/carousel-4b9c6aa3.jpg",
+          ".pages/transparencia_petrobras_com_br_home--9081fd60/blocks/carousel-443d1edd.jpg",
+          ".pages/transparencia_petrobras_com_br_prestacao-de-contas--fb27fd92/blocks/carousel-2b332940.jpg"
+        ]
+      },
+      "tabs-minimal-dark": {
+        "blockVariantId": "tabs-minimal-dark",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "1 heading + 3 CTAs + 3 paragraphs block; 2 headings + 17 CTAs block; 27 CTAs block; 7 headings + 7 CTAs block",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22/blocks/tabs-2d293d5a.jpg",
+          ".pages/transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e/blocks/tabs-2d293d5a.jpg",
+          ".pages/transparencia_petrobras_com_br_publicidade--6127773c/blocks/tabs-3d05289c.jpg",
+          ".pages/transparencia_petrobras_com_br_sancoes-administrativas--e62398bf/blocks/tabs-31b9d7e6.jpg"
+        ]
+      },
+      "table-minimal-dark": {
+        "blockVariantId": "table-minimal-dark",
+        "baseBlock": "table",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "1 CTA block",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br_programas-finalisticos--cb9df055/blocks/table-43905fe9.jpg",
+          ".pages/transparencia_petrobras_com_br_sancoes-administrativas--e62398bf/blocks/table-637e0868.jpg"
+        ]
+      },
+      "tabs-moderate-dark": {
+        "blockVariantId": "tabs-moderate-dark",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "4 headings + 4-item layout block; 7 headings + 7-item layout block",
+        "screenshots": [
+          ".pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22/blocks/tabs-5c3ee8e.jpg",
+          ".pages/transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e/blocks/tabs-5c3ee8e.jpg"
+        ]
+      }
+    }
+  }
+}

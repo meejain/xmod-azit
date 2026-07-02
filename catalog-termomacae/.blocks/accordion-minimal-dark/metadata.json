@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.235Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/institucional/orgaos-estatutarios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/termomacae_com_br_institucional_orgaos-estatutarios--ada072ab/blocks/accordion-f4ba04d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

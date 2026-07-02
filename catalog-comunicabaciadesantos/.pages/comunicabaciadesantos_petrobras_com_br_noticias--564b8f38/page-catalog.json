@@ -1,0 +1,744 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/noticias",
+  "timestamp": "2026-07-01T12:07:22.337Z",
+  "duration": "10.7s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/noticias",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 225
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 293,
+        "y": 172,
+        "width": 246,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 35
+      },
+      {
+        "tag": "p",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 293,
+        "y": 172,
+        "width": 855,
+        "height": 38,
+        "textLength": 17
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 211,
+    "topSectionTitleRect": {
+      "x": 293,
+      "y": 172,
+      "width": 855,
+      "height": 38,
+      "text": "Todas as Notícias"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 225,
+      "width": 1440,
+      "height": 3153
+    },
+    "bodyStartY": 225,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 293,
+        "y": 279,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 327,
+        "width": 191,
+        "height": 22
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 370,
+        "width": 409,
+        "height": 66
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 469,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 613,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 661,
+        "width": 191,
+        "height": 22
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 704,
+        "width": 424,
+        "height": 66
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 803,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 947,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 995,
+        "width": 191,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 1037,
+        "width": 404,
+        "height": 105
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 1168,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 1281,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 1329,
+        "width": 191,
+        "height": 14
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 1364,
+        "width": 435,
+        "height": 182
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 1509,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 1615,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 1663,
+        "width": 191,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 1705,
+        "width": 436,
+        "height": 105
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 1836,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 1949,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 1997,
+        "width": 191,
+        "height": 22
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 2040,
+        "width": 391,
+        "height": 66
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 2139,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 2283,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 2331,
+        "width": 191,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 2369,
+        "width": 408,
+        "height": 143
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 2508,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 293,
+        "y": 2617,
+        "width": 304,
+        "height": 289
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 2665,
+        "width": 191,
+        "height": 22
+      },
+      {
+        "type": "text",
+        "x": 653,
+        "y": 2708,
+        "width": 397,
+        "height": 66
+      },
+      {
+        "type": "text",
+        "x": 669,
+        "y": 2807,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 560,
+        "y": 3015,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "type": "text",
+        "x": 616,
+        "y": 3015,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "type": "text",
+        "x": 672,
+        "y": 3015,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "type": "text",
+        "x": 728,
+        "y": 3015,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "type": "text",
+        "x": 784,
+        "y": 3015,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "type": "text",
+        "x": 840,
+        "y": 3015,
+        "width": 40,
+        "height": 40
+      },
+      {
+        "type": "image",
+        "x": 519,
+        "y": 3029,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 911,
+        "y": 3029,
+        "width": 10,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 3203,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1113,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1159,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1205,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1251,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1297,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1343,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1389,
+        "y": 3293,
+        "width": 40,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-683db293",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(1)",
+      "bounds": {
+        "x": 292,
+        "y": 564,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db293.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db274",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(2)",
+      "bounds": {
+        "x": 292,
+        "y": 898,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db274.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db255",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(3)",
+      "bounds": {
+        "x": 292,
+        "y": 1232,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db255.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db236",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(4)",
+      "bounds": {
+        "x": 292,
+        "y": 1566,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db236.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db217",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(5)",
+      "bounds": {
+        "x": 292,
+        "y": 1900,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db217.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db1f8",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(6)",
+      "bounds": {
+        "x": 292,
+        "y": 2234,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db1f8.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db1d9",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(7)",
+      "bounds": {
+        "x": 292,
+        "y": 2568,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db1d9.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-683db1ba",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 paragraph + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + image"
+      },
+      "columnCount": 2,
+      "selector": "div.pet-page-news-45379 > div:nth-child(8)",
+      "bounds": {
+        "x": 292,
+        "y": 2902,
+        "width": 856,
+        "height": 290
+      },
+      "screenshot": "blocks/default-683db1ba.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-574c02e9",
+      "type": "default",
+      "confidence": "medium",
+      "description": "8 CTAs + 2 paragraphs + 4-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 2,
+        "imageCount": 0,
+        "buttonCount": 8,
+        "linkCount": 8,
+        "listCount": 0,
+        "childCount": 4,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "text + 8 CTAs"
+      },
+      "itemCount": 4,
+      "selector": "div.pagination",
+      "bounds": {
+        "x": 504,
+        "y": 3236,
+        "width": 432,
+        "height": 169
+      },
+      "screenshot": "blocks/default-574c02e9.jpg",
+      "reclassifiedFrom": "cards"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "variantName": "hero-minimal-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/acessibilidade",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/acessibilidade",
+        "screenshot": ".pages/petrobras_com_br_acessibilidade--f7106f79/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/colombia",
+        "screenshot": ".pages/petrobras_com_br_colombia--e0377991/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/colombia",
+        "screenshot": ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/cultural/selecoes-publicas-culturais",
+        "screenshot": ".pages/petrobras_com_br_en_cultural_selecoes-publicas-culturais--ad64475a/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia--ff40a5f2/blocks/hero-4eb54360.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_patentes--1ee30656/blocks/hero-5f1e503a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_en_privacy-protection-personal-data--511e645c/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_complexo-boaventura--1460beb0/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-abreu-lima",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-abreu-lima--bfb5c000/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-alberto-pasqualini",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-alberto-pasqualini--325aed18/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-capuava",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-capuava--fbcdbcbb/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-de-paulinia--d6c8b3ae/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-duque-de-caxias--d3e15b28/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-gabriel-passos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-gabriel-passos--11f39dc2/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-henrique-lage--b7633e94/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-presidente-bernardes--8ccfdf25/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-presidente-getulio-vargas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-presidente-getulio-vargas--e4fd59f0/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinarinaria-lubrificantes-derivados-nordeste",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinarinaria-lubrificantes-derivados-nordeste--f68e7431/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/seguranca-da-informacao",
+        "screenshot": ".pages/petrobras_com_br_en_seguranca-da-informacao--613b8a48/blocks/hero-4b351806.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/selecoes-publicas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_selecoes-publicas--056c7e39/blocks/hero-15fa404f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_en_transicao-energetica_historias-em-quadrinhos--e5bccb56/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/usa",
+        "screenshot": ".pages/petrobras_com_br_en_usa--d7eafae4/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia--70bf2304/blocks/hero-6268728b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/hero-5f1e503a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados--6ca8e6a9/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/candidato-em-concurso-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_candidato-em-concurso-publico--02db0876/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/cliente-fornecedor-consumidor-concorrente",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_cliente-fornecedor-consumidor-concorrente--c29688c9/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe--d3d4f1ed/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/demais-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_demais-publico--bfba5b1b/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/midia-investidor-parceiro-de-negocios-poder-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_midia-investidor-parceiro-de-negocios-poder-publico--fc709543/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros--0e933ad3/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_privacy-protection-personal-data--458a7de4/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "screenshot": ".pages/petrobras_com_br_publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros--03e27a0d/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_complexo-boaventura--92450213/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossos-escritorios--be52ed68/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_porto-de-macae--aead1fef/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/produtos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_produtos--d4f28aaf/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-abreu-lima",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-abreu-lima--bcde7092/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-alberto-pasqualini",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-alberto-pasqualini--e3407a52/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-capuava",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-capuava--f50805b0/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-de-paulinia--1bdb57bf/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-duque-de-caxias--1d80c1a9/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-gabriel-passos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-gabriel-passos--a1a4be85/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-henrique-lage--0a746af3/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-bernardes--ffd19a35/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-getulio-vargas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-getulio-vargas--7c3101b7/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinarinaria-lubrificantes-derivados-nordeste",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinarinaria-lubrificantes-derivados-nordeste--41921ee1/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/seguranca-da-informacao",
+        "screenshot": ".pages/petrobras_com_br_seguranca-da-informacao--cb1fc04f/blocks/hero-2c2a8099.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sitemap",
+        "screenshot": ".pages/petrobras_com_br_sitemap--530acaf1/blocks/hero-5560224b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica_historias-em-quadrinhos--32516cfa/blocks/hero-31deffa4.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/usa",
+        "screenshot": ".pages/petrobras_com_br_usa--92986c26/blocks/hero-5560224b.jpg"
+      }
+    ],
+    "reuseCount": 53
+  }
+}

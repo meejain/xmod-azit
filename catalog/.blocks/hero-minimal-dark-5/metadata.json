@@ -1,0 +1,47 @@
+{
+  "variantName": "hero-minimal-dark-5",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.225Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/privacidade-protecao-de-dados/cliente-fornecedor-consumidor-concorrente",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/cliente-fornecedor-consumidor-concorrente",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_cliente-fornecedor-consumidor-concorrente--c29688c9/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe--d3d4f1ed/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/midia-investidor-parceiro-de-negocios-poder-publico",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_midia-investidor-parceiro-de-negocios-poder-publico--fc709543/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados_publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros--0e933ad3/blocks/hero-3b23aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "screenshot": ".pages/petrobras_com_br_publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros--03e27a0d/blocks/hero-3b23aa7d.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

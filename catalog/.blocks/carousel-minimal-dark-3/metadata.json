@@ -1,0 +1,75 @@
+{
+  "variantName": "carousel-minimal-dark-3",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_exploracao-e-producao--f324514c/blocks/carousel-20f5f4ec.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/carousel-726fcac9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_eventos--4f713a52/blocks/carousel-10c8dc1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_futebol-feminino--211e0359/blocks/carousel-193568cf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_mudancas-climaticas--15a1a892/blocks/carousel-684bddac.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/carousel-5692f249.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_logistica--74ca30bd/blocks/carousel-6edde774.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_perfil--b7731683/blocks/carousel-2c02bb7e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_eventos--55cf47d4/blocks/carousel-693668d4.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_futebol-feminino--4998f2ba/blocks/carousel-41a989a0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/carousel-3c767d57.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_socioambiental--abd06c59/blocks/carousel-23a9e58a.jpg"
+      }
+    ],
+    "reuseCount": 12
+  }
+}

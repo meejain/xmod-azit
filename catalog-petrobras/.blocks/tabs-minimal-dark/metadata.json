@@ -1,0 +1,47 @@
+{
+  "variantName": "tabs-minimal-dark",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_exploracao-e-producao--f324514c/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/participacoes-societarias",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_participacoes-societarias--18f54c79/blocks/tabs-131b5fa9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_logistica--74ca30bd/blocks/tabs-222eda54.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

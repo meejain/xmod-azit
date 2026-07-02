@@ -1,0 +1,47 @@
+{
+  "variantName": "carousel-minimal-dark-17",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.218Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_assistencia-tecnica--734ffd77/blocks/carousel-7eb1f784.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/usa",
+        "screenshot": ".pages/petrobras_com_br_en_usa--d7eafae4/blocks/carousel-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_assistencia-tecnica--c5565b0b/blocks/carousel-275c10a8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/carousel-778787ca.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/usa",
+        "screenshot": ".pages/petrobras_com_br_usa--92986c26/blocks/carousel-7625f82e.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

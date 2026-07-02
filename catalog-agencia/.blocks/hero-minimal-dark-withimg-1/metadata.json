@@ -1,0 +1,63 @@
+{
+  "variantName": "hero-minimal-dark-withimg-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.791Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--470b040e/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-petrobras-investir%C3%A1-r-270-milh%C3%B5es-em-projetos-culturais-de-todo-o-brasil",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-petrobras-investir_C3_A1-r-270-milh_C3_B5es-em-projetos-culturais-de-todo-o-brasil--b723084b/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/aviso-de-pauta-visita-de-lula-%C3%A0-fafen-ba",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_aviso-de-pauta-visita-de-lula-_C3_A0-fafen-ba--71f92351/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-informa-sobre-as-delibera%C3%A7%C3%B5es-da-assembleia-geral-ordin%C3%A1ria",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-informa-sobre-as-delibera_C3_A7_C3_B5es-da-assembleia-geral-ordin_C3_A1ria--8302764b/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--fed3232a/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_negocio_petrobras-informa-sobre-pre_C3_A7os-de-diesel--e1f31b46/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-bate-recordes-no-primeiro-ano-da-atual-gestao--3a986e7a/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-conclui-primeira-perfuracao-de-poco-exploratorio-na-margem-equatorial--b393cf83/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-informa-sobre-reservas-provadas-em-2023",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-informa-sobre-reservas-provadas-em-2023--92bda010/blocks/hero-40372059.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

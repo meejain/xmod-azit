@@ -1,0 +1,115 @@
+{
+  "variantName": "hero-minimal-dark-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.893Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/acesso-a-informacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao--1a8946ff/blocks/hero-6b8eabf1.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas--376ae200/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--39d38876/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias--2a4f5c99/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/dados-abertos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_dados-abertos--8ce5628d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_empregados-publicos--115eb13e/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/informacoes-classificadas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_informacoes-classificadas--0e77c49e/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3b04afc2/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/horario-de-atendimento",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_horario-de-atendimento--2901799d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos--29f6d31c/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--4fa5f32d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--e68aa3db/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/outras-acoes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_outras-acoes--1cd79dff/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_ouvidoria--519eb727/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_perguntas-frequentes--f7a084df/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas--a8f76f97/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--98e22fc9/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--9cd94ae6/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/receitas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_receitas--ae41bed9/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_sancoes-administrativas--d8bdc3f3/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--800ef0ed/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--0a388fdb/blocks/hero-17c790da.jpg"
+      }
+    ],
+    "reuseCount": 22
+  }
+}

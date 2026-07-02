@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://comunicabaciadesantos.petrobras.com.br/",
+      "siteName": "comunicabaciadesantos.petrobras.com.br",
+      "analysisDate": "2026-07-01"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 138,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 138
+        }
+      ],
+      "totalTemplates": 14,
+      "totalBlockTypes": 11,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 9,
+      "pagesAnalyzed": 138,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 5
+    }
+  }
+}

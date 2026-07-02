@@ -1,0 +1,31 @@
+{
+  "variantName": "5 headings + 5 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.177Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao/receitas-e-despesas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 5 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 5 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/receitas-e-despesas",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas--9f313d38/blocks/unknown-48d53133.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

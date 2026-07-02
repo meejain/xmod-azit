@@ -1,0 +1,35 @@
+{
+  "variantName": "2 images block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.752Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/corredores-ecologicos-preservando-a-biodiversidade-brasileira-para-o-amanha",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/corredores-ecologicos-preservando-a-biodiversidade-brasileira-para-o-amanha",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_corredores-ecologicos-preservando-a-biodiversidade-brasileira-para-o-amanha--7bcab56e/blocks/unknown-621acd9a.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/sustentabilidade/esporte-e-inclusao",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_sustentabilidade_esporte-e-inclusao--3a509791/blocks/unknown-621acd5c.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

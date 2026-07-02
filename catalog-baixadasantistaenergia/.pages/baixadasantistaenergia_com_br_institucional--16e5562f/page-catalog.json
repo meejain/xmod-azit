@@ -1,0 +1,783 @@
+{
+  "url": "https://baixadasantistaenergia.com.br/institucional",
+  "timestamp": "2026-06-30T22:13:34.191Z",
+  "duration": "71.6s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/institucional",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 300
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 406,
+        "y": 75,
+        "width": 178,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 584,
+        "y": 75,
+        "width": 131,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 115,
+        "width": 226,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 235,
+        "y": 248,
+        "width": 164,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 443,
+        "y": 248,
+        "width": 221,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 708,
+        "y": 248,
+        "width": 120,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 872,
+        "y": 248,
+        "width": 166,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 1082,
+        "y": 248,
+        "width": 232,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 92,
+        "y": 249,
+        "width": 99,
+        "height": 16
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 406,
+        "y": 75,
+        "width": 178,
+        "height": 21,
+        "textLength": 24
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 605,
+        "y": 75,
+        "width": 131,
+        "height": 21,
+        "textLength": 20
+      },
+      {
+        "tag": "h1",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 115,
+        "width": 632,
+        "height": 38,
+        "textLength": 13
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 84,
+        "y": 233,
+        "width": 115,
+        "height": 48,
+        "textLength": 13
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 227,
+        "y": 238,
+        "width": 180,
+        "height": 48,
+        "textLength": 21
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 435,
+        "y": 238,
+        "width": 237,
+        "height": 48,
+        "textLength": 28
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 700,
+        "y": 238,
+        "width": 136,
+        "height": 48,
+        "textLength": 15
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 864,
+        "y": 238,
+        "width": 182,
+        "height": 48,
+        "textLength": 20
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 1074,
+        "y": 238,
+        "width": 248,
+        "height": 48,
+        "textLength": 28
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 1350,
+        "y": 238,
+        "width": 248,
+        "height": 48,
+        "textLength": 28
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 1626,
+        "y": 238,
+        "width": 211,
+        "height": 48,
+        "textLength": 23
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 286,
+    "topSectionTitleRect": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 238,
+      "text": "Baixada Santista Energia Portal Institucional Institucional"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 300,
+      "width": 1440,
+      "height": 5333
+    },
+    "bodyStartY": 300,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 436,
+        "y": 329,
+        "width": 568,
+        "height": 1288
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 1820,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1820,
+        "width": 371,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 1909,
+        "width": 542,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 440,
+        "y": 2037,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 476,
+        "y": 2040,
+        "width": 153,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 2198,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 2198,
+        "width": 505,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 2284,
+        "width": 76,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 2429,
+        "width": 61,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 2545,
+        "width": 75,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 463,
+        "y": 2586,
+        "width": 446,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 463,
+        "y": 2615,
+        "width": 201,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 463,
+        "y": 2644,
+        "width": 226,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 463,
+        "y": 2673,
+        "width": 115,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 2879,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 2879,
+        "width": 272,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 2968,
+        "width": 532,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 440,
+        "y": 3096,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 476,
+        "y": 3098,
+        "width": 137,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 3257,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 3257,
+        "width": 381,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 3346,
+        "width": 568,
+        "height": 914
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 4437,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 4437,
+        "width": 534,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 463,
+        "y": 4736,
+        "width": 494,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 463,
+        "y": 4765,
+        "width": 434,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 627,
+        "y": 4799,
+        "width": 315,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 851,
+        "y": 4828,
+        "width": 111,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 5030,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 5030,
+        "width": 529,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 5119,
+        "width": 557,
+        "height": 50
+      },
+      {
+        "type": "image",
+        "x": 440,
+        "y": 5219,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 476,
+        "y": 5222,
+        "width": 122,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 364,
+        "y": 5380,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 5380,
+        "width": 442,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 5469,
+        "width": 257,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 440,
+        "y": 5540,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 476,
+        "y": 5543,
+        "width": 220,
+        "height": 19
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-494cd0f1",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 10 CTAs + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 10,
+        "linkCount": 9,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + 10 CTAs + list"
+      },
+      "selector": "div.lfr-layout-structure-item-a1fe871f-b55a-8996-7e5c-d227b1270ffd.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 286
+      },
+      "screenshot": "blocks/default-494cd0f1.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-7508be6f",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-76f06c47-5a64-5df1-ba11-64c845bc7c26 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1818,
+        "width": 1296,
+        "height": 379
+      },
+      "screenshot": "blocks/default-7508be6f.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-4cdaddeb",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 list + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 1,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + list"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-76407139-1818-47eb-9ef2-626aaa008f7b > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2197,
+        "width": 1296,
+        "height": 678
+      },
+      "screenshot": "blocks/default-4cdaddeb.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-243eb84a",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-156049dd-a6f4-f41e-2ae9-4f9a1ddf3197 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2874,
+        "width": 1296,
+        "height": 379
+      },
+      "screenshot": "blocks/default-243eb84a.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-1d26199d",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 list + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 1,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + list"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-70db805c-3d29-5547-fcca-d43dc855a902 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 4433,
+        "width": 1296,
+        "height": 591
+      },
+      "screenshot": "blocks/default-1d26199d.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-7347a9a2",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-f9f3d3b3-d40a-cb34-ec67-5c892c115cc7 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 5024,
+        "width": 1296,
+        "height": 350
+      },
+      "screenshot": "blocks/default-7347a9a2.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "default-7252477f",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-f31ce47b-5114-5d4c-2eac-74e6c7b86d0f > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 5374,
+        "width": 1296,
+        "height": 321
+      },
+      "screenshot": "blocks/default-7252477f.jpg",
+      "reclassifiedFrom": "columns"
+    }
+  ]
+}

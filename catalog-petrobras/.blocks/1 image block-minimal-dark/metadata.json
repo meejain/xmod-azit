@@ -1,0 +1,43 @@
+{
+  "variantName": "1 image block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.214Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_relatorios-anuais--4410142e/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/unknown-3efa3e82.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_concursos--30749157/blocks/unknown-4154d7e5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_relatorios-anuais--2607bd7f/blocks/unknown-367a09fc.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

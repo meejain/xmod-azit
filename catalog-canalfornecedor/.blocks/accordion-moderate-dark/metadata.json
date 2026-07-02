@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-moderate-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.724Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + 8 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + 8 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_etapas-da-licitacao--db815bcb/blocks/accordion-7c911617.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-minimal-dark-withimg",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/consumo-contratos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25/blocks/hero-5336e49e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459/blocks/hero-776f0259.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/consumo-contratos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_consumo-contratos--c7a9fcea/blocks/hero-4665ea72.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "1 heading + 8 images + 3 ctas block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.224Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/sustentabilidade/solucoes-baseadas-na-natureza",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 3 CTAs + 8 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 3 CTAs + 8 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/solucoes-baseadas-na-natureza",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_solucoes-baseadas-na-natureza--0f99edd7/blocks/unknown-5dd6dc10.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/solucoes-baseadas-na-natureza",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_solucoes-baseadas-na-natureza--76ea097d/blocks/unknown-5dd6dc10.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

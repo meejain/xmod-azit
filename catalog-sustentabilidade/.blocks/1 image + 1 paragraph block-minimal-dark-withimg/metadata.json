@@ -1,0 +1,51 @@
+{
+  "variantName": "1 image + 1 paragraph block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.866Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-1--db43e082/blocks/unknown-43dc1cf4.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/impactos-economicos",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_impactos-economicos--c0377903/blocks/unknown-50751275.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_impactos-economicos-1--159a65e9/blocks/unknown-7d271787.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases--f0c2d90b/blocks/unknown-708e2206.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases-1--745bb94d/blocks/unknown-7d271787.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar--2d6458c6/blocks/unknown-763ff2f8.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

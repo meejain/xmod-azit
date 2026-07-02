@@ -1,0 +1,210 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/projeto-de-prevencao-e-controle-de-especies-exoticas-invasoras-petrobras-ppcex-petrobras-",
+  "timestamp": "2026-07-01T12:08:11.443Z",
+  "duration": "10.3s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/projeto-de-prevencao-e-controle-de-especies-exoticas-invasoras-petrobras-ppcex-petrobras-",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 225
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 116
+      },
+      {
+        "tag": "a",
+        "fontSize": 28,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 56,
+        "y": 150,
+        "width": 380,
+        "height": 128,
+        "textLength": 9
+      },
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "system-ui",
+        "color": "#000000",
+        "backgroundColor": "#f0f0f0",
+        "x": 476,
+        "y": 198,
+        "width": 942,
+        "height": 21,
+        "textLength": 36
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 219,
+    "topSectionTitleRect": {
+      "x": 476,
+      "y": 198,
+      "width": 942,
+      "height": 21,
+      "text": "Projeto de Controle da Poluição(PCP)"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 225,
+      "width": 1440,
+      "height": 1494
+    },
+    "bodyStartY": 225,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 56,
+        "y": 225,
+        "width": 1368,
+        "height": 323
+      },
+      {
+        "type": "text",
+        "x": 32,
+        "y": 621,
+        "width": 1376,
+        "height": 95
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 799,
+        "width": 1199,
+        "height": 691
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1544,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1113,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1159,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1205,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1251,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1297,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1343,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1389,
+        "y": 1634,
+        "width": 40,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-2bb6f93",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 list + 8-item layout block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 11,
+        "listCount": 1,
+        "childCount": 8,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "list"
+      },
+      "itemCount": 22,
+      "selector": "ul.layouts.level-2",
+      "bounds": {
+        "x": 226,
+        "y": 462,
+        "width": 1198,
+        "height": 370
+      },
+      "screenshot": "blocks/default-2bb6f93.jpg",
+      "reclassifiedFrom": "cards"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-minimal-dark-withimg",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:35:10.434Z",
+  "sourceContext": {
+    "originUrl": "https://comunicaespiritosanto.petrobras.com.br/informes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/informes",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2/blocks/cards-53c02e4e.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

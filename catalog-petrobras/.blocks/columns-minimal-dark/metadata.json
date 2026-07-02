@@ -1,0 +1,435 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/acessibilidade",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/acessibilidade",
+        "screenshot": ".pages/petrobras_com_br_acessibilidade--f7106f79/blocks/columns-4bbcf6fb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/columns-78d3377e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/columns-77cd29fe.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/columns-7e383071.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia--ff40a5f2/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_centro-de-pesquisa--2952ed13/blocks/columns-52d04a6c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/columns-701d5f55.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_patentes--1ee30656/blocks/columns-288a5b11.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-de-regaseificacao-de-gas--6e7fbd37/blocks/columns-3bf50688.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-processamento-de-gas--e935934d/blocks/columns-278efff3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_en_ouvidoria--08cae8fa/blocks/columns-7b1f0cd9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_assistencia-tecnica--734ffd77/blocks/columns-30773dd9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-pro--72c50d48/blocks/columns-abd94ca.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_combustiveis-customizados--3d74319b/blocks/columns-8fe952d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_concursos--95f9ce8d/blocks/columns-2ddb46ad.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-r5--f691e024/blocks/columns-2636aa7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_enxofre--6236687c/blocks/columns-12a4f943.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estagios--a919cab5/blocks/columns-88dbaec.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas--ac7fbe77/blocks/columns-56efd885.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-liquefeito-de-petroleo--891e8026/blocks/columns-8ee9274.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural--e9d13e3e/blocks/columns-391a95eb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/columns-6c58d5ef.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina--845c5cba/blocks/columns-e32fc2c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina-podium--8f45218b/blocks/columns-1cfba91c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_jovem-aprendiz--53f48221/blocks/columns-1bc86b07.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/columns-4dbeaf86.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/columns-e376d60.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/columns-21f0501e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleos-combustiveis--0dc14861/blocks/columns-1d02a47d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_parafina--74720faa/blocks/columns-3d971f81.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/participacoes-societarias",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_participacoes-societarias--18f54c79/blocks/columns-fac30c9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_perfil--cbd5b9e3/blocks/columns-4889d38a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos-asfalticos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos-asfalticos--2aa5b68d/blocks/columns-26c149da.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_querosene-de-aviacao--5817c150/blocks/columns-6eff2aee.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refino--16ca74fa/blocks/columns-efc3b59.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/saf-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_saf-petrobras--425b8165/blocks/columns-7eb3cbff.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/cinema",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_cinema--9f0a084f/blocks/columns-726c3348.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_cultural--c373480b/blocks/columns-21f8ae40.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/columns-2163fd30.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esporte-motor",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esporte-motor--3e317a53/blocks/columns-4c8de6fc.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esportes--528df9a3/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_eventos--4f713a52/blocks/columns-286ba2ea.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_futebol-feminino--211e0359/blocks/columns-58629dcc.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_mudancas-climaticas--15a1a892/blocks/columns-43379fad.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/columns-723b2572.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_relatorios-anuais--4410142e/blocks/columns-400fb578.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/columns-10ef863.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-meio-ambiente-saude--69abbd57/blocks/columns-327f6790.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-operacional--e87966a0/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_socioambiental--a3230219/blocks/columns-18e9eff.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/web-stories",
+        "screenshot": ".pages/petrobras_com_br_en_web-stories--53244b7c/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia--70bf2304/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/columns-6cc0f24.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_inovacao-aberta--a4d3fd4e/blocks/columns-725f675f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/columns-11391a97.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-de-regaseificacao-de-gas--58ca71ce/blocks/columns-2722a734.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-processamento-de-gas--0a7a82bd/blocks/columns-6c50bd6b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_ouvidoria--aa65f3bd/blocks/columns-3239190.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_produtos-mais-sustent_C3_A1veis--afda81ef/blocks/columns-2e943546.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_add-cleaner-petrobras--4e0305d5/blocks/columns-79a23d49.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_assistencia-tecnica--c5565b0b/blocks/columns-13189320.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-convencional--0cea9b55/blocks/columns-77cd29fe.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-pro--cd64c48a/blocks/columns-3d216e8c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/columns-2c4fde45.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_combustiveis-customizados--c5edafba/blocks/columns-7781755b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_concursos--30749157/blocks/columns-590871c0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-r5--634373ab/blocks/columns-143e784.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-verana--e3d98c9f/blocks/columns-4eb84f7d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_enxofre--b17b9001/blocks/columns-1efcae1c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estagios--e55fc8bd/blocks/columns-12ab1c5e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/columns-30e921d7.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas--fbff7b74/blocks/columns-64772ba4.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-liquefeito-de-petroleo--b7f837df/blocks/columns-7d1fce01.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural--ae1cfbc1/blocks/columns-303bbfa7.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/columns-3148491c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina--5a807921/blocks/columns-58f60331.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_logistica--74ca30bd/blocks/columns-73ea1356.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/columns-65830d74.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel--b62014df/blocks/columns-233c7be6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleos-combustiveis--d3337edf/blocks/columns-61a848af.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/columns-1c338b47.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/participacoes-societarias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_participacoes-societarias--f1504bfd/blocks/columns-1ba429e9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_perfil--b7731683/blocks/columns-7167c67d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_querosene-de-aviacao--75d79308/blocks/columns-32f7e26.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refino--b9d94c00/blocks/columns-1f650e65.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/saf-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_saf-petrobras--efcb3054/blocks/columns-1f506f9c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/tipos-de-fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_tipos-de-fertilizantes--1f71f494/blocks/columns-55386835.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cinema",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cinema--834a7e40/blocks/columns-9e827e5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cultural--05960a3b/blocks/columns-5a482c0b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/columns-556343e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esporte-motor",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esporte-motor--a9d9b475/blocks/columns-43286c3b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esportes--9e5c352c/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_eventos--55cf47d4/blocks/columns-354d53fb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/columns-1997117d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_mudancas-climaticas--b6255d63/blocks/columns-2a16abf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/columns-17914306.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_relatorios-anuais--2607bd7f/blocks/columns-5dc62c48.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/columns-d72fc13.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-meio-ambiente-saude--3714fa53/blocks/columns-7b05022e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-operacional--61aeb695/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/socioambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_socioambiental--abd06c59/blocks/columns-951f7f0.jpg"
+      }
+    ],
+    "reuseCount": 102
+  }
+}

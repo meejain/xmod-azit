@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-minimal-dark-4",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.224Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/hero-4b969852.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

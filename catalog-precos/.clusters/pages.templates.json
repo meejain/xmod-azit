@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "original_index": 0,
+      "cluster": -1,
+      "seed_status": "stable",
+      "seed_reason": "singleton group",
+      "seed_path": "(root)",
+      "url": "https://precos.petrobras.com.br/",
+      "is_singleton": true,
+      "was_singleton": true,
+      "family_id": -1
+    },
+    {
+      "original_index": 1,
+      "cluster": -3,
+      "seed_status": "stable",
+      "seed_reason": "singleton group",
+      "seed_path": "(root)",
+      "url": "https://precos.petrobras.com.br/precos-diesel",
+      "is_singleton": false,
+      "was_singleton": true,
+      "family_id": -3
+    },
+    {
+      "original_index": 2,
+      "cluster": -3,
+      "seed_status": "stable",
+      "seed_reason": "singleton group",
+      "seed_path": "(root)",
+      "url": "https://precos.petrobras.com.br/precos-gasolina",
+      "is_singleton": false,
+      "was_singleton": true,
+      "family_id": -3
+    },
+    {
+      "original_index": 3,
+      "cluster": -3,
+      "seed_status": "stable",
+      "seed_reason": "singleton group",
+      "seed_path": "(root)",
+      "url": "https://precos.petrobras.com.br/precos-glp",
+      "is_singleton": false,
+      "was_singleton": true,
+      "family_id": -3
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "url": "https://pbio.com.br/acesso-a-informacao",
+  "timestamp": "2026-06-30T20:40:34.866Z",
+  "duration": "72.2s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 175
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 175
+      },
+      {
+        "type": "text",
+        "x": 517,
+        "y": 75,
+        "width": 181,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 698,
+        "y": 75,
+        "width": 149,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 115,
+        "width": 446,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 517,
+        "y": 75,
+        "width": 181,
+        "height": 21,
+        "textLength": 24
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 719,
+        "y": 75,
+        "width": 149,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 115,
+        "width": 853,
+        "height": 46,
+        "textLength": 19
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 238
+      }
+    ],
+    "topSectionCropBottomY": 161,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 115,
+      "width": 853,
+      "height": 46,
+      "text": "Acesso à Informação"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 175,
+      "width": 1440,
+      "height": 1241
+    },
+    "bodyStartY": 175,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 278,
+        "width": 166,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 949,
+        "y": 285,
+        "width": 132,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 342,
+        "width": 403,
+        "height": 136
+      },
+      {
+        "type": "text",
+        "x": 953,
+        "y": 353,
+        "width": 287,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 595,
+        "width": 286,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 949,
+        "y": 595,
+        "width": 314,
+        "height": 28
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 659,
+        "width": 315,
+        "height": 79
+      },
+      {
+        "type": "text",
+        "x": 949,
+        "y": 659,
+        "width": 405,
+        "height": 79
+      },
+      {
+        "type": "text",
+        "x": 519,
+        "y": 787,
+        "width": 343,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 953,
+        "y": 787,
+        "width": 184,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1052,
+        "width": 353,
+        "height": 57
+      },
+      {
+        "type": "text",
+        "x": 949,
+        "y": 1059,
+        "width": 132,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 953,
+        "y": 1127,
+        "width": 322,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1145,
+        "width": 414,
+        "height": 107
+      },
+      {
+        "type": "text",
+        "x": 953,
+        "y": 1156,
+        "width": 317,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 519,
+        "y": 1302,
+        "width": 308,
+        "height": 19
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-3c5a2d2d",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image + list"
+      },
+      "selector": "div.lfr-layout-structure-item-b35458b9-942a-2962-6c58-95820e82b3c7.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-3c5a2d2d.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-4fd37970",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-d01556ed-3a1d-11a4-b06e-698bea764645 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 301
+      },
+      "screenshot": "blocks/default-4fd37970.jpg",
+      "reclassifiedFrom": "hero"
+    },
+    {
+      "id": "default-15118f3b",
+      "type": "default",
+      "confidence": "low",
+      "description": "2 headings block",
+      "content": {
+        "headingCount": 2,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-6e5409c3-296a-280b-b5d7-1a2379fefe6c > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 615,
+        "width": 1296,
+        "height": 272
+      },
+      "screenshot": "blocks/default-15118f3b.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-d265f29",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 3,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "#fragment-1e4a6ef9-4b9b-731d-044d-07cbc51f4700 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1056,
+        "width": 1296,
+        "height": 330
+      },
+      "screenshot": "blocks/default-d265f29.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

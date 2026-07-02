@@ -1,0 +1,43 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.720Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/acesso-a-informacao/empregados-publicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_empregados-publicos--bbf4049d/blocks/unknown-4563462d.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_institucional--092ff959/blocks/unknown-711bd12.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_participacao-social_ouvidoria--faecefeb/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--c1997d63/blocks/unknown-397a8716.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

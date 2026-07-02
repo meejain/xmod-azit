@@ -1,0 +1,748 @@
+{
+  "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/qualidade-de-bens",
+  "timestamp": "2026-06-30T20:32:00.028Z",
+  "duration": "70.3s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/o-funcionamento-de-um-contrato/qualidade-de-bens",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1512,
+      "height": 125
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 0,
+        "width": 187,
+        "height": 17
+      },
+      {
+        "type": "image",
+        "x": 0,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "type": "image",
+        "x": 1272,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 167,
+        "y": 41,
+        "width": 138,
+        "height": 22
+      },
+      {
+        "type": "image",
+        "x": 1348,
+        "y": 44,
+        "width": 20,
+        "height": 20
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#909090",
+        "backgroundColor": "#f0f0f0",
+        "x": 239,
+        "y": 38,
+        "width": 160,
+        "height": 29,
+        "textLength": 16
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "svg",
+        "x": 72,
+        "y": 39,
+        "width": 134,
+        "height": 26
+      },
+      {
+        "kind": "svg",
+        "x": 1272,
+        "y": 41,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "kind": "svg",
+        "x": 1344,
+        "y": 40,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "kind": "svg",
+        "x": 776,
+        "y": 0,
+        "width": 727,
+        "height": 709
+      },
+      {
+        "kind": "img",
+        "x": 768,
+        "y": 0,
+        "width": 735,
+        "height": 848
+      }
+    ],
+    "topSectionCropBottomY": 104,
+    "topSectionTitleRect": {
+      "x": 239,
+      "y": 38,
+      "width": 160,
+      "height": 29,
+      "text": "Canal Fornecedor"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 125,
+      "width": 1512,
+      "height": 3993
+    },
+    "bodyStartY": 125,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 768,
+        "y": 125,
+        "width": 735,
+        "height": 723
+      },
+      {
+        "type": "image",
+        "x": 776,
+        "y": 125,
+        "width": 727,
+        "height": 584
+      },
+      {
+        "type": "text",
+        "x": 192,
+        "y": 147,
+        "width": 36,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 268,
+        "y": 147,
+        "width": 193,
+        "height": 17
+      },
+      {
+        "type": "text",
+        "x": 501,
+        "y": 147,
+        "width": 127,
+        "height": 18
+      },
+      {
+        "type": "background",
+        "x": 230,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "background",
+        "x": 463,
+        "y": 150,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 265,
+        "width": 399,
+        "height": 135
+      },
+      {
+        "type": "text",
+        "x": 183,
+        "y": 463,
+        "width": 494,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 74,
+        "y": 711,
+        "width": 257,
+        "height": 72
+      },
+      {
+        "type": "text",
+        "x": 349,
+        "y": 711,
+        "width": 257,
+        "height": 72
+      },
+      {
+        "type": "text",
+        "x": 624,
+        "y": 711,
+        "width": 257,
+        "height": 72
+      },
+      {
+        "type": "text",
+        "x": 899,
+        "y": 711,
+        "width": 257,
+        "height": 72
+      },
+      {
+        "type": "text",
+        "x": 1174,
+        "y": 711,
+        "width": 257,
+        "height": 72
+      },
+      {
+        "type": "image",
+        "x": 1288,
+        "y": 806,
+        "width": 25,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1343,
+        "y": 806,
+        "width": 25,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 908,
+        "width": 298,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1006,
+        "width": 632,
+        "height": 166
+      },
+      {
+        "type": "text",
+        "x": 431,
+        "y": 1186,
+        "width": 241,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 431,
+        "y": 1228,
+        "width": 238,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 431,
+        "y": 1270,
+        "width": 118,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 431,
+        "y": 1312,
+        "width": 353,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 1392,
+        "width": 632,
+        "height": 662
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2060,
+        "width": 348,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2119,
+        "width": 388,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2178,
+        "width": 397,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2237,
+        "width": 395,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2296,
+        "width": 460,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2355,
+        "width": 403,
+        "height": 52
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2414,
+        "width": 632,
+        "height": 23
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2521,
+        "width": 331,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 2585,
+        "width": 566,
+        "height": 198
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 2947,
+        "width": 322,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 97,
+        "y": 3050,
+        "width": 192,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 575,
+        "y": 3050,
+        "width": 307,
+        "height": 58
+      },
+      {
+        "type": "text",
+        "x": 1053,
+        "y": 3050,
+        "width": 134,
+        "height": 29
+      },
+      {
+        "type": "text",
+        "x": 97,
+        "y": 3125,
+        "width": 382,
+        "height": 97
+      },
+      {
+        "type": "text",
+        "x": 1053,
+        "y": 3125,
+        "width": 386,
+        "height": 97
+      },
+      {
+        "type": "text",
+        "x": 575,
+        "y": 3154,
+        "width": 390,
+        "height": 71
+      },
+      {
+        "type": "text",
+        "x": 101,
+        "y": 3252,
+        "width": 90,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 1057,
+        "y": 3252,
+        "width": 90,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 579,
+        "y": 3256,
+        "width": 90,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 1432,
+        "y": 3387,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1484,
+        "y": 3387,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 72,
+        "y": 3572,
+        "width": 189,
+        "height": 37
+      },
+      {
+        "type": "text",
+        "x": 1076,
+        "y": 3594,
+        "width": 292,
+        "height": 17
+      },
+      {
+        "type": "form",
+        "x": 1101,
+        "y": 3630,
+        "width": 222,
+        "height": 40
+      },
+      {
+        "type": "image",
+        "x": 1323,
+        "y": 3638,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 74,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 120,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 166,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 212,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 258,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 304,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "text",
+        "x": 350,
+        "y": 3656,
+        "width": 34,
+        "height": 34
+      },
+      {
+        "type": "image",
+        "x": 84,
+        "y": 3662,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 130,
+        "y": 3662,
+        "width": 12,
+        "height": 21
+      },
+      {
+        "type": "image",
+        "x": 176,
+        "y": 3666,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 222,
+        "y": 3666,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 268,
+        "y": 3666,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 314,
+        "y": 3666,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "image",
+        "x": 360,
+        "y": 3666,
+        "width": 12,
+        "height": 12
+      },
+      {
+        "type": "text",
+        "x": 838,
+        "y": 3755,
+        "width": 530,
+        "height": 229
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 3757,
+        "width": 411,
+        "height": 191
+      },
+      {
+        "type": "text",
+        "x": 410,
+        "y": 3757,
+        "width": 532,
+        "height": 191
+      },
+      {
+        "type": "text",
+        "x": 72,
+        "y": 4058,
+        "width": 512,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 1022,
+        "y": 4058,
+        "width": 346,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "carousel-6c358452",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-357e2484-fe3e-cf7c-850b-d8785442772e.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 152,
+        "width": 1440,
+        "height": 570
+      },
+      "screenshot": "blocks/carousel-6c358452.jpg"
+    },
+    {
+      "id": "tabs-148b58ee",
+      "type": "tabs",
+      "confidence": "low",
+      "description": "8 CTAs + 1 list block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 8,
+        "linkCount": 8,
+        "listCount": 1,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "8 CTAs + list"
+      },
+      "selector": "div.lfr-layout-structure-item-cards-de-navegacao.lfr-layout-structure-item-d0130a70-0cbe-ab6b-0300-ebb9ee6c8506",
+      "bounds": {
+        "x": 0,
+        "y": 757,
+        "width": 1440,
+        "height": 124
+      },
+      "screenshot": "blocks/tabs-148b58ee.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-50104ce5",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 2-item layout block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "columnCount": 24,
+      "selector": "#fragment-53c6933f-02c2-d9c4-a90f-14e1134de3d5 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 2525,
+        "width": 1296,
+        "height": 345
+      },
+      "screenshot": "blocks/default-50104ce5.jpg",
+      "reclassifiedFrom": "columns"
+    },
+    {
+      "id": "carousel-195f5b87",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "7 headings + 3-item layout block",
+      "content": {
+        "headingCount": 7,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 6,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.cards-carousel",
+      "bounds": {
+        "x": 0,
+        "y": 2990,
+        "width": 1440,
+        "height": 521
+      },
+      "screenshot": "blocks/carousel-195f5b87.jpg"
+    }
+  ]
+}

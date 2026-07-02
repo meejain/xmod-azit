@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-33",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.229Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "1 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"1 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-duque-de-caxias--1d80c1a9/blocks/accordion-79d82f1d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

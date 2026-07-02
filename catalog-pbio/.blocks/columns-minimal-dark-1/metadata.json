@@ -1,0 +1,63 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.175Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/",
+        "screenshot": ".pages/pbio_com_br--9b40ae98/blocks/columns-1005cb44.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/pbio_com_br_cartas-de-governanca-e-politicas-publicas--cc0f16f4/blocks/columns-650a2f4e.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/pbio_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--180cb3d5/blocks/columns-6b4a0613.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/institucional",
+        "screenshot": ".pages/pbio_com_br_institucional--49722a03/blocks/columns-58af7a28.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/institucional/auditoria",
+        "screenshot": ".pages/pbio_com_br_institucional_auditoria--107935a0/blocks/columns-7b6757a8.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/pbio_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--1ac64b12/blocks/columns-1f1bd31f.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/pbio_com_br_institucional_orgaos-estatutarios--69e107b1/blocks/columns-51c55709.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/pbio_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--1ba4fd2e/blocks/columns-7e7f0698.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/outras-informacoes",
+        "screenshot": ".pages/pbio_com_br_outras-informacoes--27f6a5b5/blocks/columns-3e8364a.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

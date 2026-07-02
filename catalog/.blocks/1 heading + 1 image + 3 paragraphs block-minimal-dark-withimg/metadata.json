@@ -1,0 +1,100 @@
+{
+  "variantName": "1 heading + 1 image + 3 paragraphs block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + image + list\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/unknown-4b62d7de.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/unknown-4b62d7de.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_patentes--1ee30656/blocks/unknown-74f3f16a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos--139ef840/blocks/unknown-43803cf9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estrategia--621edce9/blocks/unknown-2bb91622.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/unknown-665d323f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_perfil--cbd5b9e3/blocks/unknown-40c725d7.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_biodiversidade--881028f1/blocks/unknown-1cd0cdc2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/unknown-61f2c88c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/unknown-342aff3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-operacional--e87966a0/blocks/unknown-5dd6dc10.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/time-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_time-petrobras--dd22aadb/blocks/unknown-8a9b948.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/unknown-2d8f2ac3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos--3afc6677/blocks/unknown-43803cf9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_add-cleaner-petrobras--4e0305d5/blocks/unknown-69573a7f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_fertilizantes--a1277641/blocks/unknown-526f93ac.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossa-marca--7325a41c/blocks/unknown-7649fd98.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/unknown-61f2c88c.jpg"
+      }
+    ],
+    "reuseCount": 18
+  }
+}

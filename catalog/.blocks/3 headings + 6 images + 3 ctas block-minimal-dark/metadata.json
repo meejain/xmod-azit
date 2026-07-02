@@ -1,0 +1,47 @@
+{
+  "variantName": "3 headings + 6 images + 3 ctas block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/carreiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 3 CTAs + 6 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 3 CTAs + 6 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_carreiras--59c53b01/blocks/unknown-38ea2b61.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/unknown-4c69c421.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_autonomia-e-renda--a406b194/blocks/unknown-38ea2b61.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/unknown-38ea2b61.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel--b62014df/blocks/unknown-4c69c421.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

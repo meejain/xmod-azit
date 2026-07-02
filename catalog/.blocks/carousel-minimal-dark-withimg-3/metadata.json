@@ -1,0 +1,40 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-3",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 4 CTAs + 12 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 4 CTAs + 12 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + 4 CTAs + 12 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/",
+        "screenshot": ".pages/petrobras_com_br--64872776/blocks/carousel-1882f549.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esportes--528df9a3/blocks/carousel-3b0fbcb8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esportes--9e5c352c/blocks/carousel-3b0fbcb8.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

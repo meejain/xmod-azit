@@ -1,0 +1,63 @@
+{
+  "variantName": "carousel-minimal-dark-2",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/para-criancas/jornada-da-energia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/para-criancas/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_en_para-criancas_jornada-da-energia--48a13d97/blocks/carousel-2482d12c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/carousel-1fa65bbf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refino--16ca74fa/blocks/carousel-131b5fa9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/seguranca-da-informacao",
+        "screenshot": ".pages/petrobras_com_br_en_seguranca-da-informacao--613b8a48/blocks/carousel-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/para-criancas/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_para-criancas_jornada-da-energia--d8a869d8/blocks/carousel-2482d12c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refino--b9d94c00/blocks/carousel-131b5fa9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/seguranca-da-informacao",
+        "screenshot": ".pages/petrobras_com_br_seguranca-da-informacao--cb1fc04f/blocks/carousel-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cinema",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cinema--834a7e40/blocks/carousel-367a09fc.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica_historias-em-quadrinhos--32516cfa/blocks/carousel-35131654.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

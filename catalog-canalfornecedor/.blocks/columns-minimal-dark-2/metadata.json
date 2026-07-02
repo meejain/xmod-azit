@@ -1,0 +1,59 @@
+{
+  "variantName": "columns-minimal-dark-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/consumo-contratos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58/blocks/columns-22956404.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/compliance",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_compliance--3d4e57d2/blocks/columns-445ff301.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/conexoes",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_conexoes--0e29e38e/blocks/columns-5f304879.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459/blocks/columns-1b83e80c.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/consumo-contratos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_consumo-contratos--c7a9fcea/blocks/columns-3671899a.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/oportunidades",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_oportunidades--2432b5e2/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_avaliacao-de-desempenho-de-fornecedores--697d3fd7/blocks/columns-450f3f9c.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_funcionamento-de-uma-licitacao--738a8e64/blocks/columns-7625f82e.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "variantName": "embed-minimal-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.719Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/acesso-a-informacao/convenios-e-transferencias",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_convenios-e-transferencias--6e57e62c/blocks/embed-56a7e468.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--1c96e1d4/blocks/embed-6e4acf79.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--68fda79a/blocks/embed-5563625c.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fb815aed/blocks/embed-a4a6841.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

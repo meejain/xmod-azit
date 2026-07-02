@@ -1,0 +1,39 @@
+{
+  "variantName": "table-minimal-dark-2",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.219Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/bunker",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"table\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_bunker--12eef8be/blocks/table-292e29c9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/table-478c7f2d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/table-5eff6d07.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

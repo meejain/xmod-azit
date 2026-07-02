@@ -1,0 +1,218 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1",
+  "timestamp": "2026-07-01T11:31:51.409Z",
+  "duration": "10.0s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/fpso-cidade-de-anchieta1",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 625
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 10,
+        "width": 1440,
+        "height": 611
+      },
+      {
+        "type": "text",
+        "x": 216,
+        "y": 89,
+        "width": 363,
+        "height": 58
+      },
+      {
+        "type": "image",
+        "x": 216,
+        "y": 177,
+        "width": 32,
+        "height": 5
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 49
+      },
+      {
+        "tag": "h2",
+        "fontSize": 48,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 216,
+        "y": 89,
+        "width": 363,
+        "height": 58,
+        "textLength": 14
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 10,
+        "width": 1440,
+        "height": 611
+      }
+    ],
+    "topSectionCropBottomY": 622,
+    "topSectionTitleRect": {
+      "x": 216,
+      "y": 89,
+      "width": 363,
+      "height": 58,
+      "text": "ESPÍRITO SANTO"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 625,
+      "width": 1440,
+      "height": 729
+    },
+    "bodyStartY": 625,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 505,
+        "y": 670,
+        "width": 430,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 793,
+        "width": 1199,
+        "height": 360
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1204,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1324,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-14863c33",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-comunica.lfr-layout-structure-item-f8567eef-acf9-0770-cce6-6b73d9ceb652",
+      "bounds": {
+        "x": 0,
+        "y": 246,
+        "width": 1440,
+        "height": 630
+      },
+      "screenshot": "blocks/hero-14863c33.jpg"
+    }
+  ]
+}

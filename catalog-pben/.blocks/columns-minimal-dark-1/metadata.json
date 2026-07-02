@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.719Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/cartas-de-governanca-e-politicas-publicas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/pben_com_br_cartas-de-governanca-e-politicas-publicas--204d134e/blocks/columns-1ae9ec25.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/pben_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--2aa7dd9f/blocks/columns-1455391f.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

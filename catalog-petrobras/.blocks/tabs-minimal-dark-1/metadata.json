@@ -1,0 +1,31 @@
+{
+  "variantName": "tabs-minimal-dark-1",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.216Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/sustentabilidade/time-petrobras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + text + 25 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 25 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/time-petrobras",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_time-petrobras--ed0ad4ec/blocks/tabs-26ccc83c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-15",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.216Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/w/web-stories/transicao-energetica/os-caminhos-dos-biocombustiveis",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 2 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 2 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/os-caminhos-dos-biocombustiveis",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_os-caminhos-dos-biocombustiveis--17de350e/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/transicao-energetica-na-pratica",
+        "screenshot": ".pages/petrobras_com_br_w_web-stories_transicao-energetica_transicao-energetica-na-pratica--039de193/blocks/carousel-422412a9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/w/webstories/sustentabilidade/transicao-energetica-na-pratica",
+        "screenshot": ".pages/petrobras_com_br_w_webstories_sustentabilidade_transicao-energetica-na-pratica--1554c4a1/blocks/carousel-422412a9.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

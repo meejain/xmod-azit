@@ -1,0 +1,43 @@
+{
+  "variantName": "accordion-minimal-dark-4",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/pre-sal",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "2 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"2 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/pre-sal",
+        "screenshot": ".pages/petrobras_com_br_en_pre-sal--58d67a52/blocks/accordion-729d3bab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-verana--72d3604c/blocks/accordion-143650bb.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_querosene-de-aviacao--5817c150/blocks/accordion-6d37553.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/pre-sal",
+        "screenshot": ".pages/petrobras_com_br_pre-sal--fa7b7a92/blocks/accordion-729d3bab.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/acesso-a-informacao/perguntas-frequentes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_perguntas-frequentes--f9fb866a/blocks/accordion-131f6961.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/pblogsa_com_br_institucional_orgaos-estatutarios--72beb255/blocks/accordion-d84d2c1.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

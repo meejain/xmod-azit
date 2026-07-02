@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-1",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.436Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/estatistica-do-sic",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 2 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 2 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/estatistica-do-sic",
+        "screenshot": ".pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22/blocks/accordion-78af51a0.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

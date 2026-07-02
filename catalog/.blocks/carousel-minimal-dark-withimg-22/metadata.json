@@ -1,0 +1,35 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-22",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.226Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_complexo-boaventura--92450213/blocks/carousel-74046592.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica_historias-em-quadrinhos--32516cfa/blocks/carousel-5873f38d.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

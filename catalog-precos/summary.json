@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://precos.petrobras.com.br/",
+      "siteName": "precos.petrobras.com.br",
+      "analysisDate": "2026-06-30"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 4,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 4
+        }
+      ],
+      "totalTemplates": 4,
+      "totalBlockTypes": 9,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 7,
+      "pagesAnalyzed": 4,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 4
+    }
+  }
+}

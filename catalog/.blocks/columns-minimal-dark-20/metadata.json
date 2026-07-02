@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-20",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.225Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/privacidade-protecao-de-dados",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados--6ca8e6a9/blocks/columns-7bea4c90.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_privacy-protection-personal-data--458a7de4/blocks/columns-595a5d4b.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

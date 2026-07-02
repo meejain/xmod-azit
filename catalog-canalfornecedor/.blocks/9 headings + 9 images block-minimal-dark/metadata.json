@@ -1,0 +1,31 @@
+{
+  "variantName": "9 headings + 9 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.720Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 9 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 9 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/blocks/unknown-625eeb4c.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

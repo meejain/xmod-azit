@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://comunicaespiritosanto.petrobras.com.br/",
+      "siteName": "comunicaespiritosanto.petrobras.com.br",
+      "analysisDate": "2026-07-01"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 66,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 66
+        }
+      ],
+      "totalTemplates": 10,
+      "totalBlockTypes": 10,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 8,
+      "pagesAnalyzed": 66,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 4
+    }
+  }
+}

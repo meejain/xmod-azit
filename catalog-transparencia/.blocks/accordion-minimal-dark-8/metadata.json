@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-8",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.438Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/outras-acoes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "3 CTAs + 9 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"3 CTAs + 9 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/outras-acoes",
+        "screenshot": ".pages/transparencia_petrobras_com_br_outras-acoes--fafcd72b/blocks/accordion-7f6aab57.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

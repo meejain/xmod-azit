@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-minimal-dark-6",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.228Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/nossos-escritorios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 1 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 1 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossos-escritorios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossos-escritorios--be52ed68/blocks/cards-43fee21b.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

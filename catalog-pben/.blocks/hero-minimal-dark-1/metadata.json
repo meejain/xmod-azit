@@ -1,0 +1,99 @@
+{
+  "variantName": "hero-minimal-dark-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.719Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/acesso-a-informacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/acesso-a-informacao",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao--54fc3e28/blocks/hero-192f359c.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/acoes-e-programas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_acoes-e-programas--38556246/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/auditorias",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_auditorias--c6060326/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_convenios-e-transferencias--6e57e62c/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_empregados-publicos--bbf4049d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/informacoes-classificadas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_informacoes-classificadas--078f554a/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--69ac8a2d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/institucional/horario-de-atendimento",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_institucional_horario-de-atendimento--666cf523/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/licitacoes-e-contratos",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos--ada3607e/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--82a2e9b2/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_participacao-social_ouvidoria--faecefeb/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/receitas-e-despesas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_receitas-e-despesas--24a0247c/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--30fac04f/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--0e70ce01/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/receitas-e-despesas/receitas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_receitas-e-despesas_receitas--3b4a1765/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_sancoes-administrativas--425eb02b/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--8840ea0d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pben.com.br/outras-informacoes",
+        "screenshot": ".pages/pben_com_br_outras-informacoes--041388ef/blocks/hero-6e014d88.jpg"
+      }
+    ],
+    "reuseCount": 18
+  }
+}

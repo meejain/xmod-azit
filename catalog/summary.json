@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://petrobras.com.br/",
+      "siteName": "petrobras.com.br",
+      "analysisDate": "2026-07-01"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 249,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 249
+        }
+      ],
+      "totalTemplates": 27,
+      "totalBlockTypes": 238,
+      "unknownBlockVariants": 66,
+      "edsBlockVariants": 172,
+      "pagesAnalyzed": 249,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 26
+    }
+  }
+}

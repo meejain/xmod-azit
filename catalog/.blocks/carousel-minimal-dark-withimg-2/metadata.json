@@ -1,0 +1,204 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-2",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 6 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 6 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + 6 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/",
+        "screenshot": ".pages/petrobras_com_br--64872776/blocks/carousel-d08a4c0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-de-regaseificacao-de-gas--6e7fbd37/blocks/carousel-5872d2ac.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_complexo-boaventura--1460beb0/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_concursos--95f9ce8d/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estagios--a919cab5/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estrategia--621edce9/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_jovem-aprendiz--53f48221/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/participacoes-societarias",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_participacoes-societarias--18f54c79/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-abreu-lima",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-abreu-lima--bfb5c000/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-alberto-pasqualini",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-alberto-pasqualini--325aed18/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-capuava",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-capuava--fbcdbcbb/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-de-paulinia--d6c8b3ae/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-duque-de-caxias--d3e15b28/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-gabriel-passos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-gabriel-passos--11f39dc2/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-henrique-lage--b7633e94/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-presidente-bernardes--8ccfdf25/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-presidente-getulio-vargas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-presidente-getulio-vargas--e4fd59f0/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinarinaria-lubrificantes-derivados-nordeste",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinarinaria-lubrificantes-derivados-nordeste--f68e7431/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refino--16ca74fa/blocks/carousel-23bc167b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade--ef98acf0/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_biodiversidade--881028f1/blocks/carousel-3b35273a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/cinema",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_cinema--9f0a084f/blocks/carousel-678c0f69.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_cultural--c373480b/blocks/carousel-678c0f69.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/investimento-socioambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_investimento-socioambiental--f2f2a9f2/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/selecoes-publicas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_selecoes-publicas--056c7e39/blocks/carousel-76ab676e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-de-regaseificacao-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-de-regaseificacao-de-gas--58ca71ce/blocks/carousel-5872d2ac.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_complexo-boaventura--92450213/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estrategia--4a5e8b79/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/exploracao-e-producao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_exploracao-e-producao--5cff5a7d/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_fertilizantes--a1277641/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-abreu-lima",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-abreu-lima--bcde7092/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-capuava",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-capuava--f50805b0/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinarinaria-lubrificantes-derivados-nordeste",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinarinaria-lubrificantes-derivados-nordeste--41921ee1/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refino--b9d94c00/blocks/carousel-23bc167b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade--1c281267/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_eventos--55cf47d4/blocks/carousel-1a9cc959.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_futebol-feminino--4998f2ba/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/investimento-socioambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_investimento-socioambiental--44d1a86d/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_selecoes-publicas--435619c6/blocks/carousel-76ab676e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica_historias-em-quadrinhos--32516cfa/blocks/carousel-7263710d.jpg"
+      }
+    ],
+    "reuseCount": 44
+  }
+}

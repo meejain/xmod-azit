@@ -1,0 +1,1567 @@
+2026-06-30 20:37:57 | INFO | Setting up catalog project for: https://pbio.com.br/
+2026-06-30 20:37:57 | INFO | Project root: /workspace
+2026-06-30 20:37:57 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 20:37:57 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 20:37:57 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 20:37:57 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 20:37:57 | INFO | Session initialized: DISCOVERY
+2026-06-30 20:37:57 | INFO | Catalog project setup complete
+2026-06-30 20:37:57 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 20:37:57 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 20:37:57 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 20:37:57 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-06-30 20:39:14 | INFO | Creating sample URLs...
+2026-06-30 20:39:14 | INFO | Total URLs in grouped data: 60
+2026-06-30 20:39:14 | INFO | Total URLs (60) <= 1000, using ALL URLs
+2026-06-30 20:39:14 | INFO | Created urls-sample.json with 60 URLs
+2026-06-30 20:39:14 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 20:39:14 | INFO | Schema validation passed
+2026-06-30 20:39:14 | INFO | Sample creation complete - urls-sample.json with 60 URLs
+2026-06-30 20:39:20 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 20:39:20 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 20:39:21 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 20:39:21 | INFO | Created urls-checklist.json with 60 URLs
+2026-06-30 20:39:21 | INFO | Session state: ANALYZING
+2026-06-30 20:39:21 | INFO | ================================================================================
+2026-06-30 20:39:21 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 20:39:21 | INFO | Catalog: /workspace/catalog
+2026-06-30 20:39:21 | INFO | Delay: 1500ms between requests
+2026-06-30 20:39:21 | INFO | Workers: 5
+2026-06-30 20:39:21 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 20:39:21 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 20:39:21 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 20:39:21 | INFO | ================================================================================
+2026-06-30 20:39:21 | INFO | Found 60 URLs to process (5 workers)
+2026-06-30 20:39:21 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 20:39:21 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 20:39:21 | INFO | Pages to analyze: 60
+2026-06-30 20:39:21 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-06-30 20:39:21 | INFO | Estimated analysis time: ~2 min
+2026-06-30 20:39:21 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 20:39:21 | INFO | Launching stealth browser...
+2026-06-30 20:39:21 | INFO | [1/60] Processing: https://pbio.com.br/
+2026-06-30 20:39:21 | INFO | Generated slug: pbio_com_br--9b40ae98
+2026-06-30 20:39:21 | INFO | Starting analysis: https://pbio.com.br/ -> /workspace/catalog/.pages/pbio_com_br--9b40ae98
+2026-06-30 20:39:21 | INFO | Loading: https://pbio.com.br/
+2026-06-30 20:39:22 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 20:39:22 | INFO | Launching stealth browser...
+2026-06-30 20:39:22 | INFO | [2/60] Processing: https://pbio.com.br/acesso-a-informacao
+2026-06-30 20:39:22 | INFO | Generated slug: pbio_com_br_acesso-a-informacao--6989c609
+2026-06-30 20:39:22 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao--6989c609
+2026-06-30 20:39:22 | INFO | Loading: https://pbio.com.br/acesso-a-informacao
+2026-06-30 20:39:24 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 20:39:24 | INFO | Launching stealth browser...
+2026-06-30 20:39:24 | INFO | [3/60] Processing: https://pbio.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 20:39:24 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_acoes-e-programas--3e52993d
+2026-06-30 20:39:24 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/acoes-e-programas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas--3e52993d
+2026-06-30 20:39:24 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 20:39:25 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 20:39:25 | INFO | Launching stealth browser...
+2026-06-30 20:39:25 | INFO | [4/60] Processing: https://pbio.com.br/acesso-a-informacao/auditorias
+2026-06-30 20:39:25 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_auditorias--9ab48175
+2026-06-30 20:39:25 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/auditorias -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias--9ab48175
+2026-06-30 20:39:25 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/auditorias
+2026-06-30 20:39:27 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:39:27 | INFO | Worker 4 started (profile 4: macOS)
+2026-06-30 20:39:27 | INFO | Launching stealth browser...
+2026-06-30 20:39:27 | INFO | [5/60] Processing: https://pbio.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 20:39:27 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_convenios-e-transferencias--9459f2e4
+2026-06-30 20:39:27 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/convenios-e-transferencias -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_convenios-e-transferencias--9459f2e4
+2026-06-30 20:39:27 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 20:39:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:39:29 | INFO | Lazy-load scroll complete
+2026-06-30 20:39:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:39:30 | INFO | Lazy-load scroll complete
+2026-06-30 20:39:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:39:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:39:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:39:31 | INFO | Lazy-load scroll complete
+2026-06-30 20:39:31 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:39:33 | INFO | Lazy-load scroll complete
+2026-06-30 20:39:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:39:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:39:34 | INFO | Lazy-load scroll complete
+2026-06-30 20:39:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:40:30 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu---empresas.lfr-layout-structure-item-eb47e215-41bd-9837-d3bf-3c048eb74887
+   ✅ Saved global footer: #ec-footer
+2026-06-30 20:40:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:40:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:40:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:40:31 | INFO | Main content: #main-content
+2026-06-30 20:40:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:40:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:40:31 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:40:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:40:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:40:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:40:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:40:31 | INFO | Main content: #main-content
+2026-06-30 20:40:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:40:31 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:40:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:40:32 | INFO | Captured 4 block screenshots
+2026-06-30 20:40:32 | INFO | Detected 4 blocks
+2026-06-30 20:40:32 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:40:33 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:40:33 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:40:33 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:40:33 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:40:33 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:40:33 | INFO | Main content: #main-content
+2026-06-30 20:40:33 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:40:33 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:40:33 | INFO | Captured 2 block screenshots
+2026-06-30 20:40:33 | INFO | Detected 2 blocks
+2026-06-30 20:40:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:40:33 | INFO | Captured 2 block screenshots
+2026-06-30 20:40:33 | INFO | Detected 2 blocks
+2026-06-30 20:40:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:40:34 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:40:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:40:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:40:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:40:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:40:34 | INFO | Main content: #main-content
+2026-06-30 20:40:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:40:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:40:34 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:40:34 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:40:34 | INFO | URL Pattern: /acesso-a-informacao
+2026-06-30 20:40:34 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao--6989c609/page-catalog.json
+2026-06-30 20:40:34 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao
+2026-06-30 20:40:34 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu---empresas.lfr-layout-structure-item-eb47e215-41bd-9837-d3bf-3c048eb74887)
+2026-06-30 20:40:34 | INFO | Created footer-global metadata (selector: #ec-footer)
+2026-06-30 20:40:35 | INFO | Captured 2 block screenshots
+2026-06-30 20:40:35 | INFO | Detected 2 blocks
+2026-06-30 20:40:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:40:35 | INFO |    Top-section: 12 rows via title+container
+2026-06-30 20:40:35 | INFO |    Body start: y=300 (start row 12 via below-title+container)
+2026-06-30 20:40:35 | INFO | URL Pattern: /
+2026-06-30 20:40:35 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br--9b40ae98/page-catalog.json
+2026-06-30 20:40:35 | INFO | SUCCESS: https://pbio.com.br/
+2026-06-30 20:40:35 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:40:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:40:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:40:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:40:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:40:35 | INFO | Main content: #main-content
+2026-06-30 20:40:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:40:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:40:36 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:40:36 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:40:36 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas
+2026-06-30 20:40:36 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas--3e52993d/page-catalog.json
+2026-06-30 20:40:36 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 20:40:36 | INFO | [6/60] Processing: https://pbio.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 20:40:36 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_dados-abertos--c1a6d3e3
+2026-06-30 20:40:36 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/dados-abertos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_dados-abertos--c1a6d3e3
+2026-06-30 20:40:36 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 20:40:36 | INFO | Captured 3 block screenshots
+2026-06-30 20:40:36 | INFO | Detected 3 blocks
+2026-06-30 20:40:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:40:37 | INFO | [7/60] Processing: https://pbio.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 20:40:37 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_empregados-publicos--c906aba6
+2026-06-30 20:40:37 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/empregados-publicos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_empregados-publicos--c906aba6
+2026-06-30 20:40:37 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 20:40:37 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:40:37 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:40:37 | INFO | URL Pattern: /acesso-a-informacao/auditorias
+2026-06-30 20:40:37 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias--9ab48175/page-catalog.json
+2026-06-30 20:40:37 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/auditorias
+2026-06-30 20:40:37 | INFO | [8/60] Processing: https://pbio.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 20:40:37 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_informacoes-classificadas--865faa62
+2026-06-30 20:40:37 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/informacoes-classificadas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_informacoes-classificadas--865faa62
+2026-06-30 20:40:37 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 20:40:38 | INFO | [9/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional
+2026-06-30 20:40:38 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional--e1ca624a
+2026-06-30 20:40:38 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional--e1ca624a
+2026-06-30 20:40:38 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional
+2026-06-30 20:40:39 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:40:39 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:40:39 | INFO | URL Pattern: /acesso-a-informacao/convenios-e-transferencias
+2026-06-30 20:40:39 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_convenios-e-transferencias--9459f2e4/page-catalog.json
+2026-06-30 20:40:39 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 20:40:39 | INFO | PROGRESS: 5/60 analyzed (8% checklist complete) | 5 ok, 0 failed, 0 skipped | ~15 min remaining
+2026-06-30 20:40:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:40:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:40:40 | INFO | [10/60] Processing: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 20:40:40 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_licitacoes-e-contratos--a74ca655
+2026-06-30 20:40:40 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos--a74ca655
+2026-06-30 20:40:40 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 20:40:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:40:41 | INFO | Lazy-load scroll complete
+2026-06-30 20:40:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:40:42 | INFO | Lazy-load scroll complete
+2026-06-30 20:40:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:40:42 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:40:42 | INFO | Lazy-load scroll complete
+2026-06-30 20:40:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:40:43 | INFO | Lazy-load scroll complete
+2026-06-30 20:40:43 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:40:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:40:45 | INFO | Lazy-load scroll complete
+2026-06-30 20:40:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:41:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:41:42 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:41:42 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:41:42 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:41:42 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:41:42 | INFO | Main content: #main-content
+2026-06-30 20:41:42 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:41:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:41:43 | INFO | Captured 2 block screenshots
+2026-06-30 20:41:43 | INFO | Detected 2 blocks
+2026-06-30 20:41:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:41:43 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:41:43 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:41:43 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:41:43 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:41:43 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:41:43 | INFO | Main content: #main-content
+2026-06-30 20:41:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:41:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:41:43 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:41:43 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:41:43 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:41:43 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:41:43 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:41:43 | INFO | Main content: #main-content
+2026-06-30 20:41:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:41:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:41:44 | INFO | Captured 3 block screenshots
+2026-06-30 20:41:44 | INFO | Detected 3 blocks
+2026-06-30 20:41:44 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:41:44 | INFO | Captured 2 block screenshots
+2026-06-30 20:41:44 | INFO | Detected 2 blocks
+2026-06-30 20:41:44 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:41:45 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:41:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:41:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:41:45 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:41:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:41:45 | INFO | Main content: #main-content
+2026-06-30 20:41:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:41:45 | WARNING | Blocks - 80% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:41:45 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:41:45 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:41:45 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:41:45 | INFO | URL Pattern: /acesso-a-informacao/dados-abertos
+2026-06-30 20:41:45 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_dados-abertos--c1a6d3e3/page-catalog.json
+2026-06-30 20:41:45 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 20:41:46 | INFO | Captured 10 block screenshots
+2026-06-30 20:41:46 | INFO | Detected 10 blocks
+2026-06-30 20:41:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:41:46 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:41:46 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:41:46 | INFO | URL Pattern: /acesso-a-informacao/empregados-publicos
+2026-06-30 20:41:46 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_empregados-publicos--c906aba6/page-catalog.json
+2026-06-30 20:41:46 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 20:41:46 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:41:46 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:41:46 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:41:46 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:41:46 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:41:46 | INFO | Main content: #main-content
+2026-06-30 20:41:46 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:41:46 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:41:46 | INFO | URL Pattern: /acesso-a-informacao/informacoes-classificadas
+2026-06-30 20:41:46 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_informacoes-classificadas--865faa62/page-catalog.json
+2026-06-30 20:41:46 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 20:41:46 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:41:46 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:41:47 | INFO | [11/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social
+2026-06-30 20:41:47 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social--0b5898c2
+2026-06-30 20:41:47 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social--0b5898c2
+2026-06-30 20:41:47 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social
+2026-06-30 20:41:47 | INFO | Captured 2 block screenshots
+2026-06-30 20:41:47 | INFO | Detected 2 blocks
+2026-06-30 20:41:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:41:48 | INFO | [12/60] Processing: https://pbio.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 20:41:48 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_perguntas-frequentes--5c5d531c
+2026-06-30 20:41:48 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/perguntas-frequentes -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_perguntas-frequentes--5c5d531c
+2026-06-30 20:41:48 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 20:41:48 | INFO | [13/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 20:41:48 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas--9f313d38
+2026-06-30 20:41:48 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas--9f313d38
+2026-06-30 20:41:48 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 20:41:48 | INFO |    Top-section: 13 rows via title
+2026-06-30 20:41:48 | INFO |    Body start: y=325 (start row 13 via below-title)
+2026-06-30 20:41:48 | INFO | URL Pattern: /acesso-a-informacao/institucional
+2026-06-30 20:41:48 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional--e1ca624a/page-catalog.json
+2026-06-30 20:41:48 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional
+2026-06-30 20:41:49 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:41:49 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:41:49 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 20:41:49 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos--a74ca655/page-catalog.json
+2026-06-30 20:41:49 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 20:41:49 | INFO | PROGRESS: 10/60 analyzed (17% checklist complete) | 10 ok, 0 failed, 0 skipped | ~13 min remaining
+2026-06-30 20:41:50 | INFO | [14/60] Processing: https://pbio.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 20:41:50 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_sancoes-administrativas--3a438f54
+2026-06-30 20:41:50 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/sancoes-administrativas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_sancoes-administrativas--3a438f54
+2026-06-30 20:41:50 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 20:41:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:41:51 | INFO | [15/60] Processing: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 20:41:51 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--45ca25b4
+2026-06-30 20:41:51 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--45ca25b4
+2026-06-30 20:41:51 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 20:41:51 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:41:51 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:41:51 | INFO | Lazy-load scroll complete
+2026-06-30 20:41:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:41:52 | INFO | Lazy-load scroll complete
+2026-06-30 20:41:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:41:53 | INFO | Lazy-load scroll complete
+2026-06-30 20:41:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:41:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:41:54 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:41:55 | INFO | Lazy-load scroll complete
+2026-06-30 20:41:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:41:56 | INFO | Lazy-load scroll complete
+2026-06-30 20:41:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:42:53 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:42:53 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:42:53 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:42:53 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:42:53 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:42:53 | INFO | Main content: #main-content
+2026-06-30 20:42:53 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:42:53 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:42:53 | INFO | Captured 2 block screenshots
+2026-06-30 20:42:53 | INFO | Detected 2 blocks
+2026-06-30 20:42:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:42:54 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:42:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:42:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:42:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:42:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:42:54 | INFO | Main content: #main-content
+2026-06-30 20:42:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:42:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:42:54 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 20:42:54 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:42:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:42:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:42:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:42:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:42:54 | INFO | Main content: #main-content
+2026-06-30 20:42:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:42:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:42:54 | INFO | Captured 2 block screenshots
+2026-06-30 20:42:54 | INFO | Detected 3 blocks
+2026-06-30 20:42:54 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:42:55 | INFO | Captured 3 block screenshots
+2026-06-30 20:42:55 | INFO | Detected 3 blocks
+2026-06-30 20:42:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:42:56 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:42:56 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:42:56 | INFO | URL Pattern: /acesso-a-informacao/participacao-social
+2026-06-30 20:42:56 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social--0b5898c2/page-catalog.json
+2026-06-30 20:42:56 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social
+2026-06-30 20:42:56 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:42:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:42:56 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:42:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:42:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:42:56 | INFO | Main content: #main-content
+2026-06-30 20:42:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:42:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:42:57 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:42:57 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:42:57 | INFO | URL Pattern: /acesso-a-informacao/perguntas-frequentes
+2026-06-30 20:42:57 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_perguntas-frequentes--5c5d531c/page-catalog.json
+2026-06-30 20:42:57 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 20:42:57 | INFO | Captured 3 block screenshots
+2026-06-30 20:42:57 | INFO | Detected 3 blocks
+2026-06-30 20:42:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:42:57 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:42:57 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:42:57 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas
+2026-06-30 20:42:57 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas--9f313d38/page-catalog.json
+2026-06-30 20:42:57 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 20:42:57 | INFO | [16/60] Processing: https://pbio.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 20:42:57 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9e5ff26
+2026-06-30 20:42:57 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9e5ff26
+2026-06-30 20:42:57 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 20:42:58 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:42:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:42:58 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:42:58 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:42:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:42:58 | INFO | Main content: #main-content
+2026-06-30 20:42:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:42:58 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:42:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:42:58 | INFO | [17/60] Processing: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 20:42:58 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d71d77e8
+2026-06-30 20:42:58 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d71d77e8
+2026-06-30 20:42:58 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 20:42:59 | INFO | [18/60] Processing: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 20:42:59 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_acoes-e-programas_governanca--e8f732ed
+2026-06-30 20:42:59 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/governanca -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_governanca--e8f732ed
+2026-06-30 20:42:59 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 20:42:59 | INFO | Captured 8 block screenshots
+2026-06-30 20:42:59 | INFO | Detected 8 blocks
+2026-06-30 20:42:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:42:59 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:42:59 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:42:59 | INFO | URL Pattern: /acesso-a-informacao/sancoes-administrativas
+2026-06-30 20:42:59 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_sancoes-administrativas--3a438f54/page-catalog.json
+2026-06-30 20:42:59 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 20:43:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:43:01 | INFO | [19/60] Processing: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 20:43:01 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--67c53145
+2026-06-30 20:43:01 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--67c53145
+2026-06-30 20:43:01 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 20:43:01 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:43:01 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:43:01 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 20:43:01 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--45ca25b4/page-catalog.json
+2026-06-30 20:43:01 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 20:43:01 | INFO | PROGRESS: 15/60 analyzed (25% checklist complete) | 15 ok, 0 failed, 0 skipped | ~12 min remaining
+2026-06-30 20:43:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:43:02 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:43:02 | INFO | Lazy-load scroll complete
+2026-06-30 20:43:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:43:03 | INFO | [20/60] Processing: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 20:43:03 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--0732c9c5
+2026-06-30 20:43:03 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--0732c9c5
+2026-06-30 20:43:03 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 20:43:03 | INFO | Lazy-load scroll complete
+2026-06-30 20:43:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:43:03 | INFO | Lazy-load scroll complete
+2026-06-30 20:43:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:43:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:43:05 | INFO | Lazy-load scroll complete
+2026-06-30 20:43:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:43:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:43:07 | INFO | Lazy-load scroll complete
+2026-06-30 20:43:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:44:03 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:44:03 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:44:03 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:44:03 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:44:03 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:44:03 | INFO | Main content: #main-content
+2026-06-30 20:44:03 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:44:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:44:04 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:44:04 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:44:04 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:44:04 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:44:04 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:44:04 | INFO | Main content: #main-content
+2026-06-30 20:44:04 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:44:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:44:04 | INFO | Captured 3 block screenshots
+2026-06-30 20:44:04 | INFO | Detected 3 blocks
+2026-06-30 20:44:04 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:44:05 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:44:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:44:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:44:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:44:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:44:05 | INFO | Main content: #main-content
+2026-06-30 20:44:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:44:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:44:05 | INFO | Captured 3 block screenshots
+2026-06-30 20:44:05 | INFO | Detected 3 blocks
+2026-06-30 20:44:05 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:44:06 | INFO | Captured 3 block screenshots
+2026-06-30 20:44:06 | INFO | Detected 3 blocks
+2026-06-30 20:44:06 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:44:06 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:44:06 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:44:06 | INFO | URL Pattern: /acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 20:44:06 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--c9e5ff26/page-catalog.json
+2026-06-30 20:44:06 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 20:44:07 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:44:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:44:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:44:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:44:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:44:07 | INFO | Main content: #main-content
+2026-06-30 20:44:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:44:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:44:07 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:44:07 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:44:07 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 20:44:07 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d71d77e8/page-catalog.json
+2026-06-30 20:44:07 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 20:44:08 | INFO | Captured 2 block screenshots
+2026-06-30 20:44:08 | INFO | Detected 2 blocks
+2026-06-30 20:44:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:44:08 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:44:08 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:44:08 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 20:44:08 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_governanca--e8f732ed/page-catalog.json
+2026-06-30 20:44:08 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 20:44:08 | INFO | [21/60] Processing: https://pbio.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 20:44:08 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--07b1a2b6
+2026-06-30 20:44:08 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--07b1a2b6
+2026-06-30 20:44:08 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 20:44:09 | INFO | [22/60] Processing: https://pbio.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 20:44:09 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--a5b806f2
+2026-06-30 20:44:09 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--a5b806f2
+2026-06-30 20:44:09 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 20:44:09 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:44:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:44:09 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:44:09 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:44:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:44:09 | INFO | Main content: #main-content
+2026-06-30 20:44:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:44:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:44:09 | INFO | [23/60] Processing: https://pbio.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 20:44:09 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--b4d49e99
+2026-06-30 20:44:09 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/auditorias/prestacao-de-contas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--b4d49e99
+2026-06-30 20:44:09 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 20:44:10 | INFO | Captured 3 block screenshots
+2026-06-30 20:44:10 | INFO | Detected 3 blocks
+2026-06-30 20:44:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:44:10 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:44:10 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:44:10 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 20:44:10 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--67c53145/page-catalog.json
+2026-06-30 20:44:10 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 20:44:11 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:44:11 | INFO | [24/60] Processing: https://pbio.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 20:44:11 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--f81590f9
+2026-06-30 20:44:11 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--f81590f9
+2026-06-30 20:44:11 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 20:44:12 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 20:44:12 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 20:44:12 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 20:44:12 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--0732c9c5/page-catalog.json
+2026-06-30 20:44:12 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 20:44:12 | INFO | PROGRESS: 20/60 analyzed (33% checklist complete) | 20 ok, 0 failed, 0 skipped | ~10 min remaining
+2026-06-30 20:44:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:44:13 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:44:13 | INFO | Lazy-load scroll complete
+2026-06-30 20:44:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:44:13 | INFO | Lazy-load scroll complete
+2026-06-30 20:44:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:44:13 | INFO | [25/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 20:44:13 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--5741a9be
+2026-06-30 20:44:13 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/agenda-de-autoridades -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--5741a9be
+2026-06-30 20:44:13 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 20:44:14 | INFO | Lazy-load scroll complete
+2026-06-30 20:44:14 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:44:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:44:16 | INFO | Lazy-load scroll complete
+2026-06-30 20:44:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:44:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:44:18 | INFO | Lazy-load scroll complete
+2026-06-30 20:44:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:45:14 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:45:14 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:45:14 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:45:14 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:45:14 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:45:14 | INFO | Main content: #main-content
+2026-06-30 20:45:14 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:45:14 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:45:14 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:45:15 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:45:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:45:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:45:15 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:45:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:45:15 | INFO | Main content: #main-content
+2026-06-30 20:45:15 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:45:15 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:45:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:45:15 | INFO | Captured 2 block screenshots
+2026-06-30 20:45:15 | INFO | Detected 2 blocks
+2026-06-30 20:45:15 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:45:15 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:45:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:45:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:45:15 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:45:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:45:15 | INFO | Main content: #main-content
+2026-06-30 20:45:15 | INFO | Captured 2 block screenshots
+2026-06-30 20:45:15 | INFO | Detected 2 blocks
+2026-06-30 20:45:15 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:45:16 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:45:16 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:45:16 | INFO | Captured 2 block screenshots
+2026-06-30 20:45:16 | INFO | Detected 2 blocks
+2026-06-30 20:45:16 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:45:17 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 20:45:17 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 20:45:17 | INFO | URL Pattern: /acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 20:45:17 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--07b1a2b6/page-catalog.json
+2026-06-30 20:45:17 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 20:45:17 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:45:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:45:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:45:18 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:45:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:45:18 | INFO | Main content: #main-content
+2026-06-30 20:45:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:45:18 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:45:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:45:18 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:45:18 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:45:18 | INFO | URL Pattern: /acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 20:45:18 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--a5b806f2/page-catalog.json
+2026-06-30 20:45:18 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 20:45:18 | INFO | Captured 2 block screenshots
+2026-06-30 20:45:18 | INFO | Detected 2 blocks
+2026-06-30 20:45:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:45:18 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:45:18 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:45:18 | INFO | URL Pattern: /acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 20:45:18 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--b4d49e99/page-catalog.json
+2026-06-30 20:45:18 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 20:45:19 | INFO | [26/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 20:45:19 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_atas--ac1fcb87
+2026-06-30 20:45:19 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/atas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_atas--ac1fcb87
+2026-06-30 20:45:19 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 20:45:19 | INFO | [27/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 20:45:19 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_atos-normativos--6ec9d8bd
+2026-06-30 20:45:19 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/atos-normativos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_atos-normativos--6ec9d8bd
+2026-06-30 20:45:19 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 20:45:20 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:45:20 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:45:20 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:45:20 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:45:20 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:45:20 | INFO | Main content: #main-content
+2026-06-30 20:45:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:45:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:45:20 | INFO | [28/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 20:45:20 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_horario-de-atendimento--617f91f5
+2026-06-30 20:45:20 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/horario-de-atendimento -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_horario-de-atendimento--617f91f5
+2026-06-30 20:45:20 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 20:45:21 | INFO | Captured 3 block screenshots
+2026-06-30 20:45:21 | INFO | Detected 3 blocks
+2026-06-30 20:45:21 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:45:21 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:45:21 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:45:21 | INFO | URL Pattern: /acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 20:45:21 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--f81590f9/page-catalog.json
+2026-06-30 20:45:21 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 20:45:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:45:22 | INFO | [29/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 20:45:22 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_hospitalidades--7014f6a8
+2026-06-30 20:45:22 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/hospitalidades -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_hospitalidades--7014f6a8
+2026-06-30 20:45:22 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 20:45:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:45:23 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:45:23 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:45:23 | INFO | URL Pattern: /acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 20:45:23 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--5741a9be/page-catalog.json
+2026-06-30 20:45:23 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 20:45:23 | INFO | PROGRESS: 25/60 analyzed (42% checklist complete) | 25 ok, 0 failed, 0 skipped | ~9 min remaining
+2026-06-30 20:45:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:45:23 | INFO | Lazy-load scroll complete
+2026-06-30 20:45:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:45:24 | INFO | Lazy-load scroll complete
+2026-06-30 20:45:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:45:24 | INFO | [30/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 20:45:24 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_presentes--97286d5c
+2026-06-30 20:45:24 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/presentes -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_presentes--97286d5c
+2026-06-30 20:45:24 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 20:45:25 | INFO | Lazy-load scroll complete
+2026-06-30 20:45:25 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:45:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:45:27 | INFO | Lazy-load scroll complete
+2026-06-30 20:45:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:45:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:45:29 | INFO | Lazy-load scroll complete
+2026-06-30 20:45:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:46:25 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:46:25 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:46:25 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:46:25 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:46:25 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:46:25 | INFO | Main content: #main-content
+2026-06-30 20:46:25 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:46:25 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:46:25 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:46:25 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:46:25 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:46:25 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:46:25 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:46:25 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:46:25 | INFO | Main content: #main-content
+2026-06-30 20:46:25 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:46:25 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:46:25 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:46:26 | INFO | Captured 3 block screenshots
+2026-06-30 20:46:26 | INFO | Detected 3 blocks
+2026-06-30 20:46:26 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:46:26 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:46:26 | INFO | Captured 2 block screenshots
+2026-06-30 20:46:26 | INFO | Detected 2 blocks
+2026-06-30 20:46:26 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:46:26 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:46:26 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:46:26 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:46:26 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:46:26 | INFO | Main content: #main-content
+2026-06-30 20:46:26 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:46:26 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:46:27 | INFO | Captured 2 block screenshots
+2026-06-30 20:46:27 | INFO | Detected 2 blocks
+2026-06-30 20:46:27 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:46:28 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:46:28 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:46:28 | INFO | URL Pattern: /acesso-a-informacao/institucional/atas
+2026-06-30 20:46:28 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_atas--ac1fcb87/page-catalog.json
+2026-06-30 20:46:28 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 20:46:28 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:46:28 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:46:28 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:46:28 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:46:28 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:46:28 | INFO | Main content: #main-content
+2026-06-30 20:46:28 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:46:28 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:46:28 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:46:28 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:46:28 | INFO | URL Pattern: /acesso-a-informacao/institucional/atos-normativos
+2026-06-30 20:46:28 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_atos-normativos--6ec9d8bd/page-catalog.json
+2026-06-30 20:46:28 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 20:46:29 | INFO | Captured 3 block screenshots
+2026-06-30 20:46:29 | INFO | Detected 3 blocks
+2026-06-30 20:46:29 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:46:29 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:46:29 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:46:29 | INFO | URL Pattern: /acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 20:46:29 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_horario-de-atendimento--617f91f5/page-catalog.json
+2026-06-30 20:46:29 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 20:46:29 | INFO | [31/60] Processing: https://pbio.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 20:46:29 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_institucional_sobre--78fafbb8
+2026-06-30 20:46:29 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/institucional/sobre -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_sobre--78fafbb8
+2026-06-30 20:46:29 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 20:46:30 | INFO | [32/60] Processing: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 20:46:30 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--ef705a6a
+2026-06-30 20:46:30 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--ef705a6a
+2026-06-30 20:46:30 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 20:46:30 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:46:30 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:46:30 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:46:30 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:46:30 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:46:30 | INFO | Main content: #main-content
+2026-06-30 20:46:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:46:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:46:31 | INFO | [33/60] Processing: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 20:46:31 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--5b592831
+2026-06-30 20:46:31 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--5b592831
+2026-06-30 20:46:31 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 20:46:31 | INFO | Captured 3 block screenshots
+2026-06-30 20:46:31 | INFO | Detected 3 blocks
+2026-06-30 20:46:31 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:46:31 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:46:31 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:46:31 | INFO | URL Pattern: /acesso-a-informacao/institucional/hospitalidades
+2026-06-30 20:46:31 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_hospitalidades--7014f6a8/page-catalog.json
+2026-06-30 20:46:31 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 20:46:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:46:33 | INFO | [34/60] Processing: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 20:46:33 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--7b15ad2d
+2026-06-30 20:46:33 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--7b15ad2d
+2026-06-30 20:46:33 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 20:46:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:46:34 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:46:34 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:46:34 | INFO | URL Pattern: /acesso-a-informacao/institucional/presentes
+2026-06-30 20:46:34 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_presentes--97286d5c/page-catalog.json
+2026-06-30 20:46:34 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 20:46:34 | INFO | PROGRESS: 30/60 analyzed (50% checklist complete) | 30 ok, 0 failed, 0 skipped | ~8 min remaining
+2026-06-30 20:46:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:46:35 | INFO | Lazy-load scroll complete
+2026-06-30 20:46:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:46:35 | INFO | Lazy-load scroll complete
+2026-06-30 20:46:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:46:35 | INFO | [35/60] Processing: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 20:46:35 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9a0884df
+2026-06-30 20:46:35 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9a0884df
+2026-06-30 20:46:35 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 20:46:35 | INFO | Lazy-load scroll complete
+2026-06-30 20:46:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:46:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:46:38 | INFO | Lazy-load scroll complete
+2026-06-30 20:46:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:46:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:46:40 | INFO | Lazy-load scroll complete
+2026-06-30 20:46:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:47:06 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:47:06 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:47:06 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:47:06 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:47:06 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:47:06 | INFO | Main content: #main-content
+2026-06-30 20:47:06 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:47:06 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:47:07 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:47:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:47:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:47:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:47:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:47:07 | INFO | Main content: #main-content
+2026-06-30 20:47:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:47:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:47:07 | INFO | Captured 3 block screenshots
+2026-06-30 20:47:07 | INFO | Detected 3 blocks
+2026-06-30 20:47:07 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:47:08 | INFO | Captured 3 block screenshots
+2026-06-30 20:47:08 | INFO | Detected 3 blocks
+2026-06-30 20:47:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:47:09 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:47:09 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:47:09 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 20:47:09 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--ef705a6a/page-catalog.json
+2026-06-30 20:47:09 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 20:47:10 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:47:10 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:47:10 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 20:47:10 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--5b592831/page-catalog.json
+2026-06-30 20:47:10 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 20:47:11 | INFO | [36/60] Processing: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 20:47:11 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--955282af
+2026-06-30 20:47:11 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--955282af
+2026-06-30 20:47:11 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 20:47:11 | INFO | [37/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 20:47:11 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--c316ed57
+2026-06-30 20:47:11 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social/audiencias-publicas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--c316ed57
+2026-06-30 20:47:11 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 20:47:14 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:47:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:47:16 | INFO | Lazy-load scroll complete
+2026-06-30 20:47:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:47:16 | INFO | Lazy-load scroll complete
+2026-06-30 20:47:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:47:36 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:47:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:47:36 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:47:36 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:47:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:47:36 | INFO | Main content: #main-content
+2026-06-30 20:47:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:47:36 | WARNING | Blocks - 78% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:47:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:47:37 | INFO | Captured 9 block screenshots
+2026-06-30 20:47:37 | INFO | Detected 9 blocks
+2026-06-30 20:47:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:47:39 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:47:39 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:47:39 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:47:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:47:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:47:39 | INFO | Main content: #main-content
+2026-06-30 20:47:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:47:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:47:40 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 20:47:40 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:47:40 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:47:40 | INFO | URL Pattern: /acesso-a-informacao/institucional/sobre
+2026-06-30 20:47:40 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_institucional_sobre--78fafbb8/page-catalog.json
+2026-06-30 20:47:40 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 20:47:40 | INFO | Captured 2 block screenshots
+2026-06-30 20:47:40 | INFO | Detected 3 blocks
+2026-06-30 20:47:40 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:47:41 | INFO | [38/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 20:47:41 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social_conferencias--012ce239
+2026-06-30 20:47:41 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social/conferencias -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_conferencias--012ce239
+2026-06-30 20:47:41 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 20:47:41 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:47:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:47:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:47:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:47:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:47:41 | INFO | Main content: #main-content
+2026-06-30 20:47:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:47:41 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:47:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:47:42 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 20:47:42 | INFO | Captured 3 block screenshots
+2026-06-30 20:47:42 | INFO | Detected 4 blocks
+2026-06-30 20:47:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:47:42 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 20:47:42 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 20:47:42 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 20:47:42 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--7b15ad2d/page-catalog.json
+2026-06-30 20:47:42 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 20:47:44 | INFO | [39/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 20:47:44 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--f0cab5cf
+2026-06-30 20:47:44 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--f0cab5cf
+2026-06-30 20:47:44 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 20:47:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:47:45 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:47:45 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:47:45 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 20:47:45 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9a0884df/page-catalog.json
+2026-06-30 20:47:45 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 20:47:45 | INFO | PROGRESS: 35/60 analyzed (58% checklist complete) | 35 ok, 0 failed, 0 skipped | ~7 min remaining
+2026-06-30 20:47:46 | INFO | Lazy-load scroll complete
+2026-06-30 20:47:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:47:46 | INFO | [40/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 20:47:46 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--3fc032db
+2026-06-30 20:47:46 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--3fc032db
+2026-06-30 20:47:46 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 20:47:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:47:49 | INFO | Lazy-load scroll complete
+2026-06-30 20:47:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:47:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:47:51 | INFO | Lazy-load scroll complete
+2026-06-30 20:47:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:48:17 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:48:17 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:48:17 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:48:17 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:48:17 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:48:17 | INFO | Main content: #main-content
+2026-06-30 20:48:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:48:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:48:18 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:48:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:48:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:48:18 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:48:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:48:18 | INFO | Main content: #main-content
+2026-06-30 20:48:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:48:18 | INFO | Captured 2 block screenshots
+2026-06-30 20:48:18 | INFO | Detected 2 blocks
+2026-06-30 20:48:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:48:18 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:48:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:48:18 | INFO | Captured 2 block screenshots
+2026-06-30 20:48:18 | INFO | Detected 2 blocks
+2026-06-30 20:48:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:48:20 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:48:20 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:48:20 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 20:48:20 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--955282af/page-catalog.json
+2026-06-30 20:48:20 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 20:48:21 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:48:21 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:48:21 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 20:48:21 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--c316ed57/page-catalog.json
+2026-06-30 20:48:21 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 20:48:21 | INFO | [41/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 20:48:21 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social_outras-acoes--a9675af3
+2026-06-30 20:48:21 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social/outras-acoes -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_outras-acoes--a9675af3
+2026-06-30 20:48:22 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 20:48:22 | INFO | [42/60] Processing: https://pbio.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 20:48:22 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_participacao-social_ouvidoria--2c359dcf
+2026-06-30 20:48:22 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/participacao-social/ouvidoria -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_ouvidoria--2c359dcf
+2026-06-30 20:48:22 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 20:48:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:48:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:48:26 | INFO | Lazy-load scroll complete
+2026-06-30 20:48:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:48:27 | INFO | Lazy-load scroll complete
+2026-06-30 20:48:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:48:47 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:48:47 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:48:47 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:48:47 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:48:47 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:48:47 | INFO | Main content: #main-content
+2026-06-30 20:48:47 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:48:47 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:48:48 | INFO | Captured 2 block screenshots
+2026-06-30 20:48:48 | INFO | Detected 2 blocks
+2026-06-30 20:48:48 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:48:50 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:48:50 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:48:50 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:48:50 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:48:50 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:48:50 | INFO | Main content: #main-content
+2026-06-30 20:48:50 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:48:50 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:48:50 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:48:50 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:48:50 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/conferencias
+2026-06-30 20:48:50 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_conferencias--012ce239/page-catalog.json
+2026-06-30 20:48:50 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 20:48:51 | INFO | Captured 2 block screenshots
+2026-06-30 20:48:51 | INFO | Detected 2 blocks
+2026-06-30 20:48:51 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:48:52 | INFO | [43/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 20:48:52 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--4fe12254
+2026-06-30 20:48:52 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--4fe12254
+2026-06-30 20:48:52 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 20:48:52 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:48:52 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:48:52 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:48:52 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:48:52 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:48:52 | INFO | Main content: #main-content
+2026-06-30 20:48:52 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:48:52 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:48:52 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:48:53 | INFO | Captured 2 block screenshots
+2026-06-30 20:48:53 | INFO | Detected 2 blocks
+2026-06-30 20:48:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:48:53 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:48:53 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:48:53 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 20:48:53 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--f0cab5cf/page-catalog.json
+2026-06-30 20:48:53 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 20:48:55 | INFO | [44/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 20:48:55 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fab84c43
+2026-06-30 20:48:55 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fab84c43
+2026-06-30 20:48:55 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 20:48:55 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:48:55 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:48:55 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:48:55 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 20:48:55 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--3fc032db/page-catalog.json
+2026-06-30 20:48:55 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 20:48:55 | INFO | PROGRESS: 40/60 analyzed (67% checklist complete) | 40 ok, 0 failed, 0 skipped | ~5 min remaining
+2026-06-30 20:48:57 | INFO | Lazy-load scroll complete
+2026-06-30 20:48:57 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:48:57 | INFO | [45/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 20:48:57 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--da953858
+2026-06-30 20:48:57 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--da953858
+2026-06-30 20:48:57 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 20:48:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:48:59 | INFO | Lazy-load scroll complete
+2026-06-30 20:48:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:49:00 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:49:02 | INFO | Lazy-load scroll complete
+2026-06-30 20:49:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:49:28 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:49:28 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:49:28 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:49:28 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:49:28 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:49:28 | INFO | Main content: #main-content
+2026-06-30 20:49:28 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:49:28 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:49:28 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:49:28 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:49:28 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:49:28 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:49:28 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:49:28 | INFO | Main content: #main-content
+2026-06-30 20:49:28 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:49:28 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:49:28 | INFO | Captured 3 block screenshots
+2026-06-30 20:49:28 | INFO | Detected 3 blocks
+2026-06-30 20:49:28 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:49:29 | INFO | Captured 3 block screenshots
+2026-06-30 20:49:29 | INFO | Detected 3 blocks
+2026-06-30 20:49:29 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:49:31 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:49:31 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:49:31 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 20:49:31 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_outras-acoes--a9675af3/page-catalog.json
+2026-06-30 20:49:31 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 20:49:31 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:49:31 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:49:31 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 20:49:31 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_participacao-social_ouvidoria--2c359dcf/page-catalog.json
+2026-06-30 20:49:31 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 20:49:32 | INFO | [46/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 20:49:32 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--ce86f68c
+2026-06-30 20:49:32 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--ce86f68c
+2026-06-30 20:49:32 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 20:49:33 | INFO | [47/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 20:49:33 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--7dfae6a4
+2026-06-30 20:49:33 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--7dfae6a4
+2026-06-30 20:49:33 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 20:49:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:49:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:49:39 | INFO | Lazy-load scroll complete
+2026-06-30 20:49:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:49:39 | INFO | Lazy-load scroll complete
+2026-06-30 20:49:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:49:58 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:49:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:49:58 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:49:58 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:49:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:49:58 | INFO | Main content: #main-content
+2026-06-30 20:49:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:49:58 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:49:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:49:59 | INFO | Captured 2 block screenshots
+2026-06-30 20:49:59 | INFO | Detected 2 blocks
+2026-06-30 20:49:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:50:01 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:50:01 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:50:01 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:50:01 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:50:01 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:50:01 | INFO | Main content: #main-content
+2026-06-30 20:50:01 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:50:01 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:50:01 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:50:01 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:50:01 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 20:50:01 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--4fe12254/page-catalog.json
+2026-06-30 20:50:01 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 20:50:02 | INFO | Captured 3 block screenshots
+2026-06-30 20:50:02 | INFO | Detected 3 blocks
+2026-06-30 20:50:02 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:50:03 | INFO | [48/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 20:50:03 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--dc9ce1b5
+2026-06-30 20:50:03 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--dc9ce1b5
+2026-06-30 20:50:03 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 20:50:03 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:50:03 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:50:03 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:50:03 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:50:03 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:50:03 | INFO | Main content: #main-content
+2026-06-30 20:50:03 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:50:03 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:50:04 | INFO | Captured 3 block screenshots
+2026-06-30 20:50:04 | INFO | Detected 3 blocks
+2026-06-30 20:50:04 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:50:04 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:50:04 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:50:04 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 20:50:04 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fab84c43/page-catalog.json
+2026-06-30 20:50:04 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 20:50:06 | INFO | [49/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 20:50:06 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--3e7231da
+2026-06-30 20:50:06 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/publicidade -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--3e7231da
+2026-06-30 20:50:06 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 20:50:06 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:50:06 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:50:06 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 20:50:06 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--da953858/page-catalog.json
+2026-06-30 20:50:06 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 20:50:06 | INFO | PROGRESS: 45/60 analyzed (75% checklist complete) | 45 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-06-30 20:50:07 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:50:08 | INFO | [50/60] Processing: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 20:50:08 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_receitas-e-despesas_receitas--a3c4d87d
+2026-06-30 20:50:08 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/receitas -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_receitas--a3c4d87d
+2026-06-30 20:50:08 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 20:50:09 | INFO | Lazy-load scroll complete
+2026-06-30 20:50:09 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:50:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:50:11 | INFO | Lazy-load scroll complete
+2026-06-30 20:50:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:50:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:50:13 | INFO | Lazy-load scroll complete
+2026-06-30 20:50:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:50:40 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:50:40 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:50:40 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:50:40 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:50:40 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:50:40 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:50:40 | INFO | Main content: #main-content
+2026-06-30 20:50:40 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:50:40 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:50:40 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:50:40 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:50:40 | INFO | Main content: #main-content
+2026-06-30 20:50:40 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:50:40 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:50:40 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:50:40 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:50:40 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:50:40 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:50:41 | INFO | Captured 2 block screenshots
+2026-06-30 20:50:41 | INFO | Detected 2 blocks
+2026-06-30 20:50:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:50:41 | INFO | Captured 2 block screenshots
+2026-06-30 20:50:41 | INFO | Detected 2 blocks
+2026-06-30 20:50:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:50:43 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:50:43 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:50:43 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 20:50:43 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--7dfae6a4/page-catalog.json
+2026-06-30 20:50:43 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:50:43 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:50:43 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 20:50:43 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--ce86f68c/page-catalog.json
+2026-06-30 20:50:43 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 20:50:43 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 20:50:45 | INFO | [51/60] Processing: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 20:50:45 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--4573d3df
+2026-06-30 20:50:45 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--4573d3df
+2026-06-30 20:50:45 | INFO | [52/60] Processing: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 20:50:45 | INFO | Generated slug: pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--45b4a039
+2026-06-30 20:50:45 | INFO | Starting analysis: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic -> /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--45b4a039
+2026-06-30 20:50:45 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 20:50:45 | INFO | Loading: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 20:50:48 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:50:48 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:50:50 | INFO | Lazy-load scroll complete
+2026-06-30 20:50:50 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:50:50 | INFO | Lazy-load scroll complete
+2026-06-30 20:50:50 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:51:10 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:51:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:51:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:51:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:51:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:51:10 | INFO | Main content: #main-content
+2026-06-30 20:51:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:51:10 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 20:51:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:51:11 | INFO | Captured 2 block screenshots
+2026-06-30 20:51:11 | INFO | Detected 2 blocks
+2026-06-30 20:51:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:51:12 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:51:12 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:51:12 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:51:12 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:51:12 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:51:12 | INFO | Main content: #main-content
+2026-06-30 20:51:13 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:51:13 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:51:13 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 20:51:13 | INFO | Captured 2 block screenshots
+2026-06-30 20:51:13 | INFO | Detected 3 blocks
+2026-06-30 20:51:13 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:51:13 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 20:51:13 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 20:51:13 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 20:51:13 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--dc9ce1b5/page-catalog.json
+2026-06-30 20:51:13 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 20:51:15 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:51:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:51:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:51:15 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:51:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:51:15 | INFO | Main content: #main-content
+2026-06-30 20:51:15 | INFO | [53/60] Processing: https://pbio.com.br/institucional
+2026-06-30 20:51:15 | INFO | Generated slug: pbio_com_br_institucional--49722a03
+2026-06-30 20:51:15 | INFO | Starting analysis: https://pbio.com.br/institucional -> /workspace/catalog/.pages/pbio_com_br_institucional--49722a03
+2026-06-30 20:51:15 | INFO | Loading: https://pbio.com.br/institucional
+2026-06-30 20:51:15 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:51:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:51:15 | INFO | Captured 2 block screenshots
+2026-06-30 20:51:15 | INFO | Detected 2 blocks
+2026-06-30 20:51:15 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:51:16 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:51:16 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:51:16 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 20:51:16 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--3e7231da/page-catalog.json
+2026-06-30 20:51:16 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 20:51:17 | INFO | [54/60] Processing: https://pbio.com.br/institucional/auditoria
+2026-06-30 20:51:17 | INFO | Generated slug: pbio_com_br_institucional_auditoria--107935a0
+2026-06-30 20:51:17 | INFO | Starting analysis: https://pbio.com.br/institucional/auditoria -> /workspace/catalog/.pages/pbio_com_br_institucional_auditoria--107935a0
+2026-06-30 20:51:17 | INFO | Loading: https://pbio.com.br/institucional/auditoria
+2026-06-30 20:51:18 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:51:18 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:51:18 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 20:51:18 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_receitas--a3c4d87d/page-catalog.json
+2026-06-30 20:51:18 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 20:51:18 | INFO | PROGRESS: 50/60 analyzed (83% checklist complete) | 50 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 20:51:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:51:19 | INFO | [55/60] Processing: https://pbio.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 20:51:19 | INFO | Generated slug: pbio_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--1ac64b12
+2026-06-30 20:51:19 | INFO | Starting analysis: https://pbio.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens -> /workspace/catalog/.pages/pbio_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--1ac64b12
+2026-06-30 20:51:19 | INFO | Loading: https://pbio.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 20:51:20 | INFO | Lazy-load scroll complete
+2026-06-30 20:51:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:51:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:51:22 | INFO | Lazy-load scroll complete
+2026-06-30 20:51:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:51:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:51:24 | INFO | Lazy-load scroll complete
+2026-06-30 20:51:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:51:51 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:51:51 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:51:51 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:51:51 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:51:51 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:51:51 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:51:51 | INFO | Main content: #main-content
+2026-06-30 20:51:51 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:51:51 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:51:51 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:51:51 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:51:51 | INFO | Main content: #main-content
+2026-06-30 20:51:51 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:51:51 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:51:51 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:51:51 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:51:52 | INFO | Captured 2 block screenshots
+2026-06-30 20:51:52 | INFO | Detected 2 blocks
+2026-06-30 20:51:52 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:51:52 | INFO | Captured 2 block screenshots
+2026-06-30 20:51:52 | INFO | Detected 2 blocks
+2026-06-30 20:51:52 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:51:54 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:51:54 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:51:54 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 20:51:54 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--45b4a039/page-catalog.json
+2026-06-30 20:51:54 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 20:51:54 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 20:51:54 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 20:51:54 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--4573d3df/page-catalog.json
+2026-06-30 20:51:54 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 20:51:54 | INFO | SUCCESS: https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 20:51:56 | INFO | [56/60] Processing: https://pbio.com.br/institucional/orgaos-estatutarios
+2026-06-30 20:51:56 | INFO | Generated slug: pbio_com_br_institucional_orgaos-estatutarios--69e107b1
+2026-06-30 20:51:56 | INFO | Starting analysis: https://pbio.com.br/institucional/orgaos-estatutarios -> /workspace/catalog/.pages/pbio_com_br_institucional_orgaos-estatutarios--69e107b1
+2026-06-30 20:51:56 | INFO | [57/60] Processing: https://pbio.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 20:51:56 | INFO | Generated slug: pbio_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--1ba4fd2e
+2026-06-30 20:51:56 | INFO | Starting analysis: https://pbio.com.br/institucional/relatorios-anuais-e-informacoes-financeiras -> /workspace/catalog/.pages/pbio_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--1ba4fd2e
+2026-06-30 20:51:56 | INFO | Loading: https://pbio.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 20:51:56 | INFO | Loading: https://pbio.com.br/institucional/orgaos-estatutarios
+2026-06-30 20:52:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:52:04 | INFO | Lazy-load scroll complete
+2026-06-30 20:52:04 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:52:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:52:07 | INFO | Lazy-load scroll complete
+2026-06-30 20:52:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:52:22 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:52:22 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:52:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:52:22 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:52:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:52:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:52:22 | INFO | Main content: #main-content
+2026-06-30 20:52:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:52:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:52:23 | INFO | Captured 5 block screenshots
+2026-06-30 20:52:23 | INFO | Detected 5 blocks
+2026-06-30 20:52:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:52:24 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:52:24 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:52:24 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:52:24 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:52:24 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:52:24 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:52:24 | INFO | Main content: #main-content
+2026-06-30 20:52:24 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:52:24 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:52:25 | INFO | Captured 4 block screenshots
+2026-06-30 20:52:25 | INFO | Detected 4 blocks
+2026-06-30 20:52:25 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:52:25 | INFO |    Top-section: 12 rows via title+container
+2026-06-30 20:52:25 | INFO |    Body start: y=300 (start row 12 via below-title+container)
+2026-06-30 20:52:25 | INFO | URL Pattern: /institucional
+2026-06-30 20:52:25 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_institucional--49722a03/page-catalog.json
+2026-06-30 20:52:25 | INFO | SUCCESS: https://pbio.com.br/institucional
+2026-06-30 20:52:26 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:52:26 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:52:26 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:52:26 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:52:26 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:52:26 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:52:26 | INFO | Main content: #main-content
+2026-06-30 20:52:26 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:52:26 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:52:27 | INFO | Captured 4 block screenshots
+2026-06-30 20:52:27 | INFO | Detected 4 blocks
+2026-06-30 20:52:27 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:52:27 | INFO | [58/60] Processing: https://pbio.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 20:52:27 | INFO | Generated slug: pbio_com_br_cartas-de-governanca-e-politicas-publicas--cc0f16f4
+2026-06-30 20:52:27 | INFO | Starting analysis: https://pbio.com.br/cartas-de-governanca-e-politicas-publicas -> /workspace/catalog/.pages/pbio_com_br_cartas-de-governanca-e-politicas-publicas--cc0f16f4
+2026-06-30 20:52:27 | INFO | Loading: https://pbio.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 20:52:27 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:52:27 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:52:27 | INFO | URL Pattern: /institucional/auditoria
+2026-06-30 20:52:27 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_institucional_auditoria--107935a0/page-catalog.json
+2026-06-30 20:52:27 | INFO | SUCCESS: https://pbio.com.br/institucional/auditoria
+2026-06-30 20:52:28 | INFO | [59/60] Processing: https://pbio.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 20:52:28 | INFO | Generated slug: pbio_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--180cb3d5
+2026-06-30 20:52:28 | INFO | Starting analysis: https://pbio.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos -> /workspace/catalog/.pages/pbio_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--180cb3d5
+2026-06-30 20:52:28 | INFO | Loading: https://pbio.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 20:52:29 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 20:52:29 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 20:52:29 | INFO | URL Pattern: /institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 20:52:29 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--1ac64b12/page-catalog.json
+2026-06-30 20:52:29 | INFO | SUCCESS: https://pbio.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 20:52:29 | INFO | PROGRESS: 55/60 analyzed (92% checklist complete) | 55 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 20:52:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:52:30 | INFO | [60/60] Processing: https://pbio.com.br/outras-informacoes
+2026-06-30 20:52:30 | INFO | Generated slug: pbio_com_br_outras-informacoes--27f6a5b5
+2026-06-30 20:52:30 | INFO | Starting analysis: https://pbio.com.br/outras-informacoes -> /workspace/catalog/.pages/pbio_com_br_outras-informacoes--27f6a5b5
+2026-06-30 20:52:31 | INFO | Loading: https://pbio.com.br/outras-informacoes
+2026-06-30 20:52:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:52:32 | INFO | Lazy-load scroll complete
+2026-06-30 20:52:32 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:52:34 | INFO | Lazy-load scroll complete
+2026-06-30 20:52:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:52:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 20:52:41 | INFO | Lazy-load scroll complete
+2026-06-30 20:52:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 20:53:06 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:53:06 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:53:06 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:53:06 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:53:06 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:53:06 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:53:06 | INFO | Main content: #main-content
+2026-06-30 20:53:06 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:53:06 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:53:07 | INFO | Captured 7 block screenshots
+2026-06-30 20:53:07 | INFO | Detected 7 blocks
+2026-06-30 20:53:07 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:53:09 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:53:09 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:53:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:53:09 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:53:09 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:53:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:53:09 | INFO | Main content: #main-content
+2026-06-30 20:53:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:53:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:53:09 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 20:53:09 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 20:53:09 | INFO | URL Pattern: /institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 20:53:09 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--1ba4fd2e/page-catalog.json
+2026-06-30 20:53:09 | INFO | SUCCESS: https://pbio.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 20:53:10 | INFO | Captured 7 block screenshots
+2026-06-30 20:53:10 | INFO | Detected 7 blocks
+2026-06-30 20:53:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:53:11 | INFO | Worker 2 finished
+2026-06-30 20:53:12 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:53:12 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:53:12 | INFO | URL Pattern: /institucional/orgaos-estatutarios
+2026-06-30 20:53:12 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_institucional_orgaos-estatutarios--69e107b1/page-catalog.json
+2026-06-30 20:53:12 | INFO | SUCCESS: https://pbio.com.br/institucional/orgaos-estatutarios
+2026-06-30 20:53:14 | INFO | Worker 0 finished
+2026-06-30 20:53:33 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:53:33 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:53:33 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:53:33 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:53:33 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:53:33 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:53:33 | INFO | Main content: #main-content
+2026-06-30 20:53:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:53:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:53:35 | INFO | Captured 6 block screenshots
+2026-06-30 20:53:35 | INFO | Detected 6 blocks
+2026-06-30 20:53:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:53:35 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:53:35 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:53:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:53:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:53:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:53:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:53:35 | INFO | Main content: #main-content
+2026-06-30 20:53:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:53:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:53:36 | INFO | Captured 4 block screenshots
+2026-06-30 20:53:36 | INFO | Detected 4 blocks
+2026-06-30 20:53:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:53:37 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 20:53:37 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 20:53:37 | INFO | URL Pattern: /cartas-de-governanca-e-politicas-publicas
+2026-06-30 20:53:37 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_cartas-de-governanca-e-politicas-publicas--cc0f16f4/page-catalog.json
+2026-06-30 20:53:37 | INFO | SUCCESS: https://pbio.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 20:53:38 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 20:53:38 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 20:53:38 | INFO | URL Pattern: /demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 20:53:38 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--180cb3d5/page-catalog.json
+2026-06-30 20:53:38 | INFO | SUCCESS: https://pbio.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 20:53:38 | INFO | Worker 1 finished
+2026-06-30 20:53:40 | INFO | Worker 3 finished
+2026-06-30 20:53:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 20:53:42 | INFO | Template - Reused saved header selector on current page
+2026-06-30 20:53:42 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 20:53:42 | INFO | Header: complex complexity, 3 features
+2026-06-30 20:53:42 | INFO | Footer: simple complexity, 0 features
+2026-06-30 20:53:42 | INFO | Phase 2: Identifying main content area...
+2026-06-30 20:53:42 | INFO | Main content: #main-content
+2026-06-30 20:53:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 20:53:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 20:53:44 | INFO | Captured 6 block screenshots
+2026-06-30 20:53:44 | INFO | Detected 6 blocks
+2026-06-30 20:53:44 | INFO | Generating fingerprints for template discovery...
+2026-06-30 20:53:46 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 20:53:46 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 20:53:46 | INFO | URL Pattern: /outras-informacoes
+2026-06-30 20:53:46 | INFO | Page catalog complete: /workspace/catalog/.pages/pbio_com_br_outras-informacoes--27f6a5b5/page-catalog.json
+2026-06-30 20:53:46 | INFO | SUCCESS: https://pbio.com.br/outras-informacoes
+2026-06-30 20:53:46 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 20:53:46 | INFO | Worker 4 finished
+2026-06-30 20:53:46 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 20:53:46 | INFO | ================================================================================
+2026-06-30 20:53:46 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 20:53:46 | INFO | ================================================================================
+2026-06-30 20:53:46 | INFO | Total URLs: 60
+2026-06-30 20:53:46 | INFO | Attempt successes: 60
+2026-06-30 20:53:46 | INFO | Attempt failures: 0
+2026-06-30 20:53:46 | INFO | Skipped: 0
+2026-06-30 20:53:46 | INFO | Checklist final status: 60 analyzed, 0 failed, 0 marked
+2026-06-30 20:53:46 | INFO | Workers: 5
+2026-06-30 20:53:46 | INFO | ================================================================================
+2026-06-30 20:53:46 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T20:54:09.548Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T20:54:09.565Z | INFO | consolidate-fingerprints - Consolidated 60 fingerprints
+2026-06-30 20:54:23 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 20:54:23 | INFO | Agent 4 Progress - Starting representative pass with 10 page(s) and 44 block occurrence(s)
+2026-06-30 20:54:23 | INFO | Agent 4 Progress - representative: 10/10 page(s), 44/44 block occurrence(s), 13 unique signatures, 14 variants (12 new, 32 reused)
+2026-06-30 20:54:23 | INFO | Agent 4 Progress - Starting backfill pass with 50 page(s) and 149 block occurrence(s)
+2026-06-30 20:54:23 | ERROR | Agent 4 - Block unknown from https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia has no screenshot - cannot catalog without visual proof
+2026-06-30 20:54:23 | ERROR | Agent 4 - Block unknown from https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes has no screenshot - cannot catalog without visual proof
+2026-06-30 20:54:23 | INFO | Agent 4 Progress - backfill: 25/50 page(s), 64/149 block occurrence(s), 14 unique signatures, 15 variants (13 new, 95 reused)
+2026-06-30 20:54:23 | ERROR | Agent 4 - Block unknown from https://pbio.com.br/acesso-a-informacao/perguntas-frequentes has no screenshot - cannot catalog without visual proof
+2026-06-30 20:54:23 | ERROR | Agent 4 - Block unknown from https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/publicidade has no screenshot - cannot catalog without visual proof
+2026-06-30 20:54:23 | INFO | Agent 4 Progress - backfill: 50/50 page(s), 145/149 block occurrence(s), 20 unique signatures, 18 variants (16 new, 173 reused)
+2026-06-30 20:54:23 | INFO | Agent 4 Completed - Cataloged 18 block variants (16 new, 173 reused)
+2026-06-30 20:54:23 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 20:54:23 | INFO | Session state set to INACTIVE
+2026-06-30 20:54:23 | INFO | Agent 2 Completed - Summary generated successfully

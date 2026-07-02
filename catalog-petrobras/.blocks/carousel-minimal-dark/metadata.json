@@ -1,0 +1,40 @@
+{
+  "variantName": "carousel-minimal-dark",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/jornada-da-energia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 4 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 4 images + list\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/carousel-a395a20.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_jornada-da-energia--58889390/blocks/carousel-a395a20.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/reach",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_reach--c577f303/blocks/carousel-215de5a0.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

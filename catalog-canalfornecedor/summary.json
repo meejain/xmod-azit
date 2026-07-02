@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://canalfornecedor.petrobras.com.br/",
+      "siteName": "canalfornecedor.petrobras.com.br",
+      "analysisDate": "2026-06-30"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 54,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 54
+        }
+      ],
+      "totalTemplates": 21,
+      "totalBlockTypes": 10,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 8,
+      "pagesAnalyzed": 54,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 4
+    }
+  }
+}

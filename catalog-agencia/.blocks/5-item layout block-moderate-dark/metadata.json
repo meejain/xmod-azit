@@ -1,0 +1,31 @@
+{
+  "variantName": "5-item layout block-moderate-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.792Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/negocio/dia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/negocio/dia",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_negocio_dia--5fb49d67/blocks/unknown-275a3b63.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

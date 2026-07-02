@@ -1,0 +1,71 @@
+{
+  "variantName": "10 ctas + 1 list block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.722Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/compliance",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "10 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"10 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance--d8c42dc1/blocks/unknown-679639c1.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/compliance",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_compliance--3d4e57d2/blocks/unknown-36f2b13.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/conexoes",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_conexoes--0e29e38e/blocks/unknown-423eed35.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/due-diligence-de-integridade",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_due-diligence-de-integridade--56a781de/blocks/unknown-4d56e493.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/gestao-asg-para-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_gestao-asg-para-fornecedores--f71d7bc4/blocks/unknown-479a24aa.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/jornada-asg-para-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_jornada-asg-para-fornecedores--337de1e6/blocks/unknown-479a24aa.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459/blocks/unknown-45ed1f1b.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/mudancas-climaticas",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_mudancas-climaticas--63d003b4/blocks/unknown-45ac5fe0.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/programa-autonomia-e-renda-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_programa-autonomia-e-renda-petrobras--33bf3951/blocks/unknown-420bd671.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/sustentabilidade",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_sustentabilidade--f3a9b07a/blocks/unknown-420bd671.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/programa-autonomia-e-renda-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_programa-autonomia-e-renda-petrobras--415fefc4/blocks/unknown-420bd671.jpg"
+      }
+    ],
+    "reuseCount": 11
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T22:31:41.470Z",
+    "totalBlockVariants": 8,
+    "totalBlocksProcessed": 176,
+    "newVariantsCreated": 6,
+    "variantsReused": 155,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 51,
+        "description": "1 heading + 1 list block; 1 heading block",
+        "screenshots": [
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao--d0c23e62/blocks/hero-213c48dc.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas--8684dc72/blocks/hero-5a846208.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--74750780/blocks/hero-5a57b68a.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_governanca--dd749547/blocks/hero-5a57b68a.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--91eea552/blocks/hero-25ee1de.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--63c47957/blocks/hero-5a57b68a.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "lfr-layout-structure-item-iframe",
+        "screenshots": [
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_convenios-e-transferencias--3c3aaace/blocks/embed-56a7e468.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--7b119300/blocks/embed-6e4acf79.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--a31c6613/blocks/embed-5563625c.jpg",
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--b7495bd7/blocks/embed-a4a6841.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "2 headings + 2 paragraphs block; 2 headings block",
+        "screenshots": [
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_perguntas-frequentes--be41bfb1/blocks/accordion-451d4e6a.jpg",
+          ".pages/araucarianitrogenados_com_br_institucional_orgaos-estatutarios--4138a81c/blocks/accordion-d84d2c1.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + 2 images + 2 paragraphs block",
+        "screenshots": [
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--2bf5e9ba/blocks/cards-4586852e.jpg"
+        ]
+      },
+      "cards-moderate-dark": {
+        "blockVariantId": "cards-moderate-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "4 images + 4-item layout block",
+        "screenshots": [
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--8f092a9e/blocks/cards-1d6c6670.jpg"
+        ]
+      },
+      "embed-moderate-dark": {
+        "blockVariantId": "embed-moderate-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "content-block",
+        "screenshots": [
+          ".pages/araucarianitrogenados_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--8f092a9e/blocks/embed-428fd6d1.jpg"
+        ]
+      }
+    }
+  }
+}

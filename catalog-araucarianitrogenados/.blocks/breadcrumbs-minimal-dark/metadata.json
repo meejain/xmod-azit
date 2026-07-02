@@ -1,0 +1,43 @@
+{
+  "variantName": "breadcrumbs-minimal-dark",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/cartas-de-governanca-e-politicas-publicas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + 5 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"breadcrumbs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + 5 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/araucarianitrogenados_com_br_cartas-de-governanca-e-politicas-publicas--5b7fb70e/blocks/breadcrumbs-3b9b7010.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/auditoria",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_auditoria--e5d8f0c4/blocks/breadcrumbs-494cd0f1.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--68e745e3/blocks/breadcrumbs-494cd0f1.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/outras-informacoes",
+        "screenshot": ".pages/araucarianitrogenados_com_br_outras-informacoes--e39dfff1/blocks/breadcrumbs-59239cac.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

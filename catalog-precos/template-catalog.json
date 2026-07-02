@@ -1,0 +1,52 @@
+{
+  "templates": [
+    {
+      "name": "unique-precos-diesel",
+      "representativePages": [
+        "https://precos.petrobras.com.br/precos-diesel"
+      ],
+      "urls": [
+        "https://precos.petrobras.com.br/precos-diesel"
+      ],
+      "description": "Unique page layout: cards",
+      "layoutSignature": "cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-precos-gasolina",
+      "representativePages": [
+        "https://precos.petrobras.com.br/precos-gasolina"
+      ],
+      "urls": [
+        "https://precos.petrobras.com.br/precos-gasolina"
+      ],
+      "description": "Unique page layout: cards",
+      "layoutSignature": "cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-root",
+      "representativePages": [
+        "https://precos.petrobras.com.br/"
+      ],
+      "urls": [
+        "https://precos.petrobras.com.br/"
+      ],
+      "description": "Unique page layout: video > carousel > hero > form > columns",
+      "layoutSignature": "video > carousel > hero > form > columns",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-precos-glp",
+      "representativePages": [
+        "https://precos.petrobras.com.br/precos-glp"
+      ],
+      "urls": [
+        "https://precos.petrobras.com.br/precos-glp"
+      ],
+      "description": "Unique page layout: hero",
+      "layoutSignature": "hero",
+      "pageCount": 1
+    }
+  ]
+}

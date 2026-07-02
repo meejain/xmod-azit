@@ -1,0 +1,201 @@
+{
+  "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/produtos-de-baixo-carbono",
+  "timestamp": "2026-07-01T15:47:12.943Z",
+  "duration": "7.7s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/w/web-stories/transicao-energetica/produtos-de-baixo-carbono",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "background",
+        "x": 968,
+        "y": 426,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 551,
+        "width": 277,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 575,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 634,
+        "width": 289,
+        "height": 72
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 639,
+        "width": 336,
+        "height": 77
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 706,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 716,
+        "width": 301,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "h1",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 634,
+        "width": 351,
+        "height": 72,
+        "textLength": 60
+      },
+      {
+        "tag": "h2",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 545,
+        "y": 551,
+        "width": 351,
+        "height": 24,
+        "textLength": 25
+      },
+      {
+        "tag": "p",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 545,
+        "y": 639,
+        "width": 351,
+        "height": 77,
+        "textLength": 146
+      },
+      {
+        "tag": "strong",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#009030",
+        "x": 545,
+        "y": 714,
+        "width": 301,
+        "height": 40,
+        "textLength": 70
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "kind": "canvas",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "topSectionCropBottomY": 900,
+    "topSectionTitleRect": {
+      "x": 497,
+      "y": 74,
+      "width": 447,
+      "height": 752,
+      "text": "O que são e onde encontrar nossos produtos de baixo carbono? —"
+    },
+    "bodyBounds": null,
+    "bodyStartY": null,
+    "bodyPlaceholders": []
+  },
+  "blocks": [
+    {
+      "id": "carousel-422412a9",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "6 headings + 3 images + 2 CTAs block",
+      "content": {
+        "headingCount": 6,
+        "paragraphCount": 18,
+        "imageCount": 3,
+        "buttonCount": 2,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + 2 CTAs + 3 images"
+      },
+      "selector": "body.amp-mode-mouse.amp-mode-keyboard-active",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "blocks/carousel-422412a9.jpg"
+    }
+  ]
+}

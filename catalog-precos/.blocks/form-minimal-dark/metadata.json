@@ -1,0 +1,31 @@
+{
+  "variantName": "form-minimal-dark",
+  "baseBlock": "form",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:50:35.687Z",
+  "sourceContext": {
+    "originUrl": "https://precos.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"form\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://precos.petrobras.com.br/",
+        "screenshot": ".pages/precos_petrobras_com_br--eff6fed6/blocks/form-6e89fc6d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

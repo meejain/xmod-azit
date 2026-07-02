@@ -1,0 +1,35 @@
+{
+  "variantName": "form-minimal-dark",
+  "baseBlock": "form",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.865Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/relatorio-2021",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"form\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/relatorio-2021",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46/blocks/form-5486b4a2.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/relatorio2023",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620/blocks/form-5486b4a2.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "url": "https://pbio.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+  "timestamp": "2026-06-30T20:43:01.612Z",
+  "duration": "70.4s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 175
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 175
+      },
+      {
+        "type": "text",
+        "x": 517,
+        "y": 75,
+        "width": 181,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 698,
+        "y": 75,
+        "width": 149,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 847,
+        "y": 75,
+        "width": 282,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 115,
+        "width": 844,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 517,
+        "y": 75,
+        "width": 181,
+        "height": 21,
+        "textLength": 24
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 719,
+        "y": 75,
+        "width": 149,
+        "height": 21,
+        "textLength": 19
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 889,
+        "y": 75,
+        "width": 282,
+        "height": 21,
+        "textLength": 38
+      },
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 115,
+        "width": 853,
+        "height": 46,
+        "textLength": 38
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 238
+      }
+    ],
+    "topSectionCropBottomY": 161,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 115,
+      "width": 853,
+      "height": 46,
+      "text": "Serviço de Informação ao Cidadão - SIC"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 175,
+      "width": 1440,
+      "height": 4302
+    },
+    "bodyStartY": 175,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 238,
+        "width": 806,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 304,
+        "width": 850,
+        "height": 144
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 508,
+        "width": 291,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 567,
+        "width": 833,
+        "height": 594
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1315,
+        "width": 224,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1374,
+        "width": 834,
+        "height": 294
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1822,
+        "width": 641,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 1881,
+        "width": 845,
+        "height": 1044
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 3079,
+        "width": 441,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 3135,
+        "width": 853,
+        "height": 270
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 3556,
+        "width": 466,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 3615,
+        "width": 765,
+        "height": 84
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 3853,
+        "width": 598,
+        "height": 25
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 3912,
+        "width": 677,
+        "height": 54
+      },
+      {
+        "type": "image",
+        "x": 691,
+        "y": 4138,
+        "width": 58,
+        "height": 58
+      },
+      {
+        "type": "image",
+        "x": 1133,
+        "y": 4138,
+        "width": 58,
+        "height": 58
+      },
+      {
+        "type": "text",
+        "x": 610,
+        "y": 4204,
+        "width": 220,
+        "height": 54
+      },
+      {
+        "type": "text",
+        "x": 1031,
+        "y": 4204,
+        "width": 263,
+        "height": 54
+      },
+      {
+        "type": "text",
+        "x": 586,
+        "y": 4272,
+        "width": 269,
+        "height": 84
+      },
+      {
+        "type": "text",
+        "x": 997,
+        "y": 4272,
+        "width": 331,
+        "height": 84
+      },
+      {
+        "type": "text",
+        "x": 671,
+        "y": 4382,
+        "width": 98,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 1113,
+        "y": 4382,
+        "width": 98,
+        "height": 19
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-65bce019",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image + list"
+      },
+      "selector": "div.lfr-layout-structure-item-649a42cd-87a3-6be6-074f-872e39116409.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-65bce019.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-17c790da",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.intro.fragment_1166688",
+      "bounds": {
+        "x": 72,
+        "y": 314,
+        "width": 1296,
+        "height": 238
+      },
+      "screenshot": "blocks/default-17c790da.jpg",
+      "reclassifiedFrom": "hero"
+    },
+    {
+      "id": "default-2a9759dd",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 4,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-fe425db0-d54c-ec47-c33d-fdde453b9630 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 582,
+        "width": 1296,
+        "height": 787
+      },
+      "screenshot": "blocks/default-2a9759dd.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-76027da",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-3532f206-7a06-5375-7abe-b563776fb688 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 1389,
+        "width": 1296,
+        "height": 487
+      },
+      "screenshot": "blocks/default-76027da.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-4425e21f",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-4629c339-c560-44d8-23c7-030e0b9778bf > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3154,
+        "width": 1296,
+        "height": 457
+      },
+      "screenshot": "blocks/default-4425e21f.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-7e466d10",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-4610819d-1e89-d482-5039-55d0e1be0c8a > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3631,
+        "width": 1296,
+        "height": 277
+      },
+      "screenshot": "blocks/default-7e466d10.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "default-77dd6df3",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-33702f45-00c7-19f5-dbcd-4c50889cf92f > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 3928,
+        "width": 1296,
+        "height": 247
+      },
+      "screenshot": "blocks/default-77dd6df3.jpg",
+      "reclassifiedFrom": "unknown"
+    },
+    {
+      "id": "cards-4586852e",
+      "type": "cards",
+      "confidence": "low",
+      "description": "2 headings + 2 images + 2 paragraphs block",
+      "content": {
+        "headingCount": 2,
+        "paragraphCount": 2,
+        "imageCount": 2,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "icon",
+        "structure": "heading + text + 2 images"
+      },
+      "selector": "div.lfr-layout-structure-item-cards-saiba-mais.lfr-layout-structure-item-566862e1-7554-19ee-d888-6b973681a137",
+      "bounds": {
+        "x": 0,
+        "y": 4175,
+        "width": 1440,
+        "height": 369
+      },
+      "screenshot": "blocks/cards-4586852e.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

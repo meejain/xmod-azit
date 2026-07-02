@@ -1,0 +1,47 @@
+{
+  "variantName": "columns-minimal-dark-withimg",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 2 CTAs + 6 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 2 CTAs + 6 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos--139ef840/blocks/columns-28c239fd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/columns-4cd528d5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos--3afc6677/blocks/columns-773c944b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/columns-40b379e0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/columns-127e0e51.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "variantName": "header-global",
+  "baseBlock": "header",
+  "canonicalModel": "configuration",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:40:34.873Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao",
+    "discoveredDuring": "global-header-capture"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "complexity": "complex",
+    "density": "moderate"
+  },
+  "knownSignatures": [],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao",
+        "screenshot": ".pages/_global/header.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

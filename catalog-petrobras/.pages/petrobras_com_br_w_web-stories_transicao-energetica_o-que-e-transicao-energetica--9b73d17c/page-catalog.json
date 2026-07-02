@@ -1,0 +1,168 @@
+{
+  "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/o-que-e-transicao-energetica",
+  "timestamp": "2026-07-01T15:47:03.737Z",
+  "duration": "7.9s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/w/web-stories/transicao-energetica/o-que-e-transicao-energetica",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    },
+    "topSectionStrategy": "hero",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "background",
+        "x": 968,
+        "y": 426,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 565,
+        "width": 319,
+        "height": 48
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 613,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 677,
+        "width": 340,
+        "height": 77
+      },
+      {
+        "type": "text",
+        "x": 545,
+        "y": 677,
+        "width": 351,
+        "height": 77
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "h1",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 565,
+        "width": 351,
+        "height": 48,
+        "textLength": 56
+      },
+      {
+        "tag": "p",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 677,
+        "width": 351,
+        "height": 77,
+        "textLength": 145
+      },
+      {
+        "tag": "p",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#000000",
+        "x": 545,
+        "y": 677,
+        "width": 351,
+        "height": 77,
+        "textLength": 151
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "kind": "canvas",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "topSectionCropBottomY": 900,
+    "topSectionTitleRect": null,
+    "bodyBounds": null,
+    "bodyStartY": null,
+    "bodyPlaceholders": []
+  },
+  "blocks": [
+    {
+      "id": "carousel-422412a9",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "7 headings + 3 images + 2 CTAs block",
+      "content": {
+        "headingCount": 7,
+        "paragraphCount": 27,
+        "imageCount": 3,
+        "buttonCount": 2,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + text + 2 CTAs + 3 images"
+      },
+      "selector": "body.amp-mode-mouse.amp-mode-keyboard-active",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "blocks/carousel-422412a9.jpg"
+    }
+  ]
+}

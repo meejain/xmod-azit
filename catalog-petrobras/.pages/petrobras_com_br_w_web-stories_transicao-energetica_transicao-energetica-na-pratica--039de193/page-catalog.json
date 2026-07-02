@@ -1,0 +1,120 @@
+{
+  "url": "https://petrobras.com.br/w/web-stories/transicao-energetica/transicao-energetica-na-pratica",
+  "timestamp": "2026-07-01T15:47:24.715Z",
+  "duration": "7.5s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/w/web-stories/transicao-energetica/transicao-energetica-na-pratica",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900
+    },
+    "topSectionStrategy": "title+placeholder",
+    "topSectionPlaceholders": [
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "image",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "type": "background",
+        "x": 968,
+        "y": 426,
+        "width": 48,
+        "height": 48
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "h1",
+        "fontSize": 38,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#606060",
+        "x": 536,
+        "y": 761,
+        "width": 1,
+        "height": 1,
+        "textLength": 53
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 497,
+        "y": 74,
+        "width": 447,
+        "height": 752
+      },
+      {
+        "kind": "canvas",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "topSectionCropBottomY": 900,
+    "topSectionTitleRect": {
+      "x": 497,
+      "y": 74,
+      "width": 447,
+      "height": 752,
+      "text": "Petra em: Transição energética na prática | Petrobras"
+    },
+    "bodyBounds": null,
+    "bodyStartY": null,
+    "bodyPlaceholders": []
+  },
+  "blocks": [
+    {
+      "id": "carousel-422412a9",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "1 heading + 3 images + 2 CTAs block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 3,
+        "buttonCount": 2,
+        "linkCount": 1,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + 2 CTAs + 3 images"
+      },
+      "selector": "body.amp-mode-mouse.amp-mode-keyboard-active",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "blocks/carousel-422412a9.jpg"
+    }
+  ]
+}

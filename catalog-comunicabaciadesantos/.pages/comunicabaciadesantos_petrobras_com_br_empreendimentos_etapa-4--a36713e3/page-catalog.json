@@ -1,0 +1,321 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/etapa-4",
+  "timestamp": "2026-07-01T12:04:08.149Z",
+  "duration": "11.6s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/empreendimentos/etapa-4",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 200
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 65,
+        "y": 100,
+        "width": 327,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 34
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 65,
+        "y": 130,
+        "width": 635,
+        "height": 44,
+        "textLength": 15
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 700
+      }
+    ],
+    "topSectionCropBottomY": 198,
+    "topSectionTitleRect": {
+      "x": 65,
+      "y": 130,
+      "width": 635,
+      "height": 44,
+      "text": "BACIA DE SANTOS"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 200,
+      "width": 1440,
+      "height": 4132
+    },
+    "bodyStartY": 200,
+    "bodyPlaceholders": [
+      {
+        "type": "image",
+        "x": 0,
+        "y": 200,
+        "width": 1440,
+        "height": 500
+      },
+      {
+        "type": "text",
+        "x": 648,
+        "y": 756,
+        "width": 145,
+        "height": 41
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 1081,
+        "width": 640,
+        "height": 714
+      },
+      {
+        "type": "text",
+        "x": 915,
+        "y": 2378,
+        "width": 94,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 1033,
+        "y": 2378,
+        "width": 94,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 1082,
+        "y": 2476,
+        "width": 115,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 285,
+        "y": 2502,
+        "width": 271,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 907,
+        "y": 2528,
+        "width": 87,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 676,
+        "y": 2650,
+        "width": 93,
+        "height": 19
+      },
+      {
+        "type": "text",
+        "x": 338,
+        "y": 2789,
+        "width": 230,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 936,
+        "y": 2789,
+        "width": 166,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 338,
+        "y": 2829,
+        "width": 32,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 936,
+        "y": 2829,
+        "width": 32,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 189,
+        "y": 2957,
+        "width": 903,
+        "height": 1027
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 4157,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1113,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1159,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1205,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1251,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1297,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1343,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1389,
+        "y": 4247,
+        "width": 40,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-108cdedb",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading + 1 image block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 1,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "large",
+        "structure": "heading + image"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-comunica.lfr-layout-structure-item-78bfc8ea-77f7-6e1b-dc26-a4aafade1406",
+      "bounds": {
+        "x": 0,
+        "y": 248,
+        "width": 1440,
+        "height": 700
+      },
+      "screenshot": "blocks/hero-108cdedb.jpg"
+    },
+    {
+      "id": "tabs-629e5bef",
+      "type": "tabs",
+      "confidence": "high",
+      "description": "2 paragraphs block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 2,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 2,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "selector": "div.tabs-container",
+      "bounds": {
+        "x": 154,
+        "y": 2981,
+        "width": 1133,
+        "height": 1319
+      },
+      "screenshot": "blocks/tabs-629e5bef.jpg"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "variantName": "embed-minimal-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.176Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao/convenios-e-transferencias",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_convenios-e-transferencias--9459f2e4/blocks/embed-56a7e468.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--ef705a6a/blocks/embed-6e4acf79.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--5b592831/blocks/embed-5563625c.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--9a0884df/blocks/embed-7cb4d056.jpg"
+      },
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--fab84c43/blocks/embed-a4a6841.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

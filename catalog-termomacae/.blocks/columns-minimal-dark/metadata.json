@@ -1,0 +1,59 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.234Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/",
+        "screenshot": ".pages/termomacae_com_br--1930b556/blocks/columns-22fe8714.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/termomacae_com_br_cartas-de-governanca-e-politicas-publicas--6516dd35/blocks/columns-50f6bfb6.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/termomacae_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--eb1c96eb/blocks/columns-4bc8647c.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional",
+        "screenshot": ".pages/termomacae_com_br_institucional--c31c533c/blocks/columns-5c0823a4.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional/auditoria",
+        "screenshot": ".pages/termomacae_com_br_institucional_auditoria--40387007/blocks/columns-25dde493.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/termomacae_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--bee3f9f7/blocks/columns-2c6323d.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/termomacae_com_br_institucional_orgaos-estatutarios--ada072ab/blocks/columns-5c02ca4d.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/termomacae_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--891319da/blocks/columns-7df1eb8e.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

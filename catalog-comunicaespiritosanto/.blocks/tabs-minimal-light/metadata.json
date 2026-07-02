@@ -1,0 +1,31 @@
+{
+  "variantName": "tabs-minimal-light",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:35:10.435Z",
+  "sourceContext": {
+    "originUrl": "https://comunicaespiritosanto.petrobras.com.br/licenciamento",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/licenciamento",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_licenciamento--f979e8e6/blocks/tabs-629e5bef.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

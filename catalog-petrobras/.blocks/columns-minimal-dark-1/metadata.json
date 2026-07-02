@@ -1,0 +1,107 @@
+{
+  "variantName": "columns-minimal-dark-1",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/acessibilidade",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/acessibilidade",
+        "screenshot": ".pages/petrobras_com_br_acessibilidade--f7106f79/blocks/columns-3f943173.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-liquefeito-de-petroleo--891e8026/blocks/columns-2bc5972f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/columns-6c4bc898.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/columns-56608647.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/columns-409420dd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/raro-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_raro-petrobras--3ef6e63c/blocks/columns-124a738a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/saf-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_saf-petrobras--425b8165/blocks/columns-7f2e593.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/columns-65df26b2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/recursos-hidricos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_recursos-hidricos--7e79a71b/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/columns-3e428665.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-liquefeito-de-petroleo--b7f837df/blocks/columns-741fcbc7.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_logistica--74ca30bd/blocks/columns-f1fe84b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel--b62014df/blocks/columns-607f61e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/participacoes-societarias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_participacoes-societarias--f1504bfd/blocks/columns-6fb59d8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_querosene-de-aviacao--75d79308/blocks/columns-32e605f4.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/raro-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_raro-petrobras--b6cbc77c/blocks/columns-5db406c2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/saf-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_saf-petrobras--efcb3054/blocks/columns-5338e411.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/columns-35de6764.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_futebol-feminino--4998f2ba/blocks/columns-1d26410.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/recursos-hidricos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_recursos-hidricos--eaea9f15/blocks/columns-7625f82e.jpg"
+      }
+    ],
+    "reuseCount": 20
+  }
+}

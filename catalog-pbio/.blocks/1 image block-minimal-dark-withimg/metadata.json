@@ -1,0 +1,31 @@
+{
+  "variantName": "1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:54:23.177Z",
+  "sourceContext": {
+    "originUrl": "https://pbio.com.br/acesso-a-informacao/institucional/sobre",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pbio.com.br/acesso-a-informacao/institucional/sobre",
+        "screenshot": ".pages/pbio_com_br_acesso-a-informacao_institucional_sobre--78fafbb8/blocks/unknown-5f0294cf.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

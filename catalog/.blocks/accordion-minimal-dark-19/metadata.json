@@ -1,0 +1,43 @@
+{
+  "variantName": "accordion-minimal-dark-19",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "3 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"3 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-liquefeito-de-petroleo--891e8026/blocks/accordion-6d37553.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/accordion-6d37553.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-liquefeito-de-petroleo--b7f837df/blocks/accordion-6d37553.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/accordion-6d37553.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

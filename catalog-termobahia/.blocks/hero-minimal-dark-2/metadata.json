@@ -1,0 +1,55 @@
+{
+  "variantName": "hero-minimal-dark-2",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.893Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--1768f65a/blocks/hero-2b63a7bd.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_governanca--93882f4e/blocks/hero-3563dd8a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--83c5510f/blocks/hero-6f585c14.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/auditorias/prestacao-de-contas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--c6b16ad2/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional--08d6edca/blocks/hero-76566db9.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--08be12ae/blocks/hero-2d433b83.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--ef01c653/blocks/hero-7b403225.jpg"
+      }
+    ],
+    "reuseCount": 7
+  }
+}

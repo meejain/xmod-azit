@@ -1,0 +1,143 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.720Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/blocks/columns-2bced129.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/certificado-de-registro-cadastral",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_certificado-de-registro-cadastral--d571fb80/blocks/columns-21679fc3.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e/blocks/columns-124b011a.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/pre-qualificacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_pre-qualificacao--8abe792a/blocks/columns-6df57e4f.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58/blocks/columns-12f49593.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/compliance",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_compliance--3d4e57d2/blocks/columns-5f4f11ef.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/due-diligence-de-integridade",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_due-diligence-de-integridade--56a781de/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/jornada-asg-para-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_jornada-asg-para-fornecedores--337de1e6/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459/blocks/columns-615d2658.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/duvidas-frequentes",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/columns-7a50a867.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/lives",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-encontro-com-fornecedores_lives--adef4166/blocks/columns-1c376eee.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/lives",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_lives-eventos-oportunidades_lives--2d00e8e6/blocks/columns-1c376eee.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/acesso-solucoes-financeiras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_acesso-solucoes-financeiras--2fca8c3a/blocks/columns-6984207.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_agendamento-de-entrega-de-materiais--0cffb1ef/blocks/columns-32b12f66.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_avaliacao-de-desempenho-de-fornecedores--697d3fd7/blocks/columns-5246a1af.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/consulta-tributos-retidos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_consulta-tributos-retidos--647c7f49/blocks/columns-26afa7ed.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/diligenciamento-de-pedido-de-bens",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_diligenciamento-de-pedido-de-bens--0c8ee9d2/blocks/columns-53d8e93e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/gestao-contratual",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_gestao-contratual--36be7ecf/blocks/columns-71d71d10.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/pagamentos",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_pagamentos--817eacb2/blocks/columns-524eff3e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/qualidade-de-bens",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_qualidade-de-bens--85aed9d4/blocks/columns-50104ce5.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/blocks/columns-41be67df.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/conheca-lei-das-estatais",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55/blocks/columns-5538a80c.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_formas-de-contratacao-da-petrobras--efc92401/blocks/columns-80973ce.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_conteudo-do-edital--2088a463/blocks/columns-1064e29f.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/etapas-da-licitacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_etapas-da-licitacao--db815bcb/blocks/columns-7625f82e.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_os-meios-de-divulgacao-da-licitacao--2712724d/blocks/columns-7625f82e.jpg"
+      }
+    ],
+    "reuseCount": 29
+  }
+}

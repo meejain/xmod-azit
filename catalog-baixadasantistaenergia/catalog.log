@@ -1,0 +1,1576 @@
+2026-06-30 21:59:53 | INFO | Setting up catalog project for: https://baixadasantistaenergia.com.br/
+2026-06-30 21:59:53 | INFO | Project root: /workspace
+2026-06-30 21:59:53 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 21:59:53 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 21:59:53 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 21:59:53 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 21:59:53 | INFO | Session initialized: DISCOVERY
+2026-06-30 21:59:53 | INFO | Catalog project setup complete
+2026-06-30 21:59:53 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 21:59:53 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 21:59:53 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 21:59:53 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-06-30 22:00:28 | INFO | Creating sample URLs...
+2026-06-30 22:00:28 | INFO | Total URLs in grouped data: 60
+2026-06-30 22:00:28 | INFO | Total URLs (60) <= 1000, using ALL URLs
+2026-06-30 22:00:28 | INFO | Created urls-sample.json with 60 URLs
+2026-06-30 22:00:28 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 22:00:28 | INFO | Schema validation passed
+2026-06-30 22:00:28 | INFO | Sample creation complete - urls-sample.json with 60 URLs
+2026-06-30 22:00:28 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 22:00:28 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 22:00:29 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 22:00:29 | INFO | Created urls-checklist.json with 60 URLs
+2026-06-30 22:00:29 | INFO | Session state: ANALYZING
+2026-06-30 22:00:29 | INFO | ================================================================================
+2026-06-30 22:00:29 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 22:00:29 | INFO | Catalog: /workspace/catalog
+2026-06-30 22:00:29 | INFO | Delay: 1500ms between requests
+2026-06-30 22:00:29 | INFO | Workers: 5
+2026-06-30 22:00:29 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 22:00:29 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 22:00:29 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 22:00:29 | INFO | ================================================================================
+2026-06-30 22:00:29 | INFO | Found 60 URLs to process (5 workers)
+2026-06-30 22:00:29 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 22:00:29 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 22:00:29 | INFO | Pages to analyze: 60
+2026-06-30 22:00:29 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-06-30 22:00:29 | INFO | Estimated analysis time: ~2 min
+2026-06-30 22:00:29 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 22:00:29 | INFO | Launching stealth browser...
+2026-06-30 22:00:29 | INFO | [1/60] Processing: https://baixadasantistaenergia.com.br/
+2026-06-30 22:00:29 | INFO | Generated slug: baixadasantistaenergia_com_br--bdf20611
+2026-06-30 22:00:29 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/ -> /workspace/catalog/.pages/baixadasantistaenergia_com_br--bdf20611
+2026-06-30 22:00:29 | INFO | Loading: https://baixadasantistaenergia.com.br/
+2026-06-30 22:00:30 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 22:00:30 | INFO | Launching stealth browser...
+2026-06-30 22:00:30 | INFO | [2/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao
+2026-06-30 22:00:30 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao--6b1aafa6
+2026-06-30 22:00:30 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao--6b1aafa6
+2026-06-30 22:00:30 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao
+2026-06-30 22:00:32 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 22:00:32 | INFO | Launching stealth browser...
+2026-06-30 22:00:32 | INFO | [3/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 22:00:32 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas--76608661
+2026-06-30 22:00:32 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas--76608661
+2026-06-30 22:00:32 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 22:00:33 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 22:00:33 | INFO | Launching stealth browser...
+2026-06-30 22:00:33 | INFO | [4/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias
+2026-06-30 22:00:33 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_auditorias--bf963d6c
+2026-06-30 22:00:33 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias--bf963d6c
+2026-06-30 22:00:33 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias
+2026-06-30 22:00:35 | INFO | Worker 4 started (profile 4: macOS)
+2026-06-30 22:00:35 | INFO | Launching stealth browser...
+2026-06-30 22:00:35 | INFO | [5/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 22:00:35 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_convenios-e-transferencias--ddaa7a84
+2026-06-30 22:00:35 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/convenios-e-transferencias -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_convenios-e-transferencias--ddaa7a84
+2026-06-30 22:00:35 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 22:00:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:00:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:00:37 | INFO | Lazy-load scroll complete
+2026-06-30 22:00:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:00:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:00:38 | INFO | Lazy-load scroll complete
+2026-06-30 22:00:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:00:39 | INFO | Lazy-load scroll complete
+2026-06-30 22:00:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:00:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:00:41 | INFO | Lazy-load scroll complete
+2026-06-30 22:00:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:00:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:00:42 | INFO | Lazy-load scroll complete
+2026-06-30 22:00:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:01:39 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:01:39 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:01:39 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:01:39 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:01:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:01:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:01:39 | INFO | Main content: #main-content
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu---empresas.lfr-layout-structure-item-eb47e215-41bd-9837-d3bf-3c048eb74887
+   ✅ Saved global footer: #ec-footer
+2026-06-30 22:01:39 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:01:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:01:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:01:39 | INFO | Main content: #main-content
+2026-06-30 22:01:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:01:39 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:01:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:01:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:01:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:01:40 | INFO | Captured 4 block screenshots
+2026-06-30 22:01:40 | INFO | Detected 4 blocks
+2026-06-30 22:01:40 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:01:40 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:01:40 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:01:40 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:01:40 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:01:40 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:01:40 | INFO | Main content: #main-content
+2026-06-30 22:01:40 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:01:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:01:41 | INFO | Captured 2 block screenshots
+2026-06-30 22:01:41 | INFO | Detected 2 blocks
+2026-06-30 22:01:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:01:41 | INFO | Captured 2 block screenshots
+2026-06-30 22:01:41 | INFO | Detected 2 blocks
+2026-06-30 22:01:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:01:42 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:01:42 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:01:42 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:01:42 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:01:42 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:01:42 | INFO | Main content: #main-content
+2026-06-30 22:01:42 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:01:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:01:42 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:01:42 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:01:42 | INFO | URL Pattern: /acesso-a-informacao
+2026-06-30 22:01:42 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao--6b1aafa6/page-catalog.json
+2026-06-30 22:01:42 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao
+2026-06-30 22:01:42 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu---empresas.lfr-layout-structure-item-eb47e215-41bd-9837-d3bf-3c048eb74887)
+2026-06-30 22:01:42 | INFO | Created footer-global metadata (selector: #ec-footer)
+2026-06-30 22:01:43 | INFO | Captured 2 block screenshots
+2026-06-30 22:01:43 | INFO | Detected 2 blocks
+2026-06-30 22:01:43 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:01:43 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:01:44 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:01:44 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:01:44 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas
+2026-06-30 22:01:44 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas--76608661/page-catalog.json
+2026-06-30 22:01:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:01:44 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:01:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:01:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:01:44 | INFO | Main content: #main-content
+2026-06-30 22:01:44 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas
+2026-06-30 22:01:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:01:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:01:44 | INFO |    Top-section: 12 rows via title+container
+2026-06-30 22:01:44 | INFO |    Body start: y=300 (start row 12 via below-title+container)
+2026-06-30 22:01:44 | INFO | URL Pattern: /
+2026-06-30 22:01:44 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br--bdf20611/page-catalog.json
+2026-06-30 22:01:44 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/
+2026-06-30 22:01:44 | INFO | [6/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 22:01:44 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_dados-abertos--bd7294bd
+2026-06-30 22:01:44 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/dados-abertos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_dados-abertos--bd7294bd
+2026-06-30 22:01:44 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 22:01:44 | INFO | Captured 3 block screenshots
+2026-06-30 22:01:44 | INFO | Detected 3 blocks
+2026-06-30 22:01:44 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:01:45 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:01:45 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:01:45 | INFO | URL Pattern: /acesso-a-informacao/auditorias
+2026-06-30 22:01:45 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias--bf963d6c/page-catalog.json
+2026-06-30 22:01:45 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias
+2026-06-30 22:01:45 | INFO | [7/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 22:01:45 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_empregados-publicos--0f02e060
+2026-06-30 22:01:45 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/empregados-publicos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_empregados-publicos--0f02e060
+2026-06-30 22:01:45 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 22:01:45 | INFO | [8/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 22:01:45 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_informacoes-classificadas--9815ed78
+2026-06-30 22:01:45 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/informacoes-classificadas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_informacoes-classificadas--9815ed78
+2026-06-30 22:01:45 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 22:01:46 | INFO | [9/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional
+2026-06-30 22:01:46 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional--a4163172
+2026-06-30 22:01:46 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional--a4163172
+2026-06-30 22:01:47 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional
+2026-06-30 22:01:47 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:01:47 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:01:47 | INFO | URL Pattern: /acesso-a-informacao/convenios-e-transferencias
+2026-06-30 22:01:47 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_convenios-e-transferencias--ddaa7a84/page-catalog.json
+2026-06-30 22:01:47 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/convenios-e-transferencias
+2026-06-30 22:01:47 | INFO | PROGRESS: 5/60 analyzed (8% checklist complete) | 5 ok, 0 failed, 0 skipped | ~15 min remaining
+2026-06-30 22:01:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:01:48 | INFO | [10/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 22:01:48 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos--9dfb26e4
+2026-06-30 22:01:48 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos--9dfb26e4
+2026-06-30 22:01:48 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 22:01:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:01:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:01:49 | INFO | Lazy-load scroll complete
+2026-06-30 22:01:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:01:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:01:50 | INFO | Lazy-load scroll complete
+2026-06-30 22:01:50 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:01:50 | INFO | Lazy-load scroll complete
+2026-06-30 22:01:50 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:01:51 | INFO | Lazy-load scroll complete
+2026-06-30 22:01:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:01:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:01:53 | INFO | Lazy-load scroll complete
+2026-06-30 22:01:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:02:50 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:02:50 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:02:50 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:02:50 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:02:50 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:02:50 | INFO | Main content: #main-content
+2026-06-30 22:02:50 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:02:50 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:02:51 | INFO | Captured 2 block screenshots
+2026-06-30 22:02:51 | INFO | Detected 2 blocks
+2026-06-30 22:02:51 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:02:51 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:02:51 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:02:51 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:02:51 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:02:51 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:02:51 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:02:51 | INFO | Main content: #main-content
+2026-06-30 22:02:51 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:02:51 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:02:51 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:02:51 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:02:51 | INFO | Main content: #main-content
+2026-06-30 22:02:52 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:02:52 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:02:52 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:02:52 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:02:52 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:02:52 | INFO | Captured 2 block screenshots
+2026-06-30 22:02:52 | INFO | Detected 2 blocks
+2026-06-30 22:02:52 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:02:52 | INFO | Captured 4 block screenshots
+2026-06-30 22:02:52 | INFO | Detected 4 blocks
+2026-06-30 22:02:52 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:02:53 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:02:53 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:02:53 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:02:53 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:02:53 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:02:53 | INFO | Main content: #main-content
+2026-06-30 22:02:53 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:02:53 | WARNING | Blocks - 71% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:02:53 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:02:53 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:02:53 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:02:53 | INFO | URL Pattern: /acesso-a-informacao/dados-abertos
+2026-06-30 22:02:53 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_dados-abertos--bd7294bd/page-catalog.json
+2026-06-30 22:02:53 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/dados-abertos
+2026-06-30 22:02:54 | INFO | Captured 7 block screenshots
+2026-06-30 22:02:54 | INFO | Detected 7 blocks
+2026-06-30 22:02:54 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:02:54 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:02:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:02:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:02:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:02:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:02:54 | INFO | Main content: #main-content
+2026-06-30 22:02:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:02:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:02:54 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:02:54 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:02:54 | INFO | URL Pattern: /acesso-a-informacao/informacoes-classificadas
+2026-06-30 22:02:54 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_informacoes-classificadas--9815ed78/page-catalog.json
+2026-06-30 22:02:54 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/informacoes-classificadas
+2026-06-30 22:02:55 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:02:55 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:02:55 | INFO | URL Pattern: /acesso-a-informacao/empregados-publicos
+2026-06-30 22:02:55 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_empregados-publicos--0f02e060/page-catalog.json
+2026-06-30 22:02:55 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/empregados-publicos
+2026-06-30 22:02:55 | INFO | [11/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social
+2026-06-30 22:02:55 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social--994187e3
+2026-06-30 22:02:55 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social--994187e3
+2026-06-30 22:02:55 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social
+2026-06-30 22:02:55 | INFO | Captured 2 block screenshots
+2026-06-30 22:02:55 | INFO | Detected 2 blocks
+2026-06-30 22:02:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:02:56 | INFO | [12/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 22:02:56 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_perguntas-frequentes--3204996e
+2026-06-30 22:02:56 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/perguntas-frequentes -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_perguntas-frequentes--3204996e
+2026-06-30 22:02:56 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 22:02:56 | INFO |    Top-section: 13 rows via title
+2026-06-30 22:02:56 | INFO |    Body start: y=325 (start row 13 via below-title)
+2026-06-30 22:02:56 | INFO | URL Pattern: /acesso-a-informacao/institucional
+2026-06-30 22:02:56 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional--a4163172/page-catalog.json
+2026-06-30 22:02:56 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional
+2026-06-30 22:02:56 | INFO | [13/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 22:02:56 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas--99de8e47
+2026-06-30 22:02:56 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas--99de8e47
+2026-06-30 22:02:56 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 22:02:57 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:02:57 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:02:57 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 22:02:57 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos--9dfb26e4/page-catalog.json
+2026-06-30 22:02:57 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos
+2026-06-30 22:02:57 | INFO | PROGRESS: 10/60 analyzed (17% checklist complete) | 10 ok, 0 failed, 0 skipped | ~13 min remaining
+2026-06-30 22:02:58 | INFO | [14/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 22:02:58 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_sancoes-administrativas--32909856
+2026-06-30 22:02:58 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/sancoes-administrativas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_sancoes-administrativas--32909856
+2026-06-30 22:02:58 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 22:02:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:02:59 | INFO | [15/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 22:02:59 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--d823533f
+2026-06-30 22:02:59 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--d823533f
+2026-06-30 22:02:59 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 22:02:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:02:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:03:00 | INFO | Lazy-load scroll complete
+2026-06-30 22:03:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:03:01 | INFO | Lazy-load scroll complete
+2026-06-30 22:03:01 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:03:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:03:01 | INFO | Lazy-load scroll complete
+2026-06-30 22:03:01 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:03:02 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:03:02 | INFO | Lazy-load scroll complete
+2026-06-30 22:03:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:03:04 | INFO | Lazy-load scroll complete
+2026-06-30 22:03:04 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:04:01 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:04:01 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:04:01 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:04:01 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:04:01 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:04:01 | INFO | Main content: #main-content
+2026-06-30 22:04:01 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:04:01 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:04:01 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:04:02 | INFO | Captured 2 block screenshots
+2026-06-30 22:04:02 | INFO | Detected 2 blocks
+2026-06-30 22:04:02 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:04:02 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:04:02 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:04:02 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:04:02 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:04:02 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:04:02 | INFO | Main content: #main-content
+2026-06-30 22:04:02 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:04:02 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:04:02 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:04:02 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:04:02 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:04:02 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:04:02 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:04:02 | INFO | Main content: #main-content
+2026-06-30 22:04:02 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:04:02 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:04:02 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 22:04:03 | INFO | Captured 2 block screenshots
+2026-06-30 22:04:03 | INFO | Detected 3 blocks
+2026-06-30 22:04:03 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:04:03 | INFO | Captured 2 block screenshots
+2026-06-30 22:04:03 | INFO | Detected 2 blocks
+2026-06-30 22:04:03 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:04:04 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:04:04 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:04:04 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:04:04 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:04:04 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:04:04 | INFO | Main content: #main-content
+2026-06-30 22:04:04 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:04:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:04:04 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:04:04 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:04:04 | INFO | URL Pattern: /acesso-a-informacao/participacao-social
+2026-06-30 22:04:04 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social--994187e3/page-catalog.json
+2026-06-30 22:04:04 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social
+2026-06-30 22:04:04 | INFO | Captured 3 block screenshots
+2026-06-30 22:04:04 | INFO | Detected 3 blocks
+2026-06-30 22:04:04 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:04:05 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:04:05 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:04:05 | INFO | URL Pattern: /acesso-a-informacao/perguntas-frequentes
+2026-06-30 22:04:05 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_perguntas-frequentes--3204996e/page-catalog.json
+2026-06-30 22:04:05 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/perguntas-frequentes
+2026-06-30 22:04:05 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:04:05 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:04:05 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas
+2026-06-30 22:04:05 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas--99de8e47/page-catalog.json
+2026-06-30 22:04:05 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas
+2026-06-30 22:04:05 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:04:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:04:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:04:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:04:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:04:05 | INFO | Main content: #main-content
+2026-06-30 22:04:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:04:05 | WARNING | Blocks - 71% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:04:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:04:06 | INFO | [16/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 22:04:06 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--44a867f4
+2026-06-30 22:04:06 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--44a867f4
+2026-06-30 22:04:06 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 22:04:06 | INFO | Captured 7 block screenshots
+2026-06-30 22:04:06 | INFO | Detected 7 blocks
+2026-06-30 22:04:06 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:04:07 | INFO | [17/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 22:04:07 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d152c964
+2026-06-30 22:04:07 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d152c964
+2026-06-30 22:04:07 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 22:04:07 | INFO | [18/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 22:04:07 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_governanca--2c761656
+2026-06-30 22:04:07 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/governanca -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_governanca--2c761656
+2026-06-30 22:04:07 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:04:07 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:04:07 | INFO | URL Pattern: /acesso-a-informacao/sancoes-administrativas
+2026-06-30 22:04:07 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_sancoes-administrativas--32909856/page-catalog.json
+2026-06-30 22:04:07 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 22:04:07 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/sancoes-administrativas
+2026-06-30 22:04:08 | INFO | [19/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 22:04:08 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--82bd7e1d
+2026-06-30 22:04:08 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--82bd7e1d
+2026-06-30 22:04:08 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 22:04:09 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:04:09 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:04:09 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 22:04:09 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--d823533f/page-catalog.json
+2026-06-30 22:04:09 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic
+2026-06-30 22:04:09 | INFO | PROGRESS: 15/60 analyzed (25% checklist complete) | 15 ok, 0 failed, 0 skipped | ~12 min remaining
+2026-06-30 22:04:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:04:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:04:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:04:10 | INFO | [20/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 22:04:10 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--73d8bdb6
+2026-06-30 22:04:10 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--73d8bdb6
+2026-06-30 22:04:10 | INFO | Lazy-load scroll complete
+2026-06-30 22:04:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:04:10 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 22:04:11 | INFO | Lazy-load scroll complete
+2026-06-30 22:04:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:04:12 | INFO | Lazy-load scroll complete
+2026-06-30 22:04:12 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:04:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:04:13 | INFO | Lazy-load scroll complete
+2026-06-30 22:04:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:04:14 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:04:15 | INFO | Lazy-load scroll complete
+2026-06-30 22:04:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:05:12 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:05:12 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:05:12 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:05:12 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:05:12 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:05:12 | INFO | Main content: #main-content
+2026-06-30 22:05:12 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:05:12 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:05:13 | INFO | Captured 3 block screenshots
+2026-06-30 22:05:13 | INFO | Detected 3 blocks
+2026-06-30 22:05:13 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:05:13 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:05:13 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:05:13 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:05:13 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:05:13 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:05:13 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:05:13 | INFO | Main content: #main-content
+2026-06-30 22:05:13 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:05:13 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:05:13 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:05:13 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:05:13 | INFO | Main content: #main-content
+2026-06-30 22:05:13 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:05:13 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:05:13 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:05:13 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:05:14 | INFO | Captured 3 block screenshots
+2026-06-30 22:05:14 | INFO | Detected 3 blocks
+2026-06-30 22:05:14 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:05:14 | INFO | Captured 3 block screenshots
+2026-06-30 22:05:14 | INFO | Detected 3 blocks
+2026-06-30 22:05:14 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:05:14 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:05:14 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:05:14 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:05:14 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:05:14 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:05:14 | INFO | Main content: #main-content
+2026-06-30 22:05:14 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:05:14 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:05:14 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:05:15 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:05:15 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:05:15 | INFO | URL Pattern: /acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 22:05:15 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--44a867f4/page-catalog.json
+2026-06-30 22:05:15 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas
+2026-06-30 22:05:15 | INFO | Captured 3 block screenshots
+2026-06-30 22:05:15 | INFO | Detected 3 blocks
+2026-06-30 22:05:15 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:05:16 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:05:16 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:05:16 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 22:05:16 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_governanca--2c761656/page-catalog.json
+2026-06-30 22:05:16 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:05:16 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:05:16 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 22:05:16 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--d152c964/page-catalog.json
+2026-06-30 22:05:16 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/governanca
+2026-06-30 22:05:16 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos
+2026-06-30 22:05:16 | INFO | [21/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 22:05:16 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--35d7822f
+2026-06-30 22:05:16 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--35d7822f
+2026-06-30 22:05:16 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 22:05:16 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:05:16 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:05:16 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:05:16 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:05:16 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:05:16 | INFO | Main content: #main-content
+2026-06-30 22:05:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:05:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:05:17 | INFO | Captured 3 block screenshots
+2026-06-30 22:05:17 | INFO | Detected 3 blocks
+2026-06-30 22:05:17 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:05:17 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:05:17 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:05:17 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 22:05:17 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--82bd7e1d/page-catalog.json
+2026-06-30 22:05:17 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos
+2026-06-30 22:05:17 | INFO | [22/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 22:05:17 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--d074f71e
+2026-06-30 22:05:17 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--d074f71e
+2026-06-30 22:05:17 | INFO | [23/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 22:05:17 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--623a84df
+2026-06-30 22:05:17 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/prestacao-de-contas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--623a84df
+2026-06-30 22:05:18 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 22:05:18 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 22:05:19 | INFO | [24/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 22:05:19 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--44f02e70
+2026-06-30 22:05:19 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--44f02e70
+2026-06-30 22:05:19 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 22:05:20 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 22:05:20 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 22:05:20 | INFO | URL Pattern: /acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 22:05:20 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--73d8bdb6/page-catalog.json
+2026-06-30 22:05:20 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas
+2026-06-30 22:05:20 | INFO | PROGRESS: 20/60 analyzed (33% checklist complete) | 20 ok, 0 failed, 0 skipped | ~10 min remaining
+2026-06-30 22:05:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:05:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:05:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:05:21 | INFO | [25/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 22:05:21 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3d8ac2b6
+2026-06-30 22:05:21 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/agenda-de-autoridades -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3d8ac2b6
+2026-06-30 22:05:21 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 22:05:21 | INFO | Lazy-load scroll complete
+2026-06-30 22:05:21 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:05:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:05:22 | INFO | Lazy-load scroll complete
+2026-06-30 22:05:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:05:22 | INFO | Lazy-load scroll complete
+2026-06-30 22:05:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:05:24 | INFO | Lazy-load scroll complete
+2026-06-30 22:05:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:05:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:05:26 | INFO | Lazy-load scroll complete
+2026-06-30 22:05:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:05:57 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:05:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:05:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:05:57 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:05:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:05:57 | INFO | Main content: #main-content
+2026-06-30 22:05:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:05:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:05:58 | INFO | Captured 3 block screenshots
+2026-06-30 22:05:58 | INFO | Detected 3 blocks
+2026-06-30 22:05:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:06:01 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:06:01 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:06:01 | INFO | URL Pattern: /acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 22:06:01 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--3d8ac2b6/page-catalog.json
+2026-06-30 22:06:01 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/agenda-de-autoridades
+2026-06-30 22:06:02 | INFO | [26/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 22:06:02 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_atas--6a8d7382
+2026-06-30 22:06:02 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_atas--6a8d7382
+2026-06-30 22:06:02 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 22:06:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:06:07 | INFO | Lazy-load scroll complete
+2026-06-30 22:06:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:06:23 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:06:23 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:06:23 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:06:23 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:06:23 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:06:23 | INFO | Main content: #main-content
+2026-06-30 22:06:23 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:06:23 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:06:23 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:06:23 | INFO | Captured 2 block screenshots
+2026-06-30 22:06:23 | INFO | Detected 2 blocks
+2026-06-30 22:06:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:06:24 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:06:24 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:06:24 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:06:24 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:06:24 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:06:24 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:06:24 | INFO | Main content: #main-content
+2026-06-30 22:06:24 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:06:24 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:06:24 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:06:24 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:06:24 | INFO | Main content: #main-content
+2026-06-30 22:06:24 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:06:24 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:06:24 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:06:24 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:06:24 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:06:24 | INFO | Captured 2 block screenshots
+2026-06-30 22:06:24 | INFO | Detected 2 blocks
+2026-06-30 22:06:24 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:06:24 | INFO | Captured 2 block screenshots
+2026-06-30 22:06:24 | INFO | Detected 2 blocks
+2026-06-30 22:06:24 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:06:25 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:06:25 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:06:25 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:06:25 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:06:25 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:06:25 | INFO | Main content: #main-content
+2026-06-30 22:06:25 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:06:25 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:06:25 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:06:26 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 22:06:26 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 22:06:26 | INFO | URL Pattern: /acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 22:06:26 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--35d7822f/page-catalog.json
+2026-06-30 22:06:26 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao
+2026-06-30 22:06:26 | INFO | Captured 2 block screenshots
+2026-06-30 22:06:26 | INFO | Detected 2 blocks
+2026-06-30 22:06:26 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:06:27 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:06:27 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:06:27 | INFO | URL Pattern: /acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 22:06:27 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--d074f71e/page-catalog.json
+2026-06-30 22:06:27 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:06:27 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:06:27 | INFO | URL Pattern: /acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 22:06:27 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_prestacao-de-contas--623a84df/page-catalog.json
+2026-06-30 22:06:27 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras
+2026-06-30 22:06:27 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/prestacao-de-contas
+2026-06-30 22:06:27 | INFO | [27/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 22:06:27 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_atos-normativos--c4365ea4
+2026-06-30 22:06:27 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atos-normativos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_atos-normativos--c4365ea4
+2026-06-30 22:06:27 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 22:06:28 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:06:28 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:06:28 | INFO | URL Pattern: /acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 22:06:28 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--44f02e70/page-catalog.json
+2026-06-30 22:06:28 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu
+2026-06-30 22:06:28 | INFO | PROGRESS: 25/60 analyzed (42% checklist complete) | 25 ok, 0 failed, 0 skipped | ~9 min remaining
+2026-06-30 22:06:28 | INFO | [28/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 22:06:28 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_horario-de-atendimento--03f14f46
+2026-06-30 22:06:28 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/horario-de-atendimento -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_horario-de-atendimento--03f14f46
+2026-06-30 22:06:28 | INFO | [29/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 22:06:28 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_hospitalidades--67593d8a
+2026-06-30 22:06:28 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/hospitalidades -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_hospitalidades--67593d8a
+2026-06-30 22:06:28 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 22:06:28 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 22:06:30 | INFO | [30/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 22:06:30 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_presentes--cf009445
+2026-06-30 22:06:30 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/presentes -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_presentes--cf009445
+2026-06-30 22:06:30 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 22:06:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:06:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:06:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:06:32 | INFO | Lazy-load scroll complete
+2026-06-30 22:06:32 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:06:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:06:33 | INFO | Lazy-load scroll complete
+2026-06-30 22:06:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:06:33 | INFO | Lazy-load scroll complete
+2026-06-30 22:06:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:06:34 | INFO | Lazy-load scroll complete
+2026-06-30 22:06:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:07:08 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:07:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:07:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:07:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:07:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:07:08 | INFO | Main content: #main-content
+2026-06-30 22:07:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:07:09 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:07:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:07:09 | INFO | Captured 3 block screenshots
+2026-06-30 22:07:09 | INFO | Detected 3 blocks
+2026-06-30 22:07:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:07:12 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:07:12 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:07:12 | INFO | URL Pattern: /acesso-a-informacao/institucional/atas
+2026-06-30 22:07:12 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_atas--6a8d7382/page-catalog.json
+2026-06-30 22:07:12 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atas
+2026-06-30 22:07:13 | INFO | [31/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 22:07:13 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_institucional_sobre--9e68ff8e
+2026-06-30 22:07:13 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/sobre -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_sobre--9e68ff8e
+2026-06-30 22:07:13 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 22:07:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:07:18 | INFO | Lazy-load scroll complete
+2026-06-30 22:07:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:07:33 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:07:33 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:07:33 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:07:33 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:07:33 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:07:33 | INFO | Main content: #main-content
+2026-06-30 22:07:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:07:34 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:07:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:07:34 | INFO | Captured 2 block screenshots
+2026-06-30 22:07:34 | INFO | Detected 2 blocks
+2026-06-30 22:07:34 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:07:34 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:07:34 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:07:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:07:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:07:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:07:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:07:34 | INFO | Main content: #main-content
+2026-06-30 22:07:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:07:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:07:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:07:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:07:34 | INFO | Main content: #main-content
+2026-06-30 22:07:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:07:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:07:35 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:07:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:07:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:07:35 | INFO | Captured 2 block screenshots
+2026-06-30 22:07:35 | INFO | Detected 2 blocks
+2026-06-30 22:07:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:07:35 | INFO | Captured 3 block screenshots
+2026-06-30 22:07:35 | INFO | Detected 3 blocks
+2026-06-30 22:07:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:07:36 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:07:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:07:36 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:07:36 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:07:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:07:36 | INFO | Main content: #main-content
+2026-06-30 22:07:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:07:36 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:07:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:07:37 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:07:37 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:07:37 | INFO | URL Pattern: /acesso-a-informacao/institucional/atos-normativos
+2026-06-30 22:07:37 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_atos-normativos--c4365ea4/page-catalog.json
+2026-06-30 22:07:37 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/atos-normativos
+2026-06-30 22:07:37 | INFO | Captured 3 block screenshots
+2026-06-30 22:07:37 | INFO | Detected 3 blocks
+2026-06-30 22:07:37 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:07:37 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:07:37 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:07:37 | INFO | URL Pattern: /acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 22:07:37 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_horario-de-atendimento--03f14f46/page-catalog.json
+2026-06-30 22:07:37 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/horario-de-atendimento
+2026-06-30 22:07:37 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:07:37 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:07:37 | INFO | URL Pattern: /acesso-a-informacao/institucional/hospitalidades
+2026-06-30 22:07:38 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_hospitalidades--67593d8a/page-catalog.json
+2026-06-30 22:07:38 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/hospitalidades
+2026-06-30 22:07:38 | INFO | [32/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 22:07:38 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--95962fd7
+2026-06-30 22:07:38 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--95962fd7
+2026-06-30 22:07:38 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 22:07:39 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:07:39 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:07:39 | INFO | URL Pattern: /acesso-a-informacao/institucional/presentes
+2026-06-30 22:07:39 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_presentes--cf009445/page-catalog.json
+2026-06-30 22:07:39 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/presentes
+2026-06-30 22:07:39 | INFO | PROGRESS: 30/60 analyzed (50% checklist complete) | 30 ok, 0 failed, 0 skipped | ~8 min remaining
+2026-06-30 22:07:39 | INFO | [33/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 22:07:39 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--ab365ae6
+2026-06-30 22:07:39 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--ab365ae6
+2026-06-30 22:07:39 | INFO | [34/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 22:07:39 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--0295f378
+2026-06-30 22:07:39 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--0295f378
+2026-06-30 22:07:39 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 22:07:39 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 22:07:40 | INFO | [35/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 22:07:40 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--71aec80d
+2026-06-30 22:07:40 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--71aec80d
+2026-06-30 22:07:40 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 22:07:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:07:42 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:07:42 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:07:43 | INFO | Lazy-load scroll complete
+2026-06-30 22:07:43 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:07:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:07:44 | INFO | Lazy-load scroll complete
+2026-06-30 22:07:44 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:07:44 | INFO | Lazy-load scroll complete
+2026-06-30 22:07:44 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:07:45 | INFO | Lazy-load scroll complete
+2026-06-30 22:07:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:08:19 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:08:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:08:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:08:19 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:08:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:08:19 | INFO | Main content: #main-content
+2026-06-30 22:08:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:08:20 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:08:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:08:20 | INFO | Captured 2 block screenshots
+2026-06-30 22:08:20 | INFO | Detected 2 blocks
+2026-06-30 22:08:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:08:23 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:08:23 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:08:23 | INFO | URL Pattern: /acesso-a-informacao/institucional/sobre
+2026-06-30 22:08:23 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional_sobre--9e68ff8e/page-catalog.json
+2026-06-30 22:08:23 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional/sobre
+2026-06-30 22:08:24 | INFO | [36/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 22:08:24 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--2c68e1c7
+2026-06-30 22:08:24 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--2c68e1c7
+2026-06-30 22:08:24 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 22:08:27 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:08:29 | INFO | Lazy-load scroll complete
+2026-06-30 22:08:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:08:44 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:08:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:08:44 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:08:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:08:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:08:44 | INFO | Main content: #main-content
+2026-06-30 22:08:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:08:44 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:08:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:08:45 | INFO | Captured 2 block screenshots
+2026-06-30 22:08:45 | INFO | Detected 2 blocks
+2026-06-30 22:08:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:08:45 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:08:45 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:08:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:08:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:08:45 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:08:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:08:45 | INFO | Main content: #main-content
+2026-06-30 22:08:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:08:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:08:45 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:08:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:08:45 | INFO | Main content: #main-content
+2026-06-30 22:08:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:08:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:08:45 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:08:45 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:08:45 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:08:46 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 22:08:46 | INFO | Captured 2 block screenshots
+2026-06-30 22:08:46 | INFO | Detected 2 blocks
+2026-06-30 22:08:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:08:46 | INFO | Captured 2 block screenshots
+2026-06-30 22:08:46 | INFO | Detected 3 blocks
+2026-06-30 22:08:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:08:46 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:08:47 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:08:47 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:08:47 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:08:47 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:08:47 | INFO | Main content: #main-content
+2026-06-30 22:08:47 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:08:47 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:08:47 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:08:47 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:08:47 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:08:47 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 22:08:47 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--95962fd7/page-catalog.json
+2026-06-30 22:08:47 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos
+2026-06-30 22:08:47 | INFO | Captured 4 block screenshots
+2026-06-30 22:08:47 | INFO | Detected 4 blocks
+2026-06-30 22:08:47 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:08:48 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 22:08:48 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 22:08:48 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 22:08:48 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--0295f378/page-catalog.json
+2026-06-30 22:08:48 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:08:48 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:08:48 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 22:08:48 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--ab365ae6/page-catalog.json
+2026-06-30 22:08:48 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia
+2026-06-30 22:08:48 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos
+2026-06-30 22:08:49 | INFO | [37/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 22:08:49 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--101ea80f
+2026-06-30 22:08:49 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/audiencias-publicas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--101ea80f
+2026-06-30 22:08:49 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 22:08:50 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:08:50 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:08:50 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 22:08:50 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--71aec80d/page-catalog.json
+2026-06-30 22:08:50 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes
+2026-06-30 22:08:50 | INFO | PROGRESS: 35/60 analyzed (58% checklist complete) | 35 ok, 0 failed, 0 skipped | ~6 min remaining
+2026-06-30 22:08:50 | INFO | [38/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 22:08:50 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_conferencias--a915082b
+2026-06-30 22:08:50 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conferencias -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_conferencias--a915082b
+2026-06-30 22:08:50 | INFO | [39/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 22:08:50 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--ad0309d2
+2026-06-30 22:08:50 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--ad0309d2
+2026-06-30 22:08:50 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 22:08:50 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 22:08:51 | INFO | [40/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 22:08:51 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--552cc486
+2026-06-30 22:08:51 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--552cc486
+2026-06-30 22:08:51 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 22:08:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:08:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:08:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:08:54 | INFO | Lazy-load scroll complete
+2026-06-30 22:08:54 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:08:55 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:08:55 | INFO | Lazy-load scroll complete
+2026-06-30 22:08:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:08:55 | INFO | Lazy-load scroll complete
+2026-06-30 22:08:55 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:08:56 | INFO | Lazy-load scroll complete
+2026-06-30 22:08:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:09:30 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:09:30 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:09:30 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:09:30 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:09:30 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:09:30 | INFO | Main content: #main-content
+2026-06-30 22:09:30 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:09:30 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:09:31 | WARNING | Screenshots - Block not visible: unknown-367a09fc
+2026-06-30 22:09:31 | INFO | Captured 2 block screenshots
+2026-06-30 22:09:31 | INFO | Detected 3 blocks
+2026-06-30 22:09:31 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:09:33 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:09:33 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:09:33 | INFO | URL Pattern: /acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 22:09:33 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--2c68e1c7/page-catalog.json
+2026-06-30 22:09:33 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios
+2026-06-30 22:09:35 | INFO | [41/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 22:09:35 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_outras-acoes--6f20ebaf
+2026-06-30 22:09:35 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/outras-acoes -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_outras-acoes--6f20ebaf
+2026-06-30 22:09:35 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 22:09:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:09:40 | INFO | Lazy-load scroll complete
+2026-06-30 22:09:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:09:55 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:09:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:09:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:09:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:09:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:09:55 | INFO | Main content: #main-content
+2026-06-30 22:09:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:09:55 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:09:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:09:56 | INFO | Captured 2 block screenshots
+2026-06-30 22:09:56 | INFO | Detected 2 blocks
+2026-06-30 22:09:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:09:56 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:09:56 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:09:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:09:56 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:09:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:09:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:09:56 | INFO | Main content: #main-content
+2026-06-30 22:09:56 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:09:56 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:09:56 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:09:56 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:09:56 | INFO | Main content: #main-content
+2026-06-30 22:09:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:09:56 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:09:56 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:09:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:09:56 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:09:56 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:09:57 | INFO | Captured 2 block screenshots
+2026-06-30 22:09:57 | INFO | Detected 2 blocks
+2026-06-30 22:09:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:09:57 | INFO | Captured 2 block screenshots
+2026-06-30 22:09:57 | INFO | Detected 2 blocks
+2026-06-30 22:09:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:09:57 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:09:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:09:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:09:57 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:09:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:09:57 | INFO | Main content: #main-content
+2026-06-30 22:09:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:09:58 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:09:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:09:58 | INFO | Captured 2 block screenshots
+2026-06-30 22:09:58 | INFO | Detected 2 blocks
+2026-06-30 22:09:58 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:09:58 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:09:58 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:09:58 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 22:09:58 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--101ea80f/page-catalog.json
+2026-06-30 22:09:58 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/audiencias-publicas
+2026-06-30 22:09:59 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:09:59 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:09:59 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/conferencias
+2026-06-30 22:09:59 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_conferencias--a915082b/page-catalog.json
+2026-06-30 22:09:59 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:09:59 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:09:59 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 22:09:59 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--ad0309d2/page-catalog.json
+2026-06-30 22:09:59 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conferencias
+2026-06-30 22:09:59 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados
+2026-06-30 22:10:00 | INFO | [42/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 22:10:00 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_ouvidoria--946ade0d
+2026-06-30 22:10:00 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/ouvidoria -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_ouvidoria--946ade0d
+2026-06-30 22:10:00 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 22:10:01 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:10:01 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:10:01 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 22:10:01 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--552cc486/page-catalog.json
+2026-06-30 22:10:01 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico
+2026-06-30 22:10:01 | INFO | PROGRESS: 40/60 analyzed (67% checklist complete) | 40 ok, 0 failed, 0 skipped | ~5 min remaining
+2026-06-30 22:10:01 | INFO | [43/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 22:10:01 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--a992b235
+2026-06-30 22:10:01 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--a992b235
+2026-06-30 22:10:01 | INFO | [44/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 22:10:01 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--3ae438d9
+2026-06-30 22:10:01 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--3ae438d9
+2026-06-30 22:10:01 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 22:10:01 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 22:10:02 | INFO | [45/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 22:10:02 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--ed5e085b
+2026-06-30 22:10:02 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--ed5e085b
+2026-06-30 22:10:02 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 22:10:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:10:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:10:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:10:05 | INFO | Lazy-load scroll complete
+2026-06-30 22:10:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:10:05 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:10:05 | INFO | Lazy-load scroll complete
+2026-06-30 22:10:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:10:05 | INFO | Lazy-load scroll complete
+2026-06-30 22:10:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:10:07 | INFO | Lazy-load scroll complete
+2026-06-30 22:10:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:10:41 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:10:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:10:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:10:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:10:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:10:41 | INFO | Main content: #main-content
+2026-06-30 22:10:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:10:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:10:42 | INFO | Captured 3 block screenshots
+2026-06-30 22:10:42 | INFO | Detected 3 blocks
+2026-06-30 22:10:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:10:44 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:10:44 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:10:44 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 22:10:44 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_outras-acoes--6f20ebaf/page-catalog.json
+2026-06-30 22:10:44 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/outras-acoes
+2026-06-30 22:10:46 | INFO | [46/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 22:10:46 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--90cf1ff2
+2026-06-30 22:10:46 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--90cf1ff2
+2026-06-30 22:10:46 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 22:10:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:10:51 | INFO | Lazy-load scroll complete
+2026-06-30 22:10:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:11:06 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:11:06 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:11:06 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:11:06 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:11:06 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:11:06 | INFO | Main content: #main-content
+2026-06-30 22:11:06 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:11:06 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:11:07 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:11:07 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:11:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:11:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:11:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:11:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:11:07 | INFO | Main content: #main-content
+2026-06-30 22:11:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:11:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:11:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:11:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:11:07 | INFO | Main content: #main-content
+2026-06-30 22:11:07 | INFO | Captured 3 block screenshots
+2026-06-30 22:11:07 | INFO | Detected 3 blocks
+2026-06-30 22:11:07 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:11:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:11:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:11:07 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:11:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:11:07 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:11:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:11:08 | INFO | Captured 2 block screenshots
+2026-06-30 22:11:08 | INFO | Detected 2 blocks
+2026-06-30 22:11:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:11:08 | INFO | Captured 2 block screenshots
+2026-06-30 22:11:08 | INFO | Detected 2 blocks
+2026-06-30 22:11:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:11:08 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:11:08 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:11:08 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:11:08 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:11:08 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:11:08 | INFO | Main content: #main-content
+2026-06-30 22:11:08 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:11:08 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:11:09 | INFO | Captured 3 block screenshots
+2026-06-30 22:11:09 | INFO | Detected 3 blocks
+2026-06-30 22:11:09 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:11:09 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:11:09 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:11:09 | INFO | URL Pattern: /acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 22:11:09 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_ouvidoria--946ade0d/page-catalog.json
+2026-06-30 22:11:09 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/ouvidoria
+2026-06-30 22:11:10 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:11:10 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:11:10 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 22:11:10 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--3ae438d9/page-catalog.json
+2026-06-30 22:11:10 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens
+2026-06-30 22:11:10 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:11:10 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:11:10 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 22:11:10 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--a992b235/page-catalog.json
+2026-06-30 22:11:10 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis
+2026-06-30 22:11:11 | INFO | [47/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 22:11:11 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--ee0214e1
+2026-06-30 22:11:11 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--ee0214e1
+2026-06-30 22:11:11 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 22:11:11 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:11:11 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:11:11 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 22:11:11 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--ed5e085b/page-catalog.json
+2026-06-30 22:11:11 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens
+2026-06-30 22:11:11 | INFO | PROGRESS: 45/60 analyzed (75% checklist complete) | 45 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-06-30 22:11:11 | INFO | [48/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 22:11:11 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--8062e4fa
+2026-06-30 22:11:11 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--8062e4fa
+2026-06-30 22:11:11 | INFO | [49/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 22:11:11 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--206f27bd
+2026-06-30 22:11:11 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/publicidade -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--206f27bd
+2026-06-30 22:11:11 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 22:11:11 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 22:11:13 | INFO | [50/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 22:11:13 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_receitas--50ae2d10
+2026-06-30 22:11:13 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/receitas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_receitas--50ae2d10
+2026-06-30 22:11:13 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 22:11:14 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:11:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:11:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:11:16 | INFO | Lazy-load scroll complete
+2026-06-30 22:11:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:11:16 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:11:16 | INFO | Lazy-load scroll complete
+2026-06-30 22:11:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:11:16 | INFO | Lazy-load scroll complete
+2026-06-30 22:11:16 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:11:18 | INFO | Lazy-load scroll complete
+2026-06-30 22:11:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:11:52 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:11:52 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:11:52 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:11:52 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:11:52 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:11:52 | INFO | Main content: #main-content
+2026-06-30 22:11:52 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:11:52 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:11:53 | INFO | Captured 3 block screenshots
+2026-06-30 22:11:53 | INFO | Detected 3 blocks
+2026-06-30 22:11:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:11:55 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:11:55 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:11:55 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 22:11:55 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--90cf1ff2/page-catalog.json
+2026-06-30 22:11:55 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento
+2026-06-30 22:11:57 | INFO | [51/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 22:11:57 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--33bc3030
+2026-06-30 22:11:57 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--33bc3030
+2026-06-30 22:11:57 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 22:12:02 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:12:03 | INFO | Lazy-load scroll complete
+2026-06-30 22:12:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:12:17 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:12:17 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:12:17 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:12:17 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:12:17 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:12:17 | INFO | Main content: #main-content
+2026-06-30 22:12:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:12:17 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:12:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:12:18 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:12:18 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:12:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:12:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:12:18 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:12:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:12:18 | INFO | Main content: #main-content
+2026-06-30 22:12:18 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:12:18 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:12:18 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:12:18 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:12:18 | INFO | Main content: #main-content
+2026-06-30 22:12:18 | INFO | Captured 2 block screenshots
+2026-06-30 22:12:18 | INFO | Detected 2 blocks
+2026-06-30 22:12:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:12:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:12:18 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:12:18 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:12:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:12:18 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 22:12:18 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:12:18 | INFO | Captured 2 block screenshots
+2026-06-30 22:12:18 | INFO | Detected 2 blocks
+2026-06-30 22:12:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:12:18 | INFO | Captured 3 block screenshots
+2026-06-30 22:12:18 | INFO | Detected 3 blocks
+2026-06-30 22:12:18 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:12:19 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:12:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:12:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:12:19 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:12:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:12:19 | INFO | Main content: #main-content
+2026-06-30 22:12:19 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:12:19 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:12:20 | INFO | Captured 2 block screenshots
+2026-06-30 22:12:20 | INFO | Detected 2 blocks
+2026-06-30 22:12:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:12:20 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:12:20 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:12:20 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 22:12:20 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--ee0214e1/page-catalog.json
+2026-06-30 22:12:20 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos
+2026-06-30 22:12:21 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 22:12:21 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 22:12:21 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 22:12:21 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--8062e4fa/page-catalog.json
+2026-06-30 22:12:21 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas
+2026-06-30 22:12:21 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:12:21 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:12:21 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 22:12:21 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--206f27bd/page-catalog.json
+2026-06-30 22:12:21 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/publicidade
+2026-06-30 22:12:21 | INFO | [52/60] Processing: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 22:12:21 | INFO | Generated slug: baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--0a67b3b7
+2026-06-30 22:12:21 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--0a67b3b7
+2026-06-30 22:12:22 | INFO | Loading: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 22:12:22 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:12:22 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:12:22 | INFO | URL Pattern: /acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 22:12:22 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_receitas-e-despesas_receitas--50ae2d10/page-catalog.json
+2026-06-30 22:12:22 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/receitas-e-despesas/receitas
+2026-06-30 22:12:22 | INFO | PROGRESS: 50/60 analyzed (83% checklist complete) | 50 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 22:12:22 | INFO | [53/60] Processing: https://baixadasantistaenergia.com.br/institucional
+2026-06-30 22:12:22 | INFO | Generated slug: baixadasantistaenergia_com_br_institucional--16e5562f
+2026-06-30 22:12:22 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/institucional -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional--16e5562f
+2026-06-30 22:12:22 | INFO | Loading: https://baixadasantistaenergia.com.br/institucional
+2026-06-30 22:12:22 | INFO | [54/60] Processing: https://baixadasantistaenergia.com.br/institucional/auditoria
+2026-06-30 22:12:22 | INFO | Generated slug: baixadasantistaenergia_com_br_institucional_auditoria--ee948343
+2026-06-30 22:12:22 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/institucional/auditoria -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_auditoria--ee948343
+2026-06-30 22:12:22 | INFO | Loading: https://baixadasantistaenergia.com.br/institucional/auditoria
+2026-06-30 22:12:24 | INFO | [55/60] Processing: https://baixadasantistaenergia.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 22:12:24 | INFO | Generated slug: baixadasantistaenergia_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--8377efef
+2026-06-30 22:12:24 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--8377efef
+2026-06-30 22:12:24 | INFO | Loading: https://baixadasantistaenergia.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 22:12:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:12:26 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:12:27 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:12:27 | INFO | Lazy-load scroll complete
+2026-06-30 22:12:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:12:28 | INFO | Lazy-load scroll complete
+2026-06-30 22:12:28 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:12:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:12:29 | INFO | Lazy-load scroll complete
+2026-06-30 22:12:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:12:30 | INFO | Lazy-load scroll complete
+2026-06-30 22:12:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:13:05 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:13:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:13:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:13:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:13:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:13:05 | INFO | Main content: #main-content
+2026-06-30 22:13:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:13:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:13:05 | INFO | Captured 2 block screenshots
+2026-06-30 22:13:05 | INFO | Detected 2 blocks
+2026-06-30 22:13:05 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:13:08 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 22:13:08 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 22:13:08 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 22:13:08 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--33bc3030/page-catalog.json
+2026-06-30 22:13:08 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento
+2026-06-30 22:13:09 | INFO | [56/60] Processing: https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios
+2026-06-30 22:13:09 | INFO | Generated slug: baixadasantistaenergia_com_br_institucional_orgaos-estatutarios--92366290
+2026-06-30 22:13:09 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_orgaos-estatutarios--92366290
+2026-06-30 22:13:09 | INFO | Loading: https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios
+2026-06-30 22:13:16 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:13:18 | INFO | Lazy-load scroll complete
+2026-06-30 22:13:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:13:29 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:13:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:13:29 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:13:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:13:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:13:29 | INFO | Main content: #main-content
+2026-06-30 22:13:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:13:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:13:29 | INFO | Captured 2 block screenshots
+2026-06-30 22:13:29 | INFO | Detected 2 blocks
+2026-06-30 22:13:29 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:13:30 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:13:30 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:13:30 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:13:30 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:13:30 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:13:30 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:13:30 | INFO | Main content: #main-content
+2026-06-30 22:13:30 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:13:30 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:13:30 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:13:30 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:13:30 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:13:30 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:13:30 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:13:30 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:13:30 | INFO | Main content: #main-content
+2026-06-30 22:13:30 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:13:30 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:13:30 | INFO | Captured 3 block screenshots
+2026-06-30 22:13:30 | INFO | Detected 3 blocks
+2026-06-30 22:13:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:13:31 | INFO | Captured 7 block screenshots
+2026-06-30 22:13:31 | INFO | Detected 7 blocks
+2026-06-30 22:13:31 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:13:31 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:13:31 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:13:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:13:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:13:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:13:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:13:31 | INFO | Main content: #main-content
+2026-06-30 22:13:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:13:32 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:13:32 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:13:32 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:13:32 | INFO | URL Pattern: /acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 22:13:32 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--0a67b3b7/page-catalog.json
+2026-06-30 22:13:32 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic
+2026-06-30 22:13:33 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:13:33 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:13:33 | INFO | URL Pattern: /institucional/auditoria
+2026-06-30 22:13:33 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_auditoria--ee948343/page-catalog.json
+2026-06-30 22:13:33 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/institucional/auditoria
+2026-06-30 22:13:33 | INFO | [57/60] Processing: https://baixadasantistaenergia.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 22:13:33 | INFO | Generated slug: baixadasantistaenergia_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--19180992
+2026-06-30 22:13:33 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/institucional/relatorios-anuais-e-informacoes-financeiras -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--19180992
+2026-06-30 22:13:33 | INFO | Loading: https://baixadasantistaenergia.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 22:13:34 | INFO | Captured 24 block screenshots
+2026-06-30 22:13:34 | INFO | Detected 24 blocks
+2026-06-30 22:13:34 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:13:34 | INFO |    Top-section: 12 rows via title+container
+2026-06-30 22:13:34 | INFO |    Body start: y=300 (start row 12 via below-title+container)
+2026-06-30 22:13:34 | INFO | URL Pattern: /institucional
+2026-06-30 22:13:34 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional--16e5562f/page-catalog.json
+2026-06-30 22:13:34 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/institucional
+2026-06-30 22:13:34 | INFO | [58/60] Processing: https://baixadasantistaenergia.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 22:13:34 | INFO | Generated slug: baixadasantistaenergia_com_br_cartas-de-governanca-e-politicas-publicas--e27e517b
+2026-06-30 22:13:34 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/cartas-de-governanca-e-politicas-publicas -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_cartas-de-governanca-e-politicas-publicas--e27e517b
+2026-06-30 22:13:34 | INFO | Loading: https://baixadasantistaenergia.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 22:13:35 | INFO | [59/60] Processing: https://baixadasantistaenergia.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 22:13:35 | INFO | Generated slug: baixadasantistaenergia_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--3b435b5e
+2026-06-30 22:13:35 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--3b435b5e
+2026-06-30 22:13:35 | INFO | Loading: https://baixadasantistaenergia.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 22:13:36 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 22:13:36 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 22:13:36 | INFO | URL Pattern: /institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 22:13:36 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--8377efef/page-catalog.json
+2026-06-30 22:13:36 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens
+2026-06-30 22:13:36 | INFO | PROGRESS: 55/60 analyzed (92% checklist complete) | 55 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 22:13:38 | INFO | [60/60] Processing: https://baixadasantistaenergia.com.br/outras-informacoes
+2026-06-30 22:13:38 | INFO | Generated slug: baixadasantistaenergia_com_br_outras-informacoes--3ed94afc
+2026-06-30 22:13:38 | INFO | Starting analysis: https://baixadasantistaenergia.com.br/outras-informacoes -> /workspace/catalog/.pages/baixadasantistaenergia_com_br_outras-informacoes--3ed94afc
+2026-06-30 22:13:38 | INFO | Loading: https://baixadasantistaenergia.com.br/outras-informacoes
+2026-06-30 22:13:38 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:13:39 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:13:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:13:40 | INFO | Lazy-load scroll complete
+2026-06-30 22:13:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:13:40 | INFO | Lazy-load scroll complete
+2026-06-30 22:13:40 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:13:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 22:13:41 | INFO | Lazy-load scroll complete
+2026-06-30 22:13:41 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:13:42 | INFO | Lazy-load scroll complete
+2026-06-30 22:13:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 22:14:19 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:14:19 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:14:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:14:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:14:19 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:14:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:14:19 | INFO | Main content: #main-content
+2026-06-30 22:14:19 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:14:19 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:14:20 | INFO | Captured 7 block screenshots
+2026-06-30 22:14:20 | INFO | Detected 7 blocks
+2026-06-30 22:14:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:14:23 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:14:23 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:14:23 | INFO | URL Pattern: /institucional/orgaos-estatutarios
+2026-06-30 22:14:23 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_orgaos-estatutarios--92366290/page-catalog.json
+2026-06-30 22:14:23 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios
+2026-06-30 22:14:24 | INFO | Worker 4 finished
+2026-06-30 22:14:41 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:14:41 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:14:41 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:14:41 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:14:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:14:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:14:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:14:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:14:41 | INFO | Main content: #main-content
+2026-06-30 22:14:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:14:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:14:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:14:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:14:41 | INFO | Main content: #main-content
+2026-06-30 22:14:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:14:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:14:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:14:42 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:14:42 | INFO | Captured 3 block screenshots
+2026-06-30 22:14:42 | INFO | Detected 3 blocks
+2026-06-30 22:14:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:14:42 | INFO | Captured 6 block screenshots
+2026-06-30 22:14:42 | INFO | Detected 6 blocks
+2026-06-30 22:14:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:14:43 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:14:43 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:14:43 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:14:43 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:14:43 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:14:43 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:14:43 | INFO | Main content: #main-content
+2026-06-30 22:14:43 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:14:43 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:14:44 | INFO | Removed 3 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 22:14:44 | INFO | Template - Reused saved header selector on current page
+2026-06-30 22:14:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 22:14:44 | INFO | Header: complex complexity, 3 features
+2026-06-30 22:14:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 22:14:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 22:14:44 | INFO | Main content: #main-content
+2026-06-30 22:14:44 | INFO | Captured 7 block screenshots
+2026-06-30 22:14:44 | INFO | Detected 7 blocks
+2026-06-30 22:14:44 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:14:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 22:14:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 22:14:44 | INFO | Captured 2 block screenshots
+2026-06-30 22:14:44 | INFO | Detected 2 blocks
+2026-06-30 22:14:44 | INFO | Generating fingerprints for template discovery...
+2026-06-30 22:14:45 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 22:14:45 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 22:14:45 | INFO | URL Pattern: /demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 22:14:45 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--3b435b5e/page-catalog.json
+2026-06-30 22:14:45 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos
+2026-06-30 22:14:45 | INFO |    Top-section: 8 rows via title+container
+2026-06-30 22:14:45 | INFO |    Body start: y=200 (start row 8 via below-title+container)
+2026-06-30 22:14:45 | INFO | URL Pattern: /cartas-de-governanca-e-politicas-publicas
+2026-06-30 22:14:45 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_cartas-de-governanca-e-politicas-publicas--e27e517b/page-catalog.json
+2026-06-30 22:14:45 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/cartas-de-governanca-e-politicas-publicas
+2026-06-30 22:14:46 | INFO | Worker 2 finished
+2026-06-30 22:14:46 | INFO |    Top-section: 9 rows via title+container
+2026-06-30 22:14:46 | INFO |    Body start: y=225 (start row 9 via below-title+container)
+2026-06-30 22:14:46 | INFO | URL Pattern: /institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 22:14:46 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--19180992/page-catalog.json
+2026-06-30 22:14:46 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/institucional/relatorios-anuais-e-informacoes-financeiras
+2026-06-30 22:14:46 | INFO | Worker 0 finished
+2026-06-30 22:14:47 | INFO |    Top-section: 7 rows via title+container
+2026-06-30 22:14:47 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-06-30 22:14:47 | INFO | URL Pattern: /outras-informacoes
+2026-06-30 22:14:47 | INFO | Page catalog complete: /workspace/catalog/.pages/baixadasantistaenergia_com_br_outras-informacoes--3ed94afc/page-catalog.json
+2026-06-30 22:14:47 | INFO | SUCCESS: https://baixadasantistaenergia.com.br/outras-informacoes
+2026-06-30 22:14:47 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 22:14:47 | INFO | Worker 3 finished
+2026-06-30 22:14:48 | INFO | Worker 1 finished
+2026-06-30 22:14:48 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 22:14:48 | INFO | ================================================================================
+2026-06-30 22:14:48 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 22:14:48 | INFO | ================================================================================
+2026-06-30 22:14:48 | INFO | Total URLs: 60
+2026-06-30 22:14:48 | INFO | Attempt successes: 60
+2026-06-30 22:14:48 | INFO | Attempt failures: 0
+2026-06-30 22:14:48 | INFO | Skipped: 0
+2026-06-30 22:14:48 | INFO | Checklist final status: 60 analyzed, 0 failed, 0 marked
+2026-06-30 22:14:48 | INFO | Workers: 5
+2026-06-30 22:14:48 | INFO | ================================================================================
+2026-06-30 22:14:48 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T22:15:24.818Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T22:15:24.835Z | INFO | consolidate-fingerprints - Consolidated 60 fingerprints
+2026-06-30 22:15:39 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 22:15:39 | INFO | Agent 4 Progress - Starting representative pass with 7 page(s) and 32 block occurrence(s)
+2026-06-30 22:15:39 | INFO | Agent 4 Progress - representative: 7/7 page(s), 32/32 block occurrence(s), 13 unique signatures, 15 variants (13 new, 19 reused)
+2026-06-30 22:15:39 | INFO | Agent 4 Progress - Starting backfill pass with 53 page(s) and 166 block occurrence(s)
+2026-06-30 22:15:39 | ERROR | Agent 4 - Block unknown from https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia has no screenshot - cannot catalog without visual proof
+2026-06-30 22:15:39 | ERROR | Agent 4 - Block unknown from https://baixadasantistaenergia.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios has no screenshot - cannot catalog without visual proof
+2026-06-30 22:15:39 | INFO | Agent 4 Progress - backfill: 25/53 page(s), 61/166 block occurrence(s), 13 unique signatures, 15 variants (13 new, 80 reused)
+2026-06-30 22:15:39 | ERROR | Agent 4 - Block unknown from https://baixadasantistaenergia.com.br/acesso-a-informacao/perguntas-frequentes has no screenshot - cannot catalog without visual proof
+2026-06-30 22:15:39 | INFO | Agent 4 Progress - backfill: 50/53 page(s), 130/166 block occurrence(s), 17 unique signatures, 19 variants (17 new, 145 reused)
+2026-06-30 22:15:39 | INFO | Agent 4 Progress - backfill: 53/53 page(s), 163/166 block occurrence(s), 19 unique signatures, 21 variants (19 new, 176 reused)
+2026-06-30 22:15:39 | INFO | Agent 4 Completed - Cataloged 21 block variants (19 new, 176 reused)
+2026-06-30 22:15:39 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 22:15:39 | INFO | Session state set to INACTIVE
+2026-06-30 22:15:39 | INFO | Agent 2 Completed - Summary generated successfully

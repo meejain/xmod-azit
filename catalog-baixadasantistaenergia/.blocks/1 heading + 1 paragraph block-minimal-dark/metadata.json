@@ -1,0 +1,43 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:15:39.243Z",
+  "sourceContext": {
+    "originUrl": "https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_empregados-publicos--0f02e060/blocks/unknown-1f944a07.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_institucional--a4163172/blocks/unknown-6f7b784b.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_participacao-social_ouvidoria--946ade0d/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--d823533f/blocks/unknown-256c350b.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

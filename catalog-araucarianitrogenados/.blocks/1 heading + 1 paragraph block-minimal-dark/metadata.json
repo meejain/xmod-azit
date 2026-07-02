@@ -1,0 +1,47 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/acesso-a-informacao/institucional",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_empregados-publicos--f00e249d/blocks/unknown-78bb470f.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_institucional--a8690fa6/blocks/unknown-16a14698.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--0c47cca7/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_participacao-social_ouvidoria--5a2e90f1/blocks/unknown-5c2fc748.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--2bf5e9ba/blocks/unknown-4a4c53a5.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

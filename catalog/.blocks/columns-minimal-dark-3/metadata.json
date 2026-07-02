@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-3",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/fale-conosco",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 1 CTAs + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 1 CTAs + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/columns-57e17519.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_fale-conosco--e4adb542/blocks/columns-57e17519.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

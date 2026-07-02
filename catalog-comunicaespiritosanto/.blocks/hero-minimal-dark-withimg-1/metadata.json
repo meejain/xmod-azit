@@ -1,0 +1,63 @@
+{
+  "variantName": "hero-minimal-dark-withimg-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:35:10.434Z",
+  "sourceContext": {
+    "originUrl": "https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_fpso-capixaba1--9cf39cc9/blocks/hero-447fbec9.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_fpso-cidade-de-anchieta1--c7747166/blocks/hero-14863c33.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_fpso-maria-quit_C3_A9ria--76d8589d/blocks/hero-2c576896.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-57-p-57-1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-57-p-57-1--e89432fd/blocks/hero-6b40ef1c.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-58-p-58-1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-58-p-58-1--e6b91ea8/blocks/hero-52d651e2.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/impactos",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_impactos--0ce6bd94/blocks/hero-1d8dc6f7.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_modulo-de-operacao-de-pig-mop-1-1--d377c688/blocks/hero-15d151e2.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-de-cacimbas-utgc-1--c2e69484/blocks/hero-3f72152.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1--832417a6/blocks/hero-6dfd5e96.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

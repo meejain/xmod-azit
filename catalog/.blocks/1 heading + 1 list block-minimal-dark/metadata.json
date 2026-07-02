@@ -1,0 +1,103 @@
+{
+  "variantName": "1 heading + 1 list block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.213Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-pro--72c50d48/blocks/unknown-12b6b49e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_combustiveis-customizados--3d74319b/blocks/unknown-17bf5fd3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-verana--72d3604c/blocks/unknown-1c58f761.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_fertilizantes--327ce58f/blocks/unknown-4666d79b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/unknown-bd2064.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/unknown-1c603849.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-basico-lubrificante",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-basico-lubrificante--70b7b906/blocks/unknown-1fe1faf2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel-maritimo--9ec46392/blocks/unknown-59647f03.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleos-combustiveis--0dc14861/blocks/unknown-1bba8e30.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_parafina--74720faa/blocks/unknown-59e46246.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos-asfalticos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos-asfalticos--2aa5b68d/blocks/unknown-1eb74389.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refino--16ca74fa/blocks/unknown-5fbae1fc.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-pro--cd64c48a/blocks/unknown-3353f707.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-verana--e3d98c9f/blocks/unknown-5db92870.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/fertilizantes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_fertilizantes--a1277641/blocks/unknown-5580e65b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossa-marca--7325a41c/blocks/unknown-3b173666.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/unknown-3cc46fe3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel-maritimo--6b51fd56/blocks/unknown-5a6e9f22.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/unknown-38b00f4e.jpg"
+      }
+    ],
+    "reuseCount": 19
+  }
+}

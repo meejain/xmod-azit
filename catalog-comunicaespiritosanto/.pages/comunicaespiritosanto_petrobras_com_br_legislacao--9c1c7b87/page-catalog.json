@@ -1,0 +1,141 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/legislacao",
+  "timestamp": "2026-07-01T11:31:27.682Z",
+  "duration": "10.8s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/legislacao",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 36
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Legislação | Comunica Espirito Santo"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 1491
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 525,
+        "y": 40,
+        "width": 390,
+        "height": 44
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 163,
+        "width": 1199,
+        "height": 1128
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1342,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1208,
+        "y": 1432,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1254,
+        "y": 1432,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1300,
+        "y": 1432,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1346,
+        "y": 1432,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1392,
+        "y": 1432,
+        "width": 35,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1462,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1462,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": []
+}

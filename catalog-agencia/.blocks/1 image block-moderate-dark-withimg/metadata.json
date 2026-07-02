@@ -1,0 +1,43 @@
+{
+  "variantName": "1 image block-moderate-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.792Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-apoia-projetos-de-reciclagem-no-rio-e-na-baixada-fluminense-com-capacidade-de-reaproveitar-600-toneladas-de-materiais-por-ano--02a58a0e/blocks/unknown-18059109.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque--de9c5b74/blocks/unknown-1eded272.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-divulga-os-vencedores-da-selecao-petrobras-de-jornalismo--344bc9d6/blocks/unknown-18059147.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-tem-ultimos-dias-para-inscricoes--ddb9c289/blocks/unknown-1eded1f6.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

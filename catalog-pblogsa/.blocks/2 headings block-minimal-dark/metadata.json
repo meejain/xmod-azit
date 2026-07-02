@@ -1,0 +1,135 @@
+{
+  "variantName": "2 headings block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/acesso-a-informacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao--8f810e27/blocks/unknown-3f3c8efa.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_carta-de-servicos--1a0878b1/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/governanca",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_governanca--c2bc4f2b/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_recursos-financeiros-renuncia-de-receitas--3462d56d/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/auditorias/demonstracoes-financeiras",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_auditorias_demonstracoes-financeiras--943ac33f/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/auditorias/relatorios-da-cgu",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_auditorias_relatorios-da-cgu--f6d0bacc/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/convenios-e-transferencias",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_convenios-e-transferencias--89157025/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional--f75d336b/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/atas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_atas--89666e19/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/atos-normativos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_atos-normativos--a182b29f/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/licitacoes-e-contratos/aditivos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_licitacoes-e-contratos_aditivos--0ba30b6d/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos--e4c50599/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/licitacoes-e-contratos/contratos-de-transferencia-de-tecnologia",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_licitacoes-e-contratos_contratos-de-transferencia-de-tecnologia--f55e9d41/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/licitacoes-e-contratos/patrocinios",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_licitacoes-e-contratos_patrocinios--a6ccdb66/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social--ae4c6e6e/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/audiencias-publicas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_audiencias-publicas--b536f8ea/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/conferencias",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_conferencias--9cf8219a/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_conselhos-e-orgaos-colegiados--6cf87abf/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/editais-de-chamamento-publico",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_editais-de-chamamento-publico--dac92109/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/outras-acoes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_outras-acoes--74547665/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_perguntas-frequentes--f9fb866a/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/alienacao-de-bens-imoveis",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_alienacao-de-bens-imoveis--d2115ee7/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/aquisicao-de-bens",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_aquisicao-de-bens--158a4998/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-dividendos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-dividendos--11695d62/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/politica-de-transacoes-com-partes-relacionadas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_politica-de-transacoes-com-partes-relacionadas--79f7d3f5/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/publicidade",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_publicidade--82589593/blocks/unknown-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--2b21d89d/blocks/unknown-17c790da.jpg"
+      }
+    ],
+    "reuseCount": 27
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "variantName": "columns-minimal-dark-4",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/fale-conosco",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 2 CTAs + 6 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 2 CTAs + 6 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 2 CTAs + 6 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/columns-57e174fa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_inovacao-aberta--38ff84dd/blocks/columns-6e5d2aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_en_ouvidoria--08cae8fa/blocks/columns-5dd6dbd2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_fale-conosco--e4adb542/blocks/columns-57e174fa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_inovacao-aberta--a4d3fd4e/blocks/columns-c5e1e79.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_ouvidoria--aa65f3bd/blocks/columns-5dd6dbd2.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

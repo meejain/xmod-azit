@@ -1,0 +1,71 @@
+{
+  "variantName": "fragment_-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/acesso-a-informacao/perguntas-frequentes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/hospitalidades",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_hospitalidades--49d57017/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/presentes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_presentes--f66edbb3/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/perguntas-frequentes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_perguntas-frequentes--f9fb866a/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--8e914477/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_sancoes-administrativas--6bf0f43a/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/pblogsa_com_br_cartas-de-governanca-e-politicas-publicas--c9a2ec54/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/pblogsa_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--4b23aedb/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/auditoria",
+        "screenshot": ".pages/pblogsa_com_br_institucional_auditoria--a8db1e78/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/pblogsa_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--49bfdb19/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/pblogsa_com_br_institucional_orgaos-estatutarios--72beb255/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/pblogsa_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--8607467c/blocks/unknown-7e698045.jpg"
+      }
+    ],
+    "reuseCount": 11
+  }
+}

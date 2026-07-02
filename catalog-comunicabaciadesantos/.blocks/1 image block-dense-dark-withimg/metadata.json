@@ -1,0 +1,35 @@
+{
+  "variantName": "1 image block-dense-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.435Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/pesquisa-sismica-maritima",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "dense",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"dense\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/pesquisa-sismica-maritima",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_pesquisa-sismica-maritima--1cbc995c/blocks/unknown-3f7978b1.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/mexilhao",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_mexilhao--ac1e0851/blocks/unknown-6eb24001.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

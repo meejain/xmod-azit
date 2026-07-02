@@ -1,0 +1,161 @@
+{
+  "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+  "timestamp": "2026-06-30T22:21:29.974Z",
+  "duration": "69.1s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/acesso-a-informacao/acoes-e-programas/recursos-financeiros-renuncia-de-receitas",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 150
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 515,
+        "y": 65,
+        "width": 719,
+        "height": 76
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 515,
+        "y": 65,
+        "width": 853,
+        "height": 77,
+        "textLength": 58
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 142,
+    "topSectionTitleRect": {
+      "x": 515,
+      "y": 65,
+      "width": 853,
+      "height": 77,
+      "text": "Concessões de Recursos Financeiros ou Renúncia de Receitas"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 150,
+      "width": 1440,
+      "height": 1254
+    },
+    "bodyStartY": 150,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 0,
+        "y": 288,
+        "width": 288,
+        "height": 26
+      },
+      {
+        "type": "text",
+        "x": 515,
+        "y": 290,
+        "width": 853,
+        "height": 54
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "hero-5a57b68a",
+      "type": "hero",
+      "confidence": "high",
+      "description": "1 heading block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading"
+      },
+      "selector": "div.lfr-layout-structure-item-banner-hero---cor.lfr-layout-structure-item-276e39fa-b511-4f32-9cff-862c11e53ea6",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 238
+      },
+      "screenshot": "blocks/hero-5a57b68a.jpg"
+    },
+    {
+      "id": "default-110b1b2b",
+      "type": "default",
+      "confidence": "medium",
+      "description": "1 heading + 1 paragraph block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 1,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "#fragment-303aa660-64ef-58b9-adb6-e4d222d086f6 > div:nth-child(1)",
+      "bounds": {
+        "x": 72,
+        "y": 334,
+        "width": 1296,
+        "height": 218
+      },
+      "screenshot": "blocks/default-110b1b2b.jpg",
+      "reclassifiedFrom": "hero"
+    }
+  ]
+}

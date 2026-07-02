@@ -1,0 +1,108 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-07-01T14:13:22.846Z",
+    "totalBlockVariants": 7,
+    "totalBlocksProcessed": 1712,
+    "newVariantsCreated": 5,
+    "variantsReused": 1685,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 190,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "cards-minimal-light": {
+        "blockVariantId": "cards-minimal-light",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 185,
+        "description": "1 heading + 16 images + 2-item layout block; 1 heading + 18 images + 2-item layout block; card-category-highlight-container; card-category-tag-container",
+        "screenshots": [
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-746d7fc4.jpg",
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-746d7fa5.jpg",
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-746d7f86.jpg",
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-6935602a.jpg",
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-6935600b.jpg",
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/cards-69355fec.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 87,
+        "description": "1 image + video block; content-block",
+        "screenshots": [
+          ".pages/nossaenergia_petrobras_com_br_w_biocombustiveis-no-brasil-transicao-energetica-justa--33f2d06b/blocks/embed-4601e2bd.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_biocombustiveis-no-brasil-transicao-energetica-justa--33f2d06b/blocks/embed-4601e69d.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_biocombustiveis-no-brasil-transicao-energetica-justa--33f2d06b/blocks/embed-4601eed9.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_cartola-feminino-mais-espa_C3_A7o-e-visibilidade-para-o-futebol-das-nossas-craques--fabb5701/blocks/embed-3f04c1.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_inovacao_10-tipos-de-robos-usados-pela-petrobras--a3567a5a/blocks/embed-4601eaf9.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_inovacao_10-tipos-de-robos-usados-pela-petrobras--a3567a5a/blocks/embed-4601ee7c.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 14,
+        "description": "1 heading + 1 image + 3 CTAs block; 1 heading + 14 images block; 1 heading + 2-item layout block",
+        "screenshots": [
+          ".pages/nossaenergia_petrobras_com_br--6fe37d71/blocks/carousel-7936ceba.jpg",
+          ".pages/nossaenergia_petrobras_com_br_produtos-mais-sustentaveis--a3c0046b/blocks/carousel-1848a895.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_bacia-de-santos-da-inviabilidade-de-producao-aos-destaques-no-pre-sal--6b94c92a/blocks/carousel-5b06d9ea.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_d_C3_BAvidas-sobre-o-pre_C3_A7o-dos-combust_C3_ADveis-por-que-os-pre_C3_A7os-podem-variar--0cc13fe3/blocks/carousel-4cf78600.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_margem-equatorial--f097aa30/blocks/carousel-79f76689.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-e-o-cinema-nacional--3a9f6245/blocks/carousel-65099af4.jpg"
+        ]
+      },
+      "video-minimal-dark": {
+        "blockVariantId": "video-minimal-dark",
+        "baseBlock": "video",
+        "canonicalModel": "standalone",
+        "pagesFound": 5,
+        "description": "1 image + video block; 2 images block",
+        "screenshots": [
+          ".pages/nossaenergia_petrobras_com_br_w_inovacao_fpso--e6328a31/blocks/video-2216b0fc.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_inovacao_inovacao-aberta-e-o-futuro_-mas-voce-sabe-o-que-e--723e96ea/blocks/video-4601e2dc.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_fpso--11e55b27/blocks/video-2216b0fc.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_industria-naval-impulsiona-o-crescimento-do-brasil--dc14d51f/blocks/video-50528482.jpg",
+          ".pages/nossaenergia_petrobras_com_br_w_transicao-energetica_biogas--46d21e26/blocks/video-50528463.jpg"
+        ]
+      },
+      "search-minimal-dark": {
+        "blockVariantId": "search-minimal-dark",
+        "baseBlock": "search",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "2 headings + 42 images + 1 CTA + form + 2 lists + 2 paragraphs block; 2 headings + 44 images + 1 CTA + form + 2 lists + 2 paragraphs block; 2 headings + 46 images + 1 CTA + form + 2 lists + 2 paragrap",
+        "screenshots": [
+          ".pages/nossaenergia_petrobras_com_br_inovacao--f34e88df/blocks/search-adb3055.jpg",
+          ".pages/nossaenergia_petrobras_com_br_nossas-atividades--f69bb822/blocks/search-adb3055.jpg",
+          ".pages/nossaenergia_petrobras_com_br_sustentabilidade--23096223/blocks/search-adb3055.jpg",
+          ".pages/nossaenergia_petrobras_com_br_transicao-energetica--f4a7ed71/blocks/search-adb3055.jpg"
+        ]
+      }
+    }
+  }
+}

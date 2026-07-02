@@ -1,0 +1,75 @@
+{
+  "variantName": "fragment_-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.893Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/cartas-de-governanca-e-politicas-publicas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/hospitalidades",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_hospitalidades--7f0a7771/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/institucional/presentes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_institucional_presentes--565c5be9/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--08be12ae/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/participacao-social/outras-acoes",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_participacao-social_outras-acoes--1cd79dff/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--98e22fc9/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/termoba_com_br_acesso-a-informacao_sancoes-administrativas--d8bdc3f3/blocks/unknown-367a09fc.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/termoba_com_br_cartas-de-governanca-e-politicas-publicas--b39fbd9f/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/termoba_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--c9325598/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/auditoria",
+        "screenshot": ".pages/termoba_com_br_institucional_auditoria--e76c782f/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/termoba_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--f404dbf1/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/termoba_com_br_institucional_orgaos-estatutarios--57196900/blocks/unknown-7e698045.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/termoba_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--ee94458e/blocks/unknown-7e698045.jpg"
+      }
+    ],
+    "reuseCount": 12
+  }
+}

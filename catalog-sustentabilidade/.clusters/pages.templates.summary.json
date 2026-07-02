@@ -1,0 +1,68 @@
+{
+  "total_pages": 60,
+  "valid_clusters": 3,
+  "initial_singletons": 4,
+  "singleton_count": 0,
+  "singletons_merged": 4,
+  "merges": {
+    "-4": -3,
+    "-2": -1
+  },
+  "seed_quality": {
+    "initial_url_group_count": 1,
+    "stable_group_count": 5,
+    "split_group_count": 0,
+    "unclear_group_count": 0
+  },
+  "policy": {
+    "representative_selection": "block_cover",
+    "representative_max_count": 10,
+    "merge_phase": "top_section_only",
+    "family_body_split": true,
+    "body_matcher": "column_shape_smaller_side_paired"
+  },
+  "families": {
+    "count": 3,
+    "split_count": 0,
+    "families": [
+      {
+        "family_id": -3,
+        "page_count": 2,
+        "template_count": 1,
+        "templates": [
+          {
+            "cluster_id": -3,
+            "size": 2
+          }
+        ]
+      },
+      {
+        "family_id": -1,
+        "page_count": 2,
+        "template_count": 1,
+        "templates": [
+          {
+            "cluster_id": -1,
+            "size": 2
+          }
+        ]
+      },
+      {
+        "family_id": 1,
+        "page_count": 56,
+        "template_count": 1,
+        "templates": [
+          {
+            "cluster_id": 1,
+            "size": 56
+          }
+        ]
+      }
+    ]
+  },
+  "family_split": {
+    "families": 3,
+    "sub_templates": 3,
+    "splits": 0
+  }
+}

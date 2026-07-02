@@ -1,0 +1,68 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-8",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/jornada-da-energia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 4 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + text + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia--ff40a5f2/blocks/carousel-21db2cc6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_en_jornada-da-energia--f14d04a7/blocks/carousel-2a302c4b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios",
+        "screenshot": ".pages/petrobras_com_br_en_negocios--4601e2fc/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/pre-sal",
+        "screenshot": ".pages/petrobras_com_br_en_pre-sal--58d67a52/blocks/carousel-1be1167e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas--ac7fbe77/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/carousel-52ccd433.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/carousel-6315ebd1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/licenciamento-ambiental",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_licenciamento-ambiental--8d3d6a0c/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas--fbff7b74/blocks/carousel-1bfd4179.jpg"
+      }
+    ],
+    "reuseCount": 10
+  }
+}

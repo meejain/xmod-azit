@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-minimal-dark-withimg-7",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.222Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/trajetoria",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 4 CTAs + 48 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 4 CTAs + 48 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/trajetoria",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_trajetoria--1949951e/blocks/hero-461a1b08.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/trajetoria",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_trajetoria--b1342c85/blocks/hero-461a1b08.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

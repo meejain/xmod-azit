@@ -1,0 +1,1766 @@
+2026-07-01 11:30:12 | INFO | Setting up catalog project for: https://comunicaespiritosanto.petrobras.com.br/
+2026-07-01 11:30:12 | INFO | Project root: /workspace
+2026-07-01 11:30:12 | INFO | Creating catalog folder: /workspace/catalog
+2026-07-01 11:30:12 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-07-01 11:30:12 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-07-01 11:30:12 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-07-01 11:30:12 | INFO | Session initialized: DISCOVERY
+2026-07-01 11:30:12 | INFO | Catalog project setup complete
+2026-07-01 11:30:12 | INFO | Catalog folder: /workspace/catalog
+2026-07-01 11:30:12 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-07-01 11:30:12 | INFO | Log file: /workspace/catalog/catalog.log
+2026-07-01 11:30:12 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-07-01 11:30:12 | INFO | Creating sample URLs...
+2026-07-01 11:30:12 | INFO | Total URLs in grouped data: 66
+2026-07-01 11:30:12 | INFO | Total URLs (66) <= 1000, using ALL URLs
+2026-07-01 11:30:12 | INFO | Created urls-sample.json with 66 URLs
+2026-07-01 11:30:12 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-07-01 11:30:12 | INFO | Schema validation passed
+2026-07-01 11:30:12 | INFO | Sample creation complete - urls-sample.json with 66 URLs
+2026-07-01 11:30:12 | INFO | Checklist not found, looking for URLs source file...
+2026-07-01 11:30:12 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-07-01 11:30:13 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-07-01 11:30:13 | INFO | Created urls-checklist.json with 66 URLs
+2026-07-01 11:30:13 | INFO | Session state: ANALYZING
+2026-07-01 11:30:13 | INFO | ================================================================================
+2026-07-01 11:30:13 | INFO | BATCH ANALYSIS STARTED
+2026-07-01 11:30:13 | INFO | Catalog: /workspace/catalog
+2026-07-01 11:30:13 | INFO | Delay: 1500ms between requests
+2026-07-01 11:30:13 | INFO | Workers: 5
+2026-07-01 11:30:13 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-07-01 11:30:13 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-07-01 11:30:13 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-07-01 11:30:13 | INFO | ================================================================================
+2026-07-01 11:30:13 | INFO | Found 66 URLs to process (5 workers)
+2026-07-01 11:30:13 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-07-01 11:30:13 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-07-01 11:30:13 | INFO | Pages to analyze: 66
+2026-07-01 11:30:13 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-07-01 11:30:13 | INFO | Estimated analysis time: ~2 min
+2026-07-01 11:30:13 | INFO | Worker 0 started (profile 0: Windows)
+2026-07-01 11:30:13 | INFO | Launching stealth browser...
+2026-07-01 11:30:13 | INFO | [1/66] Processing: https://comunicaespiritosanto.petrobras.com.br/
+2026-07-01 11:30:13 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br--caec7366
+2026-07-01 11:30:13 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/ -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br--caec7366
+2026-07-01 11:30:13 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/
+2026-07-01 11:30:14 | INFO | Worker 1 started (profile 1: Windows)
+2026-07-01 11:30:14 | INFO | Launching stealth browser...
+2026-07-01 11:30:14 | INFO | [2/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/destaque-para-a%C3%A7%C3%B5es-de-socioeconomia-na-edi%C3%A7%C3%A3o-56-do-informe-comunidade
+2026-07-01 11:30:14 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_destaque-para-a_C3_A7_C3_B5es-de-socioeconomia-na-edi_C3_A7_C3_A3o-56-do-informe-comunidade--d7b75f92
+2026-07-01 11:30:14 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/destaque-para-a%C3%A7%C3%B5es-de-socioeconomia-na-edi%C3%A7%C3%A3o-56-do-informe-comunidade -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_destaque-para-a_C3_A7_C3_B5es-de-socioeconomia-na-edi_C3_A7_C3_A3o-56-do-informe-comunidade--d7b75f92
+2026-07-01 11:30:14 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/destaque-para-a%C3%A7%C3%B5es-de-socioeconomia-na-edi%C3%A7%C3%A3o-56-do-informe-comunidade
+2026-07-01 11:30:16 | INFO | Worker 2 started (profile 2: Windows)
+2026-07-01 11:30:16 | INFO | Launching stealth browser...
+2026-07-01 11:30:16 | INFO | [3/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/censo-vai-mapear-perfil-dos-trabalhadores-da-ind%C3%BAstria-de-petr%C3%B3leo-e-g%C3%A1s
+2026-07-01 11:30:16 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_censo-vai-mapear-perfil-dos-trabalhadores-da-ind_C3_BAstria-de-petr_C3_B3leo-e-g_C3_A1s--38ac300c
+2026-07-01 11:30:16 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/censo-vai-mapear-perfil-dos-trabalhadores-da-ind%C3%BAstria-de-petr%C3%B3leo-e-g%C3%A1s -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_censo-vai-mapear-perfil-dos-trabalhadores-da-ind_C3_BAstria-de-petr_C3_B3leo-e-g_C3_A1s--38ac300c
+2026-07-01 11:30:16 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/censo-vai-mapear-perfil-dos-trabalhadores-da-ind%C3%BAstria-de-petr%C3%B3leo-e-g%C3%A1s
+2026-07-01 11:30:17 | INFO | Worker 3 started (profile 3: Windows)
+2026-07-01 11:30:17 | INFO | Launching stealth browser...
+2026-07-01 11:30:17 | INFO | [4/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/evento-marca-culmin%C3%A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es
+2026-07-01 11:30:17 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_evento-marca-culmin_C3_A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es--80f8118e
+2026-07-01 11:30:17 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/evento-marca-culmin%C3%A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_evento-marca-culmin_C3_A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es--80f8118e
+2026-07-01 11:30:17 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/evento-marca-culmin%C3%A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es
+2026-07-01 11:30:19 | INFO | Worker 4 started (profile 4: macOS)
+2026-07-01 11:30:19 | INFO | Launching stealth browser...
+2026-07-01 11:30:19 | INFO | [5/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste
+2026-07-01 11:30:19 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste--96c42823
+2026-07-01 11:30:19 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste--96c42823
+2026-07-01 11:30:19 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste
+2026-07-01 11:30:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:22 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:22 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:23 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:23 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:23 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+   ✅ Saved global footer: div.footer-main
+2026-07-01 11:30:23 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:23 | INFO | Main content: #main-content
+   ✅ Saved global header: div.lfr-layout-structure-item-cabe-alho---comunica.lfr-layout-structure-item-bc7ec478-ef47-6551-c61c-e59a4797a3a6
+2026-07-01 11:30:23 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:23 | INFO | Main content: #main-content
+2026-07-01 11:30:23 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:23 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:23 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:23 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:30:23 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:24 | INFO | Captured 2 block screenshots
+2026-07-01 11:30:24 | INFO | Detected 2 blocks
+2026-07-01 11:30:24 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:24 | INFO | Captured 4 block screenshots
+2026-07-01 11:30:24 | INFO | Detected 4 blocks
+2026-07-01 11:30:24 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:24 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:25 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:25 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:25 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:25 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:25 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:25 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:25 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:25 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:25 | INFO | Main content: #main-content
+2026-07-01 11:30:25 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:25 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:25 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:25 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:25 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:25 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:25 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:25 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:25 | INFO | Main content: #main-content
+2026-07-01 11:30:25 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:25 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:26 | INFO | Captured 2 block screenshots
+2026-07-01 11:30:26 | INFO | Detected 2 blocks
+2026-07-01 11:30:26 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:26 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:26 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:26 | INFO |    Top-section: 30 rows via title+hero
+2026-07-01 11:30:26 | INFO |    Body start: y=825 (start row 33 via below-title+hero)
+2026-07-01 11:30:26 | INFO | URL Pattern: /w/destaque-para-a%C3%A7%C3%B5es-de-socioeconomia-na-edi%C3%A7%C3%A3o-56-do-informe-comunidade
+2026-07-01 11:30:26 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_destaque-para-a_C3_A7_C3_B5es-de-socioeconomia-na-edi_C3_A7_C3_A3o-56-do-informe-comunidade--d7b75f92/page-catalog.json
+2026-07-01 11:30:26 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/destaque-para-a%C3%A7%C3%B5es-de-socioeconomia-na-edi%C3%A7%C3%A3o-56-do-informe-comunidade
+2026-07-01 11:30:26 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-cabe-alho---comunica.lfr-layout-structure-item-bc7ec478-ef47-6551-c61c-e59a4797a3a6)
+2026-07-01 11:30:26 | INFO | Created footer-global metadata (selector: div.footer-main)
+2026-07-01 11:30:26 | INFO | Captured 2 block screenshots
+2026-07-01 11:30:26 | INFO | Detected 2 blocks
+2026-07-01 11:30:26 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:26 | INFO |    Top-section: 7 rows via title+container
+2026-07-01 11:30:26 | INFO |    Body start: y=175 (start row 7 via below-title+container)
+2026-07-01 11:30:26 | INFO | URL Pattern: /
+2026-07-01 11:30:26 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br--caec7366/page-catalog.json
+2026-07-01 11:30:26 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/
+2026-07-01 11:30:26 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:26 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:26 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:26 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:26 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:26 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:26 | INFO | Main content: #main-content
+2026-07-01 11:30:27 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:27 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:27 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:27 | INFO | Detected 1 blocks
+2026-07-01 11:30:27 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:28 | INFO | [6/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval
+2026-07-01 11:30:28 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_comunidades-pesqueiras-participam-de-oficinas-de-mec_C3_A2nica-naval--28fc5ae2
+2026-07-01 11:30:28 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_comunidades-pesqueiras-participam-de-oficinas-de-mec_C3_A2nica-naval--28fc5ae2
+2026-07-01 11:30:28 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval
+2026-07-01 11:30:28 | INFO | [7/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca%C3%A7%C3%B5es
+2026-07-01 11:30:28 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca_C3_A7_C3_B5es--33b49e9e
+2026-07-01 11:30:28 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca%C3%A7%C3%B5es -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca_C3_A7_C3_B5es--33b49e9e
+2026-07-01 11:30:28 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca%C3%A7%C3%B5es
+2026-07-01 11:30:28 | INFO |    Top-section: 32 rows via title+hero
+2026-07-01 11:30:28 | INFO |    Body start: y=875 (start row 35 via below-title+hero)
+2026-07-01 11:30:28 | INFO | URL Pattern: /w/censo-vai-mapear-perfil-dos-trabalhadores-da-ind%C3%BAstria-de-petr%C3%B3leo-e-g%C3%A1s
+2026-07-01 11:30:28 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_censo-vai-mapear-perfil-dos-trabalhadores-da-ind_C3_BAstria-de-petr_C3_B3leo-e-g_C3_A1s--38ac300c/page-catalog.json
+2026-07-01 11:30:28 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/censo-vai-mapear-perfil-dos-trabalhadores-da-ind%C3%BAstria-de-petr%C3%B3leo-e-g%C3%A1s
+2026-07-01 11:30:28 | INFO |    Top-section: 36 rows via title+hero
+2026-07-01 11:30:28 | INFO |    Body start: y=975 (start row 39 via below-title+hero)
+2026-07-01 11:30:28 | INFO | URL Pattern: /w/evento-marca-culmin%C3%A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es
+2026-07-01 11:30:28 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_evento-marca-culmin_C3_A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es--80f8118e/page-catalog.json
+2026-07-01 11:30:28 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/evento-marca-culmin%C3%A2ncia-do-pea-redes-de-cidadania-no-litoral-norte-do-es
+2026-07-01 11:30:29 | INFO | [8/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/pmir-monitora-o-caminho-dos-res%C3%ADduos-de-unidades-da-petrobras
+2026-07-01 11:30:29 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_pmir-monitora-o-caminho-dos-res_C3_ADduos-de-unidades-da-petrobras--11710a56
+2026-07-01 11:30:29 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/pmir-monitora-o-caminho-dos-res%C3%ADduos-de-unidades-da-petrobras -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_pmir-monitora-o-caminho-dos-res_C3_ADduos-de-unidades-da-petrobras--11710a56
+2026-07-01 11:30:29 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/pmir-monitora-o-caminho-dos-res%C3%ADduos-de-unidades-da-petrobras
+2026-07-01 11:30:29 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:30:29 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:30:29 | INFO | URL Pattern: /w/resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste
+2026-07-01 11:30:29 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste--96c42823/page-catalog.json
+2026-07-01 11:30:29 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/resgate-de-toninha-mobiliza-rede-de-especialistas-no-sudeste
+2026-07-01 11:30:29 | INFO | PROGRESS: 5/66 analyzed (8% checklist complete) | 5 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-07-01 11:30:30 | INFO | [9/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/dia-internacional-da-educa%C3%A7%C3%A3o-ambiental-equil%C3%ADbrio-entre-sociedade-e-meio-ambiente
+2026-07-01 11:30:30 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_dia-internacional-da-educa_C3_A7_C3_A3o-ambiental-equil_C3_ADbrio-entre-sociedade-e-meio-ambiente--cbeaa73b
+2026-07-01 11:30:30 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/dia-internacional-da-educa%C3%A7%C3%A3o-ambiental-equil%C3%ADbrio-entre-sociedade-e-meio-ambiente -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_dia-internacional-da-educa_C3_A7_C3_A3o-ambiental-equil_C3_ADbrio-entre-sociedade-e-meio-ambiente--cbeaa73b
+2026-07-01 11:30:30 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/dia-internacional-da-educa%C3%A7%C3%A3o-ambiental-equil%C3%ADbrio-entre-sociedade-e-meio-ambiente
+2026-07-01 11:30:31 | INFO | [10/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/projetos-voltados-%C3%A0-avifauna-protegem-esp%C3%A9cies-end%C3%AAmicas-da-costa-brasileira
+2026-07-01 11:30:31 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_projetos-voltados-_C3_A0-avifauna-protegem-esp_C3_A9cies-end_C3_AAmicas-da-costa-brasileira--ab1fe1b7
+2026-07-01 11:30:31 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/projetos-voltados-%C3%A0-avifauna-protegem-esp%C3%A9cies-end%C3%AAmicas-da-costa-brasileira -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_projetos-voltados-_C3_A0-avifauna-protegem-esp_C3_A9cies-end_C3_AAmicas-da-costa-brasileira--ab1fe1b7
+2026-07-01 11:30:31 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/projetos-voltados-%C3%A0-avifauna-protegem-esp%C3%A9cies-end%C3%AAmicas-da-costa-brasileira
+2026-07-01 11:30:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:35 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:35 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:35 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:36 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:36 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:36 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:36 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:36 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:36 | INFO | Main content: #main-content
+2026-07-01 11:30:36 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:36 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:36 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:36 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:36 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:36 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:36 | INFO | Main content: #main-content
+2026-07-01 11:30:36 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:36 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:36 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:36 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:30:36 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:36 | INFO | Captured 2 block screenshots
+2026-07-01 11:30:36 | INFO | Detected 2 blocks
+2026-07-01 11:30:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:37 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:37 | INFO | Main content: #main-content
+2026-07-01 11:30:37 | INFO | Captured 6 block screenshots
+2026-07-01 11:30:37 | INFO | Detected 6 blocks
+2026-07-01 11:30:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:37 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:37 | INFO | Main content: #main-content
+2026-07-01 11:30:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:37 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:37 | INFO | Detected 1 blocks
+2026-07-01 11:30:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:37 | INFO | Detected 1 blocks
+2026-07-01 11:30:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:38 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:38 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:38 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:38 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:38 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:38 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:38 | INFO | Main content: #main-content
+2026-07-01 11:30:38 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:38 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:39 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:39 | INFO | Detected 1 blocks
+2026-07-01 11:30:39 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:39 | INFO |    Top-section: 33 rows via title+hero
+2026-07-01 11:30:39 | INFO |    Body start: y=900 (start row 36 via below-title+hero)
+2026-07-01 11:30:39 | INFO | URL Pattern: /w/o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca%C3%A7%C3%B5es
+2026-07-01 11:30:39 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca_C3_A7_C3_B5es--33b49e9e/page-catalog.json
+2026-07-01 11:30:39 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/o-caminho-se-faz-navegando-conhecendo-o-monitoramento-de-embarca%C3%A7%C3%B5es
+2026-07-01 11:30:39 | INFO |    Top-section: 39 rows via title+hero
+2026-07-01 11:30:39 | INFO |    Body start: y=1050 (start row 42 via below-title+hero)
+2026-07-01 11:30:39 | INFO | URL Pattern: /w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval
+2026-07-01 11:30:39 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_comunidades-pesqueiras-participam-de-oficinas-de-mec_C3_A2nica-naval--28fc5ae2/page-catalog.json
+2026-07-01 11:30:39 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval
+2026-07-01 11:30:39 | INFO |    Top-section: 5 rows via title
+2026-07-01 11:30:39 | INFO |    Body start: y=200 (start row 8 via below-title)
+2026-07-01 11:30:39 | INFO | URL Pattern: /w/pmir-monitora-o-caminho-dos-res%C3%ADduos-de-unidades-da-petrobras
+2026-07-01 11:30:39 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_pmir-monitora-o-caminho-dos-res_C3_ADduos-de-unidades-da-petrobras--11710a56/page-catalog.json
+2026-07-01 11:30:39 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/pmir-monitora-o-caminho-dos-res%C3%ADduos-de-unidades-da-petrobras
+2026-07-01 11:30:40 | INFO |    Top-section: 7 rows via title
+2026-07-01 11:30:40 | INFO |    Body start: y=250 (start row 10 via below-title)
+2026-07-01 11:30:40 | INFO | URL Pattern: /w/dia-internacional-da-educa%C3%A7%C3%A3o-ambiental-equil%C3%ADbrio-entre-sociedade-e-meio-ambiente
+2026-07-01 11:30:40 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_dia-internacional-da-educa_C3_A7_C3_A3o-ambiental-equil_C3_ADbrio-entre-sociedade-e-meio-ambiente--cbeaa73b/page-catalog.json
+2026-07-01 11:30:40 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/dia-internacional-da-educa%C3%A7%C3%A3o-ambiental-equil%C3%ADbrio-entre-sociedade-e-meio-ambiente
+2026-07-01 11:30:40 | INFO | [11/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/informe-comunidade-chega-%C3%A0-edi%C3%A7%C3%A3o-55-destacando-os-15-anos-do-pmp
+2026-07-01 11:30:40 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_informe-comunidade-chega-_C3_A0-edi_C3_A7_C3_A3o-55-destacando-os-15-anos-do-pmp--ae251bf7
+2026-07-01 11:30:40 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/informe-comunidade-chega-%C3%A0-edi%C3%A7%C3%A3o-55-destacando-os-15-anos-do-pmp -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_informe-comunidade-chega-_C3_A0-edi_C3_A7_C3_A3o-55-destacando-os-15-anos-do-pmp--ae251bf7
+2026-07-01 11:30:40 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/informe-comunidade-chega-%C3%A0-edi%C3%A7%C3%A3o-55-destacando-os-15-anos-do-pmp
+2026-07-01 11:30:40 | INFO | [12/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/petrobras-realiza-reuni%C3%B5es-informativas-sobre-pesquisa-s%C3%ADsmica-na-bacia-de-campos
+2026-07-01 11:30:40 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_petrobras-realiza-reuni_C3_B5es-informativas-sobre-pesquisa-s_C3_ADsmica-na-bacia-de-campos--e6984cb0
+2026-07-01 11:30:40 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/petrobras-realiza-reuni%C3%B5es-informativas-sobre-pesquisa-s%C3%ADsmica-na-bacia-de-campos -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_petrobras-realiza-reuni_C3_B5es-informativas-sobre-pesquisa-s_C3_ADsmica-na-bacia-de-campos--e6984cb0
+2026-07-01 11:30:40 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/petrobras-realiza-reuni%C3%B5es-informativas-sobre-pesquisa-s%C3%ADsmica-na-bacia-de-campos
+2026-07-01 11:30:41 | INFO |    Top-section: 5 rows via title
+2026-07-01 11:30:41 | INFO |    Body start: y=200 (start row 8 via below-title)
+2026-07-01 11:30:41 | INFO | URL Pattern: /w/projetos-voltados-%C3%A0-avifauna-protegem-esp%C3%A9cies-end%C3%AAmicas-da-costa-brasileira
+2026-07-01 11:30:41 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_projetos-voltados-_C3_A0-avifauna-protegem-esp_C3_A9cies-end_C3_AAmicas-da-costa-brasileira--ab1fe1b7/page-catalog.json
+2026-07-01 11:30:41 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/projetos-voltados-%C3%A0-avifauna-protegem-esp%C3%A9cies-end%C3%AAmicas-da-costa-brasileira
+2026-07-01 11:30:41 | INFO | PROGRESS: 10/66 analyzed (15% checklist complete) | 10 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-07-01 11:30:41 | INFO | [13/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores
+2026-07-01 11:30:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores--44eaea5a
+2026-07-01 11:30:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores--44eaea5a
+2026-07-01 11:30:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores
+2026-07-01 11:30:41 | INFO | [14/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao
+2026-07-01 11:30:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao--7212edbd
+2026-07-01 11:30:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao--7212edbd
+2026-07-01 11:30:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao
+2026-07-01 11:30:42 | INFO | [15/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+2026-07-01 11:30:42 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_atencao-a-distancia-segura--461a2c10
+2026-07-01 11:30:42 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_atencao-a-distancia-segura--461a2c10
+2026-07-01 11:30:42 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+2026-07-01 11:30:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:48 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:48 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:48 | INFO | Main content: #main-content
+2026-07-01 11:30:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:48 | INFO | Main content: #main-content
+2026-07-01 11:30:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:48 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:48 | INFO | Main content: #main-content
+2026-07-01 11:30:49 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:49 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:49 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:49 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:49 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:49 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:49 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:49 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:49 | INFO | Main content: #main-content
+2026-07-01 11:30:49 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:49 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:49 | INFO | Captured 2 block screenshots
+2026-07-01 11:30:49 | INFO | Detected 2 blocks
+2026-07-01 11:30:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:49 | INFO | Captured 2 block screenshots
+2026-07-01 11:30:49 | INFO | Detected 2 blocks
+2026-07-01 11:30:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:49 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:30:49 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:30:49 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:30:49 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:30:49 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:30:49 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:30:49 | INFO | Main content: #main-content
+2026-07-01 11:30:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:49 | INFO | Detected 1 blocks
+2026-07-01 11:30:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:49 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:30:49 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:30:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:49 | INFO | Detected 1 blocks
+2026-07-01 11:30:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:50 | INFO | Captured 1 block screenshots
+2026-07-01 11:30:50 | INFO | Detected 1 blocks
+2026-07-01 11:30:50 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:30:51 | INFO |    Top-section: 26 rows via title+hero
+2026-07-01 11:30:51 | INFO |    Body start: y=725 (start row 29 via below-title+hero)
+2026-07-01 11:30:51 | INFO | URL Pattern: /w/curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores
+2026-07-01 11:30:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores--44eaea5a/page-catalog.json
+2026-07-01 11:30:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/curso-de-formacao-de-dinamizadores-fortalece-educacao-ambiental-de-trabalhadores
+2026-07-01 11:30:51 | INFO |    Top-section: 30 rows via title+hero
+2026-07-01 11:30:51 | INFO |    Body start: y=825 (start row 33 via below-title+hero)
+2026-07-01 11:30:51 | INFO | URL Pattern: /w/informe-comunidade-chega-%C3%A0-edi%C3%A7%C3%A3o-55-destacando-os-15-anos-do-pmp
+2026-07-01 11:30:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_informe-comunidade-chega-_C3_A0-edi_C3_A7_C3_A3o-55-destacando-os-15-anos-do-pmp--ae251bf7/page-catalog.json
+2026-07-01 11:30:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/informe-comunidade-chega-%C3%A0-edi%C3%A7%C3%A3o-55-destacando-os-15-anos-do-pmp
+2026-07-01 11:30:51 | INFO |    Top-section: 63 rows via title+hero
+2026-07-01 11:30:51 | INFO |    Body start: y=1650 (start row 66 via below-title+hero)
+2026-07-01 11:30:51 | INFO | URL Pattern: /w/petrobras-realiza-reuni%C3%B5es-informativas-sobre-pesquisa-s%C3%ADsmica-na-bacia-de-campos
+2026-07-01 11:30:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_petrobras-realiza-reuni_C3_B5es-informativas-sobre-pesquisa-s_C3_ADsmica-na-bacia-de-campos--e6984cb0/page-catalog.json
+2026-07-01 11:30:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/petrobras-realiza-reuni%C3%B5es-informativas-sobre-pesquisa-s%C3%ADsmica-na-bacia-de-campos
+2026-07-01 11:30:52 | INFO |    Top-section: 7 rows via title
+2026-07-01 11:30:52 | INFO |    Body start: y=250 (start row 10 via below-title)
+2026-07-01 11:30:52 | INFO | URL Pattern: /w/novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao
+2026-07-01 11:30:52 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao--7212edbd/page-catalog.json
+2026-07-01 11:30:52 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/novo-portal-divulga-informacoes-sobre-licenciamento-ambiental-para-a-populacao
+2026-07-01 11:30:52 | INFO |    Top-section: 6 rows via title
+2026-07-01 11:30:52 | INFO |    Body start: y=150 (start row 6 via below-title)
+2026-07-01 11:30:52 | INFO | URL Pattern: /w/atencao-a-distancia-segura
+2026-07-01 11:30:52 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_atencao-a-distancia-segura--461a2c10/page-catalog.json
+2026-07-01 11:30:52 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/atencao-a-distancia-segura
+2026-07-01 11:30:52 | INFO | PROGRESS: 15/66 analyzed (23% checklist complete) | 15 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-07-01 11:30:53 | INFO | [16/66] Processing: https://comunicaespiritosanto.petrobras.com.br/w/distancia-minima-das-plataformas-de-petroleo
+2026-07-01 11:30:53 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_w_distancia-minima-das-plataformas-de-petroleo--87d3c9e8
+2026-07-01 11:30:53 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/w/distancia-minima-das-plataformas-de-petroleo -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_distancia-minima-das-plataformas-de-petroleo--87d3c9e8
+2026-07-01 11:30:53 | INFO | [17/66] Processing: https://comunicaespiritosanto.petrobras.com.br/glossario
+2026-07-01 11:30:53 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_glossario--82d90e4e
+2026-07-01 11:30:53 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/glossario -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_glossario--82d90e4e
+2026-07-01 11:30:53 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/w/distancia-minima-das-plataformas-de-petroleo
+2026-07-01 11:30:53 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/glossario
+2026-07-01 11:30:53 | INFO | [18/66] Processing: https://comunicaespiritosanto.petrobras.com.br/cadastro
+2026-07-01 11:30:53 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_cadastro--aa0fbb5e
+2026-07-01 11:30:53 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/cadastro -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_cadastro--aa0fbb5e
+2026-07-01 11:30:53 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/cadastro
+2026-07-01 11:30:53 | INFO | [19/66] Processing: https://comunicaespiritosanto.petrobras.com.br/quem-somos
+2026-07-01 11:30:53 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_quem-somos--7f9c4e71
+2026-07-01 11:30:53 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/quem-somos -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_quem-somos--7f9c4e71
+2026-07-01 11:30:53 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/quem-somos
+2026-07-01 11:30:54 | INFO | [20/66] Processing: https://comunicaespiritosanto.petrobras.com.br/empreendimentos
+2026-07-01 11:30:54 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_empreendimentos--330e149d
+2026-07-01 11:30:54 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/empreendimentos -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_empreendimentos--330e149d
+2026-07-01 11:30:54 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/empreendimentos
+2026-07-01 11:30:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:30:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:30:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:30:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:00 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:00 | INFO | Main content: #content
+2026-07-01 11:31:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:00 | INFO | Main content: #main-content
+2026-07-01 11:31:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:00 | WARNING | Screenshots - Block not visible: form-4ff7c7f8
+2026-07-01 11:31:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:00 | WARNING | Screenshots - Block not visible: unknown-66a4a5a1
+2026-07-01 11:31:00 | WARNING | Screenshots - Block not visible: form-2338c900
+2026-07-01 11:31:00 | WARNING | Screenshots - Block not visible: unknown-174b186a
+2026-07-01 11:31:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:00 | INFO | Main content: #main-content
+2026-07-01 11:31:00 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:00 | INFO | Main content: #main-content
+2026-07-01 11:31:00 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:00 | INFO | Detected 5 blocks
+2026-07-01 11:31:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:00 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:00 | INFO | Detected 1 blocks
+2026-07-01 11:31:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:00 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:31:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:01 | INFO | Captured 2 block screenshots
+2026-07-01 11:31:01 | INFO | Detected 2 blocks
+2026-07-01 11:31:01 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:01 | INFO | Removed 12 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:01 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:01 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:01 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:01 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:01 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:01 | INFO | Main content: #main-content
+2026-07-01 11:31:01 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:01 | WARNING | Blocks - 100% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:31:01 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:01 | INFO | Captured 0 block screenshots
+2026-07-01 11:31:01 | INFO | Detected 0 blocks
+2026-07-01 11:31:01 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:02 | INFO | Captured 7 block screenshots
+2026-07-01 11:31:02 | INFO | Detected 7 blocks
+2026-07-01 11:31:02 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:03 | INFO | URL Pattern: /cadastro
+2026-07-01 11:31:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_cadastro--aa0fbb5e/page-catalog.json
+2026-07-01 11:31:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/cadastro
+2026-07-01 11:31:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:03 | INFO | URL Pattern: /glossario
+2026-07-01 11:31:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_glossario--82d90e4e/page-catalog.json
+2026-07-01 11:31:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/glossario
+2026-07-01 11:31:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:03 | INFO | URL Pattern: /w/distancia-minima-das-plataformas-de-petroleo
+2026-07-01 11:31:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_w_distancia-minima-das-plataformas-de-petroleo--87d3c9e8/page-catalog.json
+2026-07-01 11:31:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/w/distancia-minima-das-plataformas-de-petroleo
+2026-07-01 11:31:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:03 | INFO | URL Pattern: /quem-somos
+2026-07-01 11:31:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_quem-somos--7f9c4e71/page-catalog.json
+2026-07-01 11:31:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/quem-somos
+2026-07-01 11:31:04 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:04 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:04 | INFO | URL Pattern: /empreendimentos
+2026-07-01 11:31:04 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_empreendimentos--330e149d/page-catalog.json
+2026-07-01 11:31:04 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/empreendimentos
+2026-07-01 11:31:04 | INFO | PROGRESS: 20/66 analyzed (30% checklist complete) | 20 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-07-01 11:31:04 | INFO | [21/66] Processing: https://comunicaespiritosanto.petrobras.com.br/licenciamento
+2026-07-01 11:31:04 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_licenciamento--f979e8e6
+2026-07-01 11:31:04 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/licenciamento -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_licenciamento--f979e8e6
+2026-07-01 11:31:04 | INFO | [22/66] Processing: https://comunicaespiritosanto.petrobras.com.br/impactos
+2026-07-01 11:31:04 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_impactos--0ce6bd94
+2026-07-01 11:31:04 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/impactos -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_impactos--0ce6bd94
+2026-07-01 11:31:04 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/licenciamento
+2026-07-01 11:31:04 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/impactos
+2026-07-01 11:31:05 | INFO | [23/66] Processing: https://comunicaespiritosanto.petrobras.com.br/condicionantes
+2026-07-01 11:31:05 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_condicionantes--253b03dd
+2026-07-01 11:31:05 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/condicionantes -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_condicionantes--253b03dd
+2026-07-01 11:31:05 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/condicionantes
+2026-07-01 11:31:05 | INFO | [24/66] Processing: https://comunicaespiritosanto.petrobras.com.br/noticias
+2026-07-01 11:31:05 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_noticias--e32ddfa4
+2026-07-01 11:31:05 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/noticias -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_noticias--e32ddfa4
+2026-07-01 11:31:05 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/noticias
+2026-07-01 11:31:06 | INFO | [25/66] Processing: https://comunicaespiritosanto.petrobras.com.br/informes
+2026-07-01 11:31:06 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_informes--e5837ec2
+2026-07-01 11:31:06 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/informes -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2
+2026-07-01 11:31:06 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/informes
+2026-07-01 11:31:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:11 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:11 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:11 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:11 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:12 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:12 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:12 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:12 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:12 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:12 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:12 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:12 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:12 | INFO | Main content: #main-content
+2026-07-01 11:31:12 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:12 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:12 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:12 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:12 | INFO | Main content: #main-content
+2026-07-01 11:31:12 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:12 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:12 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:12 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:12 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:12 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:12 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:12 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:12 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:12 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:12 | INFO | Main content: #main-content
+2026-07-01 11:31:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:12 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:12 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:12 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:12 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:13 | INFO | Captured 2 block screenshots
+2026-07-01 11:31:13 | INFO | Detected 2 blocks
+2026-07-01 11:31:13 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:13 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:13 | INFO | Detected 1 blocks
+2026-07-01 11:31:13 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:13 | INFO | Captured 3 block screenshots
+2026-07-01 11:31:13 | INFO | Detected 3 blocks
+2026-07-01 11:31:13 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:13 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:13 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:13 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:13 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:13 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:13 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:13 | INFO | Main content: #main-content
+2026-07-01 11:31:13 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:13 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:14 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:14 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:14 | INFO | Captured 9 block screenshots
+2026-07-01 11:31:14 | INFO | Detected 9 blocks
+2026-07-01 11:31:14 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:15 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:15 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:15 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:15 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:15 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:15 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:15 | INFO | Main content: #main-content
+2026-07-01 11:31:15 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:15 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:15 | INFO |    Top-section: 37 rows via title+placeholder
+2026-07-01 11:31:15 | INFO |    Body start: y=925 (start row 37 via below-title+placeholder)
+2026-07-01 11:31:15 | INFO | URL Pattern: /impactos
+2026-07-01 11:31:15 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_impactos--0ce6bd94/page-catalog.json
+2026-07-01 11:31:15 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/impactos
+2026-07-01 11:31:15 | INFO |    Top-section: 6 rows via title+container
+2026-07-01 11:31:15 | INFO |    Body start: y=150 (start row 6 via below-title+container)
+2026-07-01 11:31:15 | INFO | URL Pattern: /licenciamento
+2026-07-01 11:31:15 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_licenciamento--f979e8e6/page-catalog.json
+2026-07-01 11:31:15 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:15 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:15 | INFO | URL Pattern: /condicionantes
+2026-07-01 11:31:15 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_condicionantes--253b03dd/page-catalog.json
+2026-07-01 11:31:15 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/licenciamento
+2026-07-01 11:31:15 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/condicionantes
+2026-07-01 11:31:16 | INFO | [26/66] Processing: https://comunicaespiritosanto.petrobras.com.br/royalties-e-pe
+2026-07-01 11:31:16 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_royalties-e-pe--bde975a3
+2026-07-01 11:31:16 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/royalties-e-pe -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_royalties-e-pe--bde975a3
+2026-07-01 11:31:16 | INFO | [27/66] Processing: https://comunicaespiritosanto.petrobras.com.br/legislacao
+2026-07-01 11:31:16 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_legislacao--9c1c7b87
+2026-07-01 11:31:16 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/legislacao -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_legislacao--9c1c7b87
+2026-07-01 11:31:16 | INFO | [28/66] Processing: https://comunicaespiritosanto.petrobras.com.br/fale-conosco
+2026-07-01 11:31:16 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_fale-conosco--66311bf5
+2026-07-01 11:31:16 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/fale-conosco -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fale-conosco--66311bf5
+2026-07-01 11:31:16 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/royalties-e-pe
+2026-07-01 11:31:16 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/legislacao
+2026-07-01 11:31:16 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/fale-conosco
+2026-07-01 11:31:17 | INFO | Captured 17 block screenshots
+2026-07-01 11:31:17 | INFO | Detected 17 blocks
+2026-07-01 11:31:17 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:17 | INFO |    Top-section: 6 rows via title
+2026-07-01 11:31:17 | INFO |    Body start: y=150 (start row 6 via below-title)
+2026-07-01 11:31:17 | INFO | URL Pattern: /noticias
+2026-07-01 11:31:17 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_noticias--e32ddfa4/page-catalog.json
+2026-07-01 11:31:17 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/noticias
+2026-07-01 11:31:18 | INFO | [29/66] Processing: https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1
+2026-07-01 11:31:18 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_fpso-capixaba1--9cf39cc9
+2026-07-01 11:31:18 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-capixaba1--9cf39cc9
+2026-07-01 11:31:18 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1
+2026-07-01 11:31:19 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:19 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:19 | INFO | URL Pattern: /informes
+2026-07-01 11:31:19 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2/page-catalog.json
+2026-07-01 11:31:19 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/informes
+2026-07-01 11:31:19 | INFO | PROGRESS: 25/66 analyzed (38% checklist complete) | 25 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-07-01 11:31:20 | INFO | [30/66] Processing: https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria
+2026-07-01 11:31:20 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_fpso-maria-quit_C3_A9ria--76d8589d
+2026-07-01 11:31:20 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-maria-quit_C3_A9ria--76d8589d
+2026-07-01 11:31:20 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria
+2026-07-01 11:31:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:24 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:24 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:24 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:24 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:24 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:24 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:24 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:24 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:24 | INFO | Main content: #main-content
+2026-07-01 11:31:24 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:24 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:24 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:24 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:24 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:24 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:24 | INFO | Main content: #main-content
+2026-07-01 11:31:24 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:24 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:24 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:24 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:24 | INFO | Main content: #main-content
+2026-07-01 11:31:24 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:24 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:24 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:31:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:24 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:31:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:25 | INFO | Captured 0 block screenshots
+2026-07-01 11:31:25 | INFO | Detected 0 blocks
+2026-07-01 11:31:25 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:25 | INFO | Captured 0 block screenshots
+2026-07-01 11:31:25 | INFO | Detected 0 blocks
+2026-07-01 11:31:25 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:25 | INFO | Captured 2 block screenshots
+2026-07-01 11:31:25 | INFO | Detected 2 blocks
+2026-07-01 11:31:25 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:25 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:25 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:25 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:25 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:25 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:25 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:25 | INFO | Main content: #main-content
+2026-07-01 11:31:25 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:25 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:26 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:26 | INFO | Detected 1 blocks
+2026-07-01 11:31:26 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:27 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:27 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:27 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:27 | INFO | URL Pattern: /legislacao
+2026-07-01 11:31:27 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_legislacao--9c1c7b87/page-catalog.json
+2026-07-01 11:31:27 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/legislacao
+2026-07-01 11:31:27 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:27 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:27 | INFO | URL Pattern: /royalties-e-pe
+2026-07-01 11:31:27 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_royalties-e-pe--bde975a3/page-catalog.json
+2026-07-01 11:31:27 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/royalties-e-pe
+2026-07-01 11:31:27 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:27 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:27 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:27 | INFO | URL Pattern: /fale-conosco
+2026-07-01 11:31:27 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fale-conosco--66311bf5/page-catalog.json
+2026-07-01 11:31:27 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/fale-conosco
+2026-07-01 11:31:27 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:27 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:27 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:27 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:27 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:27 | INFO | Main content: #main-content
+2026-07-01 11:31:27 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:27 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:28 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:28 | INFO | Detected 1 blocks
+2026-07-01 11:31:28 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:28 | INFO |    Top-section: 6 rows via title
+2026-07-01 11:31:28 | INFO |    Body start: y=150 (start row 6 via below-title)
+2026-07-01 11:31:28 | INFO | URL Pattern: /fpso-capixaba1
+2026-07-01 11:31:28 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-capixaba1--9cf39cc9/page-catalog.json
+2026-07-01 11:31:28 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/fpso-capixaba1
+2026-07-01 11:31:29 | INFO | [31/66] Processing: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1
+2026-07-01 11:31:29 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1--832417a6
+2026-07-01 11:31:29 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1--832417a6
+2026-07-01 11:31:29 | INFO | [32/66] Processing: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-57-p-57-1
+2026-07-01 11:31:29 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_fpso-petrobras-57-p-57-1--e89432fd
+2026-07-01 11:31:29 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-57-p-57-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-57-p-57-1--e89432fd
+2026-07-01 11:31:29 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1
+2026-07-01 11:31:29 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-57-p-57-1
+2026-07-01 11:31:29 | INFO | [33/66] Processing: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-58-p-58-1
+2026-07-01 11:31:29 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_fpso-petrobras-58-p-58-1--e6b91ea8
+2026-07-01 11:31:29 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-58-p-58-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-58-p-58-1--e6b91ea8
+2026-07-01 11:31:29 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-58-p-58-1
+2026-07-01 11:31:30 | INFO | [34/66] Processing: https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1
+2026-07-01 11:31:30 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_modulo-de-operacao-de-pig-mop-1-1--d377c688
+2026-07-01 11:31:30 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_modulo-de-operacao-de-pig-mop-1-1--d377c688
+2026-07-01 11:31:30 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1
+2026-07-01 11:31:30 | INFO |    Top-section: 6 rows via title
+2026-07-01 11:31:30 | INFO |    Body start: y=225 (start row 9 via below-title)
+2026-07-01 11:31:30 | INFO | URL Pattern: /fpso-maria-quit%C3%A9ria
+2026-07-01 11:31:30 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-maria-quit_C3_A9ria--76d8589d/page-catalog.json
+2026-07-01 11:31:30 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/fpso-maria-quit%C3%A9ria
+2026-07-01 11:31:30 | INFO | PROGRESS: 30/66 analyzed (45% checklist complete) | 30 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-07-01 11:31:32 | INFO | [35/66] Processing: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1
+2026-07-01 11:31:32 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-de-cacimbas-utgc-1--c2e69484
+2026-07-01 11:31:32 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-de-cacimbas-utgc-1--c2e69484
+2026-07-01 11:31:32 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1
+2026-07-01 11:31:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:34 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:36 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:36 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:36 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:36 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:36 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:36 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:36 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:36 | INFO | Main content: #main-content
+2026-07-01 11:31:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:37 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:37 | INFO | Main content: #main-content
+2026-07-01 11:31:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:37 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:37 | INFO | Main content: #main-content
+2026-07-01 11:31:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:37 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:37 | INFO | Main content: #main-content
+2026-07-01 11:31:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:37 | INFO | Detected 1 blocks
+2026-07-01 11:31:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:37 | INFO | Detected 1 blocks
+2026-07-01 11:31:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:37 | INFO | Detected 1 blocks
+2026-07-01 11:31:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:37 | INFO | Detected 1 blocks
+2026-07-01 11:31:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:38 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:38 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:39 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:39 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:39 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:39 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:39 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:39 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:39 | INFO | Main content: #main-content
+2026-07-01 11:31:39 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:39 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:39 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:39 | INFO | Detected 1 blocks
+2026-07-01 11:31:39 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:39 | INFO |    Top-section: 25 rows via title+placeholder
+2026-07-01 11:31:39 | INFO |    Body start: y=625 (start row 25 via below-title+placeholder)
+2026-07-01 11:31:39 | INFO | URL Pattern: /fpso-petrobras-58-p-58-1
+2026-07-01 11:31:39 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-58-p-58-1--e6b91ea8/page-catalog.json
+2026-07-01 11:31:39 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-58-p-58-1
+2026-07-01 11:31:40 | INFO |    Top-section: 25 rows via title+placeholder
+2026-07-01 11:31:40 | INFO |    Body start: y=625 (start row 25 via below-title+placeholder)
+2026-07-01 11:31:40 | INFO | URL Pattern: /fpso-petrobras-57-p-57-1
+2026-07-01 11:31:40 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-57-p-57-1--e89432fd/page-catalog.json
+2026-07-01 11:31:40 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/fpso-petrobras-57-p-57-1
+2026-07-01 11:31:40 | INFO |    Top-section: 25 rows via title+placeholder
+2026-07-01 11:31:40 | INFO |    Body start: y=625 (start row 25 via below-title+placeholder)
+2026-07-01 11:31:40 | INFO | URL Pattern: /unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1
+2026-07-01 11:31:40 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1--832417a6/page-catalog.json
+2026-07-01 11:31:40 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-sul-capixaba-utgsul-1
+2026-07-01 11:31:40 | INFO |    Top-section: 6 rows via title
+2026-07-01 11:31:40 | INFO |    Body start: y=150 (start row 6 via below-title)
+2026-07-01 11:31:40 | INFO | URL Pattern: /modulo-de-operacao-de-pig-mop-1-1
+2026-07-01 11:31:40 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_modulo-de-operacao-de-pig-mop-1-1--d377c688/page-catalog.json
+2026-07-01 11:31:40 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/modulo-de-operacao-de-pig-mop-1-1
+2026-07-01 11:31:41 | INFO | [36/66] Processing: https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1
+2026-07-01 11:31:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_fpso-cidade-de-anchieta1--c7747166
+2026-07-01 11:31:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-cidade-de-anchieta1--c7747166
+2026-07-01 11:31:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1
+2026-07-01 11:31:41 | INFO | [37/66] Processing: https://comunicaespiritosanto.petrobras.com.br/monitoramento1
+2026-07-01 11:31:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_monitoramento1--eebed110
+2026-07-01 11:31:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/monitoramento1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento1--eebed110
+2026-07-01 11:31:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/monitoramento1
+2026-07-01 11:31:41 | INFO | [38/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projetos-de-monitoramento-ambiental-pma-1
+2026-07-01 11:31:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projetos-de-monitoramento-ambiental-pma-1--f08f04d7
+2026-07-01 11:31:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projetos-de-monitoramento-ambiental-pma-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projetos-de-monitoramento-ambiental-pma-1--f08f04d7
+2026-07-01 11:31:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projetos-de-monitoramento-ambiental-pma-1
+2026-07-01 11:31:41 | INFO | [39/66] Processing: https://comunicaespiritosanto.petrobras.com.br/producao1
+2026-07-01 11:31:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_producao1--8728c733
+2026-07-01 11:31:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/producao1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_producao1--8728c733
+2026-07-01 11:31:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/producao1
+2026-07-01 11:31:42 | INFO |    Top-section: 6 rows via title
+2026-07-01 11:31:42 | INFO |    Body start: y=225 (start row 9 via below-title)
+2026-07-01 11:31:42 | INFO | URL Pattern: /unidade-de-tratamento-de-gas-de-cacimbas-utgc-1
+2026-07-01 11:31:42 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_unidade-de-tratamento-de-gas-de-cacimbas-utgc-1--c2e69484/page-catalog.json
+2026-07-01 11:31:42 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/unidade-de-tratamento-de-gas-de-cacimbas-utgc-1
+2026-07-01 11:31:42 | INFO | PROGRESS: 35/66 analyzed (53% checklist complete) | 35 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-07-01 11:31:43 | INFO | [40/66] Processing: https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1
+2026-07-01 11:31:43 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1--172f8b94
+2026-07-01 11:31:43 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1--172f8b94
+2026-07-01 11:31:43 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1
+2026-07-01 11:31:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:47 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:48 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:48 | INFO | Main content: #main-content
+2026-07-01 11:31:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:48 | INFO | Main content: #main-content
+2026-07-01 11:31:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:48 | INFO | Main content: #main-content
+2026-07-01 11:31:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:48 | INFO | Main content: #main-content
+2026-07-01 11:31:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:49 | INFO | Detected 1 blocks
+2026-07-01 11:31:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:49 | INFO | Detected 1 blocks
+2026-07-01 11:31:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:49 | INFO | Detected 1 blocks
+2026-07-01 11:31:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:31:49 | INFO | Detected 1 blocks
+2026-07-01 11:31:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:49 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:50 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:50 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:50 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:50 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:50 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:50 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:50 | INFO | Main content: #main-content
+2026-07-01 11:31:50 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:50 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-07-01 11:31:50 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:31:51 | INFO | Captured 2 block screenshots
+2026-07-01 11:31:51 | INFO | Detected 2 blocks
+2026-07-01 11:31:51 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:31:51 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:51 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:51 | INFO | URL Pattern: /projetos-de-monitoramento-ambiental-pma-1
+2026-07-01 11:31:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projetos-de-monitoramento-ambiental-pma-1--f08f04d7/page-catalog.json
+2026-07-01 11:31:51 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:51 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:51 | INFO | URL Pattern: /producao1
+2026-07-01 11:31:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_producao1--8728c733/page-catalog.json
+2026-07-01 11:31:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projetos-de-monitoramento-ambiental-pma-1
+2026-07-01 11:31:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/producao1
+2026-07-01 11:31:51 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:51 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:51 | INFO | URL Pattern: /monitoramento1
+2026-07-01 11:31:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento1--eebed110/page-catalog.json
+2026-07-01 11:31:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/monitoramento1
+2026-07-01 11:31:51 | INFO |    Top-section: 25 rows via title+placeholder
+2026-07-01 11:31:51 | INFO |    Body start: y=625 (start row 25 via below-title+placeholder)
+2026-07-01 11:31:51 | INFO | URL Pattern: /fpso-cidade-de-anchieta1
+2026-07-01 11:31:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_fpso-cidade-de-anchieta1--c7747166/page-catalog.json
+2026-07-01 11:31:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/fpso-cidade-de-anchieta1
+2026-07-01 11:31:52 | INFO | [41/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-rock-placement-pdet-pra
+2026-07-01 11:31:52 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-ambiental-rock-placement-pdet-pra--96ef7642
+2026-07-01 11:31:52 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-rock-placement-pdet-pra -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-ambiental-rock-placement-pdet-pra--96ef7642
+2026-07-01 11:31:52 | INFO | [42/66] Processing: https://comunicaespiritosanto.petrobras.com.br/monitoramento-de-agua-produzida
+2026-07-01 11:31:52 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_monitoramento-de-agua-produzida--efb4249d
+2026-07-01 11:31:52 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/monitoramento-de-agua-produzida -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento-de-agua-produzida--efb4249d
+2026-07-01 11:31:52 | INFO | [43/66] Processing: https://comunicaespiritosanto.petrobras.com.br/monitoramento-meteoceanografico-operacional
+2026-07-01 11:31:52 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_monitoramento-meteoceanografico-operacional--ae88d9a4
+2026-07-01 11:31:52 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/monitoramento-meteoceanografico-operacional -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento-meteoceanografico-operacional--ae88d9a4
+2026-07-01 11:31:52 | INFO | [44/66] Processing: https://comunicaespiritosanto.petrobras.com.br/perfuracao1
+2026-07-01 11:31:52 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_perfuracao1--b9b0defe
+2026-07-01 11:31:52 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/perfuracao1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_perfuracao1--b9b0defe
+2026-07-01 11:31:52 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/monitoramento-de-agua-produzida
+2026-07-01 11:31:52 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-rock-placement-pdet-pra
+2026-07-01 11:31:52 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/monitoramento-meteoceanografico-operacional
+2026-07-01 11:31:52 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/perfuracao1
+2026-07-01 11:31:53 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:31:53 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:31:53 | INFO | URL Pattern: /monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1
+2026-07-01 11:31:53 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1--172f8b94/page-catalog.json
+2026-07-01 11:31:53 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1
+2026-07-01 11:31:53 | INFO | PROGRESS: 40/66 analyzed (61% checklist complete) | 40 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-07-01 11:31:55 | INFO | [45/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es
+2026-07-01 11:31:55 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es--a8561ced
+2026-07-01 11:31:55 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es--a8561ced
+2026-07-01 11:31:55 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es
+2026-07-01 11:31:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:57 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:59 | INFO | Lazy-load scroll complete
+2026-07-01 11:31:59 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:31:59 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:31:59 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:31:59 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:31:59 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:31:59 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:31:59 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:31:59 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:31:59 | INFO | Main content: #main-content
+2026-07-01 11:31:59 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:31:59 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:00 | INFO | Main content: #main-content
+2026-07-01 11:32:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:00 | INFO | Main content: #main-content
+2026-07-01 11:32:00 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:00 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:00 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:00 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:00 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:00 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:00 | INFO | Main content: #main-content
+2026-07-01 11:32:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:00 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:00 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:00 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:00 | INFO | Detected 1 blocks
+2026-07-01 11:32:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:00 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:00 | INFO | Detected 1 blocks
+2026-07-01 11:32:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:00 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:00 | INFO | Detected 1 blocks
+2026-07-01 11:32:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:00 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:00 | INFO | Detected 1 blocks
+2026-07-01 11:32:00 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:01 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:01 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:02 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:02 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:02 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:02 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:02 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:02 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:02 | INFO | Main content: #main-content
+2026-07-01 11:32:02 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:02 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:02 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:02 | INFO | Detected 1 blocks
+2026-07-01 11:32:02 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:02 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:02 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:02 | INFO | URL Pattern: /perfuracao1
+2026-07-01 11:32:02 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_perfuracao1--b9b0defe/page-catalog.json
+2026-07-01 11:32:02 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/perfuracao1
+2026-07-01 11:32:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:03 | INFO | URL Pattern: /monitoramento-meteoceanografico-operacional
+2026-07-01 11:32:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento-meteoceanografico-operacional--ae88d9a4/page-catalog.json
+2026-07-01 11:32:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:03 | INFO | URL Pattern: /projeto-de-monitoramento-ambiental-rock-placement-pdet-pra
+2026-07-01 11:32:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-ambiental-rock-placement-pdet-pra--96ef7642/page-catalog.json
+2026-07-01 11:32:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/monitoramento-meteoceanografico-operacional
+2026-07-01 11:32:03 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:03 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:03 | INFO | URL Pattern: /monitoramento-de-agua-produzida
+2026-07-01 11:32:03 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_monitoramento-de-agua-produzida--efb4249d/page-catalog.json
+2026-07-01 11:32:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-rock-placement-pdet-pra
+2026-07-01 11:32:03 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/monitoramento-de-agua-produzida
+2026-07-01 11:32:04 | INFO | [46/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es
+2026-07-01 11:32:04 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es--dfb764a0
+2026-07-01 11:32:04 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es--dfb764a0
+2026-07-01 11:32:04 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es
+2026-07-01 11:32:04 | INFO | [47/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1
+2026-07-01 11:32:04 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1--3cab9d14
+2026-07-01 11:32:04 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1--3cab9d14
+2026-07-01 11:32:04 | INFO | [48/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1
+2026-07-01 11:32:04 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1--2b1ae281
+2026-07-01 11:32:04 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1--2b1ae281
+2026-07-01 11:32:04 | INFO | [49/66] Processing: https://comunicaespiritosanto.petrobras.com.br/compensacao1
+2026-07-01 11:32:04 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_compensacao1--00e47772
+2026-07-01 11:32:04 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/compensacao1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_compensacao1--00e47772
+2026-07-01 11:32:04 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1
+2026-07-01 11:32:04 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1
+2026-07-01 11:32:04 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/compensacao1
+2026-07-01 11:32:05 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:05 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:05 | INFO | URL Pattern: /projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es
+2026-07-01 11:32:05 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es--a8561ced/page-catalog.json
+2026-07-01 11:32:05 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-ambiental-especifico-de-perfuracao-pmaeper-es
+2026-07-01 11:32:05 | INFO | PROGRESS: 45/66 analyzed (68% checklist complete) | 45 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-07-01 11:32:06 | INFO | [50/66] Processing: https://comunicaespiritosanto.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-1
+2026-07-01 11:32:06 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_plano-de-compensacao-da-atividade-pesqueira-pcap-1--9977aa18
+2026-07-01 11:32:06 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-compensacao-da-atividade-pesqueira-pcap-1--9977aa18
+2026-07-01 11:32:06 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-1
+2026-07-01 11:32:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:09 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:10 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:10 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:10 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:11 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:11 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:11 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:11 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:11 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:11 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:11 | INFO | Main content: #main-content
+2026-07-01 11:32:11 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:11 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:11 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:32:11 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:11 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:11 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:11 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:11 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:11 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:11 | INFO | Main content: #main-content
+2026-07-01 11:32:11 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:11 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:11 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:11 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:11 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:11 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:11 | INFO | Main content: #main-content
+2026-07-01 11:32:11 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:11 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:11 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:11 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:12 | INFO | Captured 0 block screenshots
+2026-07-01 11:32:12 | INFO | Detected 0 blocks
+2026-07-01 11:32:12 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:12 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:12 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:12 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:12 | INFO | Detected 1 blocks
+2026-07-01 11:32:12 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:12 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:12 | INFO | Detected 1 blocks
+2026-07-01 11:32:12 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:12 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:12 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:12 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:12 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:12 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:12 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:12 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:12 | INFO | Main content: #main-content
+2026-07-01 11:32:13 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:13 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:13 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:13 | INFO | Detected 1 blocks
+2026-07-01 11:32:13 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:13 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:14 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:14 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:14 | INFO | URL Pattern: /compensacao1
+2026-07-01 11:32:14 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_compensacao1--00e47772/page-catalog.json
+2026-07-01 11:32:14 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/compensacao1
+2026-07-01 11:32:14 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:14 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:14 | INFO | URL Pattern: /projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1
+2026-07-01 11:32:14 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1--3cab9d14/page-catalog.json
+2026-07-01 11:32:14 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-do-trafego-de-embarcacoes-na-unidade-de-operacoes-de-exploracao-e-producao-do-espirito-santo-pmte-es-1
+2026-07-01 11:32:14 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:14 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:14 | INFO | URL Pattern: /projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1
+2026-07-01 11:32:14 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1--2b1ae281/page-catalog.json
+2026-07-01 11:32:14 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-desembarque-pesqueiro-pmdp-1
+2026-07-01 11:32:14 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:14 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:14 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:14 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:14 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:14 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:14 | INFO | Main content: #main-content
+2026-07-01 11:32:14 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:14 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:32:14 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:15 | INFO | Captured 0 block screenshots
+2026-07-01 11:32:15 | INFO | Detected 0 blocks
+2026-07-01 11:32:15 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:15 | INFO | [51/66] Processing: https://comunicaespiritosanto.petrobras.com.br/pcap-bacia-de-campos
+2026-07-01 11:32:15 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_pcap-bacia-de-campos--879d5fb2
+2026-07-01 11:32:15 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/pcap-bacia-de-campos -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_pcap-bacia-de-campos--879d5fb2
+2026-07-01 11:32:15 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/pcap-bacia-de-campos
+2026-07-01 11:32:16 | INFO | [52/66] Processing: https://comunicaespiritosanto.petrobras.com.br/pcap-da-sismica-maritima-4d
+2026-07-01 11:32:16 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_pcap-da-sismica-maritima-4d--8f7c844d
+2026-07-01 11:32:16 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/pcap-da-sismica-maritima-4d -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_pcap-da-sismica-maritima-4d--8f7c844d
+2026-07-01 11:32:16 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:16 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:16 | INFO | URL Pattern: /projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es
+2026-07-01 11:32:16 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es--dfb764a0/page-catalog.json
+2026-07-01 11:32:16 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-praias-das-bacias-de-campos-e-espirito-santo-pmp-bc-es
+2026-07-01 11:32:16 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/pcap-da-sismica-maritima-4d
+2026-07-01 11:32:16 | INFO | [53/66] Processing: https://comunicaespiritosanto.petrobras.com.br/emergencia1
+2026-07-01 11:32:16 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_emergencia1--c58fb197
+2026-07-01 11:32:16 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/emergencia1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_emergencia1--c58fb197
+2026-07-01 11:32:16 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/emergencia1
+2026-07-01 11:32:17 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:17 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:17 | INFO | URL Pattern: /plano-de-compensacao-da-atividade-pesqueira-pcap-1
+2026-07-01 11:32:17 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-compensacao-da-atividade-pesqueira-pcap-1--9977aa18/page-catalog.json
+2026-07-01 11:32:17 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap-1
+2026-07-01 11:32:17 | INFO | PROGRESS: 50/66 analyzed (76% checklist complete) | 50 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-07-01 11:32:17 | INFO | [54/66] Processing: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-individual-pei-1
+2026-07-01 11:32:17 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_plano-de-emergencia-individual-pei-1--8355e7b1
+2026-07-01 11:32:17 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-individual-pei-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-emergencia-individual-pei-1--8355e7b1
+2026-07-01 11:32:17 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-individual-pei-1
+2026-07-01 11:32:19 | INFO | [55/66] Processing: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo-1
+2026-07-01 11:32:19 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_plano-de-emergencia-para-vazamento-de-oleo-pevo-1--50a6731d
+2026-07-01 11:32:19 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-emergencia-para-vazamento-de-oleo-pevo-1--50a6731d
+2026-07-01 11:32:19 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo-1
+2026-07-01 11:32:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:21 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:22 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:23 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:23 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:23 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:23 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:23 | INFO | Main content: #main-content
+2026-07-01 11:32:23 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:23 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:23 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:23 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:23 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:23 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:23 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:23 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:23 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:23 | INFO | Main content: #main-content
+2026-07-01 11:32:23 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:23 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:23 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:23 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:23 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:23 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:23 | INFO | Main content: #main-content
+2026-07-01 11:32:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:24 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:32:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:24 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:32:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:24 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:24 | INFO | Detected 1 blocks
+2026-07-01 11:32:24 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:24 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:24 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:24 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:24 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:24 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:24 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:24 | INFO | Main content: #main-content
+2026-07-01 11:32:24 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:24 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:24 | INFO | Captured 0 block screenshots
+2026-07-01 11:32:24 | INFO | Detected 0 blocks
+2026-07-01 11:32:24 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:24 | INFO | Captured 0 block screenshots
+2026-07-01 11:32:24 | INFO | Detected 0 blocks
+2026-07-01 11:32:24 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:24 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:24 | INFO | Detected 1 blocks
+2026-07-01 11:32:24 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:25 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:25 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:25 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:25 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:25 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:25 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:25 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:25 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:25 | INFO | Main content: #main-content
+2026-07-01 11:32:26 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:26 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:26 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:26 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:26 | INFO | URL Pattern: /emergencia1
+2026-07-01 11:32:26 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_emergencia1--c58fb197/page-catalog.json
+2026-07-01 11:32:26 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/emergencia1
+2026-07-01 11:32:26 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:26 | INFO | Detected 1 blocks
+2026-07-01 11:32:26 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:26 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:26 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:26 | INFO | URL Pattern: /pcap-da-sismica-maritima-4d
+2026-07-01 11:32:26 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_pcap-da-sismica-maritima-4d--8f7c844d/page-catalog.json
+2026-07-01 11:32:26 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:26 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:26 | INFO | URL Pattern: /pcap-bacia-de-campos
+2026-07-01 11:32:26 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_pcap-bacia-de-campos--879d5fb2/page-catalog.json
+2026-07-01 11:32:26 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/pcap-da-sismica-maritima-4d
+2026-07-01 11:32:26 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/pcap-bacia-de-campos
+2026-07-01 11:32:27 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:27 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:27 | INFO | URL Pattern: /plano-de-emergencia-individual-pei-1
+2026-07-01 11:32:27 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-emergencia-individual-pei-1--8355e7b1/page-catalog.json
+2026-07-01 11:32:27 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-individual-pei-1
+2026-07-01 11:32:27 | INFO | [56/66] Processing: https://comunicaespiritosanto.petrobras.com.br/plano-de-protecao-a-fauna-e-areas-vulneraveis1
+2026-07-01 11:32:27 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_plano-de-protecao-a-fauna-e-areas-vulneraveis1--0fef488c
+2026-07-01 11:32:27 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/plano-de-protecao-a-fauna-e-areas-vulneraveis1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-protecao-a-fauna-e-areas-vulneraveis1--0fef488c
+2026-07-01 11:32:27 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/plano-de-protecao-a-fauna-e-areas-vulneraveis1
+2026-07-01 11:32:28 | INFO | [57/66] Processing: https://comunicaespiritosanto.petrobras.com.br/mitigacao1
+2026-07-01 11:32:28 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_mitigacao1--e7e4a857
+2026-07-01 11:32:28 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/mitigacao1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_mitigacao1--e7e4a857
+2026-07-01 11:32:28 | INFO | [58/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1
+2026-07-01 11:32:28 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1--c570b904
+2026-07-01 11:32:28 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1--c570b904
+2026-07-01 11:32:28 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/mitigacao1
+2026-07-01 11:32:28 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1
+2026-07-01 11:32:28 | INFO | [59/66] Processing: https://comunicaespiritosanto.petrobras.com.br/programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1
+2026-07-01 11:32:28 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1--7101a3a3
+2026-07-01 11:32:28 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1--7101a3a3
+2026-07-01 11:32:28 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1
+2026-07-01 11:32:28 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:28 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:28 | INFO | URL Pattern: /plano-de-emergencia-para-vazamento-de-oleo-pevo-1
+2026-07-01 11:32:28 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-emergencia-para-vazamento-de-oleo-pevo-1--50a6731d/page-catalog.json
+2026-07-01 11:32:28 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo-1
+2026-07-01 11:32:28 | INFO | PROGRESS: 55/66 analyzed (83% checklist complete) | 55 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-07-01 11:32:30 | INFO | [60/66] Processing: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-do-espirito-santo-pea-es1
+2026-07-01 11:32:30 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_programa-de-educacao-ambiental-do-espirito-santo-pea-es1--c1ed222d
+2026-07-01 11:32:30 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-do-espirito-santo-pea-es1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_programa-de-educacao-ambiental-do-espirito-santo-pea-es1--c1ed222d
+2026-07-01 11:32:30 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-do-espirito-santo-pea-es1
+2026-07-01 11:32:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:34 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:34 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:34 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:34 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:35 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:35 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:35 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:35 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:35 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:35 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:35 | INFO | Main content: #main-content
+2026-07-01 11:32:35 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:35 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:35 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:35 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:35 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:35 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:35 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:35 | INFO | Main content: #main-content
+2026-07-01 11:32:35 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:35 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:35 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:35 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:35 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:35 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:35 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:35 | INFO | Main content: #main-content
+2026-07-01 11:32:35 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:35 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:35 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:35 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:35 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:35 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:35 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:35 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:35 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:35 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:35 | INFO | Main content: #main-content
+2026-07-01 11:32:35 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:35 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:36 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:36 | INFO | Detected 1 blocks
+2026-07-01 11:32:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:36 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:36 | INFO | Detected 1 blocks
+2026-07-01 11:32:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:36 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:36 | INFO | Detected 1 blocks
+2026-07-01 11:32:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:36 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:36 | INFO | Detected 1 blocks
+2026-07-01 11:32:36 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:36 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:36 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:37 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:37 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:37 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:37 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:37 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:37 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:37 | INFO | Main content: #main-content
+2026-07-01 11:32:37 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:37 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:37 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:37 | INFO | Detected 1 blocks
+2026-07-01 11:32:37 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:38 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:38 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:38 | INFO | URL Pattern: /plano-de-protecao-a-fauna-e-areas-vulneraveis1
+2026-07-01 11:32:38 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_plano-de-protecao-a-fauna-e-areas-vulneraveis1--0fef488c/page-catalog.json
+2026-07-01 11:32:38 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/plano-de-protecao-a-fauna-e-areas-vulneraveis1
+2026-07-01 11:32:38 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:38 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:38 | INFO | URL Pattern: /mitigacao1
+2026-07-01 11:32:38 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_mitigacao1--e7e4a857/page-catalog.json
+2026-07-01 11:32:38 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:38 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:38 | INFO | URL Pattern: /projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1
+2026-07-01 11:32:38 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1--c570b904/page-catalog.json
+2026-07-01 11:32:38 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/mitigacao1
+2026-07-01 11:32:38 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-no-es-pmave-es-1
+2026-07-01 11:32:38 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:38 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:38 | INFO | URL Pattern: /programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1
+2026-07-01 11:32:38 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1--7101a3a3/page-catalog.json
+2026-07-01 11:32:38 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/programa-de-comunicacao-social-regional-da-petrobras-no-espirito-santo-pcrs-es-1
+2026-07-01 11:32:39 | INFO | [61/66] Processing: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-dos-trabalhadores
+2026-07-01 11:32:39 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_programa-de-educacao-ambiental-dos-trabalhadores--9106eb1a
+2026-07-01 11:32:39 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-dos-trabalhadores -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_programa-de-educacao-ambiental-dos-trabalhadores--9106eb1a
+2026-07-01 11:32:39 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-dos-trabalhadores
+2026-07-01 11:32:39 | INFO | [62/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-controle-da-polui%C3%A7%C3%A3o-pcp-
+2026-07-01 11:32:39 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-controle-da-polui_C3_A7_C3_A3o-pcp---306bb8eb
+2026-07-01 11:32:39 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-controle-da-polui%C3%A7%C3%A3o-pcp- -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-controle-da-polui_C3_A7_C3_A3o-pcp---306bb8eb
+2026-07-01 11:32:39 | INFO | [63/66] Processing: https://comunicaespiritosanto.petrobras.com.br/caracterizacao1
+2026-07-01 11:32:39 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_caracterizacao1--2cbe9516
+2026-07-01 11:32:39 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/caracterizacao1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_caracterizacao1--2cbe9516
+2026-07-01 11:32:39 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/caracterizacao1
+2026-07-01 11:32:39 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-controle-da-polui%C3%A7%C3%A3o-pcp-
+2026-07-01 11:32:40 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:40 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:40 | INFO | URL Pattern: /programa-de-educacao-ambiental-do-espirito-santo-pea-es1
+2026-07-01 11:32:40 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_programa-de-educacao-ambiental-do-espirito-santo-pea-es1--c1ed222d/page-catalog.json
+2026-07-01 11:32:40 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-do-espirito-santo-pea-es1
+2026-07-01 11:32:40 | INFO | PROGRESS: 60/66 analyzed (91% checklist complete) | 60 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-07-01 11:32:40 | INFO | [64/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1
+2026-07-01 11:32:40 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1--4a7005da
+2026-07-01 11:32:40 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1 -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1--4a7005da
+2026-07-01 11:32:40 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1
+2026-07-01 11:32:41 | INFO | [65/66] Processing: https://comunicaespiritosanto.petrobras.com.br/projeto-de-educa%C3%A7%C3%A3o-ambiental-redes-de-cidadania-pea-redes-
+2026-07-01 11:32:41 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_projeto-de-educa_C3_A7_C3_A3o-ambiental-redes-de-cidadania-pea-redes---29048fbb
+2026-07-01 11:32:41 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/projeto-de-educa%C3%A7%C3%A3o-ambiental-redes-de-cidadania-pea-redes- -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-educa_C3_A7_C3_A3o-ambiental-redes-de-cidadania-pea-redes---29048fbb
+2026-07-01 11:32:41 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/projeto-de-educa%C3%A7%C3%A3o-ambiental-redes-de-cidadania-pea-redes-
+2026-07-01 11:32:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:46 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:46 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:46 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:46 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:46 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:46 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:46 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:46 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:46 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:46 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:46 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:46 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:46 | INFO | Main content: #main-content
+2026-07-01 11:32:46 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:46 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:46 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:46 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:46 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:46 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:46 | INFO | Main content: #main-content
+2026-07-01 11:32:46 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:46 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:32:46 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:46 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:46 | WARNING | Blocks - No blocks detected on page (may be text-only or detection failed)
+2026-07-01 11:32:46 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:47 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:47 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:47 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:47 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:47 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:47 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:47 | INFO | Main content: #main-content
+2026-07-01 11:32:47 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:47 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:47 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:47 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:47 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:47 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:47 | INFO | Main content: #main-content
+2026-07-01 11:32:47 | INFO | Captured 0 block screenshots
+2026-07-01 11:32:47 | INFO | Detected 0 blocks
+2026-07-01 11:32:47 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:47 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:47 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:47 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:47 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:47 | INFO | Captured 0 block screenshots
+2026-07-01 11:32:47 | INFO | Detected 0 blocks
+2026-07-01 11:32:47 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:47 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:47 | INFO | Detected 1 blocks
+2026-07-01 11:32:47 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:47 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:47 | INFO | Detected 1 blocks
+2026-07-01 11:32:47 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:48 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:48 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:48 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:48 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:48 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:48 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:48 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:48 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:48 | INFO | Main content: #main-content
+2026-07-01 11:32:48 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:48 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:49 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:49 | INFO | Detected 1 blocks
+2026-07-01 11:32:49 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:32:49 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:49 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:49 | INFO | URL Pattern: /caracterizacao1
+2026-07-01 11:32:49 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_caracterizacao1--2cbe9516/page-catalog.json
+2026-07-01 11:32:49 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/caracterizacao1
+2026-07-01 11:32:49 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:49 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:49 | INFO | URL Pattern: /projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1
+2026-07-01 11:32:49 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1--4a7005da/page-catalog.json
+2026-07-01 11:32:49 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-avaliacao-de-impactos-da-atividade-de-perfuracao-pai-es-1
+2026-07-01 11:32:50 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:50 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:50 | INFO | URL Pattern: /projeto-de-controle-da-polui%C3%A7%C3%A3o-pcp-
+2026-07-01 11:32:50 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-controle-da-polui_C3_A7_C3_A3o-pcp---306bb8eb/page-catalog.json
+2026-07-01 11:32:50 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-controle-da-polui%C3%A7%C3%A3o-pcp-
+2026-07-01 11:32:50 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:50 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:50 | INFO | URL Pattern: /programa-de-educacao-ambiental-dos-trabalhadores
+2026-07-01 11:32:50 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_programa-de-educacao-ambiental-dos-trabalhadores--9106eb1a/page-catalog.json
+2026-07-01 11:32:50 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/programa-de-educacao-ambiental-dos-trabalhadores
+2026-07-01 11:32:51 | INFO | [66/66] Processing: https://comunicaespiritosanto.petrobras.com.br/n%C3%BAcleo-de-educa%C3%A7%C3%A3o-ambiental-da-regi%C3%A3o-da-bacia-de-campos-nea-bc-
+2026-07-01 11:32:51 | INFO | Generated slug: comunicaespiritosanto_petrobras_com_br_n_C3_BAcleo-de-educa_C3_A7_C3_A3o-ambiental-da-regi_C3_A3o-da-bacia-de-campos-nea-bc---abdfd80e
+2026-07-01 11:32:51 | INFO | Starting analysis: https://comunicaespiritosanto.petrobras.com.br/n%C3%BAcleo-de-educa%C3%A7%C3%A3o-ambiental-da-regi%C3%A3o-da-bacia-de-campos-nea-bc- -> /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_n_C3_BAcleo-de-educa_C3_A7_C3_A3o-ambiental-da-regi_C3_A3o-da-bacia-de-campos-nea-bc---abdfd80e
+2026-07-01 11:32:51 | INFO | Loading: https://comunicaespiritosanto.petrobras.com.br/n%C3%BAcleo-de-educa%C3%A7%C3%A3o-ambiental-da-regi%C3%A3o-da-bacia-de-campos-nea-bc-
+2026-07-01 11:32:51 | INFO | Worker 2 finished
+2026-07-01 11:32:51 | INFO | Worker 1 finished
+2026-07-01 11:32:51 | INFO | Worker 0 finished
+2026-07-01 11:32:51 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:32:51 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:32:51 | INFO | URL Pattern: /projeto-de-educa%C3%A7%C3%A3o-ambiental-redes-de-cidadania-pea-redes-
+2026-07-01 11:32:51 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_projeto-de-educa_C3_A7_C3_A3o-ambiental-redes-de-cidadania-pea-redes---29048fbb/page-catalog.json
+2026-07-01 11:32:51 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/projeto-de-educa%C3%A7%C3%A3o-ambiental-redes-de-cidadania-pea-redes-
+2026-07-01 11:32:51 | INFO | PROGRESS: 65/66 analyzed (98% checklist complete) | 65 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-07-01 11:32:53 | INFO | Worker 4 finished
+2026-07-01 11:32:56 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-07-01 11:32:58 | INFO | Lazy-load scroll complete
+2026-07-01 11:32:58 | INFO | Phase 0B: Cleaning up overlays...
+2026-07-01 11:32:59 | INFO | Removed 5 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-07-01 11:32:59 | INFO | Template - Reused saved header selector on current page
+2026-07-01 11:32:59 | INFO | Template - Reused saved footer selector on current page
+2026-07-01 11:32:59 | INFO | Header: simple complexity, 1 features
+2026-07-01 11:32:59 | INFO | Footer: simple complexity, 0 features
+2026-07-01 11:32:59 | INFO | Phase 2: Identifying main content area...
+2026-07-01 11:32:59 | INFO | Main content: #main-content
+2026-07-01 11:32:59 | INFO | Phase 3: Detecting blocks...
+2026-07-01 11:32:59 | INFO | Phase 4: Capturing block screenshots...
+2026-07-01 11:32:59 | INFO | Captured 1 block screenshots
+2026-07-01 11:32:59 | INFO | Detected 1 blocks
+2026-07-01 11:32:59 | INFO | Generating fingerprints for template discovery...
+2026-07-01 11:33:02 | INFO |    Top-section: 1 rows via title
+2026-07-01 11:33:02 | INFO |    Body start: y=25 (start row 1 via below-title)
+2026-07-01 11:33:02 | INFO | URL Pattern: /n%C3%BAcleo-de-educa%C3%A7%C3%A3o-ambiental-da-regi%C3%A3o-da-bacia-de-campos-nea-bc-
+2026-07-01 11:33:02 | INFO | Page catalog complete: /workspace/catalog/.pages/comunicaespiritosanto_petrobras_com_br_n_C3_BAcleo-de-educa_C3_A7_C3_A3o-ambiental-da-regi_C3_A3o-da-bacia-de-campos-nea-bc---abdfd80e/page-catalog.json
+2026-07-01 11:33:02 | INFO | SUCCESS: https://comunicaespiritosanto.petrobras.com.br/n%C3%BAcleo-de-educa%C3%A7%C3%A3o-ambiental-da-regi%C3%A3o-da-bacia-de-campos-nea-bc-
+2026-07-01 11:33:02 | INFO | PROGRESS: 66/66 analyzed (100% checklist complete) | 66 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-07-01 11:33:02 | INFO | Worker 3 finished
+2026-07-01 11:33:02 | INFO | PROGRESS: 66/66 analyzed (100% checklist complete) | 66 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-07-01 11:33:02 | INFO | ================================================================================
+2026-07-01 11:33:02 | INFO | BATCH ANALYSIS COMPLETED
+2026-07-01 11:33:02 | INFO | ================================================================================
+2026-07-01 11:33:02 | INFO | Total URLs: 66
+2026-07-01 11:33:02 | INFO | Attempt successes: 66
+2026-07-01 11:33:02 | INFO | Attempt failures: 0
+2026-07-01 11:33:02 | INFO | Skipped: 0
+2026-07-01 11:33:02 | INFO | Checklist final status: 66 analyzed, 0 failed, 0 marked
+2026-07-01 11:33:02 | INFO | Workers: 5
+2026-07-01 11:33:02 | INFO | ================================================================================
+2026-07-01 11:33:02 | INFO | Session state: ANALYZING → TEMPLATING
+2026-07-01T11:34:52.055Z | INFO | Consolidating fingerprints from page catalogs...
+2026-07-01T11:34:52.073Z | INFO | consolidate-fingerprints - Consolidated 66 fingerprints
+2026-07-01 11:35:10 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-07-01 11:35:10 | INFO | Agent 4 Progress - Starting representative pass with 16 page(s) and 60 block occurrence(s)
+2026-07-01 11:35:10 | ERROR | Agent 4 - Block form from https://comunicaespiritosanto.petrobras.com.br/cadastro has no screenshot - cannot catalog without visual proof
+2026-07-01 11:35:10 | ERROR | Agent 4 - Block unknown from https://comunicaespiritosanto.petrobras.com.br/cadastro has no screenshot - cannot catalog without visual proof
+2026-07-01 11:35:10 | ERROR | Agent 4 - Block form from https://comunicaespiritosanto.petrobras.com.br/cadastro has no screenshot - cannot catalog without visual proof
+2026-07-01 11:35:10 | ERROR | Agent 4 - Block unknown from https://comunicaespiritosanto.petrobras.com.br/cadastro has no screenshot - cannot catalog without visual proof
+2026-07-01 11:35:10 | INFO | Agent 4 Progress - representative: 16/16 page(s), 56/60 block occurrence(s), 21 unique signatures, 23 variants (21 new, 35 reused)
+2026-07-01 11:35:10 | INFO | Agent 4 Progress - Starting backfill pass with 50 page(s) and 51 block occurrence(s)
+2026-07-01 11:35:10 | INFO | Agent 4 Progress - backfill: 25/50 page(s), 26/51 block occurrence(s), 24 unique signatures, 26 variants (24 new, 58 reused)
+2026-07-01 11:35:10 | INFO | Agent 4 Progress - backfill: 50/50 page(s), 51/51 block occurrence(s), 24 unique signatures, 26 variants (24 new, 83 reused)
+2026-07-01 11:35:10 | INFO | Agent 4 Completed - Cataloged 26 block variants (24 new, 83 reused)
+2026-07-01 11:35:10 | INFO | Agent 2 Started - Generate summary.json
+2026-07-01 11:35:10 | INFO | Session state set to INACTIVE
+2026-07-01 11:35:10 | INFO | Agent 2 Completed - Summary generated successfully

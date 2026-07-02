@@ -1,0 +1,35 @@
+{
+  "variantName": "tabs-moderate-dark",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.435Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/estatistica-do-sic",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/estatistica-do-sic",
+        "screenshot": ".pages/transparencia_petrobras_com_br_estatistica-do-sic--09549a22/blocks/tabs-5c3ee8e.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/orcamento-de-investimento",
+        "screenshot": ".pages/transparencia_petrobras_com_br_orcamento-de-investimento--98b4915e/blocks/tabs-5c3ee8e.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

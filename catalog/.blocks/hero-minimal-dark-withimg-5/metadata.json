@@ -1,0 +1,127 @@
+{
+  "variantName": "hero-minimal-dark-withimg-5",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos--139ef840/blocks/hero-2a1affee.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_autonomia-e-renda--682625af/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/como-trabalhamos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_como-trabalhamos--dd441452/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/reach",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_reach--099069ae/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade--ef98acf0/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_biodiversidade--881028f1/blocks/hero-68c8b316.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/dados-abertos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_dados-abertos--69d69281/blocks/hero-588add6a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esportes--528df9a3/blocks/hero-5794bfa3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/meio-ambiente",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_meio-ambiente--bcf1ed9d/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/hero-6d6d91f8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/hero-4d293c6a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_en_transicao-energetica_historias-em-quadrinhos--e5bccb56/blocks/hero-7ec53f5c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios",
+        "screenshot": ".pages/petrobras_com_br_negocios--0a8ec899/blocks/hero-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis",
+        "screenshot": ".pages/petrobras_com_br_produtos-mais-sustent_C3_A1veis--afda81ef/blocks/hero-2409da26.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos--3afc6677/blocks/hero-2a1affee.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/como-trabalhamos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_como-trabalhamos--e2ed158f/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/liderancas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_liderancas--ce7f6fab/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossa-marca--7325a41c/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_perfil--b7731683/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/reach",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_reach--c577f303/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade--1c281267/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esportes",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esportes--9e5c352c/blocks/hero-5794bfa3.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_mudancas-climaticas--b6255d63/blocks/hero-56fb17b8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/hero-6d6d91f8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica/historias-em-quadrinhos",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica_historias-em-quadrinhos--32516cfa/blocks/hero-7ec53f5c.jpg"
+      }
+    ],
+    "reuseCount": 25
+  }
+}

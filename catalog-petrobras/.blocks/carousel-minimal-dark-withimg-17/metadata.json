@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-17",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.219Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/complexo-boaventura",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "5 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"5 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/complexo-boaventura",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_complexo-boaventura--1460beb0/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refinaria-abreu-lima",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refinaria-abreu-lima--bfb5c000/blocks/carousel-258205df.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-abreu-lima",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-abreu-lima--bcde7092/blocks/carousel-258205df.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

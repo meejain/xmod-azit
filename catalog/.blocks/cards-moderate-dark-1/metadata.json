@@ -1,0 +1,35 @@
+{
+  "variantName": "cards-moderate-dark-1",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.213Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/produtos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "9 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"9 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos--a2db0e55/blocks/cards-63bfb4e9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/produtos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_produtos--d4f28aaf/blocks/cards-63bfb4e9.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

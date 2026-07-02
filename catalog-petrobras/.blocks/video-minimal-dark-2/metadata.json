@@ -1,0 +1,31 @@
+{
+  "variantName": "video-minimal-dark-2",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.227Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/gasolina",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"video\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina--5a807921/blocks/video-7d34b8b4.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "embed-moderate-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/araucarianitrogenados_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--8f092a9e/blocks/embed-428fd6d1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

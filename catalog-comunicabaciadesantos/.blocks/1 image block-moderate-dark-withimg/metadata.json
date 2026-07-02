@@ -1,0 +1,43 @@
+{
+  "variantName": "1 image block-moderate-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.432Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/agbs",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/agbs",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_agbs--0f2f88d4/blocks/unknown-16202b.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_agbs--28bd815d/blocks/unknown-36e5368c.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/empreendimentos/pesquisa-sismica-maritima",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_empreendimentos_pesquisa-sismica-maritima--1cbc995c/blocks/unknown-3f79712f.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/tipos-de-plataformas-utilizadas-na-bacia-de-santos",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_tipos-de-plataformas-utilizadas-na-bacia-de-santos--cb65f4b6/blocks/unknown-3f5570ad.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

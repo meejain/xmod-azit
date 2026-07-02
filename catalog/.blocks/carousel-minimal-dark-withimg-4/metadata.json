@@ -1,0 +1,344 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-4",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 4 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 4 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"heading + 4 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/",
+        "screenshot": ".pages/petrobras_com_br--64872776/blocks/carousel-3e705656.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en",
+        "screenshot": ".pages/petrobras_com_br_en--d814761f/blocks/carousel-7725f1de.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_patentes--1ee30656/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-escoamento-de-gas--e9514cd5/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-processamento-de-gas--e935934d/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_en_ouvidoria--08cae8fa/blocks/carousel-3b35273a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos--139ef840/blocks/carousel-3b35273a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_autonomia-e-renda--682625af/blocks/carousel-2c8ebfbd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_carreiras--59c53b01/blocks/carousel-2c8ebfbd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_perfil--cbd5b9e3/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_porto-de-macae--3cab617f/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/trajetoria",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_trajetoria--1949951e/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/vida-na-plataforma",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_vida-na-plataforma--3c8f755a/blocks/carousel-75fb697f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/cinema",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_cinema--9f0a084f/blocks/carousel-11e3a52f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_cultural--c373480b/blocks/carousel-11e3a52f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/dados-abertos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_dados-abertos--69d69281/blocks/carousel-30669dea.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_descomissionamento-offshore--63caaebe/blocks/carousel-3bb0064d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/esporte-motor",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_esporte-motor--3e317a53/blocks/carousel-23836aab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_eventos--4f713a52/blocks/carousel-1e8b7b6f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_futebol-feminino--211e0359/blocks/carousel-302b25c8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/iniciativas-de-reflorestamento",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_iniciativas-de-reflorestamento--8420e892/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/meio-ambiente",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_meio-ambiente--bcf1ed9d/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_mudancas-climaticas--15a1a892/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/carousel-24c880ca.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_relatorios-anuais--4410142e/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_responsabilidade-social--18edb523/blocks/carousel-4126dbcd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-meio-ambiente-saude--69abbd57/blocks/carousel-1c3849e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-operacional--e87966a0/blocks/carousel-1436a613.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/skate",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_skate--fed9e670/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/time-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_time-petrobras--dd22aadb/blocks/carousel-23836aab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia--70bf2304/blocks/carousel-21db2cc6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_patentes--492a92be/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/jornada-da-energia",
+        "screenshot": ".pages/petrobras_com_br_jornada-da-energia--58889390/blocks/carousel-2a302c4b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios",
+        "screenshot": ".pages/petrobras_com_br_negocios--0a8ec899/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-escoamento-de-gas--ad599604/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-processamento-de-gas--0a7a82bd/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_ouvidoria--aa65f3bd/blocks/carousel-3b35273a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/pre-sal",
+        "screenshot": ".pages/petrobras_com_br_pre-sal--fa7b7a92/blocks/carousel-1be1167e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos--3afc6677/blocks/carousel-3b35273a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_autonomia-e-renda--a406b194/blocks/carousel-2c8ebfbd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_carreiras--85bc7e47/blocks/carousel-2c8ebfbd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_concursos--30749157/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estagios--e55fc8bd/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_jovem-aprendiz--44a7d26e/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_logistica--74ca30bd/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossa-marca--7325a41c/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/participacoes-societarias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_participacoes-societarias--f1504bfd/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/perfil",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_perfil--b7731683/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_porto-de-macae--aead1fef/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/produtos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_produtos--d4f28aaf/blocks/carousel-52ccd433.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-alberto-pasqualini",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-alberto-pasqualini--e3407a52/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-de-paulinia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-de-paulinia--1bdb57bf/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-duque-de-caxias--1d80c1a9/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-gabriel-passos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-gabriel-passos--a1a4be85/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-henrique-lage",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-henrique-lage--0a746af3/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-bernardes",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-bernardes--ffd19a35/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refinaria-presidente-getulio-vargas",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refinaria-presidente-getulio-vargas--7c3101b7/blocks/carousel-231b3eaf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/trajetoria",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_trajetoria--b1342c85/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/vida-na-plataforma",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_vida-na-plataforma--5d4ff768/blocks/carousel-75fb697f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/biodiversidade",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_biodiversidade--83f1cfa5/blocks/carousel-3b35273a.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cultural--05960a3b/blocks/carousel-678c0f69.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/dados-abertos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_dados-abertos--15030f70/blocks/carousel-30669dea.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_descomissionamento-offshore--658eb204/blocks/carousel-3bb0064d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/esporte-motor",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_esporte-motor--a9d9b475/blocks/carousel-23836aab.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/eventos",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_eventos--55cf47d4/blocks/carousel-1e8b7b6f.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_futebol-feminino--4998f2ba/blocks/carousel-302b25c8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/carousel-6315ebd1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/iniciativas-de-reflorestamento",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_iniciativas-de-reflorestamento--de7573d5/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/licenciamento-ambiental",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_licenciamento-ambiental--0675000e/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/meio-ambiente",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_meio-ambiente--609cd926/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/mudancas-climaticas",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_mudancas-climaticas--b6255d63/blocks/carousel-6a9964e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/carousel-24c880ca.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_relatorios-anuais--2607bd7f/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/responsabilidade-social",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_responsabilidade-social--5c5eb7a1/blocks/carousel-4126dbcd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-meio-ambiente-saude--3714fa53/blocks/carousel-1c3849e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-operacional",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-operacional--61aeb695/blocks/carousel-1436a613.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/skate",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_skate--197689c3/blocks/carousel-1bfd4179.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/time-petrobras",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_time-petrobras--ed0ad4ec/blocks/carousel-23836aab.jpg"
+      }
+    ],
+    "reuseCount": 79
+  }
+}

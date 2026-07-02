@@ -1,0 +1,52 @@
+{
+  "variantName": "1 heading + 2 images + 1 cta block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.217Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/bolivia",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + 1 CTAs + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 1 CTAs + 2 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 1 CTAs + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/unknown-53301334.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/colombia",
+        "screenshot": ".pages/petrobras_com_br_colombia--e0377991/blocks/unknown-23767ded.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/unknown-53301334.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/colombia",
+        "screenshot": ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/unknown-23767ded.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/solucoes-baseadas-na-natureza",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_solucoes-baseadas-na-natureza--0f99edd7/blocks/unknown-27fde7c2.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/solucoes-baseadas-na-natureza",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_solucoes-baseadas-na-natureza--76ea097d/blocks/unknown-27fde7c2.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

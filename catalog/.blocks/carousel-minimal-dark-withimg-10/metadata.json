@@ -1,0 +1,47 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-10",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/pre-sal",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/cultural/selecoes-publicas-culturais",
+        "screenshot": ".pages/petrobras_com_br_cultural_selecoes-publicas-culturais--a0cfbcca/blocks/carousel-30817259.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/pre-sal",
+        "screenshot": ".pages/petrobras_com_br_en_pre-sal--58d67a52/blocks/carousel-71721670.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/carousel-79dbaa1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/pre-sal",
+        "screenshot": ".pages/petrobras_com_br_pre-sal--fa7b7a92/blocks/carousel-71721670.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_nossa-marca--7325a41c/blocks/carousel-79dbaa1.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

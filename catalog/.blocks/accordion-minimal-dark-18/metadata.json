@@ -1,0 +1,39 @@
+{
+  "variantName": "accordion-minimal-dark-18",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.219Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/cap-pro",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 16 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 16 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-pro--72c50d48/blocks/accordion-5bd1ae9d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos-asfalticos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos-asfalticos--2aa5b68d/blocks/accordion-5bd1ae9d.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-pro--cd64c48a/blocks/accordion-5bd1ae9d.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

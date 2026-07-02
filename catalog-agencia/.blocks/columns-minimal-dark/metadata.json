@@ -1,0 +1,51 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.791Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/editoria-mais-lidos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 1 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 1 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/editoria-mais-lidos",
+        "screenshot": ".pages/agencia_petrobras_com_br_editoria-mais-lidos--4b50dc96/blocks/columns-546a547.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/inovacao",
+        "screenshot": ".pages/agencia_petrobras_com_br_inovacao--36718c7e/blocks/columns-6cfce448.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/institucional",
+        "screenshot": ".pages/agencia_petrobras_com_br_institucional--cd101b8b/blocks/columns-7a730290.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/mais-recentes",
+        "screenshot": ".pages/agencia_petrobras_com_br_mais-recentes--66c47419/blocks/columns-71261ea5.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/negocio",
+        "screenshot": ".pages/agencia_petrobras_com_br_negocio--8db52f4e/blocks/columns-75ef38ac.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/regionais",
+        "screenshot": ".pages/agencia_petrobras_com_br_regionais--e6eacb9c/blocks/columns-2ee068db.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

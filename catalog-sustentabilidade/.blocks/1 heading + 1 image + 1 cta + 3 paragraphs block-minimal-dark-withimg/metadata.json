@@ -1,0 +1,72 @@
+{
+  "variantName": "1 heading + 1 image + 1 cta + 3 paragraphs block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.865Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/relatorio-2021",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 1 CTAs + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 1 CTAs + image\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/relatorio-2021",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46/blocks/unknown-3c4f9e70.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/relatorio2023",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620/blocks/unknown-3c4f9e70.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais--fdba5943/blocks/unknown-202f18f0.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-1--db43e082/blocks/unknown-1a4c0170.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_impactos-economicos-1--159a65e9/blocks/unknown-202f18f0.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios--906212ec/blocks/unknown-202f18b2.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios-1--7e892cbd/blocks/unknown-202f18b2.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades--228b9e0d/blocks/unknown-202f18d1.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes--6fb4dd19/blocks/unknown-202f192e.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes-de-processo",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes-de-processo--ac0cb75b/blocks/unknown-202f192e.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases-1--745bb94d/blocks/unknown-202f196c.jpg"
+      }
+    ],
+    "reuseCount": 11
+  }
+}

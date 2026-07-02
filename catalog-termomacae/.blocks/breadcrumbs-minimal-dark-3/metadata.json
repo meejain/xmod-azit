@@ -1,0 +1,35 @@
+{
+  "variantName": "breadcrumbs-minimal-dark-3",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.235Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/outras-informacoes",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + 4 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"breadcrumbs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + 4 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/termomacae_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--eb1c96eb/blocks/breadcrumbs-c2873be.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/outras-informacoes",
+        "screenshot": ".pages/termomacae_com_br_outras-informacoes--9d1c34ea/blocks/breadcrumbs-59239cac.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

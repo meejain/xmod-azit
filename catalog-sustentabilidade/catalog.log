@@ -1,0 +1,1615 @@
+2026-06-30 19:40:34 | INFO | Setting up catalog project for: https://sustentabilidade.petrobras.com.br/
+2026-06-30 19:40:34 | INFO | Project root: /workspace
+2026-06-30 19:40:34 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 19:40:34 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 19:40:34 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 19:40:34 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 19:40:34 | INFO | Session initialized: DISCOVERY
+2026-06-30 19:40:34 | INFO | Catalog project setup complete
+2026-06-30 19:40:34 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 19:40:34 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 19:40:34 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 19:40:34 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-06-30 19:41:45 | INFO | Creating sample URLs...
+2026-06-30 19:41:45 | ERROR | urls-grouped.json not found. Run Agent 2 first.
+2026-06-30 19:42:19 | INFO | Creating sample URLs...
+2026-06-30 19:42:19 | INFO | Total URLs in grouped data: 60
+2026-06-30 19:42:19 | INFO | Total URLs (60) <= 1000, using ALL URLs
+2026-06-30 19:42:19 | INFO | Created urls-sample.json with 60 URLs
+2026-06-30 19:42:19 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 19:42:19 | INFO | Schema validation passed
+2026-06-30 19:42:19 | INFO | Sample creation complete - urls-sample.json with 60 URLs
+2026-06-30 19:42:24 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 19:42:24 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 19:42:25 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 19:42:25 | INFO | Created urls-checklist.json with 60 URLs
+2026-06-30 19:42:25 | INFO | Session state: ANALYZING
+2026-06-30 19:42:25 | INFO | ================================================================================
+2026-06-30 19:42:25 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 19:42:25 | INFO | Catalog: /workspace/catalog
+2026-06-30 19:42:25 | INFO | Delay: 1500ms between requests
+2026-06-30 19:42:25 | INFO | Workers: 5
+2026-06-30 19:42:25 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 19:42:25 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 19:42:25 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 19:42:25 | INFO | ================================================================================
+2026-06-30 19:42:25 | INFO | Found 60 URLs to process (5 workers)
+2026-06-30 19:42:25 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 19:42:25 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 19:42:25 | INFO | Pages to analyze: 60
+2026-06-30 19:42:25 | INFO | Processing speed baseline: ~50 pages/minute (5 workers)
+2026-06-30 19:42:25 | INFO | Estimated analysis time: ~2 min
+2026-06-30 19:42:25 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 19:42:25 | INFO | Launching stealth browser...
+2026-06-30 19:42:25 | INFO | [1/60] Processing: https://sustentabilidade.petrobras.com.br/
+2026-06-30 19:42:25 | INFO | Generated slug: sustentabilidade_petrobras_com_br--85c86c3b
+2026-06-30 19:42:25 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/ -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br--85c86c3b
+2026-06-30 19:42:25 | INFO | Loading: https://sustentabilidade.petrobras.com.br/
+2026-06-30 19:42:26 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 19:42:26 | INFO | Launching stealth browser...
+2026-06-30 19:42:26 | INFO | [2/60] Processing: https://sustentabilidade.petrobras.com.br/w/%C3%A1guas-e-efluentes
+2026-06-30 19:42:26 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_C3_A1guas-e-efluentes--c875acf3
+2026-06-30 19:42:26 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/%C3%A1guas-e-efluentes -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_C3_A1guas-e-efluentes--c875acf3
+2026-06-30 19:42:26 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/%C3%A1guas-e-efluentes
+2026-06-30 19:42:28 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 19:42:28 | INFO | Launching stealth browser...
+2026-06-30 19:42:28 | INFO | [3/60] Processing: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes
+2026-06-30 19:42:28 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_agua-e-efluentes--2e9765fa
+2026-06-30 19:42:28 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes--2e9765fa
+2026-06-30 19:42:28 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes
+2026-06-30 19:42:29 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 19:42:29 | INFO | Launching stealth browser...
+2026-06-30 19:42:29 | INFO | [4/60] Processing: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes-1
+2026-06-30 19:42:29 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_agua-e-efluentes-1--80992c61
+2026-06-30 19:42:29 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes-1--80992c61
+2026-06-30 19:42:29 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes-1
+2026-06-30 19:42:31 | INFO | Worker 4 started (profile 4: macOS)
+2026-06-30 19:42:31 | INFO | Launching stealth browser...
+2026-06-30 19:42:31 | INFO | [5/60] Processing: https://sustentabilidade.petrobras.com.br/w/biodiversidade
+2026-06-30 19:42:31 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_biodiversidade--c4e36311
+2026-06-30 19:42:31 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/biodiversidade -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_biodiversidade--c4e36311
+2026-06-30 19:42:31 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/biodiversidade
+2026-06-30 19:42:33 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:35 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:35 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:37 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:39 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-78575d8e-8ab3-a30f-91fc-9c8b497f058f
+   ✅ Saved global footer: div.icons-footer.containers
+2026-06-30 19:42:39 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:39 | INFO | Main content: #main-content
+2026-06-30 19:42:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:39 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:40 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:41 | INFO | Captured 1 block screenshots
+2026-06-30 19:42:41 | INFO | Detected 1 blocks
+2026-06-30 19:42:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:41 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:42:41 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:42:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:42:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:41 | INFO | Main content: #main-content
+2026-06-30 19:42:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:42 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:42 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:42 | INFO | Captured 4 block screenshots
+2026-06-30 19:42:42 | INFO | Detected 4 blocks
+2026-06-30 19:42:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:43 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:42:43 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:42:43 | INFO | URL Pattern: /w/%C3%A1guas-e-efluentes
+2026-06-30 19:42:43 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_C3_A1guas-e-efluentes--c875acf3/page-catalog.json
+2026-06-30 19:42:43 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/%C3%A1guas-e-efluentes
+2026-06-30 19:42:43 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-78575d8e-8ab3-a30f-91fc-9c8b497f058f)
+2026-06-30 19:42:43 | INFO | Created footer-global metadata (selector: div.icons-footer.containers)
+2026-06-30 19:42:44 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:42:44 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:42:44 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:42:44 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:44 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:44 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:44 | INFO | Main content: #main-content
+2026-06-30 19:42:44 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:44 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:45 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:42:45 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:42:45 | INFO | URL Pattern: /w/agua-e-efluentes
+2026-06-30 19:42:45 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes--2e9765fa/page-catalog.json
+2026-06-30 19:42:45 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes
+2026-06-30 19:42:45 | INFO | Captured 4 block screenshots
+2026-06-30 19:42:45 | INFO | Detected 4 blocks
+2026-06-30 19:42:45 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:45 | INFO | [6/60] Processing: https://sustentabilidade.petrobras.com.br/w/biodiversidade-1
+2026-06-30 19:42:45 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_biodiversidade-1--c41f41e7
+2026-06-30 19:42:45 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/biodiversidade-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_biodiversidade-1--c41f41e7
+2026-06-30 19:42:45 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/biodiversidade-1
+2026-06-30 19:42:46 | INFO | [7/60] Processing: https://sustentabilidade.petrobras.com.br/w/biodiversidade-3
+2026-06-30 19:42:46 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_biodiversidade-3--b90438c1
+2026-06-30 19:42:46 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/biodiversidade-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_biodiversidade-3--b90438c1
+2026-06-30 19:42:46 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/biodiversidade-3
+2026-06-30 19:42:47 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:42:47 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:42:47 | INFO | URL Pattern: /w/agua-e-efluentes-1
+2026-06-30 19:42:47 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes-1--80992c61/page-catalog.json
+2026-06-30 19:42:47 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/agua-e-efluentes-1
+2026-06-30 19:42:49 | INFO | [8/60] Processing: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais
+2026-06-30 19:42:49 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais--fdba5943
+2026-06-30 19:42:49 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais--fdba5943
+2026-06-30 19:42:49 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais
+2026-06-30 19:42:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:52 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:52 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:42:53 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:53 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:54 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:42:54 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:42:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:42:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:54 | INFO | Main content: #main-content
+2026-06-30 19:42:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:55 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:42:55 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:42:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:42:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:55 | INFO | Main content: #main-content
+2026-06-30 19:42:55 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:42:55 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:42:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:42:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:55 | INFO | Main content: #main-content
+2026-06-30 19:42:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:55 | INFO | Captured 5 block screenshots
+2026-06-30 19:42:55 | INFO | Detected 5 blocks
+2026-06-30 19:42:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:56 | INFO | Captured 5 block screenshots
+2026-06-30 19:42:56 | INFO | Detected 5 blocks
+2026-06-30 19:42:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:56 | INFO | Captured 6 block screenshots
+2026-06-30 19:42:56 | INFO | Detected 6 blocks
+2026-06-30 19:42:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:56 | INFO | Lazy-load scroll complete
+2026-06-30 19:42:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:42:58 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:42:58 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:42:58 | INFO | URL Pattern: /w/biodiversidade-1
+2026-06-30 19:42:58 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_biodiversidade-1--c41f41e7/page-catalog.json
+2026-06-30 19:42:58 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/biodiversidade-1
+2026-06-30 19:42:58 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:42:58 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:42:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:42:58 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:42:58 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:42:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:42:58 | INFO | Main content: #main-content
+2026-06-30 19:42:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:42:58 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:42:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:42:58 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:42:58 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:42:58 | INFO | URL Pattern: /w/biodiversidade-3
+2026-06-30 19:42:58 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_biodiversidade-3--b90438c1/page-catalog.json
+2026-06-30 19:42:58 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/biodiversidade-3
+2026-06-30 19:42:58 | INFO | PROGRESS: 5/60 analyzed (8% checklist complete) | 5 ok, 0 failed, 0 skipped | ~7 min remaining
+2026-06-30 19:42:58 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:42:58 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:42:58 | INFO | URL Pattern: /w/biodiversidade
+2026-06-30 19:42:58 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_biodiversidade--c4e36311/page-catalog.json
+2026-06-30 19:42:58 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/biodiversidade
+2026-06-30 19:42:59 | INFO | Captured 6 block screenshots
+2026-06-30 19:42:59 | INFO | Detected 6 blocks
+2026-06-30 19:42:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:42:59 | INFO | [9/60] Processing: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1
+2026-06-30 19:42:59 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-1--db43e082
+2026-06-30 19:42:59 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-1--db43e082
+2026-06-30 19:42:59 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1
+2026-06-30 19:42:59 | INFO | [10/60] Processing: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-3
+2026-06-30 19:42:59 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-3--e8baf281
+2026-06-30 19:42:59 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-3--e8baf281
+2026-06-30 19:42:59 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-3
+2026-06-30 19:43:00 | INFO | [11/60] Processing: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publico-de-interesse
+2026-06-30 19:43:00 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_engajamento-com-publico-de-interesse--fcf0867c
+2026-06-30 19:43:00 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publico-de-interesse -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-com-publico-de-interesse--fcf0867c
+2026-06-30 19:43:00 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publico-de-interesse
+2026-06-30 19:43:01 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:01 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:01 | INFO | URL Pattern: /w/comunidades-locais-e-tradicionais
+2026-06-30 19:43:01 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais--fdba5943/page-catalog.json
+2026-06-30 19:43:01 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais
+2026-06-30 19:43:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:03 | INFO | [12/60] Processing: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publicos-de-interesse
+2026-06-30 19:43:03 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_engajamento-com-publicos-de-interesse--54e47b0b
+2026-06-30 19:43:03 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publicos-de-interesse -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-com-publicos-de-interesse--54e47b0b
+2026-06-30 19:43:03 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publicos-de-interesse
+2026-06-30 19:43:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:03 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:05 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:05 | INFO | Removed 7 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:05 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:05 | INFO | Main content: #main-content
+2026-06-30 19:43:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:07 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:07 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:07 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:07 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:07 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:07 | INFO | Main content: #main-content
+2026-06-30 19:43:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:08 | INFO | Captured 4 block screenshots
+2026-06-30 19:43:08 | INFO | Detected 4 blocks
+2026-06-30 19:43:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:08 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:08 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:08 | INFO | Captured 10 block screenshots
+2026-06-30 19:43:08 | INFO | Detected 10 blocks
+2026-06-30 19:43:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:09 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:09 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:09 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:09 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:09 | INFO | Main content: #main-content
+2026-06-30 19:43:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:09 | WARNING | Blocks - 70% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:43:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:09 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:09 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:09 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:09 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:09 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:09 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:09 | INFO | Main content: #main-content
+2026-06-30 19:43:09 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:09 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:43:09 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:10 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:10 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:10 | INFO | Main content: #main-content
+2026-06-30 19:43:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:10 | INFO | Captured 10 block screenshots
+2026-06-30 19:43:10 | INFO | Detected 10 blocks
+2026-06-30 19:43:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:10 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:10 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:10 | INFO | URL Pattern: /w/engajamento-com-publico-de-interesse
+2026-06-30 19:43:10 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-com-publico-de-interesse--fcf0867c/page-catalog.json
+2026-06-30 19:43:10 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publico-de-interesse
+2026-06-30 19:43:10 | INFO | Captured 9 block screenshots
+2026-06-30 19:43:10 | INFO | Detected 9 blocks
+2026-06-30 19:43:10 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:11 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:43:11 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:43:11 | INFO | URL Pattern: /
+2026-06-30 19:43:11 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br--85c86c3b/page-catalog.json
+2026-06-30 19:43:11 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/
+2026-06-30 19:43:11 | INFO | Captured 4 block screenshots
+2026-06-30 19:43:11 | INFO | Detected 4 blocks
+2026-06-30 19:43:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:12 | INFO | [13/60] Processing: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas
+2026-06-30 19:43:12 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas--fb2a935b
+2026-06-30 19:43:12 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas--fb2a935b
+2026-06-30 19:43:12 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas
+2026-06-30 19:43:12 | INFO | [14/60] Processing: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro
+2026-06-30 19:43:12 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro--8c8957f7
+2026-06-30 19:43:12 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro--8c8957f7
+2026-06-30 19:43:12 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro
+2026-06-30 19:43:13 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:13 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:13 | INFO | URL Pattern: /w/comunidades-locais-e-tradicionais-1
+2026-06-30 19:43:13 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-1--db43e082/page-catalog.json
+2026-06-30 19:43:13 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-1
+2026-06-30 19:43:13 | INFO | PROGRESS: 10/60 analyzed (17% checklist complete) | 10 ok, 0 failed, 0 skipped | ~5 min remaining
+2026-06-30 19:43:13 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:13 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:13 | INFO | URL Pattern: /w/comunidades-locais-e-tradicionais-3
+2026-06-30 19:43:13 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais-3--e8baf281/page-catalog.json
+2026-06-30 19:43:13 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/comunidades-locais-e-tradicionais-3
+2026-06-30 19:43:13 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:13 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:13 | INFO | URL Pattern: /w/engajamento-com-publicos-de-interesse
+2026-06-30 19:43:13 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-com-publicos-de-interesse--54e47b0b/page-catalog.json
+2026-06-30 19:43:13 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/engajamento-com-publicos-de-interesse
+2026-06-30 19:43:14 | INFO | [15/60] Processing: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade
+2026-06-30 19:43:14 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade--9bdf4c42
+2026-06-30 19:43:14 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade--9bdf4c42
+2026-06-30 19:43:14 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade
+2026-06-30 19:43:14 | INFO | [16/60] Processing: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1
+2026-06-30 19:43:14 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade-1--dfa25de1
+2026-06-30 19:43:14 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade-1--dfa25de1
+2026-06-30 19:43:14 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1
+2026-06-30 19:43:15 | INFO | [17/60] Processing: https://sustentabilidade.petrobras.com.br/w/estrat%C3%A9gia-em-sustentabilidade-3
+2026-06-30 19:43:15 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_estrat_C3_A9gia-em-sustentabilidade-3--0a471cb9
+2026-06-30 19:43:15 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/estrat%C3%A9gia-em-sustentabilidade-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_estrat_C3_A9gia-em-sustentabilidade-3--0a471cb9
+2026-06-30 19:43:15 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/estrat%C3%A9gia-em-sustentabilidade-3
+2026-06-30 19:43:15 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:16 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:17 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:17 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:17 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:18 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:18 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:19 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:19 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:19 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:19 | INFO | Main content: #main-content
+2026-06-30 19:43:19 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:19 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:19 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:19 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:19 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:19 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:19 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:19 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:19 | INFO | Main content: #main-content
+2026-06-30 19:43:20 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:20 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:20 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:20 | INFO | Captured 3 block screenshots
+2026-06-30 19:43:20 | INFO | Detected 3 blocks
+2026-06-30 19:43:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:20 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:20 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:20 | INFO | Captured 3 block screenshots
+2026-06-30 19:43:20 | INFO | Detected 3 blocks
+2026-06-30 19:43:20 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:21 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:21 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:21 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:21 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:21 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:21 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:21 | INFO | Main content: #main-content
+2026-06-30 19:43:21 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:21 | WARNING | Blocks - 63% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:43:21 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:22 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:22 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:22 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:22 | INFO | Main content: #main-content
+2026-06-30 19:43:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:22 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:22 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:22 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:22 | INFO | Main content: #main-content
+2026-06-30 19:43:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:22 | INFO |    Top-section: 23 rows via title
+2026-06-30 19:43:22 | INFO |    Body start: y=575 (start row 23 via below-title)
+2026-06-30 19:43:22 | INFO | URL Pattern: /w/engajamento-em-politicas-publicas
+2026-06-30 19:43:22 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas--fb2a935b/page-catalog.json
+2026-06-30 19:43:22 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas
+2026-06-30 19:43:23 | INFO | Captured 5 block screenshots
+2026-06-30 19:43:23 | INFO | Detected 5 blocks
+2026-06-30 19:43:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:23 | INFO | Captured 8 block screenshots
+2026-06-30 19:43:23 | INFO | Detected 8 blocks
+2026-06-30 19:43:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:23 | INFO |    Top-section: 23 rows via title
+2026-06-30 19:43:23 | INFO |    Body start: y=575 (start row 23 via below-title)
+2026-06-30 19:43:23 | INFO | URL Pattern: /w/engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro
+2026-06-30 19:43:23 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro--8c8957f7/page-catalog.json
+2026-06-30 19:43:23 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/engajamento-em-politicas-publicas-advocacy-e-apoio-financeiro
+2026-06-30 19:43:23 | INFO | Captured 5 block screenshots
+2026-06-30 19:43:23 | INFO | Detected 5 blocks
+2026-06-30 19:43:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:24 | INFO | [18/60] Processing: https://sustentabilidade.petrobras.com.br/w/expediente
+2026-06-30 19:43:24 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_expediente--d1cbf018
+2026-06-30 19:43:24 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/expediente -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_expediente--d1cbf018
+2026-06-30 19:43:24 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/expediente
+2026-06-30 19:43:24 | INFO | [19/60] Processing: https://sustentabilidade.petrobras.com.br/w/expediente-1
+2026-06-30 19:43:24 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_expediente-1--7246208f
+2026-06-30 19:43:24 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/expediente-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_expediente-1--7246208f
+2026-06-30 19:43:24 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/expediente-1
+2026-06-30 19:43:25 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:25 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:25 | INFO | URL Pattern: /w/estrategia-em-sustentabilidade-1
+2026-06-30 19:43:25 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade-1--dfa25de1/page-catalog.json
+2026-06-30 19:43:25 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1
+2026-06-30 19:43:25 | INFO | PROGRESS: 15/60 analyzed (25% checklist complete) | 15 ok, 0 failed, 0 skipped | ~4 min remaining
+2026-06-30 19:43:25 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:25 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:25 | INFO | URL Pattern: /w/estrategia-em-sustentabilidade
+2026-06-30 19:43:25 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade--9bdf4c42/page-catalog.json
+2026-06-30 19:43:25 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade
+2026-06-30 19:43:25 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:25 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:25 | INFO | URL Pattern: /w/estrat%C3%A9gia-em-sustentabilidade-3
+2026-06-30 19:43:25 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_estrat_C3_A9gia-em-sustentabilidade-3--0a471cb9/page-catalog.json
+2026-06-30 19:43:25 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/estrat%C3%A9gia-em-sustentabilidade-3
+2026-06-30 19:43:26 | INFO | [20/60] Processing: https://sustentabilidade.petrobras.com.br/w/expediente-2-1
+2026-06-30 19:43:26 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_expediente-2-1--4d1eac05
+2026-06-30 19:43:26 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/expediente-2-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_expediente-2-1--4d1eac05
+2026-06-30 19:43:27 | INFO | [21/60] Processing: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento
+2026-06-30 19:43:27 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento--a017e972
+2026-06-30 19:43:27 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento--a017e972
+2026-06-30 19:43:27 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/expediente-2-1
+2026-06-30 19:43:27 | INFO | [22/60] Processing: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento-sustentavel
+2026-06-30 19:43:27 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento-sustentavel--bac9c7cd
+2026-06-30 19:43:27 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento-sustentavel -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento-sustentavel--bac9c7cd
+2026-06-30 19:43:27 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento
+2026-06-30 19:43:27 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento-sustentavel
+2026-06-30 19:43:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:28 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:29 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:29 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:30 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:30 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:31 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:31 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:31 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:31 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:31 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:31 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:31 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:31 | INFO | Main content: #main-content
+2026-06-30 19:43:31 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:31 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:32 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:32 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:32 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:32 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:33 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:33 | INFO | Captured 3 block screenshots
+2026-06-30 19:43:33 | INFO | Detected 3 blocks
+2026-06-30 19:43:33 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:34 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:34 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:34 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:34 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:34 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:34 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:34 | INFO | Main content: #main-content
+2026-06-30 19:43:34 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:34 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:35 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:35 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:35 | INFO | Main content: #main-content
+2026-06-30 19:43:35 | INFO | Captured 2 block screenshots
+2026-06-30 19:43:35 | INFO | Detected 2 blocks
+2026-06-30 19:43:35 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:35 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:35 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:35 | INFO | Main content: #main-content
+2026-06-30 19:43:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:36 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:43:36 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:43:36 | INFO | URL Pattern: /w/expediente-1
+2026-06-30 19:43:36 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_expediente-1--7246208f/page-catalog.json
+2026-06-30 19:43:36 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/expediente-1
+2026-06-30 19:43:36 | INFO | Captured 4 block screenshots
+2026-06-30 19:43:36 | INFO | Detected 4 blocks
+2026-06-30 19:43:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:36 | INFO | Captured 4 block screenshots
+2026-06-30 19:43:36 | INFO | Detected 4 blocks
+2026-06-30 19:43:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:37 | INFO | [23/60] Processing: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa
+2026-06-30 19:43:37 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_governanca-corporativa--13b2077c
+2026-06-30 19:43:37 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa--13b2077c
+2026-06-30 19:43:37 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa
+2026-06-30 19:43:37 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:43:37 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:43:37 | INFO | URL Pattern: /w/expediente-2-1
+2026-06-30 19:43:37 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_expediente-2-1--4d1eac05/page-catalog.json
+2026-06-30 19:43:37 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/expediente-2-1
+2026-06-30 19:43:38 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:38 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:38 | INFO | URL Pattern: /w/gestao-de-residuos-e-descomissionamento
+2026-06-30 19:43:38 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento--a017e972/page-catalog.json
+2026-06-30 19:43:38 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento
+2026-06-30 19:43:38 | INFO | PROGRESS: 20/60 analyzed (33% checklist complete) | 20 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 19:43:38 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:43:38 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:43:38 | INFO | URL Pattern: /w/gestao-de-residuos-e-descomissionamento-sustentavel
+2026-06-30 19:43:38 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_gestao-de-residuos-e-descomissionamento-sustentavel--bac9c7cd/page-catalog.json
+2026-06-30 19:43:38 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/gestao-de-residuos-e-descomissionamento-sustentavel
+2026-06-30 19:43:39 | INFO | [24/60] Processing: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa-1
+2026-06-30 19:43:39 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_governanca-corporativa-1--5c209542
+2026-06-30 19:43:39 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa-1--5c209542
+2026-06-30 19:43:39 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa-1
+2026-06-30 19:43:40 | INFO | [25/60] Processing: https://sustentabilidade.petrobras.com.br/w/impactos-economicos
+2026-06-30 19:43:40 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_impactos-economicos--c0377903
+2026-06-30 19:43:40 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/impactos-economicos -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_impactos-economicos--c0377903
+2026-06-30 19:43:40 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/impactos-economicos
+2026-06-30 19:43:40 | INFO | [26/60] Processing: https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1
+2026-06-30 19:43:40 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_impactos-economicos-1--159a65e9
+2026-06-30 19:43:40 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_impactos-economicos-1--159a65e9
+2026-06-30 19:43:40 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1
+2026-06-30 19:43:40 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:40 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:40 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:40 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:40 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:40 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:40 | INFO | Main content: #main-content
+2026-06-30 19:43:41 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:41 | INFO | Captured 3 block screenshots
+2026-06-30 19:43:41 | INFO | Detected 3 blocks
+2026-06-30 19:43:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:43 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:43 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:44 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:43:44 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:43:44 | INFO | URL Pattern: /w/expediente
+2026-06-30 19:43:44 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_expediente--d1cbf018/page-catalog.json
+2026-06-30 19:43:44 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/expediente
+2026-06-30 19:43:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:44 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:45 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:45 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:45 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:45 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:45 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:45 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:45 | INFO | Main content: #main-content
+2026-06-30 19:43:45 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:45 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:45 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:45 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:45 | INFO | [27/60] Processing: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios
+2026-06-30 19:43:45 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_integridade-nos-negocios--906212ec
+2026-06-30 19:43:45 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios--906212ec
+2026-06-30 19:43:45 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios
+2026-06-30 19:43:46 | INFO | Captured 5 block screenshots
+2026-06-30 19:43:46 | INFO | Detected 5 blocks
+2026-06-30 19:43:46 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:47 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:47 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:47 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:47 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:47 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:47 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:47 | INFO | Main content: #main-content
+2026-06-30 19:43:47 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:47 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:43:47 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:47 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:47 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:48 | INFO | Captured 6 block screenshots
+2026-06-30 19:43:48 | INFO | Detected 6 blocks
+2026-06-30 19:43:48 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:48 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:48 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:48 | INFO | URL Pattern: /w/governanca-corporativa
+2026-06-30 19:43:48 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa--13b2077c/page-catalog.json
+2026-06-30 19:43:48 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa
+2026-06-30 19:43:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:49 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:49 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:49 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:49 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:49 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:49 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:49 | INFO | Main content: #main-content
+2026-06-30 19:43:49 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:49 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:49 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:49 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:49 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:49 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:49 | INFO | Main content: #main-content
+2026-06-30 19:43:49 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:49 | WARNING | Blocks - 63% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:43:49 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:49 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:49 | WARNING | Blocks - 73% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:43:49 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:50 | INFO | [28/60] Processing: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios-1
+2026-06-30 19:43:50 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_integridade-nos-negocios-1--7e892cbd
+2026-06-30 19:43:50 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios-1--7e892cbd
+2026-06-30 19:43:50 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios-1
+2026-06-30 19:43:50 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:50 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:50 | INFO | URL Pattern: /w/governanca-corporativa-1
+2026-06-30 19:43:50 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa-1--5c209542/page-catalog.json
+2026-06-30 19:43:50 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/governanca-corporativa-1
+2026-06-30 19:43:50 | INFO | Captured 8 block screenshots
+2026-06-30 19:43:50 | INFO | Detected 8 blocks
+2026-06-30 19:43:50 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:51 | INFO | Captured 11 block screenshots
+2026-06-30 19:43:51 | INFO | Detected 11 blocks
+2026-06-30 19:43:51 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:51 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:52 | INFO | [29/60] Processing: https://sustentabilidade.petrobras.com.br/w/materialidade
+2026-06-30 19:43:52 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_materialidade--d7c650e0
+2026-06-30 19:43:52 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/materialidade -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_materialidade--d7c650e0
+2026-06-30 19:43:52 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/materialidade
+2026-06-30 19:43:53 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:53 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:53 | INFO | URL Pattern: /w/impactos-economicos
+2026-06-30 19:43:53 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_impactos-economicos--c0377903/page-catalog.json
+2026-06-30 19:43:53 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/impactos-economicos
+2026-06-30 19:43:53 | INFO | PROGRESS: 25/60 analyzed (42% checklist complete) | 25 ok, 0 failed, 0 skipped | ~3 min remaining
+2026-06-30 19:43:53 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:53 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:53 | INFO | URL Pattern: /w/impactos-economicos-1
+2026-06-30 19:43:53 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_impactos-economicos-1--159a65e9/page-catalog.json
+2026-06-30 19:43:53 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/impactos-economicos-1
+2026-06-30 19:43:53 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:53 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:53 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:53 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:53 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:53 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:53 | INFO | Main content: #main-content
+2026-06-30 19:43:53 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:53 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:54 | INFO | Captured 4 block screenshots
+2026-06-30 19:43:54 | INFO | Detected 4 blocks
+2026-06-30 19:43:54 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:43:54 | INFO | [30/60] Processing: https://sustentabilidade.petrobras.com.br/w/materialidade-1
+2026-06-30 19:43:54 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_materialidade-1--c224d300
+2026-06-30 19:43:54 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/materialidade-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_materialidade-1--c224d300
+2026-06-30 19:43:54 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/materialidade-1
+2026-06-30 19:43:54 | INFO | [31/60] Processing: https://sustentabilidade.petrobras.com.br/w/materialidade-3
+2026-06-30 19:43:54 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_materialidade-3--54546b9a
+2026-06-30 19:43:54 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/materialidade-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_materialidade-3--54546b9a
+2026-06-30 19:43:54 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/materialidade-3
+2026-06-30 19:43:56 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:56 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:56 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:43:56 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:43:56 | INFO | URL Pattern: /w/integridade-nos-negocios
+2026-06-30 19:43:56 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios--906212ec/page-catalog.json
+2026-06-30 19:43:56 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios
+2026-06-30 19:43:58 | INFO | Lazy-load scroll complete
+2026-06-30 19:43:58 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:43:58 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:43:58 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:43:58 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:43:58 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:43:58 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:43:58 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:43:58 | INFO | Main content: #main-content
+2026-06-30 19:43:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:43:58 | INFO | [32/60] Processing: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-2
+2026-06-30 19:43:58 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-2--d9be3350
+2026-06-30 19:43:58 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-2 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-2--d9be3350
+2026-06-30 19:43:58 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:43:58 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:43:58 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-2
+2026-06-30 19:43:59 | INFO | Captured 5 block screenshots
+2026-06-30 19:43:59 | INFO | Detected 5 blocks
+2026-06-30 19:43:59 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:00 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:00 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:00 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:00 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:00 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:00 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:00 | INFO | Main content: #main-content
+2026-06-30 19:44:00 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:00 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:00 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:00 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:00 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:01 | INFO | Captured 9 block screenshots
+2026-06-30 19:44:01 | INFO | Detected 9 blocks
+2026-06-30 19:44:01 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:01 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:44:01 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:44:01 | INFO | URL Pattern: /w/integridade-nos-negocios-1
+2026-06-30 19:44:01 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_integridade-nos-negocios-1--7e892cbd/page-catalog.json
+2026-06-30 19:44:01 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/integridade-nos-negocios-1
+2026-06-30 19:44:02 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:02 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:02 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:02 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:02 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:02 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:02 | INFO | Main content: #main-content
+2026-06-30 19:44:02 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:02 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:02 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:02 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:02 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:02 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:02 | INFO | Main content: #main-content
+2026-06-30 19:44:02 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:02 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:02 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:02 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:02 | WARNING | Blocks - 67% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:02 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:03 | INFO | [33/60] Processing: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-3
+2026-06-30 19:44:03 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-3--823a3c48
+2026-06-30 19:44:03 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-3--823a3c48
+2026-06-30 19:44:03 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-3
+2026-06-30 19:44:03 | INFO | Captured 6 block screenshots
+2026-06-30 19:44:03 | INFO | Detected 6 blocks
+2026-06-30 19:44:03 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:03 | INFO | Captured 9 block screenshots
+2026-06-30 19:44:03 | INFO | Detected 9 blocks
+2026-06-30 19:44:03 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:03 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:03 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:03 | INFO | URL Pattern: /w/materialidade
+2026-06-30 19:44:03 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_materialidade--d7c650e0/page-catalog.json
+2026-06-30 19:44:03 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/materialidade
+2026-06-30 19:44:03 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:05 | INFO | [34/60] Processing: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos
+2026-06-30 19:44:05 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos--01e14840
+2026-06-30 19:44:05 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos--01e14840
+2026-06-30 19:44:05 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos
+2026-06-30 19:44:05 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:05 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:05 | INFO | Main content: #main-content
+2026-06-30 19:44:05 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:05 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:05 | INFO | URL Pattern: /w/materialidade-3
+2026-06-30 19:44:05 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_materialidade-3--54546b9a/page-catalog.json
+2026-06-30 19:44:05 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/materialidade-3
+2026-06-30 19:44:05 | INFO | PROGRESS: 30/60 analyzed (50% checklist complete) | 30 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 19:44:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:05 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:05 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:05 | INFO | URL Pattern: /w/materialidade-1
+2026-06-30 19:44:05 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_materialidade-1--c224d300/page-catalog.json
+2026-06-30 19:44:05 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/materialidade-1
+2026-06-30 19:44:06 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:06 | INFO | Detected 3 blocks
+2026-06-30 19:44:06 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:06 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:07 | INFO | [35/60] Processing: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-1
+2026-06-30 19:44:07 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-1--5556123e
+2026-06-30 19:44:07 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-1--5556123e
+2026-06-30 19:44:07 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-1
+2026-06-30 19:44:07 | INFO | [36/60] Processing: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-3
+2026-06-30 19:44:07 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-3--ed29370e
+2026-06-30 19:44:07 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-3--ed29370e
+2026-06-30 19:44:07 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-3
+2026-06-30 19:44:08 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:44:08 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:44:08 | INFO | URL Pattern: /w/mensagem-da-presidente-2
+2026-06-30 19:44:08 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-2--d9be3350/page-catalog.json
+2026-06-30 19:44:08 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-2
+2026-06-30 19:44:08 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:08 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:08 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:10 | INFO | [37/60] Processing: https://sustentabilidade.petrobras.com.br/w/painel-asg
+2026-06-30 19:44:10 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_painel-asg--7940fa76
+2026-06-30 19:44:10 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/painel-asg -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_painel-asg--7940fa76
+2026-06-30 19:44:10 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/painel-asg
+2026-06-30 19:44:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:10 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:10 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:10 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:10 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:10 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:10 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:10 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:10 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:10 | INFO | Main content: #main-content
+2026-06-30 19:44:10 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:10 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:11 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:11 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:11 | INFO | Detected 3 blocks
+2026-06-30 19:44:11 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:12 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:12 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:12 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:12 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:12 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:12 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:12 | INFO | Main content: #main-content
+2026-06-30 19:44:12 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:12 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:12 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:12 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:13 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:13 | INFO | Detected 3 blocks
+2026-06-30 19:44:13 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:13 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:13 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:13 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:13 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:44:13 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:44:13 | INFO | URL Pattern: /w/mensagem-da-presidente-3
+2026-06-30 19:44:13 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_mensagem-da-presidente-3--823a3c48/page-catalog.json
+2026-06-30 19:44:13 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/mensagem-da-presidente-3
+2026-06-30 19:44:14 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:14 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:14 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:14 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:14 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:14 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:14 | INFO | Main content: #main-content
+2026-06-30 19:44:14 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:14 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:15 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:15 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:15 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:15 | INFO | Detected 3 blocks
+2026-06-30 19:44:15 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:15 | INFO | [38/60] Processing: https://sustentabilidade.petrobras.com.br/w/painel-asg-1
+2026-06-30 19:44:15 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_painel-asg-1--19ad98dd
+2026-06-30 19:44:15 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/painel-asg-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_painel-asg-1--19ad98dd
+2026-06-30 19:44:15 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/painel-asg-1
+2026-06-30 19:44:15 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:15 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:15 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:15 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:15 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:15 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:15 | INFO | Main content: #main-content
+2026-06-30 19:44:15 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:15 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:15 | INFO | URL Pattern: /w/modelo-de-gerenciamento-de-riscos
+2026-06-30 19:44:15 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos--01e14840/page-catalog.json
+2026-06-30 19:44:15 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos
+2026-06-30 19:44:15 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:15 | WARNING | Blocks - 75% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:15 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:17 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:17 | INFO | Captured 12 block screenshots
+2026-06-30 19:44:17 | INFO | Detected 12 blocks
+2026-06-30 19:44:17 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:17 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:17 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:17 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:17 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:17 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:17 | INFO | Main content: #main-content
+2026-06-30 19:44:17 | INFO | [39/60] Processing: https://sustentabilidade.petrobras.com.br/w/painel-asg-2
+2026-06-30 19:44:17 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_painel-asg-2--8abcfe6d
+2026-06-30 19:44:17 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/painel-asg-2 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_painel-asg-2--8abcfe6d
+2026-06-30 19:44:17 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/painel-asg-2
+2026-06-30 19:44:17 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:17 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:17 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:17 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:17 | INFO | URL Pattern: /w/modelo-de-gerenciamento-de-riscos-1
+2026-06-30 19:44:17 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-1--5556123e/page-catalog.json
+2026-06-30 19:44:17 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-1
+2026-06-30 19:44:17 | INFO | PROGRESS: 35/60 analyzed (58% checklist complete) | 35 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 19:44:17 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:17 | INFO | Detected 3 blocks
+2026-06-30 19:44:17 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:19 | INFO | [40/60] Processing: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades
+2026-06-30 19:44:19 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades--228b9e0d
+2026-06-30 19:44:19 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades--228b9e0d
+2026-06-30 19:44:19 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades
+2026-06-30 19:44:19 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:19 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:19 | INFO | URL Pattern: /w/modelo-de-gerenciamento-de-riscos-3
+2026-06-30 19:44:19 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_modelo-de-gerenciamento-de-riscos-3--ed29370e/page-catalog.json
+2026-06-30 19:44:19 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/modelo-de-gerenciamento-de-riscos-3
+2026-06-30 19:44:20 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:20 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:20 | INFO | URL Pattern: /w/painel-asg
+2026-06-30 19:44:20 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_painel-asg--7940fa76/page-catalog.json
+2026-06-30 19:44:20 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/painel-asg
+2026-06-30 19:44:20 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:20 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:21 | INFO | [41/60] Processing: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades-1
+2026-06-30 19:44:21 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades-1--63ffe617
+2026-06-30 19:44:21 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades-1--63ffe617
+2026-06-30 19:44:21 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades-1
+2026-06-30 19:44:21 | INFO | [42/60] Processing: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes
+2026-06-30 19:44:21 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes--6fb4dd19
+2026-06-30 19:44:21 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes--6fb4dd19
+2026-06-30 19:44:21 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes
+2026-06-30 19:44:22 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:22 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:22 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:22 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:22 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:22 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:22 | INFO | Main content: #main-content
+2026-06-30 19:44:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:22 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:23 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:23 | INFO | Detected 3 blocks
+2026-06-30 19:44:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:24 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:24 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:24 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:24 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:24 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:24 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:24 | INFO | Main content: #main-content
+2026-06-30 19:44:24 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:24 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:24 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:24 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:24 | INFO | Detected 3 blocks
+2026-06-30 19:44:24 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:25 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:25 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:25 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:25 | INFO | URL Pattern: /w/painel-asg-1
+2026-06-30 19:44:25 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_painel-asg-1--19ad98dd/page-catalog.json
+2026-06-30 19:44:25 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/painel-asg-1
+2026-06-30 19:44:25 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:25 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:26 | INFO | [43/60] Processing: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes-de-processo
+2026-06-30 19:44:26 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes-de-processo--ac0cb75b
+2026-06-30 19:44:26 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes-de-processo -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes-de-processo--ac0cb75b
+2026-06-30 19:44:26 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes-de-processo
+2026-06-30 19:44:27 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:27 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:27 | INFO | URL Pattern: /w/painel-asg-2
+2026-06-30 19:44:27 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_painel-asg-2--8abcfe6d/page-catalog.json
+2026-06-30 19:44:27 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/painel-asg-2
+2026-06-30 19:44:27 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:27 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:27 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:27 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:27 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:27 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:27 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:27 | INFO | Main content: #main-content
+2026-06-30 19:44:27 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:27 | WARNING | Blocks - 57% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:27 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:27 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:27 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:28 | INFO | [44/60] Processing: https://sustentabilidade.petrobras.com.br/w/quem-somos-2
+2026-06-30 19:44:28 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_quem-somos-2--3ea51bc0
+2026-06-30 19:44:28 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/quem-somos-2 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_quem-somos-2--3ea51bc0
+2026-06-30 19:44:28 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/quem-somos-2
+2026-06-30 19:44:28 | INFO | Captured 7 block screenshots
+2026-06-30 19:44:28 | INFO | Detected 7 blocks
+2026-06-30 19:44:28 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:29 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:29 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:29 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:29 | INFO | Main content: #main-content
+2026-06-30 19:44:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:29 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:29 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:29 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:29 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:29 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:29 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:29 | INFO | Main content: #main-content
+2026-06-30 19:44:29 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:29 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:30 | INFO | Captured 5 block screenshots
+2026-06-30 19:44:30 | INFO | Detected 5 blocks
+2026-06-30 19:44:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:30 | INFO | Captured 4 block screenshots
+2026-06-30 19:44:30 | INFO | Detected 4 blocks
+2026-06-30 19:44:30 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:30 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:31 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:31 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:31 | INFO | URL Pattern: /w/praticas-trabalhistas-e-igualdade-de-oportunidades
+2026-06-30 19:44:31 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades--228b9e0d/page-catalog.json
+2026-06-30 19:44:31 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades
+2026-06-30 19:44:31 | INFO | PROGRESS: 40/60 analyzed (67% checklist complete) | 40 ok, 0 failed, 0 skipped | ~2 min remaining
+2026-06-30 19:44:32 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:32 | INFO | [45/60] Processing: https://sustentabilidade.petrobras.com.br/w/quem-somos-3
+2026-06-30 19:44:32 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_quem-somos-3--ce6ded7e
+2026-06-30 19:44:32 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/quem-somos-3 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_quem-somos-3--ce6ded7e
+2026-06-30 19:44:32 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/quem-somos-3
+2026-06-30 19:44:32 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:32 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:32 | INFO | URL Pattern: /w/praticas-trabalhistas-e-igualdade-de-oportunidades-1
+2026-06-30 19:44:32 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_praticas-trabalhistas-e-igualdade-de-oportunidades-1--63ffe617/page-catalog.json
+2026-06-30 19:44:32 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/praticas-trabalhistas-e-igualdade-de-oportunidades-1
+2026-06-30 19:44:32 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:44:32 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:44:32 | INFO | URL Pattern: /w/prevencao-e-gestao-de-acidentes
+2026-06-30 19:44:32 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes--6fb4dd19/page-catalog.json
+2026-06-30 19:44:32 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes
+2026-06-30 19:44:33 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:33 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:34 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:34 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:34 | INFO | [46/60] Processing: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores
+2026-06-30 19:44:34 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores--8a4d9f66
+2026-06-30 19:44:34 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores--8a4d9f66
+2026-06-30 19:44:34 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores
+2026-06-30 19:44:34 | INFO | [47/60] Processing: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores-1
+2026-06-30 19:44:34 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores-1--d81bac00
+2026-06-30 19:44:34 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores-1--d81bac00
+2026-06-30 19:44:34 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores-1
+2026-06-30 19:44:35 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:35 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:35 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:35 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:35 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:35 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:35 | INFO | Main content: #main-content
+2026-06-30 19:44:35 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:35 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:35 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:36 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:36 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:36 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:36 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:36 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:36 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:36 | INFO | Main content: #main-content
+2026-06-30 19:44:36 | INFO | Captured 4 block screenshots
+2026-06-30 19:44:36 | INFO | Detected 4 blocks
+2026-06-30 19:44:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:36 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:36 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:36 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:36 | INFO | Detected 3 blocks
+2026-06-30 19:44:36 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:37 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:37 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:37 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:38 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:38 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:38 | INFO | URL Pattern: /w/prevencao-e-gestao-de-acidentes-de-processo
+2026-06-30 19:44:38 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_prevencao-e-gestao-de-acidentes-de-processo--ac0cb75b/page-catalog.json
+2026-06-30 19:44:38 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/prevencao-e-gestao-de-acidentes-de-processo
+2026-06-30 19:44:39 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:39 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:39 | INFO | URL Pattern: /w/quem-somos-2
+2026-06-30 19:44:39 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_quem-somos-2--3ea51bc0/page-catalog.json
+2026-06-30 19:44:39 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/quem-somos-2
+2026-06-30 19:44:39 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:39 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:39 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:39 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:39 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:39 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:39 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:39 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:39 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:39 | INFO | Main content: #main-content
+2026-06-30 19:44:39 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:39 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:39 | INFO | [48/60] Processing: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases
+2026-06-30 19:44:39 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases--f0c2d90b
+2026-06-30 19:44:39 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases--f0c2d90b
+2026-06-30 19:44:39 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases
+2026-06-30 19:44:40 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:40 | INFO | Detected 3 blocks
+2026-06-30 19:44:40 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:40 | INFO | [49/60] Processing: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1
+2026-06-30 19:44:40 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases-1--745bb94d
+2026-06-30 19:44:40 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases-1--745bb94d
+2026-06-30 19:44:40 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1
+2026-06-30 19:44:41 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:41 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:41 | INFO | Main content: #main-content
+2026-06-30 19:44:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:41 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:41 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:41 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:41 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:41 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:41 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:41 | INFO | Main content: #main-content
+2026-06-30 19:44:41 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:41 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:41 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:41 | INFO | Detected 3 blocks
+2026-06-30 19:44:41 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:42 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:42 | INFO | Detected 3 blocks
+2026-06-30 19:44:42 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:42 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:42 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:42 | INFO | URL Pattern: /w/quem-somos-3
+2026-06-30 19:44:42 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_quem-somos-3--ce6ded7e/page-catalog.json
+2026-06-30 19:44:42 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/quem-somos-3
+2026-06-30 19:44:42 | INFO | PROGRESS: 45/60 analyzed (75% checklist complete) | 45 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-06-30 19:44:43 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:44 | INFO |    Top-section: 23 rows via title
+2026-06-30 19:44:44 | INFO |    Body start: y=575 (start row 23 via below-title)
+2026-06-30 19:44:44 | INFO | URL Pattern: /w/relatorio-de-asseguracao-limitada-dos-auditores-1
+2026-06-30 19:44:44 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores-1--d81bac00/page-catalog.json
+2026-06-30 19:44:44 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores-1
+2026-06-30 19:44:44 | INFO |    Top-section: 23 rows via title
+2026-06-30 19:44:44 | INFO |    Body start: y=575 (start row 23 via below-title)
+2026-06-30 19:44:44 | INFO | URL Pattern: /w/relatorio-de-asseguracao-limitada-dos-auditores
+2026-06-30 19:44:44 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_relatorio-de-asseguracao-limitada-dos-auditores--8a4d9f66/page-catalog.json
+2026-06-30 19:44:44 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/relatorio-de-asseguracao-limitada-dos-auditores
+2026-06-30 19:44:44 | INFO | [50/60] Processing: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar
+2026-06-30 19:44:44 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar--2d6458c6
+2026-06-30 19:44:44 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar--2d6458c6
+2026-06-30 19:44:44 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar
+2026-06-30 19:44:45 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:45 | INFO | [51/60] Processing: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar-do-trabalhador
+2026-06-30 19:44:45 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar-do-trabalhador--ce8b9386
+2026-06-30 19:44:45 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar-do-trabalhador -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar-do-trabalhador--ce8b9386
+2026-06-30 19:44:45 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar-do-trabalhador
+2026-06-30 19:44:45 | INFO | [52/60] Processing: https://sustentabilidade.petrobras.com.br/w/sobre-o-relat%C3%B3rio
+2026-06-30 19:44:45 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_sobre-o-relat_C3_B3rio--a00728e0
+2026-06-30 19:44:45 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/sobre-o-relat%C3%B3rio -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sobre-o-relat_C3_B3rio--a00728e0
+2026-06-30 19:44:45 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/sobre-o-relat%C3%B3rio
+2026-06-30 19:44:47 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:47 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:47 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:49 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:49 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:49 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:49 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:49 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:49 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:49 | INFO | Main content: #main-content
+2026-06-30 19:44:49 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:49 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:49 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:49 | WARNING | Blocks - 57% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:49 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:49 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:50 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:50 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:50 | INFO | Captured 7 block screenshots
+2026-06-30 19:44:50 | INFO | Detected 7 blocks
+2026-06-30 19:44:50 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:51 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:51 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:51 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:51 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:51 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:51 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:51 | INFO | Main content: #main-content
+2026-06-30 19:44:51 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:51 | WARNING | Blocks - 79% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:51 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:51 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:51 | INFO | Lazy-load scroll complete
+2026-06-30 19:44:51 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:44:52 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:52 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:52 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:52 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:52 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:52 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:52 | INFO | Main content: #main-content
+2026-06-30 19:44:52 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:52 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:52 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:53 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:53 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:53 | INFO | URL Pattern: /w/resiliencia-climatica-emissoes-de-gee-e-outros-gases
+2026-06-30 19:44:53 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases--f0c2d90b/page-catalog.json
+2026-06-30 19:44:53 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases
+2026-06-30 19:44:53 | INFO | Captured 6 block screenshots
+2026-06-30 19:44:53 | INFO | Detected 6 blocks
+2026-06-30 19:44:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:53 | INFO | Captured 14 block screenshots
+2026-06-30 19:44:53 | INFO | Detected 14 blocks
+2026-06-30 19:44:53 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:53 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:53 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:53 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:53 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:53 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:53 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:53 | INFO | Main content: #main-content
+2026-06-30 19:44:53 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:53 | WARNING | Blocks - 50% of blocks are unknown - site uses non-EDS patterns
+2026-06-30 19:44:53 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:54 | INFO | [53/60] Processing: https://sustentabilidade.petrobras.com.br/w/sobre-o-relatorio-1
+2026-06-30 19:44:54 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_sobre-o-relatorio-1--05b884b2
+2026-06-30 19:44:54 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/sobre-o-relatorio-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sobre-o-relatorio-1--05b884b2
+2026-06-30 19:44:54 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/sobre-o-relatorio-1
+2026-06-30 19:44:54 | INFO | Captured 6 block screenshots
+2026-06-30 19:44:54 | INFO | Detected 6 blocks
+2026-06-30 19:44:54 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:55 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:44:55 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:44:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:44:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:44:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:44:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:44:55 | INFO | Main content: #main-content
+2026-06-30 19:44:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:44:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:44:55 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:44:55 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:44:55 | INFO | URL Pattern: /w/seguranca-saude-e-bem-estar
+2026-06-30 19:44:55 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar--2d6458c6/page-catalog.json
+2026-06-30 19:44:55 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar
+2026-06-30 19:44:55 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:55 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:55 | INFO | URL Pattern: /w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1
+2026-06-30 19:44:55 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_resiliencia-climatica-emissoes-de-gee-e-outros-gases-1--745bb94d/page-catalog.json
+2026-06-30 19:44:55 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/resiliencia-climatica-emissoes-de-gee-e-outros-gases-1
+2026-06-30 19:44:55 | INFO | PROGRESS: 50/60 analyzed (83% checklist complete) | 50 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-06-30 19:44:56 | INFO | Captured 3 block screenshots
+2026-06-30 19:44:56 | INFO | Detected 3 blocks
+2026-06-30 19:44:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:44:57 | INFO | [54/60] Processing: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri
+2026-06-30 19:44:57 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri--f1196b11
+2026-06-30 19:44:57 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri--f1196b11
+2026-06-30 19:44:57 | INFO |    Top-section: 20 rows via title
+2026-06-30 19:44:57 | INFO |    Body start: y=500 (start row 20 via below-title)
+2026-06-30 19:44:57 | INFO | URL Pattern: /w/seguranca-saude-e-bem-estar-do-trabalhador
+2026-06-30 19:44:57 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_seguranca-saude-e-bem-estar-do-trabalhador--ce8b9386/page-catalog.json
+2026-06-30 19:44:57 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/seguranca-saude-e-bem-estar-do-trabalhador
+2026-06-30 19:44:57 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri
+2026-06-30 19:44:57 | INFO | [55/60] Processing: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri-1
+2026-06-30 19:44:57 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri-1--48d2f4ba
+2026-06-30 19:44:57 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri-1--48d2f4ba
+2026-06-30 19:44:57 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri-1
+2026-06-30 19:44:58 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:44:58 | INFO | [56/60] Processing: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb
+2026-06-30 19:44:58 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb--77897d8f
+2026-06-30 19:44:58 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb--77897d8f
+2026-06-30 19:44:58 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb
+2026-06-30 19:44:59 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:44:59 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:44:59 | INFO | URL Pattern: /w/sobre-o-relat%C3%B3rio
+2026-06-30 19:44:59 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sobre-o-relat_C3_B3rio--a00728e0/page-catalog.json
+2026-06-30 19:44:59 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/sobre-o-relat%C3%B3rio
+2026-06-30 19:45:00 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:00 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:00 | INFO | [57/60] Processing: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb-1
+2026-06-30 19:45:00 | INFO | Generated slug: sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb-1--598fe647
+2026-06-30 19:45:00 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb-1 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb-1--598fe647
+2026-06-30 19:45:00 | INFO | Loading: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb-1
+2026-06-30 19:45:00 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:01 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:02 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:02 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:45:02 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:45:02 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:45:02 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:02 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:02 | INFO | Main content: #main-content
+2026-06-30 19:45:02 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:02 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:02 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:02 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:02 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:02 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:03 | INFO | Captured 3 block screenshots
+2026-06-30 19:45:03 | INFO | Detected 3 blocks
+2026-06-30 19:45:03 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:03 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:03 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:04 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:04 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:04 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:45:04 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:45:04 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:45:04 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:04 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:04 | INFO | Main content: #main-content
+2026-06-30 19:45:04 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:04 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:04 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:45:04 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:45:04 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:45:04 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:04 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:04 | INFO | Main content: #main-content
+2026-06-30 19:45:04 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:04 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:05 | INFO | Captured 3 block screenshots
+2026-06-30 19:45:05 | INFO | Detected 3 blocks
+2026-06-30 19:45:05 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:05 | INFO |    Top-section: 15 rows via title
+2026-06-30 19:45:05 | INFO |    Body start: y=375 (start row 15 via below-title)
+2026-06-30 19:45:05 | INFO | URL Pattern: /w/sobre-o-relatorio-1
+2026-06-30 19:45:05 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sobre-o-relatorio-1--05b884b2/page-catalog.json
+2026-06-30 19:45:05 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/sobre-o-relatorio-1
+2026-06-30 19:45:05 | INFO | Captured 3 block screenshots
+2026-06-30 19:45:05 | INFO | Detected 3 blocks
+2026-06-30 19:45:05 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:05 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:05 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:45:05 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:45:05 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:45:05 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:05 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:05 | INFO | Main content: #main-content
+2026-06-30 19:45:05 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:05 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:05 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:05 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:06 | INFO | Captured 3 block screenshots
+2026-06-30 19:45:06 | INFO | Detected 3 blocks
+2026-06-30 19:45:06 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:06 | INFO | [58/60] Processing: https://sustentabilidade.petrobras.com.br/home
+2026-06-30 19:45:06 | INFO | Generated slug: sustentabilidade_petrobras_com_br_home--fca13a48
+2026-06-30 19:45:06 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/home -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_home--fca13a48
+2026-06-30 19:45:06 | INFO | Loading: https://sustentabilidade.petrobras.com.br/home
+2026-06-30 19:45:07 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:45:07 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:45:07 | INFO | URL Pattern: /w/sumario-de-conteudo-gri
+2026-06-30 19:45:07 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri--f1196b11/page-catalog.json
+2026-06-30 19:45:07 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri
+2026-06-30 19:45:07 | INFO | Removed 5 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:07 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:45:07 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:45:07 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:45:07 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:07 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:07 | INFO | Main content: #main-content
+2026-06-30 19:45:07 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:45:07 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:45:07 | INFO | URL Pattern: /w/sumario-de-conteudo-gri-1
+2026-06-30 19:45:07 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-gri-1--48d2f4ba/page-catalog.json
+2026-06-30 19:45:07 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-gri-1
+2026-06-30 19:45:07 | INFO | PROGRESS: 55/60 analyzed (92% checklist complete) | 55 ok, 0 failed, 0 skipped | ~1 min remaining
+2026-06-30 19:45:07 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:07 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:08 | INFO | Captured 3 block screenshots
+2026-06-30 19:45:08 | INFO | Detected 3 blocks
+2026-06-30 19:45:08 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:08 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:45:08 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:45:08 | INFO | URL Pattern: /w/sumario-de-conteudo-sasb
+2026-06-30 19:45:08 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb--77897d8f/page-catalog.json
+2026-06-30 19:45:08 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb
+2026-06-30 19:45:09 | INFO | [59/60] Processing: https://sustentabilidade.petrobras.com.br/relatorio-2021
+2026-06-30 19:45:09 | INFO | Generated slug: sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46
+2026-06-30 19:45:09 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/relatorio-2021 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46
+2026-06-30 19:45:09 | INFO | Loading: https://sustentabilidade.petrobras.com.br/relatorio-2021
+2026-06-30 19:45:09 | INFO | [60/60] Processing: https://sustentabilidade.petrobras.com.br/relatorio2023
+2026-06-30 19:45:09 | INFO | Generated slug: sustentabilidade_petrobras_com_br_relatorio2023--5de91620
+2026-06-30 19:45:09 | INFO | Starting analysis: https://sustentabilidade.petrobras.com.br/relatorio2023 -> /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620
+2026-06-30 19:45:09 | INFO | Loading: https://sustentabilidade.petrobras.com.br/relatorio2023
+2026-06-30 19:45:10 | INFO | Worker 4 finished
+2026-06-30 19:45:10 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:10 | INFO |    Top-section: 18 rows via title
+2026-06-30 19:45:10 | INFO |    Body start: y=450 (start row 18 via below-title)
+2026-06-30 19:45:10 | INFO | URL Pattern: /w/sumario-de-conteudo-sasb-1
+2026-06-30 19:45:10 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_w_sumario-de-conteudo-sasb-1--598fe647/page-catalog.json
+2026-06-30 19:45:10 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/w/sumario-de-conteudo-sasb-1
+2026-06-30 19:45:12 | INFO | Worker 1 finished
+2026-06-30 19:45:12 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:12 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:18 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:45:20 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:20 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:21 | INFO | Lazy-load scroll complete
+2026-06-30 19:45:21 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:45:22 | INFO | Removed 7 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:22 | WARNING | Template - Header not detected on page
+2026-06-30 19:45:22 | INFO | Header: header element not found - proceeding without header analysis
+2026-06-30 19:45:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:22 | INFO | Main content: #main-content
+2026-06-30 19:45:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:22 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:22 | INFO | Removed 7 elements: popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:45:22 | WARNING | Template - Header not detected on page
+2026-06-30 19:45:22 | INFO | Header: header element not found - proceeding without header analysis
+2026-06-30 19:45:22 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:45:22 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:45:22 | INFO | Main content: #main-content
+2026-06-30 19:45:22 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:45:23 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:45:23 | WARNING | Screenshots - Block not visible: form-5ebae665
+2026-06-30 19:45:23 | WARNING | Screenshots - Block not visible: form-5ebae665
+2026-06-30 19:45:23 | INFO | Captured 8 block screenshots
+2026-06-30 19:45:23 | INFO | Detected 9 blocks
+2026-06-30 19:45:23 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:24 | INFO | Captured 6 block screenshots
+2026-06-30 19:45:24 | INFO | Detected 7 blocks
+2026-06-30 19:45:24 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:45:26 | INFO |    Top-section: 3 rows via title+container
+2026-06-30 19:45:26 | INFO |    Body start: y=75 (start row 3 via below-title+container)
+2026-06-30 19:45:26 | INFO | URL Pattern: /relatorio-2021
+2026-06-30 19:45:26 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46/page-catalog.json
+2026-06-30 19:45:26 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/relatorio-2021
+2026-06-30 19:45:26 | INFO |    Top-section: 3 rows via title+container
+2026-06-30 19:45:26 | INFO |    Body start: y=75 (start row 3 via below-title+container)
+2026-06-30 19:45:26 | INFO | URL Pattern: /relatorio2023
+2026-06-30 19:45:26 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620/page-catalog.json
+2026-06-30 19:45:26 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/relatorio2023
+2026-06-30 19:45:26 | INFO | Worker 2 finished
+2026-06-30 19:45:27 | INFO | Worker 3 finished
+2026-06-30 19:46:13 | INFO | Removed 7 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:46:13 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:46:13 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:46:13 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:46:13 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:46:13 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:46:13 | INFO | Main content: #main-content
+2026-06-30 19:46:13 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:46:13 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:46:15 | INFO | Captured 10 block screenshots
+2026-06-30 19:46:15 | INFO | Detected 10 blocks
+2026-06-30 19:46:15 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:46:18 | INFO |    Top-section: 13 rows via title+container
+2026-06-30 19:46:18 | INFO |    Body start: y=325 (start row 13 via below-title+container)
+2026-06-30 19:46:18 | INFO | URL Pattern: /home
+2026-06-30 19:46:18 | INFO | Page catalog complete: /workspace/catalog/.pages/sustentabilidade_petrobras_com_br_home--fca13a48/page-catalog.json
+2026-06-30 19:46:18 | INFO | SUCCESS: https://sustentabilidade.petrobras.com.br/home
+2026-06-30 19:46:18 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 19:46:19 | INFO | Worker 0 finished
+2026-06-30 19:46:19 | INFO | PROGRESS: 60/60 analyzed (100% checklist complete) | 60 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 19:46:19 | INFO | ================================================================================
+2026-06-30 19:46:19 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 19:46:19 | INFO | ================================================================================
+2026-06-30 19:46:19 | INFO | Total URLs: 60
+2026-06-30 19:46:19 | INFO | Attempt successes: 60
+2026-06-30 19:46:19 | INFO | Attempt failures: 0
+2026-06-30 19:46:19 | INFO | Skipped: 0
+2026-06-30 19:46:19 | INFO | Checklist final status: 60 analyzed, 0 failed, 0 marked
+2026-06-30 19:46:19 | INFO | Workers: 5
+2026-06-30 19:46:19 | INFO | ================================================================================
+2026-06-30 19:46:19 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T19:47:14.248Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T19:47:14.267Z | INFO | consolidate-fingerprints - Consolidated 60 fingerprints
+2026-06-30 19:47:42 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 19:47:42 | INFO | Agent 4 Progress - Starting representative pass with 4 page(s) and 24 block occurrence(s)
+2026-06-30 19:47:42 | ERROR | Agent 4 - Block form from https://sustentabilidade.petrobras.com.br/relatorio-2021 has no screenshot - cannot catalog without visual proof
+2026-06-30 19:47:42 | INFO | Agent 4 Progress - representative: 4/4 page(s), 23/24 block occurrence(s), 16 unique signatures, 18 variants (16 new, 7 reused)
+2026-06-30 19:47:42 | INFO | Agent 4 Progress - Starting backfill pass with 56 page(s) and 289 block occurrence(s)
+2026-06-30 19:47:42 | ERROR | Agent 4 - Block form from https://sustentabilidade.petrobras.com.br/relatorio2023 has no screenshot - cannot catalog without visual proof
+2026-06-30 19:47:42 | INFO | Agent 4 Progress - backfill: 25/56 page(s), 139/289 block occurrence(s), 20 unique signatures, 21 variants (19 new, 143 reused)
+2026-06-30 19:47:42 | INFO | Agent 4 Progress - backfill: 50/56 page(s), 270/289 block occurrence(s), 20 unique signatures, 21 variants (19 new, 274 reused)
+2026-06-30 19:47:42 | INFO | Agent 4 Progress - backfill: 56/56 page(s), 288/289 block occurrence(s), 20 unique signatures, 21 variants (19 new, 292 reused)
+2026-06-30 19:47:42 | INFO | Agent 4 Completed - Cataloged 21 block variants (19 new, 292 reused)
+2026-06-30 19:47:42 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 19:47:43 | INFO | Session state set to INACTIVE
+2026-06-30 19:47:43 | INFO | Agent 2 Completed - Summary generated successfully

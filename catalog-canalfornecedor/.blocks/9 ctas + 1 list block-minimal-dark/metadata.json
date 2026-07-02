@@ -1,0 +1,67 @@
+{
+  "variantName": "9 ctas + 1 list block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "9 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"9 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores--962efe04/blocks/unknown-608b4629.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/unknown-5ac4c355.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800/blocks/unknown-335cd67f.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/certificado-de-registro-cadastral",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_certificado-de-registro-cadastral--d571fb80/blocks/unknown-7920acc4.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/credenciamento-mentoria-refino",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_credenciamento-mentoria-refino--47c48805/blocks/unknown-335cd67f.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/criterios-de-avaliacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e/blocks/unknown-6861d945.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/etapas-do-processo-de-cadastramento",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4/blocks/unknown-33a61151.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/porque-se-cadastrar",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25/blocks/unknown-5d00bd0b.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/pre-qualificacao",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_pre-qualificacao--8abe792a/blocks/unknown-6b1b6ee4.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/sobre-o-cadastro-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_sobre-o-cadastro-de-fornecedores--f73d1a58/blocks/unknown-2827676e.jpg"
+      }
+    ],
+    "reuseCount": 10
+  }
+}

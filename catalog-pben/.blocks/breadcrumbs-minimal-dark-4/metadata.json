@@ -1,0 +1,31 @@
+{
+  "variantName": "breadcrumbs-minimal-dark-4",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.721Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + 8 CTAs + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"breadcrumbs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + 8 CTAs + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/pben_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--84ebb2c6/blocks/breadcrumbs-494cd0f1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

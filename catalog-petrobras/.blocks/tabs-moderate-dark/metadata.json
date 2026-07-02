@@ -1,0 +1,47 @@
+{
+  "variantName": "tabs-moderate-dark",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/privacy-protection-personal-data",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"tabs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_en_ouvidoria--08cae8fa/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_en_privacy-protection-personal-data--511e645c/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/ouvidoria",
+        "screenshot": ".pages/petrobras_com_br_ouvidoria--aa65f3bd/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacidade-protecao-de-dados",
+        "screenshot": ".pages/petrobras_com_br_privacidade-protecao-de-dados--6ca8e6a9/blocks/tabs-222eda54.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/privacy-protection-personal-data",
+        "screenshot": ".pages/petrobras_com_br_privacy-protection-personal-data--458a7de4/blocks/tabs-222eda54.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

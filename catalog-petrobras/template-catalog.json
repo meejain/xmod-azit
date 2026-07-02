@@ -1,0 +1,1386 @@
+{
+  "templates": [
+    {
+      "name": "carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/bunker-vls-b24",
+        "https://petrobras.com.br/en",
+        "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+        "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "https://petrobras.com.br/en/quem-somos/autonomia-e-renda"
+      ],
+      "urls": [
+        "https://petrobras.com.br/bunker-vls-b24",
+        "https://petrobras.com.br/en",
+        "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+        "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "https://petrobras.com.br/en/quem-somos/autonomia-e-renda",
+        "https://petrobras.com.br/en/quem-somos/bunker-vls-b24",
+        "https://petrobras.com.br/en/quem-somos/reach",
+        "https://petrobras.com.br/en/seguranca-da-informacao",
+        "https://petrobras.com.br/en/sustentabilidade/cinema",
+        "https://petrobras.com.br/en/sustentabilidade/cultural",
+        "https://petrobras.com.br/en/sustentabilidade/dados-abertos",
+        "https://petrobras.com.br/en/sustentabilidade/esporte-motor",
+        "https://petrobras.com.br/en/sustentabilidade/eventos",
+        "https://petrobras.com.br/en/sustentabilidade/recursos-hidricos",
+        "https://petrobras.com.br/en/sustentabilidade/seguranca-operacional",
+        "https://petrobras.com.br/en/sustentabilidade/skate",
+        "https://petrobras.com.br/negocios/oferta-escoamento-de-gas",
+        "https://petrobras.com.br/quem-somos/assistencia-tecnica",
+        "https://petrobras.com.br/quem-somos/bunker-vls-b24",
+        "https://petrobras.com.br/quem-somos/reach",
+        "https://petrobras.com.br/seguranca-da-informacao",
+        "https://petrobras.com.br/sustentabilidade/cultural",
+        "https://petrobras.com.br/sustentabilidade/dados-abertos",
+        "https://petrobras.com.br/sustentabilidade/esporte-motor",
+        "https://petrobras.com.br/sustentabilidade/eventos",
+        "https://petrobras.com.br/sustentabilidade/recursos-hidricos",
+        "https://petrobras.com.br/sustentabilidade/seguranca-operacional",
+        "https://petrobras.com.br/sustentabilidade/skate",
+        "https://petrobras.com.br/transicao-energetica/historias-em-quadrinhos",
+        "https://petrobras.com.br/w/nossas-atividades/por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira",
+        "https://petrobras.com.br/w/web-stories/nossas-atividades/por-que-buscar-novas-reservas-de-petroleo-na-margem-equatorial-brasileira",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/como-alcancar-a-seguranca-energetica",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/conheca-5-iniciativas-para-liderar-a-transicao-energetica-justa",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/o-que-e-transicao-energetica",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/os-caminhos-dos-biocombustiveis",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/produtos-de-baixo-carbono",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/quais-sao-as-energias-renovaveis",
+        "https://petrobras.com.br/w/web-stories/transicao-energetica/transicao-energetica-na-pratica",
+        "https://petrobras.com.br/w/webstories/sustentabilidade/transicao-energetica-na-pratica",
+        "https://petrobras.com.br/web-stories"
+      ],
+      "description": "Carousel-led page",
+      "layoutSignature": "carousel",
+      "pageCount": 40
+    },
+    {
+      "name": "hero-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/inovacao-e-tecnologia",
+        "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "https://petrobras.com.br/en/quem-somos/complexo-boaventura",
+        "https://petrobras.com.br/en/quem-somos/refinaria-abreu-lima",
+        "https://petrobras.com.br/en/quem-somos/refinaria-alberto-pasqualini"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/inovacao-e-tecnologia",
+        "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "https://petrobras.com.br/en/quem-somos/complexo-boaventura",
+        "https://petrobras.com.br/en/quem-somos/refinaria-abreu-lima",
+        "https://petrobras.com.br/en/quem-somos/refinaria-alberto-pasqualini",
+        "https://petrobras.com.br/en/quem-somos/refinaria-capuava",
+        "https://petrobras.com.br/en/quem-somos/refinaria-de-paulinia",
+        "https://petrobras.com.br/en/quem-somos/refinaria-duque-de-caxias",
+        "https://petrobras.com.br/en/quem-somos/refinaria-gabriel-passos",
+        "https://petrobras.com.br/en/quem-somos/refinaria-henrique-lage",
+        "https://petrobras.com.br/en/quem-somos/refinaria-presidente-bernardes",
+        "https://petrobras.com.br/en/quem-somos/refinaria-presidente-getulio-vargas",
+        "https://petrobras.com.br/en/quem-somos/refinarinaria-lubrificantes-derivados-nordeste",
+        "https://petrobras.com.br/en/quem-somos/trajetoria",
+        "https://petrobras.com.br/en/sustentabilidade/esportes",
+        "https://petrobras.com.br/en/sustentabilidade/selecoes-publicas",
+        "https://petrobras.com.br/en/usa",
+        "https://petrobras.com.br/inovacao-e-tecnologia",
+        "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "https://petrobras.com.br/quem-somos/refinaria-abreu-lima",
+        "https://petrobras.com.br/quem-somos/refinaria-capuava",
+        "https://petrobras.com.br/quem-somos/refinaria-de-paulinia",
+        "https://petrobras.com.br/quem-somos/refinaria-henrique-lage",
+        "https://petrobras.com.br/quem-somos/refinarinaria-lubrificantes-derivados-nordeste",
+        "https://petrobras.com.br/quem-somos/trajetoria",
+        "https://petrobras.com.br/sustentabilidade/esportes",
+        "https://petrobras.com.br/usa"
+      ],
+      "description": "Layout: hero > carousel",
+      "layoutSignature": "hero > carousel",
+      "pageCount": 27
+    },
+    {
+      "name": "carousel-cards-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/combustiveis-customizados",
+        "https://petrobras.com.br/en/quem-somos/gas-natural",
+        "https://petrobras.com.br/en/quem-somos/oleo-basico-lubrificante",
+        "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "https://petrobras.com.br/en/quem-somos/parafina"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/combustiveis-customizados",
+        "https://petrobras.com.br/en/quem-somos/gas-natural",
+        "https://petrobras.com.br/en/quem-somos/oleo-basico-lubrificante",
+        "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "https://petrobras.com.br/en/quem-somos/parafina",
+        "https://petrobras.com.br/en/quem-somos/tipos-de-fertilizantes",
+        "https://petrobras.com.br/quem-somos/combustiveis-customizados",
+        "https://petrobras.com.br/quem-somos/gas-natural",
+        "https://petrobras.com.br/quem-somos/oleo-basico-lubrificante",
+        "https://petrobras.com.br/quem-somos/oleo-diesel-maritimo",
+        "https://petrobras.com.br/quem-somos/oleos-combustiveis",
+        "https://petrobras.com.br/quem-somos/parafina",
+        "https://petrobras.com.br/quem-somos/tipos-de-fertilizantes"
+      ],
+      "description": "Layout: carousel > cards",
+      "layoutSignature": "carousel > cards",
+      "pageCount": 13
+    },
+    {
+      "name": "carousel-cards-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/bolivia",
+        "https://petrobras.com.br/en/bolivia",
+        "https://petrobras.com.br/en/quem-somos/concursos",
+        "https://petrobras.com.br/en/quem-somos/estagios",
+        "https://petrobras.com.br/en/quem-somos/estrategia"
+      ],
+      "urls": [
+        "https://petrobras.com.br/bolivia",
+        "https://petrobras.com.br/en/bolivia",
+        "https://petrobras.com.br/en/quem-somos/concursos",
+        "https://petrobras.com.br/en/quem-somos/estagios",
+        "https://petrobras.com.br/en/quem-somos/estrategia",
+        "https://petrobras.com.br/en/quem-somos/produtos",
+        "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "https://petrobras.com.br/en/sustentabilidade/investimento-socioambiental",
+        "https://petrobras.com.br/quem-somos/estrategia",
+        "https://petrobras.com.br/quem-somos/produtos",
+        "https://petrobras.com.br/sustentabilidade/investimento-socioambiental"
+      ],
+      "description": "Layout: carousel > cards > carousel",
+      "layoutSignature": "carousel > cards > carousel",
+      "pageCount": 11
+    },
+    {
+      "name": "carousel-hero-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/",
+        "https://petrobras.com.br/en/quem-somos/perfil",
+        "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "https://petrobras.com.br/en/sustentabilidade/iniciativas-de-reflorestamento",
+        "https://petrobras.com.br/en/sustentabilidade/time-petrobras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/",
+        "https://petrobras.com.br/en/quem-somos/perfil",
+        "https://petrobras.com.br/en/sustentabilidade/futebol-feminino",
+        "https://petrobras.com.br/en/sustentabilidade/iniciativas-de-reflorestamento",
+        "https://petrobras.com.br/en/sustentabilidade/time-petrobras",
+        "https://petrobras.com.br/quem-somos/perfil",
+        "https://petrobras.com.br/sustentabilidade/cinema",
+        "https://petrobras.com.br/sustentabilidade/futebol-feminino",
+        "https://petrobras.com.br/sustentabilidade/iniciativas-de-reflorestamento"
+      ],
+      "description": "Layout: carousel > hero > carousel",
+      "layoutSignature": "carousel > hero > carousel",
+      "pageCount": 9
+    },
+    {
+      "name": "carousel-accordion-page",
+      "representativePages": [
+        "https://petrobras.com.br/cap-convencional",
+        "https://petrobras.com.br/en/quem-somos/cap-convencional",
+        "https://petrobras.com.br/en/quem-somos/diesel-verana",
+        "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "https://petrobras.com.br/en/quem-somos/saf-petrobras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/cap-convencional",
+        "https://petrobras.com.br/en/quem-somos/cap-convencional",
+        "https://petrobras.com.br/en/quem-somos/diesel-verana",
+        "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "https://petrobras.com.br/en/quem-somos/saf-petrobras",
+        "https://petrobras.com.br/quem-somos/cap-convencional",
+        "https://petrobras.com.br/quem-somos/diesel-verana",
+        "https://petrobras.com.br/quem-somos/querosene-de-aviacao",
+        "https://petrobras.com.br/quem-somos/saf-petrobras"
+      ],
+      "description": "Layout: carousel > accordion",
+      "layoutSignature": "carousel > accordion",
+      "pageCount": 9
+    },
+    {
+      "name": "carousel-accordion-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/cultural/selecoes-publicas-culturais",
+        "https://petrobras.com.br/en/negocios/oferta-de-regaseificacao-de-gas",
+        "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "https://petrobras.com.br/en/sustentabilidade/licenciamento-ambiental",
+        "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas"
+      ],
+      "urls": [
+        "https://petrobras.com.br/cultural/selecoes-publicas-culturais",
+        "https://petrobras.com.br/en/negocios/oferta-de-regaseificacao-de-gas",
+        "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "https://petrobras.com.br/en/sustentabilidade/licenciamento-ambiental",
+        "https://petrobras.com.br/en/sustentabilidade/mudancas-climaticas",
+        "https://petrobras.com.br/negocios/oferta-de-regaseificacao-de-gas",
+        "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "https://petrobras.com.br/quem-somos/estagios",
+        "https://petrobras.com.br/sustentabilidade/licenciamento-ambiental"
+      ],
+      "description": "Layout: carousel > accordion > carousel",
+      "layoutSignature": "carousel > accordion > carousel",
+      "pageCount": 9
+    },
+    {
+      "name": "hero-carousel-accordion-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/pre-sal",
+        "https://petrobras.com.br/pre-sal",
+        "https://petrobras.com.br/quem-somos/refinaria-alberto-pasqualini",
+        "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+        "https://petrobras.com.br/quem-somos/refinaria-gabriel-passos"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/pre-sal",
+        "https://petrobras.com.br/pre-sal",
+        "https://petrobras.com.br/quem-somos/refinaria-alberto-pasqualini",
+        "https://petrobras.com.br/quem-somos/refinaria-duque-de-caxias",
+        "https://petrobras.com.br/quem-somos/refinaria-gabriel-passos",
+        "https://petrobras.com.br/quem-somos/refinaria-presidente-bernardes",
+        "https://petrobras.com.br/quem-somos/refinaria-presidente-getulio-vargas",
+        "https://petrobras.com.br/sustentabilidade/biodiversidade"
+      ],
+      "description": "Layout: hero > carousel > accordion > carousel",
+      "layoutSignature": "hero > carousel > accordion > carousel",
+      "pageCount": 8
+    },
+    {
+      "name": "carousel-accordion-cards-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "https://petrobras.com.br/en/quem-somos/produtos-asfalticos"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "https://petrobras.com.br/en/quem-somos/produtos-asfalticos",
+        "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "https://petrobras.com.br/quem-somos/cap-pro",
+        "https://petrobras.com.br/quem-somos/gas-liquefeito-de-petroleo"
+      ],
+      "description": "Layout: carousel > accordion > cards",
+      "layoutSignature": "carousel > accordion > cards",
+      "pageCount": 8
+    },
+    {
+      "name": "carousel-tabs-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "https://petrobras.com.br/en/quem-somos/gas",
+        "https://petrobras.com.br/en/quem-somos/participacoes-societarias",
+        "https://petrobras.com.br/en/quem-somos/refino",
+        "https://petrobras.com.br/quem-somos/fertilizantes"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/fertilizantes",
+        "https://petrobras.com.br/en/quem-somos/gas",
+        "https://petrobras.com.br/en/quem-somos/participacoes-societarias",
+        "https://petrobras.com.br/en/quem-somos/refino",
+        "https://petrobras.com.br/quem-somos/fertilizantes",
+        "https://petrobras.com.br/quem-somos/gas",
+        "https://petrobras.com.br/quem-somos/participacoes-societarias",
+        "https://petrobras.com.br/quem-somos/refino"
+      ],
+      "description": "Layout: carousel > tabs > carousel",
+      "layoutSignature": "carousel > tabs > carousel",
+      "pageCount": 8
+    },
+    {
+      "name": "hero-accordion-page",
+      "representativePages": [
+        "https://petrobras.com.br/privacidade-protecao-de-dados/candidato-em-concurso-publico",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/cliente-fornecedor-consumidor-concorrente",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/demais-publico",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/midia-investidor-parceiro-de-negocios-poder-publico"
+      ],
+      "urls": [
+        "https://petrobras.com.br/privacidade-protecao-de-dados/candidato-em-concurso-publico",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/cliente-fornecedor-consumidor-concorrente",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/comunidades-em-area-de-abrangencia-comunidade-cientifica-e-de-inovacao-organizacoes-da-sociedade-civil-e-entidades-de-classe",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/demais-publico",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/midia-investidor-parceiro-de-negocios-poder-publico",
+        "https://petrobras.com.br/privacidade-protecao-de-dados/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros",
+        "https://petrobras.com.br/publico-interno-atual-empregado-atual-empregado-de-prestador-de-servico-aposentado-outros"
+      ],
+      "description": "Layout: hero > accordion",
+      "layoutSignature": "hero > accordion",
+      "pageCount": 7
+    },
+    {
+      "name": "hero-cards-carousel-page",
+      "representativePages": [
+        "https://petrobras.com.br/colombia",
+        "https://petrobras.com.br/en/colombia",
+        "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "https://petrobras.com.br/en/quem-somos/nossos-escritorios",
+        "https://petrobras.com.br/inovacao-e-tecnologia/patentes"
+      ],
+      "urls": [
+        "https://petrobras.com.br/colombia",
+        "https://petrobras.com.br/en/colombia",
+        "https://petrobras.com.br/en/inovacao-e-tecnologia/patentes",
+        "https://petrobras.com.br/en/quem-somos/nossos-escritorios",
+        "https://petrobras.com.br/inovacao-e-tecnologia/patentes",
+        "https://petrobras.com.br/quem-somos/nossos-escritorios"
+      ],
+      "description": "Layout: hero > cards > carousel",
+      "layoutSignature": "hero > cards > carousel",
+      "pageCount": 6
+    },
+    {
+      "name": "carousel-hero-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/diesel-r5",
+        "https://petrobras.com.br/en/quem-somos/raro-petrobras",
+        "https://petrobras.com.br/en/sustentabilidade/solucoes-baseadas-na-natureza",
+        "https://petrobras.com.br/quem-somos/diesel-r5",
+        "https://petrobras.com.br/quem-somos/raro-petrobras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/diesel-r5",
+        "https://petrobras.com.br/en/quem-somos/raro-petrobras",
+        "https://petrobras.com.br/en/sustentabilidade/solucoes-baseadas-na-natureza",
+        "https://petrobras.com.br/quem-somos/diesel-r5",
+        "https://petrobras.com.br/quem-somos/raro-petrobras",
+        "https://petrobras.com.br/sustentabilidade/solucoes-baseadas-na-natureza"
+      ],
+      "description": "Layout: carousel > hero",
+      "layoutSignature": "carousel > hero",
+      "pageCount": 6
+    },
+    {
+      "name": "text-content-page",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/como-trabalhamos",
+        "https://petrobras.com.br/en/transicao-energetica/historias-em-quadrinhos",
+        "https://petrobras.com.br/en/web-stories",
+        "https://petrobras.com.br/quem-somos/como-trabalhamos"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/como-trabalhamos",
+        "https://petrobras.com.br/en/transicao-energetica/historias-em-quadrinhos",
+        "https://petrobras.com.br/en/web-stories",
+        "https://petrobras.com.br/quem-somos/como-trabalhamos"
+      ],
+      "description": "Text content page: intro heading and rich text, no structured blocks",
+      "layoutSignature": "content-only",
+      "pageCount": 4
+    },
+    {
+      "name": "unique-energia-em-transformacao",
+      "representativePages": [
+        "https://petrobras.com.br/en/energia-em-transformacao"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/energia-em-transformacao"
+      ],
+      "description": "Unique page layout: cards > accordion > hero > cards > hero > accordion",
+      "layoutSignature": "cards > accordion > hero > cards > hero > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-energia-em-transformacao-2",
+      "representativePages": [
+        "https://petrobras.com.br/energia-em-transformacao"
+      ],
+      "urls": [
+        "https://petrobras.com.br/energia-em-transformacao"
+      ],
+      "description": "Unique page layout: cards > accordion > hero > cards > hero > accordion",
+      "layoutSignature": "cards > accordion > hero > cards > hero > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-transicao-energetica",
+      "representativePages": [
+        "https://petrobras.com.br/transicao-energetica"
+      ],
+      "urls": [
+        "https://petrobras.com.br/transicao-energetica"
+      ],
+      "description": "Unique page layout: cards > accordion > hero > cards > hero > accordion",
+      "layoutSignature": "cards > accordion > hero > cards > hero > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-privacy-protection-personal-data",
+      "representativePages": [
+        "https://petrobras.com.br/en/privacy-protection-personal-data"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/privacy-protection-personal-data"
+      ],
+      "description": "Unique page layout: hero > tabs > accordion",
+      "layoutSignature": "hero > tabs > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-privacidade-protecao-de-dados",
+      "representativePages": [
+        "https://petrobras.com.br/privacidade-protecao-de-dados"
+      ],
+      "urls": [
+        "https://petrobras.com.br/privacidade-protecao-de-dados"
+      ],
+      "description": "Unique page layout: hero > tabs > accordion",
+      "layoutSignature": "hero > tabs > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-privacy-protection-personal-data-2",
+      "representativePages": [
+        "https://petrobras.com.br/privacy-protection-personal-data"
+      ],
+      "urls": [
+        "https://petrobras.com.br/privacy-protection-personal-data"
+      ],
+      "description": "Unique page layout: hero > tabs > accordion",
+      "layoutSignature": "hero > tabs > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-linha-podium",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/linha-podium"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/linha-podium"
+      ],
+      "description": "Unique page layout: carousel > columns > accordion > cards",
+      "layoutSignature": "carousel > columns > accordion > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-gasolina-podium",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/gasolina-podium"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/gasolina-podium"
+      ],
+      "description": "Unique page layout: carousel > columns > accordion > cards",
+      "layoutSignature": "carousel > columns > accordion > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-linha-podium-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/linha-podium"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/linha-podium"
+      ],
+      "description": "Unique page layout: carousel > columns > accordion > cards",
+      "layoutSignature": "carousel > columns > accordion > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-seguranca-meio-ambiente-saude",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/seguranca-meio-ambiente-saude"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/seguranca-meio-ambiente-saude"
+      ],
+      "description": "Unique page layout: carousel > cards > accordion > carousel",
+      "layoutSignature": "carousel > cards > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-governanca-corporativa",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/governanca-corporativa"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/governanca-corporativa"
+      ],
+      "description": "Unique page layout: carousel > cards > accordion > carousel",
+      "layoutSignature": "carousel > cards > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-seguranca-meio-ambiente-saude-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude"
+      ],
+      "description": "Unique page layout: carousel > cards > accordion > carousel",
+      "layoutSignature": "carousel > cards > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-acessibilidade",
+      "representativePages": [
+        "https://petrobras.com.br/acessibilidade"
+      ],
+      "urls": [
+        "https://petrobras.com.br/acessibilidade"
+      ],
+      "description": "Unique page layout: hero",
+      "layoutSignature": "hero",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-selecoes-publicas-culturais",
+      "representativePages": [
+        "https://petrobras.com.br/en/cultural/selecoes-publicas-culturais"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/cultural/selecoes-publicas-culturais"
+      ],
+      "description": "Unique page layout: hero",
+      "layoutSignature": "hero",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-fale-conosco",
+      "representativePages": [
+        "https://petrobras.com.br/en/fale-conosco"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/fale-conosco"
+      ],
+      "description": "Unique page layout: hero > columns > accordion",
+      "layoutSignature": "hero > columns > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-fale-conosco-2",
+      "representativePages": [
+        "https://petrobras.com.br/fale-conosco"
+      ],
+      "urls": [
+        "https://petrobras.com.br/fale-conosco"
+      ],
+      "description": "Unique page layout: hero > columns > accordion",
+      "layoutSignature": "hero > columns > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-inovacao-aberta",
+      "representativePages": [
+        "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/inovacao-e-tecnologia/inovacao-aberta"
+      ],
+      "description": "Unique page layout: carousel > columns > hero > carousel",
+      "layoutSignature": "carousel > columns > hero > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-inovacao-aberta-2",
+      "representativePages": [
+        "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta"
+      ],
+      "urls": [
+        "https://petrobras.com.br/inovacao-e-tecnologia/inovacao-aberta"
+      ],
+      "description": "Unique page layout: carousel > columns > hero > carousel",
+      "layoutSignature": "carousel > columns > hero > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-jornada-da-energia",
+      "representativePages": [
+        "https://petrobras.com.br/en/jornada-da-energia"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/jornada-da-energia"
+      ],
+      "description": "Unique page layout: hero > carousel > cards > carousel > cards > hero > cards > carousel",
+      "layoutSignature": "hero > carousel > cards > carousel > cards > hero > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-jornada-da-energia-2",
+      "representativePages": [
+        "https://petrobras.com.br/jornada-da-energia"
+      ],
+      "urls": [
+        "https://petrobras.com.br/jornada-da-energia"
+      ],
+      "description": "Unique page layout: hero > carousel > cards > carousel > cards > hero > cards > carousel",
+      "layoutSignature": "hero > carousel > cards > carousel > cards > hero > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-negocios",
+      "representativePages": [
+        "https://petrobras.com.br/en/negocios"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/negocios"
+      ],
+      "description": "Unique page layout: search > carousel",
+      "layoutSignature": "search > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-negocios-2",
+      "representativePages": [
+        "https://petrobras.com.br/negocios"
+      ],
+      "urls": [
+        "https://petrobras.com.br/negocios"
+      ],
+      "description": "Unique page layout: search > carousel",
+      "layoutSignature": "search > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-ouvidoria",
+      "representativePages": [
+        "https://petrobras.com.br/en/ouvidoria"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/ouvidoria"
+      ],
+      "description": "Unique page layout: columns > tabs > columns > carousel",
+      "layoutSignature": "columns > tabs > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-ouvidoria-2",
+      "representativePages": [
+        "https://petrobras.com.br/ouvidoria"
+      ],
+      "urls": [
+        "https://petrobras.com.br/ouvidoria"
+      ],
+      "description": "Unique page layout: columns > tabs > columns > carousel",
+      "layoutSignature": "columns > tabs > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-jornada-da-energia-3",
+      "representativePages": [
+        "https://petrobras.com.br/en/para-criancas/jornada-da-energia"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/para-criancas/jornada-da-energia"
+      ],
+      "description": "Unique page layout: video > carousel",
+      "layoutSignature": "video > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-jornada-da-energia-4",
+      "representativePages": [
+        "https://petrobras.com.br/para-criancas/jornada-da-energia"
+      ],
+      "urls": [
+        "https://petrobras.com.br/para-criancas/jornada-da-energia"
+      ],
+      "description": "Unique page layout: video > carousel",
+      "layoutSignature": "video > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-produtos-mais-sustent%C3%A1veis",
+      "representativePages": [
+        "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/produtos-mais-sustent%C3%A1veis"
+      ],
+      "description": "Unique page layout: hero > cards > accordion",
+      "layoutSignature": "hero > cards > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-produtos-mais-sustent%C3%A1veis-2",
+      "representativePages": [
+        "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis"
+      ],
+      "urls": [
+        "https://petrobras.com.br/produtos-mais-sustent%C3%A1veis"
+      ],
+      "description": "Unique page layout: hero > cards > accordion",
+      "layoutSignature": "hero > cards > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-quem-somos",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos"
+      ],
+      "description": "Unique page layout: hero > columns > carousel",
+      "layoutSignature": "hero > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-quem-somos-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos"
+      ],
+      "description": "Unique page layout: hero > columns > carousel",
+      "layoutSignature": "hero > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-bunker",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/bunker"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/bunker"
+      ],
+      "description": "Unique page layout: carousel > table > hero",
+      "layoutSignature": "carousel > table > hero",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-bunker-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/bunker"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/bunker"
+      ],
+      "description": "Unique page layout: carousel > table > hero",
+      "layoutSignature": "carousel > table > hero",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-carreiras",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/carreiras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/carreiras"
+      ],
+      "description": "Unique page layout: cards > hero > carousel",
+      "layoutSignature": "cards > hero > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-carreiras-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/carreiras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/carreiras"
+      ],
+      "description": "Unique page layout: cards > hero > carousel",
+      "layoutSignature": "cards > hero > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-diesel-podium",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/diesel-podium"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/diesel-podium"
+      ],
+      "description": "Unique page layout: carousel > table > accordion",
+      "layoutSignature": "carousel > table > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-diesel-podium-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/diesel-podium"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/diesel-podium"
+      ],
+      "description": "Unique page layout: carousel > table > accordion",
+      "layoutSignature": "carousel > table > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-enxofre",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/enxofre"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/enxofre"
+      ],
+      "description": "Unique page layout: carousel > columns > cards",
+      "layoutSignature": "carousel > columns > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-enxofre-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/enxofre"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/enxofre"
+      ],
+      "description": "Unique page layout: carousel > columns > cards",
+      "layoutSignature": "carousel > columns > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-exploracao-e-producao",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/exploracao-e-producao"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/exploracao-e-producao"
+      ],
+      "description": "Unique page layout: carousel > tabs > hero > carousel > accordion > carousel",
+      "layoutSignature": "carousel > tabs > hero > carousel > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-exploracao-e-producao-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/exploracao-e-producao"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/exploracao-e-producao"
+      ],
+      "description": "Unique page layout: carousel > tabs > hero > carousel > accordion > carousel",
+      "layoutSignature": "carousel > tabs > hero > carousel > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-gas-natural-veicular",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/gas-natural-veicular"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/gas-natural-veicular"
+      ],
+      "description": "Unique page layout: carousel > accordion > cards > carousel",
+      "layoutSignature": "carousel > accordion > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-gas-natural-veicular-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/gas-natural-veicular"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/gas-natural-veicular"
+      ],
+      "description": "Unique page layout: carousel > accordion > cards > carousel",
+      "layoutSignature": "carousel > accordion > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-gasolina",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/gasolina"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/gasolina"
+      ],
+      "description": "Unique page layout: carousel > accordion > video > accordion > cards",
+      "layoutSignature": "carousel > accordion > video > accordion > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-gasolina-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/gasolina"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/gasolina"
+      ],
+      "description": "Unique page layout: carousel > accordion > video > accordion > cards",
+      "layoutSignature": "carousel > accordion > video > accordion > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-liderancas",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/liderancas"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/liderancas"
+      ],
+      "description": "Unique page layout: carousel > columns > cards > carousel",
+      "layoutSignature": "carousel > columns > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-liderancas-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/liderancas"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/liderancas"
+      ],
+      "description": "Unique page layout: carousel > columns > cards > carousel",
+      "layoutSignature": "carousel > columns > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-logistica",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/logistica"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/logistica"
+      ],
+      "description": "Unique page layout: carousel > tabs > hero > tabs > carousel",
+      "layoutSignature": "carousel > tabs > hero > tabs > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-logistica-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/logistica"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/logistica"
+      ],
+      "description": "Unique page layout: carousel > tabs > hero > tabs > carousel",
+      "layoutSignature": "carousel > tabs > hero > tabs > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-nossa-marca",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/nossa-marca"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/nossa-marca"
+      ],
+      "description": "Unique page layout: accordion > carousel",
+      "layoutSignature": "accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-nossa-marca-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/nossa-marca"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/nossa-marca"
+      ],
+      "description": "Unique page layout: accordion > carousel",
+      "layoutSignature": "accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-porto-de-macae",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/porto-de-macae"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/porto-de-macae"
+      ],
+      "description": "Unique page layout: hero > carousel > tabs > carousel",
+      "layoutSignature": "hero > carousel > tabs > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-porto-de-macae-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/porto-de-macae"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/porto-de-macae"
+      ],
+      "description": "Unique page layout: hero > carousel > tabs > carousel",
+      "layoutSignature": "hero > carousel > tabs > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-vida-na-plataforma",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/vida-na-plataforma"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/vida-na-plataforma"
+      ],
+      "description": "Unique page layout: hero > cards > hero > carousel > accordion > carousel",
+      "layoutSignature": "hero > cards > hero > carousel > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-vida-na-plataforma-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/vida-na-plataforma"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/vida-na-plataforma"
+      ],
+      "description": "Unique page layout: hero > cards > hero > carousel > accordion > carousel",
+      "layoutSignature": "hero > cards > hero > carousel > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-sustentabilidade",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade"
+      ],
+      "description": "Unique page layout: embed > carousel",
+      "layoutSignature": "embed > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-sustentabilidade-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade"
+      ],
+      "description": "Unique page layout: embed > carousel",
+      "layoutSignature": "embed > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-descomissionamento-offshore",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/descomissionamento-offshore"
+      ],
+      "description": "Unique page layout: carousel > accordion > carousel > hero > carousel",
+      "layoutSignature": "carousel > accordion > carousel > hero > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-descomissionamento-offshore-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/descomissionamento-offshore"
+      ],
+      "description": "Unique page layout: carousel > accordion > carousel > hero > carousel",
+      "layoutSignature": "carousel > accordion > carousel > hero > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-meio-ambiente",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/meio-ambiente"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/meio-ambiente"
+      ],
+      "description": "Unique page layout: cards > carousel",
+      "layoutSignature": "cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-meio-ambiente-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/meio-ambiente"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/meio-ambiente"
+      ],
+      "description": "Unique page layout: cards > carousel",
+      "layoutSignature": "cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-patrocinios",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/patrocinios"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/patrocinios"
+      ],
+      "description": "Unique page layout: carousel > hero > columns > carousel",
+      "layoutSignature": "carousel > hero > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-patrocinios-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/patrocinios"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/patrocinios"
+      ],
+      "description": "Unique page layout: carousel > hero > columns > carousel",
+      "layoutSignature": "carousel > hero > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-relatorios-anuais",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais"
+      ],
+      "description": "Unique page layout: carousel > table > carousel",
+      "layoutSignature": "carousel > table > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-relatorios-anuais-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/relatorios-anuais"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/relatorios-anuais"
+      ],
+      "description": "Unique page layout: carousel > table > carousel",
+      "layoutSignature": "carousel > table > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-responsabilidade-social",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/responsabilidade-social"
+      ],
+      "description": "Unique page layout: embed > cards > carousel",
+      "layoutSignature": "embed > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-responsabilidade-social-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/responsabilidade-social"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/responsabilidade-social"
+      ],
+      "description": "Unique page layout: embed > cards > carousel",
+      "layoutSignature": "embed > cards > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-socioambiental",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/socioambiental"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/socioambiental"
+      ],
+      "description": "Unique page layout: carousel > columns > carousel",
+      "layoutSignature": "carousel > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-socioambiental-2",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/socioambiental"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/socioambiental"
+      ],
+      "description": "Unique page layout: carousel > columns > carousel",
+      "layoutSignature": "carousel > columns > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-jovem-aprendiz",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/jovem-aprendiz"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/jovem-aprendiz"
+      ],
+      "description": "Unique page layout: carousel > columns > carousel > form > carousel",
+      "layoutSignature": "carousel > columns > carousel > form > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-novas-fronteiras",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/novas-fronteiras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/novas-fronteiras"
+      ],
+      "description": "Unique page layout: hero > columns > carousel > accordion > carousel",
+      "layoutSignature": "hero > columns > carousel > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-oleo-diesel",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/oleo-diesel"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/oleo-diesel"
+      ],
+      "description": "Unique page layout: carousel > table > cards > hero",
+      "layoutSignature": "carousel > table > cards > hero",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-oleo-diesel-maritimo",
+      "representativePages": [
+        "https://petrobras.com.br/en/quem-somos/oleo-diesel-maritimo"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/quem-somos/oleo-diesel-maritimo"
+      ],
+      "description": "Unique page layout: carousel > table > cards",
+      "layoutSignature": "carousel > table > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-biodiversidade",
+      "representativePages": [
+        "https://petrobras.com.br/en/sustentabilidade/biodiversidade"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/sustentabilidade/biodiversidade"
+      ],
+      "description": "Unique page layout: hero > tabs > carousel > accordion > carousel",
+      "layoutSignature": "hero > tabs > carousel > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-transicao-energetica-2",
+      "representativePages": [
+        "https://petrobras.com.br/en/transicao-energetica"
+      ],
+      "urls": [
+        "https://petrobras.com.br/en/transicao-energetica"
+      ],
+      "description": "Unique page layout: cards > accordion",
+      "layoutSignature": "cards > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-autonomia-e-renda",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/autonomia-e-renda"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/autonomia-e-renda"
+      ],
+      "description": "Unique page layout: columns > cards > accordion > carousel",
+      "layoutSignature": "columns > cards > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-complexo-boaventura",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/complexo-boaventura"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/complexo-boaventura"
+      ],
+      "description": "Unique page layout: hero > carousel > cards > accordion > carousel",
+      "layoutSignature": "hero > carousel > cards > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-concursos",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/concursos"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/concursos"
+      ],
+      "description": "Unique page layout: carousel > cards > table > accordion > carousel",
+      "layoutSignature": "carousel > cards > table > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-jovem-aprendiz-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/jovem-aprendiz"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/jovem-aprendiz"
+      ],
+      "description": "Unique page layout: carousel > table > accordion > form > accordion > carousel",
+      "layoutSignature": "carousel > table > accordion > form > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-novas-fronteiras-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/novas-fronteiras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/novas-fronteiras"
+      ],
+      "description": "Unique page layout: hero > cards > columns > accordion > carousel",
+      "layoutSignature": "hero > cards > columns > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-oleo-diesel-2",
+      "representativePages": [
+        "https://petrobras.com.br/quem-somos/oleo-diesel"
+      ],
+      "urls": [
+        "https://petrobras.com.br/quem-somos/oleo-diesel"
+      ],
+      "description": "Unique page layout: carousel > cards > hero",
+      "layoutSignature": "carousel > cards > hero",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-sitemap",
+      "representativePages": [
+        "https://petrobras.com.br/sitemap"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sitemap"
+      ],
+      "description": "Unique page layout: hero > cards",
+      "layoutSignature": "hero > cards",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-mudancas-climaticas",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/mudancas-climaticas"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/mudancas-climaticas"
+      ],
+      "description": "Unique page layout: embed > accordion > carousel",
+      "layoutSignature": "embed > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-selecoes-publicas",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/selecoes-publicas"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/selecoes-publicas"
+      ],
+      "description": "Unique page layout: hero > columns > accordion > carousel",
+      "layoutSignature": "hero > columns > accordion > carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-time-petrobras",
+      "representativePages": [
+        "https://petrobras.com.br/sustentabilidade/time-petrobras"
+      ],
+      "urls": [
+        "https://petrobras.com.br/sustentabilidade/time-petrobras"
+      ],
+      "description": "Unique page layout: carousel > tabs > hero > carousel",
+      "layoutSignature": "carousel > tabs > hero > carousel",
+      "pageCount": 1
+    }
+  ]
+}

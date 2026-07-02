@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-minimal-dark-5",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.723Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos_canais-de-atendimento--23855fc0/blocks/columns-7625f82e.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

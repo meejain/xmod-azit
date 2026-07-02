@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-minimal-dark-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:15:39.243Z",
+  "sourceContext": {
+    "originUrl": "https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional--16e5562f/blocks/columns-4cdaddeb.jpg"
+      },
+      {
+        "url": "https://baixadasantistaenergia.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/baixadasantistaenergia_com_br_institucional_orgaos-estatutarios--92366290/blocks/columns-784a7a97.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

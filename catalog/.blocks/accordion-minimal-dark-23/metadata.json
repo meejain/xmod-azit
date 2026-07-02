@@ -1,0 +1,35 @@
+{
+  "variantName": "accordion-minimal-dark-23",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.222Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/saf-petrobras",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "8 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"8 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/saf-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_saf-petrobras--425b8165/blocks/accordion-340c3cfe.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/saf-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_saf-petrobras--efcb3054/blocks/accordion-340c3cfe.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

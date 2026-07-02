@@ -1,0 +1,40 @@
+{
+  "variantName": "1 heading + 2 images block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.222Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + 2 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_porto-de-macae--3cab617f/blocks/unknown-4a4da721.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/porto-de-macae",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_porto-de-macae--aead1fef/blocks/unknown-21763496.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cultural--05960a3b/blocks/unknown-f879a69.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "variantName": "columns-minimal-dark-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T22:31:41.398Z",
+  "sourceContext": {
+    "originUrl": "https://araucarianitrogenados.com.br/institucional",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://araucarianitrogenados.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/araucarianitrogenados_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--a014367c/blocks/columns-d61b7fd.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional--38b958b0/blocks/columns-2baa9e14.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_orgaos-estatutarios--4138a81c/blocks/columns-41e4cd8a.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/araucarianitrogenados_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--40686108/blocks/columns-652f3473.jpg"
+      },
+      {
+        "url": "https://araucarianitrogenados.com.br/outras-informacoes",
+        "screenshot": ".pages/araucarianitrogenados_com_br_outras-informacoes--e39dfff1/blocks/columns-1612bfe6.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

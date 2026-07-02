@@ -1,0 +1,143 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 54 terminal entries (54 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 54 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 8 path groups + 13 root singletons
+  Group 1 (cadastro-de-fornecedores): 9 pages
+  Group 2 (compliance): 10 pages
+  Group 3 (lives-encontro-com-fornecedores): 2 pages
+  Group 4 (lives-eventos-oportunidades): 3 pages
+  Group 5 (o-funcionamento-de-um-contrato): 8 pages
+  Group 6 (pedidos-e-pagamentos): 2 pages
+  Group 7 (regras-de-contratacao): 4 pages
+  Group 8 (regras-de-contratacao/o-funcionamento-de-uma-licitacao): 3 pages
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+  Seed group 1 (9p): SPLIT -> 2 groups [5, 4]
+    reason: layout-descriptor partition
+  Seed group 2 (10p): SPLIT -> 2 groups [5, 5]
+    reason: layout-descriptor partition
+  Seed group 3 (2p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 4 (3p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 5 (8p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 6 (2p): SPLIT -> 2 groups [1, 1]
+    reason: layout-descriptor partition
+  Seed group 7 (4p): SPLIT -> 3 groups [2, 1, 1]
+    reason: layout-descriptor partition
+  Seed group 8 (3p): SPLIT -> 2 groups [2, 1]
+    reason: layout-descriptor partition
+Layout-descriptor partition: 5 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 18
+
+Starting: 27 total (9 clusters, 18 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -13 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/regras-de-contratacao → https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/agendamento-de-entrega-de-materiais
+  ✓ MERGE: -12 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/programa-fortalecer → https://canalfornecedor.petrobras.com.br/regras-de-contratacao
+  ✓ MERGE: -10 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos → https://canalfornecedor.petrobras.com.br/regras-de-contratacao
+  ✓ MERGE: -9 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores → https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos
+  ✓ MERGE: -7 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/duvidas-frequentes → https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores
+  ✓ MERGE: -4 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/canais-de-contato → https://canalfornecedor.petrobras.com.br/duvidas-frequentes
+  ✓ MERGE: -3 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores → https://canalfornecedor.petrobras.com.br/canais-de-contato
+  ✓ MERGE: 3 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/lives-encontro-com-fornecedores/eventos → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 4 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/lives-eventos-oportunidades/eventos → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 7 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/regras-de-contratacao/catalogo-de-padronizacao → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 8 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/conteudo-do-edital → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 9 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/catalogo-eletronico-e-vendas-diretas-para-petrobras → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 10 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/compliance/monitoramento-de-fornecedores → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 11 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/pedidos-e-pagamentos → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: 13 → 5  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/regras-de-contratacao/funcionamento-de-uma-licitacao → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores
+  ✓ MERGE: -11 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/programa-autonomia-e-renda-petrobras → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+  ✓ MERGE: -8 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/funcionamento-de-um-contrato → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+  ✓ MERGE: -6 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/consumo-contratos → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+  ✓ MERGE: -5 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/compliance → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+  ✓ MERGE: -2 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor → https://canalfornecedor.petrobras.com.br/cadastro-de-fornecedores/apoio-ao-cadastro
+  ✓ MERGE: 2 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/compliance/compliance → https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+  ✓ MERGE: 6 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/pedidos-e-pagamentos/canais-de-atendimento → https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+  ✓ MERGE: 12 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/regras-de-contratacao/formas-de-contratacao-da-petrobras → https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+  ✓ MERGE: 14 → 1  [sim: 100%]
+      https://canalfornecedor.petrobras.com.br/regras-de-contratacao/o-funcionamento-de-uma-licitacao/os-meios-de-divulgacao-da-licitacao → https://canalfornecedor.petrobras.com.br/atendimento-ao-fornecedor
+  24 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 27 clusters
+After:  3 clusters (2 multi-page, 1 singletons)
+Merged: 24 clusters (40 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -1: 1p -> 1 template (pair_matches=0/0)
+  Family 1: 18p -> 1 template (pair_matches=17/17)
+  Family 5: 35p -> 1 template (pair_matches=34/34)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -1: 1p
+  Template candidate 1: 18p | representatives 3
+  Template candidate 5: 35p | representatives 4
+Built 3 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 3 templates, 54 pages, 1 singletons, biggest family=35
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 3 templates, 1 singletons. Ready for tuning.

@@ -1,0 +1,39 @@
+{
+  "variantName": "2 images block-moderate-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.867Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/estrategia-em-sustentabilidade-1",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_estrategia-em-sustentabilidade-1--dfa25de1/blocks/unknown-24e6dad4.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/governanca-corporativa",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_governanca-corporativa--13b2077c/blocks/unknown-708e2206.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/w/impactos-economicos",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_w_impactos-economicos--c0377903/blocks/unknown-763ff2f8.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

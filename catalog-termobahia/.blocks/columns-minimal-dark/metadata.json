@@ -1,0 +1,59 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:43:16.892Z",
+  "sourceContext": {
+    "originUrl": "https://termoba.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termoba.com.br/",
+        "screenshot": ".pages/termoba_com_br--ce5ea398/blocks/columns-563c718b.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/termoba_com_br_cartas-de-governanca-e-politicas-publicas--b39fbd9f/blocks/columns-22574ee1.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/termoba_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--c9325598/blocks/columns-17853fdf.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional",
+        "screenshot": ".pages/termoba_com_br_institucional--6744f3ff/blocks/columns-16aae86b.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/auditoria",
+        "screenshot": ".pages/termoba_com_br_institucional_auditoria--e76c782f/blocks/columns-5847b44a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/termoba_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--f404dbf1/blocks/columns-93d0a8a.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/termoba_com_br_institucional_orgaos-estatutarios--57196900/blocks/columns-246bee21.jpg"
+      },
+      {
+        "url": "https://termoba.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/termoba_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--ee94458e/blocks/columns-26a2f137.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

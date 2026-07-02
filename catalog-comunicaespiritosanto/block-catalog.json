@@ -1,0 +1,126 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-07-01T11:35:10.506Z",
+    "totalBlockVariants": 10,
+    "totalBlocksProcessed": 107,
+    "newVariantsCreated": 8,
+    "variantsReused": 83,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 66,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 12,
+        "description": "1 heading + 1 image + 1 paragraph block; 1 heading + 1 image block; 13 images + 12 CTAs block; form block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br--caec7366/blocks/hero-224c01c8.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_fpso-capixaba1--9cf39cc9/blocks/hero-447fbec9.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_fpso-cidade-de-anchieta1--c7747166/blocks/hero-14863c33.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_fpso-maria-quit_C3_A9ria--76d8589d/blocks/hero-2c576896.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-57-p-57-1--e89432fd/blocks/hero-6b40ef1c.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_fpso-petrobras-58-p-58-1--e6b91ea8/blocks/hero-52d651e2.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "1 heading + 1 image block; 1 image block; 3-item layout block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br--caec7366/blocks/cards-5bbc891f.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br--caec7366/blocks/cards-75432c44.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_impactos--0ce6bd94/blocks/cards-127a97db.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2/blocks/cards-53c02e4e.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2/blocks/cards-78d1a861.jpg",
+          ".pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2/blocks/cards-38dabad2.jpg"
+        ]
+      },
+      "form-minimal-dark": {
+        "blockVariantId": "form-minimal-dark",
+        "baseBlock": "form",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "form + 1 paragraph block; form + 2 paragraphs block; form block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br_fale-conosco--66311bf5/blocks/form-767e2233.jpg"
+        ]
+      },
+      "accordion-moderate-dark": {
+        "blockVariantId": "accordion-moderate-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "5-item layout block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br_informes--e5837ec2/blocks/accordion-6a8ce1ba.jpg"
+        ]
+      },
+      "cards-moderate-dark": {
+        "blockVariantId": "cards-moderate-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "5-item layout block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br_w_distancia-minima-das-plataformas-de-petroleo--87d3c9e8/blocks/cards-5f838644.jpg"
+        ]
+      },
+      "carousel-moderate-dark": {
+        "blockVariantId": "carousel-moderate-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "18 headings + 4-item layout block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br_glossario--82d90e4e/blocks/carousel-3640e40f.jpg"
+        ]
+      },
+      "embed-minimal-dark": {
+        "blockVariantId": "embed-minimal-dark",
+        "baseBlock": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "7 images block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br_cadastro--aa0fbb5e/blocks/embed-335bdad9.jpg"
+        ]
+      },
+      "tabs-minimal-light": {
+        "blockVariantId": "tabs-minimal-light",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "3 paragraphs block",
+        "screenshots": [
+          ".pages/comunicaespiritosanto_petrobras_com_br_licenciamento--f979e8e6/blocks/tabs-629e5bef.jpg"
+        ]
+      }
+    }
+  }
+}

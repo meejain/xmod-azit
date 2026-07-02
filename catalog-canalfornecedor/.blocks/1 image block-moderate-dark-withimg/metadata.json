@@ -1,0 +1,31 @@
+{
+  "variantName": "1 image block-moderate-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.723Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/o-funcionamento-de-um-contrato/avaliacao-de-desempenho-de-fornecedores",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_o-funcionamento-de-um-contrato_avaliacao-de-desempenho-de-fornecedores--697d3fd7/blocks/unknown-198340a1.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

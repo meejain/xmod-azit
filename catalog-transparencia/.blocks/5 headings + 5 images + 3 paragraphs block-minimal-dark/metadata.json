@@ -1,0 +1,35 @@
+{
+  "variantName": "5 headings + 5 images + 3 paragraphs block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.437Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/licitacoes-e-contratos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "icon",
+    "structure": "heading + text + 5 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 5 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/licitacoes-e-contratos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_licitacoes-e-contratos--e95c5fa5/blocks/unknown-1b500da6.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/receitas-e-despesas",
+        "screenshot": ".pages/transparencia_petrobras_com_br_receitas-e-despesas--93b44e2c/blocks/unknown-28941ddb.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

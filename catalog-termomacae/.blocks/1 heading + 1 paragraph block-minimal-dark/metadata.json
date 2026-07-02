@@ -1,0 +1,47 @@
+{
+  "variantName": "1 heading + 1 paragraph block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:59:28.235Z",
+  "sourceContext": {
+    "originUrl": "https://termomacae.com.br/acesso-a-informacao/empregados-publicos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_empregados-publicos--ba5f2635/blocks/unknown-43c8fb51.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/institucional",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_institucional--fdc7107e/blocks/unknown-16465685.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/licitacoes-e-contratos/licitacoes",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_licitacoes-e-contratos_licitacoes--bf38c657/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_participacao-social_ouvidoria--f7135759/blocks/unknown-2d433b83.jpg"
+      },
+      {
+        "url": "https://termomacae.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/termomacae_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--8b24d596/blocks/unknown-c5f7fcc.jpg"
+      }
+    ],
+    "reuseCount": 5
+  }
+}

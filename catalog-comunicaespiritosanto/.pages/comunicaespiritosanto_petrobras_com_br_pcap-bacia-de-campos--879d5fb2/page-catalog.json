@@ -1,0 +1,225 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/pcap-bacia-de-campos",
+  "timestamp": "2026-07-01T11:32:26.817Z",
+  "duration": "10.9s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/pcap-bacia-de-campos",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 46
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "PCAP Bacia de Campos | Comunica Espirito Santo"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 2436
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 40,
+        "y": 77,
+        "width": 1400,
+        "height": 178
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 286,
+        "width": 377,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 792,
+        "width": 168,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 938,
+        "width": 436,
+        "height": 423
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 1439,
+        "width": 482,
+        "height": 173
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 1762,
+        "width": 187,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 1812,
+        "width": 187,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 1862,
+        "width": 187,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 1912,
+        "width": 187,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 1962,
+        "width": 187,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 2012,
+        "width": 188,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 2062,
+        "width": 188,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 2112,
+        "width": 188,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 131,
+        "y": 2162,
+        "width": 188,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 2311,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 2431,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": []
+}

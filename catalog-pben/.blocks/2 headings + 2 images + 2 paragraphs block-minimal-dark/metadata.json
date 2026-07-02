@@ -1,0 +1,31 @@
+{
+  "variantName": "2 headings + 2 images + 2 paragraphs block-minimal-dark",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.720Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "heading + text + 2 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"heading + text + 2 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic",
+        "screenshot": ".pages/pben_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic--c1997d63/blocks/unknown-4586852e.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

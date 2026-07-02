@@ -1,0 +1,140 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T20:37:33.825Z",
+    "totalBlockVariants": 10,
+    "totalBlocksProcessed": 319,
+    "newVariantsCreated": 8,
+    "variantsReused": 279,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 54,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 50,
+        "description": "1 heading + 1 image + 1 paragraph block; 1 heading + 1 image block; 1 heading block; 3 headings + 2 images + 2 paragraphs + 3-item layout block; 3 headings + 2 images + 2 paragraphs block; 6 headings ",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br--060f2a85/blocks/carousel-2482d12c.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/blocks/carousel-72eebc01.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/carousel-57b4e856.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/carousel-195f5b87.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800/blocks/carousel-7953652a.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800/blocks/carousel-1972f7f4.jpg"
+        ]
+      },
+      "tabs-minimal-dark": {
+        "blockVariantId": "tabs-minimal-dark",
+        "baseBlock": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 46,
+        "description": "10 CTAs + 1 list block; 2 CTAs + 1 list block; 3 CTAs + 1 list block; 6 CTAs + 1 list block; 8 CTAs + 1 list block; 9 CTAs + 1 list block",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores--962efe04/blocks/tabs-608b4629.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_apoio-ao-cadastro--24632249/blocks/tabs-5ac4c355.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_catalogo-eletronico-e-vendas-diretas-para-petrobras--b8169800/blocks/tabs-335cd67f.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_certificado-de-registro-cadastral--d571fb80/blocks/tabs-7920acc4.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_credenciamento-mentoria-refino--47c48805/blocks/tabs-335cd67f.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_criterios-de-avaliacao--c1070d3e/blocks/tabs-6861d945.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 7,
+        "description": "1 heading + 1 image + 2 CTAs + 1 list block; 1 heading + 1 image block; 1 heading block; 2 headings + 1 image + 9 CTAs + 1 list block",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores--962efe04/blocks/hero-4ff7c7f8.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_porque-se-cadastrar--96322d25/blocks/hero-5336e49e.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_compliance_monitoramento-de-fornecedores--39d51459/blocks/hero-776f0259.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_consumo-contratos--c7a9fcea/blocks/hero-4665ea72.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/hero-38961c43.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_pedidos-e-pagamentos--ef4b6f9b/blocks/hero-4ff7c7f8.jpg"
+        ]
+      },
+      "accordion-minimal-dark": {
+        "blockVariantId": "accordion-minimal-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "15 images + 1 list block; 7 images block; accordion-item; fragment_",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_cadastro-de-fornecedores_etapas-do-processo-de-cadastramento--f03ed5a4/blocks/accordion-367a09fc.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/accordion-ca4c16f.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/accordion-ca4c18e.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/accordion-ca4c1ad.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/accordion-ca4c1cc.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_duvidas-frequentes--d7513733/blocks/accordion-ca4c1eb.jpg"
+        ]
+      },
+      "cards-minimal-dark": {
+        "blockVariantId": "cards-minimal-dark",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "2 headings + 2 images + 1 paragraph block; 3 headings + 3 images block; 9 headings + 9 images block",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/blocks/cards-625eeb4c.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_atendimento-ao-fornecedor--15a80758/blocks/cards-de1e153.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_os-meios-de-divulgacao-da-licitacao--2712724d/blocks/cards-66eb42c2.jpg"
+        ]
+      },
+      "accordion-moderate-dark": {
+        "blockVariantId": "accordion-moderate-dark",
+        "baseBlock": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "2 headings + 8 images + 6-item layout block",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_o-funcionamento-de-uma-licitacao_etapas-da-licitacao--db815bcb/blocks/accordion-7c911617.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "1 heading + 2 images + 2-item layout block; 2 headings + 2 images + 2-item layout block; 2 images + 2-item layout block",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/blocks/columns-2f057766.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/blocks/columns-37f4a92b.jpg",
+          ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_catalogo-de-padronizacao--aab3a126/blocks/columns-5997c603.jpg"
+        ]
+      },
+      "table-minimal-dark": {
+        "blockVariantId": "table-minimal-dark",
+        "baseBlock": "table",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "fragment_",
+        "screenshots": [
+          ".pages/canalfornecedor_petrobras_com_br_regras-de-contratacao_conheca-lei-das-estatais--f0030b55/blocks/table-2ab782f8.jpg"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "variantName": "1 heading + 1 list block-minimal-dark-1",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.220Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/enxofre",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_enxofre--6236687c/blocks/unknown-6065b328.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_refino--16ca74fa/blocks/unknown-476ec837.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_combustiveis-customizados--c5edafba/blocks/unknown-489a7ed9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_enxofre--b17b9001/blocks/unknown-1795c992.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-basico-lubrificante",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-basico-lubrificante--57c5f26d/blocks/unknown-2c72fb76.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleos-combustiveis--d3337edf/blocks/unknown-133b17db.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/unknown-31fcae61.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/refino",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_refino--b9d94c00/blocks/unknown-776d4553.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sitemap",
+        "screenshot": ".pages/petrobras_com_br_sitemap--530acaf1/blocks/unknown-704cd004.jpg"
+      }
+    ],
+    "reuseCount": 9
+  }
+}

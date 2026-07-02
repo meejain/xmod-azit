@@ -1,0 +1,39 @@
+{
+  "variantName": "accordion-minimal-dark",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/energia-em-transformacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "5 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"5 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_en_energia-em-transformacao--f28575c3/blocks/accordion-7c87e3ad.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/energia-em-transformacao",
+        "screenshot": ".pages/petrobras_com_br_energia-em-transformacao--19501090/blocks/accordion-7c87e3ad.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/transicao-energetica",
+        "screenshot": ".pages/petrobras_com_br_transicao-energetica--b7996fe9/blocks/accordion-7c87e3ad.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

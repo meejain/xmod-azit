@@ -1,0 +1,127 @@
+{
+  "variantName": "columns-minimal-dark-5",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bolivia",
+        "screenshot": ".pages/petrobras_com_br_bolivia--fb41cf52/blocks/columns-4b56b02b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/bolivia",
+        "screenshot": ".pages/petrobras_com_br_en_bolivia--8a47c7b9/blocks/columns-2c5338a1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_en_inovacao-e-tecnologia_centro-de-pesquisa--2952ed13/blocks/columns-3ba13a34.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_add-cleaner-petrobras--5733e421/blocks/columns-71a07665.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/assistencia-tecnica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_assistencia-tecnica--734ffd77/blocks/columns-7aee6551.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_bunker--12eef8be/blocks/columns-7c5025c0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_concursos--95f9ce8d/blocks/columns-2a7a09e9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/columns-9be40d8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/nossa-marca",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_nossa-marca--9867a676/blocks/columns-765b7a44.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_novas-fronteiras--831410c7/blocks/columns-363b9b19.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleos-combustiveis--0dc14861/blocks/columns-3704db94.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_parafina--74720faa/blocks/columns-559b5be8.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_governanca-corporativa--d897a718/blocks/columns-3c9804af.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_patrocinios--2548576b/blocks/columns-2504f8d9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/solucoes-baseadas-na-natureza",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_solucoes-baseadas-na-natureza--0f99edd7/blocks/columns-4c6692ba.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/inovacao-e-tecnologia/centro-de-pesquisa",
+        "screenshot": ".pages/petrobras_com_br_inovacao-e-tecnologia_centro-de-pesquisa--29a72b71/blocks/columns-3a9d6901.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_add-cleaner-petrobras--4e0305d5/blocks/columns-6a3555fa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/columns-5349a26e.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/novas-fronteiras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_novas-fronteiras--843447fd/blocks/columns-5a860072.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleos-combustiveis--d3337edf/blocks/columns-653c4844.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/columns-3e27e362.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/governanca-corporativa",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_governanca-corporativa--2496dfce/blocks/columns-7e505596.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/patrocinios",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_patrocinios--2ac7f8d7/blocks/columns-654860ee.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_relatorios-anuais--2607bd7f/blocks/columns-6e905fd1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/solucoes-baseadas-na-natureza",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_solucoes-baseadas-na-natureza--76ea097d/blocks/columns-7d828ac7.jpg"
+      }
+    ],
+    "reuseCount": 25
+  }
+}

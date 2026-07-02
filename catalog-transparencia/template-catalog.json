@@ -1,0 +1,214 @@
+{
+  "templates": [
+    {
+      "name": "text-content-page",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao",
+        "https://transparencia.petrobras.com.br/atas",
+        "https://transparencia.petrobras.com.br/atos-normativos",
+        "https://transparencia.petrobras.com.br/auditorias",
+        "https://transparencia.petrobras.com.br/conferencias"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/acoes-de-supervisao-controle-e-correicao",
+        "https://transparencia.petrobras.com.br/atas",
+        "https://transparencia.petrobras.com.br/atos-normativos",
+        "https://transparencia.petrobras.com.br/auditorias",
+        "https://transparencia.petrobras.com.br/conferencias",
+        "https://transparencia.petrobras.com.br/conselhos-e-orgaos-colegiados",
+        "https://transparencia.petrobras.com.br/contratos-de-transferencia-de-tecnologia",
+        "https://transparencia.petrobras.com.br/dados-abertos",
+        "https://transparencia.petrobras.com.br/demonstracoes-financeiras",
+        "https://transparencia.petrobras.com.br/empregados-publicos",
+        "https://transparencia.petrobras.com.br/horario-de-atendimento",
+        "https://transparencia.petrobras.com.br/informacoes-classificadas",
+        "https://transparencia.petrobras.com.br/patrocinios",
+        "https://transparencia.petrobras.com.br/politica-de-dividendos",
+        "https://transparencia.petrobras.com.br/politica-de-transacoes-com-partes-relacionadas",
+        "https://transparencia.petrobras.com.br/presentes",
+        "https://transparencia.petrobras.com.br/receitas",
+        "https://transparencia.petrobras.com.br/relatorios-da-cgu",
+        "https://transparencia.petrobras.com.br/transparencia-e-prestacao-de-contas"
+      ],
+      "description": "Text content page: intro heading and rich text, no structured blocks",
+      "layoutSignature": "content-only",
+      "pageCount": 19
+    },
+    {
+      "name": "cards-grid-page",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/acoes-e-programas",
+        "https://transparencia.petrobras.com.br/institucional",
+        "https://transparencia.petrobras.com.br/licitacoes-e-contratos",
+        "https://transparencia.petrobras.com.br/participacao-social",
+        "https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/acoes-e-programas",
+        "https://transparencia.petrobras.com.br/institucional",
+        "https://transparencia.petrobras.com.br/licitacoes-e-contratos",
+        "https://transparencia.petrobras.com.br/participacao-social",
+        "https://transparencia.petrobras.com.br/programa-conexoes-para-inovacao",
+        "https://transparencia.petrobras.com.br/receitas-e-despesas",
+        "https://transparencia.petrobras.com.br/selecoes-publicas",
+        "https://transparencia.petrobras.com.br/servico-de-informacao-ao-cidadao-sic",
+        "https://transparencia.petrobras.com.br/sobre-a-petrobras"
+      ],
+      "description": "Cards grid page: intro text followed by a grid of icon/link cards",
+      "layoutSignature": "cards",
+      "pageCount": 9
+    },
+    {
+      "name": "data-embed-page",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/aditivos",
+        "https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis",
+        "https://transparencia.petrobras.com.br/aquisicao-de-bens",
+        "https://transparencia.petrobras.com.br/contratos",
+        "https://transparencia.petrobras.com.br/convenios-e-transferencias"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/aditivos",
+        "https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis",
+        "https://transparencia.petrobras.com.br/aquisicao-de-bens",
+        "https://transparencia.petrobras.com.br/contratos",
+        "https://transparencia.petrobras.com.br/convenios-e-transferencias",
+        "https://transparencia.petrobras.com.br/hospitalidades",
+        "https://transparencia.petrobras.com.br/licitacoes",
+        "https://transparencia.petrobras.com.br/obras"
+      ],
+      "description": "Data page: intro text with an embedded data table/tool",
+      "layoutSignature": "embed",
+      "pageCount": 8
+    },
+    {
+      "name": "accordion-faq-page",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/audiencias-publicas",
+        "https://transparencia.petrobras.com.br/balcao-de-atendimento",
+        "https://transparencia.petrobras.com.br/diarias-e-passagens",
+        "https://transparencia.petrobras.com.br/outras-acoes",
+        "https://transparencia.petrobras.com.br/perguntas-frequentes"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/audiencias-publicas",
+        "https://transparencia.petrobras.com.br/balcao-de-atendimento",
+        "https://transparencia.petrobras.com.br/diarias-e-passagens",
+        "https://transparencia.petrobras.com.br/outras-acoes",
+        "https://transparencia.petrobras.com.br/perguntas-frequentes",
+        "https://transparencia.petrobras.com.br/programa-de-p-d-do-setor-de-energia-eletrica"
+      ],
+      "description": "Accordion page: intro text with an expandable accordion/FAQ list",
+      "layoutSignature": "accordion",
+      "pageCount": 6
+    },
+    {
+      "name": "unique-root",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/"
+      ],
+      "description": "Unique page layout: carousel",
+      "layoutSignature": "carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-home",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/home"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/home"
+      ],
+      "description": "Unique page layout: carousel",
+      "layoutSignature": "carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-prestacao-de-contas",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/prestacao-de-contas"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/prestacao-de-contas"
+      ],
+      "description": "Unique page layout: carousel",
+      "layoutSignature": "carousel",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-orcamento-de-investimento",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/orcamento-de-investimento"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/orcamento-de-investimento"
+      ],
+      "description": "Unique page layout: tabs",
+      "layoutSignature": "tabs",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-publicidade",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/publicidade"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/publicidade"
+      ],
+      "description": "Unique page layout: tabs",
+      "layoutSignature": "tabs",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-agenda-de-autoridades",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/agenda-de-autoridades"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/agenda-de-autoridades"
+      ],
+      "description": "Unique page layout: carousel > embed",
+      "layoutSignature": "carousel > embed",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-estatistica-do-sic",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/estatistica-do-sic"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/estatistica-do-sic"
+      ],
+      "description": "Unique page layout: tabs > accordion",
+      "layoutSignature": "tabs > accordion",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-programas-finalisticos",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/programas-finalisticos"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/programas-finalisticos"
+      ],
+      "description": "Unique page layout: table",
+      "layoutSignature": "table",
+      "pageCount": 1
+    },
+    {
+      "name": "unique-sancoes-administrativas",
+      "representativePages": [
+        "https://transparencia.petrobras.com.br/sancoes-administrativas"
+      ],
+      "urls": [
+        "https://transparencia.petrobras.com.br/sancoes-administrativas"
+      ],
+      "description": "Unique page layout: table > tabs",
+      "layoutSignature": "table > tabs",
+      "pageCount": 1
+    }
+  ]
+}

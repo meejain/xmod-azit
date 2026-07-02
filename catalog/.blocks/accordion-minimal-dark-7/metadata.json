@@ -1,0 +1,59 @@
+{
+  "variantName": "accordion-minimal-dark-7",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.212Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/quem-somos/diesel-podium",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 1 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 1 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/accordion-56ecf6b9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-convencional--b285dbbe/blocks/accordion-19f41ff9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-podium--b13f4f2f/blocks/accordion-3318fa98.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_seguranca-meio-ambiente-saude--69abbd57/blocks/accordion-5bd1aefa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-convencional--0cea9b55/blocks/accordion-56ecf6b9.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/concursos",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_concursos--30749157/blocks/accordion-1e642f25.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-podium--0665b9dd/blocks/accordion-3318fa98.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/seguranca-meio-ambiente-saude",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_seguranca-meio-ambiente-saude--3714fa53/blocks/accordion-5bd1aefa.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

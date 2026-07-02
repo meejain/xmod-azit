@@ -1,0 +1,31 @@
+{
+  "variantName": "video-minimal-dark-1",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.227Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/quem-somos/diesel-r5",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "text + 10 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"video\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"text + 10 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-r5--634373ab/blocks/video-2174.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

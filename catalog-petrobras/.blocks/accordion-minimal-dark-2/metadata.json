@@ -1,0 +1,35 @@
+{
+  "variantName": "accordion-minimal-dark-2",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.210Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/fale-conosco",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "icon",
+    "structure": "1 CTAs + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"icon\",\"structure\":\"1 CTAs + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/en/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_en_fale-conosco--bdae6ed1/blocks/accordion-9ae4dd5.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/fale-conosco",
+        "screenshot": ".pages/petrobras_com_br_fale-conosco--e4adb542/blocks/accordion-9ae4dd5.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

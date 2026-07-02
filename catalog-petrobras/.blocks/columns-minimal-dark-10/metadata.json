@@ -1,0 +1,75 @@
+{
+  "variantName": "columns-minimal-dark-10",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.211Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/colombia",
+        "screenshot": ".pages/petrobras_com_br_colombia--e0377991/blocks/columns-1e4dbf2c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/colombia",
+        "screenshot": ".pages/petrobras_com_br_en_colombia--dfbf0cad/blocks/columns-41387da0.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-escoamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-escoamento-de-gas--e9514cd5/blocks/columns-371386c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_en_negocios_oferta-processamento-de-gas--e935934d/blocks/columns-4fbdfbcd.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/carreiras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_carreiras--59c53b01/blocks/columns-2042b973.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-podium--b13f4f2f/blocks/columns-3d1c900c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/logistica",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_logistica--652839b9/blocks/columns-3525c234.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_querosene-de-aviacao--5817c150/blocks/columns-34b499e1.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/negocios/oferta-processamento-de-gas",
+        "screenshot": ".pages/petrobras_com_br_negocios_oferta-processamento-de-gas--0a7a82bd/blocks/columns-1ea85d39.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/autonomia-e-renda",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_autonomia-e-renda--a406b194/blocks/columns-2aa8202b.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-podium--0665b9dd/blocks/columns-3cbd074c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/columns-380c5773.jpg"
+      }
+    ],
+    "reuseCount": 12
+  }
+}

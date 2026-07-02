@@ -1,0 +1,31 @@
+{
+  "variantName": "accordion-minimal-dark-6",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.437Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/balcao-de-atendimento",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text + 1 CTAs"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"accordion\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"heading + text + 1 CTAs\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/balcao-de-atendimento",
+        "screenshot": ".pages/transparencia_petrobras_com_br_balcao-de-atendimento--c30390f0/blocks/accordion-247a628d.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

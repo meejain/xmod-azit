@@ -1,0 +1,59 @@
+{
+  "variantName": "embed-minimal-dark",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:40:01.435Z",
+  "sourceContext": {
+    "originUrl": "https://transparencia.petrobras.com.br/aditivos",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "content"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"embed\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"noimg\",\"structure\":\"content\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://transparencia.petrobras.com.br/aditivos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_aditivos--6ceea72f/blocks/embed-77ab1735.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/alienacao-de-bens-imoveis",
+        "screenshot": ".pages/transparencia_petrobras_com_br_alienacao-de-bens-imoveis--b8037ea5/blocks/embed-6c7633ae.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/aquisicao-de-bens",
+        "screenshot": ".pages/transparencia_petrobras_com_br_aquisicao-de-bens--a7016656/blocks/embed-c7cafcc.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/contratos",
+        "screenshot": ".pages/transparencia_petrobras_com_br_contratos--6227fa32/blocks/embed-15933be3.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/convenios-e-transferencias",
+        "screenshot": ".pages/transparencia_petrobras_com_br_convenios-e-transferencias--4fe0d1a9/blocks/embed-47868f1b.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/hospitalidades",
+        "screenshot": ".pages/transparencia_petrobras_com_br_hospitalidades--196efffd/blocks/embed-29072ff0.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/licitacoes",
+        "screenshot": ".pages/transparencia_petrobras_com_br_licitacoes--d69afeff/blocks/embed-1c06108b.jpg"
+      },
+      {
+        "url": "https://transparencia.petrobras.com.br/obras",
+        "screenshot": ".pages/transparencia_petrobras_com_br_obras--82b50d81/blocks/embed-15933be3.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "url": "https://termoba.com.br/outras-informacoes",
+  "timestamp": "2026-06-30T21:42:34.799Z",
+  "duration": "69.9s",
+  "cleanup": {
+    "elementsRemoved": 3,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/outras-informacoes",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 175
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 537,
+        "y": 75,
+        "width": 140,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 404,
+        "y": 115,
+        "width": 357,
+        "height": 38
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 31
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 406,
+        "y": 75,
+        "width": 131,
+        "height": 21,
+        "textLength": 20
+      },
+      {
+        "tag": "span",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 558,
+        "y": 75,
+        "width": 140,
+        "height": 21,
+        "textLength": 18
+      },
+      {
+        "tag": "h2",
+        "fontSize": 32,
+        "fontWeight": 700,
+        "fontFamily": "trebuchet ms",
+        "color": "#f0f0f0",
+        "backgroundColor": "#f0f0f0",
+        "x": 404,
+        "y": 115,
+        "width": 632,
+        "height": 38,
+        "textLength": 18
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 154,
+    "topSectionTitleRect": {
+      "x": 404,
+      "y": 115,
+      "width": 632,
+      "height": 38,
+      "text": "Outras Informações"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 175,
+      "width": 1440,
+      "height": 757
+    },
+    "bodyStartY": 175,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 292,
+        "y": 248,
+        "width": 99,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 435,
+        "y": 248,
+        "width": 99,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 578,
+        "y": 248,
+        "width": 99,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 721,
+        "y": 248,
+        "width": 99,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 864,
+        "y": 248,
+        "width": 99,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 92,
+        "y": 249,
+        "width": 156,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 364,
+        "width": 357,
+        "height": 38
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 453,
+        "width": 344,
+        "height": 21
+      },
+      {
+        "type": "text",
+        "x": 449,
+        "y": 550,
+        "width": 141,
+        "height": 22
+      },
+      {
+        "type": "image",
+        "x": 974,
+        "y": 551,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 900,
+        "y": 553,
+        "width": 16,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 436,
+        "y": 717,
+        "width": 443,
+        "height": 76
+      },
+      {
+        "type": "text",
+        "x": 449,
+        "y": 833,
+        "width": 141,
+        "height": 22
+      },
+      {
+        "type": "image",
+        "x": 974,
+        "y": 834,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 900,
+        "y": 836,
+        "width": 16,
+        "height": 16
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "default-59239cac",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 8 CTAs + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 8,
+        "linkCount": 7,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + 8 CTAs + list"
+      },
+      "selector": "div.lfr-layout-structure-item-1488c9c1-49bc-b5e2-d2a3-35f0bc02a2ad.lfr-layout-structure-item-container",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 1440,
+        "height": 286
+      },
+      "screenshot": "blocks/default-59239cac.jpg",
+      "reclassifiedFrom": "breadcrumbs"
+    },
+    {
+      "id": "default-7a83fadd",
+      "type": "default",
+      "confidence": "high",
+      "description": "1 heading + 1 CTA block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 1,
+        "linkCount": 7,
+        "listCount": 0,
+        "childCount": 2,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + 1 CTAs"
+      },
+      "selector": "div.lfr-layout-structure-item-se--o-de-conte-do.lfr-layout-structure-item-a178d5b3-9eaf-ead4-fa4c-da2177b4e190",
+      "bounds": {
+        "x": 0,
+        "y": 362,
+        "width": 1440,
+        "height": 353
+      },
+      "screenshot": "blocks/default-7a83fadd.jpg",
+      "reclassifiedFrom": "hero"
+    },
+    {
+      "id": "default-6b833cc7",
+      "type": "default",
+      "confidence": "low",
+      "description": "1 heading + 1 CTA + 1 list block",
+      "content": {
+        "headingCount": 1,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 1,
+        "linkCount": 8,
+        "listCount": 1,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "heading + 1 CTAs + list"
+      },
+      "selector": "div.lfr-layout-structure-item-se--o-de-conte-do.lfr-layout-structure-item-eb207e4b-f07c-0c20-6322-caf79491bf2b",
+      "bounds": {
+        "x": 0,
+        "y": 715,
+        "width": 1440,
+        "height": 283
+      },
+      "screenshot": "blocks/default-6b833cc7.jpg",
+      "reclassifiedFrom": "unknown"
+    }
+  ]
+}

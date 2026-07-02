@@ -1,0 +1,51 @@
+{
+  "variantName": "1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:58:53.792Z",
+  "sourceContext": {
+    "originUrl": "https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-destaca-foco-em-transicao-energetica-e-em-ativos-rentaveis-durante-imersao-com-investidores-em-nova-iorque--de9c5b74/blocks/unknown-1eded1f6.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/institucional/petrobras-inicia-reocupa%C3%A7%C3%A3o-do-edif%C3%ADcio-sede-no-rio-de-janeiro",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_institucional_petrobras-inicia-reocupa_C3_A7_C3_A3o-do-edif_C3_ADcio-sede-no-rio-de-janeiro--fed3232a/blocks/unknown-5b029a2f.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-divulga-membros-da-comissao-avaliadora-do-programa-de-bolsas-para-jornalistas--d5f86552/blocks/unknown-30f024b0.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/petrobras-informa-sobre-reservas-provadas-em-2023",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_petrobras-informa-sobre-reservas-provadas-em-2023--92bda010/blocks/unknown-1eded215.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/selecao-de-jornalismo/petrobras-lanca-selecao-de-jornalismo",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_selecao-de-jornalismo_petrobras-lanca-selecao-de-jornalismo--62d786ad/blocks/unknown-1eded253.jpg"
+      },
+      {
+        "url": "https://agencia.petrobras.com.br/w/selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais",
+        "screenshot": ".pages/agencia_petrobras_com_br_w_selecao-petrobras-de-jornalismo-recebe-inscricoes-de-todas-as-regioes-do-pais--e668e0c6/blocks/unknown-1eded215.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

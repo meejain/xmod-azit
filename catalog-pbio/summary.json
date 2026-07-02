@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://pbio.com.br/",
+      "siteName": "pbio.com.br",
+      "analysisDate": "2026-06-30"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 60,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 60
+        }
+      ],
+      "totalTemplates": 11,
+      "totalBlockTypes": 7,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 5,
+      "pagesAnalyzed": 60,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 4
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://transparencia.petrobras.com.br/",
+      "siteName": "transparencia.petrobras.com.br",
+      "analysisDate": "2026-06-30"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 51,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 51
+        }
+      ],
+      "totalTemplates": 13,
+      "totalBlockTypes": 9,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 7,
+      "pagesAnalyzed": 51,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 1
+    }
+  }
+}

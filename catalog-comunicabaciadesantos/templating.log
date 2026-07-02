@@ -1,0 +1,285 @@
+Session: TEMPLATING -> TEMPLATING
+Checklist complete: 138 terminal entries (138 analyzed, 0 failed)
+============================================================
+PAGE TEMPLATE DISCOVERY (Histogram + Signature)
+============================================================
+Config: /workspace/catalog/.catalog-config.json
+Policy
+  representative selection: block_cover (max 10)
+  merge phase: top-section only (body shape never used in merge gate)
+  family_body_split: True
+  body matcher: column-shape signature, smaller-side fully paired
+
+PHASE 1: Loading Fingerprints
+----------------------------------------
+Loaded 138 page fingerprints
+
+PHASE 2: URL Grouping
+----------------------------------------
+URL grouping: 10 path groups + 86 root singletons
+  Group 1 (empreendimentos): 13 pages
+  Group 2 (fundacao-florestal/__landing__:etapa-2): 1 pages
+  Group 3 (fundacao-florestal/etapa-2): 2 pages
+  Group 4 (fundacao-florestal/__landing__:etapa-3): 1 pages
+  Group 5 (fundacao-florestal/etapa-3): 14 pages
+  Group 6 (fundacao-florestal/__landing__:etapa-4): 1 pages
+  Group 7 (fundacao-florestal/etapa-4): 1 pages
+  Group 8 (fundacao-florestal): 1 pages
+  Group 9 (icmbio): 5 pages
+  Group 10 (w): 13 pages
+
+PHASE 3: Local Seed Validation And Split (layout partition)
+----------------------------------------
+  Seed group 1 (13p): SPLIT -> 3 groups [9, 3, 1]
+    reason: layout-descriptor partition
+  Seed group 3 (2p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 5 (14p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 9 (5p): KEEP
+    reason: all pages share a layout descriptor
+  Seed group 10 (13p): SPLIT -> 2 groups [10, 3]
+    reason: layout-descriptor partition
+Layout-descriptor partition: 2 splits
+
+PHASE 4: Template Candidate Merging (top-section only)
+----------------------------------------
+Singletons before merge: 92
+
+Starting: 99 total (7 clusters, 92 singletons)
+Top-section merge gate: layout match (text=subsequence, visual=exact coverage bucket, representative-or-mode). Body split runs in Phase 5.
+
+Merging (single-loop HAC)
+  ✓ MERGE: -86 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/unidade-de-tratamento-de-gas-monteiro-lobato → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -83 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/rota-3 → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -82 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/rota-2 → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -81 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/quem-somos → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -80 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-prevencao-e-controle-de-especies-exoticas-invasoras-petrobras-ppcex-petrobras- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -79 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-socioeconomico-pms → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -78 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-do-trafego-de-embarcacoes-pmte- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -77 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-de-praias-pmp- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -76 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-de-impactos-de-plataformas-e-embarcacoes-sobre-a-avifauna-da-bacia-de-santos-pmave- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -75 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-de-cetaceos-pmc → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -74 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-paisagem-acustica-submarina-pmpas- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -73 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-biota-marinha-para-atividade-de-sismica → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -72 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-da-atividade-pesqueira-pmap- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -71 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-ambiental-pma → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -70 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-monitoramento-acustico-passivo-para-atividade-de-sismica-map- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -69 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-educacao-ambiental-dos-trabalhadores-peat- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -68 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-controle-da-poluicao-pcp- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -67 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-caracterizacao-socioeconomica-da-pesca-e-aquicultura-pcspa-bs- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -66 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-caracterizacao-regional-da-bacia-de-santos-pcr-bs- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -65 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-caracterizacao-de-territorios-tradicionais-pctt- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -64 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-avaliacao-de-impactos-resultantes-daperfuracao-pai-bs- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -63 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/projeto-de-avaliacao-de-impactos-cumulativos-paic- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -62 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/programa-sobre-mudan%C3%A7as-clim%C3%A1ticas → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -61 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/programa-de-educacao-ambiental-pea- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -60 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/programa-de-comunicacao-social-regional-da-bacia-de-santos-pcsr-bs- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -59 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/producao → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -57 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/plano-de-protecao-a-fauna-ppaf- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -56 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/plano-de-emergencia-para-vazamento-de-oleo-pevo- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -55 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/plano-de-emergencia-individual-pei- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -54 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/plano-de-compensacao-da-atividade-pesqueira-pcap- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -53 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/perfuracao → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -52 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/pea-rendas → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -51 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/pea-costa-verde-projeto-redes → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -50 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/pea-bg → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -49 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/p-75 → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -44 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-meteorologico-e-oceanografico-por-sensoriamento-remoto → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -43 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-meteocenografico-operacional → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -42 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-de-corais-em-aguas-profundas → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -41 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-de-agua-produzida → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -40 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -39 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-da-morfodinamica-praial → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -38 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento-ambiental-da-atividade-de-perfuracao → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -37 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/monitoramento → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -36 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/mitigacao → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -32 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/inspecao-do-enterramento-do-duto → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -31 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/informe → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -29 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/glossario → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -28 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/gasodutos → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -27 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -26 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-p-77 → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -25 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-p-76 → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -13 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fale-conosco → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -12 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/empreendimentos → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -11 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/emergencia → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -10 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/condicionantes-unidades-de-conservacao → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -9 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/condicionantes → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -8 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/compensacao-ambiental-por-significativo-impacto-ca- → https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3/cond-10
+  ✓ MERGE: -7 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/compensacao → https://comunicabaciadesantos.petrobras.com.br/compensacao-ambiental-por-significativo-impacto-ca-
+  ✓ MERGE: -6 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido → https://comunicabaciadesantos.petrobras.com.br/compensacao-ambiental-por-significativo-impacto-ca-
+  ✓ MERGE: -5 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/caracterizacao → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 2 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-2 → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 3 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-2/estudo-das-areas-de-manguezal-em-caraguatatuba → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 4 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-3 → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 6 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-4 → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 7 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/etapa-4/sobre-o-licenciamento → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 8 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fundacao-florestal/sobre-o-licenciamento → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 9 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/icmbio/pmic → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: 13 → 5  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/w/projeto-semin%C3%A1rios-da-condicionante-13-passa-a-se-chamar-conectamar-e-avan%C3%A7a-com-etapa-de-refinamento-metodol%C3%B3gico-participativo-junto-ao-gt-semin%C3%A1rios → https://comunicabaciadesantos.petrobras.com.br/caracterizacao-fisico-quimica-e-ecotoxicologica-do-oleo-produzido
+  ✓ MERGE: -48 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/p-74 → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -47 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/p-69 → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -35 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/mexilhao → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -30 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/impactos → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -24 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-p-68 → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -23 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-p-67 → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -22 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-dynamic-producer → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -21 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-saquarema → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -20 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-sao-paulo → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -19 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-paraty → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -18 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-marica → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -17 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-mangaratiba → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -16 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-itaguai → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -15 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-cidade-de-ilhabela → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -14 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/fpso-bw-cidade-de-sao-vicente → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -2 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/agbs → https://comunicabaciadesantos.petrobras.com.br/empreendimentos/agbs
+  ✓ MERGE: -1 → 1  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/ → https://comunicabaciadesantos.petrobras.com.br/agbs
+  ✓ MERGE: -85 → -58  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/tipos-de-plataformas-utilizadas-na-bacia-de-santos → https://comunicabaciadesantos.petrobras.com.br/pre-sal-bacia-de-santos
+  ✓ MERGE: -3 → -58  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/areas-de-exclusao-em-torno-das-plataformas → https://comunicabaciadesantos.petrobras.com.br/tipos-de-plataformas-utilizadas-na-bacia-de-santos
+  ✓ MERGE: -34 → -33  [sim: 100%]
+      https://comunicabaciadesantos.petrobras.com.br/mapa → https://comunicabaciadesantos.petrobras.com.br/licenciamento
+  88 merges total (converged)
+
+==================================================
+MERGE SUMMARY
+==================================================
+Before: 99 clusters
+After:  11 clusters (6 multi-page, 5 singletons)
+Merged: 88 clusters (95 pages reassigned)
+==================================================
+
+
+PHASE 5: Family Body Split
+----------------------------------------
+  Family -84: 1p -> 1 template (pair_matches=0/0)
+  Family -58: 3p -> 1 template (pair_matches=0/0)
+  Family -46: 1p -> 1 template (pair_matches=0/0)
+  Family -45: 1p -> 1 template (pair_matches=0/0)
+  Family -33: 2p -> 1 template (pair_matches=1/1)
+  Family -4: 1p -> 1 template (pair_matches=0/0)
+  Family 1: 26p -> 1 template (pair_matches=25/25)
+  Family 5: 89p -> 2 templates [85, 4] (pair_matches=88/91)
+  Family 10: 10p -> 1 template (pair_matches=9/9)
+  Family 11: 3p -> 2 templates [2, 1] (pair_matches=1/2)
+  Family 12: 1p -> 1 template (pair_matches=0/0)
+
+PHASE 6: Build Template Catalog
+----------------------------------------
+  Template candidate -84: 1p
+  Template candidate -58: 3p | representatives 2
+  Template candidate -46: 1p
+  Template candidate -45: 1p
+  Template candidate -33: 2p | representatives 2
+  Template candidate -4: 1p
+  Template candidate 1: 26p | representatives 3
+  Template candidate 5: 85p | representatives 5
+  Template candidate 10: 10p
+  Template candidate 11: 2p
+  Template candidate 12: 1p
+  Template candidate 13: 4p | representatives 2
+  Template candidate 14: 1p
+Built 13 templates
+
+PHASE 7: Saving Results
+----------------------------------------
+Saved: /workspace/catalog/.clusters/pages.templates.json
+Saved: /workspace/catalog/.clusters/pages.templates.grouped.json
+Saved: /workspace/catalog/.clusters/pages.templates.summary.json
+Saved: /workspace/catalog/.template-catalog-scoped.json
+
+PHASE 8: Template Report & Migration Bundle
+----------------------------------------
+  Report stats: 13 templates, 138 pages, 6 singletons, biggest family=85
+  Wrote bundle: /workspace/catalog/template-catalog-report-bundle.zip
+
+Session: AWAITING_TUNING
+
+Template discovery complete: 13 templates, 6 singletons. Ready for tuning.

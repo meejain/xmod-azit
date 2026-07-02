@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-minimal-dark-withimg-4",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T12:14:26.434Z",
+  "sourceContext": {
+    "originUrl": "https://comunicabaciadesantos.petrobras.com.br/w/dia-do-meio-ambiente-refor%C3%A7a-rela%C3%A7%C3%A3o-entre-ci%C3%AAncia-e-comunidades",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/dia-do-meio-ambiente-refor%C3%A7a-rela%C3%A7%C3%A3o-entre-ci%C3%AAncia-e-comunidades",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_dia-do-meio-ambiente-refor_C3_A7a-rela_C3_A7_C3_A3o-entre-ci_C3_AAncia-e-comunidades--682b4091/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/equipes-do-pmp-bs-se-preparam-para-nova-temporada-de-esp%C3%A9cies-migrat%C3%B3rias",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_equipes-do-pmp-bs-se-preparam-para-nova-temporada-de-esp_C3_A9cies-migrat_C3_B3rias--5d860f89/blocks/hero-40372059.jpg"
+      },
+      {
+        "url": "https://comunicabaciadesantos.petrobras.com.br/w/programa-visa-proteger-esp%C3%A9cies-amea%C3%A7adas-de-extin%C3%A7%C3%A3o-na-ba%C3%ADa-de-guanabara",
+        "screenshot": ".pages/comunicabaciadesantos_petrobras_com_br_w_programa-visa-proteger-esp_C3_A9cies-amea_C3_A7adas-de-extin_C3_A7_C3_A3o-na-ba_C3_ADa-de-guanabara--42d41da2/blocks/hero-40372059.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

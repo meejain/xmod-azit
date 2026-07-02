@@ -1,0 +1,35 @@
+{
+  "variantName": "breadcrumbs-minimal-dark-withimg",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T20:37:33.721Z",
+  "sourceContext": {
+    "originUrl": "https://canalfornecedor.petrobras.com.br/compliance/programa-fortalecer",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"breadcrumbs\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + image + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/compliance/programa-fortalecer",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_compliance_programa-fortalecer--970e84db/blocks/breadcrumbs-3503fed7.jpg"
+      },
+      {
+        "url": "https://canalfornecedor.petrobras.com.br/programa-fortalecer",
+        "screenshot": ".pages/canalfornecedor_petrobras_com_br_programa-fortalecer--c9a373c4/blocks/breadcrumbs-3503fed7.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

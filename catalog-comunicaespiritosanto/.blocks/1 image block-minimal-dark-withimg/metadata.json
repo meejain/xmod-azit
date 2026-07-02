@@ -1,0 +1,39 @@
+{
+  "variantName": "1 image block-minimal-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T11:35:10.434Z",
+  "sourceContext": {
+    "originUrl": "https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/empreendimentos",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_empreendimentos--330e149d/blocks/unknown-7d352e3b.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_monitoramento-da-qualidade-da-agua-sedimento-e-biota-associada1--172f8b94/blocks/unknown-1d5ef8f6.jpg"
+      },
+      {
+        "url": "https://comunicaespiritosanto.petrobras.com.br/w/comunidades-pesqueiras-participam-de-oficinas-de-mec%C3%A2nica-naval",
+        "screenshot": ".pages/comunicaespiritosanto_petrobras_com_br_w_comunidades-pesqueiras-participam-de-oficinas-de-mec_C3_A2nica-naval--28fc5ae2/blocks/unknown-7977f09e.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

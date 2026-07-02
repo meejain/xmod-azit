@@ -1,0 +1,248 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-5",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T15:54:50.209Z",
+  "sourceContext": {
+    "originUrl": "https://petrobras.com.br/bunker-vls-b24",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + 1 CTAs + 3 images"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + 1 CTAs + 3 images\"}}",
+    "{\"canonicalModel\":\"standalone\",\"type\":\"carousel\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 1 CTAs + 3 images\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://petrobras.com.br/bunker-vls-b24",
+        "screenshot": ".pages/petrobras_com_br_bunker-vls-b24--c43d5164/blocks/carousel-30676fec.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_cap-convencional--eba66e87/blocks/carousel-7ee46d8c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_add-cleaner-petrobras--5733e421/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_bunker--12eef8be/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/bunker-vls-b24",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_bunker-vls-b24--efdaea8b/blocks/carousel-30676fec.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-convencional--b285dbbe/blocks/carousel-7ee46d8c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_cap-pro--72c50d48/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_combustiveis-customizados--3d74319b/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-podium--b13f4f2f/blocks/carousel-7a9516bf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-r5--f691e024/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_diesel-verana--72d3604c/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_enxofre--6236687c/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_estrategia--621edce9/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-liquefeito-de-petroleo--891e8026/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural--e9d13e3e/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gas-natural-veicular--46236457/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina--845c5cba/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_gasolina-podium--8f45218b/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_linha-podium--a18180cf/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-basico-lubrificante",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-basico-lubrificante--70b7b906/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel--0223fbe2/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleo-diesel-maritimo--9ec46392/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_oleos-combustiveis--0dc14861/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_parafina--74720faa/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/produtos-asfalticos",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_produtos-asfalticos--2aa5b68d/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/querosene-de-aviacao",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_querosene-de-aviacao--5817c150/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/quem-somos/raro-petrobras",
+        "screenshot": ".pages/petrobras_com_br_en_quem-somos_raro-petrobras--3ef6e63c/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/en/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_en_sustentabilidade_relatorios-anuais--4410142e/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/add-cleaner-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_add-cleaner-petrobras--4e0305d5/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/bunker",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_bunker--6b04080b/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/bunker-vls-b24",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_bunker-vls-b24--1d8b4314/blocks/carousel-30676fec.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-convencional",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-convencional--0cea9b55/blocks/carousel-7ee46d8c.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/cap-pro",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_cap-pro--cd64c48a/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/combustiveis-customizados",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_combustiveis-customizados--c5edafba/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-podium--0665b9dd/blocks/carousel-7a9516bf.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-r5",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-r5--634373ab/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/diesel-verana",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_diesel-verana--e3d98c9f/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/enxofre",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_enxofre--b17b9001/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estagios",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estagios--e55fc8bd/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/estrategia",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_estrategia--4a5e8b79/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-liquefeito-de-petroleo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-liquefeito-de-petroleo--b7f837df/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural--ae1cfbc1/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gas-natural-veicular",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gas-natural-veicular--7172a451/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina--5a807921/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/gasolina-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_gasolina-podium--11a9615e/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/jovem-aprendiz",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_jovem-aprendiz--44a7d26e/blocks/carousel-482ebab6.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/linha-podium",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_linha-podium--6378fc8c/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-basico-lubrificante",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-basico-lubrificante--57c5f26d/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel--b62014df/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleo-diesel-maritimo",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleo-diesel-maritimo--6b51fd56/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/oleos-combustiveis",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_oleos-combustiveis--d3337edf/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/parafina",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_parafina--d004bb1a/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/quem-somos/raro-petrobras",
+        "screenshot": ".pages/petrobras_com_br_quem-somos_raro-petrobras--b6cbc77c/blocks/carousel-212b07aa.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/cultural",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_cultural--05960a3b/blocks/carousel-61850d01.jpg"
+      },
+      {
+        "url": "https://petrobras.com.br/sustentabilidade/relatorios-anuais",
+        "screenshot": ".pages/petrobras_com_br_sustentabilidade_relatorios-anuais--2607bd7f/blocks/carousel-212b07aa.jpg"
+      }
+    ],
+    "reuseCount": 55
+  }
+}

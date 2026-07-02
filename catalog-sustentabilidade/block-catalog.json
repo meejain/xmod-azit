@@ -1,0 +1,105 @@
+{
+  "analysis-block-catalog": {
+    "captured": "2026-06-30T19:47:42.935Z",
+    "totalBlockVariants": 7,
+    "totalBlocksProcessed": 311,
+    "newVariantsCreated": 5,
+    "variantsReused": 292,
+    "similarityThreshold": 0.7,
+    "completionStatus": {
+      "analyzed": 60,
+      "failed": 0
+    },
+    "blockVariants": {
+      "footer-global": {
+        "blockVariantId": "footer-global",
+        "baseBlock": "footer",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: footer",
+        "screenshots": [
+          ".pages/_global/footer.jpg"
+        ]
+      },
+      "header-global": {
+        "blockVariantId": "header-global",
+        "baseBlock": "header",
+        "canonicalModel": "configuration",
+        "pagesFound": 1,
+        "description": "Block variant: header",
+        "screenshots": [
+          ".pages/_global/header.jpg"
+        ]
+      },
+      "columns-minimal-dark": {
+        "blockVariantId": "columns-minimal-dark",
+        "baseBlock": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 57,
+        "description": "1 heading + 1 image block; 2-item layout block",
+        "screenshots": [
+          ".pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46/blocks/columns-64c0b902.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620/blocks/columns-64c0b902.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_C3_A1guas-e-efluentes--c875acf3/blocks/columns-39bf302f.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes--2e9765fa/blocks/columns-39bf302f.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes-1--80992c61/blocks/columns-39bf302f.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade--c4e36311/blocks/columns-39bf302f.jpg"
+        ]
+      },
+      "hero-minimal-dark": {
+        "blockVariantId": "hero-minimal-dark",
+        "baseBlock": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 55,
+        "description": "1 heading + 1 paragraph block; 1 heading + 2 paragraphs block",
+        "screenshots": [
+          ".pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes--2e9765fa/blocks/hero-4e48f793.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_agua-e-efluentes-1--80992c61/blocks/hero-4e48f793.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade--c4e36311/blocks/hero-4e48f793.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade-1--c41f41e7/blocks/hero-4e48f793.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_biodiversidade-3--b90438c1/blocks/hero-4e48f793.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_w_comunidades-locais-e-tradicionais--fdba5943/blocks/hero-4e48f793.jpg"
+        ]
+      },
+      "cards-minimal-light": {
+        "blockVariantId": "cards-minimal-light",
+        "baseBlock": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "1 image + 2 paragraphs + 3-item layout block",
+        "screenshots": [
+          ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/cards-739755a7.jpg",
+          ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/cards-73975588.jpg",
+          ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/cards-73975569.jpg",
+          ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/cards-7397554a.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_home--fca13a48/blocks/cards-739755a7.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_home--fca13a48/blocks/cards-73975588.jpg"
+        ]
+      },
+      "carousel-minimal-dark": {
+        "blockVariantId": "carousel-minimal-dark",
+        "baseBlock": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "1 heading + 1 image + 3 CTAs + 1 paragraph block",
+        "screenshots": [
+          ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/carousel-57c551b2.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_home--fca13a48/blocks/carousel-57c551b2.jpg"
+        ]
+      },
+      "form-minimal-dark": {
+        "blockVariantId": "form-minimal-dark",
+        "baseBlock": "form",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "1 heading + 1 image + form + 1 paragraph block; 27 headings + form block; 29 headings + form block; form block",
+        "screenshots": [
+          ".pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46/blocks/form-711046ac.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_relatorio-2021--4cad8b46/blocks/form-5486b4a2.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620/blocks/form-711046ac.jpg",
+          ".pages/sustentabilidade_petrobras_com_br_relatorio2023--5de91620/blocks/form-5486b4a2.jpg"
+        ]
+      }
+    }
+  }
+}

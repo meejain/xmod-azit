@@ -1,0 +1,33 @@
+{
+  "analysis-urls-grouped": {
+    "captured": "2026-06-30T19:48:38.375Z",
+    "urlGroupings": 2,
+    "locales": {
+      "pt": 4
+    },
+    "groups": {
+      "/": {
+        "confidence": "100%",
+        "urls": [
+          {
+            "url": "https://precos.petrobras.com.br/"
+          }
+        ]
+      },
+      "unknown": {
+        "confidence": "50%",
+        "urls": [
+          {
+            "url": "https://precos.petrobras.com.br/precos-diesel"
+          },
+          {
+            "url": "https://precos.petrobras.com.br/precos-gasolina"
+          },
+          {
+            "url": "https://precos.petrobras.com.br/precos-glp"
+          }
+        ]
+      }
+    }
+  }
+}

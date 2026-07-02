@@ -1,0 +1,378 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/glossario",
+  "timestamp": "2026-07-01T12:07:02.430Z",
+  "duration": "9.6s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/glossario",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 25
+    },
+    "topSectionStrategy": "title",
+    "topSectionPlaceholders": [],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 36
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 1,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Glossário | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 25,
+      "width": 1440,
+      "height": 875
+    },
+    "bodyStartY": 25,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 615,
+        "y": 115,
+        "width": 210,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 167,
+        "y": 217,
+        "width": 38,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 241,
+        "y": 217,
+        "width": 34,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 311,
+        "y": 217,
+        "width": 34,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 381,
+        "y": 217,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 452,
+        "y": 217,
+        "width": 33,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 521,
+        "y": 217,
+        "width": 32,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 589,
+        "y": 217,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 660,
+        "y": 217,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 731,
+        "y": 217,
+        "width": 28,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 795,
+        "y": 217,
+        "width": 32,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 863,
+        "y": 217,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 934,
+        "y": 217,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 1005,
+        "y": 217,
+        "width": 33,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 1074,
+        "y": 217,
+        "width": 34,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 1144,
+        "y": 217,
+        "width": 33,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 1213,
+        "y": 217,
+        "width": 33,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 167,
+        "y": 251,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 238,
+        "y": 251,
+        "width": 34,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 308,
+        "y": 251,
+        "width": 99,
+        "height": 16
+      },
+      {
+        "type": "text",
+        "x": 135,
+        "y": 321,
+        "width": 22,
+        "height": 33
+      },
+      {
+        "type": "text",
+        "x": 135,
+        "y": 407,
+        "width": 99,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 247,
+        "y": 408,
+        "width": 1051,
+        "height": 36
+      },
+      {
+        "type": "text",
+        "x": 135,
+        "y": 466,
+        "width": 134,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 282,
+        "y": 466,
+        "width": 711,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 135,
+        "y": 506,
+        "width": 96,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 244,
+        "y": 506,
+        "width": 350,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 135,
+        "y": 546,
+        "width": 177,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 325,
+        "y": 546,
+        "width": 636,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 135,
+        "y": 586,
+        "width": 33,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 181,
+        "y": 586,
+        "width": 1020,
+        "height": 20
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 682,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1113,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1159,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1205,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1251,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1297,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1343,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      },
+      {
+        "type": "image",
+        "x": 1389,
+        "y": 772,
+        "width": 40,
+        "height": 79
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "carousel-3640e40f",
+      "type": "carousel",
+      "confidence": "high",
+      "description": "18 headings + 4-item layout block",
+      "content": {
+        "headingCount": 18,
+        "paragraphCount": 194,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 4,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "moderate",
+        "hasBackgroundImage": false,
+        "hasGrid": true,
+        "imagePattern": "noimg",
+        "structure": "heading + text"
+      },
+      "selector": "div.glossary-container",
+      "bounds": {
+        "x": 135,
+        "y": 368,
+        "width": 1170,
+        "height": 520
+      },
+      "screenshot": "blocks/carousel-3640e40f.jpg"
+    }
+  ]
+}

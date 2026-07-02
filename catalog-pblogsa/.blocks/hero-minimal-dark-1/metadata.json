@@ -1,0 +1,123 @@
+{
+  "variantName": "hero-minimal-dark-1",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:11:10.886Z",
+  "sourceContext": {
+    "originUrl": "https://pblogsa.com.br/acesso-a-informacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"hero\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao--8f810e27/blocks/hero-3c0238ca.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas--3384ac7c/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/acoes-e-programas/programas-finalisticos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_acoes-e-programas_programas-finalisticos--0e57a425/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/auditorias",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_auditorias--4fe83f8b/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/auditorias/acoes-de-supervisao-controle-e-correicao",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_auditorias_acoes-de-supervisao-controle-e-correicao--d220773d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/dados-abertos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_dados-abertos--b4bb7ae6/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/empregados-publicos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_empregados-publicos--c2cb3ea2/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/informacoes-classificadas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_informacoes-classificadas--4792bb89/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/agenda-de-autoridades",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_agenda-de-autoridades--cf159f42/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/horario-de-atendimento",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_horario-de-atendimento--33e16699/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/hospitalidades",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_hospitalidades--49d57017/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/presentes",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_presentes--f66edbb3/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/institucional/sobre",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_institucional_sobre--c54aa1aa/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/licitacoes-e-contratos",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_licitacoes-e-contratos--4b88b722/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/participacao-social/ouvidoria",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_participacao-social_ouvidoria--9d2d8b55/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas--bcf6c799/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/diarias-e-passagens",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_diarias-e-passagens--8e914477/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/orcamento-de-investimento",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_orcamento-de-investimento--0df32216/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/receitas-e-despesas/receitas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_receitas-e-despesas_receitas--cef749ab/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/sancoes-administrativas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_sancoes-administrativas--6bf0f43a/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/balcoes-de-atendimento",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_balcoes-de-atendimento--148b3a51/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic/estatisticas-do-sic",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_servico-de-informacao-ao-cidadao-sic_estatisticas-do-sic--39ac5ad9/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/acesso-a-informacao/transparencia-e-prestacao-de-contas",
+        "screenshot": ".pages/pblogsa_com_br_acesso-a-informacao_transparencia-e-prestacao-de-contas--6194dd7d/blocks/hero-17c790da.jpg"
+      },
+      {
+        "url": "https://pblogsa.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/pblogsa_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--8607467c/blocks/hero-46da1c22.jpg"
+      }
+    ],
+    "reuseCount": 24
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "variantName": "columns-minimal-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T21:27:13.718Z",
+  "sourceContext": {
+    "originUrl": "https://pben.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"columns\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"noimg\",\"structure\":\"heading\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://pben.com.br/",
+        "screenshot": ".pages/pben_com_br--c8e97c28/blocks/columns-290af7fc.jpg"
+      },
+      {
+        "url": "https://pben.com.br/cartas-de-governanca-e-politicas-publicas",
+        "screenshot": ".pages/pben_com_br_cartas-de-governanca-e-politicas-publicas--204d134e/blocks/columns-54ac79f3.jpg"
+      },
+      {
+        "url": "https://pben.com.br/demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos",
+        "screenshot": ".pages/pben_com_br_demonstrativos-de-quadro-de-pessoal-e-acordos-coletivos--f599ed6d/blocks/columns-4af8463b.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional",
+        "screenshot": ".pages/pben_com_br_institucional--54e74b4d/blocks/columns-258e64a4.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional/auditoria",
+        "screenshot": ".pages/pben_com_br_institucional_auditoria--43dc98f3/blocks/columns-2c72779e.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional/licitacoes-contratos-e-aquisicao-de-bens",
+        "screenshot": ".pages/pben_com_br_institucional_licitacoes-contratos-e-aquisicao-de-bens--2aa7dd9f/blocks/columns-1e306744.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional/orgaos-estatutarios",
+        "screenshot": ".pages/pben_com_br_institucional_orgaos-estatutarios--8694c3d0/blocks/columns-4c31e836.jpg"
+      },
+      {
+        "url": "https://pben.com.br/institucional/relatorios-anuais-e-informacoes-financeiras",
+        "screenshot": ".pages/pben_com_br_institucional_relatorios-anuais-e-informacoes-financeiras--84ebb2c6/blocks/columns-625355e0.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

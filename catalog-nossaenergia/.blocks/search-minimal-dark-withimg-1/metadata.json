@@ -1,0 +1,31 @@
+{
+  "variantName": "search-minimal-dark-withimg-1",
+  "baseBlock": "search",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.747Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/nossas-atividades",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + text + 1 CTAs + 44 images + list"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"search\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"heading + text + 1 CTAs + 44 images + list\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/nossas-atividades",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_nossas-atividades--f69bb822/blocks/search-adb3055.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

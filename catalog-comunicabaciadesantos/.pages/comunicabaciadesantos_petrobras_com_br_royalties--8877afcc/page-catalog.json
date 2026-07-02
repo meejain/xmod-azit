@@ -1,0 +1,231 @@
+{
+  "url": "https://comunicabaciadesantos.petrobras.com.br/royalties",
+  "timestamp": "2026-07-01T12:07:31.744Z",
+  "duration": "10.2s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/royalties",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 2000
+    },
+    "topSectionStrategy": "title+hero",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 626,
+        "y": 41,
+        "width": 189,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 121,
+        "y": 163,
+        "width": 520,
+        "height": 19
+      },
+      {
+        "type": "image",
+        "x": 121,
+        "y": 285,
+        "width": 1198,
+        "height": 1695
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 36
+      },
+      {
+        "tag": "p",
+        "fontSize": 36,
+        "fontWeight": 400,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 626,
+        "y": 35,
+        "width": 189,
+        "height": 54,
+        "textLength": 9
+      },
+      {
+        "tag": "strong",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "system-ui",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 121,
+        "y": 165,
+        "width": 520,
+        "height": 19,
+        "textLength": 58
+      }
+    ],
+    "topSectionVisualElements": [
+      {
+        "kind": "img",
+        "x": 121,
+        "y": 283,
+        "width": 1198,
+        "height": 1695
+      }
+    ],
+    "topSectionCropBottomY": 1978,
+    "topSectionTitleRect": {
+      "x": -1,
+      "y": -1,
+      "width": 1,
+      "height": 1,
+      "text": "Royalties | Comunica Bacia de Santos"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 2000,
+      "width": 1440,
+      "height": 1642
+    },
+    "bodyStartY": 2000,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 121,
+        "y": 2029,
+        "width": 1199,
+        "height": 811
+      },
+      {
+        "type": "embed",
+        "x": 400,
+        "y": 2874,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 3492,
+        "width": 82,
+        "height": 15
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 3611,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "video-2659b8d6",
+      "type": "video",
+      "confidence": "high",
+      "description": "lfr-layout-structure-item-basic-component-external-video",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 0,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "listCount": 0,
+        "childCount": 3,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "dark",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "content"
+      },
+      "selector": "div.lfr-layout-structure-item-basic-component-external-video.lfr-layout-structure-item-251d731d-05a3-926e-7e10-9c381f9a1fbe",
+      "bounds": {
+        "x": 0,
+        "y": 3105,
+        "width": 1440,
+        "height": 480
+      },
+      "screenshot": "blocks/video-2659b8d6.jpg"
+    }
+  ]
+}

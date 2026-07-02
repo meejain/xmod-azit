@@ -1,0 +1,238 @@
+{
+  "url": "https://comunicaespiritosanto.petrobras.com.br/licenciamento",
+  "timestamp": "2026-07-01T11:31:15.364Z",
+  "duration": "10.7s",
+  "cleanup": {
+    "elementsRemoved": 5,
+    "types": [
+      "overlay",
+      "popup"
+    ],
+    "cookieConsentDismissed": false
+  },
+  "fingerprints": {
+    "urlPattern": "/licenciamento",
+    "topSectionBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 150
+    },
+    "topSectionStrategy": "title+container",
+    "topSectionPlaceholders": [
+      {
+        "type": "text",
+        "x": 591,
+        "y": 40,
+        "width": 259,
+        "height": 44
+      }
+    ],
+    "topSectionTextElements": [
+      {
+        "tag": "a",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#f0f0f0",
+        "backgroundColor": "#303030",
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16,
+        "textLength": 31
+      },
+      {
+        "tag": "h1",
+        "fontSize": 26,
+        "fontWeight": 700,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "textLength": 39
+      },
+      {
+        "tag": "p",
+        "fontSize": 36,
+        "fontWeight": 400,
+        "fontFamily": "petrobras sans",
+        "color": "#303030",
+        "backgroundColor": "#f0f0f0",
+        "x": 591,
+        "y": 35,
+        "width": 259,
+        "height": 54,
+        "textLength": 13
+      }
+    ],
+    "topSectionVisualElements": [],
+    "topSectionCropBottomY": 148,
+    "topSectionTitleRect": {
+      "x": 591,
+      "y": 35,
+      "width": 259,
+      "height": 54,
+      "text": "licenciamento"
+    },
+    "bodyBounds": {
+      "x": 0,
+      "y": 150,
+      "width": 1440,
+      "height": 1383
+    },
+    "bodyStartY": 150,
+    "bodyPlaceholders": [
+      {
+        "type": "text",
+        "x": 121,
+        "y": 163,
+        "width": 1199,
+        "height": 288
+      },
+      {
+        "type": "text",
+        "x": 268,
+        "y": 537,
+        "width": 77,
+        "height": 27
+      },
+      {
+        "type": "text",
+        "x": 573,
+        "y": 537,
+        "width": 188,
+        "height": 27
+      },
+      {
+        "type": "text",
+        "x": 989,
+        "y": 537,
+        "width": 183,
+        "height": 27
+      },
+      {
+        "type": "text",
+        "x": 268,
+        "y": 580,
+        "width": 32,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 573,
+        "y": 580,
+        "width": 32,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 989,
+        "y": 580,
+        "width": 32,
+        "height": 41
+      },
+      {
+        "type": "text",
+        "x": 189,
+        "y": 709,
+        "width": 903,
+        "height": 528
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 1383,
+        "width": 74,
+        "height": 16
+      },
+      {
+        "type": "image",
+        "x": 1123,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1169,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1215,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1261,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1307,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1353,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "type": "image",
+        "x": 1399,
+        "y": 1503,
+        "width": 20,
+        "height": 20
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "tabs-629e5bef",
+      "type": "tabs",
+      "confidence": "high",
+      "description": "3 paragraphs block",
+      "content": {
+        "headingCount": 0,
+        "paragraphCount": 3,
+        "imageCount": 0,
+        "buttonCount": 0,
+        "linkCount": 5,
+        "listCount": 0,
+        "childCount": 1,
+        "hasForm": false,
+        "hasVideo": false
+      },
+      "visualChars": {
+        "colorScheme": "light",
+        "density": "minimal",
+        "hasBackgroundImage": false,
+        "hasGrid": false,
+        "imagePattern": "noimg",
+        "structure": "text"
+      },
+      "selector": "div.tabs-container",
+      "bounds": {
+        "x": 154,
+        "y": 749,
+        "width": 1133,
+        "height": 791
+      },
+      "screenshot": "blocks/tabs-629e5bef.jpg"
+    }
+  ]
+}

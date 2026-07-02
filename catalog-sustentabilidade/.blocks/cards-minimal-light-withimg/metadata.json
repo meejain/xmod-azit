@@ -1,0 +1,35 @@
+{
+  "variantName": "cards-minimal-light-withimg",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-06-30T19:47:42.864Z",
+  "sourceContext": {
+    "originUrl": "https://sustentabilidade.petrobras.com.br/",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": true,
+    "imagePattern": "large",
+    "structure": "text + image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"cards\",\"visualChars\":{\"colorScheme\":\"light\",\"density\":\"minimal\",\"hasBackgroundImage\":false,\"hasGrid\":true,\"imagePattern\":\"large\",\"structure\":\"text + image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br--85c86c3b/blocks/cards-739755a7.jpg"
+      },
+      {
+        "url": "https://sustentabilidade.petrobras.com.br/home",
+        "screenshot": ".pages/sustentabilidade_petrobras_com_br_home--fca13a48/blocks/cards-739755a7.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

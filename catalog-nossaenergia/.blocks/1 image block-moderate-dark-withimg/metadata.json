@@ -1,0 +1,59 @@
+{
+  "variantName": "1 image block-moderate-dark-withimg",
+  "baseBlock": "unknown",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-07-01T14:13:22.748Z",
+  "sourceContext": {
+    "originUrl": "https://nossaenergia.petrobras.com.br/w/inovacao/parceiros-do-ecossistema-de-inovacao",
+    "discoveredDuring": "site-scope-analysis"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "knownSignatures": [
+    "{\"canonicalModel\":\"standalone\",\"type\":\"unknown\",\"visualChars\":{\"colorScheme\":\"dark\",\"density\":\"moderate\",\"hasBackgroundImage\":false,\"hasGrid\":false,\"imagePattern\":\"large\",\"structure\":\"image\"}}"
+  ],
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/parceiros-do-ecossistema-de-inovacao",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_parceiros-do-ecossistema-de-inovacao--dff389c4/blocks/unknown-32214111.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/inovacao/tipos-de-navio",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_inovacao_tipos-de-navio--27d88cef/blocks/unknown-27ba2bf9.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/o-futuro-da-energia-vai-chegar-atraves-da-tecnologia-e-da-sustentabilidade",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_o-futuro-da-energia-vai-chegar-atraves-da-tecnologia-e-da-sustentabilidade--f7e41108/blocks/unknown-621ac656.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-goias-energia-cerrado-cultura",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-goias-energia-cerrado-cultura--2563eca4/blocks/unknown-621acdd8.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-em-sergipe-inovacao-fronteira-energetica",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-em-sergipe-inovacao-fronteira-energetica--738f230a/blocks/unknown-621ac5f9.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-ms-energia-biodiversidade-margem-equatorial",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-ms-energia-biodiversidade-margem-equatorial--e0f06475/blocks/unknown-621ac656.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/petrobras-no-mt-energia-agro",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_petrobras-no-mt-energia-agro--439baeb2/blocks/unknown-621ac57d.jpg"
+      },
+      {
+        "url": "https://nossaenergia.petrobras.com.br/w/nossas-atividades/tipos-de-navio",
+        "screenshot": ".pages/nossaenergia_petrobras_com_br_w_nossas-atividades_tipos-de-navio--453c10ea/blocks/unknown-27ba2bf9.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://agencia.petrobras.com.br/",
+      "siteName": "agencia.petrobras.com.br",
+      "analysisDate": "2026-07-01"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "MCP",
+      "totalPages": 64,
+      "localeCount": 1,
+      "locales": [
+        {
+          "locale": "pt",
+          "pages": 64
+        }
+      ],
+      "totalTemplates": 6,
+      "totalBlockTypes": 10,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 8,
+      "pagesAnalyzed": 64,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 0
+    }
+  }
+}

@@ -1,0 +1,187 @@
+2026-06-30 19:48:07 | INFO | Setting up catalog project for: https://precos.petrobras.com.br/
+2026-06-30 19:48:07 | INFO | Project root: /workspace
+2026-06-30 19:48:07 | INFO | Creating catalog folder: /workspace/catalog
+2026-06-30 19:48:07 | INFO | Plugin root: /home/node/.excat-marketplaces/excat-marketplace/excat
+2026-06-30 19:48:07 | INFO | Config file created: /workspace/catalog/.catalog-config.json
+2026-06-30 19:48:07 | INFO | Log file initialized: /workspace/catalog/catalog.log
+2026-06-30 19:48:07 | INFO | Session initialized: DISCOVERY
+2026-06-30 19:48:07 | INFO | Catalog project setup complete
+2026-06-30 19:48:07 | INFO | Catalog folder: /workspace/catalog
+2026-06-30 19:48:07 | INFO | Config file: /workspace/catalog/.catalog-config.json
+2026-06-30 19:48:07 | INFO | Log file: /workspace/catalog/catalog.log
+2026-06-30 19:48:07 | INFO | Session: /workspace/catalog/.catalog_session (DISCOVERY)
+2026-06-30 19:48:38 | INFO | Creating sample URLs...
+2026-06-30 19:48:38 | INFO | Total URLs in grouped data: 4
+2026-06-30 19:48:38 | INFO | Total URLs (4) <= 1000, using ALL URLs
+2026-06-30 19:48:38 | INFO | Created urls-sample.json with 4 URLs
+2026-06-30 19:48:38 | INFO | Validating urls-sample.json against schema...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 19:48:38 | INFO | Schema validation passed
+2026-06-30 19:48:38 | INFO | Sample creation complete - urls-sample.json with 4 URLs
+2026-06-30 19:48:44 | INFO | Checklist not found, looking for URLs source file...
+2026-06-30 19:48:44 | INFO | Validating urls-sample.json against urls-sample.schema.json...
+✅ VALIDATION PASSED: urls-sample.json matches schema
+2026-06-30 19:48:44 | INFO | Creating checklist from: /workspace/catalog/urls-sample.json
+2026-06-30 19:48:44 | INFO | Created urls-checklist.json with 4 URLs
+2026-06-30 19:48:44 | INFO | Session state: ANALYZING
+2026-06-30 19:48:44 | INFO | ================================================================================
+2026-06-30 19:48:44 | INFO | BATCH ANALYSIS STARTED
+2026-06-30 19:48:44 | INFO | Catalog: /workspace/catalog
+2026-06-30 19:48:44 | INFO | Delay: 1500ms between requests
+2026-06-30 19:48:44 | INFO | Workers: 4
+2026-06-30 19:48:44 | INFO | Identity profiles: 13 available (workers cycle through them deterministically)
+2026-06-30 19:48:44 | INFO | Scheduling: shared queue; each worker pulls the next pending URL as soon as it finishes.
+2026-06-30 19:48:44 | INFO | Adaptive backoff: enabled (bot/WAF detection reduces active workers before aborting)
+2026-06-30 19:48:44 | INFO | ================================================================================
+2026-06-30 19:48:44 | INFO | Found 4 URLs to process (4 workers)
+2026-06-30 19:48:44 | INFO | AGENT_RELAY: Share ETA and PROGRESS/HEARTBEAT lines with the user at least every 60 seconds.
+2026-06-30 19:48:44 | INFO | Created .pages directory: /workspace/catalog/.pages
+2026-06-30 19:48:44 | INFO | Pages to analyze: 4
+2026-06-30 19:48:44 | INFO | Processing speed baseline: ~40 pages/minute (4 workers)
+2026-06-30 19:48:44 | INFO | Estimated analysis time: ~1 min
+2026-06-30 19:48:44 | INFO | Worker 0 started (profile 0: Windows)
+2026-06-30 19:48:44 | INFO | Launching stealth browser...
+2026-06-30 19:48:44 | INFO | [1/4] Processing: https://precos.petrobras.com.br/
+2026-06-30 19:48:44 | INFO | Generated slug: precos_petrobras_com_br--eff6fed6
+2026-06-30 19:48:44 | INFO | Starting analysis: https://precos.petrobras.com.br/ -> /workspace/catalog/.pages/precos_petrobras_com_br--eff6fed6
+2026-06-30 19:48:44 | INFO | Loading: https://precos.petrobras.com.br/
+2026-06-30 19:48:45 | INFO | Worker 1 started (profile 1: Windows)
+2026-06-30 19:48:45 | INFO | Launching stealth browser...
+2026-06-30 19:48:45 | INFO | [2/4] Processing: https://precos.petrobras.com.br/precos-diesel
+2026-06-30 19:48:45 | INFO | Generated slug: precos_petrobras_com_br_precos-diesel--bc7f97a5
+2026-06-30 19:48:45 | INFO | Starting analysis: https://precos.petrobras.com.br/precos-diesel -> /workspace/catalog/.pages/precos_petrobras_com_br_precos-diesel--bc7f97a5
+2026-06-30 19:48:45 | INFO | Loading: https://precos.petrobras.com.br/precos-diesel
+2026-06-30 19:48:47 | INFO | Worker 2 started (profile 2: Windows)
+2026-06-30 19:48:47 | INFO | Launching stealth browser...
+2026-06-30 19:48:47 | INFO | [3/4] Processing: https://precos.petrobras.com.br/precos-gasolina
+2026-06-30 19:48:47 | INFO | Generated slug: precos_petrobras_com_br_precos-gasolina--60beca62
+2026-06-30 19:48:47 | INFO | Starting analysis: https://precos.petrobras.com.br/precos-gasolina -> /workspace/catalog/.pages/precos_petrobras_com_br_precos-gasolina--60beca62
+2026-06-30 19:48:47 | INFO | Loading: https://precos.petrobras.com.br/precos-gasolina
+2026-06-30 19:48:48 | INFO | Worker 3 started (profile 3: Windows)
+2026-06-30 19:48:48 | INFO | Launching stealth browser...
+2026-06-30 19:48:48 | INFO | [4/4] Processing: https://precos.petrobras.com.br/precos-glp
+2026-06-30 19:48:48 | INFO | Generated slug: precos_petrobras_com_br_precos-glp--c6adc7ad
+2026-06-30 19:48:48 | INFO | Starting analysis: https://precos.petrobras.com.br/precos-glp -> /workspace/catalog/.pages/precos_petrobras_com_br_precos-glp--c6adc7ad
+2026-06-30 19:48:48 | INFO | Loading: https://precos.petrobras.com.br/precos-glp
+2026-06-30 19:48:50 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:48:51 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:48:52 | INFO | Lazy-load scroll complete
+2026-06-30 19:48:52 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:48:53 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:48:53 | INFO | Lazy-load scroll complete
+2026-06-30 19:48:53 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:48:54 | INFO | Lazy-load scroll complete
+2026-06-30 19:48:54 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:48:55 | INFO | Phase 0A: Triggering lazy-loaded content...
+2026-06-30 19:48:56 | INFO | Lazy-load scroll complete
+2026-06-30 19:48:56 | INFO | Phase 0B: Cleaning up overlays...
+2026-06-30 19:49:22 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+   ✅ Saved global header: div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-369e034e-e87c-f34b-8858-272a4bb3db83
+   ✅ Saved global footer: div.icons-footer.containers
+2026-06-30 19:49:23 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:49:23 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:49:23 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:49:23 | INFO | Main content: #main-content
+2026-06-30 19:49:23 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:49:23 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:49:23 | WARNING | Screenshots - Block not visible: video-17e74e6
+2026-06-30 19:49:24 | INFO | Captured 4 block screenshots
+2026-06-30 19:49:24 | INFO | Detected 5 blocks
+2026-06-30 19:49:24 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:49:26 | INFO |    Top-section: 14 rows via title+container
+2026-06-30 19:49:26 | INFO |    Body start: y=350 (start row 14 via below-title+container)
+2026-06-30 19:49:26 | INFO | URL Pattern: /
+2026-06-30 19:49:26 | INFO | Page catalog complete: /workspace/catalog/.pages/precos_petrobras_com_br--eff6fed6/page-catalog.json
+2026-06-30 19:49:26 | INFO | SUCCESS: https://precos.petrobras.com.br/
+2026-06-30 19:49:26 | INFO | Created header-global metadata (selector: div.lfr-layout-structure-item-top-menu---menu-do-topo.lfr-layout-structure-item-369e034e-e87c-f34b-8858-272a4bb3db83)
+2026-06-30 19:49:26 | INFO | Created footer-global metadata (selector: div.icons-footer.containers)
+2026-06-30 19:49:28 | INFO | Worker 0 finished
+2026-06-30 19:49:54 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:49:54 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:49:54 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:49:54 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:49:54 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:49:54 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:49:54 | INFO | Main content: #main-content
+2026-06-30 19:49:54 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:49:54 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:49:54 | WARNING | Screenshots - Block not visible: breadcrumbs-486f8815
+2026-06-30 19:49:55 | INFO | Captured 2 block screenshots
+2026-06-30 19:49:55 | INFO | Detected 3 blocks
+2026-06-30 19:49:55 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:49:55 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:49:55 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:49:55 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:49:55 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:49:55 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:49:55 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:49:55 | INFO | Main content: #main-content
+2026-06-30 19:49:55 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:49:55 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:49:55 | WARNING | Screenshots - Block not visible: breadcrumbs-2a06f770
+2026-06-30 19:49:56 | INFO | Captured 2 block screenshots
+2026-06-30 19:49:56 | INFO | Detected 3 blocks
+2026-06-30 19:49:56 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:49:57 | INFO | Removed 8 elements: overlay, popup
+📐 Detecting header/footer for this page...
+2026-06-30 19:49:57 | INFO | Template - Reused saved header selector on current page
+2026-06-30 19:49:57 | INFO | Template - Reused saved footer selector on current page
+2026-06-30 19:49:57 | INFO | Header: complex complexity, 3 features
+2026-06-30 19:49:57 | INFO | Footer: simple complexity, 0 features
+2026-06-30 19:49:57 | INFO | Phase 2: Identifying main content area...
+2026-06-30 19:49:57 | INFO | Main content: #main-content
+2026-06-30 19:49:57 | INFO |    Top-section: 12 rows via title
+2026-06-30 19:49:57 | INFO |    Body start: y=300 (start row 12 via below-title)
+2026-06-30 19:49:57 | INFO | URL Pattern: /precos-diesel
+2026-06-30 19:49:57 | INFO | Page catalog complete: /workspace/catalog/.pages/precos_petrobras_com_br_precos-diesel--bc7f97a5/page-catalog.json
+2026-06-30 19:49:57 | INFO | SUCCESS: https://precos.petrobras.com.br/precos-diesel
+2026-06-30 19:49:57 | INFO | Phase 3: Detecting blocks...
+2026-06-30 19:49:57 | INFO | Phase 4: Capturing block screenshots...
+2026-06-30 19:49:57 | WARNING | Screenshots - Block not visible: breadcrumbs-1866d455
+2026-06-30 19:49:57 | INFO | Captured 1 block screenshots
+2026-06-30 19:49:57 | INFO | Detected 2 blocks
+2026-06-30 19:49:57 | INFO | Generating fingerprints for template discovery...
+2026-06-30 19:49:58 | INFO |    Top-section: 12 rows via title
+2026-06-30 19:49:58 | INFO |    Body start: y=300 (start row 12 via below-title)
+2026-06-30 19:49:58 | INFO | URL Pattern: /precos-gasolina
+2026-06-30 19:49:58 | INFO | Page catalog complete: /workspace/catalog/.pages/precos_petrobras_com_br_precos-gasolina--60beca62/page-catalog.json
+2026-06-30 19:49:58 | INFO | SUCCESS: https://precos.petrobras.com.br/precos-gasolina
+2026-06-30 19:49:58 | INFO | Worker 1 finished
+2026-06-30 19:50:00 | INFO |    Top-section: 13 rows via title
+2026-06-30 19:50:00 | INFO |    Body start: y=306 (start row 12 via below-title)
+2026-06-30 19:50:00 | INFO | URL Pattern: /precos-glp
+2026-06-30 19:50:00 | INFO | Page catalog complete: /workspace/catalog/.pages/precos_petrobras_com_br_precos-glp--c6adc7ad/page-catalog.json
+2026-06-30 19:50:00 | INFO | SUCCESS: https://precos.petrobras.com.br/precos-glp
+2026-06-30 19:50:00 | INFO | PROGRESS: 4/4 analyzed (100% checklist complete) | 4 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 19:50:00 | INFO | Worker 2 finished
+2026-06-30 19:50:00 | INFO | Worker 3 finished
+2026-06-30 19:50:00 | INFO | PROGRESS: 4/4 analyzed (100% checklist complete) | 4 ok, 0 failed, 0 skipped | ~0 min remaining
+2026-06-30 19:50:00 | INFO | ================================================================================
+2026-06-30 19:50:00 | INFO | BATCH ANALYSIS COMPLETED
+2026-06-30 19:50:00 | INFO | ================================================================================
+2026-06-30 19:50:00 | INFO | Total URLs: 4
+2026-06-30 19:50:00 | INFO | Attempt successes: 4
+2026-06-30 19:50:00 | INFO | Attempt failures: 0
+2026-06-30 19:50:00 | INFO | Skipped: 0
+2026-06-30 19:50:00 | INFO | Checklist final status: 4 analyzed, 0 failed, 0 marked
+2026-06-30 19:50:00 | INFO | Workers: 4
+2026-06-30 19:50:00 | INFO | ================================================================================
+2026-06-30 19:50:00 | INFO | Session state: ANALYZING → TEMPLATING
+2026-06-30T19:50:26.198Z | INFO | Consolidating fingerprints from page catalogs...
+2026-06-30T19:50:26.200Z | INFO | consolidate-fingerprints - Consolidated 4 fingerprints
+2026-06-30 19:50:35 | INFO | Agent 4 Started - Catalog blocks with similarity
+2026-06-30 19:50:35 | INFO | Agent 4 Progress - Starting representative pass with 3 page(s) and 10 block occurrence(s)
+2026-06-30 19:50:35 | ERROR | Agent 4 - Block video from https://precos.petrobras.com.br/ has no screenshot - cannot catalog without visual proof
+2026-06-30 19:50:35 | ERROR | Agent 4 - Block breadcrumbs from https://precos.petrobras.com.br/precos-diesel has no screenshot - cannot catalog without visual proof
+2026-06-30 19:50:35 | ERROR | Agent 4 - Block breadcrumbs from https://precos.petrobras.com.br/precos-glp has no screenshot - cannot catalog without visual proof
+2026-06-30 19:50:35 | INFO | Agent 4 Progress - representative: 3/3 page(s), 7/10 block occurrence(s), 7 unique signatures, 9 variants (7 new, 0 reused)
+2026-06-30 19:50:35 | INFO | Agent 4 Progress - Starting backfill pass with 1 page(s) and 3 block occurrence(s)
+2026-06-30 19:50:35 | ERROR | Agent 4 - Block breadcrumbs from https://precos.petrobras.com.br/precos-gasolina has no screenshot - cannot catalog without visual proof
+2026-06-30 19:50:35 | INFO | Agent 4 Progress - backfill: 1/1 page(s), 2/3 block occurrence(s), 7 unique signatures, 9 variants (7 new, 2 reused)
+2026-06-30 19:50:35 | INFO | Agent 4 Completed - Cataloged 9 block variants (7 new, 2 reused)
+2026-06-30 19:50:35 | INFO | Agent 2 Started - Generate summary.json
+2026-06-30 19:50:35 | INFO | Session state set to INACTIVE
+2026-06-30 19:50:35 | INFO | Agent 2 Completed - Summary generated successfully
